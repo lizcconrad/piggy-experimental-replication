@@ -107,7 +107,19 @@ dependencies = [
 ]
 [tool.hatch.envs.post-perplexity-config-refactor.scripts]
 perplexity_refactor_trace = "python experiment_routine__config_refactor.py -e $EXPERIMENT_CONFIG -r $RUN_NAME"
-run_experiments = "python experiment_routine.py -e $EXPERIMENT_CONFIG -r $RUN_NAME"
+run_experiments = "python experiment_routine.py -e $EXPERIMENT_CONFIG -r $RUN_NAME -x $EXPERIMENT_NAMES"
+
+
+
+# Environment with POGG after WebNLG development
+[tool.hatch.envs.post-webnlg]
+dependencies = [
+  "pogg@git+https://github.com/lizcconrad/POGG.git@post-webnlg",
+  "pogg-semantics@git+https://github.com/lizcconrad/pogg-semantics.git@post-webnlg"
+]
+[tool.hatch.envs.post-webnlg.scripts]
+run_experiments = "python experiment_routine.py -e $EXPERIMENT_CONFIG -r $RUN_NAME -x $EXPERIMENT_NAMES"
+
 
 
 

@@ -14,5 +14,5 @@ jsonnet --tla-code input='(import "perplexity_Conrad_2026__eval_refactor.jsonnet
 jsonnet --tla-code input='(import "perplexity_Conrad_2026__divide_repos.jsonnet")' $CONFIGURATION_DATA_DIR/experiment_config_template__pre_config_refactor.jsonnet > "perplexity_Conrad_2026__divide_repos.json"
 
 # enhance lexicon/experiment configuration
-jsonnet --tla-code input='(import "perplexity_Conrad_2026__config_refactor.jsonnet")' $CONFIGURATION_DATA_DIR/experiment_config_template.jsonnet > "perplexity_Conrad_2026__config_refactor.json"
+jsonnet --tla-code input='(import "perplexity_Conrad_2026__config_refactor.jsonnet")' $CONFIGURATION_DATA_DIR/experiment_config_template__post_perplexity_final.jsonnet > "perplexity_Conrad_2026__config_refactor.json"
 

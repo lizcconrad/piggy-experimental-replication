@@ -22,12 +22,32 @@
                 ],
                 "template_dump_file": "../configuration_data/lexicon_templates/webnlg/webnlg_post_perplexity_templates.json"
             }
+        },
+        "post_webnlg_dev" : {
+            "lexicon_dir": "../datasets/WebNLG/lexicons/webnlg_dev",
+            "auto_filler_settings": {
+                "auto_fill": false,
+                "auto_approve": false,
+                "auto_create_templates": false,
+                "template_files": [
+                    "../configuration_data/lexicon_templates/perplexity/webnlg_dev_templates.json"
+                ],
+                "blocked_templates": [
+                ],
+                "template_dump_file": "../configuration_data/lexicon_templates/perplexity/webnlg_dev_templates.json"
+            }
         }
     },
     experimental_setups: {
         "post_perplexity_no_numbers": {
             "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
             "lexicon_name": "post_perplexity_no_numbers",
+            "SEMENT_processing": [],
+            "result_processing": []
+        },
+        "post_webnlg_dev": {
+            "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+            "lexicon_name": "post_webnlg_dev",
             "SEMENT_processing": [],
             "result_processing": []
         }

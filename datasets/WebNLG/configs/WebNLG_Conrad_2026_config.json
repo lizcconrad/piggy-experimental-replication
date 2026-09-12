@@ -8,6 +8,12 @@
          "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
          "lexicon_name": "post_perplexity_no_numbers",
          "result_processing": [ ]
+      },
+      "post_webnlg_dev": {
+         "SEMENT_processing": [ ],
+         "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+         "lexicon_name": "post_webnlg_dev",
+         "result_processing": [ ]
       }
    },
    "graph_rel_dir": "graphs/modified_triplesets",
@@ -29,6 +35,20 @@
          },
          "imported_lexicon_paths": [ ],
          "lexicon_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers"
+      },
+      "post_webnlg_dev": {
+         "auto_filler_settings": {
+            "auto_approve": false,
+            "auto_create_templates": false,
+            "auto_fill": false,
+            "blocked_templates": [ ],
+            "template_dump_file": "../configuration_data/lexicon_templates/perplexity/webnlg_dev_templates.json",
+            "template_files": [
+               "../configuration_data/lexicon_templates/perplexity/webnlg_dev_templates.json"
+            ]
+         },
+         "imported_lexicon_paths": [ ],
+         "lexicon_dir": "../datasets/WebNLG/lexicons/webnlg_dev"
       }
    },
    "output_dir": "../Conrad_2026_results/output/WebNLG",
@@ -42,9 +62,19 @@
                "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                "experiment_name": "post_perplexity_no_numbers",
-               "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers",
-               "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers",
+               "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers",
+               "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers",
                "lexicon_name": "post_perplexity_no_numbers",
+               "result_processing": [ ]
+            },
+            "post_webnlg_dev": {
+               "SEMENT_processing": [ ],
+               "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+               "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+               "experiment_name": "post_webnlg_dev",
+               "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev",
+               "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev",
+               "lexicon_name": "post_webnlg_dev",
                "result_processing": [ ]
             }
          },
@@ -115,9 +145,19 @@
                      "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                      "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                      "experiment_name": "post_perplexity_no_numbers",
-                     "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev",
-                     "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev",
+                     "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev",
+                     "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev",
                      "lexicon_name": "post_perplexity_no_numbers",
+                     "result_processing": [ ]
+                  },
+                  "post_webnlg_dev": {
+                     "SEMENT_processing": [ ],
+                     "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                     "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                     "experiment_name": "post_webnlg_dev",
+                     "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev",
+                     "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev",
+                     "lexicon_name": "post_webnlg_dev",
                      "result_processing": [ ]
                   }
                },
@@ -189,9 +229,19 @@
                            "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                            "experiment_name": "post_perplexity_no_numbers",
-                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples",
-                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples",
                            "lexicon_name": "post_perplexity_no_numbers",
+                           "result_processing": [ ]
+                        },
+                        "post_webnlg_dev": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                           "experiment_name": "post_webnlg_dev",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples",
+                           "lexicon_name": "post_webnlg_dev",
                            "result_processing": [ ]
                         }
                      },
@@ -232,9 +282,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Airport",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Airport",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Airport",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Airport",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Airport",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Airport",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -264,9 +324,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Artist",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Artist",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Artist",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Artist",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Artist",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Artist",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -296,9 +366,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Astronaut",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Astronaut",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Astronaut",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Astronaut",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Astronaut",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Astronaut",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -328,9 +408,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Athlete",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Athlete",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Athlete",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Athlete",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Athlete",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Athlete",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -360,9 +450,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Building",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Building",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Building",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Building",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Building",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Building",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -392,9 +492,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/CelestialBody",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/CelestialBody",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/CelestialBody",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/CelestialBody",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/CelestialBody",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/CelestialBody",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -424,9 +534,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/City",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/City",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/City",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/City",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/City",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/City",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -456,9 +576,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/ComicsCharacter",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/ComicsCharacter",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/ComicsCharacter",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/ComicsCharacter",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/ComicsCharacter",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/ComicsCharacter",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -488,9 +618,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Company",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Company",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Company",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Company",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Company",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Company",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -520,9 +660,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Food",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Food",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Food",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Food",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Food",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Food",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -552,9 +702,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/MeanOfTransportation",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/MeanOfTransportation",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/MeanOfTransportation",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/MeanOfTransportation",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -584,9 +744,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Monument",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Monument",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Monument",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Monument",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Monument",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Monument",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -616,9 +786,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Politician",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Politician",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Politician",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/Politician",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Politician",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/Politician",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -648,9 +828,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/SportsTeam",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/SportsTeam",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/SportsTeam",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/SportsTeam",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/SportsTeam",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/SportsTeam",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -680,9 +870,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/University",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/University",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/University",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/University",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/University",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/University",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -712,9 +912,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/WrittenWork",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/WrittenWork",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/WrittenWork",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/1triples/WrittenWork",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/WrittenWork",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/1triples/WrittenWork",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -746,9 +956,19 @@
                            "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                            "experiment_name": "post_perplexity_no_numbers",
-                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples",
-                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples",
                            "lexicon_name": "post_perplexity_no_numbers",
+                           "result_processing": [ ]
+                        },
+                        "post_webnlg_dev": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                           "experiment_name": "post_webnlg_dev",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples",
+                           "lexicon_name": "post_webnlg_dev",
                            "result_processing": [ ]
                         }
                      },
@@ -789,9 +1009,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Airport",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Airport",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Airport",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Airport",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Airport",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Airport",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -821,9 +1051,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Artist",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Artist",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Artist",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Artist",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Artist",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Artist",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -853,9 +1093,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Astronaut",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Astronaut",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Astronaut",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Astronaut",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Astronaut",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Astronaut",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -885,9 +1135,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Athlete",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Athlete",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Athlete",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Athlete",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Athlete",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Athlete",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -917,9 +1177,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Building",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Building",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Building",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Building",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Building",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Building",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -949,9 +1219,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/CelestialBody",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/CelestialBody",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/CelestialBody",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/CelestialBody",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/CelestialBody",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/CelestialBody",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -981,9 +1261,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/City",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/City",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/City",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/City",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/City",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/City",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1013,9 +1303,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/ComicsCharacter",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/ComicsCharacter",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/ComicsCharacter",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/ComicsCharacter",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/ComicsCharacter",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/ComicsCharacter",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1045,9 +1345,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Company",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Company",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Company",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Company",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Company",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Company",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1077,9 +1387,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Food",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Food",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Food",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Food",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Food",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Food",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1109,9 +1429,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/MeanOfTransportation",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/MeanOfTransportation",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/MeanOfTransportation",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/MeanOfTransportation",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1141,9 +1471,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Monument",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Monument",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Monument",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Monument",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Monument",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Monument",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1173,9 +1513,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Politician",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Politician",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Politician",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/Politician",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Politician",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/Politician",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1205,9 +1555,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/SportsTeam",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/SportsTeam",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/SportsTeam",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/SportsTeam",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/SportsTeam",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/SportsTeam",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1237,9 +1597,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/University",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/University",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/University",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/University",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/University",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/University",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1269,9 +1639,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/WrittenWork",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/WrittenWork",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/WrittenWork",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/2triples/WrittenWork",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/WrittenWork",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/2triples/WrittenWork",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1303,9 +1683,19 @@
                            "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                            "experiment_name": "post_perplexity_no_numbers",
-                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples",
-                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples",
                            "lexicon_name": "post_perplexity_no_numbers",
+                           "result_processing": [ ]
+                        },
+                        "post_webnlg_dev": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                           "experiment_name": "post_webnlg_dev",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples",
+                           "lexicon_name": "post_webnlg_dev",
                            "result_processing": [ ]
                         }
                      },
@@ -1346,9 +1736,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Airport",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Airport",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Airport",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Airport",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Airport",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Airport",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1378,9 +1778,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Artist",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Artist",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Artist",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Artist",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Artist",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Artist",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1410,9 +1820,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Astronaut",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Astronaut",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Astronaut",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Astronaut",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Astronaut",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Astronaut",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1442,9 +1862,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Athlete",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Athlete",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Athlete",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Athlete",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Athlete",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Athlete",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1474,9 +1904,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Building",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Building",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Building",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Building",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Building",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Building",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1506,9 +1946,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/CelestialBody",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/CelestialBody",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/CelestialBody",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/CelestialBody",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/CelestialBody",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/CelestialBody",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1538,9 +1988,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/City",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/City",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/City",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/City",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/City",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/City",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1570,9 +2030,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/ComicsCharacter",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/ComicsCharacter",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/ComicsCharacter",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/ComicsCharacter",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/ComicsCharacter",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/ComicsCharacter",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1602,9 +2072,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Company",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Company",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Company",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Company",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Company",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Company",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1634,9 +2114,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Food",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Food",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Food",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Food",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Food",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Food",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1666,9 +2156,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/MeanOfTransportation",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/MeanOfTransportation",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/MeanOfTransportation",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/MeanOfTransportation",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1698,9 +2198,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Monument",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Monument",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Monument",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Monument",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Monument",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Monument",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1730,9 +2240,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Politician",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Politician",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Politician",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/Politician",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Politician",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/Politician",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1762,9 +2282,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/SportsTeam",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/SportsTeam",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/SportsTeam",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/SportsTeam",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/SportsTeam",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/SportsTeam",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1794,9 +2324,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/University",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/University",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/University",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/University",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/University",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/University",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
@@ -1826,9 +2366,19 @@
                                  "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                                  "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
                                  "experiment_name": "post_perplexity_no_numbers",
-                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/WrittenWork",
-                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/WrittenWork",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/WrittenWork",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_perplexity_no_numbers/dev/3triples/WrittenWork",
                                  "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              },
+                              "post_webnlg_dev": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_dev",
+                                 "experiment_name": "post_webnlg_dev",
+                                 "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/WrittenWork",
+                                 "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_dev/dev/3triples/WrittenWork",
+                                 "lexicon_name": "post_webnlg_dev",
                                  "result_processing": [ ]
                               }
                            },
