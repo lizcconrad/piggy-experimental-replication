@@ -12,7 +12,8 @@ args = parser.parse_args()
 
 experiment_config_path = args.experiment_config
 run_name = args.run_name
-experiment_names = re.split(r',? ', args.experiments_to_run)
+experiment_names = re.split(r',', args.experiments_to_run)
+
 
 
 experiments_config = POGGExperimentsConfig(experiment_config_path, run_name)

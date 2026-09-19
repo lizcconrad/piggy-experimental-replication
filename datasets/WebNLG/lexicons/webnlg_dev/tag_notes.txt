@@ -1,0 +1,119 @@
+CATEGORICAL TAGS
+- address
+    - road_name
+- airbase
+- airport
+- area_code
+- art_style
+- award
+- band
+- biological_classification
+- body_of_water
+- building
+- celestial_body
+- community
+- currency
+- date (month day year)
+    - month_year
+    - year
+- discipline
+- engine
+- generic_noun
+- group_of_people
+- identification_number
+- language
+- list
+- military_action
+- motto
+- music_genre
+- name_of_runway -- 1/19, 18L/36R, Helipad
+- named_location -- cities, countries, etc
+    - Point Fortin, Cape Town (treating these fully as names), New York City
+        - why is Cape Town diff from US?
+- non_english_name
+- noun_location -- United states, Republic of Ireland
+- organization
+    - could be a company
+    - sports_organization
+            - sometimes treating the last element as a common noun where possible
+            - non_unique_noun if not possible
+- person
+    - could be a fictional character (or a mascot lol)
+    - treated as word_with_spaces
+- profession
+- record_label
+- region
+- space_mission
+- sports_season
+- title -- films, books, journals ... treat as words with spaces where applicable
+- university
+
+
+SUPERCOMPOSITION TAGS -- i.e. each member of the relationship gets its own tag from the regular list
+(unless it's very simple like prepositional relationship btwn 2 individual nouns, then no need for more tags)
+- appositive
+- coordination
+- prepositional_relationship -- Ardmore airport in New Zealand
+- non_unique -- last element is a name where the quantifier is not "proper_q"
+
+COMPOSITION TAGS
+- 1name -- just one 'named' predicate
+    - name_with_slash -- 1/19, 18L/36R
+- words_with_spaces
+    - people names
+- the_words_with_spaces
+    - airports, etc ... things that you expect a "the" with
+- 1name_1noun -- German language
+- 2names -- Paris, France (each might be word with spaces)
+- 1noun
+- 2nouns
+- name_of_name,
+- date
+
+
+
+OBSOLETE TAGS ... these were for when i was trying to do everything compositionally
+- 1name_1noun_1name -- Andrews County Texas
+- 1name_1noun_2names -- Saranc Lake, New York
+- 1name_2nouns -- Al-Taqaddum air base
+- 1noun_2names
+- 2names
+- 2names_1noun -- Adirondack Regional airport
+- 2names_2nouns -- South Jersey transportation authority
+- 3names
+- 3names_1noun -- Afonso Pena International airport
+- 4names
+- 5names
+
+- noun_with_object
+- object_of_noun
+- prenominal_adjective
+- present_participle_modifier
+- word_with_spaces
+
+
+ADDITIONAL COMPOSITION TAGS
+- parenthetical
+- non_english
+- forced_plural
+- forced_singular
+- forced_the
+- unknown_noun
+
+DUAL PURPOSE TAGS (indicates the category of item as well as composition)
+- adjective
+- negative_number
+- number
+- number_with_unit
+
+
+REJECTION TAGS
+- rejected
+    - multi_clause
+
+
+MISC TAGS
+- EMB
+- DAN
+- interactively_reviewed
+- error_analysis

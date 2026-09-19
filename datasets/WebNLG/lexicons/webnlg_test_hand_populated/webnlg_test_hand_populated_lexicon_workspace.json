@@ -1,0 +1,260 @@
+{
+    "node_entries": {
+        "\"Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, Alexandra Badoi\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, Alexandra Badoi\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": [
+                "too long, will slow down processing too much...skipping"
+            ]
+        },
+        "\"Massachusetts Institute of Technology, Sc.D. 1963\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Massachusetts Institute of Technology, Sc.D. 1963\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "graduated from X with a Y ...should be two separate nodes probably, too complicated... skipping"
+            ]
+        },
+        "\"May 1950 - August 1956\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "preposition_and_ground",
+                "preposition_SEMENT": {
+                    "comp_fxn": "preposition",
+                    "predicate": "_between_p",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "coordination",
+                    "conjunction_SEMENT": {
+                        "comp_fxn": "conjunction",
+                        "predicate": "_and_c",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "coordinand_args": {
+                        "arg1": {
+                            "comp_fxn": "date",
+                            "day": "",
+                            "month": "5",
+                            "year": "1950",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "arg2": {
+                            "comp_fxn": "date",
+                            "day": "",
+                            "month": "8",
+                            "year": "1956",
+                            "intrinsic_variable_properties": {}
+                        }
+                    }
+                }
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"May 1950 - August 1956\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": []
+        },
+        "\"NWC, M.A. 1957\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"NWC, M.A. 1957\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": [
+                "similar to the MIT Sc.D. one, should be broken up and doesn't feel sensible to squish into one node"
+            ]
+        },
+        "Singing": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "name",
+                "name": "Singing",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_name"
+                ],
+                "string_to_parse": "Singing",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "TEMPLATE_name",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": [
+                "don't have the ability to nominalize verbs actually... oops lol"
+            ]
+        },
+        "non_performing_personnel": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "modifying_participle_and_proto_agent",
+                "proto_agent_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_personnel_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "participle_SEMENT": {
+                    "comp_fxn": "negation",
+                    "negated_SEMENT": {
+                        "comp_fxn": "verb",
+                        "predicate": "_perform_v_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "non performing personnel",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": [
+                "as it stands now, i don't get the right variable properties to generate with this by default",
+                "it seems i need at minimum for BOTH the neg and _perform_v_1 predicates to be PROG: +",
+                "but even generating using the MRS i get from the ERG for 'non-performing personnel' i only get out 'personnel non performing' at best",
+                "so skipping this one"
+            ]
+        }
+    },
+    "edge_entries": {}
+}

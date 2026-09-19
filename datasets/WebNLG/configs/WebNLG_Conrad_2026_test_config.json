@@ -3,17 +3,23 @@
    "dataset_name": "WebNLG",
    "evaluation_run_anchor": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER",
    "experimental_setups": {
-      "post_webnlg_test": {
+      "post_webnlg_test_hand_populated": {
          "SEMENT_processing": [ ],
          "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
-         "lexicon_name": "post_webnlg_test",
+         "lexicon_name": "post_webnlg_test_hand_populated",
+         "result_processing": [ ]
+      },
+      "post_webnlg_test_imported_only": {
+         "SEMENT_processing": [ ],
+         "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+         "lexicon_name": "post_webnlg_test_imported_only",
          "result_processing": [ ]
       }
    },
    "graph_rel_dir": "graphs/modified_triplesets",
    "lexicon_dir": "../datasets/WebNLG/lexicons",
    "lexicons": {
-      "post_webnlg_test": {
+      "post_webnlg_test_hand_populated": {
          "auto_filler_settings": {
             "auto_approve": false,
             "auto_create_templates": false,
@@ -23,7 +29,19 @@
             "template_files": [ ]
          },
          "imported_lexicon_paths": [ ],
-         "lexicon_dir": "../datasets/WebNLG/lexicons/webnlg_test"
+         "lexicon_dir": "../datasets/WebNLG/lexicons/webnlg_test_hand_populated"
+      },
+      "post_webnlg_test_imported_only": {
+         "auto_filler_settings": {
+            "auto_approve": false,
+            "auto_create_templates": false,
+            "auto_fill": false,
+            "blocked_templates": [ ],
+            "template_dump_file": "../configuration_data/lexicon_templates/perplexity/webnlg_test_templates.json",
+            "template_files": [ ]
+         },
+         "imported_lexicon_paths": [ ],
+         "lexicon_dir": "../datasets/WebNLG/lexicons/webnlg_test_imported_only"
       }
    },
    "output_dir": "../Conrad_2026_results/output/WebNLG",
@@ -32,20 +50,32 @@
    "splits": {
       "WebNLG": {
          "experiments": {
-            "post_webnlg_test": {
+            "post_webnlg_test_hand_populated": {
                "SEMENT_processing": [ ],
                "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
-               "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test",
-               "experiment_name": "post_webnlg_test",
-               "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test",
-               "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test",
-               "lexicon_name": "post_webnlg_test",
+               "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_hand_populated",
+               "experiment_name": "post_webnlg_test_hand_populated",
+               "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated",
+               "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated",
+               "lexicon_name": "post_webnlg_test_hand_populated",
+               "result_processing": [ ]
+            },
+            "post_webnlg_test_imported_only": {
+               "SEMENT_processing": [ ],
+               "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+               "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_imported_only",
+               "experiment_name": "post_webnlg_test_imported_only",
+               "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only",
+               "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only",
+               "lexicon_name": "post_webnlg_test_imported_only",
                "result_processing": [ ]
             }
          },
          "split_info": {
             "data_directories": [
-               "../datasets/WebNLG/pogg_formatted_data/test/graphs/modified_triplesets/json"
+               "../datasets/WebNLG/pogg_formatted_data/test/1triples/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/test/2triples/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/test/3triples/graphs/modified_triplesets/json"
             ],
             "data_split_path": [
                "WebNLG"
@@ -58,32 +88,166 @@
          "splits": {
             "test": {
                "experiments": {
-                  "post_webnlg_test": {
+                  "post_webnlg_test_hand_populated": {
                      "SEMENT_processing": [ ],
                      "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
-                     "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test",
-                     "experiment_name": "post_webnlg_test",
-                     "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test/test",
-                     "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test/test",
-                     "lexicon_name": "post_webnlg_test",
+                     "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_hand_populated",
+                     "experiment_name": "post_webnlg_test_hand_populated",
+                     "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test",
+                     "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test",
+                     "lexicon_name": "post_webnlg_test_hand_populated",
+                     "result_processing": [ ]
+                  },
+                  "post_webnlg_test_imported_only": {
+                     "SEMENT_processing": [ ],
+                     "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                     "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_imported_only",
+                     "experiment_name": "post_webnlg_test_imported_only",
+                     "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test",
+                     "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test",
+                     "lexicon_name": "post_webnlg_test_imported_only",
                      "result_processing": [ ]
                   }
                },
                "split_info": {
                   "data_directories": [
-                     "../datasets/WebNLG/pogg_formatted_data/test/graphs/modified_triplesets/json"
+                     "../datasets/WebNLG/pogg_formatted_data/test/1triples/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/test/2triples/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/test/3triples/graphs/modified_triplesets/json"
                   ],
                   "data_split_path": [
                      "WebNLG",
                      "test"
                   ],
                   "full_data_split_name": "WebNLG_test",
-                  "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/test/graphs/modified_triplesets/dot",
-                  "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/test/graphs/modified_triplesets/json",
-                  "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/test/graphs/modified_triplesets/png",
-                  "leaf": true,
+                  "leaf": false,
                   "root": false,
                   "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/test"
+               },
+               "splits": {
+                  "1triples": {
+                     "experiments": {
+                        "post_webnlg_test_hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_hand_populated",
+                           "experiment_name": "post_webnlg_test_hand_populated",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test/1triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test/1triples",
+                           "lexicon_name": "post_webnlg_test_hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "post_webnlg_test_imported_only": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_imported_only",
+                           "experiment_name": "post_webnlg_test_imported_only",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test/1triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test/1triples",
+                           "lexicon_name": "post_webnlg_test_imported_only",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../datasets/WebNLG/pogg_formatted_data/test/1triples/graphs/modified_triplesets/json"
+                        ],
+                        "data_split_path": [
+                           "WebNLG",
+                           "test",
+                           "1triples"
+                        ],
+                        "full_data_split_name": "WebNLG_test_1triples",
+                        "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/test/1triples/graphs/modified_triplesets/dot",
+                        "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/test/1triples/graphs/modified_triplesets/json",
+                        "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/test/1triples/graphs/modified_triplesets/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/test/1triples"
+                     }
+                  },
+                  "2triples": {
+                     "experiments": {
+                        "post_webnlg_test_hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_hand_populated",
+                           "experiment_name": "post_webnlg_test_hand_populated",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test/2triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test/2triples",
+                           "lexicon_name": "post_webnlg_test_hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "post_webnlg_test_imported_only": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_imported_only",
+                           "experiment_name": "post_webnlg_test_imported_only",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test/2triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test/2triples",
+                           "lexicon_name": "post_webnlg_test_imported_only",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../datasets/WebNLG/pogg_formatted_data/test/2triples/graphs/modified_triplesets/json"
+                        ],
+                        "data_split_path": [
+                           "WebNLG",
+                           "test",
+                           "2triples"
+                        ],
+                        "full_data_split_name": "WebNLG_test_2triples",
+                        "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/test/2triples/graphs/modified_triplesets/dot",
+                        "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/test/2triples/graphs/modified_triplesets/json",
+                        "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/test/2triples/graphs/modified_triplesets/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/test/2triples"
+                     }
+                  },
+                  "3triples": {
+                     "experiments": {
+                        "post_webnlg_test_hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_hand_populated",
+                           "experiment_name": "post_webnlg_test_hand_populated",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test/3triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_hand_populated/test/3triples",
+                           "lexicon_name": "post_webnlg_test_hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "post_webnlg_test_imported_only": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_webnlg/ERG_2023_webnlg_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_webnlg_test_imported_only",
+                           "experiment_name": "post_webnlg_test_imported_only",
+                           "experiment_output_dir": "../Conrad_2026_results/output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test/3triples",
+                           "experiment_report_dir": "../Conrad_2026_results/reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER/post_webnlg_test_imported_only/test/3triples",
+                           "lexicon_name": "post_webnlg_test_imported_only",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../datasets/WebNLG/pogg_formatted_data/test/3triples/graphs/modified_triplesets/json"
+                        ],
+                        "data_split_path": [
+                           "WebNLG",
+                           "test",
+                           "3triples"
+                        ],
+                        "full_data_split_name": "WebNLG_test_3triples",
+                        "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/test/3triples/graphs/modified_triplesets/dot",
+                        "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/test/3triples/graphs/modified_triplesets/json",
+                        "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/test/3triples/graphs/modified_triplesets/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/test/3triples"
+                     }
+                  }
                }
             }
          }

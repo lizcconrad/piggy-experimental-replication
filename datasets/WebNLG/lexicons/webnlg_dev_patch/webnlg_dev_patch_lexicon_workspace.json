@@ -1,0 +1,653 @@
+{
+    "node_entries": {
+        "\"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "coordination",
+                "conjunction_SEMENT": {
+                    "comp_fxn": "conjunction",
+                    "predicate": "_or_c",
+                    "intrinsic_variable_properties": {}
+                },
+                "coordinand_args": {
+                    "arg1": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "unknown_noun",
+                            "word": "butty",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            },
+                            "synopsis_dict": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_bacon_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "arg2": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "unknown_noun",
+                            "word": "sarnie",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            },
+                            "synopsis_dict": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_bacon_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "arg3": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_sandwich_n_1",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            }
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "unknown_noun",
+                            "word": "rasher",
+                            "intrinsic_variable_properties": {},
+                            "synopsis_dict": {}
+                        }
+                    },
+                    "arg4": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "unknown_noun",
+                            "word": "sanger",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            },
+                            "synopsis_dict": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_bacon_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "arg5": {
+                        "comp_fxn": "name",
+                        "name": "piece 'n bacon",
+                        "intrinsic_variable_properties": {
+                            "NUM": "sg",
+                            "QUANT": "_a_q"
+                        }
+                    },
+                    "arg6": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "unknown_noun",
+                            "word": "cob",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            },
+                            "synopsis_dict": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_bacon_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "arg7": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "unknown_noun",
+                            "word": "barm",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            },
+                            "synopsis_dict": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_bacon_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "arg8": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_muffin_n_1",
+                            "intrinsic_variable_properties": {
+                                "NUM": "sg",
+                                "QUANT": "_a_q"
+                            }
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_bacon_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    }
+                }
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "coordination",
+                "list"
+            ],
+            "notes": [
+                "This works but it's so big it basically never finishes so leaving it out"
+            ]
+        },
+        "\"Eric Flint, Virginia DeMarce, et al.\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "\"Eric Flint, Virginia DeMarce, et al.\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "DAN",
+                "EMB",
+                "coordination",
+                "list"
+            ],
+            "notes": [
+                "special case of coordination where the conjunction (et al.) has an empty ARG2...skipping"
+            ]
+        },
+        "\"Fish cooked in sour and hot sauce\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "modifying_participle_and_proto_patient",
+                "participle_SEMENT": {
+                    "comp_fxn": "prepositional_phrase_as_modifier",
+                    "prepositional_modifier_SEMENT": {
+                        "comp_fxn": "preposition_and_ground",
+                        "preposition_SEMENT": {
+                            "comp_fxn": ""
+                        },
+                        "ground_SEMENT": {
+                            "comp_fxn": ""
+                        }
+                    },
+                    "modified_SEMENT": {
+                        "comp_fxn": ""
+                    }
+                },
+                "proto_patient_SEMENT": {
+                    "comp_fxn": ""
+                }
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "\"Fish cooked in sour and hot sauce\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "DAN",
+                "EMB",
+                "coordination"
+            ],
+            "notes": [
+                "not handling coordination beyond nominals...skipping"
+            ]
+        },
+        "\"Fort Campbell, KY, raised in Dothan, AL\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "\"Fort Campbell, KY, raised in Dothan, AL\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "born in Fort Campbell but adds another clause about where they were, sort of a type of coordination i'm not doing...skipping"
+            ]
+        },
+        "\"Massachusetts Institute of Technology, Sc.D. 1963\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "\"Massachusetts Institute of Technology, Sc.D. 1963\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "graduated from X with a Y ...should be two separate nodes probably, too complicated... skipping"
+            ]
+        },
+        "\"Nationwide in Indonesia, but more specific to Java\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Nationwide in Indonesia, but more specific to Java\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "too much encoded in one node & special comparison...skip"
+            ]
+        },
+        "\"Nationwide, also can be found in Malaysia and Singapore\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "\"Nationwide, also can be found in Malaysia and Singapore\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "too much encoded in one node & special comparison...skip"
+            ]
+        },
+        "\"Pakora and other fritters made from wheat or corn flour\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Pakora and other fritters made from wheat or corn flour\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "coordination",
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "complex coordination ('wheat or corn flour') ... i only have simple coordination of nouns...skipping"
+            ]
+        },
+        "\"Rutland Arms, Bakewell, in 1820\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Rutland Arms, Bakewell, in 1820\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "created in Rutland Arms ... in 1820, should be split into two nodes...skipping"
+            ]
+        },
+        "\"Squeezed\" or \"smashed\" fried chicken served with sambal": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"Squeezed\" or \"smashed\" fried chicken served with sambal",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "multi_clause",
+                "rejected"
+            ],
+            "notes": [
+                "non-nominal coordination...skipping"
+            ]
+        },
+        "\"Sumatra and Malay Peninsula\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "\"Sumatra and Malay Peninsula\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "coordination",
+                "list"
+            ],
+            "notes": [
+                "non simple nominal coordination...skipping"
+            ]
+        },
+        "\"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_2locations",
+                    "TEMPLATE_2nouns",
+                    "TEMPLATE_2nouns_w_args",
+                    "TEMPLATE_adj+noun",
+                    "TEMPLATE_date",
+                    "TEMPLATE_name",
+                    "TEMPLATE_noun",
+                    "TEMPLATE_noun_w_arg",
+                    "TEMPLATE_number",
+                    "TEMPLATE_year"
+                ],
+                "string_to_parse": "\"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle\"",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "list",
+                "rejected"
+            ],
+            "notes": [
+                "list of car parts but not worth the bother ... skipping"
+            ]
+        },
+        "Coloured": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "name",
+                "name": "Coloured",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "attempted_templates": [
+                    "TEMPLATE_name"
+                ],
+                "string_to_parse": "Coloured",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "TEMPLATE_name",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [
+                "DAN",
+                "EMB"
+            ],
+            "notes": []
+        }
+    },
+    "edge_entries": {
+        "servingTemperature": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": [
+                "Requires a subordinate clause for 'is hot'... skipping"
+            ]
+        },
+        "similarDish": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": "copula",
+                "subject_SEMENT": "parent",
+                "predicate_SEMENT": {
+                    "comp_fxn": "adjective_as_modifier",
+                    "adjectival_modifier_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_similar_a_to",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "nominal_modified_SEMENT": "child"
+                },
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "attempted_templates": [],
+                "string_to_parse": "",
+                "name_of_created_template": "",
+                "template_example_string": "",
+                "template_used": "",
+                "blocked_templates": []
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            },
+            "tags": [],
+            "notes": [
+                "Current ERG analysis not ideal and involves comparisons...skipping"
+            ]
+        }
+    }
+}

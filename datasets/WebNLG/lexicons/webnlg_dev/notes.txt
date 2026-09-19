@@ -1,0 +1,79 @@
+general
+- all numbers filled in as "number" but they don't generate
+- all named entities treated as words with spaces (or wws+"the" if i feel like that's correct)
+    - the_name enforces singular
+- named locations with commas separating them are treated as compounds ... idk why i just decided to
+- having a better ontology or access to the types would make this easier
+    - because the nodes are default capitalized, and i don't want to do all lower bc there's so many names
+    - but then my template guesser thinks Cake is a name bc of that when it's so obviously not if i had ontological info
+
+1triples
+Airport
+- German language, Greek language -- name+noun
+
+Artist
+- The Horns of Happiness -- "name" instead of "the_name" because "The" is explicitly part of the name and should be capitalized ... unideal
+
+Athlete
+- Columbus Blue Jackets, Jacksonville Dolphins -- "the_name" forces singular... which works because the "s" is already in the string ... but it definitely feels incorrect
+- Uruguay Olympic football team, Uruguay national football team -- not capitalized so maybe i should've treated it compositionally but whatever
+
+Building
+- Addresses / booktitles are what started the road to words with spaces
+- Asser Levy Public Baths -- the_name with forced_singular (questionable)
+- Brazilians in Japan, Native Americans in the United States -- partly compositional with prepositional phrases
+- (the) Mason School of Business -- feels "wrong" because the "the" is the school...
+- (the) Republic of Ireland -- ditto
+- South Africa, Sri Lanka -- good examples of why it should be word with spaces
+
+CelestialBody
+- names of stars etc another good case for word with spaces
+
+City
+- City Administrator -- treating professions as common nouns even though sometimes this one is capitalized
+- Albuquerque City Council -- doing (t)wws here though... because if i open the airlock here then i'll just be back to square one
+- X County -- wws
+- California's_11th_State_Assembly_district -- good example of the nodes just containing way too much information ... wws but could break it down if i felt like it
+- Georgia (US state) -- good example of compositional node
+
+ComicsCharacter
+- Big Hero 6 (film) -- appositive, weird question marks tho
+- Bozo the Iron Man -- debatable appositive but whatever, wws
+- Eisner Award -- non unique name
+
+Company
+- Dublin (european parliament constituency) -- partially composed, weird punctuation
+- Pangasinense_people -- treating Pangasinense as a name for capitalization ... the ERG has a number of adjectives like this that are capitalized when generating but for the ones that aren't in there i will use name ... semantics is different but output is correct
+- Philippines -- the_name
+
+Food
+- Nationwide in Indonesia, but more specific to Java -- rejected, multiclause idk
+
+MeanOfTransportation
+- 9-speed ZF 9HP automatic (V6) -- wws, idek what to do with this anyway
+- Dodge Coronet, 1955 Dodge -- non unique name, same with other cars ... could do this compositionally but avoiding it just like i'm avoiding others
+- Sphinx class cruise ship -- compositional
+- Ariane 5 -- name (could be either Ariane 5 or The Ariane 5 but i can't underspecify between those quantifiers)
+- Four-stroke engine -- idk...
+
+Monument
+- American Civil War -- the+wws
+- Battle of X -- the+wws
+- Netherlands -- the+wws ... this one is half-broken bc of the enforced singular ... i can put pl in to get around that but then i have to have the string be "Netherland" ... why is that?
+- Overland Campaign -- the+wws
+- Purple Heart -- non unique
+- Romani people -- treat as name even though prob should be adj like others
+- Territorial Decoration -- non unique (??)
+- University of X -- the+wws
+
+SportsTeam
+- Asociacion Deportiva -- wws but could be the+wws?
+- Frank de Boer, John van den Brom, Jorge_Humberto_Rodríguez -- examples of what's the first/last name
+- The Fylde -- treating as word with spaces like The Horns of Happiness ... ehhhh
+
+University
+- Andrew the Apostle -- wws but idk if should be appos
+
+WrittenWork
+- 2158 -- any ID numbers are names not actual numbers
+- all book titles are good examples for wws

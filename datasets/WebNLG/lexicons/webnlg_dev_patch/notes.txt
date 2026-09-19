@@ -1,0 +1,16 @@
+i found the following entries were broken when filling out the test lexicon so this version of the dev lexicon fixes them:
+
+- hasToItsSouthwest
+- hasToItsWest
+
+- campus
+- country
+- location
+- site
+
+- NationalRegisterOfHistoricPlacesReferenceNumber
+- activeYearsEndDate
+- maidenFlight
+- maidenVoyage
+- selectedByNasa
+- timeInSpace
