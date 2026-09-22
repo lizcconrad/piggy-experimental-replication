@@ -1,0 +1,7 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Mass_Media [lexicon_key="Mass_Media"];
+GMA_Network_Center [lexicon_key="GMA_Network_Center"];
+GMA_New_Media -> Mass_Media [label=industry, lexicon_key=industry];
+GMA_New_Media -> GMA_Network_Center [label=location, lexicon_key=location];
+}

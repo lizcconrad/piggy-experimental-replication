@@ -1,0 +1,7 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Bangalore [lexicon_key=Bangalore];
+2000 [lexicon_key=2000];
+Acharya_Institute_of_Technology -> Bangalore [label=city, lexicon_key=city];
+Acharya_Institute_of_Technology -> 2000 [label=established, lexicon_key=established];
+}

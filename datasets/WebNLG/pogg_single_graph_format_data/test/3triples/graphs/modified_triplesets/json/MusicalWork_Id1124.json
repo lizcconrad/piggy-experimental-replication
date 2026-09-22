@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "Reggae": {
+            "lexicon_key": "Reggae"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicalBand",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Train_(band)",
+            "edge_properties": {
+                "lexicon_key": "musicalBand"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Reggae",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Train_(band)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song Mermaid belongs to the musical band Train written in the reggae music genre where Pop rock is the genre."
+        },
+        "Id2": {
+            "text": "The reggae song Mermaid was written by the pop rock band Train."
+        },
+        "Id3": {
+            "text": "The song Mermaid by the music band The Train is from the reggae genre, but in general the Train band play pop rock."
+        }
+    },
+    "gold_outputs": []
+}

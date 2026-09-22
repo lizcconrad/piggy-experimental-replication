@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "3078.48": {
+            "lexicon_key": "3078.48"
+        },
+        "United_States_Air_Force": {
+            "lexicon_key": "United_States_Air_Force"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "3078.48",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "United_States_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Al Asad Airbase is operated by the United States Air Force and has a runway with the length of 3078.48."
+        },
+        "Id2": {
+            "text": "The United States Air Force is the operating organisation for Al Asad airbase with a runway length of 3078.48."
+        },
+        "Id3": {
+            "text": "Al Asad Airbase is operated by the United States Air Force and the runway has a length of 3078.48."
+        }
+    },
+    "gold_outputs": []
+}

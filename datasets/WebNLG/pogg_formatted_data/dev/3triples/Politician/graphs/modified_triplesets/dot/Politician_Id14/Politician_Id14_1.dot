@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+Congress_Poland [lexicon_key="Congress_Poland"];
+Adam_Koc -> Congress_Poland [label=birthPlace, lexicon_key=birthPlace];
+}

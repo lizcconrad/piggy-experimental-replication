@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "\"Dr. G. P. Prabhukumar\"": {
+            "lexicon_key": "\"Dr. G. P. Prabhukumar\""
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "\"India\"": {
+            "lexicon_key": "\"India\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"Dr. G. P. Prabhukumar\"",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"India\"",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Dr. G. P. Prabhukumar is the director of Acharya Institute of Technology, which is affiliated with Visvesvaraya Technological University and located in India."
+        },
+        "Id2": {
+            "text": "Dr. G. P. Prabhukumar is the Director of The Acharya Institute of Technology, which is affiliated with Visvesvaraya Technological University and located in India."
+        },
+        "Id3": {
+            "text": "Dr. G. P. Prabhukumar is the director of The Acharya Institute of Technology, which is affiliated with the Visvesvaraya Technological University, located in India."
+        }
+    },
+    "gold_outputs": []
+}

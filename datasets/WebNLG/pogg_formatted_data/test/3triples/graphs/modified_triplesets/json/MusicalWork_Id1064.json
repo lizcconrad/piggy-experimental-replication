@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Turn Me On is a self-produced album by the Honeymoon Killers that falls under the genres of punk blues and noise rock."
+        },
+        "Id2": {
+            "text": "The Turn Me On album produced by the Honeymoon Killers is in Punk blues and Noise rock genres."
+        },
+        "Id3": {
+            "text": "Turn Me On is a punk blues album produced by The Honeymoon Killers and it is an example of the musical genre known as noise rock."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Akita_Museum_of_Art [lexicon_key="Akita_Museum_of_Art"];
+3 [lexicon_key=3];
+Akita_Museum_of_Art -> 3 [label=floorCount, lexicon_key=floorCount];
+}

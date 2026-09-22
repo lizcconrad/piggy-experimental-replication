@@ -1,0 +1,5 @@
+strict digraph {
+Israel [lexicon_key=Israel];
+"State of Israel" [lexicon_key="State of Israel"];
+Israel -> "State of Israel" [label=longName, lexicon_key=longName];
+}

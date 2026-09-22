@@ -1,0 +1,5 @@
+strict digraph {
+Reggae [lexicon_key=Reggae];
+Rhythm_and_Blues [lexicon_key="Rhythm_and_Blues"];
+Reggae -> Rhythm_and_Blues [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

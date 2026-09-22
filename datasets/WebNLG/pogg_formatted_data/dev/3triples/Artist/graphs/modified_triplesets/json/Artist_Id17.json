@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Aleksandra_Kova\u010d": {
-            "lexicon_key": "Aleksandra_Kova\u010d"
+    "graphs": {
+        "Artist_Id17_0": {
+            "nodes": {
+                "Aleksandra_Kova\u010d": {
+                    "lexicon_key": "Aleksandra_Kova\u010d"
+                },
+                "Bebi_Dol": {
+                    "lexicon_key": "Bebi_Dol"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aleksandra_Kova\u010d",
+                    "child_node": "Bebi_Dol",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kovac. Her musical genre is Pop.",
+                "Aleksandra Kova\u010d, a performer of pop music, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d.",
+                "Aleksandra Kova\u010d, whose musical genre is Pop, is in same band with Kornelije Kova\u010d and is associated with the musical artist Bebi Dol."
+            ]
         },
-        "Bebi_Dol": {
-            "lexicon_key": "Bebi_Dol"
+        "Artist_Id17_1": {
+            "nodes": {
+                "Aleksandra_Kova\u010d": {
+                    "lexicon_key": "Aleksandra_Kova\u010d"
+                },
+                "Kornelije_Kova\u010d": {
+                    "lexicon_key": "Kornelije_Kova\u010d"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aleksandra_Kova\u010d",
+                    "child_node": "Kornelije_Kova\u010d",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kovac. Her musical genre is Pop.",
+                "Aleksandra Kova\u010d, a performer of pop music, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d.",
+                "Aleksandra Kova\u010d, whose musical genre is Pop, is in same band with Kornelije Kova\u010d and is associated with the musical artist Bebi Dol."
+            ]
         },
-        "Kornelije_Kova\u010d": {
-            "lexicon_key": "Kornelije_Kova\u010d"
-        },
-        "Pop_music": {
-            "lexicon_key": "Pop_music"
+        "Artist_Id17_2": {
+            "nodes": {
+                "Aleksandra_Kova\u010d": {
+                    "lexicon_key": "Aleksandra_Kova\u010d"
+                },
+                "Pop_music": {
+                    "lexicon_key": "Pop_music"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aleksandra_Kova\u010d",
+                    "child_node": "Pop_music",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kovac. Her musical genre is Pop.",
+                "Aleksandra Kova\u010d, a performer of pop music, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d.",
+                "Aleksandra Kova\u010d, whose musical genre is Pop, is in same band with Kornelije Kova\u010d and is associated with the musical artist Bebi Dol."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aleksandra_Kova\u010d",
-            "child_node": "Bebi_Dol",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aleksandra_Kova\u010d",
-            "child_node": "Kornelije_Kova\u010d",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "genre",
-            "parent_node": "Aleksandra_Kova\u010d",
-            "child_node": "Pop_music",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

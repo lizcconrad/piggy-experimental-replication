@@ -1,0 +1,5 @@
+strict digraph {
+American_Civil_War [lexicon_key="American_Civil_War"];
+Abraham_Lincoln [lexicon_key="Abraham_Lincoln"];
+American_Civil_War -> Abraham_Lincoln [label=commander, lexicon_key=commander];
+}

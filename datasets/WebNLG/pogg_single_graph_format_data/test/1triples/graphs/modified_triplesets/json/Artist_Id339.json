@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "\"Prime Minister\"": {
+            "lexicon_key": "\"Prime Minister\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Israel",
+            "child_node": "\"Prime Minister\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Israel's leader title is \"Prime Minister\"."
+        },
+        "Id2": {
+            "text": "The leader title of Israel is Prime Minister."
+        },
+        "Id3": {
+            "text": "Israel\u2019s leader is the Prime Minister."
+        }
+    },
+    "gold_outputs": []
+}

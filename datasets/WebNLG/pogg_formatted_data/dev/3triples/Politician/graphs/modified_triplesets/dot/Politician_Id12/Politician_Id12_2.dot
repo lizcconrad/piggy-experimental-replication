@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Holloway [lexicon_key="Adam_Holloway"];
+"Magdalene_College,_Cambridge" [lexicon_key="Magdalene_College,_Cambridge"];
+Adam_Holloway -> "Magdalene_College,_Cambridge" [label=almaMater, lexicon_key=almaMater];
+}

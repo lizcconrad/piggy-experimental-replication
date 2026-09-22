@@ -1,0 +1,5 @@
+strict digraph {
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+Pop_music [lexicon_key="Pop_music"];
+"Imagine_(John_Lennon_song)" -> Pop_music [label=genre, lexicon_key=genre];
+}

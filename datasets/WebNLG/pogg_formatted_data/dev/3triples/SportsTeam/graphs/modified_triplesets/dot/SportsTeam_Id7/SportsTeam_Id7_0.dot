@@ -1,0 +1,5 @@
+strict digraph {
+"A.F.C._Blackpool" [lexicon_key="A.F.C._Blackpool"];
+"Stuart_Parker_(footballer)" [lexicon_key="Stuart_Parker_(footballer)"];
+"A.F.C._Blackpool" -> "Stuart_Parker_(footballer)" [label=manager, lexicon_key=manager];
+}

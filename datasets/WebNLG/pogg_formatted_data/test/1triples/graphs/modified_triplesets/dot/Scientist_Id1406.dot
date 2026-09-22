@@ -1,0 +1,5 @@
+strict digraph {
+Istanbul [lexicon_key=Istanbul];
+Eastern_European_Time [lexicon_key="Eastern_European_Time"];
+Istanbul -> Eastern_European_Time [label=timeZone, lexicon_key=timeZone];
+}

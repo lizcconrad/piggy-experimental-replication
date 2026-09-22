@@ -1,0 +1,5 @@
+strict digraph {
+Canada [lexicon_key=Canada];
+Elizabeth_II [lexicon_key="Elizabeth_II"];
+Canada -> Elizabeth_II [label=leader, lexicon_key=leader];
+}

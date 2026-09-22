@@ -1,0 +1,5 @@
+strict digraph {
+United_States_Air_Force [lexicon_key="United_States_Air_Force"];
+Operation_Enduring_Freedom [lexicon_key="Operation_Enduring_Freedom"];
+United_States_Air_Force -> Operation_Enduring_Freedom [label=battle, lexicon_key=battle];
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "School of Business and Social Sciences at the Aarhus University": {
-            "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+    "graphs": {
+        "University_Id8_0": {
+            "nodes": {
+                "School of Business and Social Sciences at the Aarhus University": {
+                    "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+                },
+                "737": {
+                    "lexicon_key": "737"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "academicStaffSize",
+                    "parent_node": "School of Business and Social Sciences at the Aarhus University",
+                    "child_node": "737",
+                    "edge_properties": {
+                        "lexicon_key": "academicStaffSize"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The School of Business and Social Sciences at Aarhus University was established in 1928. It has 16000 students and an academic staff of 737.",
+                "The School of Business and Social Sciences at the Aarhus University was established in 1928 and currently has a staff of 737 and a student population of 16000.",
+                "The School of Business and Social Sciences at the Aarhus University was established in 1928. It has 737 academic staff and 16,000 students."
+            ]
         },
-        "737": {
-            "lexicon_key": "737"
+        "University_Id8_1": {
+            "nodes": {
+                "School of Business and Social Sciences at the Aarhus University": {
+                    "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+                },
+                "16000": {
+                    "lexicon_key": "16000"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfStudents",
+                    "parent_node": "School of Business and Social Sciences at the Aarhus University",
+                    "child_node": "16000",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfStudents"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The School of Business and Social Sciences at Aarhus University was established in 1928. It has 16000 students and an academic staff of 737.",
+                "The School of Business and Social Sciences at the Aarhus University was established in 1928 and currently has a staff of 737 and a student population of 16000.",
+                "The School of Business and Social Sciences at the Aarhus University was established in 1928. It has 737 academic staff and 16,000 students."
+            ]
         },
-        "16000": {
-            "lexicon_key": "16000"
-        },
-        "1928": {
-            "lexicon_key": "1928"
+        "University_Id8_2": {
+            "nodes": {
+                "School of Business and Social Sciences at the Aarhus University": {
+                    "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+                },
+                "1928": {
+                    "lexicon_key": "1928"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "established",
+                    "parent_node": "School of Business and Social Sciences at the Aarhus University",
+                    "child_node": "1928",
+                    "edge_properties": {
+                        "lexicon_key": "established"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The School of Business and Social Sciences at Aarhus University was established in 1928. It has 16000 students and an academic staff of 737.",
+                "The School of Business and Social Sciences at the Aarhus University was established in 1928 and currently has a staff of 737 and a student population of 16000.",
+                "The School of Business and Social Sciences at the Aarhus University was established in 1928. It has 737 academic staff and 16,000 students."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "academicStaffSize",
-            "parent_node": "School of Business and Social Sciences at the Aarhus University",
-            "child_node": "737",
-            "edge_properties": {
-                "lexicon_key": "academicStaffSize"
-            }
-        },
-        {
-            "edge_name": "numberOfStudents",
-            "parent_node": "School of Business and Social Sciences at the Aarhus University",
-            "child_node": "16000",
-            "edge_properties": {
-                "lexicon_key": "numberOfStudents"
-            }
-        },
-        {
-            "edge_name": "established",
-            "parent_node": "School of Business and Social Sciences at the Aarhus University",
-            "child_node": "1928",
-            "edge_properties": {
-                "lexicon_key": "established"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

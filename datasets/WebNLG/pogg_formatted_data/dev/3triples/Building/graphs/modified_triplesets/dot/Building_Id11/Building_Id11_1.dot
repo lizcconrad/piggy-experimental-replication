@@ -1,0 +1,5 @@
+strict digraph {
+Adare_Manor [lexicon_key="Adare_Manor"];
+James_Pain [lexicon_key="James_Pain"];
+Adare_Manor -> James_Pain [label=architect, lexicon_key=architect];
+}

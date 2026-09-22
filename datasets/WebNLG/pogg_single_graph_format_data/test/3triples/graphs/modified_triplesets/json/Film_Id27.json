@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Bernard_Knowles": {
+            "lexicon_key": "Bernard_Knowles"
+        },
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cinematography",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Bernard_Knowles",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Terence_Rattigan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears, written by Terence Rattigan, runs 89 minutes. The cinematography for the film was done by Bernard Knowles."
+        },
+        "Id2": {
+            "text": "English Without Tears, an 89 minute film written by Terence Rattigan, features the cinematography of Bernard Knowles."
+        },
+        "Id3": {
+            "text": "Terence Rattigan is the writer of the 89 minute movie \u00b4English Without Tears\u00b4 and Bernard Knowles is the cinematographer."
+        }
+    },
+    "gold_outputs": []
+}

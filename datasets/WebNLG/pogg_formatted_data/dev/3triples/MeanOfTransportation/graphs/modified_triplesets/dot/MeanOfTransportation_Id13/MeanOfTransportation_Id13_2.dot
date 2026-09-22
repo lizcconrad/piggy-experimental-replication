@@ -1,0 +1,5 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"Wrecked" [lexicon_key="Wrecked"];
+Alhambra -> "Wrecked" [label=status, lexicon_key=status];
+}

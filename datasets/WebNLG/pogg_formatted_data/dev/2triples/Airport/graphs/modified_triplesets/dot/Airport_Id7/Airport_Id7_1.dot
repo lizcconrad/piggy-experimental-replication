@@ -1,0 +1,5 @@
+strict digraph {
+United_States_Air_Force [lexicon_key="United_States_Air_Force"];
+United_States_invasion_of_Panama [lexicon_key="United_States_invasion_of_Panama"];
+United_States_Air_Force -> United_States_invasion_of_Panama [label=battle, lexicon_key=battle];
+}

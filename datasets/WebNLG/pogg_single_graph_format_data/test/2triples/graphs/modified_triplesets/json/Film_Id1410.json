@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cyril_Frankel",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Cyril_Frankel",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young is a 1956 film directed by Cyril Frankel, who was born in the UK."
+        },
+        "Id2": {
+            "text": "Born in the UK, Cyril Frankel directed the movie It's Great to Be Young."
+        },
+        "Id3": {
+            "text": "The United Kingdom born Cyril Frankel directed the 1956 movie It's Great to be Young."
+        }
+    },
+    "gold_outputs": []
+}

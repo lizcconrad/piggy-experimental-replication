@@ -1,0 +1,5 @@
+strict digraph {
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+Antwerp [lexicon_key=Antwerp];
+Antwerp_International_Airport -> Antwerp [label=cityServed, lexicon_key=cityServed];
+}

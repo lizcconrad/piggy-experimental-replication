@@ -1,0 +1,5 @@
+strict digraph {
+"Squeeze_(The_Velvet_Underground_album)" [lexicon_key="Squeeze_(The_Velvet_Underground_album)"];
+1969 [lexicon_key="1969:_The_Velvet_Underground_Live"];
+"Squeeze_(The_Velvet_Underground_album)" -> 1969:_The_Velvet_Underground_Live [label=followedBy, lexicon_key=followedBy];
+}

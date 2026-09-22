@@ -1,0 +1,5 @@
+strict digraph {
+Akeem_Adams [lexicon_key="Akeem_Adams"];
+"Trinidad_and_Tobago_national_under-20_football_team" [lexicon_key="Trinidad_and_Tobago_national_under-20_football_team"];
+Akeem_Adams -> "Trinidad_and_Tobago_national_under-20_football_team" [label=club, lexicon_key=club];
+}

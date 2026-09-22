@@ -1,0 +1,7 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+"People's_Republic_of_China" [lexicon_key="People's_Republic_of_China"];
+Fighter_pilot [lexicon_key="Fighter_pilot"];
+Nie_Haisheng -> "People's_Republic_of_China" [label=nationality, lexicon_key=nationality];
+Nie_Haisheng -> Fighter_pilot [label=occupation, lexicon_key=occupation];
+}

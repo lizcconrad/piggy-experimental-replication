@@ -1,0 +1,5 @@
+strict digraph {
+Christian_Panucci [lexicon_key="Christian_Panucci"];
+"Genoa_C.F.C." [lexicon_key="Genoa_C.F.C."];
+Christian_Panucci -> "Genoa_C.F.C." [label=club, lexicon_key=club];
+}

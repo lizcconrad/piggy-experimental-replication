@@ -1,0 +1,5 @@
+strict digraph {
+Max_Benedict [lexicon_key="Max_Benedict"];
+London [lexicon_key=London];
+Max_Benedict -> London [label=deathPlace, lexicon_key=deathPlace];
+}

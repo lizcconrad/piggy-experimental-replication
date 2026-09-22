@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "dust6": {
-            "lexicon_key": "dust6",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the dust"
-    ]
+    ],
+    "graphs": {
+        "dust6_subgraph_0": {
+            "nodes": {
+                "dust6": {
+                    "lexicon_key": "dust6",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the dust"
+            ]
+        }
+    }
 }

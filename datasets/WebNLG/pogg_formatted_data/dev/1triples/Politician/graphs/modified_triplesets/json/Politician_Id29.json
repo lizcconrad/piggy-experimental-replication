@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Argentina": {
-            "lexicon_key": "Argentina"
-        },
-        "Gabriela_Michetti": {
-            "lexicon_key": "Gabriela_Michetti"
+    "graphs": {
+        "Politician_Id29_0": {
+            "nodes": {
+                "Argentina": {
+                    "lexicon_key": "Argentina"
+                },
+                "Gabriela_Michetti": {
+                    "lexicon_key": "Gabriela_Michetti"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Argentina",
+                    "child_node": "Gabriela_Michetti",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Gabriela Michetti is a leader in Argentina.",
+                "The leader of Argentina is Gabriela Michetti."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "Argentina",
-            "child_node": "Gabriela_Michetti",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

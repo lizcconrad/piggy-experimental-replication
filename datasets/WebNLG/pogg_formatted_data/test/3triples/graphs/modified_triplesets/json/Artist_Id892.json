@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        },
+        "Photographer": {
+            "lexicon_key": "Photographer"
+        },
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Photographer",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Petah_Tikva",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was a professional photographer who was born on May 2nd, 1908, Grschebina died in Petah Tikva."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born on May 2, 1908, was a professional photographer and died in Petah Tikva."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was a photographer born on the 2nd May 1908 and who died in Petah Tikva."
+        }
+    },
+    "gold_outputs": []
+}

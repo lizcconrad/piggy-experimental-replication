@@ -1,0 +1,5 @@
+strict digraph {
+Atlantic_City_International_Airport [lexicon_key="Atlantic_City_International_Airport"];
+"4/22" [lexicon_key="4/22"];
+Atlantic_City_International_Airport -> "4/22" [label=runwayName, lexicon_key=runwayName];
+}

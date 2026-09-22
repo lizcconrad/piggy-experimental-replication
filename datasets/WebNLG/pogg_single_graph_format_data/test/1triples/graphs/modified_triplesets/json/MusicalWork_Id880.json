@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Music_download": {
+            "lexicon_key": "Music_download"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "format",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Music_download",
+            "edge_properties": {
+                "lexicon_key": "format"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Mermaid is a song written by Train and it is distributed digitally."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid is distributed in the digital format."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid is available in the digital format."
+        }
+    },
+    "gold_outputs": []
+}

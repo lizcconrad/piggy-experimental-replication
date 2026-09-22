@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "418476000000.0": {
+            "lexicon_key": "418476000000.0"
+        },
+        "11.5": {
+            "lexicon_key": "11.5"
+        },
+        "1929-06-11": {
+            "lexicon_key": "1929-06-11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "418476000000.0",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "absoluteMagnitude",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "11.5",
+            "edge_properties": {
+                "lexicon_key": "absoluteMagnitude"
+            }
+        },
+        {
+            "edge_name": "discovered",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1929-06-11",
+            "edge_properties": {
+                "lexicon_key": "discovered"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis, an asteroid, discovered on 11 June 1929 with absolute magnitude of 11.5, has an apoapsis of 418476000000.0 AU."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis discovered on June 11, 1929 has an apoapsis of 418476000000.0 and an absolute magnitude of 11.5."
+        },
+        "Id3": {
+            "text": "The 1147 Stavropolis asteroid that was discovered on June 11, 1929, has an apoapsis of 418476000000.0, with an absolute magnitude of 11.5."
+        }
+    },
+    "gold_outputs": []
+}

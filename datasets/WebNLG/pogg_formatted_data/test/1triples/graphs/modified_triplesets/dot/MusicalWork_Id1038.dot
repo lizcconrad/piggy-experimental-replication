@@ -1,0 +1,5 @@
+strict digraph {
+Reggae [lexicon_key=Reggae];
+Hip_hop_music [lexicon_key="Hip_hop_music"];
+Reggae -> Hip_hop_music [label=derivative, lexicon_key=derivative];
+}

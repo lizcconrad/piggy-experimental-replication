@@ -1,0 +1,5 @@
+strict digraph {
+Aenir [lexicon_key=Aenir];
+"Print" [lexicon_key="Print"];
+Aenir -> "Print" [label=mediaType, lexicon_key=mediaType];
+}

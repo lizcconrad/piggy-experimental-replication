@@ -1,0 +1,5 @@
+strict digraph {
+"Alison_O'Donnell" [lexicon_key="Alison_O'Donnell"];
+Static_Caravan_Recordings [lexicon_key="Static_Caravan_Recordings"];
+"Alison_O'Donnell" -> Static_Caravan_Recordings [label=recordLabel, lexicon_key=recordLabel];
+}

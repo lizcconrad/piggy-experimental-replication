@@ -1,0 +1,5 @@
+strict digraph {
+Aston_Martin_V8 [lexicon_key="Aston_Martin_V8"];
+Aston_Martin_DBS [lexicon_key="Aston_Martin_DBS"];
+Aston_Martin_V8 -> Aston_Martin_DBS [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

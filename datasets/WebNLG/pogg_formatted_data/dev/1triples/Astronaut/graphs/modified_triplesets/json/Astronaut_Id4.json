@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Apollo_14": {
-            "lexicon_key": "Apollo_14"
-        },
-        "NASA": {
-            "lexicon_key": "NASA"
+    "graphs": {
+        "Astronaut_Id4_0": {
+            "nodes": {
+                "Apollo_14": {
+                    "lexicon_key": "Apollo_14"
+                },
+                "NASA": {
+                    "lexicon_key": "NASA"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "operator",
+                    "parent_node": "Apollo_14",
+                    "child_node": "NASA",
+                    "edge_properties": {
+                        "lexicon_key": "operator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Apollo 14 was operated by NASA.",
+                "NASA operated the Apollo 14.",
+                "The Apollo 14 was operated by NASA."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "operator",
-            "parent_node": "Apollo_14",
-            "child_node": "NASA",
-            "edge_properties": {
-                "lexicon_key": "operator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+Sony_Music_Entertainment [lexicon_key="Sony_Music_Entertainment"];
+"Mermaid_(Train_song)" -> Sony_Music_Entertainment [label=recordLabel, lexicon_key=recordLabel];
+}

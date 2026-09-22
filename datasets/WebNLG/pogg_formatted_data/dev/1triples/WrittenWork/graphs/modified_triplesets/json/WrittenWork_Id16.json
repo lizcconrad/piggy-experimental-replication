@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Addiction_(journal)": {
-            "lexicon_key": "Addiction_(journal)"
-        },
-        "Wiley-Blackwell": {
-            "lexicon_key": "Wiley-Blackwell"
+    "graphs": {
+        "WrittenWork_Id16_0": {
+            "nodes": {
+                "Addiction_(journal)": {
+                    "lexicon_key": "Addiction_(journal)"
+                },
+                "Wiley-Blackwell": {
+                    "lexicon_key": "Wiley-Blackwell"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "publisher",
+                    "parent_node": "Addiction_(journal)",
+                    "child_node": "Wiley-Blackwell",
+                    "edge_properties": {
+                        "lexicon_key": "publisher"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Addiction journal is published by Wiley-Blackwell.",
+                "Wiley-Blackwell is the publisher of Addiction (journal).",
+                "Wiley-Blackwell is the publisher of the journal Addiction."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "publisher",
-            "parent_node": "Addiction_(journal)",
-            "child_node": "Wiley-Blackwell",
-            "edge_properties": {
-                "lexicon_key": "publisher"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

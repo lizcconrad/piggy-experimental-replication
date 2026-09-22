@@ -1,0 +1,5 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"India" [lexicon_key="India"];
+Acharya_Institute_of_Technology -> "India" [label=country, lexicon_key=country];
+}

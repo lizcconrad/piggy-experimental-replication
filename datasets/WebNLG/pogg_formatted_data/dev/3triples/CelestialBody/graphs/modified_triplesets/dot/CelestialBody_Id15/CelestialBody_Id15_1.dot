@@ -1,0 +1,5 @@
+strict digraph {
+"1101_Clematis" [lexicon_key="1101_Clematis"];
+183309000.0 [lexicon_key=183309000.0];
+"1101_Clematis" -> 183309000.0 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

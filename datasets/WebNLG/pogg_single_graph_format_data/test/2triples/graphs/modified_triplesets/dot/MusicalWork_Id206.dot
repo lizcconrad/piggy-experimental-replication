@@ -1,0 +1,7 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+Reggae [lexicon_key=Reggae];
+Rhythm_and_Blues [lexicon_key="Rhythm_and_Blues"];
+"Mermaid_(Train_song)" -> Reggae [label=genre, lexicon_key=genre];
+Reggae -> Rhythm_and_Blues [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

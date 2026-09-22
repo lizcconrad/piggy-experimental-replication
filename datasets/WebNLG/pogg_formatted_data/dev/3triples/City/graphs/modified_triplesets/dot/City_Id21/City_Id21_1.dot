@@ -1,0 +1,5 @@
+strict digraph {
+"Alexandria,_Indiana" [lexicon_key="Alexandria,_Indiana"];
+"Madison_County,_Indiana" [lexicon_key="Madison_County,_Indiana"];
+"Alexandria,_Indiana" -> "Madison_County,_Indiana" [label=isPartOf, lexicon_key=isPartOf];
+}

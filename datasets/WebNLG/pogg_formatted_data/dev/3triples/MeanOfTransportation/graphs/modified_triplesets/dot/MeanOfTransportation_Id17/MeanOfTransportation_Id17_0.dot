@@ -1,0 +1,5 @@
+strict digraph {
+Argentina [lexicon_key=Argentina];
+Buenos_Aires [lexicon_key="Buenos_Aires"];
+Argentina -> Buenos_Aires [label=capital, lexicon_key=capital];
+}

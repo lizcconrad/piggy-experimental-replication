@@ -1,0 +1,5 @@
+strict digraph {
+Antwerp [lexicon_key=Antwerp];
+Belgium [lexicon_key=Belgium];
+Antwerp -> Belgium [label=country, lexicon_key=country];
+}

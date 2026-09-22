@@ -1,0 +1,7 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+Shenzhou_10 [lexicon_key="Shenzhou_10"];
+"People's_Republic_of_China" [lexicon_key="People's_Republic_of_China"];
+Nie_Haisheng -> Shenzhou_10 [label=mission, lexicon_key=mission];
+Nie_Haisheng -> "People's_Republic_of_China" [label=nationality, lexicon_key=nationality];
+}

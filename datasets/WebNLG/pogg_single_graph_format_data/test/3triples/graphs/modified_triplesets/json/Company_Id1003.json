@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "Drugs": {
+            "lexicon_key": "Drugs"
+        },
+        "2001-01-01": {
+            "lexicon_key": "2001-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Hypermarcas",
+            "child_node": "Brazil",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Drugs",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Hypermarcas",
+            "child_node": "2001-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas, whose main product is drugs, was founded on January 1, 2001 and is located in Brazil."
+        },
+        "Id2": {
+            "text": "Hypermarcas, which is located in Brazil, was founded on 2001-01-01 and makes drugs."
+        },
+        "Id3": {
+            "text": "Hypermarcas, a pharmaceutical drug producer located in Brazil, was founded January 1, 2001."
+        }
+    },
+    "gold_outputs": []
+}

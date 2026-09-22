@@ -1,0 +1,5 @@
+strict digraph {
+McVeagh_of_the_South_Seas [lexicon_key="McVeagh_of_the_South_Seas"];
+"Harry_Carey_(actor_born_1878)" [lexicon_key="Harry_Carey_(actor_born_1878)"];
+McVeagh_of_the_South_Seas -> "Harry_Carey_(actor_born_1878)" [label=writer, lexicon_key=writer];
+}

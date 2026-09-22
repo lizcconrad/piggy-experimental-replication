@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "2900": {
+            "lexicon_key": "2900"
+        },
+        "1299": {
+            "lexicon_key": "1299"
+        },
+        "Dijon": {
+            "lexicon_key": "Dijon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "staff",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "2900",
+            "edge_properties": {
+                "lexicon_key": "staff"
+            }
+        },
+        {
+            "edge_name": "numberOfDoctoralStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "1299",
+            "edge_properties": {
+                "lexicon_key": "numberOfDoctoralStudents"
+            }
+        },
+        {
+            "edge_name": "campus",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "Dijon",
+            "edge_properties": {
+                "lexicon_key": "campus"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The University of Burgundy, located in Dijon, employs 2900 staff members including 1299 doctoral students."
+        },
+        "Id2": {
+            "text": "In Dijon, 2900 staff members from the University of Burgundy service the student body which includes 1299 doctoral students."
+        },
+        "Id3": {
+            "text": "The University of Burgundy in Dijon has 2900 staff members and 1299 doctoral students."
+        }
+    },
+    "gold_outputs": []
+}

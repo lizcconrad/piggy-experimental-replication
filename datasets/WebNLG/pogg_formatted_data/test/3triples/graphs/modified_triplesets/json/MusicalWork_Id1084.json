@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "St._Louis,_Missouri": {
+            "lexicon_key": "St._Louis,_Missouri"
+        },
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        },
+        "Pacific_Time_Zone": {
+            "lexicon_key": "Pacific_Time_Zone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "St._Louis,_Missouri",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "San_Francisco",
+            "child_node": "Pacific_Time_Zone",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        },
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "San_Francisco",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The location that the Bootleg Series Volume 1: The Quine Tapes was recorded in was St. Louis, Missouri, and San Francisco, which is in the Pacific Time Zone."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded in San Francisco in the time zone in San Francisco is Pacific Time with the Quine tapes were recorded in St. Louis, Missouri."
+        },
+        "Id3": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded in St. Louis Missouri and San Francisco. The latter is on Pacific Time."
+        }
+    },
+    "gold_outputs": []
+}

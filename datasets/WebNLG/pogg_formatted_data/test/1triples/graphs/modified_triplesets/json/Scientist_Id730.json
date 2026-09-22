@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "1.3": {
+            "lexicon_key": "1.3"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "percentageOfAreaWater",
+            "parent_node": "Turkey",
+            "child_node": "1.3",
+            "edge_properties": {
+                "lexicon_key": "percentageOfAreaWater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The percentage of Turkey's area that is water is 1.3 percent."
+        },
+        "Id2": {
+            "text": "Turkey has an area water percentage of 1.3."
+        },
+        "Id3": {
+            "text": "1.3 percent of the area of Turkey is water."
+        }
+    },
+    "gold_outputs": []
+}

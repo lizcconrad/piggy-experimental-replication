@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Lionsgate",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The location of Lionsgate is in the United States."
+        },
+        "Id2": {
+            "text": "Lionsgate is located in the US."
+        },
+        "Id3": {
+            "text": "Lionsgate is located in the United States."
+        }
+    },
+    "gold_outputs": []
+}

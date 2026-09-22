@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "Drugs": {
+            "lexicon_key": "Drugs"
+        },
+        "Healthcare": {
+            "lexicon_key": "Healthcare"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Hypermarcas",
+            "child_node": "Brazil",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Drugs",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Healthcare",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas produces both healthcare products and pharmaceutical drugs from their home base in the country of Brazil."
+        },
+        "Id2": {
+            "text": "Hypermarcas, which is located in Brazil, sells healthcare products and its main product is drugs."
+        },
+        "Id3": {
+            "text": "Drug maker Hypermarcas is located in Brazil and produces healthcare products."
+        }
+    },
+    "gold_outputs": []
+}

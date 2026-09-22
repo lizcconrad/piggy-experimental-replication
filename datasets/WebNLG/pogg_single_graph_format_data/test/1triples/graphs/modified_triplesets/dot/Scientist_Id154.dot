@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+Pranab_Mukherjee [lexicon_key="Pranab_Mukherjee"];
+India -> Pranab_Mukherjee [label=leader, lexicon_key=leader];
+}

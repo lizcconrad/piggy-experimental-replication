@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Pacific_Daylight_Time": {
+            "lexicon_key": "Pacific_Daylight_Time"
+        },
+        "Pacific_Standard_Time_Zone": {
+            "lexicon_key": "Pacific_Standard_Time_Zone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Daylight_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Standard_Time_Zone",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is in the country of Mexico and is in the Pacific Daylight time which is in the Pacific Standard Time Zone."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a Mexican city located in the Pacific Standard Daylight time zone."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala located in the country of Mexico uses the Pacific Standard Time Zone and Pacific Daylight Time."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+Georgy_Poltavchenko [lexicon_key="Georgy_Poltavchenko"];
+Saint_Petersburg -> Georgy_Poltavchenko [label=leader, lexicon_key=leader];
+}

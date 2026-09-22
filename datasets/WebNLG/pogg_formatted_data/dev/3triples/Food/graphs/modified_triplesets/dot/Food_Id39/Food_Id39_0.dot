@@ -1,0 +1,5 @@
+strict digraph {
+Spain [lexicon_key=Spain];
+Spanish_language [lexicon_key="Spanish_language"];
+Spain -> Spanish_language [label=language, lexicon_key=language];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Roadside_Attractions": {
+            "lexicon_key": "Roadside_Attractions"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributor",
+            "parent_node": "Super_Capers",
+            "child_node": "Roadside_Attractions",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Distributor of the movie Super Capers is Roadside Attractions."
+        },
+        "Id2": {
+            "text": "Super Capers was distributed by Roadside Attractions."
+        },
+        "Id3": {
+            "text": "Super Capers is a film distributed by Roadside Attractions."
+        }
+    },
+    "gold_outputs": []
+}

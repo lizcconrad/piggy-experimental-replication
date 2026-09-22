@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "A.S._Livorno_Calcio": {
-            "lexicon_key": "A.S._Livorno_Calcio"
-        },
-        "19238": {
-            "lexicon_key": "19238"
+    "graphs": {
+        "SportsTeam_Id11_0": {
+            "nodes": {
+                "A.S._Livorno_Calcio": {
+                    "lexicon_key": "A.S._Livorno_Calcio"
+                },
+                "19238": {
+                    "lexicon_key": "19238"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "A.S._Livorno_Calcio",
+                    "child_node": "19238",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.S. Livorno Calcio has 19238 members.",
+                "The A.S. Livorno Calcio has 19238 members.",
+                "The AS Livorno Calcio has 19238 members."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "A.S._Livorno_Calcio",
-            "child_node": "19238",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

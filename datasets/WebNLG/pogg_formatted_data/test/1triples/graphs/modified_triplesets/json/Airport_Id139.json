@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "\"08/26\"": {
+            "lexicon_key": "\"08/26\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "\"08/26\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bedford Aerodrome has a runway named \"08/26\"."
+        },
+        "Id2": {
+            "text": "Bedford Aerodrome has a runway called 08/26."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome runway name is 08/26."
+        }
+    },
+    "gold_outputs": []
+}

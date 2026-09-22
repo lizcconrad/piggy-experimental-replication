@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Pat_Monahan": {
+            "lexicon_key": "Pat_Monahan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pat_Monahan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Pat Monahan is the writer of the song Mermaid by the band Train."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid was written by Pat Monahan."
+        }
+    },
+    "gold_outputs": []
+}

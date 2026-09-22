@@ -1,0 +1,5 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+Order_of_the_British_Empire [lexicon_key="Order_of_the_British_Empire"];
+Airey_Neave -> Order_of_the_British_Empire [label=award, lexicon_key=award];
+}

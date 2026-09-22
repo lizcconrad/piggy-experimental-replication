@@ -1,0 +1,5 @@
+strict digraph {
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+"Opening of hope" [lexicon_key="Opening of hope"];
+Petah_Tikva -> "Opening of hope" [label=meaning, lexicon_key=meaning];
+}

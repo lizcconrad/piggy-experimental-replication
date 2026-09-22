@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Aaron_Turner": {
-            "lexicon_key": "Aaron_Turner"
+    "graphs": {
+        "Artist_Id4_0": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Twilight_(band)": {
+                    "lexicon_key": "Twilight_(band)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Twilight_(band)",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner played with the band Twilight, is associated with the group Greymachine, and plays drone music.",
+                "Aaron Turner plays drone music and played with the bands Twilight and Greymachine.",
+                "Aaron Turner; played with the band Twilight, is part of the drone music genre and is associated with the group Greymachine."
+            ]
         },
-        "Twilight_(band)": {
-            "lexicon_key": "Twilight_(band)"
+        "Artist_Id4_1": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Greymachine": {
+                    "lexicon_key": "Greymachine"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Greymachine",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner played with the band Twilight, is associated with the group Greymachine, and plays drone music.",
+                "Aaron Turner plays drone music and played with the bands Twilight and Greymachine.",
+                "Aaron Turner; played with the band Twilight, is part of the drone music genre and is associated with the group Greymachine."
+            ]
         },
-        "Greymachine": {
-            "lexicon_key": "Greymachine"
-        },
-        "Drone_music": {
-            "lexicon_key": "Drone_music"
+        "Artist_Id4_2": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Drone_music": {
+                    "lexicon_key": "Drone_music"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Drone_music",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner played with the band Twilight, is associated with the group Greymachine, and plays drone music.",
+                "Aaron Turner plays drone music and played with the bands Twilight and Greymachine.",
+                "Aaron Turner; played with the band Twilight, is part of the drone music genre and is associated with the group Greymachine."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Twilight_(band)",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Greymachine",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "genre",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Drone_music",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

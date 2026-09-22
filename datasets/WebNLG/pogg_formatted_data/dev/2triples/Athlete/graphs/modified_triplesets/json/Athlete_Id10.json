@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Alaa_Abdul-Zahra": {
-            "lexicon_key": "Alaa_Abdul-Zahra"
+    "graphs": {
+        "Athlete_Id10_0": {
+            "nodes": {
+                "Alaa_Abdul-Zahra": {
+                    "lexicon_key": "Alaa_Abdul-Zahra"
+                },
+                "Shabab_Al-Ordon_Club": {
+                    "lexicon_key": "Shabab_Al-Ordon_Club"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Alaa_Abdul-Zahra",
+                    "child_node": "Shabab_Al-Ordon_Club",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alaa Abdul-Zahra's club is Shabab Al-Ordon Club and he formerly played for the club Al-Zawra'a SC.",
+                "Alaa Abdul-Zahra's clubs are the Shabab Al-Ordon Club and the Al-Zawra'a SC.",
+                "Former clubs of Alaa Abdul-Zahra include Shabab Al-Ordon and Al-Zawra'a SC."
+            ]
         },
-        "Shabab_Al-Ordon_Club": {
-            "lexicon_key": "Shabab_Al-Ordon_Club"
-        },
-        "Al-Zawra'a_SC": {
-            "lexicon_key": "Al-Zawra'a_SC"
+        "Athlete_Id10_1": {
+            "nodes": {
+                "Alaa_Abdul-Zahra": {
+                    "lexicon_key": "Alaa_Abdul-Zahra"
+                },
+                "Al-Zawra'a_SC": {
+                    "lexicon_key": "Al-Zawra'a_SC"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Alaa_Abdul-Zahra",
+                    "child_node": "Al-Zawra'a_SC",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alaa Abdul-Zahra's club is Shabab Al-Ordon Club and he formerly played for the club Al-Zawra'a SC.",
+                "Alaa Abdul-Zahra's clubs are the Shabab Al-Ordon Club and the Al-Zawra'a SC.",
+                "Former clubs of Alaa Abdul-Zahra include Shabab Al-Ordon and Al-Zawra'a SC."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "club",
-            "parent_node": "Alaa_Abdul-Zahra",
-            "child_node": "Shabab_Al-Ordon_Club",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        },
-        {
-            "edge_name": "club",
-            "parent_node": "Alaa_Abdul-Zahra",
-            "child_node": "Al-Zawra'a_SC",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

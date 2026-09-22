@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        },
+        "Apollo_14": {
+            "lexicon_key": "Apollo_14"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Alan_Shepard",
+            "child_node": "Apollo_14",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard, who was a crew member of Apollo 14, was born in New Hampshire and died in California."
+        },
+        "Id2": {
+            "text": "Apollo 14 crew member Alan Shepard was born in New Hampshire, but died in California."
+        },
+        "Id3": {
+            "text": "Part of the Apollo 14 mission, Alan Shepard was born in New Hampshire, but died in California."
+        }
+    },
+    "gold_outputs": []
+}

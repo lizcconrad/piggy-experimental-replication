@@ -1,0 +1,7 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+"2001-01-01" [lexicon_key="2001-01-01"];
+Cosmetics [lexicon_key=Cosmetics];
+Hypermarcas -> "2001-01-01" [label=foundingDate, lexicon_key=foundingDate];
+Hypermarcas -> Cosmetics [label=product, lexicon_key=product];
+}

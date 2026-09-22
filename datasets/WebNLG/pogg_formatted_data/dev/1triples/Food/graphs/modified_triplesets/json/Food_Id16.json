@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Barny_Cakes": {
-            "lexicon_key": "Barny_Cakes"
-        },
-        "Mondelez_International": {
-            "lexicon_key": "Mondelez_International"
+    "graphs": {
+        "Food_Id16_0": {
+            "nodes": {
+                "Barny_Cakes": {
+                    "lexicon_key": "Barny_Cakes"
+                },
+                "Mondelez_International": {
+                    "lexicon_key": "Mondelez_International"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Barny_Cakes",
+                    "child_node": "Mondelez_International",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny cakes is created by Mondelez International.",
+                "Barny cakes were created by Mondelez International.",
+                "Mondelez International is the creator of Barny cakes."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Barny_Cakes",
-            "child_node": "Mondelez_International",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

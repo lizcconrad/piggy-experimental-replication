@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "City": {
+            "lexicon_key": "City"
+        },
+        "1147.0": {
+            "lexicon_key": "1147.0"
+        },
+        "Juan_Nolasco": {
+            "lexicon_key": "Juan_Nolasco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "type",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "City",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1147.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Juan_Nolasco",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "In Ciudad Ayala, a city with an elevation of 1147.0 above sea level, the leader is named Juan Nolasco."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a city situated 1,147 meters above sea level. Juan Nolasco is one of the city's leaders."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is a city located 1,147 meters above sea level. The city's leader is Juan Nolasco."
+        }
+    },
+    "gold_outputs": []
+}

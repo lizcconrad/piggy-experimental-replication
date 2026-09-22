@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "2009-06-01": {
+            "lexicon_key": "2009-06-01"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "completionDate",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "2009-06-01",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan B. Miller Hall which is owned by the College of William and Mary was completed on 1st June 2009."
+        },
+        "Id2": {
+            "text": "Completed on June 1st, 2009, Alan B. Miller Hall is owned by the College of William and Mary."
+        },
+        "Id3": {
+            "text": "The Alan B. Miller Hall, which is owned by The College of William and Mary, was completed on 1st June 2009."
+        }
+    },
+    "gold_outputs": []
+}

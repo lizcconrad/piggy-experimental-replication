@@ -1,0 +1,5 @@
+strict digraph {
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+"Power_to_the_People_(song)" [lexicon_key="Power_to_the_People_(song)"];
+"Imagine_(John_Lennon_song)" -> "Power_to_the_People_(song)" [label=precededBy, lexicon_key=precededBy];
+}

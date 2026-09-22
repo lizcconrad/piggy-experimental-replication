@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+English_Without_Tears -> Anatole_de_Grunwald [label=producer, lexicon_key=producer];
+Anatole_de_Grunwald -> Saint_Petersburg [label=birthPlace, lexicon_key=birthPlace];
+}

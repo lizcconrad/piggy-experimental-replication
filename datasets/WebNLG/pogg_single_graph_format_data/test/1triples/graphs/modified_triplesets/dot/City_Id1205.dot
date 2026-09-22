@@ -1,0 +1,5 @@
+strict digraph {
+Mexico [lexicon_key=Mexico];
+Roberto_Gil_Zuarth [lexicon_key="Roberto_Gil_Zuarth"];
+Mexico -> Roberto_Gil_Zuarth [label=leader, lexicon_key=leader];
+}

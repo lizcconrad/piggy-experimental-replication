@@ -1,0 +1,5 @@
+strict digraph {
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+Israel [lexicon_key=Israel];
+Petah_Tikva -> Israel [label=country, lexicon_key=country];
+}

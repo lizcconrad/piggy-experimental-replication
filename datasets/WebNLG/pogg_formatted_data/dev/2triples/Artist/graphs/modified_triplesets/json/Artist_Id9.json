@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Albennie_Jones": {
-            "lexicon_key": "Albennie_Jones"
+    "graphs": {
+        "Artist_Id9_0": {
+            "nodes": {
+                "Albennie_Jones": {
+                    "lexicon_key": "Albennie_Jones"
+                },
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Albennie_Jones",
+                    "child_node": "Jazz",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albennie Jones plays Jazz, which originated from Blues music.",
+                "Jazz music originated from blues music. Albennie Jones is a jazz performer.",
+                "The origins of Jazz is Blues and a jazz artist is Albennie Jones."
+            ]
         },
-        "Jazz": {
-            "lexicon_key": "Jazz"
-        },
-        "Blues": {
-            "lexicon_key": "Blues"
+        "Artist_Id9_1": {
+            "nodes": {
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                },
+                "Blues": {
+                    "lexicon_key": "Blues"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "stylisticOrigin",
+                    "parent_node": "Jazz",
+                    "child_node": "Blues",
+                    "edge_properties": {
+                        "lexicon_key": "stylisticOrigin"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albennie Jones plays Jazz, which originated from Blues music.",
+                "Jazz music originated from blues music. Albennie Jones is a jazz performer.",
+                "The origins of Jazz is Blues and a jazz artist is Albennie Jones."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Albennie_Jones",
-            "child_node": "Jazz",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "stylisticOrigin",
-            "parent_node": "Jazz",
-            "child_node": "Blues",
-            "edge_properties": {
-                "lexicon_key": "stylisticOrigin"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

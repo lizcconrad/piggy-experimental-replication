@@ -1,0 +1,7 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Turkey [lexicon_key=Turkey];
+Unitary_state [lexicon_key="Unitary_state"];
+Nurhan_Atasoy -> Turkey [label=birthPlace, lexicon_key=birthPlace];
+Turkey -> Unitary_state [label=governmentType, lexicon_key=governmentType];
+}

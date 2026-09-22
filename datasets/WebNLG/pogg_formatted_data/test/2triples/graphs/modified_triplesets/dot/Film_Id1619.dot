@@ -1,0 +1,7 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Tom_Sizemore [lexicon_key="Tom_Sizemore"];
+Actor [lexicon_key=Actor];
+Super_Capers -> Tom_Sizemore [label=starring, lexicon_key=starring];
+Tom_Sizemore -> Actor [label=occupation, lexicon_key=occupation];
+}

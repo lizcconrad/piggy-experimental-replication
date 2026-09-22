@@ -1,0 +1,5 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+United_States [lexicon_key="United_States"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> United_States [label=recordedIn, lexicon_key=recordedIn];
+}

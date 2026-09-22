@@ -1,0 +1,7 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+Governator [lexicon_key=Governator];
+Mexico [lexicon_key=Mexico];
+Ciudad_Ayala -> Governator [label=leaderTitle, lexicon_key=leaderTitle];
+Ciudad_Ayala -> Mexico [label=country, lexicon_key=country];
+}

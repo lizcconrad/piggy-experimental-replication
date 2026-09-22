@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Honeymoon Killers is the producer of the Turn Me On album."
+        },
+        "Id2": {
+            "text": "The Honeymoon Killers are the producers of the album Turn Me On."
+        },
+        "Id3": {
+            "text": "The American band, the Honeymoon Killers, self-produced its album called Turn Me On."
+        }
+    },
+    "gold_outputs": []
+}

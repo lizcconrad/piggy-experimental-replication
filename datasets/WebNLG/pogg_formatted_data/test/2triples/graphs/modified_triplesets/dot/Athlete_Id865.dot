@@ -1,0 +1,7 @@
+strict digraph {
+Akeem_Ayers [lexicon_key="Akeem_Ayers"];
+Tennessee_Titans [lexicon_key="Tennessee_Titans"];
+2011 [lexicon_key=2011];
+Akeem_Ayers -> Tennessee_Titans [label=debutTeam, lexicon_key=debutTeam];
+Akeem_Ayers -> 2011 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

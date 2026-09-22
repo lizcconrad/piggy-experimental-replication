@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "Warner_Music_Group": {
+            "lexicon_key": "Warner_Music_Group"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Train_(band)",
+            "child_node": "Warner_Music_Group",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The band Train were signed to the record label Warner Music Group."
+        },
+        "Id2": {
+            "text": "Warner Music Group is the record label of the band Train."
+        },
+        "Id3": {
+            "text": "The band Train's record label is Warner Music Group."
+        }
+    },
+    "gold_outputs": []
+}

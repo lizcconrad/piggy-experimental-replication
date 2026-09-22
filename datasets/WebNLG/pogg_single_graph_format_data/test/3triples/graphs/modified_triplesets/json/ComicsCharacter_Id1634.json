@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "Broadcasting_House": {
+            "lexicon_key": "Broadcasting_House"
+        },
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Steve_Bright": {
+            "lexicon_key": "Steve_Bright"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "BBC",
+            "child_node": "Broadcasting_House",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "creator",
+            "parent_node": "Bananaman",
+            "child_node": "Steve_Bright",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Steve Bright created Bananaman which was broadcast by the BBC who are based at Broadcasting House London."
+        },
+        "Id2": {
+            "text": "Bananaman the TV series was created by Steve Bright was shown on the BBC headquarters called Broadcasting House."
+        },
+        "Id3": {
+            "text": "The creator of Bananaman, broadcasted by BBC, is Steve Bright. Broadcasting House is the home of the BBC based in London."
+        }
+    },
+    "gold_outputs": []
+}

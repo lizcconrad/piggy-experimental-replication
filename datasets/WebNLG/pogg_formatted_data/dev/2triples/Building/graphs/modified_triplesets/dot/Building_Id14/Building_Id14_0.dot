@@ -1,0 +1,5 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"College_of_William_&_Mary" [lexicon_key="College_of_William_&_Mary"];
+"Alan_B._Miller_Hall" -> "College_of_William_&_Mary" [label=owner, lexicon_key=owner];
+}

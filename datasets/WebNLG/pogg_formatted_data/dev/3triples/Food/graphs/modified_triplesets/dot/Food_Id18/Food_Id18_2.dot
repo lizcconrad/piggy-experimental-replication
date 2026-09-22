@@ -1,0 +1,5 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+Sponge_cake [lexicon_key="Sponge_cake"];
+Baked_Alaska -> Sponge_cake [label=ingredient, lexicon_key=ingredient];
+}

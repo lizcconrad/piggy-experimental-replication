@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Alexandria,_Indiana": {
-            "lexicon_key": "Alexandria,_Indiana"
+    "graphs": {
+        "City_Id3_0": {
+            "nodes": {
+                "Alexandria,_Indiana": {
+                    "lexicon_key": "Alexandria,_Indiana"
+                },
+                "6.81 (square kilometres)": {
+                    "lexicon_key": "6.81 (square kilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "areaTotal",
+                    "parent_node": "Alexandria,_Indiana",
+                    "child_node": "6.81 (square kilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "areaTotal"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alexandria, Indiana (total area 6.81 sq km), has a population density of 755.3 inhabitants per square kilometre.",
+                "Alexandria, Indiana, covers an area of 6.81 sq kilometres and has a population density of 755.3 inhabitants per sq km.",
+                "The population density of Alexandria, Indiana, is 755.3 (inhabitants per square kilometer) and it occupies 6.81 square kilometers."
+            ]
         },
-        "6.81 (square kilometres)": {
-            "lexicon_key": "6.81 (square kilometres)"
-        },
-        "755.3 (inhabitants per square kilometre)": {
-            "lexicon_key": "755.3 (inhabitants per square kilometre)"
+        "City_Id3_1": {
+            "nodes": {
+                "Alexandria,_Indiana": {
+                    "lexicon_key": "Alexandria,_Indiana"
+                },
+                "755.3 (inhabitants per square kilometre)": {
+                    "lexicon_key": "755.3 (inhabitants per square kilometre)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "populationDensity",
+                    "parent_node": "Alexandria,_Indiana",
+                    "child_node": "755.3 (inhabitants per square kilometre)",
+                    "edge_properties": {
+                        "lexicon_key": "populationDensity"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alexandria, Indiana (total area 6.81 sq km), has a population density of 755.3 inhabitants per square kilometre.",
+                "Alexandria, Indiana, covers an area of 6.81 sq kilometres and has a population density of 755.3 inhabitants per sq km.",
+                "The population density of Alexandria, Indiana, is 755.3 (inhabitants per square kilometer) and it occupies 6.81 square kilometers."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "areaTotal",
-            "parent_node": "Alexandria,_Indiana",
-            "child_node": "6.81 (square kilometres)",
-            "edge_properties": {
-                "lexicon_key": "areaTotal"
-            }
-        },
-        {
-            "edge_name": "populationDensity",
-            "parent_node": "Alexandria,_Indiana",
-            "child_node": "755.3 (inhabitants per square kilometre)",
-            "edge_properties": {
-                "lexicon_key": "populationDensity"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

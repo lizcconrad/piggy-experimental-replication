@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Arrabbiata_sauce": {
-            "lexicon_key": "Arrabbiata_sauce"
+    "graphs": {
+        "Food_Id8_0": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Tomato": {
+                    "lexicon_key": "Tomato"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Tomato",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Tomatoes are an ingredient of Arrabbiata sauce from Italy.",
+                "Tomatoes are found in Arrabbiata sauce which comes from Italy.",
+                "Tomatoes are found in Arrabbiata sauce, which originated in Italy."
+            ]
         },
-        "Tomato": {
-            "lexicon_key": "Tomato"
-        },
-        "Italy": {
-            "lexicon_key": "Italy"
+        "Food_Id8_1": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Italy": {
+                    "lexicon_key": "Italy"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Italy",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Tomatoes are an ingredient of Arrabbiata sauce from Italy.",
+                "Tomatoes are found in Arrabbiata sauce which comes from Italy.",
+                "Tomatoes are found in Arrabbiata sauce, which originated in Italy."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Tomato",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Italy",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

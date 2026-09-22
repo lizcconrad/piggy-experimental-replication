@@ -1,0 +1,5 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+Parti_Pesaka_Bumiputera_Bersatu [lexicon_key="Parti_Pesaka_Bumiputera_Bersatu"];
+Abdul_Taib_Mahmud -> Parti_Pesaka_Bumiputera_Bersatu [label=party, lexicon_key=party];
+}

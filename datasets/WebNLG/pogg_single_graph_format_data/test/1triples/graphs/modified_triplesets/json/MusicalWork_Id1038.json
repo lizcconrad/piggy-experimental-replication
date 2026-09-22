@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Reggae": {
+            "lexicon_key": "Reggae"
+        },
+        "Hip_hop_music": {
+            "lexicon_key": "Hip_hop_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "derivative",
+            "parent_node": "Reggae",
+            "child_node": "Hip_hop_music",
+            "edge_properties": {
+                "lexicon_key": "derivative"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hip hop music is a derivative of reggae."
+        },
+        "Id2": {
+            "text": "Hip hop music grew out of reggae."
+        }
+    },
+    "gold_outputs": []
+}

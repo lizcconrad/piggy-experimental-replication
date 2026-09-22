@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Alan_Jaggs": {
+            "lexicon_key": "Alan_Jaggs"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editing",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Alan_Jaggs",
+            "edge_properties": {
+                "lexicon_key": "editing"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The editing of the movie English Without Tears was done by Alan Jaggs."
+        },
+        "Id2": {
+            "text": "The editing of the movie English Without Tears is done by Alan Jaggs."
+        },
+        "Id3": {
+            "text": "Alan Jaggs was a film editor for English Without Tears."
+        }
+    },
+    "gold_outputs": []
+}

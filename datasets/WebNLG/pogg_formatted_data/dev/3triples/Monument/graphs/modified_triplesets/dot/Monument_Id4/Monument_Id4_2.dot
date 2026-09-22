@@ -1,0 +1,5 @@
+strict digraph {
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+"Hüseyin Bütüner and Hilmi Güner" [lexicon_key="Hüseyin Bütüner and Hilmi Güner"];
+"Baku_Turkish_Martyrs'_Memorial" -> "Hüseyin Bütüner and Hilmi Güner" [label=designer, lexicon_key=designer];
+}

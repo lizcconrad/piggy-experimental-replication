@@ -1,0 +1,9 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+Thurleigh [lexicon_key=Thurleigh];
+EGBF [lexicon_key=EGBF];
+MK44 [lexicon_key=MK44];
+Bedford_Aerodrome -> Thurleigh [label=location, lexicon_key=location];
+Bedford_Aerodrome -> EGBF [label=icaoLocationIdentifier, lexicon_key=icaoLocationIdentifier];
+Thurleigh -> MK44 [label=postalCode, lexicon_key=postalCode];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "Swords,_Dublin": {
+            "lexicon_key": "Swords,_Dublin"
+        },
+        "\"County Manager\"": {
+            "lexicon_key": "\"County Manager\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Trane",
+            "child_node": "Swords,_Dublin",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Swords,_Dublin",
+            "child_node": "\"County Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The location of Trane is Swords Dublin where the County Manager is leader."
+        },
+        "Id2": {
+            "text": "The title of the leader of Swords, Dublin, where Trane is located, is County Manager."
+        },
+        "Id3": {
+            "text": "Trane is located in Swords, Dublin, where the leader title is called \"County Manager.\""
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Turkey [lexicon_key=Turkey];
+"Recep_Tayyip_Erdoğan" [lexicon_key="Recep_Tayyip_Erdoğan"];
+"Binali_Yıldırım" [lexicon_key="Binali_Yıldırım"];
+Nurhan_Atasoy -> Turkey [label=birthPlace, lexicon_key=birthPlace];
+Turkey -> "Recep_Tayyip_Erdoğan" [label=leader, lexicon_key=leader];
+Turkey -> "Binali_Yıldırım" [label=leader, lexicon_key=leader];
+}

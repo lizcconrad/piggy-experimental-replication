@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "This'll_Be_My_Year": {
+            "lexicon_key": "This'll_Be_My_Year"
+        },
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Happy_Xmas_(War_Is_Over)": {
+            "lexicon_key": "Happy_Xmas_(War_Is_Over)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "This'll_Be_My_Year",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Imagine_(John_Lennon_song)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "Happy_Xmas_(War_Is_Over)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Train followed This\u2019ll Be My Year with Mermaid, and then with Imagine, a song written by John Lennon prior to that artist\u2019s release of Happy Xmas (War is Over)."
+        },
+        "Id2": {
+            "text": "The song Mermaid by Train was preceded by the song This'll Be My Year and followed by the release of Imagine by John Lennon performed by Train and then by Happy Xmas (War Is Over)."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid was preceded by the song This'll be my year. Mermaid was followed by the John Lennon song Imagine. The song Imagine was followed with Happy Xmas (War is Over) by John Lennon."
+        }
+    },
+    "gold_outputs": []
+}

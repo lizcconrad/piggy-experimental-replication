@@ -1,0 +1,7 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+Pontiac [lexicon_key=Pontiac];
+Buick [lexicon_key=Buick];
+Pontiac_Rageous -> Pontiac [label=manufacturer, lexicon_key=manufacturer];
+Pontiac -> Buick [label=successor, lexicon_key=successor];
+}

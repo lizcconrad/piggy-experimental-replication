@@ -1,0 +1,5 @@
+strict digraph {
+Singapore [lexicon_key=Singapore];
+Standard_Chinese [lexicon_key="Standard_Chinese"];
+Singapore -> Standard_Chinese [label=language, lexicon_key=language];
+}

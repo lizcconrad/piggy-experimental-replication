@@ -1,0 +1,5 @@
+strict digraph {
+Adonis_Georgiadis [lexicon_key="Adonis_Georgiadis"];
+"Minister for Health" [lexicon_key="Minister for Health"];
+Adonis_Georgiadis -> "Minister for Health" [label=office, lexicon_key=office];
+}

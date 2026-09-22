@@ -1,0 +1,5 @@
+strict digraph {
+Elliot_See [lexicon_key="Elliot_See"];
+"Deceased" [lexicon_key="Deceased"];
+Elliot_See -> "Deceased" [label=status, lexicon_key=status];
+}

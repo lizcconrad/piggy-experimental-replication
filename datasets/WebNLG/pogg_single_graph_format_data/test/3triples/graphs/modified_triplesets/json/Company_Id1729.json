@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "S.A._(corporation)": {
+            "lexicon_key": "S.A._(corporation)"
+        },
+        "Cosmetics": {
+            "lexicon_key": "Cosmetics"
+        },
+        "Pharmaceuticals": {
+            "lexicon_key": "Pharmaceuticals"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "type",
+            "parent_node": "Hypermarcas",
+            "child_node": "S.A._(corporation)",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Cosmetics",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "Hypermarcas",
+            "child_node": "Pharmaceuticals",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas is an S.A. corporation in the pharmaceutical industry that makes cosmetics products."
+        },
+        "Id2": {
+            "text": "S.A. Corporation, Hypermarcas is a pharmaceutical company that also sells cosmetics."
+        },
+        "Id3": {
+            "text": "Hypermarcas is a S.A pharmaceutical corporation that produces cosmetics."
+        }
+    },
+    "gold_outputs": []
+}

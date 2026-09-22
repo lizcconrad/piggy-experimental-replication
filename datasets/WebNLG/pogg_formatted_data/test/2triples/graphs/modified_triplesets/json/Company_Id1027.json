@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "Pharmaceuticals": {
+            "lexicon_key": "Pharmaceuticals"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Hypermarcas",
+            "child_node": "Brazil",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "Hypermarcas",
+            "child_node": "Pharmaceuticals",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas, which is located in Brazil, is a company in the pharmaceuticals industry."
+        },
+        "Id2": {
+            "text": "Hypermarcas is in the pharmaceutical industry and is located in Brazil."
+        },
+        "Id3": {
+            "text": "Hypermarcas is a pharmaceutical company which is located in Brazil."
+        }
+    },
+    "gold_outputs": []
+}

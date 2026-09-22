@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Alex_Plante": {
-            "lexicon_key": "Alex_Plante"
+    "graphs": {
+        "Athlete_Id22_0": {
+            "nodes": {
+                "Alex_Plante": {
+                    "lexicon_key": "Alex_Plante"
+                },
+                "1989": {
+                    "lexicon_key": "1989"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthYear",
+                    "parent_node": "Alex_Plante",
+                    "child_node": "1989",
+                    "edge_properties": {
+                        "lexicon_key": "birthYear"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alex Plante was born in 1989 in Manitoba and has played for the club Anyang Halla.",
+                "Alex Plante was born in 1989 in Manitoba and his club is called Anyang Halla.",
+                "Alex Plante ws born in Manitoba in 1989 and has played for the club Anyang Halla."
+            ]
         },
-        "1989": {
-            "lexicon_key": "1989"
+        "Athlete_Id22_1": {
+            "nodes": {
+                "Alex_Plante": {
+                    "lexicon_key": "Alex_Plante"
+                },
+                "Anyang_Halla": {
+                    "lexicon_key": "Anyang_Halla"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Alex_Plante",
+                    "child_node": "Anyang_Halla",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alex Plante was born in 1989 in Manitoba and has played for the club Anyang Halla.",
+                "Alex Plante was born in 1989 in Manitoba and his club is called Anyang Halla.",
+                "Alex Plante ws born in Manitoba in 1989 and has played for the club Anyang Halla."
+            ]
         },
-        "Anyang_Halla": {
-            "lexicon_key": "Anyang_Halla"
-        },
-        "Manitoba": {
-            "lexicon_key": "Manitoba"
+        "Athlete_Id22_2": {
+            "nodes": {
+                "Alex_Plante": {
+                    "lexicon_key": "Alex_Plante"
+                },
+                "Manitoba": {
+                    "lexicon_key": "Manitoba"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alex_Plante",
+                    "child_node": "Manitoba",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alex Plante was born in 1989 in Manitoba and has played for the club Anyang Halla.",
+                "Alex Plante was born in 1989 in Manitoba and his club is called Anyang Halla.",
+                "Alex Plante ws born in Manitoba in 1989 and has played for the club Anyang Halla."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "birthYear",
-            "parent_node": "Alex_Plante",
-            "child_node": "1989",
-            "edge_properties": {
-                "lexicon_key": "birthYear"
-            }
-        },
-        {
-            "edge_name": "club",
-            "parent_node": "Alex_Plante",
-            "child_node": "Anyang_Halla",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alex_Plante",
-            "child_node": "Manitoba",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

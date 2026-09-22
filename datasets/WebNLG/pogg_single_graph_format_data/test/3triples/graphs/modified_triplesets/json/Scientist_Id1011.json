@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Penrose_diagram": {
+            "lexicon_key": "Penrose_diagram"
+        },
+        "1942-01-01": {
+            "lexicon_key": "1942-01-01"
+        },
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Penrose_diagram",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Brandon_Carter",
+            "child_node": "1942-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Brandon_Carter",
+            "child_node": "University_of_Cambridge",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter was born in 1942 on January, 1 and graduated from the University of Cambridge. He is best known for creating the Penrose diagram."
+        },
+        "Id2": {
+            "text": "Brandon Carter, known for the Penrose diagram, was born on January 1, 1942 and attended the University of Cambridge."
+        },
+        "Id3": {
+            "text": "Born on January 1st, 1942, Brandon Carter is a graduate of the University of Cambridge known for the Penrose diagram."
+        }
+    },
+    "gold_outputs": []
+}

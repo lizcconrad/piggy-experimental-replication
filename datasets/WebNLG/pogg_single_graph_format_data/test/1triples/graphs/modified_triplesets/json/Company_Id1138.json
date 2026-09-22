@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "875400000": {
+            "lexicon_key": "875400000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingIncome",
+            "parent_node": "Trane",
+            "child_node": "875400000",
+            "edge_properties": {
+                "lexicon_key": "operatingIncome"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The operating income of Trane is $875,400,000."
+        },
+        "Id2": {
+            "text": "Trane has an operating income of 875.4 million USD."
+        },
+        "Id3": {
+            "text": "Trane has an operating income of $875,400,000."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Russia [lexicon_key=Russia];
+Sergey_Naryshkin [lexicon_key="Sergey_Naryshkin"];
+Russia -> Sergey_Naryshkin [label=leader, lexicon_key=leader];
+}

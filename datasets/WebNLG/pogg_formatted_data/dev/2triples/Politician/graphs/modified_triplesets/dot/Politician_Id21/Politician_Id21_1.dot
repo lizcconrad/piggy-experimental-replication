@@ -1,0 +1,5 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+Knightsbridge [lexicon_key=Knightsbridge];
+Airey_Neave -> Knightsbridge [label=birthPlace, lexicon_key=birthPlace];
+}

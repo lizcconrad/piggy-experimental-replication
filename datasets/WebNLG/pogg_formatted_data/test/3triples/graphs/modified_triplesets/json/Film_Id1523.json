@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Louis_Levy": {
+            "lexicon_key": "Louis_Levy"
+        },
+        "Max_Benedict": {
+            "lexicon_key": "Max_Benedict"
+        },
+        "Gilbert_Taylor": {
+            "lexicon_key": "Gilbert_Taylor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Louis_Levy",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "editing",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Max_Benedict",
+            "edge_properties": {
+                "lexicon_key": "editing"
+            }
+        },
+        {
+            "edge_name": "cinematography",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Gilbert_Taylor",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Louis Levy is the music composer of It's Great to Be Young (1956 film) in Gilbert Taylor's cinematography whereas Max Benedict its editor."
+        },
+        "Id2": {
+            "text": "The film \"It's Great to Be Young\" was composed by Louis Levy and edited by Max Benedict. The cinematographer is Gilbert Taylor."
+        },
+        "Id3": {
+            "text": "The film \"It's Great to Be Young\" was edited by Max Benedict, contained music composed by Louis Levy, and featured Gilbert Taylor as the cinematographer."
+        }
+    },
+    "gold_outputs": []
+}

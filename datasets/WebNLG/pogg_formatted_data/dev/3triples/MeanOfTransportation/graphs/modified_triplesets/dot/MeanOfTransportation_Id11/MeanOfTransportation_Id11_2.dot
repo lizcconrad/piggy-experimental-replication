@@ -1,0 +1,5 @@
+strict digraph {
+Alfa_Romeo_164 [lexicon_key="Alfa_Romeo_164"];
+Lancia_Thema [lexicon_key="Lancia_Thema"];
+Alfa_Romeo_164 -> Lancia_Thema [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

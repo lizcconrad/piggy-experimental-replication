@@ -1,0 +1,5 @@
+strict digraph {
+"AIDS_(journal)" [lexicon_key="AIDS_(journal)"];
+HIV [lexicon_key=HIV];
+"AIDS_(journal)" -> HIV [label=academicDiscipline, lexicon_key=academicDiscipline];
+}

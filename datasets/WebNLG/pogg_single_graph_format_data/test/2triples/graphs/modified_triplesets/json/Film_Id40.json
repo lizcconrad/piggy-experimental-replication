@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "Harry_Carey_(actor_born_1878)": {
+            "lexicon_key": "Harry_Carey_(actor_born_1878)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Born in 1878, Harry Carey later grew up to write and star in the movie McVeagh of the South Seas."
+        },
+        "Id2": {
+            "text": "Harry Carey, born in 1878, wrote and appeared in the movie McVeagh of the South Seas."
+        },
+        "Id3": {
+            "text": "Harry Carey, who was born in 1878, wrote and starred the film of McVeagh of the South Seas."
+        }
+    },
+    "gold_outputs": []
+}

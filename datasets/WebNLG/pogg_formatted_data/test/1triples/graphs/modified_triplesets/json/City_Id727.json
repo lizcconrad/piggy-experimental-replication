@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "\u22126": {
+            "lexicon_key": "\u22126"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\u22126",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala falls into UTC offset -6 timezone."
+        },
+        "Id2": {
+            "text": "The UTC offset of Ciudad Ayala is -6."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala has a UTC offset of -6."
+        }
+    },
+    "gold_outputs": []
+}

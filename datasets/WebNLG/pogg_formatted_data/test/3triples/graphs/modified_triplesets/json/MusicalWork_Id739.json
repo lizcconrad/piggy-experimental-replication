@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        },
+        "Wharton_Tiers": {
+            "lexicon_key": "Wharton_Tiers"
+        },
+        "1953-01-01": {
+            "lexicon_key": "1953-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Wharton_Tiers",
+            "child_node": "1953-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Wharton_Tiers",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Wharton Tiers, born on January the 1st, 1953, is producing the album Turn Me On with the Honeymoon Killers."
+        },
+        "Id2": {
+            "text": "Wharton Tiers born on January, 1st 1953, and is the owner of The Honeymoon Killers which is the producer of the Turn Me On album."
+        },
+        "Id3": {
+            "text": "The American band, the Honeymoon Killers, self-produced its album, Turn Me On. Along with music producer Wharton Tiers, born January 1, 1953."
+        }
+    },
+    "gold_outputs": []
+}

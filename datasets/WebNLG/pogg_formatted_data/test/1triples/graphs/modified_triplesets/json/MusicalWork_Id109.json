@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        },
+        "Southern_sludge": {
+            "lexicon_key": "Southern_sludge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Sludge_metal",
+            "child_node": "Southern_sludge",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Sludge metal has a variety called southern sludge."
+        },
+        "Id2": {
+            "text": "Southern sludge is a subgenre of sludge metal."
+        },
+        "Id3": {
+            "text": "Southern sludge is a musical subgenre of sludge metal."
+        }
+    },
+    "gold_outputs": []
+}

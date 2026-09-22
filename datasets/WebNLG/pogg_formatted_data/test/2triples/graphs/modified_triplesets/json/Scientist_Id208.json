@@ -1,0 +1,37 @@
+{
+    "nodes": {
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "\"Prime Minister\"": {
+            "lexicon_key": "\"Prime Minister\""
+        },
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Turkey",
+            "child_node": "\"Prime Minister\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "In Turkey where Nurhan Atasoy was born the leader is called the Prime Minister."
+        }
+    },
+    "gold_outputs": []
+}

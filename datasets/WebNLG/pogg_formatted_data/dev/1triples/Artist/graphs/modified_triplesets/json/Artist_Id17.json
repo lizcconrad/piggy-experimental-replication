@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Alfredo_Zitarrosa": {
-            "lexicon_key": "Alfredo_Zitarrosa"
-        },
-        "Hilario_P\u00e9rez": {
-            "lexicon_key": "Hilario_P\u00e9rez"
+    "graphs": {
+        "Artist_Id17_0": {
+            "nodes": {
+                "Alfredo_Zitarrosa": {
+                    "lexicon_key": "Alfredo_Zitarrosa"
+                },
+                "Hilario_P\u00e9rez": {
+                    "lexicon_key": "Hilario_P\u00e9rez"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Alfredo_Zitarrosa",
+                    "child_node": "Hilario_P\u00e9rez",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfredo Zitarrosa is a musician associated with Hilario Perez.",
+                "Alfredo Zitarrosa is musically associated with Hilario Perez."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Alfredo_Zitarrosa",
-            "child_node": "Hilario_P\u00e9rez",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

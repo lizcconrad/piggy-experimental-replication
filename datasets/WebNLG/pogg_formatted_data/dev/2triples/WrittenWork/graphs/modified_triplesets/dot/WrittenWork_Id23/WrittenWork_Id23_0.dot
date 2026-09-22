@@ -1,0 +1,5 @@
+strict digraph {
+Alcatraz_Versus_the_Evil_Librarians [lexicon_key="Alcatraz_Versus_the_Evil_Librarians"];
+Hardcover [lexicon_key=Hardcover];
+Alcatraz_Versus_the_Evil_Librarians -> Hardcover [label=mediaType, lexicon_key=mediaType];
+}

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Anderson,_Indiana": {
-            "lexicon_key": "Anderson,_Indiana"
+    "graphs": {
+        "City_Id6_0": {
+            "nodes": {
+                "Anderson,_Indiana": {
+                    "lexicon_key": "Anderson,_Indiana"
+                },
+                "Anderson_Township,_Madison_County,_Indiana": {
+                    "lexicon_key": "Anderson_Township,_Madison_County,_Indiana"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Anderson,_Indiana",
+                    "child_node": "Anderson_Township,_Madison_County,_Indiana",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Anderson is part of Anderson Township, Madison County, Indiana in the United States.",
+                "Anderson is part of the Anderson Township, Madison County in Indiana United States.",
+                "Anderson, Indiana is part of Anderson Township, Madison County, Indiana, in the United States."
+            ]
         },
-        "Anderson_Township,_Madison_County,_Indiana": {
-            "lexicon_key": "Anderson_Township,_Madison_County,_Indiana"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+        "City_Id6_1": {
+            "nodes": {
+                "Anderson_Township,_Madison_County,_Indiana": {
+                    "lexicon_key": "Anderson_Township,_Madison_County,_Indiana"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Anderson_Township,_Madison_County,_Indiana",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Anderson is part of Anderson Township, Madison County, Indiana in the United States.",
+                "Anderson is part of the Anderson Township, Madison County in Indiana United States.",
+                "Anderson, Indiana is part of Anderson Township, Madison County, Indiana, in the United States."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Anderson,_Indiana",
-            "child_node": "Anderson_Township,_Madison_County,_Indiana",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Anderson_Township,_Madison_County,_Indiana",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

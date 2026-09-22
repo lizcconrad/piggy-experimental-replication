@@ -1,0 +1,5 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"0.0482 (kilometrePerSeconds)" [lexicon_key="0.0482 (kilometrePerSeconds)"];
+"103_Hera" -> "0.0482 (kilometrePerSeconds)" [label=escapeVelocity, lexicon_key=escapeVelocity];
+}

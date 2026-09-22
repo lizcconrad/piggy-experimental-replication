@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "1001_Gaussia": {
-            "lexicon_key": "1001_Gaussia"
+    "graphs": {
+        "CelestialBody_Id4_0": {
+            "nodes": {
+                "1001_Gaussia": {
+                    "lexicon_key": "1001_Gaussia"
+                },
+                "2015-06-27": {
+                    "lexicon_key": "2015-06-27"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "epoch",
+                    "parent_node": "1001_Gaussia",
+                    "child_node": "2015-06-27",
+                    "edge_properties": {
+                        "lexicon_key": "epoch"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1001 Gaussia, which was formerly called \"1923 OAA907 XC\", has an epoch date of 31 July 2016 and a periapsis of 419113394.55312 kilometres.",
+                "The periapsis of the 1001 Gaussia (formally known as 1923 OAA907 XC) is 419113394.55312 km and it has an epoch date of the 31st July 2016."
+            ]
         },
-        "2015-06-27": {
-            "lexicon_key": "2015-06-27"
+        "CelestialBody_Id4_1": {
+            "nodes": {
+                "1001_Gaussia": {
+                    "lexicon_key": "1001_Gaussia"
+                },
+                "\"1923 OAA907 XC\"": {
+                    "lexicon_key": "\"1923 OAA907 XC\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "formerName",
+                    "parent_node": "1001_Gaussia",
+                    "child_node": "\"1923 OAA907 XC\"",
+                    "edge_properties": {
+                        "lexicon_key": "formerName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1001 Gaussia, which was formerly called \"1923 OAA907 XC\", has an epoch date of 31 July 2016 and a periapsis of 419113394.55312 kilometres.",
+                "The periapsis of the 1001 Gaussia (formally known as 1923 OAA907 XC) is 419113394.55312 km and it has an epoch date of the 31st July 2016."
+            ]
         },
-        "\"1923 OAA907 XC\"": {
-            "lexicon_key": "\"1923 OAA907 XC\""
-        },
-        "419113394.55312 (kilometres)": {
-            "lexicon_key": "419113394.55312 (kilometres)"
+        "CelestialBody_Id4_2": {
+            "nodes": {
+                "1001_Gaussia": {
+                    "lexicon_key": "1001_Gaussia"
+                },
+                "419113394.55312 (kilometres)": {
+                    "lexicon_key": "419113394.55312 (kilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "periapsis",
+                    "parent_node": "1001_Gaussia",
+                    "child_node": "419113394.55312 (kilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "periapsis"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1001 Gaussia, which was formerly called \"1923 OAA907 XC\", has an epoch date of 31 July 2016 and a periapsis of 419113394.55312 kilometres.",
+                "The periapsis of the 1001 Gaussia (formally known as 1923 OAA907 XC) is 419113394.55312 km and it has an epoch date of the 31st July 2016."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "epoch",
-            "parent_node": "1001_Gaussia",
-            "child_node": "2015-06-27",
-            "edge_properties": {
-                "lexicon_key": "epoch"
-            }
-        },
-        {
-            "edge_name": "formerName",
-            "parent_node": "1001_Gaussia",
-            "child_node": "\"1923 OAA907 XC\"",
-            "edge_properties": {
-                "lexicon_key": "formerName"
-            }
-        },
-        {
-            "edge_name": "periapsis",
-            "parent_node": "1001_Gaussia",
-            "child_node": "419113394.55312 (kilometres)",
-            "edge_properties": {
-                "lexicon_key": "periapsis"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

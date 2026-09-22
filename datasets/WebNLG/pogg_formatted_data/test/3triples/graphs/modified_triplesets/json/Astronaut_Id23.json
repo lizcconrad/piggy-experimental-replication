@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        },
+        "Distinguished_Service_Medal_(United_States_Navy)": {
+            "lexicon_key": "Distinguished_Service_Medal_(United_States_Navy)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Alan_Shepard",
+            "child_node": "Distinguished_Service_Medal_(United_States_Navy)",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Distinguished Service Medal (US Navy) recipient Alan Shepard was born in New Hampshire but died in California."
+        },
+        "Id2": {
+            "text": "Awarded the Distinguished Service Medal by The United States Navy, Alan Shepard, was born in New Hampshire, and died in California."
+        },
+        "Id3": {
+            "text": "Alan Shepard, born in New Hampshire while having died in California, was awarded the Distinguished Service Medal by the United States Navy."
+        }
+    },
+    "gold_outputs": []
+}

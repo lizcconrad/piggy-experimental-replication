@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Carter_constant": {
+            "lexicon_key": "Carter_constant"
+        },
+        "Dennis_William_Sciama": {
+            "lexicon_key": "Dennis_William_Sciama"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Carter_constant",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "doctoralAdvisor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Dennis_William_Sciama",
+            "edge_properties": {
+                "lexicon_key": "doctoralAdvisor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Dennis William Sciama was the doctoral advisor for Brandon Carter, known for the Carter Constant."
+        },
+        "Id2": {
+            "text": "Brandon Carter, whose doctoral advisor was Dennis William Sciama, is known for the invention of the Carter constant."
+        },
+        "Id3": {
+            "text": "Dennis William Sciama is the doctoral advisor of Brandon Carter, who is known for the Carter constant."
+        }
+    },
+    "gold_outputs": []
+}

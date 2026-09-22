@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "Campeonato_Brasileiro_S\u00e9rie_C": {
+            "lexicon_key": "Campeonato_Brasileiro_S\u00e9rie_C"
+        },
+        "2015_Campeonato_Brasileiro_S\u00e9rie_C": {
+            "lexicon_key": "2015_Campeonato_Brasileiro_S\u00e9rie_C"
+        },
+        "17000": {
+            "lexicon_key": "17000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "season",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "2015_Campeonato_Brasileiro_S\u00e9rie_C",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        },
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "17000",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league, they were in Campeonato Brasileiro Serie C in 2015 and has 17000 members."
+        },
+        "Id2": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense has 17000 members, plays in the Campeonato Brasileiro S\u00e9rie C league and competed in the 2015 Campeonato Brasileiro S\u00e9rie C."
+        },
+        "Id3": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense have 17000 members, play in the Campeonato Brasileiro S\u00e9rie C league and competed there in 2015."
+        }
+    },
+    "gold_outputs": []
+}

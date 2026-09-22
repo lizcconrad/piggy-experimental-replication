@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "1871-01-01": {
+            "lexicon_key": "1871-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "German_Empire",
+            "child_node": "1871-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The founding date of the German Empire was the first of January 1871."
+        },
+        "Id2": {
+            "text": "The founding date of the German Empire is 1871-01-01."
+        },
+        "Id3": {
+            "text": "The German Empire was founded on January 1, 1871."
+        }
+    },
+    "gold_outputs": []
+}

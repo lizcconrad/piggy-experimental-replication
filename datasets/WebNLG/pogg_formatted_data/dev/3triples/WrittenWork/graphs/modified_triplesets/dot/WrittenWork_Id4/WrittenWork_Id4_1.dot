@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+Hardcover [lexicon_key=Hardcover];
+1634:_The_Ram_Rebellion -> Hardcover [label=mediaType, lexicon_key=mediaType];
+}

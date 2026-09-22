@@ -1,0 +1,5 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+United_States [lexicon_key="United_States"];
+AmeriGas -> United_States [label=regionServed, lexicon_key=regionServed];
+}

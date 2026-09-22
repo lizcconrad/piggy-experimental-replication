@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "\"08/26\"": {
+            "lexicon_key": "\"08/26\""
+        },
+        "Concrete": {
+            "lexicon_key": "Concrete"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "\"08/26\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        },
+        {
+            "edge_name": "runwaySurfaceType",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Concrete",
+            "edge_properties": {
+                "lexicon_key": "runwaySurfaceType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bedford Aerodrome has a runway surface made of concrete whose name is 08/26."
+        },
+        "Id2": {
+            "text": "The runway surface of the Bedford Aerodrome named \"08/26\" is made of concrete."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome runway surface is made out of concrete and has a runway called 08/26."
+        }
+    },
+    "gold_outputs": []
+}

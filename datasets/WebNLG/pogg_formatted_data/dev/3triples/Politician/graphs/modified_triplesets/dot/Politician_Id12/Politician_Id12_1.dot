@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Holloway [lexicon_key="Adam_Holloway"];
+Kent [lexicon_key=Kent];
+Adam_Holloway -> Kent [label=birthPlace, lexicon_key=birthPlace];
+}

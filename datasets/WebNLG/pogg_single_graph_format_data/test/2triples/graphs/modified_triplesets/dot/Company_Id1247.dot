@@ -1,0 +1,7 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+8500 [lexicon_key=8500];
+"1959-01-01" [lexicon_key="1959-01-01"];
+AmeriGas -> 8500 [label=numberOfEmployees, lexicon_key=numberOfEmployees];
+AmeriGas -> "1959-01-01" [label=foundingDate, lexicon_key=foundingDate];
+}

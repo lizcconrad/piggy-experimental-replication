@@ -1,0 +1,5 @@
+strict digraph {
+Bakso [lexicon_key=Bakso];
+Indonesia [lexicon_key=Indonesia];
+Bakso -> Indonesia [label=country, lexicon_key=country];
+}

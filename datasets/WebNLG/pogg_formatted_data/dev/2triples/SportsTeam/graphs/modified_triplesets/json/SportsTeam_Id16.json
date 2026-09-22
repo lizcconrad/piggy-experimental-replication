@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "AFC_Ajax_(amateurs)": {
-            "lexicon_key": "AFC_Ajax_(amateurs)"
+    "graphs": {
+        "SportsTeam_Id16_0": {
+            "nodes": {
+                "AFC_Ajax_(amateurs)": {
+                    "lexicon_key": "AFC_Ajax_(amateurs)"
+                },
+                "2014\u201315_Topklasse": {
+                    "lexicon_key": "2014\u201315_Topklasse"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "season",
+                    "parent_node": "AFC_Ajax_(amateurs)",
+                    "child_node": "2014\u201315_Topklasse",
+                    "edge_properties": {
+                        "lexicon_key": "season"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AFC Ajax (amateurs) have 5000 members and played in the Topklasse in the 2014-2015 season.",
+                "AFC Ajax (amateurs) played in the 2014-15 Topklasse season and their home ground has a capacity for 5000 fans.",
+                "AFC Ajax (amateurs), who have 5000 members, played in the Topklasse in the 2014-2015 season."
+            ]
         },
-        "2014\u201315_Topklasse": {
-            "lexicon_key": "2014\u201315_Topklasse"
-        },
-        "5000": {
-            "lexicon_key": "5000"
+        "SportsTeam_Id16_1": {
+            "nodes": {
+                "AFC_Ajax_(amateurs)": {
+                    "lexicon_key": "AFC_Ajax_(amateurs)"
+                },
+                "5000": {
+                    "lexicon_key": "5000"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "AFC_Ajax_(amateurs)",
+                    "child_node": "5000",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AFC Ajax (amateurs) have 5000 members and played in the Topklasse in the 2014-2015 season.",
+                "AFC Ajax (amateurs) played in the 2014-15 Topklasse season and their home ground has a capacity for 5000 fans.",
+                "AFC Ajax (amateurs), who have 5000 members, played in the Topklasse in the 2014-2015 season."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "season",
-            "parent_node": "AFC_Ajax_(amateurs)",
-            "child_node": "2014\u201315_Topklasse",
-            "edge_properties": {
-                "lexicon_key": "season"
-            }
-        },
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "AFC_Ajax_(amateurs)",
-            "child_node": "5000",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

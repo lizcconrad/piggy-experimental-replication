@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Bondareva\u2013Shapley_theorem": {
+            "lexicon_key": "Bondareva\u2013Shapley_theorem"
+        },
+        "1937-04-27": {
+            "lexicon_key": "1937-04-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Bondareva\u2013Shapley_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1937-04-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva, known for Bondareva-Shapley theorem, was born on April 27, 1937."
+        },
+        "Id2": {
+            "text": "Olga Bondareva was born on April 27, 1937 is most known for the Bondareva-Shapley theorem."
+        },
+        "Id3": {
+            "text": "Olga Bondareva, born April 27, 1937, is known for the Bondareva-Shapley theorem."
+        }
+    },
+    "gold_outputs": []
+}

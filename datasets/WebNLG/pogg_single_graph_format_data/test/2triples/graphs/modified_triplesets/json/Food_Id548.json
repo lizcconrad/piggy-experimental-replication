@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Binignit": {
+            "lexicon_key": "Binignit"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Binignit",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "course",
+            "parent_node": "Binignit",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The dessert, Binignit, comes from the Philippines."
+        },
+        "Id2": {
+            "text": "The binignit dish, a type of dessert, can be found in the Philippines."
+        },
+        "Id3": {
+            "text": "Binignit is a dessert that comes from the Philippines."
+        }
+    },
+    "gold_outputs": []
+}

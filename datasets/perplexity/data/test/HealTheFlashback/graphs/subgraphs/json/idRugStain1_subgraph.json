@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idRugStain1": {
-            "lexicon_key": "idRugStain",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the rug stain"
-    ]
+    ],
+    "graphs": {
+        "idRugStain1_subgraph_0": {
+            "nodes": {
+                "idRugStain1": {
+                    "lexicon_key": "idRugStain",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the rug stain"
+            ]
+        }
+    }
 }

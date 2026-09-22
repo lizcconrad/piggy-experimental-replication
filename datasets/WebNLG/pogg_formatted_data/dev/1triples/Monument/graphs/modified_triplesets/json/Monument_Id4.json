@@ -1,22 +1,35 @@
 {
-    "nodes": {
-        "Baku_Turkish_Martyrs'_Memorial": {
-            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
-        },
-        "Azerbaijan": {
-            "lexicon_key": "Azerbaijan"
+    "graphs": {
+        "Monument_Id4_0": {
+            "nodes": {
+                "Baku_Turkish_Martyrs'_Memorial": {
+                    "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+                },
+                "Azerbaijan": {
+                    "lexicon_key": "Azerbaijan"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+                    "child_node": "Azerbaijan",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Baku Turkish Martyrs' Memorial is located in Azerbaijan.",
+                "The Baku Turkish Martyrs' Memorial can be found in Azerbaijan.",
+                "The Baku Turkish Martyrs' Memorial is found in Azerbaijan.",
+                "The Baku Turkish Martyrs' Memorial is in Azerbaijan.",
+                "The Baku Turkish Martyrs' Memorial is located in Azerbaijan.",
+                "The Baku Turkish Martyrs' Memorial is situated in Azerbaijan.",
+                "The Turkish Martyrs' memorial is located in Baku, Azerbaijan."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
-            "child_node": "Azerbaijan",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

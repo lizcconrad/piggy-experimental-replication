@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+"1-4165-2060-0" [lexicon_key="1-4165-2060-0"];
+1634:_The_Ram_Rebellion -> "1-4165-2060-0" [label=isbnNumber, lexicon_key=isbnNumber];
+}

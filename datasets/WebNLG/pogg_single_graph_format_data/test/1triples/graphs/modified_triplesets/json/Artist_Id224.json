@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Reuven_Rivlin": {
+            "lexicon_key": "Reuven_Rivlin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Israel",
+            "child_node": "Reuven_Rivlin",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the leaders of Israel is Reuven Rivlin."
+        },
+        "Id2": {
+            "text": "The leader of Israel is Reuven Rivlin."
+        },
+        "Id3": {
+            "text": "Israel's leader is Reuven Rivlin."
+        }
+    },
+    "gold_outputs": []
+}

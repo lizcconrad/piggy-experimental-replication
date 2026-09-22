@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Hypermarcas": {
-            "lexicon_key": "Hypermarcas"
+    "graphs": {
+        "Company_Id8_0": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "Brazil": {
+                    "lexicon_key": "Brazil"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "Brazil",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas, which is located in Brazil, is a company that makes drugs.",
+                "Hypermarcas, which is located in Brazil, produces pharmaceutical drugs.",
+                "Located in Brazil, Hypermarcas's main product is drugs."
+            ]
         },
-        "Brazil": {
-            "lexicon_key": "Brazil"
-        },
-        "Drugs": {
-            "lexicon_key": "Drugs"
+        "Company_Id8_1": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "Drugs": {
+                    "lexicon_key": "Drugs"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "product",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "Drugs",
+                    "edge_properties": {
+                        "lexicon_key": "product"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas, which is located in Brazil, is a company that makes drugs.",
+                "Hypermarcas, which is located in Brazil, produces pharmaceutical drugs.",
+                "Located in Brazil, Hypermarcas's main product is drugs."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Hypermarcas",
-            "child_node": "Brazil",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "product",
-            "parent_node": "Hypermarcas",
-            "child_node": "Drugs",
-            "edge_properties": {
-                "lexicon_key": "product"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Shenzhou_6": {
+            "lexicon_key": "Shenzhou_6"
+        },
+        "2005-040A": {
+            "lexicon_key": "2005-040A"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Shenzhou_6",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "cosparId",
+            "parent_node": "Shenzhou_6",
+            "child_node": "2005-040A",
+            "edge_properties": {
+                "lexicon_key": "cosparId"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng took part in the Shenzhou 6 mission which had a COSPAR ID of 2005-040A."
+        },
+        "Id2": {
+            "text": "Nie Haisheng took part in the Shenzhou 6 mission with COSPAR ID of Shenzhou 6 of 2005-040A."
+        },
+        "Id3": {
+            "text": "Nie Haisheng was a crew member on Shenzhou 6 is the COSPAR ID is 2005-040A."
+        }
+    },
+    "gold_outputs": []
+}

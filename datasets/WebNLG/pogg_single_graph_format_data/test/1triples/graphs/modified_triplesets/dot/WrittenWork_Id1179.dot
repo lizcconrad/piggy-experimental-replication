@@ -1,0 +1,5 @@
+strict digraph {
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+"George_Allen_&_Unwin" [lexicon_key="George_Allen_&_Unwin"];
+The_Fellowship_of_the_Ring -> "George_Allen_&_Unwin" [label=publisher, lexicon_key=publisher];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+University_of_Burgundy [lexicon_key="University_of_Burgundy"];
+1299 [lexicon_key=1299];
+Dijon [lexicon_key=Dijon];
+University_of_Burgundy -> 1299 [label=numberOfDoctoralStudents, lexicon_key=numberOfDoctoralStudents];
+University_of_Burgundy -> Dijon [label=campus, lexicon_key=campus];
+}

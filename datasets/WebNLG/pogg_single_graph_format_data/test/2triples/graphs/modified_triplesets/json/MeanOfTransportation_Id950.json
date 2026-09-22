@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 17068.8 millimeter long ALCO RS-3 was produced between May 1950 and August 1956."
+        },
+        "Id2": {
+            "text": "The 17068.8 millimetres long ALCO RS-3 was produced from May 1950 to August 1956."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3, produced between May 1950 and August 1956, was 17068.8 millimetres long."
+        }
+    },
+    "gold_outputs": []
+}

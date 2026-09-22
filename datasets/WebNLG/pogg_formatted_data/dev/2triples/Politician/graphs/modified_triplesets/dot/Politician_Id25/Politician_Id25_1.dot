@@ -1,0 +1,5 @@
+strict digraph {
+Buenos_Aires [lexicon_key="Buenos_Aires"];
+Diego_Santilli [lexicon_key="Diego_Santilli"];
+Buenos_Aires -> Diego_Santilli [label=leader, lexicon_key=leader];
+}

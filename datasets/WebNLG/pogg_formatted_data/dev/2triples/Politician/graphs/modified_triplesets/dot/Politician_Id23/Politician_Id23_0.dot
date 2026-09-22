@@ -1,0 +1,5 @@
+strict digraph {
+"Albert_B._White" [lexicon_key="Albert_B._White"];
+"Parkersburg,_West_Virginia" [lexicon_key="Parkersburg,_West_Virginia"];
+"Albert_B._White" -> "Parkersburg,_West_Virginia" [label=deathPlace, lexicon_key=deathPlace];
+}

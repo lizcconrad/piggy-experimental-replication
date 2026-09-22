@@ -1,0 +1,5 @@
+strict digraph {
+Audi [lexicon_key=Audi];
+Ducati [lexicon_key=Ducati];
+Audi -> Ducati [label=subsidiary, lexicon_key=subsidiary];
+}

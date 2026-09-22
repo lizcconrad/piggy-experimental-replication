@@ -1,0 +1,9 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+EGBF [lexicon_key=EGBF];
+83.2104 [lexicon_key=83.2104];
+Concrete [lexicon_key=Concrete];
+Bedford_Aerodrome -> EGBF [label=icaoLocationIdentifier, lexicon_key=icaoLocationIdentifier];
+Bedford_Aerodrome -> 83.2104 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+Bedford_Aerodrome -> Concrete [label=runwaySurfaceType, lexicon_key=runwaySurfaceType];
+}

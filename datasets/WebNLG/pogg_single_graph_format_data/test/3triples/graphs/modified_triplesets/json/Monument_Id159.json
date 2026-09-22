@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "11th_Mississippi_Infantry_Monument": {
+            "lexicon_key": "11th_Mississippi_Infantry_Monument"
+        },
+        "Adams_County,_Pennsylvania": {
+            "lexicon_key": "Adams_County,_Pennsylvania"
+        },
+        "\"Pennsylvania\"": {
+            "lexicon_key": "\"Pennsylvania\""
+        },
+        "Carroll_County,_Maryland": {
+            "lexicon_key": "Carroll_County,_Maryland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Adams_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "state",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "\"Pennsylvania\"",
+            "edge_properties": {
+                "lexicon_key": "state"
+            }
+        },
+        {
+            "edge_name": "hasToItsSoutheast",
+            "parent_node": "Adams_County,_Pennsylvania",
+            "child_node": "Carroll_County,_Maryland",
+            "edge_properties": {
+                "lexicon_key": "hasToItsSoutheast"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 11th Mississippi Infantry Monument is located in Adams County, in the state of Pennsylvania which is northwest to Carroll County Maryland."
+        },
+        "Id2": {
+            "text": "The 11th Mississippi Infantry Monument is located in Adams County, the state of Pennsylvania which is located northwest to Carroll County, Maryland."
+        },
+        "Id3": {
+            "text": "The 11th Mississippi Infantry Monument is in Adams County, Pennsylvania. To the southeast of Adams County, Pennsylvania lies Carroll County, Maryland."
+        }
+    },
+    "gold_outputs": []
+}

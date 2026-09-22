@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "11th_Mississippi_Infantry_Monument": {
+            "lexicon_key": "11th_Mississippi_Infantry_Monument"
+        },
+        "Adams_County,_Pennsylvania": {
+            "lexicon_key": "Adams_County,_Pennsylvania"
+        },
+        "Frederick_County,_Maryland": {
+            "lexicon_key": "Frederick_County,_Maryland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Adams_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "hasToItsSouthwest",
+            "parent_node": "Adams_County,_Pennsylvania",
+            "child_node": "Frederick_County,_Maryland",
+            "edge_properties": {
+                "lexicon_key": "hasToItsSouthwest"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Frederick County Maryland is southwest of Adams County Pennsylvania which is home to the 11th Mississippi Infantry Monument."
+        },
+        "Id2": {
+            "text": "Frederick County, Maryland is to the southwest of Adams County, Pennsylvania, where the 11th Mississippi Infantry Monument is located."
+        },
+        "Id3": {
+            "text": "The location of the 11th Mississippi Infantry Monument is Adams County, Pennsylvania, which has Frederick County, Maryland to its southwest."
+        }
+    },
+    "gold_outputs": []
+}

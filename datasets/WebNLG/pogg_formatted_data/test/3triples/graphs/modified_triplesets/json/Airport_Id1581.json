@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "ENAIRE": {
+            "lexicon_key": "ENAIRE"
+        },
+        "Madrid": {
+            "lexicon_key": "Madrid"
+        },
+        "3500.0": {
+            "lexicon_key": "3500.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "ENAIRE",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "ENAIRE",
+            "child_node": "Madrid",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "3500.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "ENAIRE, which is located in Madrid, is the operating organisation for Adolfo Suarez Madrid-Barajas airport. This airport has a runway length of 3500."
+        },
+        "Id2": {
+            "text": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is operated by ENAIRE which is located in the city of Madrid. The runway length of the airport is 3,500."
+        }
+    },
+    "gold_outputs": []
+}

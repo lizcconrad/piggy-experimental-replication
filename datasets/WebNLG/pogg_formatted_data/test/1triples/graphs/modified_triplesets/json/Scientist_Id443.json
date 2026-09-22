@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Mathematics": {
+            "lexicon_key": "Mathematics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Mathematics",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva's professional field is mathematics."
+        },
+        "Id2": {
+            "text": "Olga Bondareva is one of the known professionals in the field of Mathematics."
+        },
+        "Id3": {
+            "text": "Olga Bondareva works in the field of Mathematics."
+        }
+    },
+    "gold_outputs": []
+}

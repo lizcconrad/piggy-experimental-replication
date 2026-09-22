@@ -1,0 +1,5 @@
+strict digraph {
+AIP_Advances [lexicon_key="AIP_Advances"];
+"AAIDBI" [lexicon_key="AAIDBI"];
+AIP_Advances -> "AAIDBI" [label=codenCode, lexicon_key=codenCode];
+}

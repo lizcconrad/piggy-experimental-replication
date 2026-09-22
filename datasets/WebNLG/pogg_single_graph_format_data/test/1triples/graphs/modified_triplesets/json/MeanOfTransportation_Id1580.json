@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Pontiac": {
+            "lexicon_key": "Pontiac"
+        },
+        "Automobile": {
+            "lexicon_key": "Automobile"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "product",
+            "parent_node": "Pontiac",
+            "child_node": "Automobile",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac company manufactures automobiles."
+        },
+        "Id2": {
+            "text": "Pontiac makes automobiles."
+        },
+        "Id3": {
+            "text": "Pontiac produces automobiles."
+        }
+    },
+    "gold_outputs": []
+}

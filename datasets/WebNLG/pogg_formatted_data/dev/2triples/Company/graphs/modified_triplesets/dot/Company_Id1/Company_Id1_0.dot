@@ -1,0 +1,5 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+"King_of_Prussia,_Pennsylvania" [lexicon_key="King_of_Prussia,_Pennsylvania"];
+AmeriGas -> "King_of_Prussia,_Pennsylvania" [label=city, lexicon_key=city];
+}

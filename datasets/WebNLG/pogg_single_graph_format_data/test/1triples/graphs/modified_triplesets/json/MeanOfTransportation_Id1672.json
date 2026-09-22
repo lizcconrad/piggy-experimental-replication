@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "1997": {
+            "lexicon_key": "1997"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "productionEndYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionEndYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous was last produced in 1997."
+        },
+        "Id2": {
+            "text": "Production of the Pontiac Rageous ended in 1997."
+        }
+    },
+    "gold_outputs": []
+}

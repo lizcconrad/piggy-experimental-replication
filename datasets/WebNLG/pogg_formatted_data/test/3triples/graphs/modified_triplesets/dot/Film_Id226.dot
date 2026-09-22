@@ -1,0 +1,9 @@
+strict digraph {
+McVeagh_of_the_South_Seas [lexicon_key="McVeagh_of_the_South_Seas"];
+"Harry_Carey_(actor_born_1878)" [lexicon_key="Harry_Carey_(actor_born_1878)"];
+Alliance_Films_Corporation [lexicon_key="Alliance_Films_Corporation"];
+Gregory_Allen [lexicon_key="Gregory_Allen"];
+McVeagh_of_the_South_Seas -> "Harry_Carey_(actor_born_1878)" [label=director, lexicon_key=director];
+McVeagh_of_the_South_Seas -> Alliance_Films_Corporation [label=distributor, lexicon_key=distributor];
+McVeagh_of_the_South_Seas -> Gregory_Allen [label=director, lexicon_key=director];
+}

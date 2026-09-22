@@ -1,0 +1,5 @@
+strict digraph {
+Abradab [lexicon_key=Abradab];
+Hip_hop_music [lexicon_key="Hip_hop_music"];
+Abradab -> Hip_hop_music [label=genre, lexicon_key=genre];
+}

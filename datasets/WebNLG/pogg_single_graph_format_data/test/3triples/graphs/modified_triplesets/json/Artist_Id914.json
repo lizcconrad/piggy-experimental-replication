@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Modern_Hebrew": {
+            "lexicon_key": "Modern_Hebrew"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Karlsruhe",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Israel",
+            "child_node": "Modern_Hebrew",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born in Karlsruhe and has Israeli nationality. In Israel, one of the languages spoken is Modern Hebrew."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born in Karlsruhe and is an Israeli national. In Israel, people speak Modern Hebrew."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina is an Israeli national who was born in Karlsruhe. Israel's national language is Modern Hebrew."
+        }
+    },
+    "gold_outputs": []
+}

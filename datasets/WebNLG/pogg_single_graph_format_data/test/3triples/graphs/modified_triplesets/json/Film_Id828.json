@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "Cyril_Bruce": {
+            "lexicon_key": "Cyril_Bruce"
+        },
+        "Harry_Carey_(actor_born_1878)": {
+            "lexicon_key": "Harry_Carey_(actor_born_1878)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Cyril_Bruce",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Born in 1878, Harry Carey acted in, directed, and wrote the movie McVeagh of the South Seas. The movie was directed by Cyril Bruce."
+        },
+        "Id2": {
+            "text": "Harry Carey an actor born in 1878 is the writer and director of McVeagh of the South Seas, which is directed by Cyril Bruce."
+        },
+        "Id3": {
+            "text": "Born in 1878, Harry Carey wrote and directed the film McVeagh of the South Seas. Cyril Bruce also directed the film."
+        }
+    },
+    "gold_outputs": []
+}

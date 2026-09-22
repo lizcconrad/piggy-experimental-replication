@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Bedford_Autodrome": {
+            "lexicon_key": "Bedford_Autodrome"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Bedford_Autodrome",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The place served by the Bedford Aerodrome located in Thurleigh is the Bedford Autodrome."
+        },
+        "Id2": {
+            "text": "The Bedford Aerodrome, in Thurleigh, serves the Bedford Autodrome."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome serves the Bedford Autodrome and is located at Thurleigh."
+        }
+    },
+    "gold_outputs": []
+}

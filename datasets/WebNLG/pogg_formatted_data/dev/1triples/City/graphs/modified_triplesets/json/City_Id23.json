@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "California": {
-            "lexicon_key": "California"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "City_Id23_0": {
+            "nodes": {
+                "California": {
+                    "lexicon_key": "California"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "California",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "California is in the U.S.",
+                "California is in the United States."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "California",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

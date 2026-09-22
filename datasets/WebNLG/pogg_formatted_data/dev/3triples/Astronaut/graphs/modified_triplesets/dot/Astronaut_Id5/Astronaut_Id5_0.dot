@@ -1,0 +1,5 @@
+strict digraph {
+California [lexicon_key=California];
+Smilodon [lexicon_key=Smilodon];
+California -> Smilodon [label=fossil, lexicon_key=fossil];
+}

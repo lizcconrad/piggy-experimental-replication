@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Baroque_pop": {
+            "lexicon_key": "Baroque_pop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Pop_rock",
+            "child_node": "Baroque_pop",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Baroque pop is a fusion genre which includes some elements of pop rock."
+        },
+        "Id2": {
+            "text": "Baroque pop is a fusion genre of pop rock."
+        }
+    },
+    "gold_outputs": []
+}

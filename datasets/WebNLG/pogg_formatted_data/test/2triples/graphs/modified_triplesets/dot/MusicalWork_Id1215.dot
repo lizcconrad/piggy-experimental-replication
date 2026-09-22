@@ -1,0 +1,7 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+"Proto-punk" [lexicon_key="Proto-punk"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> The_Velvet_Underground [label=artist, lexicon_key=artist];
+The_Velvet_Underground -> "Proto-punk" [label=genre, lexicon_key=genre];
+}

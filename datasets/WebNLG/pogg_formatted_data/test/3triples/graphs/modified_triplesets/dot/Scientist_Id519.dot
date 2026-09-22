@@ -1,0 +1,9 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+Darlington [lexicon_key=Darlington];
+United_Kingdom [lexicon_key="United_Kingdom"];
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+Lady_Anne_Monson -> Darlington [label=birthPlace, lexicon_key=birthPlace];
+Lady_Anne_Monson -> Kingdom_of_England [label=birthPlace, lexicon_key=birthPlace];
+Darlington -> United_Kingdom [label=country, lexicon_key=country];
+}

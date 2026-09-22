@@ -1,0 +1,7 @@
+strict digraph {
+Al_Asad_Airbase [lexicon_key="Al_Asad_Airbase"];
+"Al Anbar Province, Iraq" [lexicon_key="Al Anbar Province, Iraq"];
+United_States_Air_Force [lexicon_key="United_States_Air_Force"];
+Al_Asad_Airbase -> "Al Anbar Province, Iraq" [label=location, lexicon_key=location];
+Al_Asad_Airbase -> United_States_Air_Force [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+}

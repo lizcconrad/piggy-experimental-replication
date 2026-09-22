@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Governator": {
+            "lexicon_key": "Governator"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Governator",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala, Mexico has a leader called the Governator."
+        },
+        "Id2": {
+            "text": "In Ciudad Ayala which is in the country of Mexico, the leader is called the governator."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala led by governator is in the country of Mexico."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+Winchester [lexicon_key=Winchester];
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+Kingdom_of_England -> Winchester [label=capital, lexicon_key=capital];
+Lady_Anne_Monson -> Kingdom_of_England [label=nationality, lexicon_key=nationality];
+}

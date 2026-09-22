@@ -1,0 +1,5 @@
+strict digraph {
+Beef_kway_teow [lexicon_key="Beef_kway_teow"];
+"Singapore and Indonesia" [lexicon_key="Singapore and Indonesia"];
+Beef_kway_teow -> "Singapore and Indonesia" [label=country, lexicon_key=country];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+German_Empire [lexicon_key="German_Empire"];
+Photographer [lexicon_key=Photographer];
+Liselotte_Grschebina -> German_Empire [label=birthPlace, lexicon_key=birthPlace];
+Liselotte_Grschebina -> Photographer [label=professionalField, lexicon_key=professionalField];
+}

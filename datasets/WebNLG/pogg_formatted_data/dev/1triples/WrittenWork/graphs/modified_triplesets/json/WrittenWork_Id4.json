@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "AIP_Advances": {
-            "lexicon_key": "AIP_Advances"
-        },
-        "2158": {
-            "lexicon_key": "2158"
+    "graphs": {
+        "WrittenWork_Id4_0": {
+            "nodes": {
+                "AIP_Advances": {
+                    "lexicon_key": "AIP_Advances"
+                },
+                "2158": {
+                    "lexicon_key": "2158"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "eissnNumber",
+                    "parent_node": "AIP_Advances",
+                    "child_node": "2158",
+                    "edge_properties": {
+                        "lexicon_key": "eissnNumber"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIP Advances had the EISSNnumber 2158.",
+                "The EISSN number of AIP Advances is 2158."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "eissnNumber",
-            "parent_node": "AIP_Advances",
-            "child_node": "2158",
-            "edge_properties": {
-                "lexicon_key": "eissnNumber"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

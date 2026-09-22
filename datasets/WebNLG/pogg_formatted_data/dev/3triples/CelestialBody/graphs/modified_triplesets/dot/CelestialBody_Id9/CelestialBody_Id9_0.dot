@@ -1,0 +1,5 @@
+strict digraph {
+"107_Camilla" [lexicon_key="107_Camilla"];
+"E._Wells" [lexicon_key="E._Wells"];
+"107_Camilla" -> "E._Wells" [label=discoverer, lexicon_key=discoverer];
+}

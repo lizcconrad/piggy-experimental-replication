@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "CEO": {
+            "lexicon_key": "CEO"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Hypermarcas",
+            "child_node": "CEO",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas is managed by their CEO."
+        },
+        "Id2": {
+            "text": "The key person in Hypermarcas is the CEO."
+        },
+        "Id3": {
+            "text": "The key person in Hypermarcas is their CEO."
+        },
+        "Id4": {
+            "text": "The CEO is the key person in Hypermarcas."
+        }
+    },
+    "gold_outputs": []
+}

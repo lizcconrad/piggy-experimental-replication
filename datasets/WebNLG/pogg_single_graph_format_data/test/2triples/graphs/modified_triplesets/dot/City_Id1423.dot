@@ -1,0 +1,7 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+Mexico [lexicon_key=Mexico];
+"President of the Senate" [lexicon_key="President of the Senate"];
+Ciudad_Ayala -> Mexico [label=country, lexicon_key=country];
+Mexico -> "President of the Senate" [label=leaderTitle, lexicon_key=leaderTitle];
+}

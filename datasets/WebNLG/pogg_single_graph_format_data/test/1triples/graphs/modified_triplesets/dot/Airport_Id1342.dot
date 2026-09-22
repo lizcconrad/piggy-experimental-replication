@@ -1,0 +1,5 @@
+strict digraph {
+Thurleigh [lexicon_key=Thurleigh];
+Bedfordshire [lexicon_key=Bedfordshire];
+Thurleigh -> Bedfordshire [label=ceremonialCounty, lexicon_key=ceremonialCounty];
+}

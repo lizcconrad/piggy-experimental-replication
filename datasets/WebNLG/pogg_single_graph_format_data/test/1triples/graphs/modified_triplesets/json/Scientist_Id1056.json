@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        },
+        "England": {
+            "lexicon_key": "England"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "University_of_Cambridge",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "University of Cambridge is located in England."
+        },
+        "Id2": {
+            "text": "The University of Cambridge is located in the country of England."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "3.16": {
+            "lexicon_key": "3.16"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicalBand",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Train_(band)",
+            "edge_properties": {
+                "lexicon_key": "musicalBand"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "3.16",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Mermaid is a pop rock song by Train. It is three minutes and sixteen seconds long."
+        },
+        "Id2": {
+            "text": "Mermaid, a pop rock song by the musical band Train lasts 3.16 minutes."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid from the pop rock genre has a length of 3 minutes and 16 seconds and belongs to the musical band Train."
+        }
+    },
+    "gold_outputs": []
+}

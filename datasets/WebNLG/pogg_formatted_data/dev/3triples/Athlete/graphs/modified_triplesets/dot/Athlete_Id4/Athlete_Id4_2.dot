@@ -1,0 +1,5 @@
+strict digraph {
+"Abel_Hernández" [lexicon_key="Abel_Hernández"];
+Peñarol [lexicon_key=Peñarol];
+"Abel_Hernández" -> Peñarol [label=club, lexicon_key=club];
+}

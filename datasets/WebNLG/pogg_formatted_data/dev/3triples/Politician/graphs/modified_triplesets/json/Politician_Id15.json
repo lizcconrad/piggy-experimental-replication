@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Adonis_Georgiadis": {
-            "lexicon_key": "Adonis_Georgiadis"
+    "graphs": {
+        "Politician_Id15_0": {
+            "nodes": {
+                "Adonis_Georgiadis": {
+                    "lexicon_key": "Adonis_Georgiadis"
+                },
+                "Greece": {
+                    "lexicon_key": "Greece"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Adonis_Georgiadis",
+                    "child_node": "Greece",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adonis Georgiadis was born in Athens (Greece), and worked as Minister for Health.",
+                "Adonis Georgiadis, born Athens (Greece), held office as the Minister for Health.",
+                "Adonis Georgiadis, born in Athens, Greece, worked as the Minister for Health."
+            ]
         },
-        "Greece": {
-            "lexicon_key": "Greece"
+        "Politician_Id15_1": {
+            "nodes": {
+                "Adonis_Georgiadis": {
+                    "lexicon_key": "Adonis_Georgiadis"
+                },
+                "\"Minister for Health\"": {
+                    "lexicon_key": "\"Minister for Health\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "office",
+                    "parent_node": "Adonis_Georgiadis",
+                    "child_node": "\"Minister for Health\"",
+                    "edge_properties": {
+                        "lexicon_key": "office"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adonis Georgiadis was born in Athens (Greece), and worked as Minister for Health.",
+                "Adonis Georgiadis, born Athens (Greece), held office as the Minister for Health.",
+                "Adonis Georgiadis, born in Athens, Greece, worked as the Minister for Health."
+            ]
         },
-        "\"Minister for Health\"": {
-            "lexicon_key": "\"Minister for Health\""
-        },
-        "Athens": {
-            "lexicon_key": "Athens"
+        "Politician_Id15_2": {
+            "nodes": {
+                "Adonis_Georgiadis": {
+                    "lexicon_key": "Adonis_Georgiadis"
+                },
+                "Athens": {
+                    "lexicon_key": "Athens"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Adonis_Georgiadis",
+                    "child_node": "Athens",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adonis Georgiadis was born in Athens (Greece), and worked as Minister for Health.",
+                "Adonis Georgiadis, born Athens (Greece), held office as the Minister for Health.",
+                "Adonis Georgiadis, born in Athens, Greece, worked as the Minister for Health."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Adonis_Georgiadis",
-            "child_node": "Greece",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "office",
-            "parent_node": "Adonis_Georgiadis",
-            "child_node": "\"Minister for Health\"",
-            "edge_properties": {
-                "lexicon_key": "office"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Adonis_Georgiadis",
-            "child_node": "Athens",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+Romania [lexicon_key=Romania];
+Prime_Minister_of_Romania [lexicon_key="Prime_Minister_of_Romania"];
+Romania -> Prime_Minister_of_Romania [label=leaderTitle, lexicon_key=leaderTitle];
+}

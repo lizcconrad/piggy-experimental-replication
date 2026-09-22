@@ -1,0 +1,5 @@
+strict digraph {
+California [lexicon_key=California];
+Dianne_Feinstein [lexicon_key="Dianne_Feinstein"];
+California -> Dianne_Feinstein [label=senators, lexicon_key=senators];
+}

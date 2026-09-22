@@ -1,0 +1,5 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+Concrete [lexicon_key=Concrete];
+Bedford_Aerodrome -> Concrete [label=runwaySurfaceType, lexicon_key=runwaySurfaceType];
+}

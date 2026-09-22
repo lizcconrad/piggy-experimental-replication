@@ -1,0 +1,5 @@
+strict digraph {
+European_University_Association [lexicon_key="European_University_Association"];
+Brussels [lexicon_key=Brussels];
+European_University_Association -> Brussels [label=headquarter, lexicon_key=headquarter];
+}

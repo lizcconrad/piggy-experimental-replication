@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        },
+        "\"1930-01-20\"": {
+            "lexicon_key": "\"1930-01-20\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"1930-01-20\"",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buzz Aldrin, part of the Apollo 11 crew, was born on January 20th, 1930."
+        },
+        "Id2": {
+            "text": "An Apollo 11 crew member, Buzz Aldrin, was born on January 20, 1930."
+        },
+        "Id3": {
+            "text": "Buzz Aldrin (born on 1930-01-20),was a crew member on Apollo 11."
+        }
+    },
+    "gold_outputs": []
+}

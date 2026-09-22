@@ -1,0 +1,7 @@
+strict digraph {
+Death_on_a_Factory_Farm [lexicon_key="Death_on_a_Factory_Farm"];
+HBO [lexicon_key=HBO];
+"The Green Channel" [lexicon_key="The Green Channel"];
+Death_on_a_Factory_Farm -> HBO [label=broadcastedBy, lexicon_key=broadcastedBy];
+HBO -> "The Green Channel" [label=formerName, lexicon_key=formerName];
+}

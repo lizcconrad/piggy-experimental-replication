@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "HBO": {
+            "lexicon_key": "HBO"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "HBO",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Death on a Factory Farm was released by HBO."
+        },
+        "Id2": {
+            "text": "Death on a Factory Farm is a film broadcasted by HBO."
+        },
+        "Id3": {
+            "text": "The Death on a Factory Farm was broadcasted by HBO."
+        }
+    },
+    "gold_outputs": []
+}

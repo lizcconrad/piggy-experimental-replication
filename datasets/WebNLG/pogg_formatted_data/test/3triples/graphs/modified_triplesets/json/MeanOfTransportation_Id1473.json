@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "Four-stroke_engine": {
+            "lexicon_key": "Four-stroke_engine"
+        },
+        "Diesel-electric_transmission": {
+            "lexicon_key": "Diesel-electric_transmission"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Four-stroke_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "powerType",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Diesel-electric_transmission",
+            "edge_properties": {
+                "lexicon_key": "powerType"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ALCO RS-3, which is 17068.8 millimetres long, has a diesel-electric transmission and a four-stroke engine."
+        },
+        "Id2": {
+            "text": "ALCO RS-3, which is 17068.8 millimetres long, has a four-stroke engine and a diesel-electric transmission."
+        },
+        "Id3": {
+            "text": "The diesel-electric ALCO-RS3 includes a four-stroke engine and measures 17068.8 (millimetres) in length."
+        }
+    },
+    "gold_outputs": []
+}

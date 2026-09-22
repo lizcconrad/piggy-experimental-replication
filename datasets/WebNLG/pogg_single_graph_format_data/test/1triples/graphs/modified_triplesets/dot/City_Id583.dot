@@ -1,0 +1,5 @@
+strict digraph {
+Morelos [lexicon_key=Morelos];
+"Adrián_Rivera_Pérez" [lexicon_key="Adrián_Rivera_Pérez"];
+Morelos -> "Adrián_Rivera_Pérez" [label=leader, lexicon_key=leader];
+}

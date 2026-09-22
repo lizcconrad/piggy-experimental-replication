@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Ampara_Hospital": {
-            "lexicon_key": "Ampara_Hospital"
+    "graphs": {
+        "Building_Id21_0": {
+            "nodes": {
+                "Ampara_Hospital": {
+                    "lexicon_key": "Ampara_Hospital"
+                },
+                "Sri_Lanka": {
+                    "lexicon_key": "Sri_Lanka"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Ampara_Hospital",
+                    "child_node": "Sri_Lanka",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ampara Hospital is in Eastern Province, Sri Lanka. Ranil Wickremesinghe is a leader there.",
+                "Sri Lanka, led by Ranil Wickremesinghe, is home to Ampara Hospital in the Eastern Province state."
+            ]
         },
-        "Sri_Lanka": {
-            "lexicon_key": "Sri_Lanka"
+        "Building_Id21_1": {
+            "nodes": {
+                "Sri_Lanka": {
+                    "lexicon_key": "Sri_Lanka"
+                },
+                "Ranil_Wickremesinghe": {
+                    "lexicon_key": "Ranil_Wickremesinghe"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Sri_Lanka",
+                    "child_node": "Ranil_Wickremesinghe",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ampara Hospital is in Eastern Province, Sri Lanka. Ranil Wickremesinghe is a leader there.",
+                "Sri Lanka, led by Ranil Wickremesinghe, is home to Ampara Hospital in the Eastern Province state."
+            ]
         },
-        "Ranil_Wickremesinghe": {
-            "lexicon_key": "Ranil_Wickremesinghe"
-        },
-        "Eastern_Province,_Sri_Lanka": {
-            "lexicon_key": "Eastern_Province,_Sri_Lanka"
+        "Building_Id21_2": {
+            "nodes": {
+                "Ampara_Hospital": {
+                    "lexicon_key": "Ampara_Hospital"
+                },
+                "Eastern_Province,_Sri_Lanka": {
+                    "lexicon_key": "Eastern_Province,_Sri_Lanka"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "state",
+                    "parent_node": "Ampara_Hospital",
+                    "child_node": "Eastern_Province,_Sri_Lanka",
+                    "edge_properties": {
+                        "lexicon_key": "state"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ampara Hospital is in Eastern Province, Sri Lanka. Ranil Wickremesinghe is a leader there.",
+                "Sri Lanka, led by Ranil Wickremesinghe, is home to Ampara Hospital in the Eastern Province state."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Ampara_Hospital",
-            "child_node": "Sri_Lanka",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Sri_Lanka",
-            "child_node": "Ranil_Wickremesinghe",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "state",
-            "parent_node": "Ampara_Hospital",
-            "child_node": "Eastern_Province,_Sri_Lanka",
-            "edge_properties": {
-                "lexicon_key": "state"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

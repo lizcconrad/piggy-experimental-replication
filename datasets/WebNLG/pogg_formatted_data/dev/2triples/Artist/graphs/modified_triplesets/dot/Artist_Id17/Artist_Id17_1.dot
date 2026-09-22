@@ -1,0 +1,5 @@
+strict digraph {
+"Alison_O'Donnell" [lexicon_key="Alison_O'Donnell"];
+Autoharp [lexicon_key=Autoharp];
+"Alison_O'Donnell" -> Autoharp [label=instrument, lexicon_key=instrument];
+}

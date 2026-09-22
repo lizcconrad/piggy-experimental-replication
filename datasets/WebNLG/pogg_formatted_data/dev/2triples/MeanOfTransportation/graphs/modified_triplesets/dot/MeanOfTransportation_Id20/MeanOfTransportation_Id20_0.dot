@@ -1,0 +1,5 @@
+strict digraph {
+"Antares_(rocket)" [lexicon_key="Antares_(rocket)"];
+Delta_II [lexicon_key="Delta_II"];
+"Antares_(rocket)" -> Delta_II [label=comparable, lexicon_key=comparable];
+}

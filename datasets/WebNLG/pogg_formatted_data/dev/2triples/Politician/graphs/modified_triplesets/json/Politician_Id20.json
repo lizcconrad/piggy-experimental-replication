@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Airey_Neave": {
-            "lexicon_key": "Airey_Neave"
+    "graphs": {
+        "Politician_Id20_0": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "World_War_II": {
+                    "lexicon_key": "World_War_II"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "World_War_II",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave started his career on 30th June 1953, and was in World War II.",
+                "Airey Neave, started his career on 30th June 1953, and fought in World War II.",
+                "Airey Neave, who fought in World War Two, started his political career on June 30th, 1953."
+            ]
         },
-        "World_War_II": {
-            "lexicon_key": "World_War_II"
-        },
-        "1953-06-30": {
-            "lexicon_key": "1953-06-30"
+        "Politician_Id20_1": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "1953-06-30": {
+                    "lexicon_key": "1953-06-30"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "activeYearsStartDate",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "1953-06-30",
+                    "edge_properties": {
+                        "lexicon_key": "activeYearsStartDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave started his career on 30th June 1953, and was in World War II.",
+                "Airey Neave, started his career on 30th June 1953, and fought in World War II.",
+                "Airey Neave, who fought in World War Two, started his political career on June 30th, 1953."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "battle",
-            "parent_node": "Airey_Neave",
-            "child_node": "World_War_II",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        },
-        {
-            "edge_name": "activeYearsStartDate",
-            "parent_node": "Airey_Neave",
-            "child_node": "1953-06-30",
-            "edge_properties": {
-                "lexicon_key": "activeYearsStartDate"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

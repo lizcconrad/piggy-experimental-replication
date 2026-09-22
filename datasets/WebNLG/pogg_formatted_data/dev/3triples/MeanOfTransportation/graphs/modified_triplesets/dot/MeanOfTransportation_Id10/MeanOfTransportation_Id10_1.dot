@@ -1,0 +1,5 @@
+strict digraph {
+Finland [lexicon_key=Finland];
+Finns [lexicon_key=Finns];
+Finland -> Finns [label=demonym, lexicon_key=demonym];
+}

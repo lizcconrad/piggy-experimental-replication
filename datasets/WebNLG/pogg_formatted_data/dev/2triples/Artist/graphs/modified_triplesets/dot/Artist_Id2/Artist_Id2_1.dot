@@ -1,0 +1,5 @@
+strict digraph {
+Suburban_Legends [lexicon_key="Suburban_Legends"];
+Ska [lexicon_key=Ska];
+Suburban_Legends -> Ska [label=genre, lexicon_key=genre];
+}

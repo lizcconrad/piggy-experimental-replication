@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "T._S._Thakur": {
+            "lexicon_key": "T._S._Thakur"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "T._S._Thakur",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "India, at one time led by T.S. Thakur, was also where Lady Anne Monson lived most of her life."
+        },
+        "Id2": {
+            "text": "T.S. Thakur was the leader of India where Lady Anne Monson resided."
+        },
+        "Id3": {
+            "text": "T.S.Thakur is one of the leaders of India, which is where Lady Anne Monson currently resides."
+        }
+    },
+    "gold_outputs": []
+}

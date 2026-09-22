@@ -1,0 +1,5 @@
+strict digraph {
+SAGE_Publications [lexicon_key="SAGE_Publications"];
+Sara_Miller_McCune [lexicon_key="Sara_Miller_McCune"];
+SAGE_Publications -> Sara_Miller_McCune [label=founder, lexicon_key=founder];
+}

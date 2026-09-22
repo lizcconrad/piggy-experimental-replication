@@ -1,0 +1,5 @@
+strict digraph {
+"A.F.C._Fylde" [lexicon_key="A.F.C._Fylde"];
+"Warton,_Fylde" [lexicon_key="Warton,_Fylde"];
+"A.F.C._Fylde" -> "Warton,_Fylde" [label=ground, lexicon_key=ground];
+}

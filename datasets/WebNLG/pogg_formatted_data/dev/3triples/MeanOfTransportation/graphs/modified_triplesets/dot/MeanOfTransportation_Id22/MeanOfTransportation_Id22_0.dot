@@ -1,0 +1,5 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+"1.2 (litres)" [lexicon_key="1.2 (litres)"];
+Audi_A1 -> "1.2 (litres)" [label=engine, lexicon_key=engine];
+}

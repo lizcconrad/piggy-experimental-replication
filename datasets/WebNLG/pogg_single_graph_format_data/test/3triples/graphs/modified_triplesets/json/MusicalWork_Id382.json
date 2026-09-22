@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "Columbia_Records": {
+            "lexicon_key": "Columbia_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicalBand",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Train_(band)",
+            "edge_properties": {
+                "lexicon_key": "musicalBand"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Columbia_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The pop rock song Mermaid by the band Train was released under the record label Columbia Records."
+        },
+        "Id2": {
+            "text": "The pop rock song Mermaid by Train was released on the Columbia Records record label."
+        },
+        "Id3": {
+            "text": "The pop rock song Mermaid, by Train, is on Columbia Records."
+        }
+    },
+    "gold_outputs": []
+}

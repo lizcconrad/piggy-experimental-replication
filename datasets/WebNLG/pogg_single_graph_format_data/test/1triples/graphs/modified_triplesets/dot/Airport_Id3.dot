@@ -1,0 +1,5 @@
+strict digraph {
+MotorSport_Vision [lexicon_key="MotorSport_Vision"];
+Fawkham [lexicon_key=Fawkham];
+MotorSport_Vision -> Fawkham [label=city, lexicon_key=city];
+}

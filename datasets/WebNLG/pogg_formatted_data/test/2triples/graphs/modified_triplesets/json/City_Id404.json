@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is a city in the country of Mexico with a population density of 1604."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala has population density 1604.0 in the country of Mexico."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is a city in Mexico with the population density of 1604."
+        }
+    },
+    "gold_outputs": []
+}

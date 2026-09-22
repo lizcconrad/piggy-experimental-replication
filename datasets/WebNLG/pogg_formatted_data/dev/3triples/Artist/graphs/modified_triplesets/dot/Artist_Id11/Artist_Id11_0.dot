@@ -1,0 +1,5 @@
+strict digraph {
+"Agustín_Barboza" [lexicon_key="Agustín_Barboza"];
+Paraguay [lexicon_key=Paraguay];
+"Agustín_Barboza" -> Paraguay [label=birthPlace, lexicon_key=birthPlace];
+}

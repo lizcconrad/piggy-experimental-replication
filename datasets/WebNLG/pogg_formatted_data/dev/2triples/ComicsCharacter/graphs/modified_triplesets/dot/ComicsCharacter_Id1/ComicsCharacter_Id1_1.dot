@@ -1,0 +1,5 @@
+strict digraph {
+"Asterix_(comicsCharacter)" [lexicon_key="Asterix_(comicsCharacter)"];
+Albert_Uderzo [lexicon_key="Albert_Uderzo"];
+"Asterix_(comicsCharacter)" -> Albert_Uderzo [label=creator, lexicon_key=creator];
+}

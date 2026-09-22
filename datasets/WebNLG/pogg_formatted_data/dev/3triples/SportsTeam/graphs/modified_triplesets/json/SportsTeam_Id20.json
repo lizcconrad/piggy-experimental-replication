@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Akron_Summit_Assault": {
-            "lexicon_key": "Akron_Summit_Assault"
+    "graphs": {
+        "SportsTeam_Id20_0": {
+            "nodes": {
+                "Akron_Summit_Assault": {
+                    "lexicon_key": "Akron_Summit_Assault"
+                },
+                "3000": {
+                    "lexicon_key": "3000"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "Akron_Summit_Assault",
+                    "child_node": "3000",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "3000 member club Akron Summit Assault play in the Premier Development League alongside former champions K-W United FC.",
+                "Akron Summit Assault has 3000 members and plays in the Premier Development League of which K-W United FC were champions.",
+                "K-W United FC were champions of the Premier Development League where Akron Summit Assault (which has 3000 members) also play."
+            ]
         },
-        "3000": {
-            "lexicon_key": "3000"
+        "SportsTeam_Id20_1": {
+            "nodes": {
+                "Akron_Summit_Assault": {
+                    "lexicon_key": "Akron_Summit_Assault"
+                },
+                "Premier_Development_League": {
+                    "lexicon_key": "Premier_Development_League"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "Akron_Summit_Assault",
+                    "child_node": "Premier_Development_League",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "3000 member club Akron Summit Assault play in the Premier Development League alongside former champions K-W United FC.",
+                "Akron Summit Assault has 3000 members and plays in the Premier Development League of which K-W United FC were champions.",
+                "K-W United FC were champions of the Premier Development League where Akron Summit Assault (which has 3000 members) also play."
+            ]
         },
-        "Premier_Development_League": {
-            "lexicon_key": "Premier_Development_League"
-        },
-        "K-W_United_FC": {
-            "lexicon_key": "K-W_United_FC"
+        "SportsTeam_Id20_2": {
+            "nodes": {
+                "Premier_Development_League": {
+                    "lexicon_key": "Premier_Development_League"
+                },
+                "K-W_United_FC": {
+                    "lexicon_key": "K-W_United_FC"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "champions",
+                    "parent_node": "Premier_Development_League",
+                    "child_node": "K-W_United_FC",
+                    "edge_properties": {
+                        "lexicon_key": "champions"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "3000 member club Akron Summit Assault play in the Premier Development League alongside former champions K-W United FC.",
+                "Akron Summit Assault has 3000 members and plays in the Premier Development League of which K-W United FC were champions.",
+                "K-W United FC were champions of the Premier Development League where Akron Summit Assault (which has 3000 members) also play."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "Akron_Summit_Assault",
-            "child_node": "3000",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        },
-        {
-            "edge_name": "league",
-            "parent_node": "Akron_Summit_Assault",
-            "child_node": "Premier_Development_League",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        },
-        {
-            "edge_name": "champions",
-            "parent_node": "Premier_Development_League",
-            "child_node": "K-W_United_FC",
-            "edge_properties": {
-                "lexicon_key": "champions"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

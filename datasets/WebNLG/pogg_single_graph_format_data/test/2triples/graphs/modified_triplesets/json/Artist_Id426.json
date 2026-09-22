@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "School_of_Applied_Arts_in_Stuttgart": {
+            "lexicon_key": "School_of_Applied_Arts_in_Stuttgart"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "training",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "School_of_Applied_Arts_in_Stuttgart",
+            "edge_properties": {
+                "lexicon_key": "training"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina, born on May 2, 1908, did her studies at the School of Applied Arts in Stuttgart."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina, an alumni of the School of Applied Arts in Stuttgart, was born on 1908-05-02."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was born on May 2nd, 1908 and attended the school of Applied Arts in Stuttgart."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "1929-06-11": {
+            "lexicon_key": "1929-06-11"
+        },
+        "260855000000.0": {
+            "lexicon_key": "260855000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discovered",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1929-06-11",
+            "edge_properties": {
+                "lexicon_key": "discovered"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "260855000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis, discovered on June 11, 1929, has a periapsis of 260855000000.0."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis is an asteroid, discovered on 11 June 1929, and its periapsis is 260855000000.0."
+        },
+        "Id3": {
+            "text": "The asteroid 1147 Stavropolis was discovered on the 11th of June, 1929 and has a periapsis of 260855000000."
+        }
+    },
+    "gold_outputs": []
+}

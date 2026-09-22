@@ -1,0 +1,9 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+California [lexicon_key=California];
+"1974-08-01" [lexicon_key="1974-08-01"];
+New_Hampshire [lexicon_key="New_Hampshire"];
+Alan_Shepard -> California [label=deathPlace, lexicon_key=deathPlace];
+Alan_Shepard -> "1974-08-01" [label=dateOfRetirement, lexicon_key=dateOfRetirement];
+Alan_Shepard -> New_Hampshire [label=birthPlace, lexicon_key=birthPlace];
+}

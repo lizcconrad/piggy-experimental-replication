@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Elliot_See": {
-            "lexicon_key": "Elliot_See"
+    "graphs": {
+        "Astronaut_Id6_0": {
+            "nodes": {
+                "Elliot_See": {
+                    "lexicon_key": "Elliot_See"
+                },
+                "St._Louis": {
+                    "lexicon_key": "St._Louis"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "deathPlace",
+                    "parent_node": "Elliot_See",
+                    "child_node": "St._Louis",
+                    "edge_properties": {
+                        "lexicon_key": "deathPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Elliot See was selected by NASA in 1962. He died in St. Louis on 1966-02-28.",
+                "Elliot See who was selected by NASA in 1962 died on 28 February 1966 in St Louis.",
+                "Elliot See, ex NASA worker since 1962, died in St Louis on the 28th of February 1966."
+            ]
         },
-        "St._Louis": {
-            "lexicon_key": "St._Louis"
+        "Astronaut_Id6_1": {
+            "nodes": {
+                "Elliot_See": {
+                    "lexicon_key": "Elliot_See"
+                },
+                "\"1966-02-28\"": {
+                    "lexicon_key": "\"1966-02-28\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "deathDate",
+                    "parent_node": "Elliot_See",
+                    "child_node": "\"1966-02-28\"",
+                    "edge_properties": {
+                        "lexicon_key": "deathDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Elliot See was selected by NASA in 1962. He died in St. Louis on 1966-02-28.",
+                "Elliot See who was selected by NASA in 1962 died on 28 February 1966 in St Louis.",
+                "Elliot See, ex NASA worker since 1962, died in St Louis on the 28th of February 1966."
+            ]
         },
-        "\"1966-02-28\"": {
-            "lexicon_key": "\"1966-02-28\""
-        },
-        "1962": {
-            "lexicon_key": "1962"
+        "Astronaut_Id6_2": {
+            "nodes": {
+                "Elliot_See": {
+                    "lexicon_key": "Elliot_See"
+                },
+                "1962": {
+                    "lexicon_key": "1962"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "selectedByNasa",
+                    "parent_node": "Elliot_See",
+                    "child_node": "1962",
+                    "edge_properties": {
+                        "lexicon_key": "selectedByNasa"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Elliot See was selected by NASA in 1962. He died in St. Louis on 1966-02-28.",
+                "Elliot See who was selected by NASA in 1962 died on 28 February 1966 in St Louis.",
+                "Elliot See, ex NASA worker since 1962, died in St Louis on the 28th of February 1966."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "deathPlace",
-            "parent_node": "Elliot_See",
-            "child_node": "St._Louis",
-            "edge_properties": {
-                "lexicon_key": "deathPlace"
-            }
-        },
-        {
-            "edge_name": "deathDate",
-            "parent_node": "Elliot_See",
-            "child_node": "\"1966-02-28\"",
-            "edge_properties": {
-                "lexicon_key": "deathDate"
-            }
-        },
-        {
-            "edge_name": "selectedByNasa",
-            "parent_node": "Elliot_See",
-            "child_node": "1962",
-            "edge_properties": {
-                "lexicon_key": "selectedByNasa"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

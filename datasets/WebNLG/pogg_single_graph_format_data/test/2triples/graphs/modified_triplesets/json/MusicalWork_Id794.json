@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Let_It_Breed": {
+            "lexicon_key": "Let_It_Breed"
+        },
+        "Wharton_Tiers": {
+            "lexicon_key": "Wharton_Tiers"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Let_It_Breed",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Wharton_Tiers",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Turn Me On was produced by Wharton Tiers and was preceded by the album Let It Breed."
+        },
+        "Id2": {
+            "text": "The album Turn Me On, produced by Wharton Tiers, is preceded by the album Let It Breed."
+        },
+        "Id3": {
+            "text": "Wharton Tiers is the producer of the album \u2018Turn Me On\u2019 which was preceded by the album \u2018Let it Breed\u2019."
+        }
+    },
+    "gold_outputs": []
+}

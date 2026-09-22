@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Leningrad,_USSR": {
+            "lexicon_key": "Leningrad,_USSR"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad,_USSR",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva was born in Leningrad, USSR."
+        },
+        "Id2": {
+            "text": "Olga Bondareva's original birthplace was in Leningrad, part of the USSR."
+        }
+    },
+    "gold_outputs": []
+}

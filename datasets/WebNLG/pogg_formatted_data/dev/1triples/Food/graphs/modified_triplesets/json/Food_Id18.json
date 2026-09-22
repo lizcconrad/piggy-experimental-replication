@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Barny_Cakes": {
-            "lexicon_key": "Barny_Cakes"
-        },
-        "1.8 g": {
-            "lexicon_key": "1.8 g"
+    "graphs": {
+        "Food_Id18_0": {
+            "nodes": {
+                "Barny_Cakes": {
+                    "lexicon_key": "Barny_Cakes"
+                },
+                "1.8 g": {
+                    "lexicon_key": "1.8 g"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "protein",
+                    "parent_node": "Barny_Cakes",
+                    "child_node": "1.8 g",
+                    "edge_properties": {
+                        "lexicon_key": "protein"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny cakes contain 1.8 g of protein.",
+                "Barny cakes contain 1.8g of protein."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "protein",
-            "parent_node": "Barny_Cakes",
-            "child_node": "1.8 g",
-            "edge_properties": {
-                "lexicon_key": "protein"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "Time_Warner": {
+            "lexicon_key": "Time_Warner"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "owner",
+            "parent_node": "HBO",
+            "child_node": "Time_Warner",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The owner of HBO is Time Warner."
+        },
+        "Id2": {
+            "text": "Time Warner owns HBO."
+        },
+        "Id3": {
+            "text": "Time Warner is the owner of HBO."
+        }
+    },
+    "gold_outputs": []
+}

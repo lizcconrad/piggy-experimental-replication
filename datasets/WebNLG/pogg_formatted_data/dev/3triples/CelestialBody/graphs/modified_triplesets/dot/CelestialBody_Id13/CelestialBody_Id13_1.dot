@@ -1,0 +1,5 @@
+strict digraph {
+"1099_Figneria" [lexicon_key="1099_Figneria"];
+"156.0 (kelvins)" [lexicon_key="156.0 (kelvins)"];
+"1099_Figneria" -> "156.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+"J._R._R._Tolkien" [lexicon_key="J._R._R._Tolkien"];
+"1954-07-29" [lexicon_key="1954-07-29"];
+The_Fellowship_of_the_Ring -> "J._R._R._Tolkien" [label=author, lexicon_key=author];
+The_Fellowship_of_the_Ring -> "1954-07-29" [label=releaseDate, lexicon_key=releaseDate];
+}

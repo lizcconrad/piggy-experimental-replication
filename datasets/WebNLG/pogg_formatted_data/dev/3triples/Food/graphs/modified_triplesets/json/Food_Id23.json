@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Barny_Cakes": {
-            "lexicon_key": "Barny_Cakes"
+    "graphs": {
+        "Food_Id23_0": {
+            "nodes": {
+                "Barny_Cakes": {
+                    "lexicon_key": "Barny_Cakes"
+                },
+                "Apple": {
+                    "lexicon_key": "Apple"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Barny_Cakes",
+                    "child_node": "Apple",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny cakes can be made with apple and contain 1.8g protein and 18g of carbs.",
+                "Barny cakes can be made with apple and have 18 grams of carbs and 1.8 g of protein.",
+                "Barny cakes may be made with apple and have 1.8g of protein and 18g of carbohydrates."
+            ]
         },
-        "Apple": {
-            "lexicon_key": "Apple"
+        "Food_Id23_1": {
+            "nodes": {
+                "Barny_Cakes": {
+                    "lexicon_key": "Barny_Cakes"
+                },
+                "18.0 g": {
+                    "lexicon_key": "18.0 g"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "carbohydrate",
+                    "parent_node": "Barny_Cakes",
+                    "child_node": "18.0 g",
+                    "edge_properties": {
+                        "lexicon_key": "carbohydrate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny cakes can be made with apple and contain 1.8g protein and 18g of carbs.",
+                "Barny cakes can be made with apple and have 18 grams of carbs and 1.8 g of protein.",
+                "Barny cakes may be made with apple and have 1.8g of protein and 18g of carbohydrates."
+            ]
         },
-        "18.0 g": {
-            "lexicon_key": "18.0 g"
-        },
-        "1.8 g": {
-            "lexicon_key": "1.8 g"
+        "Food_Id23_2": {
+            "nodes": {
+                "Barny_Cakes": {
+                    "lexicon_key": "Barny_Cakes"
+                },
+                "1.8 g": {
+                    "lexicon_key": "1.8 g"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "protein",
+                    "parent_node": "Barny_Cakes",
+                    "child_node": "1.8 g",
+                    "edge_properties": {
+                        "lexicon_key": "protein"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny cakes can be made with apple and contain 1.8g protein and 18g of carbs.",
+                "Barny cakes can be made with apple and have 18 grams of carbs and 1.8 g of protein.",
+                "Barny cakes may be made with apple and have 1.8g of protein and 18g of carbohydrates."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Barny_Cakes",
-            "child_node": "Apple",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        },
-        {
-            "edge_name": "carbohydrate",
-            "parent_node": "Barny_Cakes",
-            "child_node": "18.0 g",
-            "edge_properties": {
-                "lexicon_key": "carbohydrate"
-            }
-        },
-        {
-            "edge_name": "protein",
-            "parent_node": "Barny_Cakes",
-            "child_node": "1.8 g",
-            "edge_properties": {
-                "lexicon_key": "protein"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,7 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+"Swords,_Dublin" [lexicon_key="Swords,_Dublin"];
+"County Manager" [lexicon_key="County Manager"];
+Trane -> "Swords,_Dublin" [label=location, lexicon_key=location];
+"Swords,_Dublin" -> "County Manager" [label=leaderTitle, lexicon_key=leaderTitle];
+}

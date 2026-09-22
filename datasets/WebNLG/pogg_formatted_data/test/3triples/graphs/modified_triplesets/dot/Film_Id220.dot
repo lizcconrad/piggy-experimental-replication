@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Tom_Sizemore [lexicon_key="Tom_Sizemore"];
+"1989-01-01" [lexicon_key="1989-01-01"];
+Adam_West [lexicon_key="Adam_West"];
+Super_Capers -> Tom_Sizemore [label=starring, lexicon_key=starring];
+Super_Capers -> Adam_West [label=starring, lexicon_key=starring];
+Tom_Sizemore -> "1989-01-01" [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

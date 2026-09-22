@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Roadside_Attractions": {
+            "lexicon_key": "Roadside_Attractions"
+        },
+        "2003-01-01": {
+            "lexicon_key": "2003-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingYear",
+            "parent_node": "Roadside_Attractions",
+            "child_node": "2003-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Roadside Attractions is founded in 2003."
+        },
+        "Id2": {
+            "text": "Roadside Attractions was founded in 2003."
+        },
+        "Id3": {
+            "text": "The company Roadside Attractions was founded in 2003."
+        }
+    },
+    "gold_outputs": []
+}

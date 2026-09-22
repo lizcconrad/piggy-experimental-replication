@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Council-manager_government": {
+            "lexicon_key": "Council-manager_government"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        },
+        "Governator": {
+            "lexicon_key": "Governator"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Council-manager_government",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Governator",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala city has a population density of 1604.0 and uses a type of government called council-manager government where the leader is called the governator."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala government type in the city is council-manager and has a leader called the Governator. The population density in Ciudad Ayala is 1604."
+        },
+        "Id3": {
+            "text": "The population density of Ciudad Ayala is 1604.0 which uses a council-manager government where the leader is called the governator."
+        }
+    },
+    "gold_outputs": []
+}

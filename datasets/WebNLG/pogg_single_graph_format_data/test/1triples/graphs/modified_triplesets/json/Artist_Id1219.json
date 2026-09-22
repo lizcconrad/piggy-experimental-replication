@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "173.46": {
+            "lexicon_key": "173.46"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Karlsruhe",
+            "child_node": "173.46",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The total area of Karlsruhe |is 173.46."
+        },
+        "Id2": {
+            "text": "Karlsruhe has a total area of 173.46 square kilometres."
+        },
+        "Id3": {
+            "text": "Karlsruhe has a total area of 173.46."
+        }
+    },
+    "gold_outputs": []
+}

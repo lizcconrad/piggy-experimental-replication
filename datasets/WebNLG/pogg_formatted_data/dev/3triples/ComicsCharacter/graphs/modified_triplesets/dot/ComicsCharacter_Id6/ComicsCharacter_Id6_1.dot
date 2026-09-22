@@ -1,0 +1,5 @@
+strict digraph {
+"Blockbuster_(comicsCharacter)" [lexicon_key="Blockbuster_(comicsCharacter)"];
+"Roland Desmond" [lexicon_key="Roland Desmond"];
+"Blockbuster_(comicsCharacter)" -> "Roland Desmond" [label=alternativeName, lexicon_key=alternativeName];
+}

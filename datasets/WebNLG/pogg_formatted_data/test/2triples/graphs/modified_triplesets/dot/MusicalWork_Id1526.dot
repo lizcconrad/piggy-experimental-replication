@@ -1,0 +1,7 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+Rock_music [lexicon_key="Rock_music"];
+Polydor_Records [lexicon_key="Polydor_Records"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Rock_music [label=genre, lexicon_key=genre];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Polydor_Records [label=recordLabel, lexicon_key=recordLabel];
+}

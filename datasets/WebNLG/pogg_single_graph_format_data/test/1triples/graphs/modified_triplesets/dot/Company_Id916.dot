@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Online_Game [lexicon_key="Online_Game"];
+GMA_New_Media -> Online_Game [label=product, lexicon_key=product];
+}

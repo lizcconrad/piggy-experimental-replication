@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "11th_Mississippi_Infantry_Monument": {
+            "lexicon_key": "11th_Mississippi_Infantry_Monument"
+        },
+        "Adams_County,_Pennsylvania": {
+            "lexicon_key": "Adams_County,_Pennsylvania"
+        },
+        "Frederick_County,_Maryland": {
+            "lexicon_key": "Frederick_County,_Maryland"
+        },
+        "Contributing_property": {
+            "lexicon_key": "Contributing_property"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Adams_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "hasToItsSouthwest",
+            "parent_node": "Adams_County,_Pennsylvania",
+            "child_node": "Frederick_County,_Maryland",
+            "edge_properties": {
+                "lexicon_key": "hasToItsSouthwest"
+            }
+        },
+        {
+            "edge_name": "category",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Contributing_property",
+            "edge_properties": {
+                "lexicon_key": "category"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "To the northeast of Frederick County, Maryland is Adams County, Pennsylvania, the location of the 11th Mississippi Infantry Monument. The monument is a Contributing Property."
+        },
+        "Id2": {
+            "text": "The 11th Mississippi Infantry Monument, a Contributing property, is located in Adams County, Pennsylvania which northeast to Frederick County, Maryland."
+        },
+        "Id3": {
+            "text": "The 11th Mississippi Infantry Monument (categorised as a contributing property) is located in Adams County, Pennsylvania and Frederick County Maryland is in southwest ."
+        }
+    },
+    "gold_outputs": []
+}

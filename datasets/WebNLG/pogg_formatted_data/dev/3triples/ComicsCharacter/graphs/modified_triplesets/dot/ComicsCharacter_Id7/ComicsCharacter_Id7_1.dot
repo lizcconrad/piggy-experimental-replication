@@ -1,0 +1,5 @@
+strict digraph {
+"Bolt_(comicsCharacter)" [lexicon_key="Bolt_(comicsCharacter)"];
+"Larry Bolatinsky" [lexicon_key="Larry Bolatinsky"];
+"Bolt_(comicsCharacter)" -> "Larry Bolatinsky" [label=alternativeName, lexicon_key=alternativeName];
+}

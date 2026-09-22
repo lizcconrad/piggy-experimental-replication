@@ -1,0 +1,5 @@
+strict digraph {
+Manila [lexicon_key=Manila];
+Metro_Manila [lexicon_key="Metro_Manila"];
+Manila -> Metro_Manila [label=isPartOf, lexicon_key=isPartOf];
+}

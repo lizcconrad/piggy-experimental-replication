@@ -1,0 +1,5 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+"Zamba_(artform)" [lexicon_key="Zamba_(artform)"];
+Alfredo_Zitarrosa -> "Zamba_(artform)" [label=genre, lexicon_key=genre];
+}

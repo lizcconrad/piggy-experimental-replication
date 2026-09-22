@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "\"State of Israel\"": {
+            "lexicon_key": "\"State of Israel\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "longName",
+            "parent_node": "Israel",
+            "child_node": "\"State of Israel\"",
+            "edge_properties": {
+                "lexicon_key": "longName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The full name of the country Israel is the State of Israel."
+        },
+        "Id2": {
+            "text": "Israel is formally known as the State of Israel."
+        },
+        "Id3": {
+            "text": "Israel's long name is \"State of Israel\"."
+        }
+    },
+    "gold_outputs": []
+}

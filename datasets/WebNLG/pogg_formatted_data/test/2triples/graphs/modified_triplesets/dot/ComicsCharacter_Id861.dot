@@ -1,0 +1,7 @@
+strict digraph {
+BBC [lexicon_key=BBC];
+"John_Reith,_1st_Baron_Reith" [lexicon_key="John_Reith,_1st_Baron_Reith"];
+Bananaman [lexicon_key=Bananaman];
+BBC -> "John_Reith,_1st_Baron_Reith" [label=foundedBy, lexicon_key=foundedBy];
+Bananaman -> BBC [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

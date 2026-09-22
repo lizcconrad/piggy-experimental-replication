@@ -1,0 +1,5 @@
+strict digraph {
+"Atatürk_Monument_(İzmir)" [lexicon_key="Atatürk_Monument_(İzmir)"];
+Turkey [lexicon_key=Turkey];
+"Atatürk_Monument_(İzmir)" -> Turkey [label=location, lexicon_key=location];
+}

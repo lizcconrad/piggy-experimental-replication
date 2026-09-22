@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Train_(band)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Pop rock is the genre of the band Train."
+        },
+        "Id2": {
+            "text": "Train is a pop rock band."
+        },
+        "Id3": {
+            "text": "The genre of the Train band is pop rock."
+        }
+    },
+    "gold_outputs": []
+}

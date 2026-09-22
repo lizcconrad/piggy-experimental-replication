@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "School_of_Applied_Arts_in_Stuttgart": {
+            "lexicon_key": "School_of_Applied_Arts_in_Stuttgart"
+        },
+        "1994-06-14": {
+            "lexicon_key": "1994-06-14"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "training",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "School_of_Applied_Arts_in_Stuttgart",
+            "edge_properties": {
+                "lexicon_key": "training"
+            }
+        },
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1994-06-14",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina had Israeli nationality, studied at the School of Applied Arts in Stuttgart and died on June 14, 1994."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina is an Israeli national who studied at the School of Applied Arts in Stuttgart. She died on June 14th, 1994."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina, whose nationality was Israeli, attended the school of Applied Arts in Stuttgart. Grschebina passed away on June 14th, 1994."
+        }
+    },
+    "gold_outputs": []
+}

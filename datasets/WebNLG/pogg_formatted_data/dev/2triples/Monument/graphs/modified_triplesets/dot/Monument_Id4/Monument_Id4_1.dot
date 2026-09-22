@@ -1,0 +1,5 @@
+strict digraph {
+"Dead_Man's_Plack" [lexicon_key="Dead_Man's_Plack"];
+"Rock_(geology)" [lexicon_key="Rock_(geology)"];
+"Dead_Man's_Plack" -> "Rock_(geology)" [label=material, lexicon_key=material];
+}

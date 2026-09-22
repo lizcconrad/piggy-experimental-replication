@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idBook1Page2Text": {
-            "lexicon_key": "idBook1Page2Text",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idBook1Page2Text_subgraph_0": {
+            "nodes": {
+                "idBook1Page2Text": {
+                    "lexicon_key": "idBook1Page2Text",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

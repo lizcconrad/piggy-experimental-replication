@@ -1,0 +1,5 @@
+strict digraph {
+Ahmet_Ertegun [lexicon_key="Ahmet_Ertegun"];
+Blues [lexicon_key=Blues];
+Ahmet_Ertegun -> Blues [label=genre, lexicon_key=genre];
+}

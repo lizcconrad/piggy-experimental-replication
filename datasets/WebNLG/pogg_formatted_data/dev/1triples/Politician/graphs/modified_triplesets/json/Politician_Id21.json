@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Alberto_Teisaire": {
-            "lexicon_key": "Alberto_Teisaire"
-        },
-        "Argentina": {
-            "lexicon_key": "Argentina"
+    "graphs": {
+        "Politician_Id21_0": {
+            "nodes": {
+                "Alberto_Teisaire": {
+                    "lexicon_key": "Alberto_Teisaire"
+                },
+                "Argentina": {
+                    "lexicon_key": "Argentina"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "nationality",
+                    "parent_node": "Alberto_Teisaire",
+                    "child_node": "Argentina",
+                    "edge_properties": {
+                        "lexicon_key": "nationality"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alberto Teisaire is Argentinian.",
+                "Alberto Teisaire was Argentinian.",
+                "Alberto Teisaire's nationality is Argentinian."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "nationality",
-            "parent_node": "Alberto_Teisaire",
-            "child_node": "Argentina",
-            "edge_properties": {
-                "lexicon_key": "nationality"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

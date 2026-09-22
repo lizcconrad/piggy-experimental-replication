@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "A.C._Lumezzane": {
-            "lexicon_key": "A.C._Lumezzane"
-        },
-        "2014\u201315_Lega_Pro": {
-            "lexicon_key": "2014\u201315_Lega_Pro"
+    "graphs": {
+        "SportsTeam_Id3_0": {
+            "nodes": {
+                "A.C._Lumezzane": {
+                    "lexicon_key": "A.C._Lumezzane"
+                },
+                "2014\u201315_Lega_Pro": {
+                    "lexicon_key": "2014\u201315_Lega_Pro"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "season",
+                    "parent_node": "A.C._Lumezzane",
+                    "child_node": "2014\u201315_Lega_Pro",
+                    "edge_properties": {
+                        "lexicon_key": "season"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A C Lumezzane played the 2014-2015 season in Lega Pro.",
+                "Lumezzane played in the Lega Pro during the 2014-15 season."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "season",
-            "parent_node": "A.C._Lumezzane",
-            "child_node": "2014\u201315_Lega_Pro",
-            "edge_properties": {
-                "lexicon_key": "season"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

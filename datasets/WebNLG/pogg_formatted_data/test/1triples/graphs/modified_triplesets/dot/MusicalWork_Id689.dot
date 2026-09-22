@@ -1,0 +1,5 @@
+strict digraph {
+San_Francisco [lexicon_key="San_Francisco"];
+"&minus;7" [lexicon_key="&minus;7"];
+San_Francisco -> "&minus;7" [label=utcOffset, lexicon_key=utcOffset];
+}

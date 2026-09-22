@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "2001-10-16": {
+            "lexicon_key": "2001-10-16"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "2001-10-16",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Bootleg Series Volume 1: The Quine Tapes was released on 10-16-2001."
+        },
+        "Id2": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes are released in 2001-10-16."
+        },
+        "Id3": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was released on October, 16, 2001."
+        }
+    },
+    "gold_outputs": []
+}

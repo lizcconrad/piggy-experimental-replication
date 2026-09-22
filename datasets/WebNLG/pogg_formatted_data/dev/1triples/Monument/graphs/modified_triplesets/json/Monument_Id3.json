@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Azerbaijan": {
-            "lexicon_key": "Azerbaijan"
-        },
-        "Artur_Rasizade": {
-            "lexicon_key": "Artur_Rasizade"
+    "graphs": {
+        "Monument_Id3_0": {
+            "nodes": {
+                "Azerbaijan": {
+                    "lexicon_key": "Azerbaijan"
+                },
+                "Artur_Rasizade": {
+                    "lexicon_key": "Artur_Rasizade"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Azerbaijan",
+                    "child_node": "Artur_Rasizade",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Azerbaijan leader's name is Artur Rasizade.",
+                "The name of the leader of Azerbaijan is Artur Rasizade."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "Azerbaijan",
-            "child_node": "Artur_Rasizade",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

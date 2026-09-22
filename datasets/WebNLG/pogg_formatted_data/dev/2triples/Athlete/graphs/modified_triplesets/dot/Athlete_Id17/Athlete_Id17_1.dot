@@ -1,0 +1,5 @@
+strict digraph {
+Aleksandre_Guruli [lexicon_key="Aleksandre_Guruli"];
+FC_Dinamo_Batumi [lexicon_key="FC_Dinamo_Batumi"];
+Aleksandre_Guruli -> FC_Dinamo_Batumi [label=club, lexicon_key=club];
+}

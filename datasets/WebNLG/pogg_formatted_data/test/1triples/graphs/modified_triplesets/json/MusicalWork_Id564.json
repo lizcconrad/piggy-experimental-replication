@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicalBand",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Train_(band)",
+            "edge_properties": {
+                "lexicon_key": "musicalBand"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song Mermaid is by the musical band Train."
+        },
+        "Id2": {
+            "text": "The song Mermaid was written by the band Train."
+        },
+        "Id3": {
+            "text": "The song Mermaid belongs to the musical band Train."
+        }
+    },
+    "gold_outputs": []
+}

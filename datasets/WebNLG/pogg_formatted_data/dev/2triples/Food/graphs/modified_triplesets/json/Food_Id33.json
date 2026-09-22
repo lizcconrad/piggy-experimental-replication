@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Bionico": {
-            "lexicon_key": "Bionico"
+    "graphs": {
+        "Food_Id33_0": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Honey": {
+                    "lexicon_key": "Honey"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Bionico",
+                    "child_node": "Honey",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A popular dessert is Bionico and a variation of this dish can be honey.",
+                "Honey can be added to bionico, a dessert dish.",
+                "Honey can be used as a variation in Bionico which is a dessert."
+            ]
         },
-        "Honey": {
-            "lexicon_key": "Honey"
-        },
-        "Dessert": {
-            "lexicon_key": "Dessert"
+        "Food_Id33_1": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "course",
+                    "parent_node": "Bionico",
+                    "child_node": "Dessert",
+                    "edge_properties": {
+                        "lexicon_key": "course"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A popular dessert is Bionico and a variation of this dish can be honey.",
+                "Honey can be added to bionico, a dessert dish.",
+                "Honey can be used as a variation in Bionico which is a dessert."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Bionico",
-            "child_node": "Honey",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        },
-        {
-            "edge_name": "course",
-            "parent_node": "Bionico",
-            "child_node": "Dessert",
-            "edge_properties": {
-                "lexicon_key": "course"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

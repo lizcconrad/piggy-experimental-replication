@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "94.0": {
+            "lexicon_key": "94.0"
+        },
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "94.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cyril_Frankel",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young, which is a 1956 film directed by Cyril Frankel, is 94 minutes in length."
+        },
+        "Id2": {
+            "text": "Cyril Frankel directed the movie It's Great to be Young, which has a running time of 94 minutes."
+        },
+        "Id3": {
+            "text": "The length of 1956's film \"It's Great to Be Young\" is 94 minutes and was directed by Cyril Frankel."
+        }
+    },
+    "gold_outputs": []
+}

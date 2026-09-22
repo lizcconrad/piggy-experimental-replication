@@ -1,0 +1,5 @@
+strict digraph {
+Hip_hop_music [lexicon_key="Hip_hop_music"];
+Disco [lexicon_key=Disco];
+Hip_hop_music -> Disco [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

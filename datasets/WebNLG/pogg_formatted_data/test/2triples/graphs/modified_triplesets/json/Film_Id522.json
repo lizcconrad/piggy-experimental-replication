@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        },
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Harold_French",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harold French directed English Without Tears, which is 89 minutes in duration."
+        },
+        "Id2": {
+            "text": "Harold French directed the film English Without Tears, which will run for 89 minutes."
+        },
+        "Id3": {
+            "text": "The duration of the movie \u00b4English Without Tears\u00b4, directed by Harold French, is 89 minutes."
+        }
+    },
+    "gold_outputs": []
+}

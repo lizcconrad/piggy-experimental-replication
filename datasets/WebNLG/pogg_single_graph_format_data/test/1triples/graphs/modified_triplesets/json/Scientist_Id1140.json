@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Carter_constant": {
+            "lexicon_key": "Carter_constant"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Carter_constant",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter is known for the Carter constant."
+        },
+        "Id2": {
+            "text": "Brandon Carter is known for the Carter Constant."
+        },
+        "Id3": {
+            "text": "Brandon Carter is known for the invention of the Carter constant."
+        }
+    },
+    "gold_outputs": []
+}

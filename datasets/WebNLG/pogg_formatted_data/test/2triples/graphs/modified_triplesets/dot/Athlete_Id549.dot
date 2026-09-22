@@ -1,0 +1,7 @@
+strict digraph {
+Piotr_Hallmann [lexicon_key="Piotr_Hallmann"];
+70.308 [lexicon_key=70.308];
+"Gdynia,_Poland" [lexicon_key="Gdynia,_Poland"];
+Piotr_Hallmann -> 70.308 [label=weight, lexicon_key=weight];
+Piotr_Hallmann -> "Gdynia,_Poland" [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "Geof_Bartz": {
+            "lexicon_key": "Geof_Bartz"
+        },
+        "Jamie_Lawrence": {
+            "lexicon_key": "Jamie_Lawrence"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "HBO",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "editor",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Geof_Bartz",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        },
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Jamie_Lawrence",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Death on a Factory Farm, which was broadcasted by HBO, was edited by Geof Bartz and the music was composed by Jamie Lawrence."
+        },
+        "Id2": {
+            "text": "Death on a Factory Farm, an HBO film edited by Geof Bartz, features music written by Jamie Lawrence."
+        },
+        "Id3": {
+            "text": "\"Death on a Factory Farm\" a film broadcasted by HBO was edited by Geof Bartz with music composed by Jamie Lawrence."
+        }
+    },
+    "gold_outputs": []
+}

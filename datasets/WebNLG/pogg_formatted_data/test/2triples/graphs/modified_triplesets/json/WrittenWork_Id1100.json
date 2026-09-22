@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Eric_Flint": {
+            "lexicon_key": "Eric_Flint"
+        },
+        "Robert_A._Heinlein": {
+            "lexicon_key": "Robert_A._Heinlein"
+        },
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "influencedBy",
+            "parent_node": "Eric_Flint",
+            "child_node": "Robert_A._Heinlein",
+            "edge_properties": {
+                "lexicon_key": "influencedBy"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "Eric_Flint",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The author of 1634: The Bavarian Crisis, Eric Flint, was influenced by Robert A. Heinlein."
+        },
+        "Id2": {
+            "text": "1634: The Bavarian Crisis's author, Eric Flint, was influenced by Robert A. Heinlein."
+        },
+        "Id3": {
+            "text": "Eric Flint, author of 1634: The Bavarian Crisis, was influenced by Robert A. Heinlein."
+        }
+    },
+    "gold_outputs": []
+}

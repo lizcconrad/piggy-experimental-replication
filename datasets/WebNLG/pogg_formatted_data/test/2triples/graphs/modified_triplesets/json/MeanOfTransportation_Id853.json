@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "V12_engine": {
+            "lexicon_key": "V12_engine"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "V12_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ALCO RS-3, powered by a V12 engine, is 17068.8 (millimetres) in length."
+        },
+        "Id2": {
+            "text": "At 17068.8 millimetres in length, the ALCO RS-3 has a V12 engine."
+        },
+        "Id3": {
+            "text": "The length of the V12 ALCO RS-3 is 17068.8 millimetres."
+        }
+    },
+    "gold_outputs": []
+}

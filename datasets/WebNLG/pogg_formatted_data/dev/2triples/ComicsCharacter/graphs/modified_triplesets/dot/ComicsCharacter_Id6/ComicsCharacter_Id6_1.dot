@@ -1,0 +1,5 @@
+strict digraph {
+Jerry_Ordway [lexicon_key="Jerry_Ordway"];
+Americans [lexicon_key=Americans];
+Jerry_Ordway -> Americans [label=nationality, lexicon_key=nationality];
+}

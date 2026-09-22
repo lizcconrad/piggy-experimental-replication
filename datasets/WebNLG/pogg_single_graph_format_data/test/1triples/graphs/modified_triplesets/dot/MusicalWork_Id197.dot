@@ -1,0 +1,5 @@
+strict digraph {
+"Take_It_Off!" [lexicon_key="Take_It_Off!"];
+Noise_rock [lexicon_key="Noise_rock"];
+"Take_It_Off!" -> Noise_rock [label=genre, lexicon_key=genre];
+}

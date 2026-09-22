@@ -1,0 +1,3 @@
+Zaoyang time zone is UTC +8.
+Zaoyang has a UTC offset of +8.
+The city of Zaoyang falls into UTC offset +8.

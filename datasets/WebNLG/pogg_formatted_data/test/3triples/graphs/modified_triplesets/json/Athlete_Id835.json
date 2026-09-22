@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        },
+        "FC_Terek_Grozny": {
+            "lexicon_key": "FC_Terek_Grozny"
+        },
+        "Rashid_Rakhimov": {
+            "lexicon_key": "Rashid_Rakhimov"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Terek_Grozny",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "FC_Terek_Grozny",
+            "child_node": "Rashid_Rakhimov",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov played for the youth FC Spartak Moscow previously, as well as the FC Terek Grozny which is managed by Rashid Rakhimov."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov was previously a member of the youth side of FC Spartak Moscow and currently is on the FC Terek Grozny club which is managed by Rashid Rakhimov."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov plays for FC Terek Grozny and played for FC Spartak Moscow's youth team. His manager is Rashid Rakhimov."
+        }
+    },
+    "gold_outputs": []
+}

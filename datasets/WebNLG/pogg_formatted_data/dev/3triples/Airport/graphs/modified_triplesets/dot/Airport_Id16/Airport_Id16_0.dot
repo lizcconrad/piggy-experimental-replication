@@ -1,0 +1,5 @@
+strict digraph {
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+Flemish_Region [lexicon_key="Flemish_Region"];
+Antwerp_International_Airport -> Flemish_Region [label=owner, lexicon_key=owner];
+}

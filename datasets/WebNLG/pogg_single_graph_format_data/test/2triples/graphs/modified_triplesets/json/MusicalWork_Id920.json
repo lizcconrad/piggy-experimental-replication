@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Wharton_Tiers": {
+            "lexicon_key": "Wharton_Tiers"
+        },
+        "Take_It_Off!": {
+            "lexicon_key": "Take_It_Off!"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Wharton_Tiers",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Take_It_Off!",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Wharton Tiers produced the Turn Me On album, followed by the album Take It Off!"
+        },
+        "Id2": {
+            "text": "Wharton Tiers produced Turn Me On, which was followed by Take It Off!"
+        },
+        "Id3": {
+            "text": "The album Turn me on Produced by Wharton Tiers came before the album Take it off."
+        }
+    },
+    "gold_outputs": []
+}

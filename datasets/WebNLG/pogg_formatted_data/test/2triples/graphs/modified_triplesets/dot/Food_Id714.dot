@@ -1,0 +1,7 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Mexico [lexicon_key=Mexico];
+Cottage_cheese [lexicon_key="Cottage_cheese"];
+Bionico -> Mexico [label=country, lexicon_key=country];
+Bionico -> Cottage_cheese [label=dishVariation, lexicon_key=dishVariation];
+}

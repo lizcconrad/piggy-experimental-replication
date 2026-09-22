@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        },
+        "FC_Terek_Grozny": {
+            "lexicon_key": "FC_Terek_Grozny"
+        },
+        "Grozny": {
+            "lexicon_key": "Grozny"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "FC_Terek_Grozny",
+            "child_node": "Grozny",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Terek_Grozny",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov is a member of FC Spartak Moscow youth team and FC Terek Grozny club. The latter club is based in Grozny."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov played for FC Spartak Moscow's youth team and currently plays for FC Terek Grozny. FC Terek Grozny's ground is at Grozny."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov played for the youth FC Spartak Moscow before playing for FC Terek Grozny, which is located in Grozny."
+        }
+    },
+    "gold_outputs": []
+}

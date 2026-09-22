@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Adam_West [lexicon_key="Adam_West"];
+Roadside_Attractions [lexicon_key="Roadside_Attractions"];
+Lionsgate [lexicon_key=Lionsgate];
+Super_Capers -> Adam_West [label=starring, lexicon_key=starring];
+Super_Capers -> Roadside_Attractions [label=distributor, lexicon_key=distributor];
+Super_Capers -> Lionsgate [label=distributor, lexicon_key=distributor];
+}

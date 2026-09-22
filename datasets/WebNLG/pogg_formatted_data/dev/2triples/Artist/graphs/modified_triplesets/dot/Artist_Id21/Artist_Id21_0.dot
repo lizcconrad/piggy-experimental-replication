@@ -1,0 +1,5 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+Rhythm_and_blues [lexicon_key="Rhythm_and_blues"];
+Anders_Osborne -> Rhythm_and_blues [label=genre, lexicon_key=genre];
+}

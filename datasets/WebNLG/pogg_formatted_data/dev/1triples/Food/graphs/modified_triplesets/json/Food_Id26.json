@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Indonesia": {
-            "lexicon_key": "Indonesia"
-        },
-        "Jusuf_Kalla": {
-            "lexicon_key": "Jusuf_Kalla"
+    "graphs": {
+        "Food_Id26_0": {
+            "nodes": {
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                },
+                "Jusuf_Kalla": {
+                    "lexicon_key": "Jusuf_Kalla"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Indonesia",
+                    "child_node": "Jusuf_Kalla",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Jusuf Kalla is a leader in Indonesia.",
+                "Jusuf Kalla is the leader of Indonesia."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "Indonesia",
-            "child_node": "Jusuf_Kalla",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

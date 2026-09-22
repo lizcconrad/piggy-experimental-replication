@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Modern_Hebrew": {
+            "lexicon_key": "Modern_Hebrew"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "officialLanguage",
+            "parent_node": "Israel",
+            "child_node": "Modern_Hebrew",
+            "edge_properties": {
+                "lexicon_key": "officialLanguage"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina died in Israel, whose official language is modern Hebrew."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina died in Israel where Modern Hebrew is the official language."
+        },
+        "Id3": {
+            "text": "The death place of Liselotte Grschebina is Israel, where the official language is Modern Hebrew."
+        }
+    },
+    "gold_outputs": []
+}

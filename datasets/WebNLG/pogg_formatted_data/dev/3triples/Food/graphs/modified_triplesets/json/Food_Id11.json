@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Ayam_penyet": {
-            "lexicon_key": "Ayam_penyet"
+    "graphs": {
+        "Food_Id11_0": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "Malaysia": {
+                    "lexicon_key": "Malaysia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "Malaysia",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet is made from squeezed or squashed chicken served with sambal and is a popular dish in Java, Malaysia.",
+                "Ayam penyet originates from Malaysia and Java. The main ingredients are squeezed or smashed fried chicken served with sambal.",
+                "Ayam penyet's main ingredients are squeezed or smashed fried chicken served with sambal. It is a popular dish in Malaysia and also found in Java."
+            ]
         },
-        "Malaysia": {
-            "lexicon_key": "Malaysia"
+        "Food_Id11_1": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "Java": {
+                    "lexicon_key": "Java"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "Java",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet is made from squeezed or squashed chicken served with sambal and is a popular dish in Java, Malaysia.",
+                "Ayam penyet originates from Malaysia and Java. The main ingredients are squeezed or smashed fried chicken served with sambal.",
+                "Ayam penyet's main ingredients are squeezed or smashed fried chicken served with sambal. It is a popular dish in Malaysia and also found in Java."
+            ]
         },
-        "Java": {
-            "lexicon_key": "Java"
-        },
-        "\"Squeezed\" or \"smashed\" fried chicken served with sambal": {
-            "lexicon_key": "\"Squeezed\" or \"smashed\" fried chicken served with sambal"
+        "Food_Id11_2": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "\"Squeezed\" or \"smashed\" fried chicken served with sambal": {
+                    "lexicon_key": "\"Squeezed\" or \"smashed\" fried chicken served with sambal"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mainIngredient",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "\"Squeezed\" or \"smashed\" fried chicken served with sambal",
+                    "edge_properties": {
+                        "lexicon_key": "mainIngredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet is made from squeezed or squashed chicken served with sambal and is a popular dish in Java, Malaysia.",
+                "Ayam penyet originates from Malaysia and Java. The main ingredients are squeezed or smashed fried chicken served with sambal.",
+                "Ayam penyet's main ingredients are squeezed or smashed fried chicken served with sambal. It is a popular dish in Malaysia and also found in Java."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "region",
-            "parent_node": "Ayam_penyet",
-            "child_node": "Malaysia",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Ayam_penyet",
-            "child_node": "Java",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "mainIngredient",
-            "parent_node": "Ayam_penyet",
-            "child_node": "\"Squeezed\" or \"smashed\" fried chicken served with sambal",
-            "edge_properties": {
-                "lexicon_key": "mainIngredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

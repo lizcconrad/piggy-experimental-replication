@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+Virtuti_Militari [lexicon_key="Virtuti_Militari"];
+Adam_Koc -> Virtuti_Militari [label=award, lexicon_key=award];
+}

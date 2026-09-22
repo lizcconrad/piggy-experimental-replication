@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idTheCave1": {
-            "lexicon_key": "idTheCave",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idTheCave1_subgraph_0": {
+            "nodes": {
+                "idTheCave1": {
+                    "lexicon_key": "idTheCave",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

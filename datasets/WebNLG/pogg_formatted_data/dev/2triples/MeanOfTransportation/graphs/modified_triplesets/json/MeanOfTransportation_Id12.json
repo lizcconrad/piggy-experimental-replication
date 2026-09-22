@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Acura_TLX": {
-            "lexicon_key": "Acura_TLX"
+    "graphs": {
+        "MeanOfTransportation_Id12_0": {
+            "nodes": {
+                "Acura_TLX": {
+                    "lexicon_key": "Acura_TLX"
+                },
+                "Honda": {
+                    "lexicon_key": "Honda"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "manufacturer",
+                    "parent_node": "Acura_TLX",
+                    "child_node": "Honda",
+                    "edge_properties": {
+                        "lexicon_key": "manufacturer"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Honda is the manufacturer of the Acura TLX which has an Inline-four engine.",
+                "The Acura TLX has an Inline-four engine and is made by Honda.",
+                "The Acura TLX which has an Inline-four engine is manufactured by Honda."
+            ]
         },
-        "Honda": {
-            "lexicon_key": "Honda"
-        },
-        "Inline-four_engine": {
-            "lexicon_key": "Inline-four_engine"
+        "MeanOfTransportation_Id12_1": {
+            "nodes": {
+                "Acura_TLX": {
+                    "lexicon_key": "Acura_TLX"
+                },
+                "Inline-four_engine": {
+                    "lexicon_key": "Inline-four_engine"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "engine",
+                    "parent_node": "Acura_TLX",
+                    "child_node": "Inline-four_engine",
+                    "edge_properties": {
+                        "lexicon_key": "engine"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Honda is the manufacturer of the Acura TLX which has an Inline-four engine.",
+                "The Acura TLX has an Inline-four engine and is made by Honda.",
+                "The Acura TLX which has an Inline-four engine is manufactured by Honda."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "manufacturer",
-            "parent_node": "Acura_TLX",
-            "child_node": "Honda",
-            "edge_properties": {
-                "lexicon_key": "manufacturer"
-            }
-        },
-        {
-            "edge_name": "engine",
-            "parent_node": "Acura_TLX",
-            "child_node": "Inline-four_engine",
-            "edge_properties": {
-                "lexicon_key": "engine"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Abner_W._Sibal": {
-            "lexicon_key": "Abner_W._Sibal"
+    "graphs": {
+        "Politician_Id9_0": {
+            "nodes": {
+                "Abner_W._Sibal": {
+                    "lexicon_key": "Abner_W._Sibal"
+                },
+                "United_States_Army": {
+                    "lexicon_key": "United_States_Army"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "militaryBranch",
+                    "parent_node": "Abner_W._Sibal",
+                    "child_node": "United_States_Army",
+                    "edge_properties": {
+                        "lexicon_key": "militaryBranch"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abner W Sibal served in the United States Army and fought in World War II.",
+                "Abner W. Sibal was in the U.S. Army during WWII.",
+                "Abner W. Sibal, served in the United States Army, and fought during WWII."
+            ]
         },
-        "United_States_Army": {
-            "lexicon_key": "United_States_Army"
-        },
-        "World_War_II": {
-            "lexicon_key": "World_War_II"
+        "Politician_Id9_1": {
+            "nodes": {
+                "Abner_W._Sibal": {
+                    "lexicon_key": "Abner_W._Sibal"
+                },
+                "World_War_II": {
+                    "lexicon_key": "World_War_II"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Abner_W._Sibal",
+                    "child_node": "World_War_II",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abner W Sibal served in the United States Army and fought in World War II.",
+                "Abner W. Sibal was in the U.S. Army during WWII.",
+                "Abner W. Sibal, served in the United States Army, and fought during WWII."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "militaryBranch",
-            "parent_node": "Abner_W._Sibal",
-            "child_node": "United_States_Army",
-            "edge_properties": {
-                "lexicon_key": "militaryBranch"
-            }
-        },
-        {
-            "edge_name": "battle",
-            "parent_node": "Abner_W._Sibal",
-            "child_node": "World_War_II",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

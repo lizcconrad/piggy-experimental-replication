@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Danielle_Harris": {
+            "lexicon_key": "Danielle_Harris"
+        },
+        "Ray_Griggs_(director)": {
+            "lexicon_key": "Ray_Griggs_(director)"
+        },
+        "98.0": {
+            "lexicon_key": "98.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Danielle_Harris",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Super_Capers",
+            "child_node": "98.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers, a film written by Ray Griggs, is 98 minutes long. Danielle Harris was one of the stars of the movie."
+        },
+        "Id2": {
+            "text": "The film Super Capers is written by Ray Griggs and stars Danielle Harris. The film's running time is 98 minutes."
+        },
+        "Id3": {
+            "text": "The 98.0 minute film,Super Capers starring Danielle Harris was written by the director Ray Griggs."
+        }
+    },
+    "gold_outputs": []
+}

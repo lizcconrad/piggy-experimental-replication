@@ -1,0 +1,7 @@
+strict digraph {
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+Theatre_of_Eternal_Music [lexicon_key="Theatre_of_Eternal_Music"];
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+The_Velvet_Underground -> Theatre_of_Eternal_Music [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> The_Velvet_Underground [label=producer, lexicon_key=producer];
+}

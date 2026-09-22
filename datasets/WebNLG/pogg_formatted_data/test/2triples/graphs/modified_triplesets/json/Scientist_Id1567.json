@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "Winchester": {
+            "lexicon_key": "Winchester"
+        },
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "Kingdom_of_England",
+            "child_node": "Winchester",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "British national Lady Anne Monson lived in the Kingdom of England whose capital was Winchester."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson\u2019s nationality is English, where the capital is Winchester."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson was from the Kingdom of England whose capital city was Winchester."
+        }
+    },
+    "gold_outputs": []
+}

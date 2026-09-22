@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Alba_Iulia": {
-            "lexicon_key": "Alba_Iulia"
-        },
-        "Alba_County": {
-            "lexicon_key": "Alba_County"
+    "graphs": {
+        "University_Id4_0": {
+            "nodes": {
+                "Alba_Iulia": {
+                    "lexicon_key": "Alba_Iulia"
+                },
+                "Alba_County": {
+                    "lexicon_key": "Alba_County"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Alba_Iulia",
+                    "child_node": "Alba_County",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alba Iulia is part of Alba County.",
+                "Alba Iulia is part of the county of Alba."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Alba_Iulia",
-            "child_node": "Alba_County",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

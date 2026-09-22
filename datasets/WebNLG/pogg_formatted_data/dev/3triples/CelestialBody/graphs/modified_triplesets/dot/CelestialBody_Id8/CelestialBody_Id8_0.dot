@@ -1,0 +1,5 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"7.9 (kilograms)" [lexicon_key="7.9 (kilograms)"];
+"103_Hera" -> "7.9 (kilograms)" [label=mass, lexicon_key=mass];
+}

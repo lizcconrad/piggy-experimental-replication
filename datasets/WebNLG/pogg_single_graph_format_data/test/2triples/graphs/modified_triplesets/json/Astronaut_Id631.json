@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "People's_Republic_of_China": {
+            "lexicon_key": "People's_Republic_of_China"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "People's_Republic_of_China",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng worked as a fighter pilot and is from the People's Republic of China."
+        },
+        "Id2": {
+            "text": "Nie Haisheng was a fighter pilot from the People's Republic of China."
+        },
+        "Id3": {
+            "text": "Nie Haisheng is a fighter pilot and a citizen of the People\u2019s Republic of China."
+        }
+    },
+    "gold_outputs": []
+}

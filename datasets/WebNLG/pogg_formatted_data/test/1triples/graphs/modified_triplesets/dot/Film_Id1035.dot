@@ -1,0 +1,5 @@
+strict digraph {
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+London [lexicon_key=London];
+Anatole_de_Grunwald -> London [label=deathPlace, lexicon_key=deathPlace];
+}

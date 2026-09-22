@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "In the United States, one of the national ethnic groups are the African Americans. The United States is where Abraham A. Ribicoff, who was married to Casey Ribicoff, died."
+        },
+        "Id2": {
+            "text": "In the USA, where African Americans are a national ethnic group, Casey Ribicoff and Abraham A. Ribicoff were married and Abraham later died there."
+        },
+        "Id3": {
+            "text": "Abraham Ribicoff died in the United States where African Americans are a national ethnic group. He was married to Casey Ribicoff."
+        }
+    },
+    "gold_outputs": []
+}

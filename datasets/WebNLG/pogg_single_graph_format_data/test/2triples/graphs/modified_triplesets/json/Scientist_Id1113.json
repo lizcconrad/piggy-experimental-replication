@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "1934-01-01": {
+            "lexicon_key": "1934-01-01"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "1934-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy was born on January 1st 1934 in Turkey."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy was born in Turkey on January 1st, 1934."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy was born on January 1, 1934, in Turkey."
+        }
+    },
+    "gold_outputs": []
+}

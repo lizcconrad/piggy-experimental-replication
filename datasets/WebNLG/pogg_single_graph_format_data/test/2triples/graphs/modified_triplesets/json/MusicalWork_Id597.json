@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Proto-punk": {
+            "lexicon_key": "Proto-punk"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Rock_music",
+            "child_node": "Proto-punk",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume I: The Quine Tapes's genre is rock, of which proto-punk is a musical subgenre."
+        },
+        "Id2": {
+            "text": "The album Bootleg Series Volume 1: The Quine Tapes fits into the Rock music genre, in the subgenre of \u2018Proto-punk\u2019."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes are in the rock music genre of which proto-punk is a subgenre of."
+        }
+    },
+    "gold_outputs": []
+}

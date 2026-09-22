@@ -1,0 +1,9 @@
+strict digraph {
+"11th_Mississippi_Infantry_Monument" [lexicon_key="11th_Mississippi_Infantry_Monument"];
+2000 [lexicon_key=2000];
+"Adams_County,_Pennsylvania" [lexicon_key="Adams_County,_Pennsylvania"];
+"Cumberland_County,_Pennsylvania" [lexicon_key="Cumberland_County,_Pennsylvania"];
+"11th_Mississippi_Infantry_Monument" -> 2000 [label=established, lexicon_key=established];
+"11th_Mississippi_Infantry_Monument" -> "Adams_County,_Pennsylvania" [label=location, lexicon_key=location];
+"Adams_County,_Pennsylvania" -> "Cumberland_County,_Pennsylvania" [label=hasToItsNorth, lexicon_key=hasToItsNorth];
+}

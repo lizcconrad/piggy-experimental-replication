@@ -1,0 +1,5 @@
+strict digraph {
+"Andrzej_Piotr_Ruszczyński" [lexicon_key="Andrzej_Piotr_Ruszczyński"];
+Mathematical_optimization [lexicon_key="Mathematical_optimization"];
+"Andrzej_Piotr_Ruszczyński" -> Mathematical_optimization [label=professionalField, lexicon_key=professionalField];
+}

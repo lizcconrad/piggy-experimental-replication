@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "Bernard_Knowles": {
+            "lexicon_key": "Bernard_Knowles"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "cinematography",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Bernard_Knowles",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Anatole de Grunwald's English Without tears cinematography was done by Bernard Knowles."
+        },
+        "Id2": {
+            "text": "Bernard Knowles was the cinematographer of the film English Without Tears, written by Anatole de Grunwald."
+        },
+        "Id3": {
+            "text": "Bernard Knowles is the cinematographer of the movie English Without Tears which was written by Anatole de Grunwald."
+        }
+    },
+    "gold_outputs": []
+}

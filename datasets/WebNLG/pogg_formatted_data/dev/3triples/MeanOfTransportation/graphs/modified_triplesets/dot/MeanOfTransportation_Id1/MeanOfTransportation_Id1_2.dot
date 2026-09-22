@@ -1,0 +1,5 @@
+strict digraph {
+"1955_Dodge" [lexicon_key="1955_Dodge"];
+Hardtop [lexicon_key=Hardtop];
+"1955_Dodge" -> Hardtop [label=bodyStyle, lexicon_key=bodyStyle];
+}

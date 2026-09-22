@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "Angola_International_Airport": {
-            "lexicon_key": "Angola_International_Airport"
+    "graphs": {
+        "Airport_Id15_0": {
+            "nodes": {
+                "Angola_International_Airport": {
+                    "lexicon_key": "Angola_International_Airport"
+                },
+                "Luanda": {
+                    "lexicon_key": "Luanda"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "cityServed",
+                    "parent_node": "Angola_International_Airport",
+                    "child_node": "Luanda",
+                    "edge_properties": {
+                        "lexicon_key": "cityServed"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola International Airport serves the city of Luanda, it is 159m above sea level.",
+                "The Angola International Airport, 159 m above sea level serves Luanda."
+            ]
         },
-        "Luanda": {
-            "lexicon_key": "Luanda"
-        },
-        "159": {
-            "lexicon_key": "159"
+        "Airport_Id15_1": {
+            "nodes": {
+                "Angola_International_Airport": {
+                    "lexicon_key": "Angola_International_Airport"
+                },
+                "159": {
+                    "lexicon_key": "159"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "elevationAboveTheSeaLevelInMetres",
+                    "parent_node": "Angola_International_Airport",
+                    "child_node": "159",
+                    "edge_properties": {
+                        "lexicon_key": "elevationAboveTheSeaLevelInMetres"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola International Airport serves the city of Luanda, it is 159m above sea level.",
+                "The Angola International Airport, 159 m above sea level serves Luanda."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "cityServed",
-            "parent_node": "Angola_International_Airport",
-            "child_node": "Luanda",
-            "edge_properties": {
-                "lexicon_key": "cityServed"
-            }
-        },
-        {
-            "edge_name": "elevationAboveTheSeaLevelInMetres",
-            "parent_node": "Angola_International_Airport",
-            "child_node": "159",
-            "edge_properties": {
-                "lexicon_key": "elevationAboveTheSeaLevelInMetres"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

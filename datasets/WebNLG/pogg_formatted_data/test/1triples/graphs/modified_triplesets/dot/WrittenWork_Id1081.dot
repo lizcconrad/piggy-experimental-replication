@@ -1,0 +1,5 @@
+strict digraph {
+The_Two_Towers [lexicon_key="The_Two_Towers"];
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+The_Two_Towers -> The_Fellowship_of_the_Ring [label=precededBy, lexicon_key=precededBy];
+}

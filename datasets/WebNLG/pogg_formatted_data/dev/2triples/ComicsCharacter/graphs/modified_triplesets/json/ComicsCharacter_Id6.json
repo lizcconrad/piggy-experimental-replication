@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Bibbo_Bibbowski": {
-            "lexicon_key": "Bibbo_Bibbowski"
+    "graphs": {
+        "ComicsCharacter_Id6_0": {
+            "nodes": {
+                "Bibbo_Bibbowski": {
+                    "lexicon_key": "Bibbo_Bibbowski"
+                },
+                "Jerry_Ordway": {
+                    "lexicon_key": "Jerry_Ordway"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Bibbo_Bibbowski",
+                    "child_node": "Jerry_Ordway",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bibbo Bibbowski was created by American, Jerry Ordway.",
+                "Jerry Ordway, an American, is the creator of Bibbo Bibbowski.",
+                "The creator of Bibbo Bibbowski is Jerry Ordway, an American."
+            ]
         },
-        "Jerry_Ordway": {
-            "lexicon_key": "Jerry_Ordway"
-        },
-        "Americans": {
-            "lexicon_key": "Americans"
+        "ComicsCharacter_Id6_1": {
+            "nodes": {
+                "Jerry_Ordway": {
+                    "lexicon_key": "Jerry_Ordway"
+                },
+                "Americans": {
+                    "lexicon_key": "Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "nationality",
+                    "parent_node": "Jerry_Ordway",
+                    "child_node": "Americans",
+                    "edge_properties": {
+                        "lexicon_key": "nationality"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bibbo Bibbowski was created by American, Jerry Ordway.",
+                "Jerry Ordway, an American, is the creator of Bibbo Bibbowski.",
+                "The creator of Bibbo Bibbowski is Jerry Ordway, an American."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Bibbo_Bibbowski",
-            "child_node": "Jerry_Ordway",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        },
-        {
-            "edge_name": "nationality",
-            "parent_node": "Jerry_Ordway",
-            "child_node": "Americans",
-            "edge_properties": {
-                "lexicon_key": "nationality"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

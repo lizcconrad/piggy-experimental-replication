@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Turn Me On is by the American band The Honeymoon Killers."
+        },
+        "Id2": {
+            "text": "The album by the Honeymoon Killers is titled Turn Me On."
+        },
+        "Id3": {
+            "text": "The artist of the Turn Me On album is the Honeymoon Killers."
+        }
+    },
+    "gold_outputs": []
+}

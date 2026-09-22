@@ -1,0 +1,5 @@
+strict digraph {
+Aleksandr_Chumakov [lexicon_key="Aleksandr_Chumakov"];
+Russia [lexicon_key=Russia];
+Aleksandr_Chumakov -> Russia [label=deathPlace, lexicon_key=deathPlace];
+}

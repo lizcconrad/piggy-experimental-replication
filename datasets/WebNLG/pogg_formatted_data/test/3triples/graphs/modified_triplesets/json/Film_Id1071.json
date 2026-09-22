@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Michael_Rooker": {
+            "lexicon_key": "Michael_Rooker"
+        },
+        "Tom_Sizemore": {
+            "lexicon_key": "Tom_Sizemore"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Michael_Rooker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Tom_Sizemore",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Super_Capers",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers, starring Michael Rooker and Tom Sizemore, is a movie in English."
+        },
+        "Id2": {
+            "text": "Michael Rooker and Tom Sizemore star in the English-speaking movie Super Capers."
+        },
+        "Id3": {
+            "text": "Michael Rooker played in Super Capers, an English-language film starring Tom Sizemore."
+        }
+    },
+    "gold_outputs": []
+}

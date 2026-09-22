@@ -1,0 +1,9 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+Phil_Spector [lexicon_key="Phil_Spector"];
+"Espionage_(production_team)" [lexicon_key="Espionage_(production_team)"];
+"Mermaid_(Train_song)" -> "Imagine_(John_Lennon_song)" [label=followedBy, lexicon_key=followedBy];
+"Mermaid_(Train_song)" -> "Espionage_(production_team)" [label=producer, lexicon_key=producer];
+"Imagine_(John_Lennon_song)" -> Phil_Spector [label=producer, lexicon_key=producer];
+}

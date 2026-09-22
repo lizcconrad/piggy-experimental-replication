@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "Adisham_Hall": {
-            "lexicon_key": "Adisham_Hall"
+    "graphs": {
+        "Building_Id11_0": {
+            "nodes": {
+                "Adisham_Hall": {
+                    "lexicon_key": "Adisham_Hall"
+                },
+                "\"Tudor and Jacabian\"": {
+                    "lexicon_key": "\"Tudor and Jacabian\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "architecturalStyle",
+                    "parent_node": "Adisham_Hall",
+                    "child_node": "\"Tudor and Jacabian\"",
+                    "edge_properties": {
+                        "lexicon_key": "architecturalStyle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adisham Hall's architectural style is Tudor and Jacabian and the building is located in Haputale, Sri Lanka.",
+                "Adisham Hall, Haputale, Sri Lanka, is Tudor and Jacabian in style."
+            ]
         },
-        "\"Tudor and Jacabian\"": {
-            "lexicon_key": "\"Tudor and Jacabian\""
-        },
-        "\"Haputale, Sri Lanka\"": {
-            "lexicon_key": "\"Haputale, Sri Lanka\""
+        "Building_Id11_1": {
+            "nodes": {
+                "Adisham_Hall": {
+                    "lexicon_key": "Adisham_Hall"
+                },
+                "\"Haputale, Sri Lanka\"": {
+                    "lexicon_key": "\"Haputale, Sri Lanka\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Adisham_Hall",
+                    "child_node": "\"Haputale, Sri Lanka\"",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adisham Hall's architectural style is Tudor and Jacabian and the building is located in Haputale, Sri Lanka.",
+                "Adisham Hall, Haputale, Sri Lanka, is Tudor and Jacabian in style."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "architecturalStyle",
-            "parent_node": "Adisham_Hall",
-            "child_node": "\"Tudor and Jacabian\"",
-            "edge_properties": {
-                "lexicon_key": "architecturalStyle"
-            }
-        },
-        {
-            "edge_name": "location",
-            "parent_node": "Adisham_Hall",
-            "child_node": "\"Haputale, Sri Lanka\"",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

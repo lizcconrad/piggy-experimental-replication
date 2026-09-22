@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Akeem_Ayers": {
-            "lexicon_key": "Akeem_Ayers"
+    "graphs": {
+        "Athlete_Id8_0": {
+            "nodes": {
+                "Akeem_Ayers": {
+                    "lexicon_key": "Akeem_Ayers"
+                },
+                "St._Louis_Rams": {
+                    "lexicon_key": "St._Louis_Rams"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "formerTeam",
+                    "parent_node": "Akeem_Ayers",
+                    "child_node": "St._Louis_Rams",
+                    "edge_properties": {
+                        "lexicon_key": "formerTeam"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Ayers' former team is St. Louis Rams. Who are based in the city of St. Louis. He debuted with the Tennessee Titans.",
+                "American Football team, St. Louis Rams, are based in the city of St. Louis. It is the former team of Akeem Ayersm, whose debut team, was the Tennessee Titans."
+            ]
         },
-        "St._Louis_Rams": {
-            "lexicon_key": "St._Louis_Rams"
+        "Athlete_Id8_1": {
+            "nodes": {
+                "St._Louis_Rams": {
+                    "lexicon_key": "St._Louis_Rams"
+                },
+                "St._Louis": {
+                    "lexicon_key": "St._Louis"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "city",
+                    "parent_node": "St._Louis_Rams",
+                    "child_node": "St._Louis",
+                    "edge_properties": {
+                        "lexicon_key": "city"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Ayers' former team is St. Louis Rams. Who are based in the city of St. Louis. He debuted with the Tennessee Titans.",
+                "American Football team, St. Louis Rams, are based in the city of St. Louis. It is the former team of Akeem Ayersm, whose debut team, was the Tennessee Titans."
+            ]
         },
-        "St._Louis": {
-            "lexicon_key": "St._Louis"
-        },
-        "Tennessee_Titans": {
-            "lexicon_key": "Tennessee_Titans"
+        "Athlete_Id8_2": {
+            "nodes": {
+                "Akeem_Ayers": {
+                    "lexicon_key": "Akeem_Ayers"
+                },
+                "Tennessee_Titans": {
+                    "lexicon_key": "Tennessee_Titans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "debutTeam",
+                    "parent_node": "Akeem_Ayers",
+                    "child_node": "Tennessee_Titans",
+                    "edge_properties": {
+                        "lexicon_key": "debutTeam"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Ayers' former team is St. Louis Rams. Who are based in the city of St. Louis. He debuted with the Tennessee Titans.",
+                "American Football team, St. Louis Rams, are based in the city of St. Louis. It is the former team of Akeem Ayersm, whose debut team, was the Tennessee Titans."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "formerTeam",
-            "parent_node": "Akeem_Ayers",
-            "child_node": "St._Louis_Rams",
-            "edge_properties": {
-                "lexicon_key": "formerTeam"
-            }
-        },
-        {
-            "edge_name": "city",
-            "parent_node": "St._Louis_Rams",
-            "child_node": "St._Louis",
-            "edge_properties": {
-                "lexicon_key": "city"
-            }
-        },
-        {
-            "edge_name": "debutTeam",
-            "parent_node": "Akeem_Ayers",
-            "child_node": "Tennessee_Titans",
-            "edge_properties": {
-                "lexicon_key": "debutTeam"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

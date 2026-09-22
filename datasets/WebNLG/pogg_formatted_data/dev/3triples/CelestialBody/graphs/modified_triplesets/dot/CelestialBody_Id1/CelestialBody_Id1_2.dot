@@ -1,0 +1,5 @@
+strict digraph {
+"(410777)_2009_FD" [lexicon_key="(410777)_2009_FD"];
+Spacewatch [lexicon_key=Spacewatch];
+"(410777)_2009_FD" -> Spacewatch [label=discoverer, lexicon_key=discoverer];
+}

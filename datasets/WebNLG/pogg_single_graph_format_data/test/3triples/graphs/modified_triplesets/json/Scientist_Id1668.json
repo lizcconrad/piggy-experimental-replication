@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "Turkish_language": {
+            "lexicon_key": "Turkish_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Istanbul",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Turkey",
+            "child_node": "Turkish_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy resides in Istanbul in Turkey where the primary language is Turkish."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy lives in Istanbul, Turkey, where the official language is Turkish."
+        },
+        "Id3": {
+            "text": "Formerly a resident of Istanbul, Nurhan Atasoy speaks the Turkish language and currently resides in Turkey."
+        }
+    },
+    "gold_outputs": []
+}

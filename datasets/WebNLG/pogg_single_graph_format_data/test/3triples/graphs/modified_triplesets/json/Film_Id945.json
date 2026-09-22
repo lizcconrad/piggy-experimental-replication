@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        },
+        "Cecil_Parker": {
+            "lexicon_key": "Cecil_Parker"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "John_Mills",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cyril_Frankel",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cecil_Parker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young is a 1956 film which was produced by Cyril Frankel, and starred John Mills and Cecil Parker."
+        },
+        "Id2": {
+            "text": "The 1956 film It's Great to be Young was directed by Cyril Frankel. The star of the movie was Cecil Parker, and John Mills had a main role as well."
+        },
+        "Id3": {
+            "text": "John Mills plays the lead and Cecil Parker had a main role in the 1956 movie, It's Great to Be Young which was directed by Cyril Frankel."
+        }
+    },
+    "gold_outputs": []
+}

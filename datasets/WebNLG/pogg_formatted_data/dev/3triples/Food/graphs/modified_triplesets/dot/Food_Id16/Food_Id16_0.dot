@@ -1,0 +1,5 @@
+strict digraph {
+Bacon_sandwich [lexicon_key="Bacon_sandwich"];
+BLT [lexicon_key=BLT];
+Bacon_sandwich -> BLT [label=dishVariation, lexicon_key=dishVariation];
+}

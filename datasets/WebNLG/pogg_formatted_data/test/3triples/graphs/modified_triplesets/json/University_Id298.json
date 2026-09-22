@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "Tennis": {
+            "lexicon_key": "Tennis"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "sportsOffered",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Tennis",
+            "edge_properties": {
+                "lexicon_key": "sportsOffered"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bangalore\u2018s Acharya Institute of Technology (affiliated with Visvesvaraya Technological University) has a tennis program."
+        },
+        "Id2": {
+            "text": "Tennis is offered at the Bangalore-based Acharya Institute of Technology, a college affiliated with Visvesvaraya Technological University."
+        },
+        "Id3": {
+            "text": "The Acharya Institute of Technology in Bangalore, is affiliated with the Visvesvaraya Technological University and offers tennis as a sport option."
+        }
+    },
+    "gold_outputs": []
+}

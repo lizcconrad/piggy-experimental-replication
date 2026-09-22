@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "George_Monson": {
+            "lexicon_key": "George_Monson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "George_Monson",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson's spouse was George Monson."
+        },
+        "Id2": {
+            "text": "The spouse of George Monson is Lady Anne Monson."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson is the spouse of George Monson."
+        }
+    },
+    "gold_outputs": []
+}

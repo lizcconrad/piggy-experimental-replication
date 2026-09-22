@@ -1,0 +1,5 @@
+strict digraph {
+Olusegun_Obasanjo [lexicon_key="Olusegun_Obasanjo"];
+Atiku_Abubakar [lexicon_key="Atiku_Abubakar"];
+Olusegun_Obasanjo -> Atiku_Abubakar [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+}

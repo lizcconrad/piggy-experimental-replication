@@ -1,0 +1,5 @@
+strict digraph {
+Addis_Ababa_City_Hall [lexicon_key="Addis_Ababa_City_Hall"];
+"Government of Addis Ababa" [lexicon_key="Government of Addis Ababa"];
+Addis_Ababa_City_Hall -> "Government of Addis Ababa" [label=currentTenants, lexicon_key=currentTenants];
+}

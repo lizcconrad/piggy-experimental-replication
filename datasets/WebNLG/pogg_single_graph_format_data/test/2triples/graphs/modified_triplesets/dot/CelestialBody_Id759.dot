@@ -1,0 +1,7 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+418476000000.0 [lexicon_key=418476000000.0];
+11.5 [lexicon_key=11.5];
+"1147_Stavropolis" -> 418476000000.0 [label=apoapsis, lexicon_key=apoapsis];
+"1147_Stavropolis" -> 11.5 [label=absoluteMagnitude, lexicon_key=absoluteMagnitude];
+}

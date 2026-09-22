@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "\"President of the Senate\"": {
+            "lexicon_key": "\"President of the Senate\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Mexico",
+            "child_node": "\"President of the Senate\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The leader title in Mexico is the President of the Senate."
+        },
+        "Id2": {
+            "text": "Mexico's government has a position titled the \"President of the Senate\"."
+        },
+        "Id3": {
+            "text": "Mexico's leader has the official title President of the Senate."
+        }
+    },
+    "gold_outputs": []
+}

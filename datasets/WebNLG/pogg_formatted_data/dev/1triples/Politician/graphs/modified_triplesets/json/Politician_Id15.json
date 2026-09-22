@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Adonis_Georgiadis": {
-            "lexicon_key": "Adonis_Georgiadis"
-        },
-        "\"Deputy Minister for Development, Competitiveness and Shipping\"": {
-            "lexicon_key": "\"Deputy Minister for Development, Competitiveness and Shipping\""
+    "graphs": {
+        "Politician_Id15_0": {
+            "nodes": {
+                "Adonis_Georgiadis": {
+                    "lexicon_key": "Adonis_Georgiadis"
+                },
+                "\"Deputy Minister for Development, Competitiveness and Shipping\"": {
+                    "lexicon_key": "\"Deputy Minister for Development, Competitiveness and Shipping\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "office",
+                    "parent_node": "Adonis_Georgiadis",
+                    "child_node": "\"Deputy Minister for Development, Competitiveness and Shipping\"",
+                    "edge_properties": {
+                        "lexicon_key": "office"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adonis Georgiadis was the Deputy Minister for Development, Competitiveness and Shipping.",
+                "Adonis Georgiadis worked as Deputy Minister for Development, Competitiveness and Shipping.",
+                "Adonis Georgiadis worked as the Deputy Minister for Development, Competitiveness and Shipping."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "office",
-            "parent_node": "Adonis_Georgiadis",
-            "child_node": "\"Deputy Minister for Development, Competitiveness and Shipping\"",
-            "edge_properties": {
-                "lexicon_key": "office"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

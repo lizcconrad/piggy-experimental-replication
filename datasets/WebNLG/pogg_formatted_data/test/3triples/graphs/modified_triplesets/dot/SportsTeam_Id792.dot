@@ -1,0 +1,9 @@
+strict digraph {
+"Agremiação_Sportiva_Arapiraquense" [lexicon_key="Agremiação_Sportiva_Arapiraquense"];
+"Campeonato_Brasileiro_Série_C" [lexicon_key="Campeonato_Brasileiro_Série_C"];
+Vila_Nova_Futebol_Clube [lexicon_key="Vila_Nova_Futebol_Clube"];
+"Agremiação Sportiva Arapiraquense" [lexicon_key="Agremiação Sportiva Arapiraquense"];
+"Agremiação_Sportiva_Arapiraquense" -> "Campeonato_Brasileiro_Série_C" [label=league, lexicon_key=league];
+"Agremiação_Sportiva_Arapiraquense" -> "Agremiação Sportiva Arapiraquense" [label=fullName, lexicon_key=fullName];
+"Campeonato_Brasileiro_Série_C" -> Vila_Nova_Futebol_Clube [label=champions, lexicon_key=champions];
+}

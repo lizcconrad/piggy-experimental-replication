@@ -1,0 +1,5 @@
+strict digraph {
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+"Orange_County,_California" [lexicon_key="Orange_County,_California"];
+"Anaheim,_California" -> "Orange_County,_California" [label=isPartOf, lexicon_key=isPartOf];
+}

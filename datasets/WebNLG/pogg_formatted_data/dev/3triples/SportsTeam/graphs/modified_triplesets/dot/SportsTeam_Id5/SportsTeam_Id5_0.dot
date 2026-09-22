@@ -1,0 +1,5 @@
+strict digraph {
+"A.E_Dimitra_Efxeinoupolis" [lexicon_key="A.E_Dimitra_Efxeinoupolis"];
+Greece [lexicon_key=Greece];
+"A.E_Dimitra_Efxeinoupolis" -> Greece [label=location, lexicon_key=location];
+}

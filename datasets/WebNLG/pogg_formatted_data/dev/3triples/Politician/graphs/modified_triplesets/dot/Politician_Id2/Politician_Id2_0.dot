@@ -1,0 +1,5 @@
+strict digraph {
+Ab_Klink [lexicon_key="Ab_Klink"];
+Erasmus_University_Rotterdam [lexicon_key="Erasmus_University_Rotterdam"];
+Ab_Klink -> Erasmus_University_Rotterdam [label=almaMater, lexicon_key=almaMater];
+}

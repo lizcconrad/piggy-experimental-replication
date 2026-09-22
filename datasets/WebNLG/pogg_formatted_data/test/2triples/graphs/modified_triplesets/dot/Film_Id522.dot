@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+89.0 [lexicon_key=89.0];
+Harold_French [lexicon_key="Harold_French"];
+English_Without_Tears -> 89.0 [label=runtime, lexicon_key=runtime];
+English_Without_Tears -> Harold_French [label=director, lexicon_key=director];
+}

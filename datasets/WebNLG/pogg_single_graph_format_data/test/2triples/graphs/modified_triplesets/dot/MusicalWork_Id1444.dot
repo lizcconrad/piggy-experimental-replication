@@ -1,0 +1,7 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+Sludge_metal [lexicon_key="Sludge_metal"];
+Year_of_No_Light [lexicon_key="Year_of_No_Light"];
+"Nord_(Year_of_No_Light_album)" -> Sludge_metal [label=genre, lexicon_key=genre];
+"Nord_(Year_of_No_Light_album)" -> Year_of_No_Light [label=producer, lexicon_key=producer];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        },
+        "Film_director": {
+            "lexicon_key": "Film_director"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "occupation",
+            "parent_node": "Harold_French",
+            "child_node": "Film_director",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harold French is a film director."
+        },
+        "Id2": {
+            "text": "Harold French served as a film director."
+        },
+        "Id3": {
+            "text": "Harold French was a film director."
+        }
+    },
+    "gold_outputs": []
+}

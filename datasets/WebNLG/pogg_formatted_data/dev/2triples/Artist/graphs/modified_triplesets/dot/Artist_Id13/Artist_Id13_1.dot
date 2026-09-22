@@ -1,0 +1,5 @@
+strict digraph {
+Synthpop [lexicon_key=Synthpop];
+New_wave_music [lexicon_key="New_wave_music"];
+Synthpop -> New_wave_music [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Milan" [lexicon_key="A.C._Milan"];
+"Siniša_Mihajlović" [lexicon_key="Siniša_Mihajlović"];
+"A.C._Milan" -> "Siniša_Mihajlović" [label=manager, lexicon_key=manager];
+}

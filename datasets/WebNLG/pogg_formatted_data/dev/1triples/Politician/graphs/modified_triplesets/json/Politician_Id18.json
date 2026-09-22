@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Airey_Neave": {
-            "lexicon_key": "Airey_Neave"
-        },
-        "Territorial_Decoration": {
-            "lexicon_key": "Territorial_Decoration"
+    "graphs": {
+        "Politician_Id18_0": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "Territorial_Decoration": {
+                    "lexicon_key": "Territorial_Decoration"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "award",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "Territorial_Decoration",
+                    "edge_properties": {
+                        "lexicon_key": "award"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave was awarded the Territorial Decoration.",
+                "Airey Neave won the Territorial Decoration award."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "award",
-            "parent_node": "Airey_Neave",
-            "child_node": "Territorial_Decoration",
-            "edge_properties": {
-                "lexicon_key": "award"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

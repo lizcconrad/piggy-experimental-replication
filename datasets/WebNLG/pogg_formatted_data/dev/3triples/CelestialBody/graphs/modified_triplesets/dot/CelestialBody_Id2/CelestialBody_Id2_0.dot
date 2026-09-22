@@ -1,0 +1,5 @@
+strict digraph {
+"(66063)_1998_RO1" [lexicon_key="(66063)_1998_RO1"];
+"-71.0 (degreeCelsius)" [lexicon_key="-71.0 (degreeCelsius)"];
+"(66063)_1998_RO1" -> "-71.0 (degreeCelsius)" [label=minimumTemperature, lexicon_key=minimumTemperature];
+}

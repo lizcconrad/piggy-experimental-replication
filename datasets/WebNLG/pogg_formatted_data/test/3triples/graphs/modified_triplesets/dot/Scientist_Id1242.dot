@@ -1,0 +1,9 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+United_States [lexicon_key="United_States"];
+"1958-01-01" [lexicon_key="1958-01-01"];
+Mathematical_optimization [lexicon_key="Mathematical_optimization"];
+Darinka_Dentcheva -> United_States [label=citizenship, lexicon_key=citizenship];
+Darinka_Dentcheva -> "1958-01-01" [label=birthDate, lexicon_key=birthDate];
+Darinka_Dentcheva -> Mathematical_optimization [label=professionalField, lexicon_key=professionalField];
+}

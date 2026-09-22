@@ -1,0 +1,5 @@
+strict digraph {
+John_Mills [lexicon_key="John_Mills"];
+"Denham,_Buckinghamshire" [lexicon_key="Denham,_Buckinghamshire"];
+John_Mills -> "Denham,_Buckinghamshire" [label=deathPlace, lexicon_key=deathPlace];
+}

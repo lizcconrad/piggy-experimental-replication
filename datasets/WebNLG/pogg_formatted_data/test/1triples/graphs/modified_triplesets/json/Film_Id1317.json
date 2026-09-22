@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Entertainment": {
+            "lexicon_key": "Entertainment"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "industry",
+            "parent_node": "Lionsgate",
+            "child_node": "Entertainment",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lionsgate is an entertainment company."
+        },
+        "Id2": {
+            "text": "The industry in which Lionsgate operates is the entertainment."
+        },
+        "Id3": {
+            "text": "Lionsgate is in the entertainment industry."
+        }
+    },
+    "gold_outputs": []
+}

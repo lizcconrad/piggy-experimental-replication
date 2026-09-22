@@ -1,0 +1,5 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+Kingdom_of_Sarawak [lexicon_key="Kingdom_of_Sarawak"];
+Abdul_Taib_Mahmud -> Kingdom_of_Sarawak [label=birthPlace, lexicon_key=birthPlace];
+}

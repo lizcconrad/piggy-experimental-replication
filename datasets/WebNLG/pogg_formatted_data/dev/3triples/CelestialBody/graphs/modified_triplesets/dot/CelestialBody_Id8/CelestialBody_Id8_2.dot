@@ -1,0 +1,5 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"437170000.0 (kilometres)" [lexicon_key="437170000.0 (kilometres)"];
+"103_Hera" -> "437170000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

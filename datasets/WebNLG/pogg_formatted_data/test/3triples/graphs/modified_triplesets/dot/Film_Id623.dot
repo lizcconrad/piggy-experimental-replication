@@ -1,0 +1,9 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Nicholas_Brodszky [lexicon_key="Nicholas_Brodszky"];
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+Harold_French [lexicon_key="Harold_French"];
+English_Without_Tears -> Nicholas_Brodszky [label=musicComposer, lexicon_key=musicComposer];
+English_Without_Tears -> Anatole_de_Grunwald [label=producer, lexicon_key=producer];
+English_Without_Tears -> Harold_French [label=director, lexicon_key=director];
+}

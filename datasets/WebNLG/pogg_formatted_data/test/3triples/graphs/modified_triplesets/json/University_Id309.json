@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "\"B.M. Reddy\"": {
+            "lexicon_key": "\"B.M. Reddy\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "president",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"B.M. Reddy\"",
+            "edge_properties": {
+                "lexicon_key": "president"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Acharya Institute of Technology in Bangalore is affiliated to Visvesvaraya Technological University and its president is B.M. Reddy."
+        },
+        "Id2": {
+            "text": "B. M. Reddy is the President of the Acharya Institute of Technology, which is affiliated with Visvesvaraya Technological University and located in Bangalore."
+        },
+        "Id3": {
+            "text": "B. M. Reddy is the President of Acharya Institute of Technology, which is affiliated with the Visvesvaraya Technological University and located in Bangalore."
+        }
+    },
+    "gold_outputs": []
+}

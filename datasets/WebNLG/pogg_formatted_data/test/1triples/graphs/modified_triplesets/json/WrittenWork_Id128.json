@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "Fantasy_(genre)": {
+            "lexicon_key": "Fantasy_(genre)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "literaryGenre",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "Fantasy_(genre)",
+            "edge_properties": {
+                "lexicon_key": "literaryGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Fellowship of the Ring belongs to the fantasy genre."
+        },
+        "Id2": {
+            "text": "Fantasy is The Fellowship of the Ring's genre."
+        },
+        "Id3": {
+            "text": "The Fellowship of the Ring belongs to the fantasy literary genre."
+        }
+    },
+    "gold_outputs": []
+}

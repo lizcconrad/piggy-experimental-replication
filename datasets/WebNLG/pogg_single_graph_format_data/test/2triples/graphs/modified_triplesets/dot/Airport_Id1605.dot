@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+"08/26" [lexicon_key="08/26"];
+Concrete [lexicon_key=Concrete];
+Bedford_Aerodrome -> "08/26" [label=runwayName, lexicon_key=runwayName];
+Bedford_Aerodrome -> Concrete [label=runwaySurfaceType, lexicon_key=runwaySurfaceType];
+}

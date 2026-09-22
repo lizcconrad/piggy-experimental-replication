@@ -1,0 +1,5 @@
+strict digraph {
+"Al_Anderson_(NRBQ band)" [lexicon_key="Al_Anderson_(NRBQ band)"];
+1966 [lexicon_key=1966];
+"Al_Anderson_(NRBQ band)" -> 1966 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Detroit [lexicon_key=Detroit];
+Michigan [lexicon_key=Michigan];
+Detroit -> Michigan [label=isPartOf, lexicon_key=isPartOf];
+}

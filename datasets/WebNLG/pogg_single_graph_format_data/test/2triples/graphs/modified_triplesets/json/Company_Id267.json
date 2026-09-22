@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Mass_Media": {
+            "lexicon_key": "Mass_Media"
+        },
+        "GMA_Network_Center": {
+            "lexicon_key": "GMA_Network_Center"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "industry",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Mass_Media",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "GMA_New_Media",
+            "child_node": "GMA_Network_Center",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media is a company in the mass media industry whose headquarters are located in the GMA Network Center."
+        },
+        "Id2": {
+            "text": "Inside GMA Network Center lies the mass media industry GMA New Media."
+        },
+        "Id3": {
+            "text": "GMA New Media is a mass media company in the GMA Network Center."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Turn_Me_On_(album)" [lexicon_key="Turn_Me_On_(album)"];
+Punk_blues [lexicon_key="Punk_blues"];
+Noise_rock [lexicon_key="Noise_rock"];
+Noise_pop [lexicon_key="Noise_pop"];
+"Turn_Me_On_(album)" -> Punk_blues [label=genre, lexicon_key=genre];
+"Turn_Me_On_(album)" -> Noise_rock [label=genre, lexicon_key=genre];
+Noise_rock -> Noise_pop [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

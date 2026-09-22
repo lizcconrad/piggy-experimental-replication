@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "1934-01-01": {
+            "lexicon_key": "1934-01-01"
+        },
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "Turkish_people": {
+            "lexicon_key": "Turkish_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "1934-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Istanbul",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkish_people",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy (born January 1, 1934) resides in Istanbul. They are of Turkish nationality."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy, born January 1st, 1934, is Turkish and lives in Istanbul."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy was born on January 1, 1934 in Turkey. He once lived in Istanbul."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Bedford_Autodrome": {
+            "lexicon_key": "Bedford_Autodrome"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Bedford_Autodrome",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bedford Aerodrome has served the Bedford Autodrome."
+        },
+        "Id2": {
+            "text": "The place served by the Bedford Aerodrome is the Bedford Autodrome."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome serves the Bedford Autodrome."
+        }
+    },
+    "gold_outputs": []
+}

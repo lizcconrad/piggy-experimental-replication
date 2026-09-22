@@ -1,0 +1,7 @@
+strict digraph {
+Eric_Flint [lexicon_key="Eric_Flint"];
+"Robert_A._Heinlein" [lexicon_key="Robert_A._Heinlein"];
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+Eric_Flint -> "Robert_A._Heinlein" [label=influencedBy, lexicon_key=influencedBy];
+1634:_The_Bavarian_Crisis -> Eric_Flint [label=author, lexicon_key=author];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        },
+        "Itzik_Braverman": {
+            "lexicon_key": "Itzik_Braverman"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Petah_Tikva",
+            "child_node": "Itzik_Braverman",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the leaders of Petah Tikva is Itzik Braverman."
+        },
+        "Id2": {
+            "text": "One of the leaders of Petah Tikva was Itzik Braverman."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Nicholas_Brodszky": {
+            "lexicon_key": "Nicholas_Brodszky"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Nicholas_Brodszky",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Harold_French",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears was produced by Anatole de Grunwald, directed by Harold French, with Nicholas Brodszky as the composer of the songs used."
+        },
+        "Id2": {
+            "text": "Harold French directed English Without Tears, a film produced by Anatole de Grunwald that features music composed by Nicholas Brodszky."
+        },
+        "Id3": {
+            "text": "English Without Tears. an Anatole de Grunwald produced film directed by Harold French, features music composed by Nicholas Brodszky."
+        }
+    },
+    "gold_outputs": []
+}

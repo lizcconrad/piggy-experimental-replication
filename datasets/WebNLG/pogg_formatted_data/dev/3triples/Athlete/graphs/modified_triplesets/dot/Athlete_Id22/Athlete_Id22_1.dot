@@ -1,0 +1,5 @@
+strict digraph {
+Alex_Plante [lexicon_key="Alex_Plante"];
+Anyang_Halla [lexicon_key="Anyang_Halla"];
+Alex_Plante -> Anyang_Halla [label=club, lexicon_key=club];
+}

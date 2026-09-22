@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Lotus_Eaters_(band)": {
+            "lexicon_key": "Lotus_Eaters_(band)"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Electric_guitar": {
+            "lexicon_key": "Electric_guitar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Lotus_Eaters_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "instrument",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Electric_guitar",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aaron Turner is a black metal musician in the Lotus Eaters who plays electric guitar."
+        },
+        "Id2": {
+            "text": "Aaron Turner is a black metal musician who plays electric guitar in the Lotus Eaters."
+        },
+        "Id3": {
+            "text": "Aaron Turner plays the electric guitar in the Black Metal band, Lotus Eaters."
+        }
+    },
+    "gold_outputs": []
+}

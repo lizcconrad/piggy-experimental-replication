@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "1994-06-14": {
+            "lexicon_key": "1994-06-14"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        },
+        "Photographer": {
+            "lexicon_key": "Photographer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1994-06-14",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Photographer",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was a professional photographer who was born on May 2, 1908 and died on June 14, 1994."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was a photographer who was born on May 2, 1908 and died on June 14, 1994."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was a professional photographer who lived from May 2nd, 1908 to June 14th, 1994."
+        }
+    },
+    "gold_outputs": []
+}

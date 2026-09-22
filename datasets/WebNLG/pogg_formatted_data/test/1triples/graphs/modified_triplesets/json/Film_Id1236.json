@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nicholas_Brodszky": {
+            "lexicon_key": "Nicholas_Brodszky"
+        },
+        "non_performing_personnel": {
+            "lexicon_key": "non_performing_personnel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "background",
+            "parent_node": "Nicholas_Brodszky",
+            "child_node": "non_performing_personnel",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nicholas Brodszky has a non-performing background."
+        },
+        "Id2": {
+            "text": "Nicholas Brodszky was a non-performing staff."
+        },
+        "Id3": {
+            "text": "Nicholas Brodszky was a part of non-performing personnel."
+        }
+    },
+    "gold_outputs": []
+}

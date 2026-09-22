@@ -1,0 +1,9 @@
+strict digraph {
+Morelos [lexicon_key=Morelos];
+"Adrián_Rivera_Pérez" [lexicon_key="Adrián_Rivera_Pérez"];
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+"City Manager" [lexicon_key="City Manager"];
+Morelos -> "Adrián_Rivera_Pérez" [label=leader, lexicon_key=leader];
+Ciudad_Ayala -> "City Manager" [label=leaderTitle, lexicon_key=leaderTitle];
+Ciudad_Ayala -> Morelos [label=isPartOf, lexicon_key=isPartOf];
+}

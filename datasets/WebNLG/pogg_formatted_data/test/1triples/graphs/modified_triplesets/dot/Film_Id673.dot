@@ -1,0 +1,5 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Bernard_Knowles [lexicon_key="Bernard_Knowles"];
+English_Without_Tears -> Bernard_Knowles [label=cinematography, lexicon_key=cinematography];
+}

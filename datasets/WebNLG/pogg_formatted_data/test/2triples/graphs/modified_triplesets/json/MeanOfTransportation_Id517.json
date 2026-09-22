@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "1418": {
+            "lexicon_key": "1418"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "totalProduction",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "1418",
+            "edge_properties": {
+                "lexicon_key": "totalProduction"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ALCO RS-3 is 17068.8 (millimetres) in length and the total number made is 1418."
+        },
+        "Id2": {
+            "text": "The total production amount for the 17068.8 millimeter long ALCO RS-3 was 1,418 locomotives."
+        },
+        "Id3": {
+            "text": "At the length of 17068.8 millimetres, the total number of ALCO RS-3 made is 1418."
+        }
+    },
+    "gold_outputs": []
+}

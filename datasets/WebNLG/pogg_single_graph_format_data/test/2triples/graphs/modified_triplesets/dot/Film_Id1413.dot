@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+"1910-12-25" [lexicon_key="1910-12-25"];
+English_Without_Tears -> Anatole_de_Grunwald [label=producer, lexicon_key=producer];
+Anatole_de_Grunwald -> "1910-12-25" [label=birthDate, lexicon_key=birthDate];
+}

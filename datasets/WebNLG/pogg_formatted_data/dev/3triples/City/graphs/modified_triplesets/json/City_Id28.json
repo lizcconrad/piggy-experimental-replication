@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "City_Id28_0": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Native_Americans_in_the_United_States": {
+                    "lexicon_key": "Native_Americans_in_the_United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "United_States",
+                    "child_node": "Native_Americans_in_the_United_States",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albuquerque is in New Mexico, in the United States. Where Native Americans are one of the ethnic groups and the leader is Barack Obama.",
+                "Albuquerque, New Mexico, is in the United States. The country led by Barack Obama, and where Native Americans are an ethnic group.",
+                "Native Americans are one of the ethnic groups in the United states of America, where Barack Obama is leader and where Albuquerque in New Mexico is located."
+            ]
         },
-        "Native_Americans_in_the_United_States": {
-            "lexicon_key": "Native_Americans_in_the_United_States"
+        "City_Id28_1": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Barack_Obama": {
+                    "lexicon_key": "Barack_Obama"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "United_States",
+                    "child_node": "Barack_Obama",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albuquerque is in New Mexico, in the United States. Where Native Americans are one of the ethnic groups and the leader is Barack Obama.",
+                "Albuquerque, New Mexico, is in the United States. The country led by Barack Obama, and where Native Americans are an ethnic group.",
+                "Native Americans are one of the ethnic groups in the United states of America, where Barack Obama is leader and where Albuquerque in New Mexico is located."
+            ]
         },
-        "Barack_Obama": {
-            "lexicon_key": "Barack_Obama"
-        },
-        "Albuquerque,_New_Mexico": {
-            "lexicon_key": "Albuquerque,_New_Mexico"
+        "City_Id28_2": {
+            "nodes": {
+                "Albuquerque,_New_Mexico": {
+                    "lexicon_key": "Albuquerque,_New_Mexico"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Albuquerque,_New_Mexico",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albuquerque is in New Mexico, in the United States. Where Native Americans are one of the ethnic groups and the leader is Barack Obama.",
+                "Albuquerque, New Mexico, is in the United States. The country led by Barack Obama, and where Native Americans are an ethnic group.",
+                "Native Americans are one of the ethnic groups in the United states of America, where Barack Obama is leader and where Albuquerque in New Mexico is located."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "United_States",
-            "child_node": "Native_Americans_in_the_United_States",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "United_States",
-            "child_node": "Barack_Obama",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Albuquerque,_New_Mexico",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

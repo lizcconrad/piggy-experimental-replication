@@ -1,0 +1,5 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+"Socialist_Party_(Netherlands)" [lexicon_key="Socialist_Party_(Netherlands)"];
+Agnes_Kant -> "Socialist_Party_(Netherlands)" [label=office, lexicon_key=office];
+}

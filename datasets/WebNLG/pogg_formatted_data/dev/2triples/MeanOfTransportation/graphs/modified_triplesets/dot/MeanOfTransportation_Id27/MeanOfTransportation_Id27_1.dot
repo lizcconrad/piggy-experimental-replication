@@ -1,0 +1,5 @@
+strict digraph {
+AIDAluna [lexicon_key=AIDAluna];
+"Caterpillar_Inc." [lexicon_key="Caterpillar_Inc."];
+AIDAluna -> "Caterpillar_Inc." [label=powerType, lexicon_key=powerType];
+}

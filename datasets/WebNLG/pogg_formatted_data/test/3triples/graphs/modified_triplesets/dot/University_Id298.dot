@@ -1,0 +1,9 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Visvesvaraya_Technological_University [lexicon_key="Visvesvaraya_Technological_University"];
+Tennis [lexicon_key=Tennis];
+Bangalore [lexicon_key=Bangalore];
+Acharya_Institute_of_Technology -> Visvesvaraya_Technological_University [label=affiliation, lexicon_key=affiliation];
+Acharya_Institute_of_Technology -> Tennis [label=sportsOffered, lexicon_key=sportsOffered];
+Acharya_Institute_of_Technology -> Bangalore [label=city, lexicon_key=city];
+}

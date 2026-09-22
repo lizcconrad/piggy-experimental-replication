@@ -1,0 +1,5 @@
+strict digraph {
+San_Francisco [lexicon_key="San_Francisco"];
+628 [lexicon_key=628];
+San_Francisco -> 628 [label=areaCode, lexicon_key=areaCode];
+}

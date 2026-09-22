@@ -1,0 +1,5 @@
+strict digraph {
+Baymax [lexicon_key=Baymax];
+Duncan_Rouleau [lexicon_key="Duncan_Rouleau"];
+Baymax -> Duncan_Rouleau [label=creator, lexicon_key=creator];
+}

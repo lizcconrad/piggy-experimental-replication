@@ -1,0 +1,5 @@
+strict digraph {
+Addis_Ababa_City_Hall [lexicon_key="Addis_Ababa_City_Hall"];
+"140000.0 (square metres)" [lexicon_key="140000.0 (square metres)"];
+Addis_Ababa_City_Hall -> "140000.0 (square metres)" [label=floorArea, lexicon_key=floorArea];
+}

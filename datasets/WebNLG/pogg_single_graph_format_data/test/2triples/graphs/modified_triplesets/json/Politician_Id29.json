@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "\"Demak Jaya, Jalan Bako, Kuching, Sarawak\"": {
+            "lexicon_key": "\"Demak Jaya, Jalan Bako, Kuching, Sarawak\""
+        },
+        "Parti_Pesaka_Bumiputera_Bersatu": {
+            "lexicon_key": "Parti_Pesaka_Bumiputera_Bersatu"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "\"Demak Jaya, Jalan Bako, Kuching, Sarawak\"",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "party",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Parti_Pesaka_Bumiputera_Bersatu",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Abdul Taib Mahmud, member of the Parti Pesaka Bumiputera Bersatu party, resides in Demak Jaya, Jalan Bako, Kuching, Sarawak."
+        },
+        "Id2": {
+            "text": "Abdul Taib Mahmud, a member of the Parti Pesaka Bumiputera Bersatu party, resides in Demak Jaya, Jalan Bako, Kuching, Sarawak."
+        }
+    },
+    "gold_outputs": []
+}

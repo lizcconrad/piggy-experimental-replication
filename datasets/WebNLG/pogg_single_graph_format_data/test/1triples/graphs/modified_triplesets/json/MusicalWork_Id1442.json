@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "54.56": {
+            "lexicon_key": "54.56"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "54.56",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle has a runtime of 54:56."
+        },
+        "Id2": {
+            "text": "Expect a Miracle's runtime is 54.56."
+        },
+        "Id3": {
+            "text": "Expect a Miracle has a runtime of 54.56 minutes."
+        }
+    },
+    "gold_outputs": []
+}

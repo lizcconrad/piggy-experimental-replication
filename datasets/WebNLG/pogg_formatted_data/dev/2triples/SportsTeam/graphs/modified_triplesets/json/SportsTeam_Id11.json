@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "A.S._Roma": {
-            "lexicon_key": "A.S._Roma"
+    "graphs": {
+        "SportsTeam_Id11_0": {
+            "nodes": {
+                "A.S._Roma": {
+                    "lexicon_key": "A.S._Roma"
+                },
+                "\"Rome, Italy\"": {
+                    "lexicon_key": "\"Rome, Italy\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "A.S._Roma",
+                    "child_node": "\"Rome, Italy\"",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.S. Roma play in the Serie A league and their ground is in Rome, Italy.",
+                "A.S. Roma's ground is in Rome, Italy and they play in Serie A.",
+                "Grounds being in Rome, Italy, A.S. Roma to play in Serie A."
+            ]
         },
-        "\"Rome, Italy\"": {
-            "lexicon_key": "\"Rome, Italy\""
-        },
-        "Serie_A": {
-            "lexicon_key": "Serie_A"
+        "SportsTeam_Id11_1": {
+            "nodes": {
+                "A.S._Roma": {
+                    "lexicon_key": "A.S._Roma"
+                },
+                "Serie_A": {
+                    "lexicon_key": "Serie_A"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "A.S._Roma",
+                    "child_node": "Serie_A",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.S. Roma play in the Serie A league and their ground is in Rome, Italy.",
+                "A.S. Roma's ground is in Rome, Italy and they play in Serie A.",
+                "Grounds being in Rome, Italy, A.S. Roma to play in Serie A."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "A.S._Roma",
-            "child_node": "\"Rome, Italy\"",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        },
-        {
-            "edge_name": "league",
-            "parent_node": "A.S._Roma",
-            "child_node": "Serie_A",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

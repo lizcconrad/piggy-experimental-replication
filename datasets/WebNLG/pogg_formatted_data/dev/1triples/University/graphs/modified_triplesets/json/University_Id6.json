@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "School of Business and Social Sciences at the Aarhus University": {
-            "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
-        },
-        "737": {
-            "lexicon_key": "737"
+    "graphs": {
+        "University_Id6_0": {
+            "nodes": {
+                "School of Business and Social Sciences at the Aarhus University": {
+                    "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+                },
+                "737": {
+                    "lexicon_key": "737"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "academicStaffSize",
+                    "parent_node": "School of Business and Social Sciences at the Aarhus University",
+                    "child_node": "737",
+                    "edge_properties": {
+                        "lexicon_key": "academicStaffSize"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The School of Business and Social Sciences at the Aarhus University has academic staff size of 737.",
+                "The School of Business and Social Sciences at the Aarhus University has an academic staff of 737.",
+                "The academic staff of the School of Business and Social Sciences at the Aarhus University number 737."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "academicStaffSize",
-            "parent_node": "School of Business and Social Sciences at the Aarhus University",
-            "child_node": "737",
-            "edge_properties": {
-                "lexicon_key": "academicStaffSize"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

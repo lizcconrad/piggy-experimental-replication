@@ -1,0 +1,5 @@
+strict digraph {
+"Potter_County,_Texas" [lexicon_key="Potter_County,_Texas"];
+United_States [lexicon_key="United_States"];
+"Potter_County,_Texas" -> United_States [label=country, lexicon_key=country];
+}

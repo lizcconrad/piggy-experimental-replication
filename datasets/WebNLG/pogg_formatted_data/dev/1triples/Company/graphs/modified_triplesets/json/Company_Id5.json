@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "GMA_New_Media": {
-            "lexicon_key": "GMA_New_Media"
-        },
-        "Media_company": {
-            "lexicon_key": "Media_company"
+    "graphs": {
+        "Company_Id5_0": {
+            "nodes": {
+                "GMA_New_Media": {
+                    "lexicon_key": "GMA_New_Media"
+                },
+                "Media_company": {
+                    "lexicon_key": "Media_company"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "type",
+                    "parent_node": "GMA_New_Media",
+                    "child_node": "Media_company",
+                    "edge_properties": {
+                        "lexicon_key": "type"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "GMA New Media is a media company.",
+                "GMA New Media, Inc. is a media company."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "type",
-            "parent_node": "GMA_New_Media",
-            "child_node": "Media_company",
-            "edge_properties": {
-                "lexicon_key": "type"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

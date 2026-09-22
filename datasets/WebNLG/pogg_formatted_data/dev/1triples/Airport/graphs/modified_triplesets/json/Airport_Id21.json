@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Ardmore_Airport_(New_Zealand)": {
-            "lexicon_key": "Ardmore_Airport_(New_Zealand)"
-        },
-        "Auckland": {
-            "lexicon_key": "Auckland"
+    "graphs": {
+        "Airport_Id21_0": {
+            "nodes": {
+                "Ardmore_Airport_(New_Zealand)": {
+                    "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+                },
+                "Auckland": {
+                    "lexicon_key": "Auckland"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Ardmore_Airport_(New_Zealand)",
+                    "child_node": "Auckland",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ardmore Airport is located in Auckland, New Zealand.",
+                "The Ardmore Airport, New Zealand is in Auckland."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Ardmore_Airport_(New_Zealand)",
-            "child_node": "Auckland",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

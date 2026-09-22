@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Bedford_Autodrome": {
+            "lexicon_key": "Bedford_Autodrome"
+        },
+        "83.2104": {
+            "lexicon_key": "83.2104"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Bedford_Autodrome",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "83.2104",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bedford Aerodrome has served the Bedford Autodrome, and it is 83.2 meters above sea level."
+        },
+        "Id2": {
+            "text": "The Bedford Aerodrome serves the Bedford Autodrome and has an elevation above the sea level at 83.2104 meters."
+        }
+    },
+    "gold_outputs": []
+}

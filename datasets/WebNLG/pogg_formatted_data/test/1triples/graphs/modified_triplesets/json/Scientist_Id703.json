@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "citizenship",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "citizenship"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy is a Turkish citizen."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy is a citizen of Turkey."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy's citizenship is Turkish."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Niger_State [lexicon_key="Niger_State"];
+Abdulsalami_Abubakar -> Niger_State [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+Java [lexicon_key=Java];
+Ayam_penyet -> Java [label=country, lexicon_key=country];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Andrzej_Piotr_Ruszczy\u0144ski": {
+            "lexicon_key": "Andrzej_Piotr_Ruszczy\u0144ski"
+        },
+        "1958-01-01": {
+            "lexicon_key": "1958-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "influencedBy",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Andrzej_Piotr_Ruszczy\u0144ski",
+            "edge_properties": {
+                "lexicon_key": "influencedBy"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "1958-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva, born January 1st of 1958, was influenced by Andrzej Piotr Ruszczynski."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva, who was born on January 1, 1958, was influenced by Andrzej Piotr Ruszczy\u0144ski."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva was born on January 1, 1958 and she went onto develop a theory influenced by Andrzej Piotr Ruszczy\u0144ski."
+        }
+    },
+    "gold_outputs": []
+}

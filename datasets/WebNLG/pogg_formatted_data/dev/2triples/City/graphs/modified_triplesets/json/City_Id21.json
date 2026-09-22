@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Texas": {
-            "lexicon_key": "Texas"
+    "graphs": {
+        "City_Id21_0": {
+            "nodes": {
+                "Texas": {
+                    "lexicon_key": "Texas"
+                },
+                "English_language": {
+                    "lexicon_key": "English_language"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "language",
+                    "parent_node": "Texas",
+                    "child_node": "English_language",
+                    "edge_properties": {
+                        "lexicon_key": "language"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arlington is part of Texas when English is spoken.",
+                "Arlington is part of the state of Texas where the English language is spoken.",
+                "Arlington is part of the state of Texas, where English is used."
+            ]
         },
-        "English_language": {
-            "lexicon_key": "English_language"
-        },
-        "Arlington,_Texas": {
-            "lexicon_key": "Arlington,_Texas"
+        "City_Id21_1": {
+            "nodes": {
+                "Arlington,_Texas": {
+                    "lexicon_key": "Arlington,_Texas"
+                },
+                "Texas": {
+                    "lexicon_key": "Texas"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Arlington,_Texas",
+                    "child_node": "Texas",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arlington is part of Texas when English is spoken.",
+                "Arlington is part of the state of Texas where the English language is spoken.",
+                "Arlington is part of the state of Texas, where English is used."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "language",
-            "parent_node": "Texas",
-            "child_node": "English_language",
-            "edge_properties": {
-                "lexicon_key": "language"
-            }
-        },
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Arlington,_Texas",
-            "child_node": "Texas",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

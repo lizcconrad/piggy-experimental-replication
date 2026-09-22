@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Singing": {
+            "lexicon_key": "Singing"
+        },
+        "Twilight_(band)": {
+            "lexicon_key": "Twilight_(band)"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "instrument",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Singing",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Twilight_(band)",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Twilight_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aaron Turner is a singer who played with the band Twilight which has been described as Black metal."
+        },
+        "Id2": {
+            "text": "Singer Aaron Turner played with the band Twilight, which plays black metal music."
+        },
+        "Id3": {
+            "text": "Aaron Turner is a singer who played with the black metal band Twilight."
+        }
+    },
+    "gold_outputs": []
+}

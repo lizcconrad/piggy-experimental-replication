@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "Photographer": {
+            "lexicon_key": "Photographer"
+        },
+        "76131\u201376229": {
+            "lexicon_key": "76131\u201376229"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Karlsruhe",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Photographer",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        },
+        {
+            "edge_name": "postalCode",
+            "parent_node": "Karlsruhe",
+            "child_node": "76131\u201376229",
+            "edge_properties": {
+                "lexicon_key": "postalCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was a professional photographer who was born in Karlsruhe, whose postal codes range from 76131 to 76229."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was a photographer born in Karlsruhe. The postal code of Karlsruhe is 76131-76229."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was a professional photographer born in Karlsruhe whose postal codes are 76131-76229."
+        }
+    },
+    "gold_outputs": []
+}

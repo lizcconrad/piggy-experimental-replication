@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Allen_Forrest": {
-            "lexicon_key": "Allen_Forrest"
+    "graphs": {
+        "Artist_Id18_0": {
+            "nodes": {
+                "Allen_Forrest": {
+                    "lexicon_key": "Allen_Forrest"
+                },
+                "Pop_music": {
+                    "lexicon_key": "Pop_music"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Allen_Forrest",
+                    "child_node": "Pop_music",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Allen Forrest has a background as a solo singer and was a pop artist.",
+                "Allen Forrest is a solo singer and an exponent of pop music.",
+                "Allen Forrest, a solo singer, was a pop artist."
+            ]
         },
-        "Pop_music": {
-            "lexicon_key": "Pop_music"
-        },
-        "\"solo_singer\"": {
-            "lexicon_key": "\"solo_singer\""
+        "Artist_Id18_1": {
+            "nodes": {
+                "Allen_Forrest": {
+                    "lexicon_key": "Allen_Forrest"
+                },
+                "\"solo_singer\"": {
+                    "lexicon_key": "\"solo_singer\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "background",
+                    "parent_node": "Allen_Forrest",
+                    "child_node": "\"solo_singer\"",
+                    "edge_properties": {
+                        "lexicon_key": "background"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Allen Forrest has a background as a solo singer and was a pop artist.",
+                "Allen Forrest is a solo singer and an exponent of pop music.",
+                "Allen Forrest, a solo singer, was a pop artist."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Allen_Forrest",
-            "child_node": "Pop_music",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "background",
-            "parent_node": "Allen_Forrest",
-            "child_node": "\"solo_singer\"",
-            "edge_properties": {
-                "lexicon_key": "background"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

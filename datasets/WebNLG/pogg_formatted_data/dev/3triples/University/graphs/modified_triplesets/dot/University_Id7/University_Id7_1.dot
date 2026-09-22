@@ -1,0 +1,5 @@
+strict digraph {
+"1_Decembrie_1918_University" [lexicon_key="1_Decembrie_1918_University"];
+"Universitas Apulensis" [lexicon_key="Universitas Apulensis"];
+"1_Decembrie_1918_University" -> "Universitas Apulensis" [label=latinName, lexicon_key=latinName];
+}

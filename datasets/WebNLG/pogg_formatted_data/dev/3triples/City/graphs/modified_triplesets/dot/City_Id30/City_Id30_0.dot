@@ -1,0 +1,5 @@
+strict digraph {
+United_States_House_of_Representatives [lexicon_key="United_States_House_of_Representatives"];
+United_States [lexicon_key="United_States"];
+United_States_House_of_Representatives -> United_States [label=location, lexicon_key=location];
+}

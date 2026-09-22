@@ -1,0 +1,9 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+1777539 [lexicon_key=1777539];
+"City Manager" [lexicon_key="City Manager"];
+"Council-manager_government" [lexicon_key="Council-manager_government"];
+Ciudad_Ayala -> 1777539 [label=populationMetro, lexicon_key=populationMetro];
+Ciudad_Ayala -> "City Manager" [label=leaderTitle, lexicon_key=leaderTitle];
+Ciudad_Ayala -> "Council-manager_government" [label=governmentType, lexicon_key=governmentType];
+}

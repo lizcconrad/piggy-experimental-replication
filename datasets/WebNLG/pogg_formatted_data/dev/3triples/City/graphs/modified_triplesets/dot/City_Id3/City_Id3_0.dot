@@ -1,0 +1,5 @@
+strict digraph {
+"Albany,_Georgia" [lexicon_key="Albany,_Georgia"];
+"Dougherty_County,_Georgia" [lexicon_key="Dougherty_County,_Georgia"];
+"Albany,_Georgia" -> "Dougherty_County,_Georgia" [label=isPartOf, lexicon_key=isPartOf];
+}

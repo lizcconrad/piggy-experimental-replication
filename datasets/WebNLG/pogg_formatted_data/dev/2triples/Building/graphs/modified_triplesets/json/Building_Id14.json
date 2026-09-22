@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Alan_B._Miller_Hall": {
-            "lexicon_key": "Alan_B._Miller_Hall"
+    "graphs": {
+        "Building_Id14_0": {
+            "nodes": {
+                "Alan_B._Miller_Hall": {
+                    "lexicon_key": "Alan_B._Miller_Hall"
+                },
+                "College_of_William_&_Mary": {
+                    "lexicon_key": "College_of_William_&_Mary"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "owner",
+                    "parent_node": "Alan_B._Miller_Hall",
+                    "child_node": "College_of_William_&_Mary",
+                    "edge_properties": {
+                        "lexicon_key": "owner"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alan B Miller Hall is owned by The College of William and Mary and located in Williamsburg, Virginia.",
+                "Alan B. Miller Hall in Williamsburg, Virginia is owned by The College of William and Mary.",
+                "The College of William and Mary is the owner of the Alan B. Miller Hall in Williamsburg, Virginia."
+            ]
         },
-        "College_of_William_&_Mary": {
-            "lexicon_key": "College_of_William_&_Mary"
-        },
-        "Williamsburg,_Virginia": {
-            "lexicon_key": "Williamsburg,_Virginia"
+        "Building_Id14_1": {
+            "nodes": {
+                "Alan_B._Miller_Hall": {
+                    "lexicon_key": "Alan_B._Miller_Hall"
+                },
+                "Williamsburg,_Virginia": {
+                    "lexicon_key": "Williamsburg,_Virginia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Alan_B._Miller_Hall",
+                    "child_node": "Williamsburg,_Virginia",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alan B Miller Hall is owned by The College of William and Mary and located in Williamsburg, Virginia.",
+                "Alan B. Miller Hall in Williamsburg, Virginia is owned by The College of William and Mary.",
+                "The College of William and Mary is the owner of the Alan B. Miller Hall in Williamsburg, Virginia."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "owner",
-            "parent_node": "Alan_B._Miller_Hall",
-            "child_node": "College_of_William_&_Mary",
-            "edge_properties": {
-                "lexicon_key": "owner"
-            }
-        },
-        {
-            "edge_name": "location",
-            "parent_node": "Alan_B._Miller_Hall",
-            "child_node": "Williamsburg,_Virginia",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

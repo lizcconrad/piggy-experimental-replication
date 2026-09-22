@@ -1,0 +1,5 @@
+strict digraph {
+Aleksandre_Guruli [lexicon_key="Aleksandre_Guruli"];
+AZAL_PFK [lexicon_key="AZAL_PFK"];
+Aleksandre_Guruli -> AZAL_PFK [label=club, lexicon_key=club];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "Charlie_Colin": {
+            "lexicon_key": "Charlie_Colin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "formerBandMember",
+            "parent_node": "Train_(band)",
+            "child_node": "Charlie_Colin",
+            "edge_properties": {
+                "lexicon_key": "formerBandMember"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Charlie Colin is a former band mate of the band Train."
+        },
+        "Id2": {
+            "text": "Charlie Colin is a former band member of Train."
+        },
+        "Id3": {
+            "text": "Charlie Colin is the former member of Train."
+        }
+    },
+    "gold_outputs": []
+}

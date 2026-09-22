@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "The_Hobbit": {
+            "lexicon_key": "The_Hobbit"
+        },
+        "Juvenile_fantasy": {
+            "lexicon_key": "Juvenile_fantasy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "literaryGenre",
+            "parent_node": "The_Hobbit",
+            "child_node": "Juvenile_fantasy",
+            "edge_properties": {
+                "lexicon_key": "literaryGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The literary genre of The Hobbit is juvenile fantasy."
+        },
+        "Id2": {
+            "text": "The Hobbit's genre is juvenile fantasy."
+        },
+        "Id3": {
+            "text": "The Hobbit is classified in the juvenile fantasy genre of literature."
+        }
+    },
+    "gold_outputs": []
+}

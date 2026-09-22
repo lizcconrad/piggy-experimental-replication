@@ -1,0 +1,5 @@
+strict digraph {
+Gujarat [lexicon_key=Gujarat];
+Anandiben_Patel [lexicon_key="Anandiben_Patel"];
+Gujarat -> Anandiben_Patel [label=leader, lexicon_key=leader];
+}

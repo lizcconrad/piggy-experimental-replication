@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Velvet Underground, produced their album Bootleg Series Volume 1: The Quine Tapes."
+        },
+        "Id2": {
+            "text": "The album \"Bootleg Series Volume 1: The Quine Tapes\" was written and produced by the Velvet Underground."
+        },
+        "Id3": {
+            "text": "The Velvet Underground created and produced the album Bootleg Series Volume 1: The Quine Tapes."
+        }
+    },
+    "gold_outputs": []
+}

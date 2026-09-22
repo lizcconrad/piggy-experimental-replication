@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "California_37_(Train_album)": {
+            "lexicon_key": "California_37_(Train_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "album",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "California_37_(Train_album)",
+            "edge_properties": {
+                "lexicon_key": "album"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song Mermaid is off the album California 37 by the band Train."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid belongs to the California 37 Train album."
+        },
+        "Id3": {
+            "text": "\"Mermaid\" is a song on Train's \"California 37\" album."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Alison_O'Donnell" [lexicon_key="Alison_O'Donnell"];
+Plastik_Mak [lexicon_key="Plastik_Mak"];
+"Alison_O'Donnell" -> Plastik_Mak [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

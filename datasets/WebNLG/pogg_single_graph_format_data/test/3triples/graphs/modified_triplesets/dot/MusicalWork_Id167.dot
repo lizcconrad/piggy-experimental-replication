@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+"Squeeze_(The_Velvet_Underground_album)" [lexicon_key="Squeeze_(The_Velvet_Underground_album)"];
+Polydor_Records [lexicon_key="Polydor_Records"];
+Universal_Music_Group [lexicon_key="Universal_Music_Group"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> "Squeeze_(The_Velvet_Underground_album)" [label=precededBy, lexicon_key=precededBy];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Polydor_Records [label=recordLabel, lexicon_key=recordLabel];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Universal_Music_Group [label=recordLabel, lexicon_key=recordLabel];
+}

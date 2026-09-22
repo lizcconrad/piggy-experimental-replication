@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Deram_Records": {
-            "lexicon_key": "Deram_Records"
-        },
-        "London": {
-            "lexicon_key": "London"
+    "graphs": {
+        "Artist_Id28_0": {
+            "nodes": {
+                "Deram_Records": {
+                    "lexicon_key": "Deram_Records"
+                },
+                "London": {
+                    "lexicon_key": "London"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Deram_Records",
+                    "child_node": "London",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Deram Records are located in London.",
+                "Deram Records can be found in London.",
+                "Deram Records is based in London."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Deram_Records",
-            "child_node": "London",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

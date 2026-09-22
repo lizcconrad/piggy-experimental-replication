@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1703-05-27": {
+            "lexicon_key": "1703-05-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1703-05-27",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Saint Petersburg was founded on May 27, 1703."
+        },
+        "Id2": {
+            "text": "Saint Petersburg was founded on 1703-05-27."
+        }
+    },
+    "gold_outputs": []
+}

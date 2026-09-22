@@ -1,0 +1,5 @@
+strict digraph {
+"A.F.C._Fylde" [lexicon_key="A.F.C._Fylde"];
+"Association Football Club Fylde" [lexicon_key="Association Football Club Fylde"];
+"A.F.C._Fylde" -> "Association Football Club Fylde" [label=fullName, lexicon_key=fullName];
+}

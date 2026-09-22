@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Appleton,_Wisconsin": {
-            "lexicon_key": "Appleton,_Wisconsin"
+    "graphs": {
+        "Airport_Id17_0": {
+            "nodes": {
+                "Appleton,_Wisconsin": {
+                    "lexicon_key": "Appleton,_Wisconsin"
+                },
+                "Kimberly,_Wisconsin": {
+                    "lexicon_key": "Kimberly,_Wisconsin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Appleton,_Wisconsin",
+                    "child_node": "Kimberly,_Wisconsin",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Appleton International airport serves the city of Appleton which is part of Kimberly, Wisconsin, as is Little Chute.",
+                "Appletone International Airport served the city of Appleton, which is part of a little chute in Kimberly, Wisconsin."
+            ]
         },
-        "Kimberly,_Wisconsin": {
-            "lexicon_key": "Kimberly,_Wisconsin"
+        "Airport_Id17_1": {
+            "nodes": {
+                "Appleton,_Wisconsin": {
+                    "lexicon_key": "Appleton,_Wisconsin"
+                },
+                "Little_Chute,_Wisconsin": {
+                    "lexicon_key": "Little_Chute,_Wisconsin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Appleton,_Wisconsin",
+                    "child_node": "Little_Chute,_Wisconsin",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Appleton International airport serves the city of Appleton which is part of Kimberly, Wisconsin, as is Little Chute.",
+                "Appletone International Airport served the city of Appleton, which is part of a little chute in Kimberly, Wisconsin."
+            ]
         },
-        "Little_Chute,_Wisconsin": {
-            "lexicon_key": "Little_Chute,_Wisconsin"
-        },
-        "Appleton_International_Airport": {
-            "lexicon_key": "Appleton_International_Airport"
+        "Airport_Id17_2": {
+            "nodes": {
+                "Appleton_International_Airport": {
+                    "lexicon_key": "Appleton_International_Airport"
+                },
+                "Appleton,_Wisconsin": {
+                    "lexicon_key": "Appleton,_Wisconsin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "cityServed",
+                    "parent_node": "Appleton_International_Airport",
+                    "child_node": "Appleton,_Wisconsin",
+                    "edge_properties": {
+                        "lexicon_key": "cityServed"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Appleton International airport serves the city of Appleton which is part of Kimberly, Wisconsin, as is Little Chute.",
+                "Appletone International Airport served the city of Appleton, which is part of a little chute in Kimberly, Wisconsin."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Appleton,_Wisconsin",
-            "child_node": "Kimberly,_Wisconsin",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        },
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Appleton,_Wisconsin",
-            "child_node": "Little_Chute,_Wisconsin",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        },
-        {
-            "edge_name": "cityServed",
-            "parent_node": "Appleton_International_Airport",
-            "child_node": "Appleton,_Wisconsin",
-            "edge_properties": {
-                "lexicon_key": "cityServed"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

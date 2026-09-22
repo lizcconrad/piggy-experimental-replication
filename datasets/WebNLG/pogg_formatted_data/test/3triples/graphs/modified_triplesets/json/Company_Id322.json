@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "AmeriGas": {
+            "lexicon_key": "AmeriGas"
+        },
+        "King_of_Prussia,_Pennsylvania": {
+            "lexicon_key": "King_of_Prussia,_Pennsylvania"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "AmeriGas",
+            "child_node": "King_of_Prussia,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "AmeriGas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Although the capital of the United States is Washington, D.C., AmeriGas chose to locate and actively work in King of Prussia, Pennsylvania."
+        },
+        "Id2": {
+            "text": "AmeriGas is located in King of Prussia, Pennsylvania and works in the United States whose capital is Washington D.C.."
+        },
+        "Id3": {
+            "text": "Washington D.C, is the capital of the United States that is the home country to AmeriGas located in King of Prussia, Pennsylvania."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Louis_Levy": {
+            "lexicon_key": "Louis_Levy"
+        },
+        "England": {
+            "lexicon_key": "England"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Louis_Levy",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Louis_Levy",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "\"It's great to Be Young\" was written by the musical composer, Louis Levy, a native of England."
+        },
+        "Id2": {
+            "text": "Louis Levy, who was born in England, is the music composer of It's Great to Be Young (1956 film)."
+        },
+        "Id3": {
+            "text": "It's Great to Be Young features music by Louis Levy, who was born in England."
+        }
+    },
+    "gold_outputs": []
+}

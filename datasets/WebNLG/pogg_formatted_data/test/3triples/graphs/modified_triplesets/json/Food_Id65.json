@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Jalisco": {
+            "lexicon_key": "Jalisco"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Bionico",
+            "child_node": "Jalisco",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "In the region of Jalisco, Mexico, is a food dish served for dessert called Bionico."
+        },
+        "Id2": {
+            "text": "Bionico, a food found in the Jalisco region of Mexico, is served at the dessert course."
+        },
+        "Id3": {
+            "text": "Bionico (a dessert) is a food found in the region of Jalisco in Mexico."
+        }
+    },
+    "gold_outputs": []
+}

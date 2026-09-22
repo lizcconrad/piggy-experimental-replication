@@ -1,0 +1,5 @@
+strict digraph {
+Akeem_Ayers [lexicon_key="Akeem_Ayers"];
+"St._Louis_Rams" [lexicon_key="St._Louis_Rams"];
+Akeem_Ayers -> "St._Louis_Rams" [label=formerTeam, lexicon_key=formerTeam];
+}

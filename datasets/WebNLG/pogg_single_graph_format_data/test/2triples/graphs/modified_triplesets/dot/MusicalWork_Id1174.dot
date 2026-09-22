@@ -1,0 +1,7 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+"Demo_2004_(Year_of_No_Light_album)" [lexicon_key="Demo_2004_(Year_of_No_Light_album)"];
+58.41 [lexicon_key=58.41];
+"Nord_(Year_of_No_Light_album)" -> "Demo_2004_(Year_of_No_Light_album)" [label=precededBy, lexicon_key=precededBy];
+"Nord_(Year_of_No_Light_album)" -> 58.41 [label=runtime, lexicon_key=runtime];
+}

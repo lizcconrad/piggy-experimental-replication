@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Baroque_pop": {
+            "lexicon_key": "Baroque_pop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Pop_rock",
+            "child_node": "Baroque_pop",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Baroque pop is a fusion genre which includes some elements of pop rock, an example of which is the Train song by Mermaid ."
+        },
+        "Id2": {
+            "text": "Mermaid, released by the band train, is a song in the pop rock genre which also includes the fusion genre Baroque pop."
+        },
+        "Id3": {
+            "text": "Mermaid, a song by the band Train, belongs to the genre of pop rock. An offshoot of pop rock is the fusion genre Baroque pop."
+        }
+    },
+    "gold_outputs": []
+}

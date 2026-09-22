@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "School_of_Applied_Arts_in_Stuttgart": {
+            "lexicon_key": "School_of_Applied_Arts_in_Stuttgart"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "training",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "School_of_Applied_Arts_in_Stuttgart",
+            "edge_properties": {
+                "lexicon_key": "training"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina, an Israeli national born on May 2nd, 1908, studied at the School of Applied Arts in Stuttgart."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born on May 2nd, 1908 and attended the school of Applied Arts in Stuttgart. She is of Israeli nationality."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina, whose nationality was Israeli, was born on May 2nd, 1908. Grschebina attended the school of Applied Arts in Stuttgart."
+        }
+    },
+    "gold_outputs": []
+}

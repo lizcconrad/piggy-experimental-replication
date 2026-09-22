@@ -1,0 +1,5 @@
+strict digraph {
+"Maccabi_Ashdod_B.C." [lexicon_key="Maccabi_Ashdod_B.C."];
+Zvi_Sherf [lexicon_key="Zvi_Sherf"];
+"Maccabi_Ashdod_B.C." -> Zvi_Sherf [label=coach, lexicon_key=coach];
+}

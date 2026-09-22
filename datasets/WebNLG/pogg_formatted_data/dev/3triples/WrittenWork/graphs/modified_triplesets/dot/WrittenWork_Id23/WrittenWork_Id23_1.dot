@@ -1,0 +1,5 @@
+strict digraph {
+"Addiction_(journal)" [lexicon_key="Addiction_(journal)"];
+"Addiction" [lexicon_key="Addiction"];
+"Addiction_(journal)" -> "Addiction" [label=abbreviation, lexicon_key=abbreviation];
+}

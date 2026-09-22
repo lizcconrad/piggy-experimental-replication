@@ -1,0 +1,5 @@
+strict digraph {
+University_of_Cambridge [lexicon_key="University_of_Cambridge"];
+Research_university [lexicon_key="Research_university"];
+University_of_Cambridge -> Research_university [label=type, lexicon_key=type];
+}

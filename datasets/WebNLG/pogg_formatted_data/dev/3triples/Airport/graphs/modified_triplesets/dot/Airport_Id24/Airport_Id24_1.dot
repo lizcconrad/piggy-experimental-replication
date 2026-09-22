@@ -1,0 +1,5 @@
+strict digraph {
+Poaceae [lexicon_key=Poaceae];
+Commelinids [lexicon_key=Commelinids];
+Poaceae -> Commelinids [label=order, lexicon_key=order];
+}

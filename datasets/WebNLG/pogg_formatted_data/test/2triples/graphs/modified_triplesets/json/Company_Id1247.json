@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "AmeriGas": {
+            "lexicon_key": "AmeriGas"
+        },
+        "8500": {
+            "lexicon_key": "8500"
+        },
+        "1959-01-01": {
+            "lexicon_key": "1959-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfEmployees",
+            "parent_node": "AmeriGas",
+            "child_node": "8500",
+            "edge_properties": {
+                "lexicon_key": "numberOfEmployees"
+            }
+        },
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "AmeriGas",
+            "child_node": "1959-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "AmeriGas was founded on January 1st, 1959, and they now have 8,500 employees."
+        },
+        "Id2": {
+            "text": "AmeriGas which was founded on 1959-01-01, currently has 8500 employees."
+        },
+        "Id3": {
+            "text": "AmeriGas with 8500 employees was founded on January 1, 1959."
+        }
+    },
+    "gold_outputs": []
+}

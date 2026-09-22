@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+1634 [lexicon_key="1634:_The_Baltic_War"];
+1634:_The_Bavarian_Crisis -> 1634:_The_Baltic_War [label=precededBy, lexicon_key=precededBy];
+}

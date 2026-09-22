@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "Broadcasting_House": {
+            "lexicon_key": "Broadcasting_House"
+        },
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Tim_Brooke-Taylor": {
+            "lexicon_key": "Tim_Brooke-Taylor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "BBC",
+            "child_node": "Broadcasting_House",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Tim_Brooke-Taylor",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the stars of Bananaman the TV series, was Tim Brooke-Taylor. Bananaman was shown on the BBC which has its headquarters at Broadcasting House."
+        },
+        "Id2": {
+            "text": "Tim Brooke-Taylor was a star of Bananaman which was broadcast by the BBC who are based at Broadcasting House in London."
+        },
+        "Id3": {
+            "text": "BBC is located at Broadcasting house in London and it broadcasts Bananaman starring Tim Brooke-Taylor."
+        }
+    },
+    "gold_outputs": []
+}

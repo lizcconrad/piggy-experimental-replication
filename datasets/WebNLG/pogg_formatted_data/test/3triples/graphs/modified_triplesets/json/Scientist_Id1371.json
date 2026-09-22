@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "1937-04-27": {
+            "lexicon_key": "1937-04-27"
+        },
+        "\"Olga Nikolaevna Bondareva\"": {
+            "lexicon_key": "\"Olga Nikolaevna Bondareva\""
+        },
+        "Leningrad,_USSR": {
+            "lexicon_key": "Leningrad,_USSR"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1937-04-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthName",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "\"Olga Nikolaevna Bondareva\"",
+            "edge_properties": {
+                "lexicon_key": "birthName"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad,_USSR",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva was born on April 27th, 1937, in Leningrad, which was then part of the USSR. Her given name at birth was \"Olga Nikolaevna Bondareva\"."
+        },
+        "Id2": {
+            "text": "Olga Bondareva, born as Olga Nikolaevna Bondareva, was born in Leningrad, USSR on April 27, 1937."
+        },
+        "Id3": {
+            "text": "Olga Bondareva's birth name is \"Olga Nikolaevna Bondareva\" and she was born on April 27, 1937 in Leningrad, USSR."
+        }
+    },
+    "gold_outputs": []
+}

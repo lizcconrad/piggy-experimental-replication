@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+"T._S._Thakur" [lexicon_key="T._S._Thakur"];
+India -> "T._S._Thakur" [label=leader, lexicon_key=leader];
+}

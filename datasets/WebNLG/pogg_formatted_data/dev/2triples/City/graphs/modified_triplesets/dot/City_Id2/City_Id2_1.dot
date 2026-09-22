@@ -1,0 +1,5 @@
+strict digraph {
+Oregon [lexicon_key=Oregon];
+"Portland,_Oregon" [lexicon_key="Portland,_Oregon"];
+Oregon -> "Portland,_Oregon" [label=largestCity, lexicon_key=largestCity];
+}

@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Bill_Everett": {
-            "lexicon_key": "Bill_Everett"
-        },
-        "Eisner_Award": {
-            "lexicon_key": "Eisner_Award"
+    "graphs": {
+        "ComicsCharacter_Id8_0": {
+            "nodes": {
+                "Bill_Everett": {
+                    "lexicon_key": "Bill_Everett"
+                },
+                "Eisner_Award": {
+                    "lexicon_key": "Eisner_Award"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "award",
+                    "parent_node": "Bill_Everett",
+                    "child_node": "Eisner_Award",
+                    "edge_properties": {
+                        "lexicon_key": "award"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bill Everett has been awarded the Eisner award.",
+                "Bill Everett has won the Eisner Award."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "award",
-            "parent_node": "Bill_Everett",
-            "child_node": "Eisner_Award",
-            "edge_properties": {
-                "lexicon_key": "award"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

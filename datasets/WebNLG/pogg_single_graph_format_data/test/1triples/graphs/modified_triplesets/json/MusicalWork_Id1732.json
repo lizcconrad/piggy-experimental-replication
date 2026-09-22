@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        },
+        "Altar_of_Plagues": {
+            "lexicon_key": "Altar_of_Plagues"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Year_of_No_Light",
+            "child_node": "Altar_of_Plagues",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Altar of Plagues has been associated with Year of No Light."
+        },
+        "Id2": {
+            "text": "Altar of Plagues is a band associated with Year of No Light."
+        }
+    },
+    "gold_outputs": []
+}

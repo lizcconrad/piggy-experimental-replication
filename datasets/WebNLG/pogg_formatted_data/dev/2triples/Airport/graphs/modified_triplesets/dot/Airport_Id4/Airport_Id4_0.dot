@@ -1,0 +1,5 @@
+strict digraph {
+Agra_Airport [lexicon_key="Agra_Airport"];
+India [lexicon_key=India];
+Agra_Airport -> India [label=location, lexicon_key=location];
+}

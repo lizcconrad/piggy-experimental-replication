@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Geof_Bartz": {
+            "lexicon_key": "Geof_Bartz"
+        },
+        "83.0": {
+            "lexicon_key": "83.0"
+        },
+        "Tom_Simon": {
+            "lexicon_key": "Tom_Simon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editor",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Geof_Bartz",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "83.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Tom_Simon",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Geof Bartz is the editor of the 83-minute film Death on a Factory Farm produced by Tom Simon."
+        },
+        "Id2": {
+            "text": "'Death on a Factory Farm' was edited by Geof Bartz and produced by Tom Simon. It is 83 minutes long."
+        },
+        "Id3": {
+            "text": "The film Death On a Factory Farm, which runs 83 minutes, was produced by Tom Simon and edited by Geof Bartz."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"11264_Claudiomaccone" [lexicon_key="11264_Claudiomaccone"];
+"2005-11-26" [lexicon_key="2005-11-26"];
+"11264_Claudiomaccone" -> "2005-11-26" [label=epoch, lexicon_key=epoch];
+}

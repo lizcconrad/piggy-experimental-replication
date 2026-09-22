@@ -1,0 +1,5 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+"1953-06-30" [lexicon_key="1953-06-30"];
+Airey_Neave -> "1953-06-30" [label=activeYearsStartDate, lexicon_key=activeYearsStartDate];
+}

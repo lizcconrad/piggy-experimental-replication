@@ -1,0 +1,5 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+Radboud_University_Nijmegen [lexicon_key="Radboud_University_Nijmegen"];
+Agnes_Kant -> Radboud_University_Nijmegen [label=almaMater, lexicon_key=almaMater];
+}

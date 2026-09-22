@@ -1,0 +1,5 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+Tudor_Revival_architecture [lexicon_key="Tudor_Revival_architecture"];
+Adisham_Hall -> Tudor_Revival_architecture [label=architecturalStyle, lexicon_key=architecturalStyle];
+}

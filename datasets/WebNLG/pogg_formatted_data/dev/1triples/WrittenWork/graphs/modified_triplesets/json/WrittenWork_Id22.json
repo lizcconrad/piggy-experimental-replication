@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Castle_(novel)": {
-            "lexicon_key": "Castle_(novel)"
-        },
-        "Aenir": {
-            "lexicon_key": "Aenir"
+    "graphs": {
+        "WrittenWork_Id22_0": {
+            "nodes": {
+                "Castle_(novel)": {
+                    "lexicon_key": "Castle_(novel)"
+                },
+                "Aenir": {
+                    "lexicon_key": "Aenir"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "followedBy",
+                    "parent_node": "Castle_(novel)",
+                    "child_node": "Aenir",
+                    "edge_properties": {
+                        "lexicon_key": "followedBy"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aenir followed the novel Castle.",
+                "Castle is followed by Aenir.",
+                "The novel Castle is followed by Aenir."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "followedBy",
-            "parent_node": "Castle_(novel)",
-            "child_node": "Aenir",
-            "edge_properties": {
-                "lexicon_key": "followedBy"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

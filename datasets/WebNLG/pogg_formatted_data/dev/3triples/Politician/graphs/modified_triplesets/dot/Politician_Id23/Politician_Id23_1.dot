@@ -1,0 +1,5 @@
+strict digraph {
+Alfons_Gorbach [lexicon_key="Alfons_Gorbach"];
+County_of_Tyrol [lexicon_key="County_of_Tyrol"];
+Alfons_Gorbach -> County_of_Tyrol [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+"1958-01-01" [lexicon_key="1958-01-01"];
+Darinka_Dentcheva -> "1958-01-01" [label=birthDate, lexicon_key=birthDate];
+}

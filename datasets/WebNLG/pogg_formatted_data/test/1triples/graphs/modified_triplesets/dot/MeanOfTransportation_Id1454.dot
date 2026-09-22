@@ -1,0 +1,5 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+Coupe [lexicon_key=Coupe];
+Pontiac_Rageous -> Coupe [label=bodyStyle, lexicon_key=bodyStyle];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Zaoyang [lexicon_key=Zaoyang];
+"+8" [lexicon_key="+8"];
+Zaoyang -> "+8" [label=utcOffset, lexicon_key=utcOffset];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Serie_A [lexicon_key="Serie_A"];
+Italy [lexicon_key=Italy];
+Serie_A -> Italy [label=country, lexicon_key=country];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Walter_Baade [lexicon_key="Walter_Baade"];
+"University_of_Göttingen" [lexicon_key="University_of_Göttingen"];
+Walter_Baade -> "University_of_Göttingen" [label=almaMater, lexicon_key=almaMater];
+}

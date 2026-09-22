@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "Winchester": {
+            "lexicon_key": "Winchester"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "Kingdom_of_England",
+            "child_node": "Winchester",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson was born in the Kingdom of England whose capital was previously Winchester."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson was born in the Kingdom of England where Winchester was previously the capital."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson was born in Winchester, the capital of the Kingdom of England."
+        }
+    },
+    "gold_outputs": []
+}

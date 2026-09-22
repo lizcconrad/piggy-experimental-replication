@@ -1,0 +1,5 @@
+strict digraph {
+Bananaman [lexicon_key=Bananaman];
+Graeme_Garden [lexicon_key="Graeme_Garden"];
+Bananaman -> Graeme_Garden [label=starring, lexicon_key=starring];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Indian": {
+            "lexicon_key": "Indian"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "India",
+            "child_node": "Indian",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Indian is the demonym for people from India."
+        },
+        "Id2": {
+            "text": "The demonym for a person from India is Indian."
+        },
+        "Id3": {
+            "text": "Indian is the demonym for the people of India."
+        }
+    },
+    "gold_outputs": []
+}

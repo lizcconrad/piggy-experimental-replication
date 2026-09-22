@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Cottage_cheese": {
+            "lexicon_key": "Cottage_cheese"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Bionico",
+            "child_node": "Cottage_cheese",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico, a food found in Mexico, can be varied by using cottage cheese."
+        },
+        "Id2": {
+            "text": "Bionico, a food found in Mexico, can be varied using cottage cheese."
+        },
+        "Id3": {
+            "text": "Bionico can be varied by using cottage cheese found in Mexico."
+        }
+    },
+    "gold_outputs": []
+}

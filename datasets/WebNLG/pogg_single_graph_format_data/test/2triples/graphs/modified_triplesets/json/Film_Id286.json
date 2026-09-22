@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "The Green Channel": {
+            "lexicon_key": "The Green Channel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "HBO",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "formerName",
+            "parent_node": "HBO",
+            "child_node": "The Green Channel",
+            "edge_properties": {
+                "lexicon_key": "formerName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Death on a Factory Farm is a film broadcasted by HBO, formerly known as The Green Channel."
+        },
+        "Id2": {
+            "text": "Formerly known as The Green Channel, HBO released Death on a Factory Farm."
+        },
+        "Id3": {
+            "text": "The Death on a Factory Farm was broadcasted by HBO, formerly known as 'The Green Channel'."
+        }
+    },
+    "gold_outputs": []
+}

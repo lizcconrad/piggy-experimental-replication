@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "1099_Figneria": {
-            "lexicon_key": "1099_Figneria"
-        },
-        "2.7 (kilograms)": {
-            "lexicon_key": "2.7 (kilograms)"
+    "graphs": {
+        "CelestialBody_Id14_0": {
+            "nodes": {
+                "1099_Figneria": {
+                    "lexicon_key": "1099_Figneria"
+                },
+                "2.7 (kilograms)": {
+                    "lexicon_key": "2.7 (kilograms)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mass",
+                    "parent_node": "1099_Figneria",
+                    "child_node": "2.7 (kilograms)",
+                    "edge_properties": {
+                        "lexicon_key": "mass"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1099 Figneria has a mass of 2.7 kilograms.",
+                "1099 Figneria has a mass of 2.7kg.",
+                "The mass of 1099 Figneria is 2.7 kg."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "mass",
-            "parent_node": "1099_Figneria",
-            "child_node": "2.7 (kilograms)",
-            "edge_properties": {
-                "lexicon_key": "mass"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "AmeriGas": {
+            "lexicon_key": "AmeriGas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "regionServed",
+            "parent_node": "AmeriGas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "regionServed"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "AmeriGas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "AmeriGas serves all regions of the United States, which is also its home country."
+        },
+        "Id2": {
+            "text": "The American company AmeriGas serves the United States."
+        },
+        "Id3": {
+            "text": "AmeriGas works in the United States, providing services there too."
+        }
+    },
+    "gold_outputs": []
+}

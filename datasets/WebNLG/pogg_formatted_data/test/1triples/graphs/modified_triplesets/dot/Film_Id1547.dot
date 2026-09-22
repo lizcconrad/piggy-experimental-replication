@@ -1,0 +1,5 @@
+strict digraph {
+Cyril_Frankel [lexicon_key="Cyril_Frankel"];
+United_Kingdom [lexicon_key="United_Kingdom"];
+Cyril_Frankel -> United_Kingdom [label=birthPlace, lexicon_key=birthPlace];
+}

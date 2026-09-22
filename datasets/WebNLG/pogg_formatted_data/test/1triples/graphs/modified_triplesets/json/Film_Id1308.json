@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Super_Capers",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The language of the movie Super Capers is English."
+        },
+        "Id2": {
+            "text": "Super Capers is a movie in English."
+        },
+        "Id3": {
+            "text": "Super Capers is an English-language film."
+        }
+    },
+    "gold_outputs": []
+}

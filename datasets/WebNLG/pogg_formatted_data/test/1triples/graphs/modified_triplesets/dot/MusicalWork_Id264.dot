@@ -1,0 +1,5 @@
+strict digraph {
+Polydor_Records [lexicon_key="Polydor_Records"];
+Universal_Music_Group [lexicon_key="Universal_Music_Group"];
+Polydor_Records -> Universal_Music_Group [label=parentCompany, lexicon_key=parentCompany];
+}

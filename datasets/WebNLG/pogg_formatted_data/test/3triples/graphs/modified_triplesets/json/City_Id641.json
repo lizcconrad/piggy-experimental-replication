@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "\"City Manager\"": {
+            "lexicon_key": "\"City Manager\""
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Cuernavaca": {
+            "lexicon_key": "Cuernavaca"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\"City Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Morelos",
+            "child_node": "Cuernavaca",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Cuernavaca and Ciudad Ayala are parts of Morelos. One of the leaders of Ciudad Ayala is the City Manager."
+        },
+        "Id2": {
+            "text": "Both Ciudad Ayala and Cuernavacas are part of Morelos, and one of the leaders of Ciudad Ayala is the City Manager."
+        },
+        "Id3": {
+            "text": "The leader tittle for Ciudad Ayala is the city manager. Ciudad Ayala and Cuernavaca are part of Morelos."
+        }
+    },
+    "gold_outputs": []
+}

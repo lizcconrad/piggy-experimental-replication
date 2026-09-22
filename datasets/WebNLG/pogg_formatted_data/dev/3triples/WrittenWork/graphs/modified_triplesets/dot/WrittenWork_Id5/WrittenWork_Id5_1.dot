@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+"512" [lexicon_key="512"];
+1634:_The_Ram_Rebellion -> "512" [label=numberOfPages, lexicon_key=numberOfPages];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Live_at_Roadburn_2008_(Year_of_No_Light_album)": {
+            "lexicon_key": "Live_at_Roadburn_2008_(Year_of_No_Light_album)"
+        },
+        "Karysun_/_Year_of_No_Light": {
+            "lexicon_key": "Karysun_/_Year_of_No_Light"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Live_at_Roadburn_2008_(Year_of_No_Light_album)",
+            "child_node": "Karysun_/_Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Live at Roadburn 2008 was followed by \u201cKarysun / Year of No Light\u201d."
+        },
+        "Id2": {
+            "text": "Year of No Light's \"Live at Roadburn 2008\" album was followed by the \"Karysun/Year of No Light\" EP."
+        },
+        "Id3": {
+            "text": "The Year of No Light album Live at Roadburn 2008 is followed by the album Karysun / Year of No Light."
+        }
+    },
+    "gold_outputs": []
+}

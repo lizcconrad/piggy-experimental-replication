@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Let_It_Breed": {
+            "lexicon_key": "Let_It_Breed"
+        },
+        "35.1": {
+            "lexicon_key": "35.1"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Let_It_Breed",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "35.1",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Turn Me On, which has a runtime of 35.1 minutes, is preceded by the album Let It Breed."
+        },
+        "Id2": {
+            "text": "The 35 minutes 10 seconds album Turn Me On was preceded by the album Let It Breed."
+        },
+        "Id3": {
+            "text": "The album Turn Me On, which has a runtime of 35.1 minutes, was preceded by the album Let It Breed."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        },
+        "La_Crosse_County,_Wisconsin": {
+            "lexicon_key": "La_Crosse_County,_Wisconsin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "La_Crosse,_Wisconsin",
+            "child_node": "La_Crosse_County,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "La Crosse is a city in La Crosse County in the U.S. state of Wisconsin."
+        },
+        "Id2": {
+            "text": "La Crosse Wisconsin is part of La Crosse County Wisconsin."
+        },
+        "Id3": {
+            "text": "La Crosse, Wisconsin is part of La Crosse County, Wisconsin."
+        },
+        "Id4": {
+            "text": "La Crosse is part of La Crosse County in Wisconsin."
+        }
+    },
+    "gold_outputs": []
+}

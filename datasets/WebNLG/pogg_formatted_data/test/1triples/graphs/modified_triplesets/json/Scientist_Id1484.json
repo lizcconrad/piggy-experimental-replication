@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "\"Republic of India\"": {
+            "lexicon_key": "\"Republic of India\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "longName",
+            "parent_node": "India",
+            "child_node": "\"Republic of India\"",
+            "edge_properties": {
+                "lexicon_key": "longName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The long name for India is the Republic of India."
+        },
+        "Id2": {
+            "text": "Republic of India is the long name of India."
+        },
+        "Id3": {
+            "text": "The official long name for India is \"Republic of India\"."
+        }
+    },
+    "gold_outputs": []
+}

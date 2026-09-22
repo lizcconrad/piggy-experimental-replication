@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Andrew_Rayel": {
-            "lexicon_key": "Andrew_Rayel"
+    "graphs": {
+        "Artist_Id26_0": {
+            "nodes": {
+                "Andrew_Rayel": {
+                    "lexicon_key": "Andrew_Rayel"
+                },
+                "Mark_Sixma": {
+                    "lexicon_key": "Mark_Sixma"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Andrew_Rayel",
+                    "child_node": "Mark_Sixma",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Musicians Andrew Rayel, who is associated with Christian Burns, and Mark Sixma are associates.",
+                "Musicians, Andrew Rayel, Christian Burns and Mark Sixma, are associates.",
+                "The musicians Andrew Rayel and Christian Burns are associates and they worked with Mark Sixma."
+            ]
         },
-        "Mark_Sixma": {
-            "lexicon_key": "Mark_Sixma"
-        },
-        "Christian_Burns": {
-            "lexicon_key": "Christian_Burns"
+        "Artist_Id26_1": {
+            "nodes": {
+                "Andrew_Rayel": {
+                    "lexicon_key": "Andrew_Rayel"
+                },
+                "Christian_Burns": {
+                    "lexicon_key": "Christian_Burns"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Andrew_Rayel",
+                    "child_node": "Christian_Burns",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Musicians Andrew Rayel, who is associated with Christian Burns, and Mark Sixma are associates.",
+                "Musicians, Andrew Rayel, Christian Burns and Mark Sixma, are associates.",
+                "The musicians Andrew Rayel and Christian Burns are associates and they worked with Mark Sixma."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Andrew_Rayel",
-            "child_node": "Mark_Sixma",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Andrew_Rayel",
-            "child_node": "Christian_Burns",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "AIDS_(journal)": {
-            "lexicon_key": "AIDS_(journal)"
+    "graphs": {
+        "WrittenWork_Id5_0": {
+            "nodes": {
+                "AIDS_(journal)": {
+                    "lexicon_key": "AIDS_(journal)"
+                },
+                "United_Kingdom": {
+                    "lexicon_key": "United_Kingdom"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "AIDS_(journal)",
+                    "child_node": "United_Kingdom",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIDS journal is from the United Kingdom whose leader is Elizabeth II.",
+                "The AIDS journal was published in the United Kingdom whose leader is Elizabeth II.",
+                "The AIDS journal was published in the United Kingdom, where the leader is Elizabeth II."
+            ]
         },
-        "United_Kingdom": {
-            "lexicon_key": "United_Kingdom"
-        },
-        "Elizabeth_II": {
-            "lexicon_key": "Elizabeth_II"
+        "WrittenWork_Id5_1": {
+            "nodes": {
+                "United_Kingdom": {
+                    "lexicon_key": "United_Kingdom"
+                },
+                "Elizabeth_II": {
+                    "lexicon_key": "Elizabeth_II"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "United_Kingdom",
+                    "child_node": "Elizabeth_II",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIDS journal is from the United Kingdom whose leader is Elizabeth II.",
+                "The AIDS journal was published in the United Kingdom whose leader is Elizabeth II.",
+                "The AIDS journal was published in the United Kingdom, where the leader is Elizabeth II."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "AIDS_(journal)",
-            "child_node": "United_Kingdom",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "United_Kingdom",
-            "child_node": "Elizabeth_II",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

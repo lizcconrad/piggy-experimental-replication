@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        },
+        "Film_director": {
+            "lexicon_key": "Film_director"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Harold_French",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Harold_French",
+            "child_node": "Film_director",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harold French was a film director who directed English without Tears."
+        },
+        "Id2": {
+            "text": "Harold French served as film director of 'English Without Tears'."
+        },
+        "Id3": {
+            "text": "Film director Harold French directed English Without Tears."
+        }
+    },
+    "gold_outputs": []
+}

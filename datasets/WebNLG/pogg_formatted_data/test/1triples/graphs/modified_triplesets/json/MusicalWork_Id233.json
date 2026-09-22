@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "The_Honeymoon_Killers_(American_band)",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The genre of the Honeymoon Killers is noise rock."
+        },
+        "Id2": {
+            "text": "The Honeymoon Killers are an American band performing in the noise rock genre."
+        },
+        "Id3": {
+            "text": "Noise rock is the genre of the American band The Honeymoon Killers."
+        }
+    },
+    "gold_outputs": []
+}

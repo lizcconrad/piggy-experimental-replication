@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Alfred_Garth_Jones": {
-            "lexicon_key": "Alfred_Garth_Jones"
+    "graphs": {
+        "Artist_Id21_0": {
+            "nodes": {
+                "Alfred_Garth_Jones": {
+                    "lexicon_key": "Alfred_Garth_Jones"
+                },
+                "London": {
+                    "lexicon_key": "London"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "deathPlace",
+                    "parent_node": "Alfred_Garth_Jones",
+                    "child_node": "London",
+                    "edge_properties": {
+                        "lexicon_key": "deathPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfred Garth Jones was born in Manchester in the UK, and died in London.",
+                "Alfred Garth Jones was born in Manchester, United Kingdom and he passed away in London.",
+                "Alfred Garth Jones, was born in Manchester, in the United Kingdom and died in London."
+            ]
         },
-        "London": {
-            "lexicon_key": "London"
+        "Artist_Id21_1": {
+            "nodes": {
+                "Alfred_Garth_Jones": {
+                    "lexicon_key": "Alfred_Garth_Jones"
+                },
+                "United_Kingdom": {
+                    "lexicon_key": "United_Kingdom"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "nationality",
+                    "parent_node": "Alfred_Garth_Jones",
+                    "child_node": "United_Kingdom",
+                    "edge_properties": {
+                        "lexicon_key": "nationality"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfred Garth Jones was born in Manchester in the UK, and died in London.",
+                "Alfred Garth Jones was born in Manchester, United Kingdom and he passed away in London.",
+                "Alfred Garth Jones, was born in Manchester, in the United Kingdom and died in London."
+            ]
         },
-        "United_Kingdom": {
-            "lexicon_key": "United_Kingdom"
-        },
-        "Manchester": {
-            "lexicon_key": "Manchester"
+        "Artist_Id21_2": {
+            "nodes": {
+                "Alfred_Garth_Jones": {
+                    "lexicon_key": "Alfred_Garth_Jones"
+                },
+                "Manchester": {
+                    "lexicon_key": "Manchester"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alfred_Garth_Jones",
+                    "child_node": "Manchester",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfred Garth Jones was born in Manchester in the UK, and died in London.",
+                "Alfred Garth Jones was born in Manchester, United Kingdom and he passed away in London.",
+                "Alfred Garth Jones, was born in Manchester, in the United Kingdom and died in London."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "deathPlace",
-            "parent_node": "Alfred_Garth_Jones",
-            "child_node": "London",
-            "edge_properties": {
-                "lexicon_key": "deathPlace"
-            }
-        },
-        {
-            "edge_name": "nationality",
-            "parent_node": "Alfred_Garth_Jones",
-            "child_node": "United_Kingdom",
-            "edge_properties": {
-                "lexicon_key": "nationality"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alfred_Garth_Jones",
-            "child_node": "Manchester",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

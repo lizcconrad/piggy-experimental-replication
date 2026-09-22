@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Abarth_1000_GT_Coup\u00e9": {
-            "lexicon_key": "Abarth_1000_GT_Coup\u00e9"
-        },
-        "1958": {
-            "lexicon_key": "1958"
+    "graphs": {
+        "MeanOfTransportation_Id12_0": {
+            "nodes": {
+                "Abarth_1000_GT_Coup\u00e9": {
+                    "lexicon_key": "Abarth_1000_GT_Coup\u00e9"
+                },
+                "1958": {
+                    "lexicon_key": "1958"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "productionEndYear",
+                    "parent_node": "Abarth_1000_GT_Coup\u00e9",
+                    "child_node": "1958",
+                    "edge_properties": {
+                        "lexicon_key": "productionEndYear"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Abarth 1000 GT Coup\u00e9's final year of production was 1958.",
+                "The last Abarth 1000 GT Coup\u00e9 rolled off the production line in 1958."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "productionEndYear",
-            "parent_node": "Abarth_1000_GT_Coup\u00e9",
-            "child_node": "1958",
-            "edge_properties": {
-                "lexicon_key": "productionEndYear"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

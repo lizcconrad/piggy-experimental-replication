@@ -1,0 +1,5 @@
+strict digraph {
+Al_Kharaitiyat_SC [lexicon_key="Al_Kharaitiyat_SC"];
+Al_Khor [lexicon_key="Al_Khor"];
+Al_Kharaitiyat_SC -> Al_Khor [label=ground, lexicon_key=ground];
+}

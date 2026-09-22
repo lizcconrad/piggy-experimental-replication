@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Brandon,_Manitoba": {
-            "lexicon_key": "Brandon,_Manitoba"
-        },
-        "Drew_Caldwell": {
-            "lexicon_key": "Drew_Caldwell"
+    "graphs": {
+        "Athlete_Id24_0": {
+            "nodes": {
+                "Brandon,_Manitoba": {
+                    "lexicon_key": "Brandon,_Manitoba"
+                },
+                "Drew_Caldwell": {
+                    "lexicon_key": "Drew_Caldwell"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Brandon,_Manitoba",
+                    "child_node": "Drew_Caldwell",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Drew Caldwell is leader of Brandon, Manitoba.",
+                "The leader of Brandon, Manitoba is Drew Caldwell."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "Brandon,_Manitoba",
-            "child_node": "Drew_Caldwell",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,9 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+German_Empire [lexicon_key="German_Empire"];
+School_of_Applied_Arts_in_Stuttgart [lexicon_key="School_of_Applied_Arts_in_Stuttgart"];
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+Liselotte_Grschebina -> German_Empire [label=birthPlace, lexicon_key=birthPlace];
+Liselotte_Grschebina -> School_of_Applied_Arts_in_Stuttgart [label=training, lexicon_key=training];
+Liselotte_Grschebina -> Petah_Tikva [label=deathPlace, lexicon_key=deathPlace];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+"Ray_Griggs_(director)" [lexicon_key="Ray_Griggs_(director)"];
+1974 [lexicon_key=1974];
+Michael_Rooker [lexicon_key="Michael_Rooker"];
+Super_Capers -> "Ray_Griggs_(director)" [label=writer, lexicon_key=writer];
+Super_Capers -> Michael_Rooker [label=starring, lexicon_key=starring];
+"Ray_Griggs_(director)" -> 1974 [label=birthYear, lexicon_key=birthYear];
+}

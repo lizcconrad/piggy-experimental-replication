@@ -1,0 +1,5 @@
+strict digraph {
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+0927 [lexicon_key=0927];
+Kingdom_of_England -> 0927 [label=foundingYear, lexicon_key=foundingYear];
+}

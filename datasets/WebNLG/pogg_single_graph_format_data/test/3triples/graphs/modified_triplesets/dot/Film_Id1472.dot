@@ -1,0 +1,9 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Alan_Jaggs [lexicon_key="Alan_Jaggs"];
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+Bernard_Knowles [lexicon_key="Bernard_Knowles"];
+English_Without_Tears -> Alan_Jaggs [label=editing, lexicon_key=editing];
+English_Without_Tears -> Anatole_de_Grunwald [label=producer, lexicon_key=producer];
+English_Without_Tears -> Bernard_Knowles [label=cinematography, lexicon_key=cinematography];
+}

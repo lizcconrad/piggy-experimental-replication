@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Audi_A1": {
-            "lexicon_key": "Audi_A1"
-        },
-        "Audi_Brussels": {
-            "lexicon_key": "Audi_Brussels"
+    "graphs": {
+        "MeanOfTransportation_Id27_0": {
+            "nodes": {
+                "Audi_A1": {
+                    "lexicon_key": "Audi_A1"
+                },
+                "Audi_Brussels": {
+                    "lexicon_key": "Audi_Brussels"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "assembly",
+                    "parent_node": "Audi_A1",
+                    "child_node": "Audi_Brussels",
+                    "edge_properties": {
+                        "lexicon_key": "assembly"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Audi A1 is assembled at Audi Brussels.",
+                "The Audi A1 is assembled by Audi Brussels."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "assembly",
-            "parent_node": "Audi_A1",
-            "child_node": "Audi_Brussels",
-            "edge_properties": {
-                "lexicon_key": "assembly"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+Asilomar_Conference_Grounds [lexicon_key="Asilomar_Conference_Grounds"];
+"1987-02-27" [lexicon_key="1987-02-27"];
+Asilomar_Conference_Grounds -> "1987-02-27" [label=addedToTheNationalRegisterOfHistoricPlaces, lexicon_key=addedToTheNationalRegisterOfHistoricPlaces];
+}

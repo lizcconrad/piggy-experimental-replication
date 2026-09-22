@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idScreen1Text": {
-            "lexicon_key": "idScreen1Text",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idScreen1Text_subgraph_0": {
+            "nodes": {
+                "idScreen1Text": {
+                    "lexicon_key": "idScreen1Text",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idFlashlight1_prop_idPowerControl": {
-            "lexicon_key": "idFlashlight1_prop_idPowerControl",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the flashlight's power control"
-    ]
+    ],
+    "graphs": {
+        "idFlashlight1_prop_idPowerControl_subgraph_0": {
+            "nodes": {
+                "idFlashlight1_prop_idPowerControl": {
+                    "lexicon_key": "idFlashlight1_prop_idPowerControl",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the flashlight's power control"
+            ]
+        }
+    }
 }

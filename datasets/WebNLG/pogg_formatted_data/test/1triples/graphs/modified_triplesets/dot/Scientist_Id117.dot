@@ -1,0 +1,5 @@
+strict digraph {
+Darlington [lexicon_key=Darlington];
+"DL1, DL2, DL3" [lexicon_key="DL1, DL2, DL3"];
+Darlington -> "DL1, DL2, DL3" [label=postalCode, lexicon_key=postalCode];
+}

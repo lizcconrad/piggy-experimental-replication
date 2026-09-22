@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Death_metal": {
+            "lexicon_key": "Death_metal"
+        },
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "1995": {
+            "lexicon_key": "1995"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Black_metal",
+            "child_node": "Death_metal",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Aaron_Turner",
+            "child_node": "1995",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Death metal is a musical fusion of black metal and is also a genre of Aaron Turner's music who started performing in 1995."
+        },
+        "Id2": {
+            "text": "Aaron Turner is a black metal performer who started performing in 1995. Death metal is a fusion genre of black metal."
+        },
+        "Id3": {
+            "text": "Death metal is a musical fusion of black metal and Aaron Turner is a black metal musician who started performing in 1995 ."
+        }
+    },
+    "gold_outputs": []
+}

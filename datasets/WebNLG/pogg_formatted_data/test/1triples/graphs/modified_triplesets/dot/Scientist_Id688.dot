@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+"Chief Justice" [lexicon_key="Chief Justice"];
+India -> "Chief Justice" [label=leaderTitle, lexicon_key=leaderTitle];
+}

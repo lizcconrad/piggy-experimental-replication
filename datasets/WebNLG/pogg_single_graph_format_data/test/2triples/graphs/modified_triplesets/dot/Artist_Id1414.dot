@@ -1,0 +1,7 @@
+strict digraph {
+Andrew_Rayel [lexicon_key="Andrew_Rayel"];
+Bobina [lexicon_key=Bobina];
+Trance_music [lexicon_key="Trance_music"];
+Andrew_Rayel -> Bobina [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Andrew_Rayel -> Trance_music [label=genre, lexicon_key=genre];
+}

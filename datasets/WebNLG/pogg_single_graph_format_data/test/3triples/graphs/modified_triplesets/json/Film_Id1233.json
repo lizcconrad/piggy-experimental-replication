@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Nicholas_Brodszky": {
+            "lexicon_key": "Nicholas_Brodszky"
+        },
+        "Alan_Jaggs": {
+            "lexicon_key": "Alan_Jaggs"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Nicholas_Brodszky",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "editing",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Alan_Jaggs",
+            "edge_properties": {
+                "lexicon_key": "editing"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 89-minute-long movie English Without Tears includes music composed by Nicholas Brodszky. Alan Jaggs was in charge of the editing."
+        },
+        "Id2": {
+            "text": "Alan Jaggs was the editor and Nicholas Brodszky was the composer in a 89 minute film called 'English Without Tears.'"
+        },
+        "Id3": {
+            "text": "English Without Tears is a film with a running time of 89 minutes, which was edited by Alan Jaggs, with Nicholas Brodszky as the music composer."
+        }
+    },
+    "gold_outputs": []
+}

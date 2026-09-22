@@ -1,0 +1,9 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+Governor [lexicon_key=Governor];
+"1703-05-27" [lexicon_key="1703-05-27"];
+Olga_Bondareva -> Saint_Petersburg [label=deathPlace, lexicon_key=deathPlace];
+Saint_Petersburg -> Governor [label=leaderTitle, lexicon_key=leaderTitle];
+Saint_Petersburg -> "1703-05-27" [label=foundingDate, lexicon_key=foundingDate];
+}

@@ -1,22 +1,29 @@
 {
-    "nodes": {
-        "Aarhus": {
-            "lexicon_key": "Aarhus"
-        },
-        "Jacob_Bundsgaard": {
-            "lexicon_key": "Jacob_Bundsgaard"
+    "graphs": {
+        "Airport_Id1_0": {
+            "nodes": {
+                "Aarhus": {
+                    "lexicon_key": "Aarhus"
+                },
+                "Jacob_Bundsgaard": {
+                    "lexicon_key": "Jacob_Bundsgaard"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Aarhus",
+                    "child_node": "Jacob_Bundsgaard",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The leader of Aarhus is Jacob Bundsgaard."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "Aarhus",
-            "child_node": "Jacob_Bundsgaard",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

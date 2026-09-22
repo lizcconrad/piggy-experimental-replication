@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "Cinemax": {
+            "lexicon_key": "Cinemax"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "sisterStation",
+            "parent_node": "HBO",
+            "child_node": "Cinemax",
+            "edge_properties": {
+                "lexicon_key": "sisterStation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "HBO and Cinemax are sister stations."
+        },
+        "Id2": {
+            "text": "HBO is a sister station with Cinemax."
+        },
+        "Id3": {
+            "text": "Cinemax is a sister channel with HBO."
+        }
+    },
+    "gold_outputs": []
+}

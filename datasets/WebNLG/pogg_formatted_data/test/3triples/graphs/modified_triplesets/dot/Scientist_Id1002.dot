@@ -1,0 +1,9 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+India [lexicon_key=India];
+George_Monson [lexicon_key="George_Monson"];
+Lady_Anne_Monson -> Kingdom_of_England [label=nationality, lexicon_key=nationality];
+Lady_Anne_Monson -> India [label=residence, lexicon_key=residence];
+Lady_Anne_Monson -> George_Monson [label=spouse, lexicon_key=spouse];
+}

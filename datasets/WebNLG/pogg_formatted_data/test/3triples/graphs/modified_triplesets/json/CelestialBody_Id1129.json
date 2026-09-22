@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "418476000000.0": {
+            "lexicon_key": "418476000000.0"
+        },
+        "1249.6": {
+            "lexicon_key": "1249.6"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "418476000000.0",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1249.6",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        },
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The apoapsis of 1147 Stavropolis is 418476000000.0. Its orbital period of is 1249.6 days, and it was discovered by Grigory Neujmin."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis was discovered by Grigory Neujmin. Its apoapsis is 418476000000.0 and the orbital period of the asteroid is 1249.6 days."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis, discovered by Grigory Neujmin, has an apoapsis of 418476000000.0 AU and an orbital period of 1249.6."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Jamaica [lexicon_key=Jamaica];
+Elizabeth_II [lexicon_key="Elizabeth_II"];
+Jamaica -> Elizabeth_II [label=leader, lexicon_key=leader];
+}

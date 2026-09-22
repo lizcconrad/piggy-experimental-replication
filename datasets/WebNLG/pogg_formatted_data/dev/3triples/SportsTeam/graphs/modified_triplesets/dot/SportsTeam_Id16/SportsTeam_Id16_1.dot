@@ -1,0 +1,5 @@
+strict digraph {
+John_van_den_Brom [lexicon_key="John_van_den_Brom"];
+Vitesse_Arnhem [lexicon_key="Vitesse_Arnhem"];
+John_van_den_Brom -> Vitesse_Arnhem [label=club, lexicon_key=club];
+}

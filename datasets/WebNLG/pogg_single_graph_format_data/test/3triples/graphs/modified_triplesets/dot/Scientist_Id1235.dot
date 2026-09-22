@@ -1,0 +1,9 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+India [lexicon_key=India];
+"1776-02-18" [lexicon_key="1776-02-18"];
+Lady_Anne_Monson -> Kingdom_of_England [label=nationality, lexicon_key=nationality];
+Lady_Anne_Monson -> India [label=residence, lexicon_key=residence];
+Lady_Anne_Monson -> "1776-02-18" [label=deathDate, lexicon_key=deathDate];
+}

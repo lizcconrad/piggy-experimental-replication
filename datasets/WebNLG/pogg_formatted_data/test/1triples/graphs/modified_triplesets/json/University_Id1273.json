@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "France": {
+            "lexicon_key": "France"
+        },
+        "\"French Republic\"": {
+            "lexicon_key": "\"French Republic\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "longName",
+            "parent_node": "France",
+            "child_node": "\"French Republic\"",
+            "edge_properties": {
+                "lexicon_key": "longName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The long name of France is the French Republic."
+        },
+        "Id2": {
+            "text": "The formal name for France is the French Republic."
+        },
+        "Id3": {
+            "text": "\"The French Republic\" is the long name of France."
+        }
+    },
+    "gold_outputs": []
+}

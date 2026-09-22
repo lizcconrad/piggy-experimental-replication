@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "City": {
+            "lexicon_key": "City"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "type",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "City",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is a city."
+        }
+    },
+    "gold_outputs": []
+}

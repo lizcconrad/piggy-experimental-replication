@@ -1,0 +1,5 @@
+strict digraph {
+"Alexandria,_Indiana" [lexicon_key="Alexandria,_Indiana"];
+"6.81 (square kilometres)" [lexicon_key="6.81 (square kilometres)"];
+"Alexandria,_Indiana" -> "6.81 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Nicholas_Brodszky [lexicon_key="Nicholas_Brodszky"];
+Alan_Jaggs [lexicon_key="Alan_Jaggs"];
+89.0 [lexicon_key=89.0];
+English_Without_Tears -> Nicholas_Brodszky [label=musicComposer, lexicon_key=musicComposer];
+English_Without_Tears -> Alan_Jaggs [label=editing, lexicon_key=editing];
+English_Without_Tears -> 89.0 [label=runtime, lexicon_key=runtime];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Reşadiye [lexicon_key=Reşadiye];
+State_Award_for_Superior_Achievement [lexicon_key="State_Award_for_Superior_Achievement"];
+Nurhan_Atasoy -> Reşadiye [label=birthPlace, lexicon_key=birthPlace];
+Nurhan_Atasoy -> State_Award_for_Superior_Achievement [label=award, lexicon_key=award];
+}

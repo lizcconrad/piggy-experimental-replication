@@ -1,0 +1,5 @@
+strict digraph {
+"Adams_County,_Pennsylvania" [lexicon_key="Adams_County,_Pennsylvania"];
+"Frederick_County,_Maryland" [lexicon_key="Frederick_County,_Maryland"];
+"Adams_County,_Pennsylvania" -> "Frederick_County,_Maryland" [label=hasToItsSouthwest, lexicon_key=hasToItsSouthwest];
+}

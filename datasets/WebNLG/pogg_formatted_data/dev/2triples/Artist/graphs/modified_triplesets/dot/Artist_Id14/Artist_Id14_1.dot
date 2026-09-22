@@ -1,0 +1,5 @@
+strict digraph {
+Montevideo [lexicon_key=Montevideo];
+"Daniel_Martínez_(politician)" [lexicon_key="Daniel_Martínez_(politician)"];
+Montevideo -> "Daniel_Martínez_(politician)" [label=leader, lexicon_key=leader];
+}

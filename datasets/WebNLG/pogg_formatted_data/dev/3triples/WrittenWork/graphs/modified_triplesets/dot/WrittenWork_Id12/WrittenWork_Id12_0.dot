@@ -1,0 +1,5 @@
+strict digraph {
+A_Long_Long_Way [lexicon_key="A_Long_Long_Way"];
+English_language [lexicon_key="English_language"];
+A_Long_Long_Way -> English_language [label=language, lexicon_key=language];
+}

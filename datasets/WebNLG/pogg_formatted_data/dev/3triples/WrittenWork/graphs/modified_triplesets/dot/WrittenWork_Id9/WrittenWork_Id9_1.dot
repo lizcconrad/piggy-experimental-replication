@@ -1,0 +1,5 @@
+strict digraph {
+"A.T._Charlie_Johnson" [lexicon_key="A.T._Charlie_Johnson"];
+United_States [lexicon_key="United_States"];
+"A.T._Charlie_Johnson" -> United_States [label=residence, lexicon_key=residence];
+}

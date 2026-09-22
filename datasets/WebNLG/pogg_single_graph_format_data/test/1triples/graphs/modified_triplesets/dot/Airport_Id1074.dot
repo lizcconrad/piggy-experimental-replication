@@ -1,0 +1,5 @@
+strict digraph {
+MotorSport_Vision [lexicon_key="MotorSport_Vision"];
+Longfield [lexicon_key=Longfield];
+MotorSport_Vision -> Longfield [label=city, lexicon_key=city];
+}

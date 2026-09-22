@@ -1,0 +1,5 @@
+strict digraph {
+"Al_Anderson_(NRBQ band)" [lexicon_key="Al_Anderson_(NRBQ band)"];
+NRBQ [lexicon_key=NRBQ];
+"Al_Anderson_(NRBQ band)" -> NRBQ [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

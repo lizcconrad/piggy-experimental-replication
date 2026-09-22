@@ -1,0 +1,9 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+Pop_rock [lexicon_key="Pop_rock"];
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+"Happy_Xmas_(War_Is_Over)" [lexicon_key="Happy_Xmas_(War_Is_Over)"];
+"Mermaid_(Train_song)" -> Pop_rock [label=genre, lexicon_key=genre];
+"Mermaid_(Train_song)" -> "Imagine_(John_Lennon_song)" [label=followedBy, lexicon_key=followedBy];
+"Imagine_(John_Lennon_song)" -> "Happy_Xmas_(War_Is_Over)" [label=followedBy, lexicon_key=followedBy];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "418476000000.0": {
+            "lexicon_key": "418476000000.0"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "418476000000.0",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Grigory Neujmin discovered 1147 Stavropolis which has 418476000000.0 apoapsis."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis was discovered by Grigory Neujmin. The 1147 Stavropolis asteroid has an apoapsis of 418476000000.0 AU."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis was discovered by Grigory Neujmin and has an apoapsis of 418476000000.0."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Ashgabat_International_Airport [lexicon_key="Ashgabat_International_Airport"];
+Ashgabat [lexicon_key=Ashgabat];
+Ashgabat_International_Airport -> Ashgabat [label=location, lexicon_key=location];
+}

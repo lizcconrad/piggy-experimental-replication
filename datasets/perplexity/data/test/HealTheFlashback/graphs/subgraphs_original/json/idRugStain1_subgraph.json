@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idRugStain1": {
-            "lexicon_key": "idRugStain",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idRugStain1_subgraph_0": {
+            "nodes": {
+                "idRugStain1": {
+                    "lexicon_key": "idRugStain",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

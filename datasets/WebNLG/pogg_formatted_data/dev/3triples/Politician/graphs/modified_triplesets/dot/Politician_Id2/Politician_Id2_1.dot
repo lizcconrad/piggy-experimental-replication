@@ -1,0 +1,5 @@
+strict digraph {
+Ab_Klink [lexicon_key="Ab_Klink"];
+Christian_Democratic_Appeal [lexicon_key="Christian_Democratic_Appeal"];
+Ab_Klink -> Christian_Democratic_Appeal [label=party, lexicon_key=party];
+}

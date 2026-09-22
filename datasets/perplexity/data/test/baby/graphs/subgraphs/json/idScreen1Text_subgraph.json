@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idScreen1Text": {
-            "lexicon_key": "idScreen1Text",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the screen text"
-    ]
+    ],
+    "graphs": {
+        "idScreen1Text_subgraph_0": {
+            "nodes": {
+                "idScreen1Text": {
+                    "lexicon_key": "idScreen1Text",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the screen text"
+            ]
+        }
+    }
 }

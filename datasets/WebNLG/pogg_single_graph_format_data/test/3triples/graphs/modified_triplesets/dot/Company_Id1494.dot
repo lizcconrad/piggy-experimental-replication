@@ -1,0 +1,9 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+556300000 [lexicon_key=556300000];
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+875400000 [lexicon_key=875400000];
+Trane -> 556300000 [label=netIncome, lexicon_key=netIncome];
+Trane -> "La_Crosse,_Wisconsin" [label=foundationPlace, lexicon_key=foundationPlace];
+Trane -> 875400000 [label=operatingIncome, lexicon_key=operatingIncome];
+}

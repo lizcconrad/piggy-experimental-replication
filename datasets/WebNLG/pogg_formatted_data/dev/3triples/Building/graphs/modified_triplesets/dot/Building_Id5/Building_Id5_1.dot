@@ -1,0 +1,5 @@
+strict digraph {
+"Buffalo,_New_York" [lexicon_key="Buffalo,_New_York"];
+"Erie_County,_New_York" [lexicon_key="Erie_County,_New_York"];
+"Buffalo,_New_York" -> "Erie_County,_New_York" [label=isPartOf, lexicon_key=isPartOf];
+}

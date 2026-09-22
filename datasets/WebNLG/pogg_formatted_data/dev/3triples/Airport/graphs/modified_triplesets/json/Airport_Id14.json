@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Angola_International_Airport": {
-            "lexicon_key": "Angola_International_Airport"
+    "graphs": {
+        "Airport_Id14_0": {
+            "nodes": {
+                "Angola_International_Airport": {
+                    "lexicon_key": "Angola_International_Airport"
+                },
+                "\u00cdcolo_e_Bengo": {
+                    "lexicon_key": "\u00cdcolo_e_Bengo"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Angola_International_Airport",
+                    "child_node": "\u00cdcolo_e_Bengo",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola International Airport is located at \u00cdcolo e Bengo in Angola and the runway is named \"south runway\".",
+                "Angola International Airport is located at \u00cdcolo e Bengo, Angola and the runway is known as \"South Runway\"."
+            ]
         },
-        "\u00cdcolo_e_Bengo": {
-            "lexicon_key": "\u00cdcolo_e_Bengo"
+        "Airport_Id14_1": {
+            "nodes": {
+                "\u00cdcolo_e_Bengo": {
+                    "lexicon_key": "\u00cdcolo_e_Bengo"
+                },
+                "Angola": {
+                    "lexicon_key": "Angola"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "\u00cdcolo_e_Bengo",
+                    "child_node": "Angola",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola International Airport is located at \u00cdcolo e Bengo in Angola and the runway is named \"south runway\".",
+                "Angola International Airport is located at \u00cdcolo e Bengo, Angola and the runway is known as \"South Runway\"."
+            ]
         },
-        "Angola": {
-            "lexicon_key": "Angola"
-        },
-        "\"South Runway\"": {
-            "lexicon_key": "\"South Runway\""
+        "Airport_Id14_2": {
+            "nodes": {
+                "Angola_International_Airport": {
+                    "lexicon_key": "Angola_International_Airport"
+                },
+                "\"South Runway\"": {
+                    "lexicon_key": "\"South Runway\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "runwayName",
+                    "parent_node": "Angola_International_Airport",
+                    "child_node": "\"South Runway\"",
+                    "edge_properties": {
+                        "lexicon_key": "runwayName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola International Airport is located at \u00cdcolo e Bengo in Angola and the runway is named \"south runway\".",
+                "Angola International Airport is located at \u00cdcolo e Bengo, Angola and the runway is known as \"South Runway\"."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Angola_International_Airport",
-            "child_node": "\u00cdcolo_e_Bengo",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "\u00cdcolo_e_Bengo",
-            "child_node": "Angola",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "runwayName",
-            "parent_node": "Angola_International_Airport",
-            "child_node": "\"South Runway\"",
-            "edge_properties": {
-                "lexicon_key": "runwayName"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

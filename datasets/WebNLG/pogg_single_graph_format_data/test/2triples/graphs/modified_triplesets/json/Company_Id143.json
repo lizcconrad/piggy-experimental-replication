@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "295": {
+            "lexicon_key": "295"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfLocations",
+            "parent_node": "Chinabank",
+            "child_node": "295",
+            "edge_properties": {
+                "lexicon_key": "numberOfLocations"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Chinabank",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Located in the Philippines, Chinabank has 295 locations."
+        },
+        "Id2": {
+            "text": "Chinabank, located in the Philippines, has 295 banking centers."
+        },
+        "Id3": {
+            "text": "Chinabank, located in the Philippines, has 295 branches."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Alfredo_Zitarrosa": {
-            "lexicon_key": "Alfredo_Zitarrosa"
+    "graphs": {
+        "Artist_Id23_0": {
+            "nodes": {
+                "Alfredo_Zitarrosa": {
+                    "lexicon_key": "Alfredo_Zitarrosa"
+                },
+                "RCA_Records": {
+                    "lexicon_key": "RCA_Records"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "recordLabel",
+                    "parent_node": "Alfredo_Zitarrosa",
+                    "child_node": "RCA_Records",
+                    "edge_properties": {
+                        "lexicon_key": "recordLabel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfredo Zitarrosa, whose record label is RCA Records, is in the genre is Zamba which is considered an art form and has a background as a solo singer.",
+                "Solo singer, Alfredo Zitarrosa has a recording label in RCA Records and his genre is Zamba.",
+                "Starting out as a solo singer, Alfredo Zitarrosa has a recording label with RCA Records. Alfredo Zitarrosa's genre is Zamba which is considered an art form."
+            ]
         },
-        "RCA_Records": {
-            "lexicon_key": "RCA_Records"
+        "Artist_Id23_1": {
+            "nodes": {
+                "Alfredo_Zitarrosa": {
+                    "lexicon_key": "Alfredo_Zitarrosa"
+                },
+                "Zamba_(artform)": {
+                    "lexicon_key": "Zamba_(artform)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Alfredo_Zitarrosa",
+                    "child_node": "Zamba_(artform)",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfredo Zitarrosa, whose record label is RCA Records, is in the genre is Zamba which is considered an art form and has a background as a solo singer.",
+                "Solo singer, Alfredo Zitarrosa has a recording label in RCA Records and his genre is Zamba.",
+                "Starting out as a solo singer, Alfredo Zitarrosa has a recording label with RCA Records. Alfredo Zitarrosa's genre is Zamba which is considered an art form."
+            ]
         },
-        "Zamba_(artform)": {
-            "lexicon_key": "Zamba_(artform)"
-        },
-        "\"solo_singer\"": {
-            "lexicon_key": "\"solo_singer\""
+        "Artist_Id23_2": {
+            "nodes": {
+                "Alfredo_Zitarrosa": {
+                    "lexicon_key": "Alfredo_Zitarrosa"
+                },
+                "\"solo_singer\"": {
+                    "lexicon_key": "\"solo_singer\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "background",
+                    "parent_node": "Alfredo_Zitarrosa",
+                    "child_node": "\"solo_singer\"",
+                    "edge_properties": {
+                        "lexicon_key": "background"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfredo Zitarrosa, whose record label is RCA Records, is in the genre is Zamba which is considered an art form and has a background as a solo singer.",
+                "Solo singer, Alfredo Zitarrosa has a recording label in RCA Records and his genre is Zamba.",
+                "Starting out as a solo singer, Alfredo Zitarrosa has a recording label with RCA Records. Alfredo Zitarrosa's genre is Zamba which is considered an art form."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "recordLabel",
-            "parent_node": "Alfredo_Zitarrosa",
-            "child_node": "RCA_Records",
-            "edge_properties": {
-                "lexicon_key": "recordLabel"
-            }
-        },
-        {
-            "edge_name": "genre",
-            "parent_node": "Alfredo_Zitarrosa",
-            "child_node": "Zamba_(artform)",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "background",
-            "parent_node": "Alfredo_Zitarrosa",
-            "child_node": "\"solo_singer\"",
-            "edge_properties": {
-                "lexicon_key": "background"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

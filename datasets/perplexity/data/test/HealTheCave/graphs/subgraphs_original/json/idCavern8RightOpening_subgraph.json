@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idCavern8RightOpening": {
-            "lexicon_key": "idCavern8RightOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idCavern8RightOpening_subgraph_0": {
+            "nodes": {
+                "idCavern8RightOpening": {
+                    "lexicon_key": "idCavern8RightOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

@@ -1,0 +1,5 @@
+strict digraph {
+"1099_Figneria" [lexicon_key="1099_Figneria"];
+349206000000.0 [lexicon_key=349206000000.0];
+"1099_Figneria" -> 349206000000.0 [label=periapsis, lexicon_key=periapsis];
+}

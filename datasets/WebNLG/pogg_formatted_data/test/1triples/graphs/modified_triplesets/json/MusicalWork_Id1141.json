@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "FIMI": {
+            "lexicon_key": "FIMI"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "certification",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "FIMI",
+            "edge_properties": {
+                "lexicon_key": "certification"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song Imagine by John Lennon earned the FIMI certification."
+        },
+        "Id2": {
+            "text": "John Lennon's \"Imagine\" has a FIMI certification."
+        },
+        "Id3": {
+            "text": "The John Lennon song Imagine is certified by FIMI."
+        }
+    },
+    "gold_outputs": []
+}

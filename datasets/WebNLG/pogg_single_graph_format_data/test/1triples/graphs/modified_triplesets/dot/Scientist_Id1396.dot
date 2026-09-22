@@ -1,0 +1,5 @@
+strict digraph {
+Reşadiye [lexicon_key=Reşadiye];
+Turkey [lexicon_key=Turkey];
+Reşadiye -> Turkey [label=country, lexicon_key=country];
+}

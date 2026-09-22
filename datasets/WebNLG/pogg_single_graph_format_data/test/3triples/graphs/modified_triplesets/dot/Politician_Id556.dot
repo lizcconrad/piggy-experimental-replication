@@ -1,0 +1,9 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+Casey_Ribicoff [lexicon_key="Casey_Ribicoff"];
+"John_N._Dempsey" [lexicon_key="John_N._Dempsey"];
+United_States [lexicon_key="United_States"];
+"Abraham_A._Ribicoff" -> Casey_Ribicoff [label=spouse, lexicon_key=spouse];
+"Abraham_A._Ribicoff" -> "John_N._Dempsey" [label=successor, lexicon_key=successor];
+"Abraham_A._Ribicoff" -> United_States [label=birthPlace, lexicon_key=birthPlace];
+}

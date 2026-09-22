@@ -1,0 +1,5 @@
+strict digraph {
+Atlanta [lexicon_key=Atlanta];
+"1299.0 (inhabitants per square kilometre)" [lexicon_key="1299.0 (inhabitants per square kilometre)"];
+Atlanta -> "1299.0 (inhabitants per square kilometre)" [label=populationDensity, lexicon_key=populationDensity];
+}

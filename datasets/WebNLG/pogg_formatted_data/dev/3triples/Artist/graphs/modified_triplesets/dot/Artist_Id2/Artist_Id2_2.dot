@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Deer [lexicon_key="Aaron_Deer"];
+United_States [lexicon_key="United_States"];
+Aaron_Deer -> United_States [label=origin, lexicon_key=origin];
+}

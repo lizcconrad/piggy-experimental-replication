@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Humboldt_University": {
+            "lexicon_key": "Humboldt_University"
+        },
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Humboldt_University",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Even though Darinka Dentcheva's alma mater is Humboldt University, she currently resides in New Jersey (United States)."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva lives in New Jersey, USA and studied at Humboldt University."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva\u2019s alma mater is Humboldt University. She now resides in New Jersey, which is in the United States."
+        }
+    },
+    "gold_outputs": []
+}

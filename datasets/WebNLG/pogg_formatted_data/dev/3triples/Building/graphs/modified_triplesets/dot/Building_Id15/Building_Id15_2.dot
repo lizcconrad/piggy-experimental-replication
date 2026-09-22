@@ -1,0 +1,5 @@
+strict digraph {
+"Akita,_Akita" [lexicon_key="Akita,_Akita"];
+Japan [lexicon_key=Japan];
+"Akita,_Akita" -> Japan [label=country, lexicon_key=country];
+}

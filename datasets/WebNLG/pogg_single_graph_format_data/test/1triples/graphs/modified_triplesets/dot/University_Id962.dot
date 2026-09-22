@@ -1,0 +1,5 @@
+strict digraph {
+Dijon [lexicon_key=Dijon];
+245.0 [lexicon_key=245.0];
+Dijon -> 245.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

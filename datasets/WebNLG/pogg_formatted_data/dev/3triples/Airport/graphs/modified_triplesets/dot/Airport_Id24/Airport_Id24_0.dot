@@ -1,0 +1,5 @@
+strict digraph {
+Poaceae [lexicon_key=Poaceae];
+Monocotyledon [lexicon_key=Monocotyledon];
+Poaceae -> Monocotyledon [label=class, lexicon_key=class];
+}

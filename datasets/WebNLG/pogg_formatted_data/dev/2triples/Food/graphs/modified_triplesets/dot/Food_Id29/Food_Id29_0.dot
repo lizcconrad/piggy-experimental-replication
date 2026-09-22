@@ -1,0 +1,5 @@
+strict digraph {
+Binignit [lexicon_key=Binignit];
+Sweet_potato [lexicon_key="Sweet_potato"];
+Binignit -> Sweet_potato [label=ingredient, lexicon_key=ingredient];
+}

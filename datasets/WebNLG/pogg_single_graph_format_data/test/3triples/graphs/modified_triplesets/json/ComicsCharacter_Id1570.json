@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "Broadcasting_House": {
+            "lexicon_key": "Broadcasting_House"
+        },
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Bill_Oddie": {
+            "lexicon_key": "Bill_Oddie"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "BBC",
+            "child_node": "Broadcasting_House",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Bill_Oddie",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bill Oddie stars in a BBC programme called Bananaman. the BBC are based at Broadcasting House in London."
+        },
+        "Id2": {
+            "text": "Bill Oddie starred in Bananaman which was broadcast by the BBC who are based in the Broadcasting House, London."
+        },
+        "Id3": {
+            "text": "Bananaman the TV series starred by Bill Oddie was shown on the BBC and the BBC headquarters is called Broadcasting House."
+        }
+    },
+    "gold_outputs": []
+}

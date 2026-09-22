@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Ray_Griggs_(director)": {
+            "lexicon_key": "Ray_Griggs_(director)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers was written by the director Ray Griggs."
+        },
+        "Id2": {
+            "text": "Super Capers is a film written by Ray Griggs."
+        },
+        "Id3": {
+            "text": "Super Capers was written by Ray Griggs."
+        }
+    },
+    "gold_outputs": []
+}

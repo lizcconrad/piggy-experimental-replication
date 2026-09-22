@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Mass_Media [lexicon_key="Mass_Media"];
+GMA_New_Media -> Mass_Media [label=industry, lexicon_key=industry];
+}

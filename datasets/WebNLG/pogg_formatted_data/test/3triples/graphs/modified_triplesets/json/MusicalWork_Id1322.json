@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Pools_of_Light_(Brian_Kelly_album)": {
+            "lexicon_key": "Pools_of_Light_(Brian_Kelly_album)"
+        },
+        "Afterplay_(Brian_Kelly_album)": {
+            "lexicon_key": "Afterplay_(Brian_Kelly_album)"
+        },
+        "Instrumental_music": {
+            "lexicon_key": "Instrumental_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Pools_of_Light_(Brian_Kelly_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Afterplay_(Brian_Kelly_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Instrumental_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle by Brian Kelly is an instrumental album. It is preceded by Pools of Light and followed by Afterplay."
+        },
+        "Id2": {
+            "text": "Expect A Miracle is a genre of instrumental music that was preceded by the Brian Kelly album Pools of Light and followed by the Afterplay album."
+        },
+        "Id3": {
+            "text": "The album Expect a Miracle, an instrumental music album by Brian Kelly, was preceded by the album Pools of Light and followed by the album Afterplay."
+        }
+    },
+    "gold_outputs": []
+}

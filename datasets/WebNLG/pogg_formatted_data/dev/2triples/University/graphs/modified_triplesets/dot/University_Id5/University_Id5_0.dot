@@ -1,0 +1,5 @@
+strict digraph {
+Karnataka [lexicon_key=Karnataka];
+Arabian_Sea [lexicon_key="Arabian_Sea"];
+Karnataka -> Arabian_Sea [label=hasToItsWest, lexicon_key=hasToItsWest];
+}

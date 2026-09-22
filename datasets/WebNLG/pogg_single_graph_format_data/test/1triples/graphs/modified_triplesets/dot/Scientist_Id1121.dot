@@ -1,0 +1,5 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Reşadiye [lexicon_key=Reşadiye];
+Nurhan_Atasoy -> Reşadiye [label=birthPlace, lexicon_key=birthPlace];
+}

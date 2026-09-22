@@ -1,0 +1,5 @@
+strict digraph {
+Tokat [lexicon_key=Tokat];
+"+90 356" [lexicon_key="+90 356"];
+Tokat -> "+90 356" [label=areaCode, lexicon_key=areaCode];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"1101_Clematis" [lexicon_key="1101_Clematis"];
+"520906000.0 (kilometres)" [lexicon_key="520906000.0 (kilometres)"];
+"1101_Clematis" -> "520906000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

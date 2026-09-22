@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "Campeonato_Brasileiro_S\u00e9rie_C": {
+            "lexicon_key": "Campeonato_Brasileiro_S\u00e9rie_C"
+        },
+        "2015": {
+            "lexicon_key": "2015"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "season",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "2015",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense played in the Campeonato Brasileiro S\u00e9rie C league during the 2015 season."
+        },
+        "Id2": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense from the Campeonato Brasileiro S\u00e9rie C league played in the 2015 season."
+        },
+        "Id3": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league in 2015."
+        }
+    },
+    "gold_outputs": []
+}

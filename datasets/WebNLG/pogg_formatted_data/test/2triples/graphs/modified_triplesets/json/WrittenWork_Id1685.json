@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "The_Two_Towers": {
+            "lexicon_key": "The_Two_Towers"
+        },
+        "1954-07-29": {
+            "lexicon_key": "1954-07-29"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "The_Two_Towers",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "1954-07-29",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Published on July 29, 1954, The Fellowship of the Ring precedes The Two Towers."
+        },
+        "Id2": {
+            "text": "The Fellowship of the Ring, released on July 29, 1954, was followed by The Two Towers."
+        },
+        "Id3": {
+            "text": "The Fellowship of the Ring was released on July 29, 1954, and was followed by The Two Towers."
+        }
+    },
+    "gold_outputs": []
+}

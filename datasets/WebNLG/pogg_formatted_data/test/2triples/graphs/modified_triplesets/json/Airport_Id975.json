@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Thurleigh",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bedford Aerodrome is located in Thurleigh, United Kingdom."
+        },
+        "Id2": {
+            "text": "The location of Bedford Aerodrome is Thurleigh which is located within the United Kingdom."
+        },
+        "Id3": {
+            "text": "The location of Bedford Aerodrome is Thurleigh which is in the United Kingdom."
+        }
+    },
+    "gold_outputs": []
+}

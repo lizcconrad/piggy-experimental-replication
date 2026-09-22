@@ -1,0 +1,5 @@
+strict digraph {
+A_Wizard_of_Mars [lexicon_key="A_Wizard_of_Mars"];
+318875313 [lexicon_key=318875313];
+A_Wizard_of_Mars -> 318875313 [label=oclcNumber, lexicon_key=oclcNumber];
+}

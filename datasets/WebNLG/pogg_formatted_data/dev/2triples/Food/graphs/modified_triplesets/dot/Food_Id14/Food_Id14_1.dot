@@ -1,0 +1,5 @@
+strict digraph {
+Bacon_Explosion [lexicon_key="Bacon_Explosion"];
+"Main course" [lexicon_key="Main course"];
+Bacon_Explosion -> "Main course" [label=course, lexicon_key=course];
+}

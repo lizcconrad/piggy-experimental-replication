@@ -1,0 +1,5 @@
+strict digraph {
+Poaceae [lexicon_key=Poaceae];
+Flowering_plant [lexicon_key="Flowering_plant"];
+Poaceae -> Flowering_plant [label=division, lexicon_key=division];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+Hessisch_Oldendorf [lexicon_key="Hessisch_Oldendorf"];
+Agnes_Kant -> Hessisch_Oldendorf [label=birthPlace, lexicon_key=birthPlace];
+}

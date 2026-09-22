@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Binignit": {
-            "lexicon_key": "Binignit"
+    "graphs": {
+        "Food_Id31_0": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Sweet_potato": {
+                    "lexicon_key": "Sweet_potato"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mainIngredient",
+                    "parent_node": "Binignit",
+                    "child_node": "Sweet_potato",
+                    "edge_properties": {
+                        "lexicon_key": "mainIngredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Sweet potato is of the order Solanales and are a main ingredient of binignit.",
+                "Sweet potatoes are members of the Solanales order of plants. They are the main ingredient of binignit.",
+                "Sweet potatoes are the main ingredient of binignit and the potatoes are part of the order of Solanales."
+            ]
         },
-        "Sweet_potato": {
-            "lexicon_key": "Sweet_potato"
-        },
-        "Solanales": {
-            "lexicon_key": "Solanales"
+        "Food_Id31_1": {
+            "nodes": {
+                "Sweet_potato": {
+                    "lexicon_key": "Sweet_potato"
+                },
+                "Solanales": {
+                    "lexicon_key": "Solanales"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "order",
+                    "parent_node": "Sweet_potato",
+                    "child_node": "Solanales",
+                    "edge_properties": {
+                        "lexicon_key": "order"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Sweet potato is of the order Solanales and are a main ingredient of binignit.",
+                "Sweet potatoes are members of the Solanales order of plants. They are the main ingredient of binignit.",
+                "Sweet potatoes are the main ingredient of binignit and the potatoes are part of the order of Solanales."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "mainIngredient",
-            "parent_node": "Binignit",
-            "child_node": "Sweet_potato",
-            "edge_properties": {
-                "lexicon_key": "mainIngredient"
-            }
-        },
-        {
-            "edge_name": "order",
-            "parent_node": "Sweet_potato",
-            "child_node": "Solanales",
-            "edge_properties": {
-                "lexicon_key": "order"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

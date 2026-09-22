@@ -1,0 +1,5 @@
+strict digraph {
+"St._Louis_Rams" [lexicon_key="St._Louis_Rams"];
+"St._Louis" [lexicon_key="St._Louis"];
+"St._Louis_Rams" -> "St._Louis" [label=city, lexicon_key=city];
+}

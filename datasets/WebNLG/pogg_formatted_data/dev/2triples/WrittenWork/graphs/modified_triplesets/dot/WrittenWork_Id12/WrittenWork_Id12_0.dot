@@ -1,0 +1,5 @@
+strict digraph {
+A_Loyal_Character_Dancer [lexicon_key="A_Loyal_Character_Dancer"];
+Soho_Press [lexicon_key="Soho_Press"];
+A_Loyal_Character_Dancer -> Soho_Press [label=publisher, lexicon_key=publisher];
+}

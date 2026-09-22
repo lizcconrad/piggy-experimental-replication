@@ -1,0 +1,5 @@
+strict digraph {
+Asser_Levy_Public_Baths [lexicon_key="Asser_Levy_Public_Baths"];
+"Asser Levy Place and East 23rd Street" [lexicon_key="Asser Levy Place and East 23rd Street"];
+Asser_Levy_Public_Baths -> "Asser Levy Place and East 23rd Street" [label=location, lexicon_key=location];
+}

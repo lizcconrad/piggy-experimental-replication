@@ -1,0 +1,5 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+Manila [lexicon_key=Manila];
+Chinabank -> Manila [label=foundationPlace, lexicon_key=foundationPlace];
+}

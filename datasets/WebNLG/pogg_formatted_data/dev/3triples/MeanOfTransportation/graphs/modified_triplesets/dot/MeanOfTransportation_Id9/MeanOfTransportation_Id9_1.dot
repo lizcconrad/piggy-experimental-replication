@@ -1,0 +1,5 @@
+strict digraph {
+Gruppo_Bertone [lexicon_key="Gruppo_Bertone"];
+Turin [lexicon_key=Turin];
+Gruppo_Bertone -> Turin [label=foundationPlace, lexicon_key=foundationPlace];
+}

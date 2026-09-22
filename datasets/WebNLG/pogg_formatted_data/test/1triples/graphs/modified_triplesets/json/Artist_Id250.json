@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Modern_Standard_Arabic": {
+            "lexicon_key": "Modern_Standard_Arabic"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "officialLanguage",
+            "parent_node": "Israel",
+            "child_node": "Modern_Standard_Arabic",
+            "edge_properties": {
+                "lexicon_key": "officialLanguage"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the official languages of Israel Is Modern Standard Arabic."
+        },
+        "Id2": {
+            "text": "The official language of Israel is Modern Standard Arabic."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Guiana_Space_Centre [lexicon_key="Guiana_Space_Centre"];
+French_Guiana [lexicon_key="French_Guiana"];
+Guiana_Space_Centre -> French_Guiana [label=location, lexicon_key=location];
+}

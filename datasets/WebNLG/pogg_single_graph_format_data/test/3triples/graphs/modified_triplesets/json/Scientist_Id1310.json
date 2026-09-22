@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Re\u015fadiye": {
+            "lexicon_key": "Re\u015fadiye"
+        },
+        "State_Award_for_Superior_Achievement": {
+            "lexicon_key": "State_Award_for_Superior_Achievement"
+        },
+        "Te\u015fvikiye": {
+            "lexicon_key": "Te\u015fvikiye"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Re\u015fadiye",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "State_Award_for_Superior_Achievement",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Te\u015fvikiye",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy, recipient of the State Award for Superior Achievement, was born in Re\u015fadiye, and resides in Tesvikiye."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy, who won the State Award for Superior Achievement, was born in Re\u015fadiye and mainly lived in Tesvikiye."
+        },
+        "Id3": {
+            "text": "Born in Resadiye, Nurhan Atasoy now resides in Tesvikiye as a recipient of the State Award for Superior Achievement."
+        }
+    },
+    "gold_outputs": []
+}

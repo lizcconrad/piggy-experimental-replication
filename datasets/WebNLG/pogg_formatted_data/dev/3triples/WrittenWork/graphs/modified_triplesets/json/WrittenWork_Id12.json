@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "A_Long_Long_Way": {
-            "lexicon_key": "A_Long_Long_Way"
+    "graphs": {
+        "WrittenWork_Id12_0": {
+            "nodes": {
+                "A_Long_Long_Way": {
+                    "lexicon_key": "A_Long_Long_Way"
+                },
+                "English_language": {
+                    "lexicon_key": "English_language"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "language",
+                    "parent_node": "A_Long_Long_Way",
+                    "child_node": "English_language",
+                    "edge_properties": {
+                        "lexicon_key": "language"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A Long Long Way (followed by the book The Secret Scripture) is written in the English language, which is spoken in Great Britain.",
+                "Followed by The Secret Scripture, the book A Long Long Way is written in English, the language spoken in Great Britain."
+            ]
         },
-        "English_language": {
-            "lexicon_key": "English_language"
+        "WrittenWork_Id12_1": {
+            "nodes": {
+                "English_language": {
+                    "lexicon_key": "English_language"
+                },
+                "Great_Britain": {
+                    "lexicon_key": "Great_Britain"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "spokenIn",
+                    "parent_node": "English_language",
+                    "child_node": "Great_Britain",
+                    "edge_properties": {
+                        "lexicon_key": "spokenIn"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A Long Long Way (followed by the book The Secret Scripture) is written in the English language, which is spoken in Great Britain.",
+                "Followed by The Secret Scripture, the book A Long Long Way is written in English, the language spoken in Great Britain."
+            ]
         },
-        "Great_Britain": {
-            "lexicon_key": "Great_Britain"
-        },
-        "The_Secret_Scripture": {
-            "lexicon_key": "The_Secret_Scripture"
+        "WrittenWork_Id12_2": {
+            "nodes": {
+                "A_Long_Long_Way": {
+                    "lexicon_key": "A_Long_Long_Way"
+                },
+                "The_Secret_Scripture": {
+                    "lexicon_key": "The_Secret_Scripture"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "followedBy",
+                    "parent_node": "A_Long_Long_Way",
+                    "child_node": "The_Secret_Scripture",
+                    "edge_properties": {
+                        "lexicon_key": "followedBy"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A Long Long Way (followed by the book The Secret Scripture) is written in the English language, which is spoken in Great Britain.",
+                "Followed by The Secret Scripture, the book A Long Long Way is written in English, the language spoken in Great Britain."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "language",
-            "parent_node": "A_Long_Long_Way",
-            "child_node": "English_language",
-            "edge_properties": {
-                "lexicon_key": "language"
-            }
-        },
-        {
-            "edge_name": "spokenIn",
-            "parent_node": "English_language",
-            "child_node": "Great_Britain",
-            "edge_properties": {
-                "lexicon_key": "spokenIn"
-            }
-        },
-        {
-            "edge_name": "followedBy",
-            "parent_node": "A_Long_Long_Way",
-            "child_node": "The_Secret_Scripture",
-            "edge_properties": {
-                "lexicon_key": "followedBy"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

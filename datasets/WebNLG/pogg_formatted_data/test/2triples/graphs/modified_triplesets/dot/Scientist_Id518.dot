@@ -1,0 +1,7 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+United_States [lexicon_key="United_States"];
+John_Roberts [lexicon_key="John_Roberts"];
+Darinka_Dentcheva -> United_States [label=residence, lexicon_key=residence];
+United_States -> John_Roberts [label=leader, lexicon_key=leader];
+}

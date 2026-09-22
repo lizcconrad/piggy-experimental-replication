@@ -1,9 +1,13 @@
 {
-    "nodes": {
-        "idCaptain1": {
-            "node_type": "entity",
-            "lexicon_key": "idCaptain"
+    "graphs": {
+        "idCaptain1_subgraph_0": {
+            "nodes": {
+                "idCaptain1": {
+                    "node_type": "entity",
+                    "lexicon_key": "idCaptain"
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

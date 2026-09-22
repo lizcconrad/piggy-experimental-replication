@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Aaron_Turner": {
-            "lexicon_key": "Aaron_Turner"
+    "graphs": {
+        "Artist_Id5_0": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Twilight_(band)": {
+                    "lexicon_key": "Twilight_(band)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Twilight_(band)",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner played with the bands Twilight and Sumac and Black Metal is his music genre.",
+                "Aaron Turner played with the bands Twilight and Sumac. He is a Black metal musician.",
+                "Aaron Turner played with the bands Twilight and Sumac. He performs black metal music."
+            ]
         },
-        "Twilight_(band)": {
-            "lexicon_key": "Twilight_(band)"
+        "Artist_Id5_1": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Sumac_(band)": {
+                    "lexicon_key": "Sumac_(band)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Sumac_(band)",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner played with the bands Twilight and Sumac and Black Metal is his music genre.",
+                "Aaron Turner played with the bands Twilight and Sumac. He is a Black metal musician.",
+                "Aaron Turner played with the bands Twilight and Sumac. He performs black metal music."
+            ]
         },
-        "Sumac_(band)": {
-            "lexicon_key": "Sumac_(band)"
-        },
-        "Black_metal": {
-            "lexicon_key": "Black_metal"
+        "Artist_Id5_2": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Black_metal": {
+                    "lexicon_key": "Black_metal"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Black_metal",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner played with the bands Twilight and Sumac and Black Metal is his music genre.",
+                "Aaron Turner played with the bands Twilight and Sumac. He is a Black metal musician.",
+                "Aaron Turner played with the bands Twilight and Sumac. He performs black metal music."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Twilight_(band)",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Sumac_(band)",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "genre",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Black_metal",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

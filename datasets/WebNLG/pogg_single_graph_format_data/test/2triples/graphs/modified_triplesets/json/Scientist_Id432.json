@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "John_Roberts": {
+            "lexicon_key": "John_Roberts"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "citizenship",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "citizenship"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "John_Roberts",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva is a citizen of the United States, the country where John Roberts is one of the leaders."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva is a citizen of the United States, where John Roberts serves as one of the countries leaders."
+        },
+        "Id3": {
+            "text": "John Roberts is a leader in the United States, where Darinka Dentcheva is a citizen."
+        }
+    },
+    "gold_outputs": []
+}

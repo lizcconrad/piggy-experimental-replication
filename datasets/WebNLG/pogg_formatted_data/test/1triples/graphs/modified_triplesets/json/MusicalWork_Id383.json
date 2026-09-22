@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Imagine_(John_Lennon_song)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Train song Mermaid is followed by the John Lennon song Imagine."
+        },
+        "Id2": {
+            "text": "The song Mermaid by Train was followed by the release of Imagine by John Lennon performed by Train."
+        },
+        "Id3": {
+            "text": "Train followed Mermaid with Imagine, a song by John Lennon."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,9 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Quezon_City [lexicon_key="Quezon_City"];
+World_Wide_Web [lexicon_key="World_Wide_Web"];
+Philippine_Entertainment_Portal [lexicon_key="Philippine_Entertainment_Portal"];
+GMA_New_Media -> Quezon_City [label=location, lexicon_key=location];
+GMA_New_Media -> World_Wide_Web [label=product, lexicon_key=product];
+GMA_New_Media -> Philippine_Entertainment_Portal [label=subsidiary, lexicon_key=subsidiary];
+}

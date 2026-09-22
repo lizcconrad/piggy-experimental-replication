@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "United_States_Air_Force": {
+            "lexicon_key": "United_States_Air_Force"
+        },
+        "\"ORAA\"": {
+            "lexicon_key": "\"ORAA\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "United_States_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "\"ORAA\"",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Operated by the United States Air Force, Al Asad Airbase uses ORAA as its ICAO location identifier."
+        },
+        "Id2": {
+            "text": "The ICAO Location Identifier of Al Asad Airbase is ORAA and is operated by The United States Air Force."
+        },
+        "Id3": {
+            "text": "ORAA is the ICAO location identifier of Al Asad Airbase which is operated by the United States Air Force."
+        }
+    },
+    "gold_outputs": []
+}

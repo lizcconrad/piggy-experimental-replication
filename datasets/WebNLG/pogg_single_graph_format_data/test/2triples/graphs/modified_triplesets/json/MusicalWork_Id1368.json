@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The rock album Bootleg Series Volume 1: The Quine Tapes by the Velvet Underground was preceded by the album Squeeze."
+        },
+        "Id2": {
+            "text": "The Velvet Underground album Squeeze was followed by the rock album, The Bootleg Series Volume I: The Quine Tapes."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"11_Diagonal_Street" [lexicon_key="11_Diagonal_Street"];
+South_Africa [lexicon_key="South_Africa"];
+"11_Diagonal_Street" -> South_Africa [label=location, lexicon_key=location];
+}

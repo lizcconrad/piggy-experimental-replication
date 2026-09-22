@@ -1,0 +1,5 @@
+strict digraph {
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+"1954-07-29" [lexicon_key="1954-07-29"];
+The_Fellowship_of_the_Ring -> "1954-07-29" [label=releaseDate, lexicon_key=releaseDate];
+}

@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Andrews_County_Airport": {
-            "lexicon_key": "Andrews_County_Airport"
-        },
-        "\"Helipad\"": {
-            "lexicon_key": "\"Helipad\""
+    "graphs": {
+        "Airport_Id19_0": {
+            "nodes": {
+                "Andrews_County_Airport": {
+                    "lexicon_key": "Andrews_County_Airport"
+                },
+                "\"Helipad\"": {
+                    "lexicon_key": "\"Helipad\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "runwayName",
+                    "parent_node": "Andrews_County_Airport",
+                    "child_node": "\"Helipad\"",
+                    "edge_properties": {
+                        "lexicon_key": "runwayName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Helipad is the runway name of Andrews County Airport.",
+                "The name of the runway at Andrews County Airport is Helipad.",
+                "The runway at Andrews County Airport is called Helipad."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "runwayName",
-            "parent_node": "Andrews_County_Airport",
-            "child_node": "\"Helipad\"",
-            "edge_properties": {
-                "lexicon_key": "runwayName"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

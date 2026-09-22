@@ -1,0 +1,5 @@
+strict digraph {
+Pontiac [lexicon_key=Pontiac];
+General_Motors [lexicon_key="General_Motors"];
+Pontiac -> General_Motors [label=parentCompany, lexicon_key=parentCompany];
+}

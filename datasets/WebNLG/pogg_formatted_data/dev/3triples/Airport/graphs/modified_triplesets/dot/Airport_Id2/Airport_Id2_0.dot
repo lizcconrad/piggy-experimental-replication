@@ -1,0 +1,5 @@
+strict digraph {
+Adirondack_Regional_Airport [lexicon_key="Adirondack_Regional_Airport"];
+1219.0 [lexicon_key=1219.0];
+Adirondack_Regional_Airport -> 1219.0 [label=runwayLength, lexicon_key=runwayLength];
+}

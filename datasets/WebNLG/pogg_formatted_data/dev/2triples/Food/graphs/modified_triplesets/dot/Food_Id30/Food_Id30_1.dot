@@ -1,0 +1,5 @@
+strict digraph {
+Sweet_potato [lexicon_key="Sweet_potato"];
+Flowering_plant [lexicon_key="Flowering_plant"];
+Sweet_potato -> Flowering_plant [label=division, lexicon_key=division];
+}

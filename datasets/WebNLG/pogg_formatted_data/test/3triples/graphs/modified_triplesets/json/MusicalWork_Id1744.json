@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "230.05": {
+            "lexicon_key": "230.05"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "230.05",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Velvet Underground created the album Bootleg Series Volume 1: The Quine Tapes produced by The Velvet Underground which is 230.05 minutes long."
+        },
+        "Id2": {
+            "text": "Music group the Velvet Underground both produced and released The Bootleg Series Volume I: The Quine Tapes, which have a runtime of 230.05 minutes."
+        },
+        "Id3": {
+            "text": "The album Bootleg Series Volume 1: The Quine Tapes is produced by The Velvet underground and has a run time of 230:05."
+        }
+    },
+    "gold_outputs": []
+}

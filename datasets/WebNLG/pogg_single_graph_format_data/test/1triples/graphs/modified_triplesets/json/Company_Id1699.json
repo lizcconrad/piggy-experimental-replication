@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "10252": {
+            "lexicon_key": "10252"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfEmployees",
+            "parent_node": "Hypermarcas",
+            "child_node": "10252",
+            "edge_properties": {
+                "lexicon_key": "numberOfEmployees"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The number of employees at Hypermarcas is 10252."
+        },
+        "Id2": {
+            "text": "Hypermarcas employs 10,252 people."
+        },
+        "Id3": {
+            "text": "Hypermarcas has 10252 employees."
+        }
+    },
+    "gold_outputs": []
+}

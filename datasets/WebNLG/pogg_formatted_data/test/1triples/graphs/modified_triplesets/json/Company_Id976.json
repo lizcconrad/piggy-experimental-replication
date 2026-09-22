@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "GMA_Network_(company)": {
+            "lexicon_key": "GMA_Network_(company)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "parentCompany",
+            "parent_node": "GMA_New_Media",
+            "child_node": "GMA_Network_(company)",
+            "edge_properties": {
+                "lexicon_key": "parentCompany"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media, Inc. is a subsidiary of GMA Network."
+        },
+        "Id2": {
+            "text": "GMA Network is the parent company of GMA New Media."
+        },
+        "Id3": {
+            "text": "The parent company of GMA New Media is the GMA Network."
+        },
+        "Id4": {
+            "text": "GMA New Media is a branch of the GMA Network company."
+        }
+    },
+    "gold_outputs": []
+}

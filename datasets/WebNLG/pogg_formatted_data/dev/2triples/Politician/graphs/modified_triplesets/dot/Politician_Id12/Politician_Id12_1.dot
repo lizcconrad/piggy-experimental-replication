@@ -1,0 +1,5 @@
+strict digraph {
+Casey_Ribicoff [lexicon_key="Casey_Ribicoff"];
+Chicago [lexicon_key=Chicago];
+Casey_Ribicoff -> Chicago [label=birthPlace, lexicon_key=birthPlace];
+}

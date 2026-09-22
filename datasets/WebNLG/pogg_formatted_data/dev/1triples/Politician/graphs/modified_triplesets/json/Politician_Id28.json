@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Antonis_Samaras": {
-            "lexicon_key": "Antonis_Samaras"
-        },
-        "Konstantinos_Mitsotakis": {
-            "lexicon_key": "Konstantinos_Mitsotakis"
+    "graphs": {
+        "Politician_Id28_0": {
+            "nodes": {
+                "Antonis_Samaras": {
+                    "lexicon_key": "Antonis_Samaras"
+                },
+                "Konstantinos_Mitsotakis": {
+                    "lexicon_key": "Konstantinos_Mitsotakis"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "successor",
+                    "parent_node": "Antonis_Samaras",
+                    "child_node": "Konstantinos_Mitsotakis",
+                    "edge_properties": {
+                        "lexicon_key": "successor"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Konstantinos Mitsotakis was the successor to Antonis Samaras.",
+                "The successor to Antonis Samaras was Konstantinos Mitsotakis."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "successor",
-            "parent_node": "Antonis_Samaras",
-            "child_node": "Konstantinos_Mitsotakis",
-            "edge_properties": {
-                "lexicon_key": "successor"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

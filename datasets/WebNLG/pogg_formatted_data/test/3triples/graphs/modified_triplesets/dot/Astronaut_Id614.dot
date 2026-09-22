@@ -1,0 +1,9 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+Zaoyang [lexicon_key=Zaoyang];
+Fighter_pilot [lexicon_key="Fighter_pilot"];
+"+8" [lexicon_key="+8"];
+Nie_Haisheng -> Zaoyang [label=birthPlace, lexicon_key=birthPlace];
+Nie_Haisheng -> Fighter_pilot [label=occupation, lexicon_key=occupation];
+Zaoyang -> "+8" [label=utcOffset, lexicon_key=utcOffset];
+}

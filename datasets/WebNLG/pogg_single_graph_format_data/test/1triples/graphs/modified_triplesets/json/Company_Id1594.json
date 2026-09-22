@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "\"Vice President\"": {
+            "lexicon_key": "\"Vice President\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Brazil",
+            "child_node": "\"Vice President\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The leader of Brazil's title is Vice President."
+        },
+        "Id2": {
+            "text": "Vice President is a leader title in Brazil."
+        },
+        "Id3": {
+            "text": "Vice President is a Brazilian leadership title."
+        },
+        "Id4": {
+            "text": "Brazil\u2019s leader has the title of Vice President."
+        }
+    },
+    "gold_outputs": []
+}

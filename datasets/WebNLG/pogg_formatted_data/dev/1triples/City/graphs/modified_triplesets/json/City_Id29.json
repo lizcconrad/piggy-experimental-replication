@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Potter_County,_Texas": {
-            "lexicon_key": "Potter_County,_Texas"
-        },
-        "Texas": {
-            "lexicon_key": "Texas"
+    "graphs": {
+        "City_Id29_0": {
+            "nodes": {
+                "Potter_County,_Texas": {
+                    "lexicon_key": "Potter_County,_Texas"
+                },
+                "Texas": {
+                    "lexicon_key": "Texas"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "state",
+                    "parent_node": "Potter_County,_Texas",
+                    "child_node": "Texas",
+                    "edge_properties": {
+                        "lexicon_key": "state"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Potter County is in Texas.",
+                "Potter County is in the State of Texas."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "state",
-            "parent_node": "Potter_County,_Texas",
-            "child_node": "Texas",
-            "edge_properties": {
-                "lexicon_key": "state"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

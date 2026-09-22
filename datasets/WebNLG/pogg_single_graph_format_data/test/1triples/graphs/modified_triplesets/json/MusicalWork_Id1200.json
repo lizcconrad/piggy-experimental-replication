@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Rock_music",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Noise rock is a fusion genre of rock music."
+        },
+        "Id2": {
+            "text": "Noise rock is a fusion genre based on rock music."
+        }
+    },
+    "gold_outputs": []
+}

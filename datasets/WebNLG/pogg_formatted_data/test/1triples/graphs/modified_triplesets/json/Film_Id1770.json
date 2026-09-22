@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "John_Mills",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Mills is playing the lead in the movie It's Great to Be Young, which was released in 1956."
+        },
+        "Id2": {
+            "text": "It's Great to Be Young is a 1956 film starring John Mills."
+        },
+        "Id3": {
+            "text": "John Mills had a main role in the movie It's Great to Be Young."
+        }
+    },
+    "gold_outputs": []
+}

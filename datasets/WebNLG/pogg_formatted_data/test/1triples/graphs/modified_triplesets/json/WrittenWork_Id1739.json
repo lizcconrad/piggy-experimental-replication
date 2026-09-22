@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "The_Hobbit": {
+            "lexicon_key": "The_Hobbit"
+        },
+        "High_fantasy": {
+            "lexicon_key": "High_fantasy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "literaryGenre",
+            "parent_node": "The_Hobbit",
+            "child_node": "High_fantasy",
+            "edge_properties": {
+                "lexicon_key": "literaryGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Hobbit's genre is high fantasy."
+        },
+        "Id2": {
+            "text": "The Hobbit literary genre is high fantasy."
+        }
+    },
+    "gold_outputs": []
+}

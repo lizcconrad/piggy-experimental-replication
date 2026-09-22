@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Electric_guitar": {
+            "lexicon_key": "Electric_guitar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "instrument",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Electric_guitar",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Electric guitarist Aaron Turner plays Black Metal."
+        },
+        "Id2": {
+            "text": "Aaron Turner the Black metal musician plays electric guitar."
+        },
+        "Id3": {
+            "text": "Aaron Turner performs black metal music with the electric guitar."
+        }
+    },
+    "gold_outputs": []
+}

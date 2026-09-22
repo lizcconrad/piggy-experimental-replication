@@ -1,0 +1,5 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+"In God we trust" [lexicon_key="In God we trust"];
+United_States -> "In God we trust" [label=motto, lexicon_key=motto];
+}

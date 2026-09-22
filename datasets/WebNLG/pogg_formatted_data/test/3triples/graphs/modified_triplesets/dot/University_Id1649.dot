@@ -1,0 +1,9 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Visvesvaraya_Technological_University [lexicon_key="Visvesvaraya_Technological_University"];
+Bangalore [lexicon_key=Bangalore];
+All_India_Council_for_Technical_Education [lexicon_key="All_India_Council_for_Technical_Education"];
+Acharya_Institute_of_Technology -> Visvesvaraya_Technological_University [label=affiliation, lexicon_key=affiliation];
+Acharya_Institute_of_Technology -> Bangalore [label=city, lexicon_key=city];
+Acharya_Institute_of_Technology -> All_India_Council_for_Technical_Education [label=wasGivenTheTechnicalCampusStatusBy, lexicon_key=wasGivenTheTechnicalCampusStatusBy];
+}

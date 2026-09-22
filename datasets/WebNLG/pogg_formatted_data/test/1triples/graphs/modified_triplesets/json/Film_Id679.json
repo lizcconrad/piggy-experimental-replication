@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Tom_Sizemore": {
+            "lexicon_key": "Tom_Sizemore"
+        },
+        "1989-01-01": {
+            "lexicon_key": "1989-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Tom_Sizemore",
+            "child_node": "1989-01-01",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tom Sizemore began his career in 1989."
+        },
+        "Id2": {
+            "text": "Tom Sizemore active years as an actor started in 1989."
+        },
+        "Id3": {
+            "text": "Tom Sizemore started performing in 1989."
+        }
+    },
+    "gold_outputs": []
+}

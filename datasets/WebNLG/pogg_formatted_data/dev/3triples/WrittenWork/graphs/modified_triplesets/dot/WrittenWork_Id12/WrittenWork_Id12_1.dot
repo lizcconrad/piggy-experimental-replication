@@ -1,0 +1,5 @@
+strict digraph {
+English_language [lexicon_key="English_language"];
+Great_Britain [lexicon_key="Great_Britain"];
+English_language -> Great_Britain [label=spokenIn, lexicon_key=spokenIn];
+}

@@ -1,0 +1,3 @@
+Karlsruhe has an elevation of 115 metres above sea level.
+Karlsruhe is 115 meters above sea level.
+Karlsruhe is 115.0 meters above sea-level.

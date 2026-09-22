@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Gilbert_Taylor": {
+            "lexicon_key": "Gilbert_Taylor"
+        },
+        "282838.0": {
+            "lexicon_key": "282838.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "John_Mills",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "cinematography",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Gilbert_Taylor",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        },
+        {
+            "edge_name": "gross",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "282838.0",
+            "edge_properties": {
+                "lexicon_key": "gross"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young is a 1956 film by Gilbert Taylor's cinematography; it cost 282838 and starred John Mills."
+        },
+        "Id2": {
+            "text": "It's Great to Be Young is a 1956 film which received \u00a3282,838, with John Mills playing the lead and Gilbert Taylor as cinematographer."
+        },
+        "Id3": {
+            "text": "Gilbert Taylor was the cinematographer of the movie \"It's Great to Be Young\", which brought in 282,838 pounds at the box office. John Mills had a main role in the film."
+        }
+    },
+    "gold_outputs": []
+}

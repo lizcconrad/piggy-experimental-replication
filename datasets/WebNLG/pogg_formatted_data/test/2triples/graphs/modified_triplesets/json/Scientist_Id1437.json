@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "783356.0": {
+            "lexicon_key": "783356.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Turkey",
+            "child_node": "783356.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy was born in Turkey, a country that has an area total of 783,356.0 km^2."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy's was born in Turkey whose total area is 783,356 sq/km."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy was born in Turkey, which encompasses 783,356 square kilometers."
+        }
+    },
+    "gold_outputs": []
+}

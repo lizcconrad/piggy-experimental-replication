@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "94.0": {
+            "lexicon_key": "94.0"
+        },
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        },
+        "Cecil_Parker": {
+            "lexicon_key": "Cecil_Parker"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "94.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cyril_Frankel",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cecil_Parker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 1956 movie It's Great to Be Young was directed by Cyril Frankel, starred Cecil Parker, and has a running time of 94 minutes."
+        },
+        "Id2": {
+            "text": "The 94 minutes long 1956 movie It's Great to Be Young was directed by Cyril Frankel and starred Cecil Parker."
+        },
+        "Id3": {
+            "text": "Cyril Frankel directed the 1956 film It's Great to Be Young in which Cecil Parker had a main role. The film is 94 minutes long."
+        }
+    },
+    "gold_outputs": []
+}

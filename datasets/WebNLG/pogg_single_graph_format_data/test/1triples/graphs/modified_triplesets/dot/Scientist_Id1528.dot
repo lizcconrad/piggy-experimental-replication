@@ -1,0 +1,5 @@
+strict digraph {
+University_of_Cambridge [lexicon_key="University_of_Cambridge"];
+"David_Sainsbury,_Baron_Sainsbury_of_Turville" [lexicon_key="David_Sainsbury,_Baron_Sainsbury_of_Turville"];
+University_of_Cambridge -> "David_Sainsbury,_Baron_Sainsbury_of_Turville" [label=chancellor, lexicon_key=chancellor];
+}

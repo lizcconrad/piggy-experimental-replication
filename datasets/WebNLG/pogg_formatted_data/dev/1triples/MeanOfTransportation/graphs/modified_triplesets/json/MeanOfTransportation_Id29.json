@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Caterpillar_Inc.": {
-            "lexicon_key": "Caterpillar_Inc."
-        },
-        "Douglas_R._Oberhelman": {
-            "lexicon_key": "Douglas_R._Oberhelman"
+    "graphs": {
+        "MeanOfTransportation_Id29_0": {
+            "nodes": {
+                "Caterpillar_Inc.": {
+                    "lexicon_key": "Caterpillar_Inc."
+                },
+                "Douglas_R._Oberhelman": {
+                    "lexicon_key": "Douglas_R._Oberhelman"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "keyPerson",
+                    "parent_node": "Caterpillar_Inc.",
+                    "child_node": "Douglas_R._Oberhelman",
+                    "edge_properties": {
+                        "lexicon_key": "keyPerson"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Douglas R Oberhelman is a key person at Caterpillar Inc.",
+                "Douglas R. Oberhelman is a key person at Caterpillar Inc.",
+                "The key person of Caterpillar Inc. is Douglas R. Oberhelman."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "keyPerson",
-            "parent_node": "Caterpillar_Inc.",
-            "child_node": "Douglas_R._Oberhelman",
-            "edge_properties": {
-                "lexicon_key": "keyPerson"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

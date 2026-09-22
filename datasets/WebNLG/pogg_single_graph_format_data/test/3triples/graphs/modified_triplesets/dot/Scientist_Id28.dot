@@ -1,0 +1,9 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+George_Monson [lexicon_key="George_Monson"];
+"1776-02-18" [lexicon_key="1776-02-18"];
+Botany [lexicon_key=Botany];
+Lady_Anne_Monson -> George_Monson [label=spouse, lexicon_key=spouse];
+Lady_Anne_Monson -> "1776-02-18" [label=deathDate, lexicon_key=deathDate];
+Lady_Anne_Monson -> Botany [label=professionalField, lexicon_key=professionalField];
+}

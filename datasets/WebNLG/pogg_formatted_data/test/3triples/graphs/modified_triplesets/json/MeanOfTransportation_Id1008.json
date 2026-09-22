@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "American_Locomotive_Company": {
+            "lexicon_key": "American_Locomotive_Company"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "American_Locomotive_Company",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "American Locomotive Company produced the 17068.8 millimeter long ALCO RS-3 from May 1950 until August 1956."
+        },
+        "Id2": {
+            "text": "The American Locomotive Company produced the 17068.8 millimetres long ALCO RS-3 between May 1950 and August 1956."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3 which had a length of 17068.8 millimeters, was produced between May 1950 and August 1956 by the American Locomotive Company."
+        }
+    },
+    "gold_outputs": []
+}

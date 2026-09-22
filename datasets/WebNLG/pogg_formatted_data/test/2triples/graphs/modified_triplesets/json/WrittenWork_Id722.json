@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        },
+        "Eric_Flint": {
+            "lexicon_key": "Eric_Flint"
+        },
+        "\"DeMarce short stories in the The Grantville Gazettes\"": {
+            "lexicon_key": "\"DeMarce short stories in the The Grantville Gazettes\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "Eric_Flint",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "\"DeMarce short stories in the The Grantville Gazettes\"",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "DeMarce short stories in the Grantville Gazettes preceded 1634: The Bavarian Crisis. Its author is Eric Flint."
+        },
+        "Id2": {
+            "text": "1634: The Bavarian Crisis was written by Eric Flint and DeMarce, who had also written short stories for the Grantville Gazettes."
+        },
+        "Id3": {
+            "text": "DeMarce short stories in the Grantville Gazettes preceded 1634: The Bavarian Crisis, written by Eric Flint."
+        }
+    },
+    "gold_outputs": []
+}

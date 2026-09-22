@@ -1,0 +1,5 @@
+strict digraph {
+Acura_TLX [lexicon_key="Acura_TLX"];
+Honda [lexicon_key=Honda];
+Acura_TLX -> Honda [label=manufacturer, lexicon_key=manufacturer];
+}

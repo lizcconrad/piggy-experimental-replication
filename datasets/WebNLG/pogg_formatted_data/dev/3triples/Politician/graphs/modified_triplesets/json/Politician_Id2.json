@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Ab_Klink": {
-            "lexicon_key": "Ab_Klink"
+    "graphs": {
+        "Politician_Id2_0": {
+            "nodes": {
+                "Ab_Klink": {
+                    "lexicon_key": "Ab_Klink"
+                },
+                "Erasmus_University_Rotterdam": {
+                    "lexicon_key": "Erasmus_University_Rotterdam"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "almaMater",
+                    "parent_node": "Ab_Klink",
+                    "child_node": "Erasmus_University_Rotterdam",
+                    "edge_properties": {
+                        "lexicon_key": "almaMater"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ab Klink was born in the Netherlands, belongs to the Christian Democratic Appeal party and graduated from Erasmus University in Rotterdam.",
+                "Born in the Netherlands, Ab Klink attended Erasmus University Rotterdam and belongs to the Christian Democratic Appeal party."
+            ]
         },
-        "Erasmus_University_Rotterdam": {
-            "lexicon_key": "Erasmus_University_Rotterdam"
+        "Politician_Id2_1": {
+            "nodes": {
+                "Ab_Klink": {
+                    "lexicon_key": "Ab_Klink"
+                },
+                "Christian_Democratic_Appeal": {
+                    "lexicon_key": "Christian_Democratic_Appeal"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "party",
+                    "parent_node": "Ab_Klink",
+                    "child_node": "Christian_Democratic_Appeal",
+                    "edge_properties": {
+                        "lexicon_key": "party"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ab Klink was born in the Netherlands, belongs to the Christian Democratic Appeal party and graduated from Erasmus University in Rotterdam.",
+                "Born in the Netherlands, Ab Klink attended Erasmus University Rotterdam and belongs to the Christian Democratic Appeal party."
+            ]
         },
-        "Christian_Democratic_Appeal": {
-            "lexicon_key": "Christian_Democratic_Appeal"
-        },
-        "Netherlands": {
-            "lexicon_key": "Netherlands"
+        "Politician_Id2_2": {
+            "nodes": {
+                "Ab_Klink": {
+                    "lexicon_key": "Ab_Klink"
+                },
+                "Netherlands": {
+                    "lexicon_key": "Netherlands"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Ab_Klink",
+                    "child_node": "Netherlands",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ab Klink was born in the Netherlands, belongs to the Christian Democratic Appeal party and graduated from Erasmus University in Rotterdam.",
+                "Born in the Netherlands, Ab Klink attended Erasmus University Rotterdam and belongs to the Christian Democratic Appeal party."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "almaMater",
-            "parent_node": "Ab_Klink",
-            "child_node": "Erasmus_University_Rotterdam",
-            "edge_properties": {
-                "lexicon_key": "almaMater"
-            }
-        },
-        {
-            "edge_name": "party",
-            "parent_node": "Ab_Klink",
-            "child_node": "Christian_Democratic_Appeal",
-            "edge_properties": {
-                "lexicon_key": "party"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Ab_Klink",
-            "child_node": "Netherlands",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

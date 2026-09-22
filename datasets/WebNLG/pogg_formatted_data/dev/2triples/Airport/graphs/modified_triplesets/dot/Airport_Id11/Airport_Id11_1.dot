@@ -1,0 +1,5 @@
+strict digraph {
+"Wilson_Township,_Alpena_County,_Michigan" [lexicon_key="Wilson_Township,_Alpena_County,_Michigan"];
+United_States [lexicon_key="United_States"];
+"Wilson_Township,_Alpena_County,_Michigan" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

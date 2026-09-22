@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "\"1983-10-03\"": {
+            "lexicon_key": "\"1983-10-03\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "firstAired",
+            "parent_node": "Bananaman",
+            "child_node": "\"1983-10-03\"",
+            "edge_properties": {
+                "lexicon_key": "firstAired"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bananaman, the TV series first aired on the 3rd of October, 1983, was shown on the BBC."
+        },
+        "Id2": {
+            "text": "Bananaman, first aired on 3rd October 1983, was broadcast by the BBC."
+        },
+        "Id3": {
+            "text": "The BBC broadcasted Bananaman, which was first aired on 10/03/1983."
+        }
+    },
+    "gold_outputs": []
+}

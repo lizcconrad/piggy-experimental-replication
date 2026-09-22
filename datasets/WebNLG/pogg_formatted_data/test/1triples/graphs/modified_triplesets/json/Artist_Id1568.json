@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina has Israeli nationality."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina's nationality is Israeli."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina is an Israeli national."
+        }
+    },
+    "gold_outputs": []
+}

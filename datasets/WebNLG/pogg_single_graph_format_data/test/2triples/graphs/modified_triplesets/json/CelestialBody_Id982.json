@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "11.5": {
+            "lexicon_key": "11.5"
+        },
+        "1929-06-11": {
+            "lexicon_key": "1929-06-11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "absoluteMagnitude",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "11.5",
+            "edge_properties": {
+                "lexicon_key": "absoluteMagnitude"
+            }
+        },
+        {
+            "edge_name": "discovered",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1929-06-11",
+            "edge_properties": {
+                "lexicon_key": "discovered"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 1147 Stavropolis, an asteroid with an absolute magnitude of 11.5, was discovered on 11 June 1929."
+        },
+        "Id2": {
+            "text": "The asteroid 1147 Stavropolis, which was discovered on the 11th of June 1929, has an absolute magnitude of 11.5."
+        },
+        "Id3": {
+            "text": "Discovered on June 11, 1929, 1147 Stavropolis boasts an absolute magnitude of 11.5."
+        }
+    },
+    "gold_outputs": []
+}

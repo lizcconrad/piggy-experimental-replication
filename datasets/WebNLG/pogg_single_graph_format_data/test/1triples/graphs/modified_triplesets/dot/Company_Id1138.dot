@@ -1,0 +1,5 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+875400000 [lexicon_key=875400000];
+Trane -> 875400000 [label=operatingIncome, lexicon_key=operatingIncome];
+}

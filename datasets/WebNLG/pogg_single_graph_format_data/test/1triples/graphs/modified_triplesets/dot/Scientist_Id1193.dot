@@ -1,0 +1,5 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+Doomsday_argument [lexicon_key="Doomsday_argument"];
+Brandon_Carter -> Doomsday_argument [label=knownFor, lexicon_key=knownFor];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Pop_music [lexicon_key="Pop_music"];
+Disco [lexicon_key=Disco];
+Pop_music -> Disco [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

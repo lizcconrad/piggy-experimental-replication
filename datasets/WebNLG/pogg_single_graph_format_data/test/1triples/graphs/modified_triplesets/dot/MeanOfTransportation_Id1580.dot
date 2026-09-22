@@ -1,0 +1,5 @@
+strict digraph {
+Pontiac [lexicon_key=Pontiac];
+Automobile [lexicon_key=Automobile];
+Pontiac -> Automobile [label=product, lexicon_key=product];
+}

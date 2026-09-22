@@ -1,0 +1,5 @@
+strict digraph {
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+"Nationwide, also can be found in Malaysia and Singapore" [lexicon_key="Nationwide, also can be found in Malaysia and Singapore"];
+Ayam_penyet -> "Nationwide, also can be found in Malaysia and Singapore" [label=region, lexicon_key=region];
+}

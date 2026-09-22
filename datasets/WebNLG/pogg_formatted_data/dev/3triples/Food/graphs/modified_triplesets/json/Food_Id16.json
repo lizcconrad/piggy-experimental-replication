@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Bacon_sandwich": {
-            "lexicon_key": "Bacon_sandwich"
+    "graphs": {
+        "Food_Id16_0": {
+            "nodes": {
+                "Bacon_sandwich": {
+                    "lexicon_key": "Bacon_sandwich"
+                },
+                "BLT": {
+                    "lexicon_key": "BLT"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Bacon_sandwich",
+                    "child_node": "BLT",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bacon sandwiches are variations of BLT and come from the U.K. Condiments are found in these sandwiches.",
+                "The UK dish, the bacon sandwich uses condiments as an ingredient and has the variation BLT.",
+                "The bacon sandwich, a variation of the BLT, comes from the UK and contains condiments."
+            ]
         },
-        "BLT": {
-            "lexicon_key": "BLT"
+        "Food_Id16_1": {
+            "nodes": {
+                "Bacon_sandwich": {
+                    "lexicon_key": "Bacon_sandwich"
+                },
+                "United_Kingdom": {
+                    "lexicon_key": "United_Kingdom"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Bacon_sandwich",
+                    "child_node": "United_Kingdom",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bacon sandwiches are variations of BLT and come from the U.K. Condiments are found in these sandwiches.",
+                "The UK dish, the bacon sandwich uses condiments as an ingredient and has the variation BLT.",
+                "The bacon sandwich, a variation of the BLT, comes from the UK and contains condiments."
+            ]
         },
-        "United_Kingdom": {
-            "lexicon_key": "United_Kingdom"
-        },
-        "Condiment": {
-            "lexicon_key": "Condiment"
+        "Food_Id16_2": {
+            "nodes": {
+                "Bacon_sandwich": {
+                    "lexicon_key": "Bacon_sandwich"
+                },
+                "Condiment": {
+                    "lexicon_key": "Condiment"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bacon_sandwich",
+                    "child_node": "Condiment",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bacon sandwiches are variations of BLT and come from the U.K. Condiments are found in these sandwiches.",
+                "The UK dish, the bacon sandwich uses condiments as an ingredient and has the variation BLT.",
+                "The bacon sandwich, a variation of the BLT, comes from the UK and contains condiments."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Bacon_sandwich",
-            "child_node": "BLT",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Bacon_sandwich",
-            "child_node": "United_Kingdom",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bacon_sandwich",
-            "child_node": "Condiment",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

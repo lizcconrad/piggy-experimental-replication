@@ -1,0 +1,5 @@
+strict digraph {
+"1955_Dodge" [lexicon_key="1955_Dodge"];
+"3-speed automatic" [lexicon_key="3-speed automatic"];
+"1955_Dodge" -> "3-speed automatic" [label=transmission, lexicon_key=transmission];
+}

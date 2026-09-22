@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "Unitary_state": {
+            "lexicon_key": "Unitary_state"
+        },
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Kingdom_of_England",
+            "child_node": "Unitary_state",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Kingdom of England is a unitary state form of government which is also Lady Anne Monson's nationality."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson is an English national from the unitary Kingdom of England."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson held British nationality; she lived in the kingdom of England where there was a unitary state form of government."
+        }
+    },
+    "gold_outputs": []
+}

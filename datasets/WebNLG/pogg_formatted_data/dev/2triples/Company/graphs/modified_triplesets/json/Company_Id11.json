@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Trane": {
-            "lexicon_key": "Trane"
+    "graphs": {
+        "Company_Id11_0": {
+            "nodes": {
+                "Trane": {
+                    "lexicon_key": "Trane"
+                },
+                "Swords,_Dublin": {
+                    "lexicon_key": "Swords,_Dublin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Trane",
+                    "child_node": "Swords,_Dublin",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The location of Trane is in Swords, Dublin, Ireland.",
+                "Trane is located in Swords, Dublin, Ireland.",
+                "Trane is located in Swords, Dublin, which is in Ireland."
+            ]
         },
-        "Swords,_Dublin": {
-            "lexicon_key": "Swords,_Dublin"
-        },
-        "Ireland": {
-            "lexicon_key": "Ireland"
+        "Company_Id11_1": {
+            "nodes": {
+                "Trane": {
+                    "lexicon_key": "Trane"
+                },
+                "Ireland": {
+                    "lexicon_key": "Ireland"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Trane",
+                    "child_node": "Ireland",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The location of Trane is in Swords, Dublin, Ireland.",
+                "Trane is located in Swords, Dublin, Ireland.",
+                "Trane is located in Swords, Dublin, which is in Ireland."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Trane",
-            "child_node": "Swords,_Dublin",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "location",
-            "parent_node": "Trane",
-            "child_node": "Ireland",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

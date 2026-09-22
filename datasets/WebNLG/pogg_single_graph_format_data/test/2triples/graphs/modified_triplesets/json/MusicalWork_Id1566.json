@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Sony_Music_Entertainment": {
+            "lexicon_key": "Sony_Music_Entertainment"
+        },
+        "Espen_Lind": {
+            "lexicon_key": "Espen_Lind"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Sony_Music_Entertainment",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Espen_Lind",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Train's hit Mermaid written by Espen Lind was put out by the Sony Music Entertainment record label."
+        },
+        "Id2": {
+            "text": "The song Mermaid by the band Train written by Espen Lind is on the Sony Music Entertainment record label."
+        },
+        "Id3": {
+            "text": "The song \"Mermaid\" by Train was originally written by Espen Lind and released under the record label of Sony Music Entertainment."
+        }
+    },
+    "gold_outputs": []
+}

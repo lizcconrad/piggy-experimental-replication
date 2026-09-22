@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Adam_Koc": {
-            "lexicon_key": "Adam_Koc"
+    "graphs": {
+        "Politician_Id14_0": {
+            "nodes": {
+                "Adam_Koc": {
+                    "lexicon_key": "Adam_Koc"
+                },
+                "World_War_I": {
+                    "lexicon_key": "World_War_I"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Adam_Koc",
+                    "child_node": "World_War_I",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Koc fought in World War I and received the award Officer's Star Parasol.",
+                "Adam Koc fought in World War One and was awarded the Officer's Star, Parasol.",
+                "Having fought in WWI, Adam Koc, received the award Officer's Star Parasol."
+            ]
         },
-        "World_War_I": {
-            "lexicon_key": "World_War_I"
-        },
-        "Officer's_Star_\"Parasol\"": {
-            "lexicon_key": "Officer's_Star_\"Parasol\""
+        "Politician_Id14_1": {
+            "nodes": {
+                "Adam_Koc": {
+                    "lexicon_key": "Adam_Koc"
+                },
+                "Officer's_Star_\"Parasol\"": {
+                    "lexicon_key": "Officer's_Star_\"Parasol\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "award",
+                    "parent_node": "Adam_Koc",
+                    "child_node": "Officer's_Star_\"Parasol\"",
+                    "edge_properties": {
+                        "lexicon_key": "award"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Koc fought in World War I and received the award Officer's Star Parasol.",
+                "Adam Koc fought in World War One and was awarded the Officer's Star, Parasol.",
+                "Having fought in WWI, Adam Koc, received the award Officer's Star Parasol."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "battle",
-            "parent_node": "Adam_Koc",
-            "child_node": "World_War_I",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        },
-        {
-            "edge_name": "award",
-            "parent_node": "Adam_Koc",
-            "child_node": "Officer's_Star_\"Parasol\"",
-            "edge_properties": {
-                "lexicon_key": "award"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

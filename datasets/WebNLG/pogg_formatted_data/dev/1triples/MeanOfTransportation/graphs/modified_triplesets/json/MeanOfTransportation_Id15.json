@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Acura_TLX": {
-            "lexicon_key": "Acura_TLX"
-        },
-        "\"9-speed ZF 9HP automatic (V6)\"": {
-            "lexicon_key": "\"9-speed ZF 9HP automatic (V6)\""
+    "graphs": {
+        "MeanOfTransportation_Id15_0": {
+            "nodes": {
+                "Acura_TLX": {
+                    "lexicon_key": "Acura_TLX"
+                },
+                "\"9-speed ZF 9HP automatic (V6)\"": {
+                    "lexicon_key": "\"9-speed ZF 9HP automatic (V6)\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "transmission",
+                    "parent_node": "Acura_TLX",
+                    "child_node": "\"9-speed ZF 9HP automatic (V6)\"",
+                    "edge_properties": {
+                        "lexicon_key": "transmission"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Acura TLX has a 9-speed ZF 9HP automatic (V6) transmission.",
+                "The transmission of the Acura TLX is a 9-speed ZF 9HP automatic (V6)."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "transmission",
-            "parent_node": "Acura_TLX",
-            "child_node": "\"9-speed ZF 9HP automatic (V6)\"",
-            "edge_properties": {
-                "lexicon_key": "transmission"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

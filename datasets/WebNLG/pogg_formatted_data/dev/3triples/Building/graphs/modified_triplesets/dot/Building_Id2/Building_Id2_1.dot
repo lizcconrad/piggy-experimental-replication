@@ -1,0 +1,5 @@
+strict digraph {
+South_Africa [lexicon_key="South_Africa"];
+Jacob_Zuma [lexicon_key="Jacob_Zuma"];
+South_Africa -> Jacob_Zuma [label=leader, lexicon_key=leader];
+}

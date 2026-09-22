@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "United_States_Air_Force": {
+            "lexicon_key": "United_States_Air_Force"
+        },
+        "\"09L/27R\"": {
+            "lexicon_key": "\"09L/27R\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "United_States_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "\"09L/27R\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Al Asad Airbase is operated by the United States Air Force and has a runway named 09L/27R."
+        },
+        "Id2": {
+            "text": "The United States Air Force runs Al Asad Airbase, which has a runway name of 09L/27R."
+        },
+        "Id3": {
+            "text": "Al Asad airbase operated by United States Air Force has the runway named as \"09L/27R\"."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"Train_(band)" [lexicon_key="Train_(band)"];
+"Mermaid_(Train_song)" -> "Train_(band)" [label=musicalBand, lexicon_key=musicalBand];
+}

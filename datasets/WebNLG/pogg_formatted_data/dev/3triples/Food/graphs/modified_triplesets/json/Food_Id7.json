@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Arrabbiata_sauce": {
-            "lexicon_key": "Arrabbiata_sauce"
+    "graphs": {
+        "Food_Id7_0": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Garlic": {
+                    "lexicon_key": "Garlic"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Garlic",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arrabbiata sauce contains garlic and comes from the Rome region of italy.",
+                "Garlic is an ingredient in arrabbiata sauce which originates from the region of Rome, in Italy.",
+                "Garlic is an ingredient in arrabbiata sauce, which is a traditional dish from Rome, Italy."
+            ]
         },
-        "Garlic": {
-            "lexicon_key": "Garlic"
+        "Food_Id7_1": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Italy": {
+                    "lexicon_key": "Italy"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Italy",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arrabbiata sauce contains garlic and comes from the Rome region of italy.",
+                "Garlic is an ingredient in arrabbiata sauce which originates from the region of Rome, in Italy.",
+                "Garlic is an ingredient in arrabbiata sauce, which is a traditional dish from Rome, Italy."
+            ]
         },
-        "Italy": {
-            "lexicon_key": "Italy"
-        },
-        "Rome": {
-            "lexicon_key": "Rome"
+        "Food_Id7_2": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Rome": {
+                    "lexicon_key": "Rome"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Rome",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arrabbiata sauce contains garlic and comes from the Rome region of italy.",
+                "Garlic is an ingredient in arrabbiata sauce which originates from the region of Rome, in Italy.",
+                "Garlic is an ingredient in arrabbiata sauce, which is a traditional dish from Rome, Italy."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Garlic",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Italy",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "region",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Rome",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

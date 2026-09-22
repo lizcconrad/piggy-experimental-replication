@@ -1,0 +1,5 @@
+strict digraph {
+AIDAstella [lexicon_key=AIDAstella];
+Costa_Crociere [lexicon_key="Costa_Crociere"];
+AIDAstella -> Costa_Crociere [label=owner, lexicon_key=owner];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+AC_Hotel_Bella_Sky_Copenhagen [lexicon_key="AC_Hotel_Bella_Sky_Copenhagen"];
+23 [lexicon_key=23];
+AC_Hotel_Bella_Sky_Copenhagen -> 23 [label=floorCount, lexicon_key=floorCount];
+}

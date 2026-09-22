@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Greymachine [lexicon_key=Greymachine];
+Aaron_Turner -> Greymachine [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

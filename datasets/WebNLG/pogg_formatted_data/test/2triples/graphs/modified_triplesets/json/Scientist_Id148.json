@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "\"Vice President\"": {
+            "lexicon_key": "\"Vice President\""
+        },
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "United_States",
+            "child_node": "\"Vice President\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "United States is home to Darinka Dentcheva, where the Vice President is a title of one of its leaders."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva currently lives in the United States where one of the leaders of the country is the Vice President."
+        },
+        "Id3": {
+            "text": "One of the leaders of the United States, where Darinka Dentcheva resides, is the Vice President."
+        }
+    },
+    "gold_outputs": []
+}

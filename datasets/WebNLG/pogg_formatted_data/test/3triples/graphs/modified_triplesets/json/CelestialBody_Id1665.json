@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "20378.5": {
+            "lexicon_key": "20378.5"
+        },
+        "260855000000.0": {
+            "lexicon_key": "260855000000.0"
+        },
+        "1249.6": {
+            "lexicon_key": "1249.6"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "rotationPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "20378.5",
+            "edge_properties": {
+                "lexicon_key": "rotationPeriod"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "260855000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1249.6",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis has a periapsis of 260855000000.0. Its rotation period is 20378.5 and the orbital period of the asteroid 1147 Stavropolis is 1249.6 days."
+        },
+        "Id2": {
+            "text": "The 1147 Stavropolis asteroid has a rotation period of 20378.5, a periapsis of 260855000000, with an orbital period of 1249.6 days."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis has a rotation period of 20378.5, a periapsis of 260855000000.0, and an orbital period of 1249.6."
+        }
+    },
+    "gold_outputs": []
+}

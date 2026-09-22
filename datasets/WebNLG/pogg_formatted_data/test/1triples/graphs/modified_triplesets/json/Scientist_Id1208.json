@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "NZ289147": {
+            "lexicon_key": "NZ289147"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "gridReference",
+            "parent_node": "Darlington",
+            "child_node": "NZ289147",
+            "edge_properties": {
+                "lexicon_key": "gridReference"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The OS grid reference for Darlington is NZ289147."
+        },
+        "Id2": {
+            "text": "Darlington has a grid reference of NZ289147."
+        }
+    },
+    "gold_outputs": []
+}

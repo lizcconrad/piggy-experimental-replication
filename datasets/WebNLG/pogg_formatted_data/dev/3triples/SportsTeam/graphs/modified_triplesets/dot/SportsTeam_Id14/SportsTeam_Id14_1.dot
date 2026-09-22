@@ -1,0 +1,5 @@
+strict digraph {
+Azerbaijan_Premier_League [lexicon_key="Azerbaijan_Premier_League"];
+"Qarabağ_FK" [lexicon_key="Qarabağ_FK"];
+Azerbaijan_Premier_League -> "Qarabağ_FK" [label=champions, lexicon_key=champions];
+}

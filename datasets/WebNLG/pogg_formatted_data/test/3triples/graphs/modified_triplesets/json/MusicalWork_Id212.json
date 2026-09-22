@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "St._Louis,_Missouri": {
+            "lexicon_key": "St._Louis,_Missouri"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "St._Louis,_Missouri",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded in St Louis, Missouri, in the United States, in English, the primary language of the country."
+        },
+        "Id2": {
+            "text": "The Quine Tapes were recorded in St. Louis, Missouri, United States in which the de facto national language is English."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes was recorded in St. Louis, Missouri, in the United States where English is the spoken language."
+        }
+    },
+    "gold_outputs": []
+}

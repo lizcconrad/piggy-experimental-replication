@@ -1,0 +1,5 @@
+strict digraph {
+Beef_kway_teow [lexicon_key="Beef_kway_teow"];
+Oyster_sauce [lexicon_key="Oyster_sauce"];
+Beef_kway_teow -> Oyster_sauce [label=ingredient, lexicon_key=ingredient];
+}

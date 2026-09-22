@@ -1,0 +1,5 @@
+strict digraph {
+Year_of_No_Light [lexicon_key="Year_of_No_Light"];
+Altar_of_Plagues [lexicon_key="Altar_of_Plagues"];
+Year_of_No_Light -> Altar_of_Plagues [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

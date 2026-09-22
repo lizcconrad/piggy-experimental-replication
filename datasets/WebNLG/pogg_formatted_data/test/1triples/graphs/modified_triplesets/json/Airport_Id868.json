@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "Kent": {
+            "lexicon_key": "Kent"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "MotorSport_Vision",
+            "child_node": "Kent",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "MotorSport Vision is located in the the city of Kent."
+        },
+        "Id2": {
+            "text": "MotorSport vision is in Kent."
+        },
+        "Id3": {
+            "text": "MotorSport Vision is located in the city of Kent, UK."
+        }
+    },
+    "gold_outputs": []
+}

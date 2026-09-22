@@ -1,0 +1,5 @@
+strict digraph {
+John_Mills [lexicon_key="John_Mills"];
+Juliet_Mills [lexicon_key="Juliet_Mills"];
+John_Mills -> Juliet_Mills [label=child, lexicon_key=child];
+}

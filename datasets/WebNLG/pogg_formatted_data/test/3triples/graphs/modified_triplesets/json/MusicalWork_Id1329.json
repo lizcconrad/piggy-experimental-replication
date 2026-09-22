@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Brian_Kelly_(composer_&_pianist)": {
+            "lexicon_key": "Brian_Kelly_(composer_&_pianist)"
+        },
+        "Easy_listening": {
+            "lexicon_key": "Easy_listening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Easy_listening",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "artist",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle's genre is easy listening was produced and recorded by the artist Brian Kelly."
+        },
+        "Id2": {
+            "text": "Brian Kelly, a composer & pianist, produced the easy listening album, Expect a Miracle."
+        },
+        "Id3": {
+            "text": "Expect a Miracle is an easy listening album produced and written by Brian Kelly."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        },
+        "Noise_music": {
+            "lexicon_key": "Noise_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Noise_rock",
+            "child_node": "Noise_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Noise music is an origin of noise rock."
+        },
+        "Id2": {
+            "text": "The stylistic origins of noise rock are from noise music."
+        },
+        "Id3": {
+            "text": "The stylistic origin of noise rock is noise music."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+State_Award_for_Superior_Achievement [lexicon_key="State_Award_for_Superior_Achievement"];
+Nurhan_Atasoy -> State_Award_for_Superior_Achievement [label=award, lexicon_key=award];
+}

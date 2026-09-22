@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Wharton_Tiers": {
+            "lexicon_key": "Wharton_Tiers"
+        },
+        "1953-01-01": {
+            "lexicon_key": "1953-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Wharton_Tiers",
+            "child_node": "1953-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Wharton Tiers was born on January 1, 1953."
+        },
+        "Id2": {
+            "text": "Wharton Tiers was born on January the 1st, 1953."
+        }
+    },
+    "gold_outputs": []
+}

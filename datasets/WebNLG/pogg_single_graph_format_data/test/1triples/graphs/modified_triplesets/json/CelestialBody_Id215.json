@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        },
+        "1946-12-17": {
+            "lexicon_key": "1946-12-17"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Grigory_Neujmin",
+            "child_node": "1946-12-17",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Grigory Neujmin's date of death was December 17, 1946."
+        },
+        "Id2": {
+            "text": "Grigory Neujmin died on the 17th of December 1946."
+        },
+        "Id3": {
+            "text": "Grigory Neujmin died on Dec 17, 1946."
+        }
+    },
+    "gold_outputs": []
+}

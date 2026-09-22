@@ -1,0 +1,5 @@
+strict digraph {
+"10_Hygiea" [lexicon_key="10_Hygiea"];
+"A900 GA" [lexicon_key="A900 GA"];
+"10_Hygiea" -> "A900 GA" [label=formerName, lexicon_key=formerName];
+}

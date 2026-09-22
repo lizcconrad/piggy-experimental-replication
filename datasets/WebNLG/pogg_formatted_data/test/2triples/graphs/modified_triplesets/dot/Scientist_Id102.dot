@@ -1,0 +1,7 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+Mathematical_optimization [lexicon_key="Mathematical_optimization"];
+Humboldt_University [lexicon_key="Humboldt_University"];
+Darinka_Dentcheva -> Mathematical_optimization [label=professionalField, lexicon_key=professionalField];
+Darinka_Dentcheva -> Humboldt_University [label=almaMater, lexicon_key=almaMater];
+}

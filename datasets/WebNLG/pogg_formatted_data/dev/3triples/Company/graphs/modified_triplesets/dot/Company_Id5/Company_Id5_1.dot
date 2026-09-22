@@ -1,0 +1,5 @@
+strict digraph {
+"GMA_Network_(company)" [lexicon_key="GMA_Network_(company)"];
+Public_company [lexicon_key="Public_company"];
+"GMA_Network_(company)" -> Public_company [label=type, lexicon_key=type];
+}

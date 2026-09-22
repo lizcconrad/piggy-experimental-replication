@@ -1,0 +1,9 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+875400000 [lexicon_key=875400000];
+Building_materials [lexicon_key="Building_materials"];
+10264000000 [lexicon_key=10264000000];
+Trane -> 875400000 [label=operatingIncome, lexicon_key=operatingIncome];
+Trane -> Building_materials [label=industry, lexicon_key=industry];
+Trane -> 10264000000 [label=revenue, lexicon_key=revenue];
+}

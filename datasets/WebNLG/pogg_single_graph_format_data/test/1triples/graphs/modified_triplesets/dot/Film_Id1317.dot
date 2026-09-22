@@ -1,0 +1,5 @@
+strict digraph {
+Lionsgate [lexicon_key=Lionsgate];
+Entertainment [lexicon_key=Entertainment];
+Lionsgate -> Entertainment [label=industry, lexicon_key=industry];
+}

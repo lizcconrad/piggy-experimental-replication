@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Alan_Jaggs": {
+            "lexicon_key": "Alan_Jaggs"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editing",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Alan_Jaggs",
+            "edge_properties": {
+                "lexicon_key": "editing"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "\"English Without Tears\" was produced and written by Anatole de Grunwald. The editor for the film was Alan Jaggs."
+        },
+        "Id2": {
+            "text": "English Without Tears was a film whose producer and writer was Anatole de Grunwald and whose editor was Alan Jaggs."
+        },
+        "Id3": {
+            "text": "The movie English Without Tears was written and produced by Anatole de Grunwald, with the editing done by Alan Jaggs."
+        }
+    },
+    "gold_outputs": []
+}

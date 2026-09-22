@@ -1,0 +1,5 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+"Tudor and Jacabian" [lexicon_key="Tudor and Jacabian"];
+Adisham_Hall -> "Tudor and Jacabian" [label=architecturalStyle, lexicon_key=architecturalStyle];
+}

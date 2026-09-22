@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Bolt_(comicsCharacter)": {
-            "lexicon_key": "Bolt_(comicsCharacter)"
+    "graphs": {
+        "ComicsCharacter_Id9_0": {
+            "nodes": {
+                "Bolt_(comicsCharacter)": {
+                    "lexicon_key": "Bolt_(comicsCharacter)"
+                },
+                "Paris_Cullins": {
+                    "lexicon_key": "Paris_Cullins"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Bolt_(comicsCharacter)",
+                    "child_node": "Paris_Cullins",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Both Paris Cullins and Gary Cohn were the creator's of the comic character Bolt.",
+                "Paris Cullins and Gary Cohn are the creators of the comics character Bolt.",
+                "The comic character Bolt, was created by Paris Cullins and Gary Cohn."
+            ]
         },
-        "Paris_Cullins": {
-            "lexicon_key": "Paris_Cullins"
-        },
-        "Gary_Cohn_(comics)": {
-            "lexicon_key": "Gary_Cohn_(comics)"
+        "ComicsCharacter_Id9_1": {
+            "nodes": {
+                "Bolt_(comicsCharacter)": {
+                    "lexicon_key": "Bolt_(comicsCharacter)"
+                },
+                "Gary_Cohn_(comics)": {
+                    "lexicon_key": "Gary_Cohn_(comics)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Bolt_(comicsCharacter)",
+                    "child_node": "Gary_Cohn_(comics)",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Both Paris Cullins and Gary Cohn were the creator's of the comic character Bolt.",
+                "Paris Cullins and Gary Cohn are the creators of the comics character Bolt.",
+                "The comic character Bolt, was created by Paris Cullins and Gary Cohn."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Bolt_(comicsCharacter)",
-            "child_node": "Paris_Cullins",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        },
-        {
-            "edge_name": "creator",
-            "parent_node": "Bolt_(comicsCharacter)",
-            "child_node": "Gary_Cohn_(comics)",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idSign1Text": {
-            "lexicon_key": "idSign1Text",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the sign text"
-    ]
+    ],
+    "graphs": {
+        "idSign1Text_subgraph_0": {
+            "nodes": {
+                "idSign1Text": {
+                    "lexicon_key": "idSign1Text",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the sign text"
+            ]
+        }
+    }
 }

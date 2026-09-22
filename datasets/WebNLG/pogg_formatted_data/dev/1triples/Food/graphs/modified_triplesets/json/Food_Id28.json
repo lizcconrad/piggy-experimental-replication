@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Java": {
-            "lexicon_key": "Java"
-        },
-        "Baduy": {
-            "lexicon_key": "Baduy"
+    "graphs": {
+        "Food_Id28_0": {
+            "nodes": {
+                "Java": {
+                    "lexicon_key": "Java"
+                },
+                "Baduy": {
+                    "lexicon_key": "Baduy"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "Java",
+                    "child_node": "Baduy",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Baduy is an ethnic group of Java.",
+                "Baduy is the ethnic group of Java.",
+                "The Baduy is an ethnic group in Java."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "Java",
-            "child_node": "Baduy",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        },
+        "+8": {
+            "lexicon_key": "+8"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Zaoyang",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        },
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Zaoyang",
+            "child_node": "+8",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Former fighter pilot Nie Haisheng is from Zaoyang (UTC + 8)."
+        },
+        "Id2": {
+            "text": "Nie Haisheng was born in Zaoyang, which is in the UTC +8 time zone. Nie Haisheng worked as a fighter pilot."
+        },
+        "Id3": {
+            "text": "Nie Haisheng is a fighter pilot who was born in Zaoyang which has a UTC offset of +8."
+        }
+    },
+    "gold_outputs": []
+}

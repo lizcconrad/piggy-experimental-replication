@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Anders_Osborne": {
-            "lexicon_key": "Anders_Osborne"
+    "graphs": {
+        "Artist_Id27_0": {
+            "nodes": {
+                "Anders_Osborne": {
+                    "lexicon_key": "Anders_Osborne"
+                },
+                "Alligator_Records": {
+                    "lexicon_key": "Alligator_Records"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "recordLabel",
+                    "parent_node": "Anders_Osborne",
+                    "child_node": "Alligator_Records",
+                    "edge_properties": {
+                        "lexicon_key": "recordLabel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An exponent of Rock music, Anders Osborne's record labels are Okeh Records and Alligator Records.",
+                "Once signed with the record label Alligator Records, Anders Osborne, is signed to the record label Okeh Records and is an exponent of Rock music.",
+                "Rock musician Anders Osborne has previously been signed to the record labels Alligator Records and Okeh Records."
+            ]
         },
-        "Alligator_Records": {
-            "lexicon_key": "Alligator_Records"
+        "Artist_Id27_1": {
+            "nodes": {
+                "Anders_Osborne": {
+                    "lexicon_key": "Anders_Osborne"
+                },
+                "Okeh_Records": {
+                    "lexicon_key": "Okeh_Records"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "recordLabel",
+                    "parent_node": "Anders_Osborne",
+                    "child_node": "Okeh_Records",
+                    "edge_properties": {
+                        "lexicon_key": "recordLabel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An exponent of Rock music, Anders Osborne's record labels are Okeh Records and Alligator Records.",
+                "Once signed with the record label Alligator Records, Anders Osborne, is signed to the record label Okeh Records and is an exponent of Rock music.",
+                "Rock musician Anders Osborne has previously been signed to the record labels Alligator Records and Okeh Records."
+            ]
         },
-        "Okeh_Records": {
-            "lexicon_key": "Okeh_Records"
-        },
-        "Rock_music": {
-            "lexicon_key": "Rock_music"
+        "Artist_Id27_2": {
+            "nodes": {
+                "Anders_Osborne": {
+                    "lexicon_key": "Anders_Osborne"
+                },
+                "Rock_music": {
+                    "lexicon_key": "Rock_music"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Anders_Osborne",
+                    "child_node": "Rock_music",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An exponent of Rock music, Anders Osborne's record labels are Okeh Records and Alligator Records.",
+                "Once signed with the record label Alligator Records, Anders Osborne, is signed to the record label Okeh Records and is an exponent of Rock music.",
+                "Rock musician Anders Osborne has previously been signed to the record labels Alligator Records and Okeh Records."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "recordLabel",
-            "parent_node": "Anders_Osborne",
-            "child_node": "Alligator_Records",
-            "edge_properties": {
-                "lexicon_key": "recordLabel"
-            }
-        },
-        {
-            "edge_name": "recordLabel",
-            "parent_node": "Anders_Osborne",
-            "child_node": "Okeh_Records",
-            "edge_properties": {
-                "lexicon_key": "recordLabel"
-            }
-        },
-        {
-            "edge_name": "genre",
-            "parent_node": "Anders_Osborne",
-            "child_node": "Rock_music",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

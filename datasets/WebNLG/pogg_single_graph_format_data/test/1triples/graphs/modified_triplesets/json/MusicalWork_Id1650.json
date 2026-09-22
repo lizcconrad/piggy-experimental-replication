@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "9833520000000.0": {
+            "lexicon_key": "9833520000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "United_States",
+            "child_node": "9833520000000.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The total area of the United States is around 9.8 million square kilometers."
+        },
+        "Id2": {
+            "text": "United States total area is 9833520000000 square kilometers."
+        },
+        "Id3": {
+            "text": "The total area of the United States is 9833520000000."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1703-05-27": {
+            "lexicon_key": "1703-05-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1703-05-27",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Saint Petersburg, where Olga Bondareva died, was founded on May 27, 1703."
+        },
+        "Id2": {
+            "text": "Olga Bondareva died in Saint Petersburg, a city founded on 1703-05-27."
+        },
+        "Id3": {
+            "text": "Olga Bondareva died on the Russian city of St Petersburg, which was founded on the 27th May 1703."
+        }
+    },
+    "gold_outputs": []
+}

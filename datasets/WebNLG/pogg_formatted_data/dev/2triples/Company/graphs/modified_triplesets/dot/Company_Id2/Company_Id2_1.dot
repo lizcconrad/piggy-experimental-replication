@@ -1,0 +1,5 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+Energy_industry [lexicon_key="Energy_industry"];
+AmeriGas -> Energy_industry [label=industry, lexicon_key=industry];
+}

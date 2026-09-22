@@ -1,0 +1,5 @@
+strict digraph {
+Israel [lexicon_key=Israel];
+387.63 [lexicon_key=387.63];
+Israel -> 387.63 [label=populationDensity, lexicon_key=populationDensity];
+}

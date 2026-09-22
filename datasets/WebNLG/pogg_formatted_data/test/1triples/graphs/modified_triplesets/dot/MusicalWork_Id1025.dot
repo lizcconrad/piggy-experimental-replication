@@ -1,0 +1,5 @@
+strict digraph {
+"Live_at_Roadburn_2008_(Year_of_No_Light_album)" [lexicon_key="Live_at_Roadburn_2008_(Year_of_No_Light_album)"];
+"Karysun_/_Year_of_No_Light" [lexicon_key="Karysun_/_Year_of_No_Light"];
+"Live_at_Roadburn_2008_(Year_of_No_Light_album)" -> "Karysun_/_Year_of_No_Light" [label=followedBy, lexicon_key=followedBy];
+}

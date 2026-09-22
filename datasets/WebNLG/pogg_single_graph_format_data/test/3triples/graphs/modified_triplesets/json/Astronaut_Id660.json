@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "Hubei": {
+            "lexicon_key": "Hubei"
+        },
+        "Shenzhou_10": {
+            "lexicon_key": "Shenzhou_10"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Zaoyang",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Hubei",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Shenzhou_10",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Born in Zaoyang, Hubei, Nie Haisheng participated in the Shenzhou 10 mission."
+        },
+        "Id2": {
+            "text": "Nie Haisheng born in Zaoyang, Hubei Province took part in the Shenzhou 10 mission."
+        },
+        "Id3": {
+            "text": "Nie Haisheng was born in Zaoyang, Hubei and he was part of Shenzhou 10 mission."
+        }
+    },
+    "gold_outputs": []
+}

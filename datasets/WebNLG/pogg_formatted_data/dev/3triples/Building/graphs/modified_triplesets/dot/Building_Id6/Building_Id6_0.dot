@@ -1,0 +1,5 @@
+strict digraph {
+"300_North_LaSalle" [lexicon_key="300_North_LaSalle"];
+Chicago [lexicon_key=Chicago];
+"300_North_LaSalle" -> Chicago [label=location, lexicon_key=location];
+}

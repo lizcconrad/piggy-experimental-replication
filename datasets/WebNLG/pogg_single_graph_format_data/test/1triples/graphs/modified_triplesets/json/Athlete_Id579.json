@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        },
+        "Central_European_Time": {
+            "lexicon_key": "Central_European_Time"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Gdynia,_Poland",
+            "child_node": "Central_European_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The timezone in Gdynia, Poland is Central European Time."
+        },
+        "Id2": {
+            "text": "Gdynia is the city in Poland. The timezone for Gdynia is Central European Time."
+        },
+        "Id3": {
+            "text": "Gdynia, Poland falls into the Central European timezone."
+        }
+    },
+    "gold_outputs": []
+}

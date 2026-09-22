@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Arrabbiata_sauce": {
-            "lexicon_key": "Arrabbiata_sauce"
+    "graphs": {
+        "Food_Id6_0": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Italy": {
+                    "lexicon_key": "Italy"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Italy",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Olive Oil is used to create Italian Arrabbiata sauce.",
+                "Olive oil is an ingredient in Arrabbiata sauce, which can be found in Italy.",
+                "Olive oil is an ingredient used in the preparation of Arrabbiata sauce, found in Italy."
+            ]
         },
-        "Italy": {
-            "lexicon_key": "Italy"
-        },
-        "Olive_oil": {
-            "lexicon_key": "Olive_oil"
+        "Food_Id6_1": {
+            "nodes": {
+                "Arrabbiata_sauce": {
+                    "lexicon_key": "Arrabbiata_sauce"
+                },
+                "Olive_oil": {
+                    "lexicon_key": "Olive_oil"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Arrabbiata_sauce",
+                    "child_node": "Olive_oil",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Olive Oil is used to create Italian Arrabbiata sauce.",
+                "Olive oil is an ingredient in Arrabbiata sauce, which can be found in Italy.",
+                "Olive oil is an ingredient used in the preparation of Arrabbiata sauce, found in Italy."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Italy",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Arrabbiata_sauce",
-            "child_node": "Olive_oil",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

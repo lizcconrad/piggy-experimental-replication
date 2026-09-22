@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Hunt [lexicon_key="Aaron_Hunt"];
+SV_Werder_Bremen_II [lexicon_key="SV_Werder_Bremen_II"];
+Aaron_Hunt -> SV_Werder_Bremen_II [label=club, lexicon_key=club];
+}

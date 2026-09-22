@@ -1,0 +1,5 @@
+strict digraph {
+"Turn_Me_On_(album)" [lexicon_key="Turn_Me_On_(album)"];
+Noise_rock [lexicon_key="Noise_rock"];
+"Turn_Me_On_(album)" -> Noise_rock [label=genre, lexicon_key=genre];
+}

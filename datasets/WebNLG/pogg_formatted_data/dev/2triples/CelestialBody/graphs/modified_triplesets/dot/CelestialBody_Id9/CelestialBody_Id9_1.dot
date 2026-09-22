@@ -1,0 +1,5 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"2011-08-27" [lexicon_key="2011-08-27"];
+"103_Hera" -> "2011-08-27" [label=epoch, lexicon_key=epoch];
+}

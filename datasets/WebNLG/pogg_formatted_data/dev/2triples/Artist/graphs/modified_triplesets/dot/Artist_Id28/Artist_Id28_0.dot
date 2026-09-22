@@ -1,0 +1,5 @@
+strict digraph {
+Uruguay [lexicon_key=Uruguay];
+"Tabaré_Vázquez" [lexicon_key="Tabaré_Vázquez"];
+Uruguay -> "Tabaré_Vázquez" [label=leader, lexicon_key=leader];
+}

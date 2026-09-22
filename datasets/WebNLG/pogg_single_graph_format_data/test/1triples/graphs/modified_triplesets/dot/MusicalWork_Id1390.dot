@@ -1,0 +1,5 @@
+strict digraph {
+Expect_a_Miracle [lexicon_key="Expect_a_Miracle"];
+"Afterplay_(Brian_Kelly_album)" [lexicon_key="Afterplay_(Brian_Kelly_album)"];
+Expect_a_Miracle -> "Afterplay_(Brian_Kelly_album)" [label=followedBy, lexicon_key=followedBy];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+South_Africa [lexicon_key="South_Africa"];
+Coloured [lexicon_key=Coloured];
+South_Africa -> Coloured [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

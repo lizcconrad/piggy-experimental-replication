@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "Drum_kit": {
+            "lexicon_key": "Drum_kit"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "instrument",
+            "parent_node": "Punk_blues",
+            "child_node": "Drum_kit",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Punk blues, which usually uses a drum kit, is the genre of the album Turn Me On."
+        },
+        "Id2": {
+            "text": "The drum kit is an instrument used in the punk blues genre, which is the genre of Turn Me On."
+        },
+        "Id3": {
+            "text": "Turn Me On is a punk blues album, punk blues uses many instruments, including the drum kit to create their sound."
+        }
+    },
+    "gold_outputs": []
+}

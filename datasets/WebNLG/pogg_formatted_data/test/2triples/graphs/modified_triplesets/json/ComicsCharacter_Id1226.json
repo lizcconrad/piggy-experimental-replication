@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Steve_Bright": {
+            "lexicon_key": "Steve_Bright"
+        },
+        "\"1983-10-03\"": {
+            "lexicon_key": "\"1983-10-03\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bananaman",
+            "child_node": "Steve_Bright",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "firstAired",
+            "parent_node": "Bananaman",
+            "child_node": "\"1983-10-03\"",
+            "edge_properties": {
+                "lexicon_key": "firstAired"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bananaman was first aired on 10/03/1983, and its creator was Steve Bright."
+        },
+        "Id2": {
+            "text": "Bananaman, which first aired on 3/10/1983, was created by Steve Bright."
+        },
+        "Id3": {
+            "text": "Bananaman, which first aired on the 3rd of October, 1983, was created by Steve Bright."
+        }
+    },
+    "gold_outputs": []
+}

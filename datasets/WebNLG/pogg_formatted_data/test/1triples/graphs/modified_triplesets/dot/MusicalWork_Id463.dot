@@ -1,0 +1,5 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"2012-12-27" [lexicon_key="2012-12-27"];
+"Mermaid_(Train_song)" -> "2012-12-27" [label=releaseDate, lexicon_key=releaseDate];
+}

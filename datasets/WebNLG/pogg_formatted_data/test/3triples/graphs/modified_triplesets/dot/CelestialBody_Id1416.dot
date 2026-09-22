@@ -1,0 +1,9 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+Grigory_Neujmin [lexicon_key="Grigory_Neujmin"];
+11.5 [lexicon_key=11.5];
+"1929-06-11" [lexicon_key="1929-06-11"];
+"1147_Stavropolis" -> Grigory_Neujmin [label=discoverer, lexicon_key=discoverer];
+"1147_Stavropolis" -> 11.5 [label=absoluteMagnitude, lexicon_key=absoluteMagnitude];
+"1147_Stavropolis" -> "1929-06-11" [label=discovered, lexicon_key=discovered];
+}

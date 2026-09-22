@@ -1,0 +1,5 @@
+strict digraph {
+"110_Lydia" [lexicon_key="110_Lydia"];
+142603000.0 [lexicon_key=142603000.0];
+"110_Lydia" -> 142603000.0 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Michael_Rooker": {
+            "lexicon_key": "Michael_Rooker"
+        },
+        "Tom_Sizemore": {
+            "lexicon_key": "Tom_Sizemore"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Michael_Rooker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Tom_Sizemore",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tom Sizemore stars in Super Capers which starred Michael Rooker."
+        },
+        "Id2": {
+            "text": "The film Super Capers stars both Michael Rooker and Tom Sizemore."
+        },
+        "Id3": {
+            "text": "Tom Sizemore stars in Super Capers, a film in which Michael Rooker also plays in."
+        }
+    },
+    "gold_outputs": []
+}

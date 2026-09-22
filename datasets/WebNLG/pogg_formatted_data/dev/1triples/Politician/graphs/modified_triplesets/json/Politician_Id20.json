@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Airey_Neave": {
-            "lexicon_key": "Airey_Neave"
-        },
-        "1935": {
-            "lexicon_key": "1935"
+    "graphs": {
+        "Politician_Id20_0": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "1935": {
+                    "lexicon_key": "1935"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "serviceStartYear",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "1935",
+                    "edge_properties": {
+                        "lexicon_key": "serviceStartYear"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave began his military career in 1935.",
+                "Airey Neave began his service in 1935.",
+                "Airey Neave started serving in military in 1935."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "serviceStartYear",
-            "parent_node": "Airey_Neave",
-            "child_node": "1935",
-            "edge_properties": {
-                "lexicon_key": "serviceStartYear"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

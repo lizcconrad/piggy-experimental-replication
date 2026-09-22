@@ -1,0 +1,5 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+Subsidiary [lexicon_key=Subsidiary];
+Trane -> Subsidiary [label=type, lexicon_key=type];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Al-Khor_Sports_Club" [lexicon_key="Al-Khor_Sports_Club"];
+Al_Khor [lexicon_key="Al_Khor"];
+"Al-Khor_Sports_Club" -> Al_Khor [label=ground, lexicon_key=ground];
+}

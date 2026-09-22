@@ -1,0 +1,5 @@
+strict digraph {
+Chicago [lexicon_key=Chicago];
+Rahm_Emanuel [lexicon_key="Rahm_Emanuel"];
+Chicago -> Rahm_Emanuel [label=leader, lexicon_key=leader];
+}

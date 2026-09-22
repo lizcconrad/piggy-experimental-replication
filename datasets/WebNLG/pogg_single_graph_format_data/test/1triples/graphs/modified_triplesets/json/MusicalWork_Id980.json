@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "3.16": {
+            "lexicon_key": "3.16"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "3.16",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Mermaid song by Train has a total runtime of three minutes and sixteen seconds."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid lasts 3.16 minutes."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid has a length of 3 minutes and 16 seconds."
+        }
+    },
+    "gold_outputs": []
+}

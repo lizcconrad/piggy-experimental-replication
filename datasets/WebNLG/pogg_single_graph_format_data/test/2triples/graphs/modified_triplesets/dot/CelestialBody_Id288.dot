@@ -1,0 +1,7 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+"1929-06-11" [lexicon_key="1929-06-11"];
+260855000000.0 [lexicon_key=260855000000.0];
+"1147_Stavropolis" -> "1929-06-11" [label=discovered, lexicon_key=discovered];
+"1147_Stavropolis" -> 260855000000.0 [label=periapsis, lexicon_key=periapsis];
+}

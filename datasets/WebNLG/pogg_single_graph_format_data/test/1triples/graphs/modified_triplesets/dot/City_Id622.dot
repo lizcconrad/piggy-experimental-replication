@@ -1,0 +1,5 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+1777539 [lexicon_key=1777539];
+Ciudad_Ayala -> 1777539 [label=populationMetro, lexicon_key=populationMetro];
+}

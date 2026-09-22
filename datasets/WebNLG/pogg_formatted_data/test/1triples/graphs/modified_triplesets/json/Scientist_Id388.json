@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "1934-01-01": {
+            "lexicon_key": "1934-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "1934-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy's date of birth is January 1, 1934."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy was born on 1 January 1934."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy's birth date is 1934-01-01."
+        }
+    },
+    "gold_outputs": []
+}

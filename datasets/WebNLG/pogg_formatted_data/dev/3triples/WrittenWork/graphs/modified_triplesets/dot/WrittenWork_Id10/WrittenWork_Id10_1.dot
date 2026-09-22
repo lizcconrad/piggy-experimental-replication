@@ -1,0 +1,5 @@
+strict digraph {
+AIP_Advances [lexicon_key="AIP_Advances"];
+"AIP Adv." [lexicon_key="AIP Adv."];
+AIP_Advances -> "AIP Adv." [label=abbreviation, lexicon_key=abbreviation];
+}

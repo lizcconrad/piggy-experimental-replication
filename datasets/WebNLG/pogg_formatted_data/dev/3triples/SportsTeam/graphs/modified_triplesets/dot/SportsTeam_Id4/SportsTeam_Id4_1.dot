@@ -1,0 +1,5 @@
+strict digraph {
+"A.D._Isidro_Metapán" [lexicon_key="A.D._Isidro_Metapán"];
+"Isidro Metapán" [lexicon_key="Isidro Metapán"];
+"A.D._Isidro_Metapán" -> "Isidro Metapán" [label=fullName, lexicon_key=fullName];
+}

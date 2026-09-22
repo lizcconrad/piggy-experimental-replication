@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Te\u015fvikiye": {
+            "lexicon_key": "Te\u015fvikiye"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Te\u015fvikiye",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tesvikiye was the primary residence of Nurhan Atasoy."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy resides in Te\u015fvikiye."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy resides in Tesvikiye."
+        }
+    },
+    "gold_outputs": []
+}

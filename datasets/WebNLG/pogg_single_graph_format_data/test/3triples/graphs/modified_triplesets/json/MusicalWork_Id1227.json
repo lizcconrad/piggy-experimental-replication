@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "2001-10-16": {
+            "lexicon_key": "2001-10-16"
+        },
+        "Andy_Warhol's_Velvet_Underground_Featuring_Nico": {
+            "lexicon_key": "Andy_Warhol's_Velvet_Underground_Featuring_Nico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "2001-10-16",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Squeeze_(The_Velvet_Underground_album)",
+            "child_node": "Andy_Warhol's_Velvet_Underground_Featuring_Nico",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes by The Velvet Underground was released on October 16, 2001. It was preceded by the album Squeeze, which itself was preceded by the compilation album Andy Warhol's Velvet Underground Featuring Nico."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes (released 10-16-2001) was preceded by the album Squeeze, which in turn was preceded by the album Andy Warhol's Velvet Underground Featuring Nico."
+        },
+        "Id3": {
+            "text": "Andy Warhol's Velvet Underground Featuring Nico is the predecessor of Squeeze by The Velvet Underground and Bootleg Series Volume 1: The Quine Tapes which is released in 2001-10-16."
+        }
+    },
+    "gold_outputs": []
+}

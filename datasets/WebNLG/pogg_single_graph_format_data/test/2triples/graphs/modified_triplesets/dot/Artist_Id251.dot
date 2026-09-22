@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Karlsruhe [lexicon_key=Karlsruhe];
+Oberbürgermeister [lexicon_key=Oberbürgermeister];
+Liselotte_Grschebina -> Karlsruhe [label=birthPlace, lexicon_key=birthPlace];
+Karlsruhe -> Oberbürgermeister [label=leaderTitle, lexicon_key=leaderTitle];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        },
+        "Purple_finch": {
+            "lexicon_key": "Purple_finch"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "bird",
+            "parent_node": "New_Hampshire",
+            "child_node": "Purple_finch",
+            "edge_properties": {
+                "lexicon_key": "bird"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard's was born in New Hampshire, where the native bird is the purple finch, and died in California."
+        },
+        "Id2": {
+            "text": "Born in New Hampshire (home of the purple finch), Alan Shepard died in California."
+        },
+        "Id3": {
+            "text": "The Purple Finch is a New Hampshire bird, where Alan Shepard was born in, and he died in California."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Jamie_Lawrence": {
+            "lexicon_key": "Jamie_Lawrence"
+        },
+        "Brentford_F.C.": {
+            "lexicon_key": "Brentford_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Jamie_Lawrence",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Jamie_Lawrence",
+            "child_node": "Brentford_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "A person named Jamie Lawrence is a member of the Brentford F.C. while someone with the same name was the composer for \"Death on a Factory Farm\" music."
+        },
+        "Id2": {
+            "text": "Jamie Lawrence, who played for Brentford F.C., wrote the music for the film 'Death on a Factory Farm'."
+        },
+        "Id3": {
+            "text": "Jamie Lawrence, who composed Death on a Factory Farm also played in the club Brentford F.C."
+        }
+    },
+    "gold_outputs": []
+}

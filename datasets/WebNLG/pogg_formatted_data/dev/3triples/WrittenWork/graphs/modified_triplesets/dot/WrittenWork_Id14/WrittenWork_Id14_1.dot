@@ -1,0 +1,5 @@
+strict digraph {
+Soho_Press [lexicon_key="Soho_Press"];
+United_States [lexicon_key="United_States"];
+Soho_Press -> United_States [label=country, lexicon_key=country];
+}

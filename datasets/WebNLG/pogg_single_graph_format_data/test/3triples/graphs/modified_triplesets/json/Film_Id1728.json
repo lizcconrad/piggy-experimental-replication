@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        },
+        "Nicholas_Brodszky": {
+            "lexicon_key": "Nicholas_Brodszky"
+        },
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Nicholas_Brodszky",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Harold_French",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harold French was the director of the 89 minute film English Without Tears, where Nicholas Brodszky was the music composer."
+        },
+        "Id2": {
+            "text": "English Without Tears, a film directed by Harold French, is 89 minutes long. The music for the film is composed by Nicholas Brodszky."
+        },
+        "Id3": {
+            "text": "The 89 minute movie \u00b4English Without Tears\u00b4 was directed by Harold French, with its songs composed by Nicholas Brodszky."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Michael_Rooker": {
+            "lexicon_key": "Michael_Rooker"
+        },
+        "1955-04-06": {
+            "lexicon_key": "1955-04-06"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Michael_Rooker",
+            "child_node": "1955-04-06",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Michael Rooker was born on April 6th 1955."
+        },
+        "Id2": {
+            "text": "The birth date of Michael Rooker is April 6th 1955."
+        },
+        "Id3": {
+            "text": "Michael Rooker was born on 6th April 1955."
+        }
+    },
+    "gold_outputs": []
+}

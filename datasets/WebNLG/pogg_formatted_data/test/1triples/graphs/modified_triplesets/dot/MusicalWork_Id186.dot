@@ -1,0 +1,5 @@
+strict digraph {
+"Take_It_Off!" [lexicon_key="Take_It_Off!"];
+"The_Honeymoon_Killers_(American_band)" [lexicon_key="The_Honeymoon_Killers_(American_band)"];
+"Take_It_Off!" -> "The_Honeymoon_Killers_(American_band)" [label=producer, lexicon_key=producer];
+}

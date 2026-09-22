@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Agnes_Kant": {
-            "lexicon_key": "Agnes_Kant"
+    "graphs": {
+        "Politician_Id16_0": {
+            "nodes": {
+                "Agnes_Kant": {
+                    "lexicon_key": "Agnes_Kant"
+                },
+                "Radboud_University_Nijmegen": {
+                    "lexicon_key": "Radboud_University_Nijmegen"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "almaMater",
+                    "parent_node": "Agnes_Kant",
+                    "child_node": "Radboud_University_Nijmegen",
+                    "edge_properties": {
+                        "lexicon_key": "almaMater"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Agnes Kant, who was born in West Germany, attended Radboud University in Nijmegen and later worked with the Socialist Party in Netherlands.",
+                "Born in West Germany, Agnes Kant worked at the Socialist Party in the Netherlands, and her alma mater is the Radboud University Nijmegen.",
+                "West Germany born Agnes Kant, a leader of Netherlands's Socialist Party, attended Radboud University Nijmegen."
+            ]
         },
-        "Radboud_University_Nijmegen": {
-            "lexicon_key": "Radboud_University_Nijmegen"
+        "Politician_Id16_1": {
+            "nodes": {
+                "Agnes_Kant": {
+                    "lexicon_key": "Agnes_Kant"
+                },
+                "West_Germany": {
+                    "lexicon_key": "West_Germany"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Agnes_Kant",
+                    "child_node": "West_Germany",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Agnes Kant, who was born in West Germany, attended Radboud University in Nijmegen and later worked with the Socialist Party in Netherlands.",
+                "Born in West Germany, Agnes Kant worked at the Socialist Party in the Netherlands, and her alma mater is the Radboud University Nijmegen.",
+                "West Germany born Agnes Kant, a leader of Netherlands's Socialist Party, attended Radboud University Nijmegen."
+            ]
         },
-        "West_Germany": {
-            "lexicon_key": "West_Germany"
-        },
-        "Socialist_Party_(Netherlands)": {
-            "lexicon_key": "Socialist_Party_(Netherlands)"
+        "Politician_Id16_2": {
+            "nodes": {
+                "Agnes_Kant": {
+                    "lexicon_key": "Agnes_Kant"
+                },
+                "Socialist_Party_(Netherlands)": {
+                    "lexicon_key": "Socialist_Party_(Netherlands)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "office",
+                    "parent_node": "Agnes_Kant",
+                    "child_node": "Socialist_Party_(Netherlands)",
+                    "edge_properties": {
+                        "lexicon_key": "office"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Agnes Kant, who was born in West Germany, attended Radboud University in Nijmegen and later worked with the Socialist Party in Netherlands.",
+                "Born in West Germany, Agnes Kant worked at the Socialist Party in the Netherlands, and her alma mater is the Radboud University Nijmegen.",
+                "West Germany born Agnes Kant, a leader of Netherlands's Socialist Party, attended Radboud University Nijmegen."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "almaMater",
-            "parent_node": "Agnes_Kant",
-            "child_node": "Radboud_University_Nijmegen",
-            "edge_properties": {
-                "lexicon_key": "almaMater"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Agnes_Kant",
-            "child_node": "West_Germany",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "office",
-            "parent_node": "Agnes_Kant",
-            "child_node": "Socialist_Party_(Netherlands)",
-            "edge_properties": {
-                "lexicon_key": "office"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

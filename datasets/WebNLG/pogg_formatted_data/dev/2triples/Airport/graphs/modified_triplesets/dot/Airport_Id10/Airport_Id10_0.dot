@@ -1,0 +1,5 @@
+strict digraph {
+Allama_Iqbal_International_Airport [lexicon_key="Allama_Iqbal_International_Airport"];
+Pakistan_Civil_Aviation_Authority [lexicon_key="Pakistan_Civil_Aviation_Authority"];
+Allama_Iqbal_International_Airport -> Pakistan_Civil_Aviation_Authority [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+}

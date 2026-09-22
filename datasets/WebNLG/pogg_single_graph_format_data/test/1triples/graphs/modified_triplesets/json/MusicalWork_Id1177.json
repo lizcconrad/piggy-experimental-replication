@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "2006-09-06": {
+            "lexicon_key": "2006-09-06"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "2006-09-06",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The release date of Nord, Year of No Light Album, is 06-09-2006."
+        },
+        "Id2": {
+            "text": "The Year of No Light album Nord was released on the date 2006-09-06."
+        },
+        "Id3": {
+            "text": "The album Nord was released on September 6, 2006."
+        }
+    },
+    "gold_outputs": []
+}

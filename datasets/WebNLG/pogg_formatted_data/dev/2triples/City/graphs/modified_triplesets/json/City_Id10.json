@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Atlanta": {
-            "lexicon_key": "Atlanta"
+    "graphs": {
+        "City_Id10_0": {
+            "nodes": {
+                "Atlanta": {
+                    "lexicon_key": "Atlanta"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Atlanta",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Atlanta is located in the United States where African Americans are an ethnic group.",
+                "The United States has the ethnic group of African Americans and is the location of Atlanta.",
+                "The United States is the location of Atlanta and includes the African Americans among its ethnic groups."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
-        },
-        "African_Americans": {
-            "lexicon_key": "African_Americans"
+        "City_Id10_1": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "African_Americans": {
+                    "lexicon_key": "African_Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "United_States",
+                    "child_node": "African_Americans",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Atlanta is located in the United States where African Americans are an ethnic group.",
+                "The United States has the ethnic group of African Americans and is the location of Atlanta.",
+                "The United States is the location of Atlanta and includes the African Americans among its ethnic groups."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Atlanta",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "United_States",
-            "child_node": "African_Americans",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

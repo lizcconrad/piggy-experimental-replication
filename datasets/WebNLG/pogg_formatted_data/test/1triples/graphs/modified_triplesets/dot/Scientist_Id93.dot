@@ -1,0 +1,5 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Turkish_people [lexicon_key="Turkish_people"];
+Nurhan_Atasoy -> Turkish_people [label=nationality, lexicon_key=nationality];
+}

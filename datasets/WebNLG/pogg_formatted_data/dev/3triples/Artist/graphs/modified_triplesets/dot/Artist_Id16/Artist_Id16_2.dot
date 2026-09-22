@@ -1,0 +1,5 @@
+strict digraph {
+Jazz [lexicon_key=Jazz];
+Afrobeat [lexicon_key=Afrobeat];
+Jazz -> Afrobeat [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

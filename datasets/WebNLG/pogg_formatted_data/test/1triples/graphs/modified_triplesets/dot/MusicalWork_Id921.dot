@@ -1,0 +1,5 @@
+strict digraph {
+Pop_rock [lexicon_key="Pop_rock"];
+Indie_pop [lexicon_key="Indie_pop"];
+Pop_rock -> Indie_pop [label=musicSubgenre, lexicon_key=musicSubgenre];
+}

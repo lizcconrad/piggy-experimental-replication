@@ -1,0 +1,5 @@
+strict digraph {
+Harold_French [lexicon_key="Harold_French"];
+Film_director [lexicon_key="Film_director"];
+Harold_French -> Film_director [label=occupation, lexicon_key=occupation];
+}

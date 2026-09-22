@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Ahmet_Ertegun": {
-            "lexicon_key": "Ahmet_Ertegun"
+    "graphs": {
+        "Artist_Id12_0": {
+            "nodes": {
+                "Ahmet_Ertegun": {
+                    "lexicon_key": "Ahmet_Ertegun"
+                },
+                "Blues": {
+                    "lexicon_key": "Blues"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Ahmet_Ertegun",
+                    "child_node": "Blues",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ahmet Ertegun performs blues music and is from Washington D.C., United States.",
+                "Ahmet Ertegun, who is from Washington D.C. in the United States, plays the blues."
+            ]
         },
-        "Blues": {
-            "lexicon_key": "Blues"
+        "Artist_Id12_1": {
+            "nodes": {
+                "Ahmet_Ertegun": {
+                    "lexicon_key": "Ahmet_Ertegun"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "origin",
+                    "parent_node": "Ahmet_Ertegun",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "origin"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ahmet Ertegun performs blues music and is from Washington D.C., United States.",
+                "Ahmet Ertegun, who is from Washington D.C. in the United States, plays the blues."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
-        },
-        "Washington,_D.C.": {
-            "lexicon_key": "Washington,_D.C."
+        "Artist_Id12_2": {
+            "nodes": {
+                "Ahmet_Ertegun": {
+                    "lexicon_key": "Ahmet_Ertegun"
+                },
+                "Washington,_D.C.": {
+                    "lexicon_key": "Washington,_D.C."
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "origin",
+                    "parent_node": "Ahmet_Ertegun",
+                    "child_node": "Washington,_D.C.",
+                    "edge_properties": {
+                        "lexicon_key": "origin"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ahmet Ertegun performs blues music and is from Washington D.C., United States.",
+                "Ahmet Ertegun, who is from Washington D.C. in the United States, plays the blues."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Ahmet_Ertegun",
-            "child_node": "Blues",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "origin",
-            "parent_node": "Ahmet_Ertegun",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "origin"
-            }
-        },
-        {
-            "edge_name": "origin",
-            "parent_node": "Ahmet_Ertegun",
-            "child_node": "Washington,_D.C.",
-            "edge_properties": {
-                "lexicon_key": "origin"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

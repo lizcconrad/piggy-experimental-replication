@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Columbia_Records": {
+            "lexicon_key": "Columbia_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Columbia_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Mermaid is a pop rock song by Train released on the Columbia Records record label."
+        },
+        "Id2": {
+            "text": "Train song Mermaid, a pop rock song, was released under the record label Columbia Records."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid in Columbia Records belongs to pop rock."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        },
+        "1886-01-01": {
+            "lexicon_key": "1886-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Grigory_Neujmin",
+            "child_node": "1886-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Grigory Neujmin, born on Jan 1, 1886, discovered the 1147 Stavropolis."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis was discovered by Grigory Neujmin born on January 1, 1886."
+        },
+        "Id3": {
+            "text": "Grigory Neujmin, born on January 1, 1886, discovered 1147 Stavropolis."
+        }
+    },
+    "gold_outputs": []
+}

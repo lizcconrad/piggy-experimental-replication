@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+United_States [lexicon_key="United_States"];
+English_language [lexicon_key="English_language"];
+"St._Louis,_Missouri" [lexicon_key="St._Louis,_Missouri"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> United_States [label=recordedIn, lexicon_key=recordedIn];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> "St._Louis,_Missouri" [label=recordedIn, lexicon_key=recordedIn];
+United_States -> English_language [label=language, lexicon_key=language];
+}

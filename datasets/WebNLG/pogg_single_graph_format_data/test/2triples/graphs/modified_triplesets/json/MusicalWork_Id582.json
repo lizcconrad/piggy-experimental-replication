@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "San_Francisco",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes, which was recorded in San Francisco, was preceded by the album Squeeze."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume I: The Quine Tapes was recorded in San Francisco and preceded by Squeeze by The Velvet Underground."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes recorded in San Francisco, preceded the Velvet Underground album Squeeze."
+        }
+    },
+    "gold_outputs": []
+}

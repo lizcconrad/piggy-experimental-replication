@@ -1,0 +1,7 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+Pop_rock [lexicon_key="Pop_rock"];
+Baroque_pop [lexicon_key="Baroque_pop"];
+"Mermaid_(Train_song)" -> Pop_rock [label=genre, lexicon_key=genre];
+Pop_rock -> Baroque_pop [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

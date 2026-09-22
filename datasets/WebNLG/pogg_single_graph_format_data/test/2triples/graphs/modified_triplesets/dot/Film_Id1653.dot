@@ -1,0 +1,7 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Adam_West [lexicon_key="Adam_West"];
+1928 [lexicon_key=1928];
+Super_Capers -> Adam_West [label=starring, lexicon_key=starring];
+Adam_West -> 1928 [label=birthYear, lexicon_key=birthYear];
+}

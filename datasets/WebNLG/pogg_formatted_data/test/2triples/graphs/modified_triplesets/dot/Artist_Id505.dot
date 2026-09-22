@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Israel [lexicon_key=Israel];
+387.63 [lexicon_key=387.63];
+Liselotte_Grschebina -> Israel [label=deathPlace, lexicon_key=deathPlace];
+Israel -> 387.63 [label=populationDensity, lexicon_key=populationDensity];
+}

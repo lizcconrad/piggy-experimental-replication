@@ -1,0 +1,5 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+"Haputale, Sri Lanka" [lexicon_key="Haputale, Sri Lanka"];
+Adisham_Hall -> "Haputale, Sri Lanka" [label=location, lexicon_key=location];
+}

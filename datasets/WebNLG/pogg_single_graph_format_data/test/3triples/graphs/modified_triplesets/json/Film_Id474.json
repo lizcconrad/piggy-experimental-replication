@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Tom_Sizemore": {
+            "lexicon_key": "Tom_Sizemore"
+        },
+        "98.0": {
+            "lexicon_key": "98.0"
+        },
+        "Roadside_Attractions": {
+            "lexicon_key": "Roadside_Attractions"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Tom_Sizemore",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Super_Capers",
+            "child_node": "98.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "distributor",
+            "parent_node": "Super_Capers",
+            "child_node": "Roadside_Attractions",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tom Sizemore starred in the 98.0 minutes long movie Super Capers which was distributed by Roadside Attractions."
+        },
+        "Id2": {
+            "text": "Super Capers, a 98 minute film distributed by Roadside Attractions, stars Tom Sizemore."
+        },
+        "Id3": {
+            "text": "Tom Sizemore stars in Super Capers which was distributed by Roadside Attractions and has a duration of 98 minutes."
+        }
+    },
+    "gold_outputs": []
+}

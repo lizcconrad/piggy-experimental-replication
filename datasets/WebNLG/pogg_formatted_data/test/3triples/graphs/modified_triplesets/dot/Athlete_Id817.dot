@@ -1,0 +1,9 @@
+strict digraph {
+Piotr_Hallmann [lexicon_key="Piotr_Hallmann"];
+175.26 [lexicon_key=175.26];
+"Gdynia,_Poland" [lexicon_key="Gdynia,_Poland"];
+"1987-08-25" [lexicon_key="1987-08-25"];
+Piotr_Hallmann -> 175.26 [label=height, lexicon_key=height];
+Piotr_Hallmann -> "Gdynia,_Poland" [label=birthPlace, lexicon_key=birthPlace];
+Piotr_Hallmann -> "1987-08-25" [label=birthDate, lexicon_key=birthDate];
+}

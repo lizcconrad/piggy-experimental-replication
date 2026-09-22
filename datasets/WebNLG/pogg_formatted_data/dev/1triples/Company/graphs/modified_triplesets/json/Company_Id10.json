@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Swords,_Dublin": {
-            "lexicon_key": "Swords,_Dublin"
-        },
-        "Dublin_(European_Parliament_constituency)": {
-            "lexicon_key": "Dublin_(European_Parliament_constituency)"
+    "graphs": {
+        "Company_Id10_0": {
+            "nodes": {
+                "Swords,_Dublin": {
+                    "lexicon_key": "Swords,_Dublin"
+                },
+                "Dublin_(European_Parliament_constituency)": {
+                    "lexicon_key": "Dublin_(European_Parliament_constituency)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Swords,_Dublin",
+                    "child_node": "Dublin_(European_Parliament_constituency)",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Swords belongs to the Dublin constituency of the European Parliament.",
+                "Swords is a part of the Dublin European Parliamentary constituency.",
+                "Swords, Dublin is part of the Dublin European Parliament constituency."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Swords,_Dublin",
-            "child_node": "Dublin_(European_Parliament_constituency)",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

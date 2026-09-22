@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        },
+        "\u22126": {
+            "lexicon_key": "\u22126"
+        },
+        "1147.0": {
+            "lexicon_key": "1147.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\u22126",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1147.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala city has a population density of 1604.0, it falls into UTC offset -6 timezone and its elevation above the sea level is 1147.0."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala (UTC offset of -6) has a population density of 1604.0; its elevation above sea level is 1147.0."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala has a population density of 1,604, and it is 1,147 meters above sea level. The city has a UTC offset of -6."
+        }
+    },
+    "gold_outputs": []
+}

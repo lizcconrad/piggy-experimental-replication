@@ -1,0 +1,5 @@
+strict digraph {
+"Appleton,_Wisconsin" [lexicon_key="Appleton,_Wisconsin"];
+"Grand_Chute,_Wisconsin" [lexicon_key="Grand_Chute,_Wisconsin"];
+"Appleton,_Wisconsin" -> "Grand_Chute,_Wisconsin" [label=isPartOf, lexicon_key=isPartOf];
+}

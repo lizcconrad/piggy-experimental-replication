@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Pontiac": {
+            "lexicon_key": "Pontiac"
+        },
+        "2010-10-31": {
+            "lexicon_key": "2010-10-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "extinctionDate",
+            "parent_node": "Pontiac",
+            "child_node": "2010-10-31",
+            "edge_properties": {
+                "lexicon_key": "extinctionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac brand became extinct on October 31, 2010."
+        },
+        "Id2": {
+            "text": "Pontiac went extinct on 2010-10-31."
+        }
+    },
+    "gold_outputs": []
+}

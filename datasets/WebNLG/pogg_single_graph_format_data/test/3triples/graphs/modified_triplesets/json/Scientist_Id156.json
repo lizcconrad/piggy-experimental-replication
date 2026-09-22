@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "Unitary_state": {
+            "lexicon_key": "Unitary_state"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Istanbul",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Turkey",
+            "child_node": "Unitary_state",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy resides in the unitary state of Turkey, specifically in Istanbul."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy resides in Istanbul which is in Turkey whose type of government is s unitary state."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy resides in Istanbul, Turkey. Turkey has a unitary form of government."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+"No-hair_theorem" [lexicon_key="No-hair_theorem"];
+England [lexicon_key=England];
+"1942-01-01" [lexicon_key="1942-01-01"];
+Brandon_Carter -> "No-hair_theorem" [label=knownFor, lexicon_key=knownFor];
+Brandon_Carter -> England [label=birthPlace, lexicon_key=birthPlace];
+Brandon_Carter -> "1942-01-01" [label=birthDate, lexicon_key=birthDate];
+}

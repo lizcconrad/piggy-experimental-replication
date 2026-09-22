@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Cake": {
+            "lexicon_key": "Cake"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Dessert",
+            "child_node": "Cake",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico is a food found in Mexico served at the dessert course. A variation on dessert is cake."
+        },
+        "Id2": {
+            "text": "Bionico is a dish served for dessert found in Mexico. A variation on dessert is cake."
+        },
+        "Id3": {
+            "text": "Bionico is a dessert food found in Mexico. One type of dessert is cake."
+        }
+    },
+    "gold_outputs": []
+}

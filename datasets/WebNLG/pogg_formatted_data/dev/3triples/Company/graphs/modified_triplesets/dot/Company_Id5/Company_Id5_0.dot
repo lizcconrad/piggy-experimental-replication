@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+"GMA_Network_(company)" [lexicon_key="GMA_Network_(company)"];
+GMA_New_Media -> "GMA_Network_(company)" [label=parentCompany, lexicon_key=parentCompany];
+}

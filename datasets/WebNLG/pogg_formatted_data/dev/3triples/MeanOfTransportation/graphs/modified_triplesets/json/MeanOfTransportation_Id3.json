@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "A-Rosa_Luna": {
-            "lexicon_key": "A-Rosa_Luna"
+    "graphs": {
+        "MeanOfTransportation_Id3_0": {
+            "nodes": {
+                "A-Rosa_Luna": {
+                    "lexicon_key": "A-Rosa_Luna"
+                },
+                "Cruise_ship": {
+                    "lexicon_key": "Cruise_ship"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "shipClass",
+                    "parent_node": "A-Rosa_Luna",
+                    "child_node": "Cruise_ship",
+                    "edge_properties": {
+                        "lexicon_key": "shipClass"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A-Rosa Luna, a cruise ship 125800.0 millimetres in length, was ordered on January 22, 2004.",
+                "Ordered on January 22nd, 2004, the A-Rosa Luna, is classed as a Cruise ship and has a length of 125.8 metres."
+            ]
         },
-        "Cruise_ship": {
-            "lexicon_key": "Cruise_ship"
+        "MeanOfTransportation_Id3_1": {
+            "nodes": {
+                "A-Rosa_Luna": {
+                    "lexicon_key": "A-Rosa_Luna"
+                },
+                "125800.0 (millimetres)": {
+                    "lexicon_key": "125800.0 (millimetres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "length",
+                    "parent_node": "A-Rosa_Luna",
+                    "child_node": "125800.0 (millimetres)",
+                    "edge_properties": {
+                        "lexicon_key": "length"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A-Rosa Luna, a cruise ship 125800.0 millimetres in length, was ordered on January 22, 2004.",
+                "Ordered on January 22nd, 2004, the A-Rosa Luna, is classed as a Cruise ship and has a length of 125.8 metres."
+            ]
         },
-        "125800.0 (millimetres)": {
-            "lexicon_key": "125800.0 (millimetres)"
-        },
-        "2004-01-22": {
-            "lexicon_key": "2004-01-22"
+        "MeanOfTransportation_Id3_2": {
+            "nodes": {
+                "A-Rosa_Luna": {
+                    "lexicon_key": "A-Rosa_Luna"
+                },
+                "2004-01-22": {
+                    "lexicon_key": "2004-01-22"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "shipOrdered",
+                    "parent_node": "A-Rosa_Luna",
+                    "child_node": "2004-01-22",
+                    "edge_properties": {
+                        "lexicon_key": "shipOrdered"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A-Rosa Luna, a cruise ship 125800.0 millimetres in length, was ordered on January 22, 2004.",
+                "Ordered on January 22nd, 2004, the A-Rosa Luna, is classed as a Cruise ship and has a length of 125.8 metres."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "shipClass",
-            "parent_node": "A-Rosa_Luna",
-            "child_node": "Cruise_ship",
-            "edge_properties": {
-                "lexicon_key": "shipClass"
-            }
-        },
-        {
-            "edge_name": "length",
-            "parent_node": "A-Rosa_Luna",
-            "child_node": "125800.0 (millimetres)",
-            "edge_properties": {
-                "lexicon_key": "length"
-            }
-        },
-        {
-            "edge_name": "shipOrdered",
-            "parent_node": "A-Rosa_Luna",
-            "child_node": "2004-01-22",
-            "edge_properties": {
-                "lexicon_key": "shipOrdered"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+Antioquia_Department [lexicon_key="Antioquia_Department"];
+Colombia [lexicon_key=Colombia];
+Antioquia_Department -> Colombia [label=country, lexicon_key=country];
+}

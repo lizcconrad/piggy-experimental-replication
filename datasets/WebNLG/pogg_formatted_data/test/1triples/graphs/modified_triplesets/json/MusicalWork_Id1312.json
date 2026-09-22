@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes was recorded in the United States."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded in the United States."
+        }
+    },
+    "gold_outputs": []
+}

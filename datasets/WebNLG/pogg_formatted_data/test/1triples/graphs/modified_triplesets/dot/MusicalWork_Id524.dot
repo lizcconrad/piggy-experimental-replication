@@ -1,0 +1,5 @@
+strict digraph {
+San_Francisco [lexicon_key="San_Francisco"];
+"Ed_Lee_(politician)" [lexicon_key="Ed_Lee_(politician)"];
+San_Francisco -> "Ed_Lee_(politician)" [label=leader, lexicon_key=leader];
+}

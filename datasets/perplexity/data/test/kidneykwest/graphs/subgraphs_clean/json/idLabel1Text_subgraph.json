@@ -1,9 +1,13 @@
 {
-    "nodes": {
-        "idLabel1Text": {
-            "node_type": "entity",
-            "lexicon_key": "idLabel1Text"
+    "graphs": {
+        "idLabel1Text_subgraph_0": {
+            "nodes": {
+                "idLabel1Text": {
+                    "node_type": "entity",
+                    "lexicon_key": "idLabel1Text"
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

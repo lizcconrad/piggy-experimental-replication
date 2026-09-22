@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "North_Elmham": {
+            "lexicon_key": "North_Elmham"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "John_Mills",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "John_Mills",
+            "child_node": "North_Elmham",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young (1956) stars John Mills, who was born in North Elmham."
+        },
+        "Id2": {
+            "text": "It's Great to Be Young stars John Mills from North Elmham."
+        },
+        "Id3": {
+            "text": "A native of North Elmham, John Mills starred as the leading role in the 1956 movie, It's Great to Be Young."
+        }
+    },
+    "gold_outputs": []
+}

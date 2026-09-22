@@ -1,0 +1,5 @@
+strict digraph {
+"(66391)_1999_KW4" [lexicon_key="(66391)_1999_KW4"];
+"162164091.8388 (kilometres)" [lexicon_key="162164091.8388 (kilometres)"];
+"(66391)_1999_KW4" -> "162164091.8388 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

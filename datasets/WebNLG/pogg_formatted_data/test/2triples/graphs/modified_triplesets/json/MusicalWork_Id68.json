@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        },
+        "Monarch_(band)": {
+            "lexicon_key": "Monarch_(band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Year_of_No_Light",
+            "child_node": "Monarch_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Year of No Light is a band whose members include a former guitarist for Monarch has created an album called Nord."
+        },
+        "Id2": {
+            "text": "Nord is an album by Year of No Light, which is associated with the band Monarch."
+        }
+    },
+    "gold_outputs": []
+}

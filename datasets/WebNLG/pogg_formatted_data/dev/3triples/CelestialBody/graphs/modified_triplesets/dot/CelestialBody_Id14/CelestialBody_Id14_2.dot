@@ -1,0 +1,5 @@
+strict digraph {
+"10_Hygiea" [lexicon_key="10_Hygiea"];
+"164.0 (kelvins)" [lexicon_key="164.0 (kelvins)"];
+"10_Hygiea" -> "164.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+}

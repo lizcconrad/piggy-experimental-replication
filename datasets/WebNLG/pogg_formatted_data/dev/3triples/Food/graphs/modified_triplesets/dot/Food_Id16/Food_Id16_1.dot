@@ -1,0 +1,5 @@
+strict digraph {
+Bacon_sandwich [lexicon_key="Bacon_sandwich"];
+United_Kingdom [lexicon_key="United_Kingdom"];
+Bacon_sandwich -> United_Kingdom [label=country, lexicon_key=country];
+}

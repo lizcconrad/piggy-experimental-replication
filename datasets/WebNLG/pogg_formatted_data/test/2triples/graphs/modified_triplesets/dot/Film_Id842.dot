@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+89.0 [lexicon_key=89.0];
+English_Without_Tears -> Anatole_de_Grunwald [label=producer, lexicon_key=producer];
+English_Without_Tears -> 89.0 [label=runtime, lexicon_key=runtime];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+"J._R._R._Tolkien" [lexicon_key="J._R._R._Tolkien"];
+The_Silmarillion [lexicon_key="The_Silmarillion"];
+The_Fellowship_of_the_Ring -> "J._R._R._Tolkien" [label=author, lexicon_key=author];
+"J._R._R._Tolkien" -> The_Silmarillion [label=notableWork, lexicon_key=notableWork];
+}

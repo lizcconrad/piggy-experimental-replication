@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "35.1": {
+            "lexicon_key": "35.1"
+        },
+        "Let_It_Breed": {
+            "lexicon_key": "Let_It_Breed"
+        },
+        "Love_American_Style_(album)": {
+            "lexicon_key": "Love_American_Style_(album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "35.1",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Let_It_Breed",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Let_It_Breed",
+            "child_node": "Love_American_Style_(album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Turn Me On (which has run time of 35.1 minutes) was preceded by the album Let It Breed; Let It Breed is preceded by the release of the album Love American Style."
+        },
+        "Id2": {
+            "text": "Preceded by the Love American Style album and the Let it Breed album, the album Turn Me On has a runtime of just over 35 minutes."
+        },
+        "Id3": {
+            "text": "Following the albums, Let it Breed and Love American Style, Turn me on was released at a length of 35 minutes and 10 seconds."
+        }
+    },
+    "gold_outputs": []
+}

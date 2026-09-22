@@ -1,0 +1,5 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+"S.A._(corporation)" [lexicon_key="S.A._(corporation)"];
+Hypermarcas -> "S.A._(corporation)" [label=type, lexicon_key=type];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Terence_Rattigan [lexicon_key="Terence_Rattigan"];
+0711905 [lexicon_key=0711905];
+Terence_Rattigan -> 0711905 [label=imdbId, lexicon_key=imdbId];
+}

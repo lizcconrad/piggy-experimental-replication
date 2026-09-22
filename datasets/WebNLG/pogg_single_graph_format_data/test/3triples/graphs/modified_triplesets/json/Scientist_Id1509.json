@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "George_Monson": {
+            "lexicon_key": "George_Monson"
+        },
+        "1776-02-18": {
+            "lexicon_key": "1776-02-18"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "spouse",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "George_Monson",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "1776-02-18",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Before her death on February 18, 1776, Lady Anne Monson was a resident of India married to George Monson."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson (died on February 18th, 1776) was the spouse of George Monson and resided in India for most of her life."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson resided in India with her husband George before her death on February 2, 1776."
+        }
+    },
+    "gold_outputs": []
+}

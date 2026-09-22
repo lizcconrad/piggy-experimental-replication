@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Abraham A.Ribicoff,is from the United States,his wife is Casey Ribicoff."
+        },
+        "Id2": {
+            "text": "Abraham A. Ribicoff is a citizen of the United States and was married to Casey Ribicoff."
+        },
+        "Id3": {
+            "text": "Casey Ribicoff is the wife of Abraham A Ribicoff from the United States."
+        }
+    },
+    "gold_outputs": []
+}

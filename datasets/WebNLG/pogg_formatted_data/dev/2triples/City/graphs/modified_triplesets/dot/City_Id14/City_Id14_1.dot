@@ -1,0 +1,5 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+Asian_Americans [lexicon_key="Asian_Americans"];
+United_States -> Asian_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

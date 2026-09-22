@@ -1,0 +1,5 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+Gram_flour [lexicon_key="Gram_flour"];
+Bhajji -> Gram_flour [label=ingredient, lexicon_key=ingredient];
+}

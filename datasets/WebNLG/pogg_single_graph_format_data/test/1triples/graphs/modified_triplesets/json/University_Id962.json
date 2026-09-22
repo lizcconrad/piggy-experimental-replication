@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Dijon": {
+            "lexicon_key": "Dijon"
+        },
+        "245.0": {
+            "lexicon_key": "245.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Dijon",
+            "child_node": "245.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Dijon's elevation is 245.0 above the sea level."
+        },
+        "Id2": {
+            "text": "Dijon has an elevation of 245.0 above the sea level."
+        },
+        "Id3": {
+            "text": "Dijon's elevation is 245.0 above sea level."
+        }
+    },
+    "gold_outputs": []
+}

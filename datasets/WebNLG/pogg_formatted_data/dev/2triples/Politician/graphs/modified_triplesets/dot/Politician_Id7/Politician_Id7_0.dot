@@ -1,0 +1,5 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+"Chief_of_the_Defence_Staff_(Nigeria)" [lexicon_key="Chief_of_the_Defence_Staff_(Nigeria)"];
+Abdulsalami_Abubakar -> "Chief_of_the_Defence_Staff_(Nigeria)" [label=office, lexicon_key=office];
+}

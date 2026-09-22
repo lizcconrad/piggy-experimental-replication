@@ -1,0 +1,5 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Turkey [lexicon_key=Turkey];
+Nurhan_Atasoy -> Turkey [label=birthPlace, lexicon_key=birthPlace];
+}

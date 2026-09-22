@@ -1,0 +1,5 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Tennis [lexicon_key=Tennis];
+Acharya_Institute_of_Technology -> Tennis [label=sportsOffered, lexicon_key=sportsOffered];
+}

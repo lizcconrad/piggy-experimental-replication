@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "HBO East, HBO West": {
+            "lexicon_key": "HBO East, HBO West"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "timeshiftChannel",
+            "parent_node": "HBO",
+            "child_node": "HBO East, HBO West",
+            "edge_properties": {
+                "lexicon_key": "timeshiftChannel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "HBO has different timeshift services, for example, HBO East and HBO West."
+        },
+        "Id2": {
+            "text": "HBO East and HBO West are timeshift channels of HBO."
+        },
+        "Id3": {
+            "text": "HBO's timeshift channel is divided into HBO East and HBO West."
+        }
+    },
+    "gold_outputs": []
+}

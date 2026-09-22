@@ -1,0 +1,5 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+General_relativity [lexicon_key="General_relativity"];
+Brandon_Carter -> General_relativity [label=professionalField, lexicon_key=professionalField];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+McVeagh_of_the_South_Seas [lexicon_key="McVeagh_of_the_South_Seas"];
+0004319 [lexicon_key=0004319];
+Cyril_Bruce [lexicon_key="Cyril_Bruce"];
+McVeagh_of_the_South_Seas -> 0004319 [label=imdbId, lexicon_key=imdbId];
+McVeagh_of_the_South_Seas -> Cyril_Bruce [label=director, lexicon_key=director];
+}

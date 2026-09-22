@@ -1,0 +1,5 @@
+strict digraph {
+"Train_(band)" [lexicon_key="Train_(band)"];
+Warner_Music_Group [lexicon_key="Warner_Music_Group"];
+"Train_(band)" -> Warner_Music_Group [label=recordLabel, lexicon_key=recordLabel];
+}

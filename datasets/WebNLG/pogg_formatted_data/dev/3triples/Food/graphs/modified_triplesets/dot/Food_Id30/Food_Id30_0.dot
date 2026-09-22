@@ -1,0 +1,5 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+Karnataka [lexicon_key=Karnataka];
+Bhajji -> Karnataka [label=region, lexicon_key=region];
+}

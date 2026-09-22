@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Bolt_(comicsCharacter)": {
-            "lexicon_key": "Bolt_(comicsCharacter)"
+    "graphs": {
+        "ComicsCharacter_Id8_0": {
+            "nodes": {
+                "Bolt_(comicsCharacter)": {
+                    "lexicon_key": "Bolt_(comicsCharacter)"
+                },
+                "Paris_Cullins": {
+                    "lexicon_key": "Paris_Cullins"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Bolt_(comicsCharacter)",
+                    "child_node": "Paris_Cullins",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An alternative name for the comic character Bolt is Larry Bolatinsky and he was created by Paris Cullins and Dan Mishkin.",
+                "The comic character Bolt, aka Larry Bolatinsky, was created by Paris Cullins and Dan Mishkin."
+            ]
         },
-        "Paris_Cullins": {
-            "lexicon_key": "Paris_Cullins"
+        "ComicsCharacter_Id8_1": {
+            "nodes": {
+                "Bolt_(comicsCharacter)": {
+                    "lexicon_key": "Bolt_(comicsCharacter)"
+                },
+                "\"Larry Bolatinsky\"": {
+                    "lexicon_key": "\"Larry Bolatinsky\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "alternativeName",
+                    "parent_node": "Bolt_(comicsCharacter)",
+                    "child_node": "\"Larry Bolatinsky\"",
+                    "edge_properties": {
+                        "lexicon_key": "alternativeName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An alternative name for the comic character Bolt is Larry Bolatinsky and he was created by Paris Cullins and Dan Mishkin.",
+                "The comic character Bolt, aka Larry Bolatinsky, was created by Paris Cullins and Dan Mishkin."
+            ]
         },
-        "\"Larry Bolatinsky\"": {
-            "lexicon_key": "\"Larry Bolatinsky\""
-        },
-        "Dan_Mishkin": {
-            "lexicon_key": "Dan_Mishkin"
+        "ComicsCharacter_Id8_2": {
+            "nodes": {
+                "Bolt_(comicsCharacter)": {
+                    "lexicon_key": "Bolt_(comicsCharacter)"
+                },
+                "Dan_Mishkin": {
+                    "lexicon_key": "Dan_Mishkin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Bolt_(comicsCharacter)",
+                    "child_node": "Dan_Mishkin",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An alternative name for the comic character Bolt is Larry Bolatinsky and he was created by Paris Cullins and Dan Mishkin.",
+                "The comic character Bolt, aka Larry Bolatinsky, was created by Paris Cullins and Dan Mishkin."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Bolt_(comicsCharacter)",
-            "child_node": "Paris_Cullins",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        },
-        {
-            "edge_name": "alternativeName",
-            "parent_node": "Bolt_(comicsCharacter)",
-            "child_node": "\"Larry Bolatinsky\"",
-            "edge_properties": {
-                "lexicon_key": "alternativeName"
-            }
-        },
-        {
-            "edge_name": "creator",
-            "parent_node": "Bolt_(comicsCharacter)",
-            "child_node": "Dan_Mishkin",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "1920-08-16": {
+            "lexicon_key": "1920-08-16"
+        },
+        "Public_company": {
+            "lexicon_key": "Public_company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Chinabank",
+            "child_node": "1920-08-16",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Chinabank",
+            "child_node": "Public_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Chinabank is a public company that was founded on 1920-08-16."
+        },
+        "Id2": {
+            "text": "Chinabank is a publicly traded company that was founded on the 16th of August, 1920."
+        },
+        "Id3": {
+            "text": "Chinabank is a publicly traded company that was founded on 08-16-1920."
+        }
+    },
+    "gold_outputs": []
+}

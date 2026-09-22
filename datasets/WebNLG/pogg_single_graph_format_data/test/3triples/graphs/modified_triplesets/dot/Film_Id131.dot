@@ -1,0 +1,7 @@
+strict digraph {
+McVeagh_of_the_South_Seas [lexicon_key="McVeagh_of_the_South_Seas"];
+"Harry_Carey_(actor_born_1878)" [lexicon_key="Harry_Carey_(actor_born_1878)"];
+The_Progressive_Motion_Picture_Company [lexicon_key="The_Progressive_Motion_Picture_Company"];
+McVeagh_of_the_South_Seas -> "Harry_Carey_(actor_born_1878)" [label=writer, lexicon_key=writer];
+McVeagh_of_the_South_Seas -> The_Progressive_Motion_Picture_Company [label=producer, lexicon_key=producer];
+}

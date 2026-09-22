@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "1097_Vicia": {
-            "lexicon_key": "1097_Vicia"
-        },
-        "95040.0": {
-            "lexicon_key": "95040.0"
+    "graphs": {
+        "CelestialBody_Id12_0": {
+            "nodes": {
+                "1097_Vicia": {
+                    "lexicon_key": "1097_Vicia"
+                },
+                "95040.0": {
+                    "lexicon_key": "95040.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "rotationPeriod",
+                    "parent_node": "1097_Vicia",
+                    "child_node": "95040.0",
+                    "edge_properties": {
+                        "lexicon_key": "rotationPeriod"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1097 Vicia has a rotation period of 95040.0.",
+                "The rotation period of 1097 Vicia is 95040.",
+                "The rotation period of 1097 Vicia is 95040.0."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "rotationPeriod",
-            "parent_node": "1097_Vicia",
-            "child_node": "95040.0",
-            "edge_properties": {
-                "lexicon_key": "rotationPeriod"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "\"101 Ukrop Way\"": {
+            "lexicon_key": "\"101 Ukrop Way\""
+        },
+        "Virginia": {
+            "lexicon_key": "Virginia"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "address",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "\"101 Ukrop Way\"",
+            "edge_properties": {
+                "lexicon_key": "address"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The College of William and Mary is the owner of the Alan B. Miller Hall, located at 101 Ukrop Way in Virginia."
+        },
+        "Id2": {
+            "text": "Alan B. Miller Hall is on 101 Ukrop way (in Virginia) and owned by the College of William and Mary."
+        },
+        "Id3": {
+            "text": "Alan B. Miller Hall, which is located at 101 Ukrop Way, Virginia, is owned by the College of William and Mary."
+        }
+    },
+    "gold_outputs": []
+}

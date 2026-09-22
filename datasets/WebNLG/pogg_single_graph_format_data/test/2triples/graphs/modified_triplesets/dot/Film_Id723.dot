@@ -1,0 +1,7 @@
+strict digraph {
+Death_on_a_Factory_Farm [lexicon_key="Death_on_a_Factory_Farm"];
+Jamie_Lawrence [lexicon_key="Jamie_Lawrence"];
+"1970-03-08" [lexicon_key="1970-03-08"];
+Death_on_a_Factory_Farm -> Jamie_Lawrence [label=musicComposer, lexicon_key=musicComposer];
+Jamie_Lawrence -> "1970-03-08" [label=birthDate, lexicon_key=birthDate];
+}

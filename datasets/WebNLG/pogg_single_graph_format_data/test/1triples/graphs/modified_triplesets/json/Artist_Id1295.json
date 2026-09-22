@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "115.0": {
+            "lexicon_key": "115.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Karlsruhe",
+            "child_node": "115.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Karlsruhe has an elevation of 115 metres above sea level."
+        },
+        "Id2": {
+            "text": "Karlsruhe is 115 meters above sea level."
+        },
+        "Id3": {
+            "text": "Karlsruhe is 115.0 meters above sea-level."
+        }
+    },
+    "gold_outputs": []
+}

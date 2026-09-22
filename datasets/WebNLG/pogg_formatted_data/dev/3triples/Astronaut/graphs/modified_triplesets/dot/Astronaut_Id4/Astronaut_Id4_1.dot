@@ -1,0 +1,5 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+"\"52.0\"(minutes)" [lexicon_key="\"52.0\"(minutes)"];
+Buzz_Aldrin -> "\"52.0\"(minutes)" [label=timeInSpace, lexicon_key=timeInSpace];
+}

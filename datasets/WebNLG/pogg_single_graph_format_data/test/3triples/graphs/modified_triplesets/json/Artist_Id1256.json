@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "German_Empire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was an Israeli who was born on May 2nd, 1908 in the German Empire."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born in the German Empire on May 2nd, 1908. She is an Israeli national."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was of Israeli nationality and was born in the German Empire on May 2nd, 1908."
+        }
+    },
+    "gold_outputs": []
+}

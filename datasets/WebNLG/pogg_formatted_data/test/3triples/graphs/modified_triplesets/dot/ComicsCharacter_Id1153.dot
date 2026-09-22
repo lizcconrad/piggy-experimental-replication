@@ -1,0 +1,9 @@
+strict digraph {
+BBC [lexicon_key=BBC];
+Broadcasting_House [lexicon_key="Broadcasting_House"];
+Bananaman [lexicon_key=Bananaman];
+"1983-10-03" [lexicon_key="1983-10-03"];
+BBC -> Broadcasting_House [label=city, lexicon_key=city];
+Bananaman -> BBC [label=broadcastedBy, lexicon_key=broadcastedBy];
+Bananaman -> "1983-10-03" [label=firstAired, lexicon_key=firstAired];
+}

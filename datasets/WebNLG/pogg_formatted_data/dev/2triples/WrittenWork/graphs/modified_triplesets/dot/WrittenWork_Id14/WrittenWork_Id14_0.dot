@@ -1,0 +1,5 @@
+strict digraph {
+A_Wizard_of_Mars [lexicon_key="A_Wizard_of_Mars"];
+Hardcover [lexicon_key=Hardcover];
+A_Wizard_of_Mars -> Hardcover [label=mediaType, lexicon_key=mediaType];
+}

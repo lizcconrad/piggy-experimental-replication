@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Squeeze_(The_Velvet_Underground_album)",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Squeeze is an album produced by the Velvet Underground."
+        },
+        "Id2": {
+            "text": "The album Squeeze is produced by the Velvet Underground."
+        }
+    },
+    "gold_outputs": []
+}

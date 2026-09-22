@@ -1,0 +1,5 @@
+strict digraph {
+AMC_Matador [lexicon_key="AMC_Matador"];
+1974 [lexicon_key=1974];
+AMC_Matador -> 1974 [label=modelYears, lexicon_key=modelYears];
+}

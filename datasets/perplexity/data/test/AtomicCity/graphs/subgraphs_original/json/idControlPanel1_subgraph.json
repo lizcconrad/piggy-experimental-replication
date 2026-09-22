@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idControlPanel1": {
-            "lexicon_key": "idControlPanel",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idControlPanel1_subgraph_0": {
+            "nodes": {
+                "idControlPanel1": {
+                    "lexicon_key": "idControlPanel",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

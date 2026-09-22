@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "President": {
+            "lexicon_key": "President"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "India",
+            "child_node": "President",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The leader's title in India is \"President.\""
+        },
+        "Id2": {
+            "text": "The leader of India is given the title of President."
+        },
+        "Id3": {
+            "text": "The leader of India is called the President."
+        }
+    },
+    "gold_outputs": []
+}

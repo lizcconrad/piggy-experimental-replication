@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Michael_R._Burns": {
+            "lexicon_key": "Michael_R._Burns"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Lionsgate",
+            "child_node": "Michael_R._Burns",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Michael R Burns plays an important role for the company Lionsgate."
+        },
+        "Id2": {
+            "text": "Michael R. Burns is a key person at Lionsgate."
+        },
+        "Id3": {
+            "text": "Lionsgate has Michael R Burns as a key person."
+        }
+    },
+    "gold_outputs": []
+}

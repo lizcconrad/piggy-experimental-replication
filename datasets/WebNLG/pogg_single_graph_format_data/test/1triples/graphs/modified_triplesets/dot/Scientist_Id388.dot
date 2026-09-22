@@ -1,0 +1,5 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+"1934-01-01" [lexicon_key="1934-01-01"];
+Nurhan_Atasoy -> "1934-01-01" [label=birthDate, lexicon_key=birthDate];
+}

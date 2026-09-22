@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "Governor": {
+            "lexicon_key": "Governor"
+        },
+        "1703-05-27": {
+            "lexicon_key": "1703-05-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "Governor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1703-05-27",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Founded on My 27th 1703, St Petersburg is led by a Governor. Olga Bondareva was a famous resident. Bondareva died in St Petersburg."
+        },
+        "Id2": {
+            "text": "Saint Petersburg (founded on 1703-05-27) is where Olga Bondareva was a governor and where died."
+        },
+        "Id3": {
+            "text": "Olga Bondareva died in Saint Petersburg, a city founded in May 27, 1703. Its leader is known as a Governor."
+        }
+    },
+    "gold_outputs": []
+}

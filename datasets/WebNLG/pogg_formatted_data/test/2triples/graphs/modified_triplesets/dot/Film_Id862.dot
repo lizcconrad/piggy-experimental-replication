@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Nicholas_Brodszky [lexicon_key="Nicholas_Brodszky"];
+Harold_French [lexicon_key="Harold_French"];
+English_Without_Tears -> Nicholas_Brodszky [label=musicComposer, lexicon_key=musicComposer];
+English_Without_Tears -> Harold_French [label=director, lexicon_key=director];
+}

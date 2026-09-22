@@ -1,0 +1,5 @@
+strict digraph {
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+FIMI [lexicon_key=FIMI];
+"Imagine_(John_Lennon_song)" -> FIMI [label=certification, lexicon_key=certification];
+}

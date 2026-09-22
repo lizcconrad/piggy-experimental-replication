@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Mathematical_optimization": {
+            "lexicon_key": "Mathematical_optimization"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Mathematical_optimization",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva is a mathematician working in the field of mathematical optimization."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva is a professional in the field of mathematical optimization."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva's professional field is Mathematical optimization."
+        }
+    },
+    "gold_outputs": []
+}

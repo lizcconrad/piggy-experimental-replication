@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "Fawkham": {
+            "lexicon_key": "Fawkham"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "MotorSport_Vision",
+            "child_node": "Fawkham",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "MotorSport Vision is located in the city of Fawkham."
+        },
+        "Id2": {
+            "text": "MotorSport Vision is located in the city of Fawkham, UK."
+        },
+        "Id3": {
+            "text": "MotorSport Vision is located in Fawkham."
+        }
+    },
+    "gold_outputs": []
+}

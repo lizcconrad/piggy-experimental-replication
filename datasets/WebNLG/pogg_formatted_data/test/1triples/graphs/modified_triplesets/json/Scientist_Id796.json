@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "1293057000": {
+            "lexicon_key": "1293057000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationTotal",
+            "parent_node": "India",
+            "child_node": "1293057000",
+            "edge_properties": {
+                "lexicon_key": "populationTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "India has reached the total population of 1,293,057,000."
+        },
+        "Id2": {
+            "text": "The total population of India is 1293057000."
+        },
+        "Id3": {
+            "text": "The total population of India is 1,293,057,000."
+        }
+    },
+    "gold_outputs": []
+}

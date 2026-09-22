@@ -1,0 +1,5 @@
+strict digraph {
+Pontiac [lexicon_key=Pontiac];
+"2010-10-31" [lexicon_key="2010-10-31"];
+Pontiac -> "2010-10-31" [label=extinctionDate, lexicon_key=extinctionDate];
+}

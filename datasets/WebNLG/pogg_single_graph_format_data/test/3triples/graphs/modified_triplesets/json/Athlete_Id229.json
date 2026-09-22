@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "175.26": {
+            "lexicon_key": "175.26"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "175.26",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann from Gdynia, Poland weights 70.308 kilograms and is 175.26 cm tall."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann from Gdynia, Poland is 175.26 cm tall and 70.308 kg."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann's birthplace was in Gdynia, Poland he weighs 70.308kg and is 175.26 cm tall."
+        }
+    },
+    "gold_outputs": []
+}

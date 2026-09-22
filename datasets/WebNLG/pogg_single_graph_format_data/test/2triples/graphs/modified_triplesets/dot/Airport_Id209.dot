@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+MotorSport_Vision [lexicon_key="MotorSport_Vision"];
+Peter_Ogden [lexicon_key="Peter_Ogden"];
+Bedford_Aerodrome -> MotorSport_Vision [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+MotorSport_Vision -> Peter_Ogden [label=foundedBy, lexicon_key=foundedBy];
+}

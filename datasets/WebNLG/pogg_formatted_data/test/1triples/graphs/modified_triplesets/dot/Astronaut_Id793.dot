@@ -1,0 +1,5 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+Zaoyang [lexicon_key=Zaoyang];
+Nie_Haisheng -> Zaoyang [label=birthPlace, lexicon_key=birthPlace];
+}

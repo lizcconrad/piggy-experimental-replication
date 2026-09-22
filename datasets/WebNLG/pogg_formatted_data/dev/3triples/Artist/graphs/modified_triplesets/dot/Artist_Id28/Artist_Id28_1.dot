@@ -1,0 +1,5 @@
+strict digraph {
+"Andra_(singer)" [lexicon_key="Andra_(singer)"];
+"Puya_(singer)" [lexicon_key="Puya_(singer)"];
+"Andra_(singer)" -> "Puya_(singer)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

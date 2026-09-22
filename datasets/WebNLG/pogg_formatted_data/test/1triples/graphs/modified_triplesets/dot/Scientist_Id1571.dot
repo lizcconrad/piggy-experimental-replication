@@ -1,0 +1,5 @@
+strict digraph {
+New_Jersey [lexicon_key="New_Jersey"];
+22591.38 [lexicon_key=22591.38];
+New_Jersey -> 22591.38 [label=areaTotal, lexicon_key=areaTotal];
+}

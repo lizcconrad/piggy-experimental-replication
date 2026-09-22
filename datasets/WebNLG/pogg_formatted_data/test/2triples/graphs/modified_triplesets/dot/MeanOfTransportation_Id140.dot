@@ -1,0 +1,7 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+Detroit [lexicon_key=Detroit];
+370.03 [lexicon_key=370.03];
+Pontiac_Rageous -> Detroit [label=assembly, lexicon_key=assembly];
+Detroit -> 370.03 [label=areaTotal, lexicon_key=areaTotal];
+}

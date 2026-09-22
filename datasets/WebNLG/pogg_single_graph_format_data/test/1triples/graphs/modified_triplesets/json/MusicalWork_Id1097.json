@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Pop_music": {
+            "lexicon_key": "Pop_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "Pop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The John Lennon song Imagine is in the genre of pop music."
+        },
+        "Id2": {
+            "text": "John Lennon's \"Imagine\" is a song in the pop genre."
+        },
+        "Id3": {
+            "text": "Imagine is a pop song by John Lennon."
+        }
+    },
+    "gold_outputs": []
+}

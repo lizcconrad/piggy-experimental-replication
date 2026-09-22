@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Hunt [lexicon_key="Aaron_Hunt"];
+Goslarer_SC_08 [lexicon_key="Goslarer_SC_08"];
+Aaron_Hunt -> Goslarer_SC_08 [label=youthclub, lexicon_key=youthclub];
+}

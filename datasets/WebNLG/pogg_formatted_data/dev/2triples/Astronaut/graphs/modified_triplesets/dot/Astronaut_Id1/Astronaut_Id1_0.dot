@@ -1,0 +1,5 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+Apollo_14 [lexicon_key="Apollo_14"];
+Alan_Shepard -> Apollo_14 [label=mission, lexicon_key=mission];
+}

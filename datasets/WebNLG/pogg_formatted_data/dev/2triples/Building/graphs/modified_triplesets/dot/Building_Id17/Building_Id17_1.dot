@@ -1,0 +1,5 @@
+strict digraph {
+Sri_Lanka [lexicon_key="Sri_Lanka"];
+Sri_Jayawardenepura_Kotte [lexicon_key="Sri_Jayawardenepura_Kotte"];
+Sri_Lanka -> Sri_Jayawardenepura_Kotte [label=capital, lexicon_key=capital];
+}

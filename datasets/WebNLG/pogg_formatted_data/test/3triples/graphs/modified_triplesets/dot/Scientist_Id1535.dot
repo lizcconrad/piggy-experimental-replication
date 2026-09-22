@@ -1,0 +1,9 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+"1934-01-01" [lexicon_key="1934-01-01"];
+Istanbul [lexicon_key=Istanbul];
+Turkish_people [lexicon_key="Turkish_people"];
+Nurhan_Atasoy -> "1934-01-01" [label=birthDate, lexicon_key=birthDate];
+Nurhan_Atasoy -> Istanbul [label=residence, lexicon_key=residence];
+Nurhan_Atasoy -> Turkish_people [label=nationality, lexicon_key=nationality];
+}

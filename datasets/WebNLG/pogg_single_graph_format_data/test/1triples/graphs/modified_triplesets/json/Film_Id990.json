@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        },
+        "1920-01-01": {
+            "lexicon_key": "1920-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Harold_French",
+            "child_node": "1920-01-01",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harold French started being an active actor in 1920."
+        },
+        "Id2": {
+            "text": "Harold French has been active as an actor since 1920."
+        },
+        "Id3": {
+            "text": "Harold French started his career as an actor in 1920."
+        }
+    },
+    "gold_outputs": []
+}

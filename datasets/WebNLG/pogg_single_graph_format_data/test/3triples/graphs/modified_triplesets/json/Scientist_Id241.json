@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Federalism": {
+            "lexicon_key": "Federalism"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "governmentType",
+            "parent_node": "United_States",
+            "child_node": "Federalism",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva is a resident of New Jersey, a state in the United States, which uses federalism as its type of governing system."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva resides in New Jersey, a small state in the federalist country of the United States."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva lives in New Jersey which is located in the United States and has a federalist type of government."
+        }
+    },
+    "gold_outputs": []
+}

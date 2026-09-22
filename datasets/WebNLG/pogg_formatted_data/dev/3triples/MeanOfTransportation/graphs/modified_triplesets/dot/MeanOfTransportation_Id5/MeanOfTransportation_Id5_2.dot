@@ -1,0 +1,5 @@
+strict digraph {
+"ALCO_RS-3" [lexicon_key="ALCO_RS-3"];
+"17068.8 (millimetres)" [lexicon_key="17068.8 (millimetres)"];
+"ALCO_RS-3" -> "17068.8 (millimetres)" [label=length, lexicon_key=length];
+}

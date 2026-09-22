@@ -1,0 +1,5 @@
+strict digraph {
+Year_of_No_Light [lexicon_key="Year_of_No_Light"];
+"Monarch_(band)" [lexicon_key="Monarch_(band)"];
+Year_of_No_Light -> "Monarch_(band)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

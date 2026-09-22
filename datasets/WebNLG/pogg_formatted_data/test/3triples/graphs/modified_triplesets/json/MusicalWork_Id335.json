@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Brian_Kelly_(composer_&_pianist)": {
+            "lexicon_key": "Brian_Kelly_(composer_&_pianist)"
+        },
+        "54.56": {
+            "lexicon_key": "54.56"
+        },
+        "Pools_of_Light_(Brian_Kelly_album)": {
+            "lexicon_key": "Pools_of_Light_(Brian_Kelly_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "54.56",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Pools_of_Light_(Brian_Kelly_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "\"Expect a Miracle\", with a total runtime of 54:56, and in which was preceded by the album, \"Pools of Light\", were both productions by the work of Brian Kelly."
+        },
+        "Id2": {
+            "text": "The 54.56 minutes Brian Kelly album Expect a miracle was preceded by the album Pools of Light."
+        },
+        "Id3": {
+            "text": "Expect a Miracle was produced by Brian Kelly and runs for 54:56 minutes. It is preceded by the album Pools of Light, also by Brian Kelly."
+        }
+    },
+    "gold_outputs": []
+}

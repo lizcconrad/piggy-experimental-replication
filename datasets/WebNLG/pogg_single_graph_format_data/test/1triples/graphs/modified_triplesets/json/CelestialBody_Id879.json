@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        },
+        "1886-01-01": {
+            "lexicon_key": "1886-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Grigory_Neujmin",
+            "child_node": "1886-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Grigory Neujmin was born on January 1, 1886."
+        },
+        "Id2": {
+            "text": "Grigory Neujmin birthdate is Jan 1, 1886."
+        },
+        "Id3": {
+            "text": "The birthdate of Grigory Neujmin was 1886-01-01."
+        }
+    },
+    "gold_outputs": []
+}

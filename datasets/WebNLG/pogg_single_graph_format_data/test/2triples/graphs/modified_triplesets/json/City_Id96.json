@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Graco_Ram\u00edrez": {
+            "lexicon_key": "Graco_Ram\u00edrez"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Morelos",
+            "child_node": "Graco_Ram\u00edrez",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Graco Ramirez leads Ciudad Ayala in Morelos."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is part of Morelos and Graco Ram\u00edrez is a leader."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is a part of Morelos, which Graco Ram\u00edrez is a leading official of."
+        }
+    },
+    "gold_outputs": []
+}

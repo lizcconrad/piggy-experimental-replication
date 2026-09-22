@@ -1,0 +1,5 @@
+strict digraph {
+Punk_blues [lexicon_key="Punk_blues"];
+Drum_kit [lexicon_key="Drum_kit"];
+Punk_blues -> Drum_kit [label=instrument, lexicon_key=instrument];
+}

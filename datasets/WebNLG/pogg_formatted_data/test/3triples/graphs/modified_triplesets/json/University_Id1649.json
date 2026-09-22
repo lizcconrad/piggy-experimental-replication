@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "All_India_Council_for_Technical_Education": {
+            "lexicon_key": "All_India_Council_for_Technical_Education"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "wasGivenTheTechnicalCampusStatusBy",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "All_India_Council_for_Technical_Education",
+            "edge_properties": {
+                "lexicon_key": "wasGivenTheTechnicalCampusStatusBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The All India Council for Technical Education was proud to give the Technical Campus status to the Acharya Institute of Technology located in Bangalore. The Institute is affiliated with Visvesvaraya Technological University."
+        },
+        "Id2": {
+            "text": "Acharya Institute of Technology in Bangalore received the Technical Campus status by the All India Council for Technical Education and has an affiliation with Visvesvaraya Technological University."
+        },
+        "Id3": {
+            "text": "The Acharya Institute of Technology, located in Bangalore, is affiliated with the Visvesvaraya Technological University and was given the 'Technical Campus' status by the All India Council for Technical Education."
+        }
+    },
+    "gold_outputs": []
+}

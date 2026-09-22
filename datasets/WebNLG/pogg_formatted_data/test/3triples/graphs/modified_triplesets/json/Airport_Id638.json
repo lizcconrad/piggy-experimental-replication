@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        },
+        "83.2104": {
+            "lexicon_key": "83.2104"
+        },
+        "\"08/26\"": {
+            "lexicon_key": "\"08/26\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "83.2104",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        },
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "\"08/26\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ICAO location identifier for the Bedford Aerodrome is EGBF, and it is 83.2104 meters above sea level and has a runway named 08/26."
+        },
+        "Id2": {
+            "text": "The ICAO location identifier for Bedford Aerodrome is EGBF and it is 83.2 meters above sea level. This aerodrome has a runway named \"08/26\"."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome is elevated 83.2104 above sea level and has a runway called 08/26. Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF."
+        }
+    },
+    "gold_outputs": []
+}

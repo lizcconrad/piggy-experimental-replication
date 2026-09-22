@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Ted_Willis": {
+            "lexicon_key": "Ted_Willis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Ted_Willis",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Writer of the 1956 film It's Great to Be Young is Ted Willis."
+        },
+        "Id2": {
+            "text": "Ted Willis is the writer of the film It's Great to Be Young."
+        },
+        "Id3": {
+            "text": "The writer of \u201cIt\u2019s great to be young\u201d is Ted Willis."
+        }
+    },
+    "gold_outputs": []
+}

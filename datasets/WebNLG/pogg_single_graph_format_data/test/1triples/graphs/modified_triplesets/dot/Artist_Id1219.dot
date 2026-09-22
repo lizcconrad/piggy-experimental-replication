@@ -1,0 +1,5 @@
+strict digraph {
+Karlsruhe [lexicon_key=Karlsruhe];
+173.46 [lexicon_key=173.46];
+Karlsruhe -> 173.46 [label=areaTotal, lexicon_key=areaTotal];
+}

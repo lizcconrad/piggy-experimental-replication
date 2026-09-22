@@ -1,0 +1,5 @@
+strict digraph {
+Synthpop [lexicon_key=Synthpop];
+Disco [lexicon_key=Disco];
+Synthpop -> Disco [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

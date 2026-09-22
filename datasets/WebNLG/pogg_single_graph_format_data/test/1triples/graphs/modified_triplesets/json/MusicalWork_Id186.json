@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Take_It_Off!": {
+            "lexicon_key": "Take_It_Off!"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Take_It_Off!",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Take It Off! is produced by the American band the Honeymoon Killers."
+        },
+        "Id2": {
+            "text": "The producer of Take It Off! is the American band the Honeymoon Killers."
+        },
+        "Id3": {
+            "text": "Take It Off! was produced by the American band, the Honeymoon Killers."
+        }
+    },
+    "gold_outputs": []
+}

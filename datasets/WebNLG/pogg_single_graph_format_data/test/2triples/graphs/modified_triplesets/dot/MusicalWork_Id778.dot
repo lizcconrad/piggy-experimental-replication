@@ -1,0 +1,7 @@
+strict digraph {
+Expect_a_Miracle [lexicon_key="Expect_a_Miracle"];
+Easy_listening [lexicon_key="Easy_listening"];
+"Pools_of_Light_(Brian_Kelly_album)" [lexicon_key="Pools_of_Light_(Brian_Kelly_album)"];
+Expect_a_Miracle -> Easy_listening [label=genre, lexicon_key=genre];
+Expect_a_Miracle -> "Pools_of_Light_(Brian_Kelly_album)" [label=precededBy, lexicon_key=precededBy];
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "1776-02-18": {
+            "lexicon_key": "1776-02-18"
+        },
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "1776-02-18",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson, who was born in the Kingdom of England, lived there, and held British nationality, died on February 18th, 1776."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson was born in the Kingdom of England making her nationality with that Kingdom. She died on February 18, 1776."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson was born in the Kingdom of England and has an English Nationality, she died on 1776-02-18."
+        }
+    },
+    "gold_outputs": []
+}

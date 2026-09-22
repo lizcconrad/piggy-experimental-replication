@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Above_the_Veil": {
-            "lexicon_key": "Above_the_Veil"
+    "graphs": {
+        "WrittenWork_Id19_0": {
+            "nodes": {
+                "Above_the_Veil": {
+                    "lexicon_key": "Above_the_Veil"
+                },
+                "Australians": {
+                    "lexicon_key": "Australians"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Above_the_Veil",
+                    "child_node": "Australians",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Above the Veil is from Australia and was preceded by Aenir and Castle.",
+                "Above the Veil, from Australia, is the sequel to Aenir, which followed the novel Castle.",
+                "Above the Veil, from Australia, is the third book in a series after Aenir and Castle."
+            ]
         },
-        "Australians": {
-            "lexicon_key": "Australians"
+        "WrittenWork_Id19_1": {
+            "nodes": {
+                "Above_the_Veil": {
+                    "lexicon_key": "Above_the_Veil"
+                },
+                "Aenir": {
+                    "lexicon_key": "Aenir"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "precededBy",
+                    "parent_node": "Above_the_Veil",
+                    "child_node": "Aenir",
+                    "edge_properties": {
+                        "lexicon_key": "precededBy"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Above the Veil is from Australia and was preceded by Aenir and Castle.",
+                "Above the Veil, from Australia, is the sequel to Aenir, which followed the novel Castle.",
+                "Above the Veil, from Australia, is the third book in a series after Aenir and Castle."
+            ]
         },
-        "Aenir": {
-            "lexicon_key": "Aenir"
-        },
-        "Castle_(novel)": {
-            "lexicon_key": "Castle_(novel)"
+        "WrittenWork_Id19_2": {
+            "nodes": {
+                "Aenir": {
+                    "lexicon_key": "Aenir"
+                },
+                "Castle_(novel)": {
+                    "lexicon_key": "Castle_(novel)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "precededBy",
+                    "parent_node": "Aenir",
+                    "child_node": "Castle_(novel)",
+                    "edge_properties": {
+                        "lexicon_key": "precededBy"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Above the Veil is from Australia and was preceded by Aenir and Castle.",
+                "Above the Veil, from Australia, is the sequel to Aenir, which followed the novel Castle.",
+                "Above the Veil, from Australia, is the third book in a series after Aenir and Castle."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Above_the_Veil",
-            "child_node": "Australians",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "precededBy",
-            "parent_node": "Above_the_Veil",
-            "child_node": "Aenir",
-            "edge_properties": {
-                "lexicon_key": "precededBy"
-            }
-        },
-        {
-            "edge_name": "precededBy",
-            "parent_node": "Aenir",
-            "child_node": "Castle_(novel)",
-            "edge_properties": {
-                "lexicon_key": "precededBy"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

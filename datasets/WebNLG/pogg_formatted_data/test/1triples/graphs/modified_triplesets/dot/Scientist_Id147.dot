@@ -1,0 +1,5 @@
+strict digraph {
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+Unitary_state [lexicon_key="Unitary_state"];
+Kingdom_of_England -> Unitary_state [label=governmentType, lexicon_key=governmentType];
+}

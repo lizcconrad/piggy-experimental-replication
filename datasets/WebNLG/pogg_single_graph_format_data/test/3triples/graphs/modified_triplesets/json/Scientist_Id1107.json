@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "General_relativity": {
+            "lexicon_key": "General_relativity"
+        },
+        "Carter_constant": {
+            "lexicon_key": "Carter_constant"
+        },
+        "No-hair_theorem": {
+            "lexicon_key": "No-hair_theorem"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Brandon_Carter",
+            "child_node": "General_relativity",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Carter_constant",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "No-hair_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter, known for the Carter constant and No-hair theorem, is a professional in the field of general relativity."
+        },
+        "Id2": {
+            "text": "Brandon Carter is a physicist known for the invention of the Carter constant and for proving the no-hair theorem. His professional field was on General Relativity."
+        }
+    },
+    "gold_outputs": []
+}

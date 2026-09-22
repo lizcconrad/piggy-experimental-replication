@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"": {
+            "lexicon_key": "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\""
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "Karnataka": {
+            "lexicon_key": "Karnataka"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "campus",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"",
+            "edge_properties": {
+                "lexicon_key": "campus"
+            }
+        },
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "state",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Karnataka",
+            "edge_properties": {
+                "lexicon_key": "state"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Acharya Institute of Technology campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090 in the state of Karnataka, and it's affiliated to Visvesvaraya Technological University."
+        },
+        "Id2": {
+            "text": "The Acharya Institute of Technology, which is affiliated with the Visvesvaraya Technological University, is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090 in the state of Karnataka."
+        },
+        "Id3": {
+            "text": "The Acharya Institute of Technology, which is affiliated with Visvesvaraya Technological University, is located in Karnataka at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "12": {
+            "lexicon_key": "12"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cylinderCount",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "12",
+            "edge_properties": {
+                "lexicon_key": "cylinderCount"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 12 cylinder ALCO RS-3 is 17068.8 millimetres long."
+        },
+        "Id2": {
+            "text": "The 17068.8 millimetres long ALCO RS-3 has a cylinder count of 12."
+        }
+    },
+    "gold_outputs": []
+}

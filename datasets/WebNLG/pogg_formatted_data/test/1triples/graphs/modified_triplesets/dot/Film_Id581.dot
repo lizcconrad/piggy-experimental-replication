@@ -1,0 +1,5 @@
+strict digraph {
+McVeagh_of_the_South_Seas [lexicon_key="McVeagh_of_the_South_Seas"];
+0004319 [lexicon_key=0004319];
+McVeagh_of_the_South_Seas -> 0004319 [label=imdbId, lexicon_key=imdbId];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+Mathematical_optimization [lexicon_key="Mathematical_optimization"];
+Stochastic_programming [lexicon_key="Stochastic_programming"];
+Darinka_Dentcheva -> Mathematical_optimization [label=professionalField, lexicon_key=professionalField];
+Darinka_Dentcheva -> Stochastic_programming [label=knownFor, lexicon_key=knownFor];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Asher_and_Mary_Isabelle_Richardson_House [lexicon_key="Asher_and_Mary_Isabelle_Richardson_House"];
+1911 [lexicon_key=1911];
+Asher_and_Mary_Isabelle_Richardson_House -> 1911 [label=yearOfConstruction, lexicon_key=yearOfConstruction];
+}

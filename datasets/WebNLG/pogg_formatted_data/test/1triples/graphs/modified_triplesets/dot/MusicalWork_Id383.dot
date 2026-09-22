@@ -1,0 +1,5 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+"Mermaid_(Train_song)" -> "Imagine_(John_Lennon_song)" [label=followedBy, lexicon_key=followedBy];
+}

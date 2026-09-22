@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+1095.0 [lexicon_key=1095.0];
+EGBF [lexicon_key=EGBF];
+Bedford_Aerodrome -> 1095.0 [label=runwayLength, lexicon_key=runwayLength];
+Bedford_Aerodrome -> EGBF [label=icaoLocationIdentifier, lexicon_key=icaoLocationIdentifier];
+}

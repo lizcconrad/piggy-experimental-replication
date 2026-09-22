@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "Manila": {
+            "lexicon_key": "Manila"
+        },
+        "\"City Council\"": {
+            "lexicon_key": "\"City Council\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Chinabank",
+            "child_node": "Manila",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Manila",
+            "child_node": "\"City Council\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Manila, which is led by City Council, is Chinabank's founding place."
+        },
+        "Id2": {
+            "text": "Chinabank was founded in Manila, which is governed by the City Council."
+        },
+        "Id3": {
+            "text": "Chinabank was founded in Manila, which is ruled by the City Council."
+        }
+    },
+    "gold_outputs": []
+}

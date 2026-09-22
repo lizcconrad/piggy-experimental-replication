@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Bionico": {
-            "lexicon_key": "Bionico"
+    "graphs": {
+        "Food_Id33_0": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Mexico": {
+                    "lexicon_key": "Mexico"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Bionico",
+                    "child_node": "Mexico",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Containing raisins, Bionico is found in the region of Jalisco, in Mexico.",
+                "Raisins are an ingredient of Bionico which is from the region Jalisco, Mexico.",
+                "Raisins are found in bionico which comes from the region of Jalisco in Mexico."
+            ]
         },
-        "Mexico": {
-            "lexicon_key": "Mexico"
+        "Food_Id33_1": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Jalisco": {
+                    "lexicon_key": "Jalisco"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Bionico",
+                    "child_node": "Jalisco",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Containing raisins, Bionico is found in the region of Jalisco, in Mexico.",
+                "Raisins are an ingredient of Bionico which is from the region Jalisco, Mexico.",
+                "Raisins are found in bionico which comes from the region of Jalisco in Mexico."
+            ]
         },
-        "Jalisco": {
-            "lexicon_key": "Jalisco"
-        },
-        "Raisin": {
-            "lexicon_key": "Raisin"
+        "Food_Id33_2": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Raisin": {
+                    "lexicon_key": "Raisin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bionico",
+                    "child_node": "Raisin",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Containing raisins, Bionico is found in the region of Jalisco, in Mexico.",
+                "Raisins are an ingredient of Bionico which is from the region Jalisco, Mexico.",
+                "Raisins are found in bionico which comes from the region of Jalisco in Mexico."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Bionico",
-            "child_node": "Mexico",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "region",
-            "parent_node": "Bionico",
-            "child_node": "Jalisco",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bionico",
-            "child_node": "Raisin",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

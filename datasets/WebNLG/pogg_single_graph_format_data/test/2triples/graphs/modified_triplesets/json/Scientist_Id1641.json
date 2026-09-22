@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "\"Vice President\"": {
+            "lexicon_key": "\"Vice President\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "citizenship",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "citizenship"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "United_States",
+            "child_node": "\"Vice President\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Even though Darinka Dentcheva was never the Vice President, one of the leaders, of the United States, she was in fact a citizen of the United States."
+        },
+        "Id2": {
+            "text": "One of the leaders of the United States, where Darinka Dentcheva is a citizen, is the Vice President."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva is a citizen of the United States, where the Vice President is considered one of its leaders."
+        }
+    },
+    "gold_outputs": []
+}

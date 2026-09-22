@@ -1,0 +1,9 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+Penrose_diagram [lexicon_key="Penrose_diagram"];
+"1942-01-01" [lexicon_key="1942-01-01"];
+University_of_Cambridge [lexicon_key="University_of_Cambridge"];
+Brandon_Carter -> Penrose_diagram [label=knownFor, lexicon_key=knownFor];
+Brandon_Carter -> "1942-01-01" [label=birthDate, lexicon_key=birthDate];
+Brandon_Carter -> University_of_Cambridge [label=almaMater, lexicon_key=almaMater];
+}

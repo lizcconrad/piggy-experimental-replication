@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "Fantasy_(genre)": {
+            "lexicon_key": "Fantasy_(genre)"
+        },
+        "The_Two_Towers": {
+            "lexicon_key": "The_Two_Towers"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "literaryGenre",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "Fantasy_(genre)",
+            "edge_properties": {
+                "lexicon_key": "literaryGenre"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "The_Two_Towers",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Two Towers is the sequel to the fantasy book, The Fellowship of the Ring."
+        },
+        "Id2": {
+            "text": "The Fellowship of the Ring and its follow-up, The Two Towers are both in the fantasy genre."
+        },
+        "Id3": {
+            "text": "The Fellowship of the Ring and the Two Towers belong to the fantasy genre."
+        }
+    },
+    "gold_outputs": []
+}

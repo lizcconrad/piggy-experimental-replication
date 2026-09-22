@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Abradab": {
-            "lexicon_key": "Abradab"
+    "graphs": {
+        "Artist_Id5_0": {
+            "nodes": {
+                "Abradab": {
+                    "lexicon_key": "Abradab"
+                },
+                "Katowice": {
+                    "lexicon_key": "Katowice"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Abradab",
+                    "child_node": "Katowice",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abradab was born in Katowice, Poland.",
+                "Abradab was born is Katowice, Poland.",
+                "The birth place of Abradab is Poland, in Katowice."
+            ]
         },
-        "Katowice": {
-            "lexicon_key": "Katowice"
-        },
-        "Poland": {
-            "lexicon_key": "Poland"
+        "Artist_Id5_1": {
+            "nodes": {
+                "Abradab": {
+                    "lexicon_key": "Abradab"
+                },
+                "Poland": {
+                    "lexicon_key": "Poland"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Abradab",
+                    "child_node": "Poland",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abradab was born in Katowice, Poland.",
+                "Abradab was born is Katowice, Poland.",
+                "The birth place of Abradab is Poland, in Katowice."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Abradab",
-            "child_node": "Katowice",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Abradab",
-            "child_node": "Poland",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,7 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+Shenzhou_6 [lexicon_key="Shenzhou_6"];
+"2005-040A" [lexicon_key="2005-040A"];
+Nie_Haisheng -> Shenzhou_6 [label=mission, lexicon_key=mission];
+Shenzhou_6 -> "2005-040A" [label=cosparId, lexicon_key=cosparId];
+}

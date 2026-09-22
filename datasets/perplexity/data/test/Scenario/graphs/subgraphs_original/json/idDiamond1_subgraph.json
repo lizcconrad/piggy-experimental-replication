@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idDiamond1": {
-            "lexicon_key": "idDiamond",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idDiamond1_subgraph_0": {
+            "nodes": {
+                "idDiamond1": {
+                    "lexicon_key": "idDiamond",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

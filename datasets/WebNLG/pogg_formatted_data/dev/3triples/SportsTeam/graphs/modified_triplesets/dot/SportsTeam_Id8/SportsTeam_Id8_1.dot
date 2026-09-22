@@ -1,0 +1,5 @@
+strict digraph {
+"Stuart_Parker_(footballer)" [lexicon_key="Stuart_Parker_(footballer)"];
+KV_Mechelen [lexicon_key="KV_Mechelen"];
+"Stuart_Parker_(footballer)" -> KV_Mechelen [label=club, lexicon_key=club];
+}

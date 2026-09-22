@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "2009-06-01": {
+            "lexicon_key": "2009-06-01"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "completionDate",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "2009-06-01",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Owned by The College of William and Mary, Alan B. Miller Hall was completed on June 1st, 2009 and hosts tenants including the Mason School of Business."
+        },
+        "Id2": {
+            "text": "The Mason school of business is currently located at Alan B Miller hall which was completed on June 1,2009 and is owned by The College of William and Mary."
+        },
+        "Id3": {
+            "text": "The Mason School of Business is in the Alan B. Miller Hall, which was completed on June 1, 2009 and is owned by The College of William and Mary."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears is written by Anatole de Grunwald."
+        },
+        "Id2": {
+            "text": "The writer of English Without Tears was Anatole de Grunwald."
+        },
+        "Id3": {
+            "text": "\"English Without Tears\" was written by Anatole de Grunwald."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "England": {
+            "lexicon_key": "England"
+        },
+        "Anthropic_principle": {
+            "lexicon_key": "Anthropic_principle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Brandon_Carter",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Anthropic_principle",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter, who is well-known for the Anthropic principle theory, calls England his birthplace."
+        },
+        "Id2": {
+            "text": "Brandon Carter, known for his work on the Anthropic Principle, was born in England."
+        },
+        "Id3": {
+            "text": "Brandon Carter, born in England, became well known for his Anthropic principle theory."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Live_at_Roadburn_2008_(Year_of_No_Light_album)": {
+            "lexicon_key": "Live_at_Roadburn_2008_(Year_of_No_Light_album)"
+        },
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Live_at_Roadburn_2008_(Year_of_No_Light_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Sludge_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nord, an album produced by Year of No Light, is in the sludge metal genre and was followed with the album Live at Roadburn 2008."
+        },
+        "Id2": {
+            "text": "Live at Roadburn 2008 was preceded by Nord, an album produced by Year of No Light, which is in the sludge metal genre."
+        },
+        "Id3": {
+            "text": "Nord, a sludge metal album recorded and produced by Year of No Light, was followed by their album Live at Roadburn 2008."
+        }
+    },
+    "gold_outputs": []
+}

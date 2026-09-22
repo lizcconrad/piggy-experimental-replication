@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "324720797": {
+            "lexicon_key": "324720797"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationTotal",
+            "parent_node": "United_States",
+            "child_node": "324720797",
+            "edge_properties": {
+                "lexicon_key": "populationTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The total population of the United States is over three hundred and twenty four million."
+        },
+        "Id2": {
+            "text": "Total United States population is 324,720,797."
+        },
+        "Id3": {
+            "text": "The total population of the United States is 324720797."
+        }
+    },
+    "gold_outputs": []
+}

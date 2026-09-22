@@ -1,0 +1,9 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Dessert [lexicon_key=Dessert];
+Mexico [lexicon_key=Mexico];
+Silvano_Aureoles_Conejo [lexicon_key="Silvano_Aureoles_Conejo"];
+Bionico -> Dessert [label=course, lexicon_key=course];
+Bionico -> Mexico [label=country, lexicon_key=country];
+Mexico -> Silvano_Aureoles_Conejo [label=leader, lexicon_key=leader];
+}

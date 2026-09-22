@@ -1,0 +1,9 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+Shenzhou_10 [lexicon_key="Shenzhou_10"];
+Shenzhou_6 [lexicon_key="Shenzhou_6"];
+Zaoyang [lexicon_key=Zaoyang];
+Nie_Haisheng -> Shenzhou_10 [label=mission, lexicon_key=mission];
+Nie_Haisheng -> Shenzhou_6 [label=mission, lexicon_key=mission];
+Nie_Haisheng -> Zaoyang [label=birthPlace, lexicon_key=birthPlace];
+}

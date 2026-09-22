@@ -1,0 +1,5 @@
+strict digraph {
+Dessert [lexicon_key=Dessert];
+"Sandesh_(confectionery)" [lexicon_key="Sandesh_(confectionery)"];
+Dessert -> "Sandesh_(confectionery)" [label=dishVariation, lexicon_key=dishVariation];
+}

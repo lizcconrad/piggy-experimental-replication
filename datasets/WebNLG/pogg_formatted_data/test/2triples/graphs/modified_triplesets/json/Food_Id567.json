@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Honey": {
+            "lexicon_key": "Honey"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Bionico",
+            "child_node": "Honey",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Honey can be added to bionico, which is a food found in Mexico."
+        },
+        "Id2": {
+            "text": "Bionico is a Mexico food in which honey is used as a variation."
+        },
+        "Id3": {
+            "text": "Honey can be used as a variation in the dish Bionico found in Mexico."
+        }
+    },
+    "gold_outputs": []
+}

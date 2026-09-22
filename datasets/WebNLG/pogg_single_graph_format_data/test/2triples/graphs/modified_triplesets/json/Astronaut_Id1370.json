@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        },
+        "\"NWC, M.A. 1957\"": {
+            "lexicon_key": "\"NWC, M.A. 1957\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Alan_Shepard",
+            "child_node": "\"NWC, M.A. 1957\"",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard, from New Hampshire, received his M.A. from NWC in 1957."
+        },
+        "Id2": {
+            "text": "Alan Shepard (birth place, New Hampshire),went to school at NWC and graduated with an MA in 1957."
+        },
+        "Id3": {
+            "text": "Born in New Hampshire, Alan Shepard got his M.A. upon graduating from NWC in 1957."
+        }
+    },
+    "gold_outputs": []
+}

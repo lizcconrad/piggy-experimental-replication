@@ -1,0 +1,7 @@
+strict digraph {
+"It's_Great_to_Be_Young_(1956_film)" [lexicon_key="It's_Great_to_Be_Young_(1956_film)"];
+Louis_Levy [lexicon_key="Louis_Levy"];
+England [lexicon_key=England];
+"It's_Great_to_Be_Young_(1956_film)" -> Louis_Levy [label=musicComposer, lexicon_key=musicComposer];
+Louis_Levy -> England [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Alison_O'Donnell": {
-            "lexicon_key": "Alison_O'Donnell"
+    "graphs": {
+        "Artist_Id24_0": {
+            "nodes": {
+                "Alison_O'Donnell": {
+                    "lexicon_key": "Alison_O'Donnell"
+                },
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Alison_O'Donnell",
+                    "child_node": "Jazz",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Funk is a derivative of Jazz, the music Alison O'Donnell performs. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+                "Funk is a derivative of Jazz, the music Alison O'Donnell plays. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+                "Jazz musician Alison O'Donnell is signed with Static Caravan Recordings. Jazz is the origin of Funk."
+            ]
         },
-        "Jazz": {
-            "lexicon_key": "Jazz"
+        "Artist_Id24_1": {
+            "nodes": {
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                },
+                "Funk": {
+                    "lexicon_key": "Funk"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "derivative",
+                    "parent_node": "Jazz",
+                    "child_node": "Funk",
+                    "edge_properties": {
+                        "lexicon_key": "derivative"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Funk is a derivative of Jazz, the music Alison O'Donnell performs. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+                "Funk is a derivative of Jazz, the music Alison O'Donnell plays. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+                "Jazz musician Alison O'Donnell is signed with Static Caravan Recordings. Jazz is the origin of Funk."
+            ]
         },
-        "Funk": {
-            "lexicon_key": "Funk"
-        },
-        "Static_Caravan_Recordings": {
-            "lexicon_key": "Static_Caravan_Recordings"
+        "Artist_Id24_2": {
+            "nodes": {
+                "Alison_O'Donnell": {
+                    "lexicon_key": "Alison_O'Donnell"
+                },
+                "Static_Caravan_Recordings": {
+                    "lexicon_key": "Static_Caravan_Recordings"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "recordLabel",
+                    "parent_node": "Alison_O'Donnell",
+                    "child_node": "Static_Caravan_Recordings",
+                    "edge_properties": {
+                        "lexicon_key": "recordLabel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Funk is a derivative of Jazz, the music Alison O'Donnell performs. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+                "Funk is a derivative of Jazz, the music Alison O'Donnell plays. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+                "Jazz musician Alison O'Donnell is signed with Static Caravan Recordings. Jazz is the origin of Funk."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Alison_O'Donnell",
-            "child_node": "Jazz",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "derivative",
-            "parent_node": "Jazz",
-            "child_node": "Funk",
-            "edge_properties": {
-                "lexicon_key": "derivative"
-            }
-        },
-        {
-            "edge_name": "recordLabel",
-            "parent_node": "Alison_O'Donnell",
-            "child_node": "Static_Caravan_Recordings",
-            "edge_properties": {
-                "lexicon_key": "recordLabel"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

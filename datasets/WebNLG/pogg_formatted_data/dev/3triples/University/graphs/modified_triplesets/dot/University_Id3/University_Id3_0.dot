@@ -1,0 +1,5 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"B.M. Reddy" [lexicon_key="B.M. Reddy"];
+Acharya_Institute_of_Technology -> "B.M. Reddy" [label=president, lexicon_key=president];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "Montreal_Locomotive_Works": {
+            "lexicon_key": "Montreal_Locomotive_Works"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Montreal_Locomotive_Works",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ALCO RS-3, which was 17068.8 millimetres long, was made between May 1950 and August 1956 by the Montreal Locomotive Works."
+        },
+        "Id2": {
+            "text": "Montreal Locomotive Works is the builder of the ALCO RS-3, which was produced between May 1950 and August 1956. Its length is 17068.8 millimetres."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3, which is 17068.8 long, was made between May 1950 and August 1956 by Montreal Locomotive Works."
+        }
+    },
+    "gold_outputs": []
+}

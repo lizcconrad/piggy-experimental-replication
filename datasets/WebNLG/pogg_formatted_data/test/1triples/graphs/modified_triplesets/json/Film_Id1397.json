@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Jon_Feltheimer": {
+            "lexicon_key": "Jon_Feltheimer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Lionsgate",
+            "child_node": "Jon_Feltheimer",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One key person of Lionsgate is Jon Feltheimer."
+        },
+        "Id2": {
+            "text": "One of the key people in Lionsgate is Jon Feltheimer."
+        },
+        "Id3": {
+            "text": "Lionsgate is a company with Jon Feltheimer as a key person."
+        }
+    },
+    "gold_outputs": []
+}

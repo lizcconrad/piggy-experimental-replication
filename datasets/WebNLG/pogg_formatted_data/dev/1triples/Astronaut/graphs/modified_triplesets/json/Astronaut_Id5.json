@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Apollo_8": {
-            "lexicon_key": "Apollo_8"
-        },
-        "NASA": {
-            "lexicon_key": "NASA"
+    "graphs": {
+        "Astronaut_Id5_0": {
+            "nodes": {
+                "Apollo_8": {
+                    "lexicon_key": "Apollo_8"
+                },
+                "NASA": {
+                    "lexicon_key": "NASA"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "operator",
+                    "parent_node": "Apollo_8",
+                    "child_node": "NASA",
+                    "edge_properties": {
+                        "lexicon_key": "operator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Apollo 8 is operated by Nasa.",
+                "Apollo 8 was operated by NASA.",
+                "The Apollo 8 operator is NASA."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "operator",
-            "parent_node": "Apollo_8",
-            "child_node": "NASA",
-            "edge_properties": {
-                "lexicon_key": "operator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

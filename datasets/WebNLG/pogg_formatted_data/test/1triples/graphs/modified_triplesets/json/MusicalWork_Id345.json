@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "Theatre_of_Eternal_Music": {
+            "lexicon_key": "Theatre_of_Eternal_Music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "The_Velvet_Underground",
+            "child_node": "Theatre_of_Eternal_Music",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Velvet Underground band drew occasional musical artists from an associated group called Theater of Eternal Music."
+        },
+        "Id2": {
+            "text": "The Velvet Underground is in association with the group Theatre of Eternal Music."
+        },
+        "Id3": {
+            "text": "The Velvet Underground is associated with the band Theatre of Eternal Music."
+        }
+    },
+    "gold_outputs": []
+}

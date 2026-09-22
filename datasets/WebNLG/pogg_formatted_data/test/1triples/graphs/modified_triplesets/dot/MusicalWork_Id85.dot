@@ -1,0 +1,5 @@
+strict digraph {
+Expect_a_Miracle [lexicon_key="Expect_a_Miracle"];
+Easy_listening [lexicon_key="Easy_listening"];
+Expect_a_Miracle -> Easy_listening [label=genre, lexicon_key=genre];
+}

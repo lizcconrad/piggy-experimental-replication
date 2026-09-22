@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Aaron_Hunt": {
-            "lexicon_key": "Aaron_Hunt"
+    "graphs": {
+        "Athlete_Id3_0": {
+            "nodes": {
+                "Aaron_Hunt": {
+                    "lexicon_key": "Aaron_Hunt"
+                },
+                "VfL_Wolfsburg": {
+                    "lexicon_key": "VfL_Wolfsburg"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Aaron_Hunt",
+                    "child_node": "VfL_Wolfsburg",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Hunt plays for Vfl Wolfsburg and SV Werder Bremen. He was a member of the Goslarer SC 08 youth team.",
+                "Aaron Hunt represented the club Goslarer SC 08 at youth level and has since played for both SV Werder Bremen and Vfl Wolfsburg.",
+                "Aaron Hunt's club is VfL Wolfsburg but he previously played for both SV Werder Bremen and Goslarer SC 08 youth team."
+            ]
         },
-        "VfL_Wolfsburg": {
-            "lexicon_key": "VfL_Wolfsburg"
+        "Athlete_Id3_1": {
+            "nodes": {
+                "Aaron_Hunt": {
+                    "lexicon_key": "Aaron_Hunt"
+                },
+                "Goslarer_SC_08": {
+                    "lexicon_key": "Goslarer_SC_08"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "youthclub",
+                    "parent_node": "Aaron_Hunt",
+                    "child_node": "Goslarer_SC_08",
+                    "edge_properties": {
+                        "lexicon_key": "youthclub"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Hunt plays for Vfl Wolfsburg and SV Werder Bremen. He was a member of the Goslarer SC 08 youth team.",
+                "Aaron Hunt represented the club Goslarer SC 08 at youth level and has since played for both SV Werder Bremen and Vfl Wolfsburg.",
+                "Aaron Hunt's club is VfL Wolfsburg but he previously played for both SV Werder Bremen and Goslarer SC 08 youth team."
+            ]
         },
-        "Goslarer_SC_08": {
-            "lexicon_key": "Goslarer_SC_08"
-        },
-        "SV_Werder_Bremen": {
-            "lexicon_key": "SV_Werder_Bremen"
+        "Athlete_Id3_2": {
+            "nodes": {
+                "Aaron_Hunt": {
+                    "lexicon_key": "Aaron_Hunt"
+                },
+                "SV_Werder_Bremen": {
+                    "lexicon_key": "SV_Werder_Bremen"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Aaron_Hunt",
+                    "child_node": "SV_Werder_Bremen",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Hunt plays for Vfl Wolfsburg and SV Werder Bremen. He was a member of the Goslarer SC 08 youth team.",
+                "Aaron Hunt represented the club Goslarer SC 08 at youth level and has since played for both SV Werder Bremen and Vfl Wolfsburg.",
+                "Aaron Hunt's club is VfL Wolfsburg but he previously played for both SV Werder Bremen and Goslarer SC 08 youth team."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "club",
-            "parent_node": "Aaron_Hunt",
-            "child_node": "VfL_Wolfsburg",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        },
-        {
-            "edge_name": "youthclub",
-            "parent_node": "Aaron_Hunt",
-            "child_node": "Goslarer_SC_08",
-            "edge_properties": {
-                "lexicon_key": "youthclub"
-            }
-        },
-        {
-            "edge_name": "club",
-            "parent_node": "Aaron_Hunt",
-            "child_node": "SV_Werder_Bremen",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

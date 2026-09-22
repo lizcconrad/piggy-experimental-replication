@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Abdulsalami_Abubakar": {
-            "lexicon_key": "Abdulsalami_Abubakar"
+    "graphs": {
+        "Politician_Id6_0": {
+            "nodes": {
+                "Abdulsalami_Abubakar": {
+                    "lexicon_key": "Abdulsalami_Abubakar"
+                },
+                "Chief_of_the_Defence_Staff_(Nigeria)": {
+                    "lexicon_key": "Chief_of_the_Defence_Staff_(Nigeria)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "office",
+                    "parent_node": "Abdulsalami_Abubakar",
+                    "child_node": "Chief_of_the_Defence_Staff_(Nigeria)",
+                    "edge_properties": {
+                        "lexicon_key": "office"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abdulsalami Abubakar who was born in Minna, was the Chief of the Defence Staff in Nigeria.",
+                "Abdulsalami Abubakar, born in Minna, was the Nigerian Chief of Defense Staff.",
+                "Minna was the birthplace of Abdulsalami Abubakar, who worked as the Nigerian Chief of the Defence Staff."
+            ]
         },
-        "Chief_of_the_Defence_Staff_(Nigeria)": {
-            "lexicon_key": "Chief_of_the_Defence_Staff_(Nigeria)"
-        },
-        "Minna": {
-            "lexicon_key": "Minna"
+        "Politician_Id6_1": {
+            "nodes": {
+                "Abdulsalami_Abubakar": {
+                    "lexicon_key": "Abdulsalami_Abubakar"
+                },
+                "Minna": {
+                    "lexicon_key": "Minna"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Abdulsalami_Abubakar",
+                    "child_node": "Minna",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abdulsalami Abubakar who was born in Minna, was the Chief of the Defence Staff in Nigeria.",
+                "Abdulsalami Abubakar, born in Minna, was the Nigerian Chief of Defense Staff.",
+                "Minna was the birthplace of Abdulsalami Abubakar, who worked as the Nigerian Chief of the Defence Staff."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "office",
-            "parent_node": "Abdulsalami_Abubakar",
-            "child_node": "Chief_of_the_Defence_Staff_(Nigeria)",
-            "edge_properties": {
-                "lexicon_key": "office"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Abdulsalami_Abubakar",
-            "child_node": "Minna",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

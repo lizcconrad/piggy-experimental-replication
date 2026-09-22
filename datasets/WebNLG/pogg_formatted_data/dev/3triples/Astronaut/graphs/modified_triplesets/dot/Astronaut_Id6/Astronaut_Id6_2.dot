@@ -1,0 +1,5 @@
+strict digraph {
+Elliot_See [lexicon_key="Elliot_See"];
+1962 [lexicon_key=1962];
+Elliot_See -> 1962 [label=selectedByNasa, lexicon_key=selectedByNasa];
+}

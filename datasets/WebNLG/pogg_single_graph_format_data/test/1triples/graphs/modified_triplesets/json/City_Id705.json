@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "4879.0": {
+            "lexicon_key": "4879.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Morelos",
+            "child_node": "4879.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Morelos total area is 4879 km\u00b2."
+        },
+        "Id2": {
+            "text": "Morelos has a total area of 4879."
+        },
+        "Id3": {
+            "text": "The total area of Morelos is 4879."
+        }
+    },
+    "gold_outputs": []
+}

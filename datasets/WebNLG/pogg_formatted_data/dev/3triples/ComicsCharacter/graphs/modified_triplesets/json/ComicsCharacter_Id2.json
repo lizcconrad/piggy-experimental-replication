@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "BBC": {
-            "lexicon_key": "BBC"
+    "graphs": {
+        "ComicsCharacter_Id2_0": {
+            "nodes": {
+                "BBC": {
+                    "lexicon_key": "BBC"
+                },
+                "Tony_Hall,_Baron_Hall_of_Birkenhead": {
+                    "lexicon_key": "Tony_Hall,_Baron_Hall_of_Birkenhead"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "keyPerson",
+                    "parent_node": "BBC",
+                    "child_node": "Tony_Hall,_Baron_Hall_of_Birkenhead",
+                    "edge_properties": {
+                        "lexicon_key": "keyPerson"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A key person at the BBC, which is located in London and broadcast Bananaman, is Baron Hall of Birkenhead, Tony Hall.",
+                "Tony Hall, Baron Hall of Birkenhead, is a key person at the BBC which is located in London and broadcast Bananaman."
+            ]
         },
-        "Tony_Hall,_Baron_Hall_of_Birkenhead": {
-            "lexicon_key": "Tony_Hall,_Baron_Hall_of_Birkenhead"
+        "ComicsCharacter_Id2_1": {
+            "nodes": {
+                "Bananaman": {
+                    "lexicon_key": "Bananaman"
+                },
+                "BBC": {
+                    "lexicon_key": "BBC"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "broadcastedBy",
+                    "parent_node": "Bananaman",
+                    "child_node": "BBC",
+                    "edge_properties": {
+                        "lexicon_key": "broadcastedBy"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A key person at the BBC, which is located in London and broadcast Bananaman, is Baron Hall of Birkenhead, Tony Hall.",
+                "Tony Hall, Baron Hall of Birkenhead, is a key person at the BBC which is located in London and broadcast Bananaman."
+            ]
         },
-        "Bananaman": {
-            "lexicon_key": "Bananaman"
-        },
-        "London": {
-            "lexicon_key": "London"
+        "ComicsCharacter_Id2_2": {
+            "nodes": {
+                "BBC": {
+                    "lexicon_key": "BBC"
+                },
+                "London": {
+                    "lexicon_key": "London"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "city",
+                    "parent_node": "BBC",
+                    "child_node": "London",
+                    "edge_properties": {
+                        "lexicon_key": "city"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A key person at the BBC, which is located in London and broadcast Bananaman, is Baron Hall of Birkenhead, Tony Hall.",
+                "Tony Hall, Baron Hall of Birkenhead, is a key person at the BBC which is located in London and broadcast Bananaman."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "keyPerson",
-            "parent_node": "BBC",
-            "child_node": "Tony_Hall,_Baron_Hall_of_Birkenhead",
-            "edge_properties": {
-                "lexicon_key": "keyPerson"
-            }
-        },
-        {
-            "edge_name": "broadcastedBy",
-            "parent_node": "Bananaman",
-            "child_node": "BBC",
-            "edge_properties": {
-                "lexicon_key": "broadcastedBy"
-            }
-        },
-        {
-            "edge_name": "city",
-            "parent_node": "BBC",
-            "child_node": "London",
-            "edge_properties": {
-                "lexicon_key": "city"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

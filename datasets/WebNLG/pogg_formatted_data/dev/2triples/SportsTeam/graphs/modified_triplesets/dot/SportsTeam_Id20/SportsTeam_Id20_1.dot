@@ -1,0 +1,5 @@
+strict digraph {
+"Agremiação_Sportiva_Arapiraquense" [lexicon_key="Agremiação_Sportiva_Arapiraquense"];
+"Agremiação Sportiva Arapiraquense" [lexicon_key="Agremiação Sportiva Arapiraquense"];
+"Agremiação_Sportiva_Arapiraquense" -> "Agremiação Sportiva Arapiraquense" [label=fullName, lexicon_key=fullName];
+}

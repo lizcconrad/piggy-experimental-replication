@@ -1,0 +1,5 @@
+strict digraph {
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+"Fantasy_(genre)" [lexicon_key="Fantasy_(genre)"];
+The_Fellowship_of_the_Ring -> "Fantasy_(genre)" [label=literaryGenre, lexicon_key=literaryGenre];
+}

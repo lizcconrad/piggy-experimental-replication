@@ -1,0 +1,7 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+Casey_Ribicoff [lexicon_key="Casey_Ribicoff"];
+American [lexicon_key=American];
+"Abraham_A._Ribicoff" -> Casey_Ribicoff [label=spouse, lexicon_key=spouse];
+"Abraham_A._Ribicoff" -> American [label=nationality, lexicon_key=nationality];
+}

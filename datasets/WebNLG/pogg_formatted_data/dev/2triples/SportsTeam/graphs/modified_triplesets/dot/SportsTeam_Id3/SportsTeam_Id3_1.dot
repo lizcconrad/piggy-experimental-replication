@@ -1,0 +1,5 @@
+strict digraph {
+Italy [lexicon_key=Italy];
+Pietro_Grasso [lexicon_key="Pietro_Grasso"];
+Italy -> Pietro_Grasso [label=leader, lexicon_key=leader];
+}

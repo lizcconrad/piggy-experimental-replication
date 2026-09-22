@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "Williamsburg,_Virginia": {
+            "lexicon_key": "Williamsburg,_Virginia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Williamsburg,_Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Mason School of Business are the current tenants of Alan B Miller Hall in Williamsburg, Virginia."
+        },
+        "Id2": {
+            "text": "The Mason School of Business are the current tenants of Alan B Miller Hall, located in Williamsburg, Virginia."
+        }
+    },
+    "gold_outputs": []
+}

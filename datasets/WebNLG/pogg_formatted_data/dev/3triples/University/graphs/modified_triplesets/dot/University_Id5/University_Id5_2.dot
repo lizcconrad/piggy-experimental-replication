@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+Ganges [lexicon_key=Ganges];
+India -> Ganges [label=river, lexicon_key=river];
+}

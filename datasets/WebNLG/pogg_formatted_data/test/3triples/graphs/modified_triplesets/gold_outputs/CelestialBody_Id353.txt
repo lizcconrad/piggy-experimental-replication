@@ -1,0 +1,3 @@
+1147 Stavropolis has an epoch of 31 July 2016 (JD2457600.5), a periapsis of 260855000000.0, and an orbital period of 1249.6.
+1147 Stavropolis's epoch was on July 31, 2016 and has a periapsis of 260855000000.0 and an orbital period of 1249.6 days.
+1147 Stavropolis, which had its epoch on July 31, 2016, has a periapsis of 260855000000 and an orbital period of 1249.6 days.

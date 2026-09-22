@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "Detroit": {
+            "lexicon_key": "Detroit"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Detroit",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous assembly line is in Detroit."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous was assembled in Detroit."
+        }
+    },
+    "gold_outputs": []
+}

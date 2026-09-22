@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "Michigan": {
+            "lexicon_key": "Michigan"
+        },
+        "Coupe": {
+            "lexicon_key": "Coupe"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Michigan",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "bodyStyle",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Coupe",
+            "edge_properties": {
+                "lexicon_key": "bodyStyle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The coupe style Pontiac Rageous is assembled in Michigan."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous coupe was assembled in Michigan."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous, a coupe, was assembled in Michigan."
+        }
+    },
+    "gold_outputs": []
+}

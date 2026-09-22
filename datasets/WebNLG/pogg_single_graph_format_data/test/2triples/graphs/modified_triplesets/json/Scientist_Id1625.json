@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "1934-01-01": {
+            "lexicon_key": "1934-01-01"
+        },
+        "Turkish_people": {
+            "lexicon_key": "Turkish_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "1934-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkish_people",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy, born January 1st, 1934, was of Turkish nationality."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy, who is of Turkish nationality, was born on the date 1934.01-01."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy, who was born on 1 January 1934, has a Turkish nationality."
+        }
+    },
+    "gold_outputs": []
+}

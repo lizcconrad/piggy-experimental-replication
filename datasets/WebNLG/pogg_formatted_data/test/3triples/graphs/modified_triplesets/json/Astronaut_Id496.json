@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Hubei": {
+            "lexicon_key": "Hubei"
+        },
+        "People's_Republic_of_China": {
+            "lexicon_key": "People's_Republic_of_China"
+        },
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Hubei",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "People's_Republic_of_China",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Zaoyang",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng is from the People's Republic of China, he was born in Zaoyang, Hubei."
+        },
+        "Id2": {
+            "text": "Nie Haisheng was born in Zaoyang Hubei Province and he is a citizen of the People\u2019s Republic of China."
+        },
+        "Id3": {
+            "text": "Nie Haisheng is from the People's Republic of China, whose birthplace is Hubei and was born in Zaoyang."
+        }
+    },
+    "gold_outputs": []
+}

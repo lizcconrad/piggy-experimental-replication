@@ -1,0 +1,9 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Dessert [lexicon_key=Dessert];
+"Sandesh_(confectionery)" [lexicon_key="Sandesh_(confectionery)"];
+Mexico [lexicon_key=Mexico];
+Bionico -> Dessert [label=course, lexicon_key=course];
+Bionico -> Mexico [label=country, lexicon_key=country];
+Dessert -> "Sandesh_(confectionery)" [label=dishVariation, lexicon_key=dishVariation];
+}

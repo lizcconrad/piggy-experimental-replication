@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        },
+        "Post-hardcore": {
+            "lexicon_key": "Post-hardcore"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "derivative",
+            "parent_node": "Noise_rock",
+            "child_node": "Post-hardcore",
+            "edge_properties": {
+                "lexicon_key": "derivative"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Post-hardcore is a derivative of noise rock."
+        },
+        "Id2": {
+            "text": "Post-hardcore music is a derivative of noise rock."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "John_N._Dempsey": {
+            "lexicon_key": "John_N._Dempsey"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "John_N._Dempsey",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Abraham Ribicoff was born in the USA. He was married to Casey Ribicoff and was succeeded by John N. Dempsey."
+        },
+        "Id2": {
+            "text": "Abraham A. Ribicoff was born in the USA and was married to Casey Ribicoff. He was succeeded by John N. Dempsey."
+        },
+        "Id3": {
+            "text": "The United States was the birthplace of Abraham A. Ribicoff. He was married to Casey Ribicoff and he preceded John N. Dempsey."
+        }
+    },
+    "gold_outputs": []
+}

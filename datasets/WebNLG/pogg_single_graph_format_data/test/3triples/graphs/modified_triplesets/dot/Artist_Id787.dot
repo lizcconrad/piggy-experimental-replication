@@ -1,0 +1,9 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Israel [lexicon_key=Israel];
+School_of_Applied_Arts_in_Stuttgart [lexicon_key="School_of_Applied_Arts_in_Stuttgart"];
+"1994-06-14" [lexicon_key="1994-06-14"];
+Liselotte_Grschebina -> Israel [label=nationality, lexicon_key=nationality];
+Liselotte_Grschebina -> School_of_Applied_Arts_in_Stuttgart [label=training, lexicon_key=training];
+Liselotte_Grschebina -> "1994-06-14" [label=deathDate, lexicon_key=deathDate];
+}

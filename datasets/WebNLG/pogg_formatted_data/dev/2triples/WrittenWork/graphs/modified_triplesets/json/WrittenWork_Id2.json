@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "1634:_The_Ram_Rebellion": {
-            "lexicon_key": "1634:_The_Ram_Rebellion"
+    "graphs": {
+        "WrittenWork_Id2_0": {
+            "nodes": {
+                "1634:_The_Ram_Rebellion": {
+                    "lexicon_key": "1634:_The_Ram_Rebellion"
+                },
+                "Eric_Flint": {
+                    "lexicon_key": "Eric_Flint"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "author",
+                    "parent_node": "1634:_The_Ram_Rebellion",
+                    "child_node": "Eric_Flint",
+                    "edge_properties": {
+                        "lexicon_key": "author"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1634: The Ram Rebellion available as an E-Book is written by Eric Flint.",
+                "Eric Flint is the author of '1634: The Ram Rebellion' which can be found as an E book."
+            ]
         },
-        "Eric_Flint": {
-            "lexicon_key": "Eric_Flint"
-        },
-        "E-book": {
-            "lexicon_key": "E-book"
+        "WrittenWork_Id2_1": {
+            "nodes": {
+                "1634:_The_Ram_Rebellion": {
+                    "lexicon_key": "1634:_The_Ram_Rebellion"
+                },
+                "E-book": {
+                    "lexicon_key": "E-book"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mediaType",
+                    "parent_node": "1634:_The_Ram_Rebellion",
+                    "child_node": "E-book",
+                    "edge_properties": {
+                        "lexicon_key": "mediaType"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1634: The Ram Rebellion available as an E-Book is written by Eric Flint.",
+                "Eric Flint is the author of '1634: The Ram Rebellion' which can be found as an E book."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "author",
-            "parent_node": "1634:_The_Ram_Rebellion",
-            "child_node": "Eric_Flint",
-            "edge_properties": {
-                "lexicon_key": "author"
-            }
-        },
-        {
-            "edge_name": "mediaType",
-            "parent_node": "1634:_The_Ram_Rebellion",
-            "child_node": "E-book",
-            "edge_properties": {
-                "lexicon_key": "mediaType"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

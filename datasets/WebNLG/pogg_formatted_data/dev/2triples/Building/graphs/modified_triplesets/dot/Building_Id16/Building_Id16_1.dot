@@ -1,0 +1,5 @@
+strict digraph {
+Ampara_Hospital [lexicon_key="Ampara_Hospital"];
+Ampara_District [lexicon_key="Ampara_District"];
+Ampara_Hospital -> Ampara_District [label=region, lexicon_key=region];
+}

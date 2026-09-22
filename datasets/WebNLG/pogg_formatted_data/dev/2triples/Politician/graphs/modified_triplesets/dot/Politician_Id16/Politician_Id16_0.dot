@@ -1,0 +1,5 @@
+strict digraph {
+Adonis_Georgiadis [lexicon_key="Adonis_Georgiadis"];
+Greece [lexicon_key=Greece];
+Adonis_Georgiadis -> Greece [label=birthPlace, lexicon_key=birthPlace];
+}

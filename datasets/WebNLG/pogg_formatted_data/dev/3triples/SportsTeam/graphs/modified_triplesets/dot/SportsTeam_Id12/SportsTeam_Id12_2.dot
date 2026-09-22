@@ -1,0 +1,5 @@
+strict digraph {
+"AEK_Athens_F.C." [lexicon_key="AEK_Athens_F.C."];
+69618 [lexicon_key=69618];
+"AEK_Athens_F.C." -> 69618 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

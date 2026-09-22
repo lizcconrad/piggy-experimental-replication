@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "31 July 2016 (JD2457600.5)": {
+            "lexicon_key": "31 July 2016 (JD2457600.5)"
+        },
+        "260855000000.0": {
+            "lexicon_key": "260855000000.0"
+        },
+        "1249.6": {
+            "lexicon_key": "1249.6"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "31 July 2016 (JD2457600.5)",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "260855000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1249.6",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis has an epoch of 31 July 2016 (JD2457600.5), a periapsis of 260855000000.0, and an orbital period of 1249.6."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis's epoch was on July 31, 2016 and has a periapsis of 260855000000.0 and an orbital period of 1249.6 days."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis, which had its epoch on July 31, 2016, has a periapsis of 260855000000 and an orbital period of 1249.6 days."
+        }
+    },
+    "gold_outputs": []
+}

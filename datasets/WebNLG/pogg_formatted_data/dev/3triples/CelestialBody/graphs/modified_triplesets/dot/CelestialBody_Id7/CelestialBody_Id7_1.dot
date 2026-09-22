@@ -1,0 +1,5 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"170.0 (kelvins)" [lexicon_key="170.0 (kelvins)"];
+"103_Hera" -> "170.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+}

@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Adam_Maher": {
-            "lexicon_key": "Adam_Maher"
-        },
-        "\"Ait Ikkou, Morocco\"": {
-            "lexicon_key": "\"Ait Ikkou, Morocco\""
+    "graphs": {
+        "Athlete_Id6_0": {
+            "nodes": {
+                "Adam_Maher": {
+                    "lexicon_key": "Adam_Maher"
+                },
+                "\"Ait Ikkou, Morocco\"": {
+                    "lexicon_key": "\"Ait Ikkou, Morocco\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Adam_Maher",
+                    "child_node": "\"Ait Ikkou, Morocco\"",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Maher was born in Ait Ikkou, Morocco.",
+                "Ait Ikkou, Morocco is the birth place of Adam Maher."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Adam_Maher",
-            "child_node": "\"Ait Ikkou, Morocco\"",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

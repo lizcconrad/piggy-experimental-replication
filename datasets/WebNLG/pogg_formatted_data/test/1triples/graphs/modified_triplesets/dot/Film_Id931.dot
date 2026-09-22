@@ -1,0 +1,5 @@
+strict digraph {
+McVeagh_of_the_South_Seas [lexicon_key="McVeagh_of_the_South_Seas"];
+Alliance_Films_Corporation [lexicon_key="Alliance_Films_Corporation"];
+McVeagh_of_the_South_Seas -> Alliance_Films_Corporation [label=distributor, lexicon_key=distributor];
+}

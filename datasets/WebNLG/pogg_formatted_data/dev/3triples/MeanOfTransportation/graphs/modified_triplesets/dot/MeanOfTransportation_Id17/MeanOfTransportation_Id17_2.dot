@@ -1,0 +1,5 @@
+strict digraph {
+"ARA_Veinticinco_de_Mayo_(V-2)" [lexicon_key="ARA_Veinticinco_de_Mayo_(V-2)"];
+Argentina [lexicon_key=Argentina];
+"ARA_Veinticinco_de_Mayo_(V-2)" -> Argentina [label=country, lexicon_key=country];
+}

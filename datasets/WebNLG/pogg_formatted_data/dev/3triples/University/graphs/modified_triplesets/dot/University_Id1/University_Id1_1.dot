@@ -1,0 +1,5 @@
+strict digraph {
+Accademia_di_Architettura_di_Mendrisio [lexicon_key="Accademia_di_Architettura_di_Mendrisio"];
+Mario_Botta [lexicon_key="Mario_Botta"];
+Accademia_di_Architettura_di_Mendrisio -> Mario_Botta [label=dean, lexicon_key=dean];
+}

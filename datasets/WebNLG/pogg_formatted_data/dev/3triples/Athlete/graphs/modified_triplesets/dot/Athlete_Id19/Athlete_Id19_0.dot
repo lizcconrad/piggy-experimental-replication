@@ -1,0 +1,5 @@
+strict digraph {
+Aleksandr_Prudnikov [lexicon_key="Aleksandr_Prudnikov"];
+FC_Spartak_Moscow [lexicon_key="FC_Spartak_Moscow"];
+Aleksandr_Prudnikov -> FC_Spartak_Moscow [label=club, lexicon_key=club];
+}

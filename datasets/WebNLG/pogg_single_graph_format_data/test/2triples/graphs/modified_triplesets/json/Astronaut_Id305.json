@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "\"Retired\"": {
+            "lexicon_key": "\"Retired\""
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "status",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"Retired\"",
+            "edge_properties": {
+                "lexicon_key": "status"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buzz Aldrin was a crew member of Apollo 11,he is retired."
+        },
+        "Id2": {
+            "text": "Buzz Aldrin (now retired) was an Apollo 11 crew member."
+        },
+        "Id3": {
+            "text": "Buzz Aldrin who is now retired was a crew member on Apollo 11."
+        }
+    },
+    "gold_outputs": []
+}

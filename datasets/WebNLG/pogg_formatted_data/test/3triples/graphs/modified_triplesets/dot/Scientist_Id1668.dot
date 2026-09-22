@@ -1,0 +1,9 @@
+strict digraph {
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Istanbul [lexicon_key=Istanbul];
+Turkey [lexicon_key=Turkey];
+Turkish_language [lexicon_key="Turkish_language"];
+Nurhan_Atasoy -> Istanbul [label=residence, lexicon_key=residence];
+Nurhan_Atasoy -> Turkey [label=residence, lexicon_key=residence];
+Turkey -> Turkish_language [label=language, lexicon_key=language];
+}

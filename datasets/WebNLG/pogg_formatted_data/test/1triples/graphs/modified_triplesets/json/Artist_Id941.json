@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "German_Empire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born within the German Empire."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born in the German Empire."
+        }
+    },
+    "gold_outputs": []
+}

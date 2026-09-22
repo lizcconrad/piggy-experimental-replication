@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Akeem_Ayers": {
-            "lexicon_key": "Akeem_Ayers"
+    "graphs": {
+        "Athlete_Id7_0": {
+            "nodes": {
+                "Akeem_Ayers": {
+                    "lexicon_key": "Akeem_Ayers"
+                },
+                "St._Louis_Rams": {
+                    "lexicon_key": "St._Louis_Rams"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "formerTeam",
+                    "parent_node": "Akeem_Ayers",
+                    "child_node": "St._Louis_Rams",
+                    "edge_properties": {
+                        "lexicon_key": "formerTeam"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Ayers used to play for the St. Louis Rams. He was number 39 in the draft pick in draft round 2.",
+                "Akeem Ayers, who formerly played for St Louis Rams, was number 39 in the draft pick and in draft round 2.",
+                "St Louis Rams is the former team of Akeem Ayers, who was drat pick 39, in the draft round, 2."
+            ]
         },
-        "St._Louis_Rams": {
-            "lexicon_key": "St._Louis_Rams"
+        "Athlete_Id7_1": {
+            "nodes": {
+                "Akeem_Ayers": {
+                    "lexicon_key": "Akeem_Ayers"
+                },
+                "\"2\"": {
+                    "lexicon_key": "\"2\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "draftRound",
+                    "parent_node": "Akeem_Ayers",
+                    "child_node": "\"2\"",
+                    "edge_properties": {
+                        "lexicon_key": "draftRound"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Ayers used to play for the St. Louis Rams. He was number 39 in the draft pick in draft round 2.",
+                "Akeem Ayers, who formerly played for St Louis Rams, was number 39 in the draft pick and in draft round 2.",
+                "St Louis Rams is the former team of Akeem Ayers, who was drat pick 39, in the draft round, 2."
+            ]
         },
-        "\"2\"": {
-            "lexicon_key": "\"2\""
-        },
-        "\"39\"": {
-            "lexicon_key": "\"39\""
+        "Athlete_Id7_2": {
+            "nodes": {
+                "Akeem_Ayers": {
+                    "lexicon_key": "Akeem_Ayers"
+                },
+                "\"39\"": {
+                    "lexicon_key": "\"39\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "draftPick",
+                    "parent_node": "Akeem_Ayers",
+                    "child_node": "\"39\"",
+                    "edge_properties": {
+                        "lexicon_key": "draftPick"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Ayers used to play for the St. Louis Rams. He was number 39 in the draft pick in draft round 2.",
+                "Akeem Ayers, who formerly played for St Louis Rams, was number 39 in the draft pick and in draft round 2.",
+                "St Louis Rams is the former team of Akeem Ayers, who was drat pick 39, in the draft round, 2."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "formerTeam",
-            "parent_node": "Akeem_Ayers",
-            "child_node": "St._Louis_Rams",
-            "edge_properties": {
-                "lexicon_key": "formerTeam"
-            }
-        },
-        {
-            "edge_name": "draftRound",
-            "parent_node": "Akeem_Ayers",
-            "child_node": "\"2\"",
-            "edge_properties": {
-                "lexicon_key": "draftRound"
-            }
-        },
-        {
-            "edge_name": "draftPick",
-            "parent_node": "Akeem_Ayers",
-            "child_node": "\"39\"",
-            "edge_properties": {
-                "lexicon_key": "draftPick"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

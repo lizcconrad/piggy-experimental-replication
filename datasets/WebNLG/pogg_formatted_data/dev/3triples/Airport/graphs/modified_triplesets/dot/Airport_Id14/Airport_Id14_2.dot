@@ -1,0 +1,5 @@
+strict digraph {
+Angola_International_Airport [lexicon_key="Angola_International_Airport"];
+"South Runway" [lexicon_key="South Runway"];
+Angola_International_Airport -> "South Runway" [label=runwayName, lexicon_key=runwayName];
+}

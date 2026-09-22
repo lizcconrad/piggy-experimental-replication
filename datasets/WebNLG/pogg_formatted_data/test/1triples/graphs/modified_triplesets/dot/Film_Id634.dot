@@ -1,0 +1,5 @@
+strict digraph {
+Death_on_a_Factory_Farm [lexicon_key="Death_on_a_Factory_Farm"];
+Sarah_Teale [lexicon_key="Sarah_Teale"];
+Death_on_a_Factory_Farm -> Sarah_Teale [label=director, lexicon_key=director];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "Montreal_Locomotive_Works": {
+            "lexicon_key": "Montreal_Locomotive_Works"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Montreal_Locomotive_Works",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Montreal Locomotive Works built the ALCO RS-3 between May 1950 and August 1956."
+        },
+        "Id2": {
+            "text": "The ALCO RS-3, built by Montreal Locomotive Works, was produced between May 1950 and August 1956."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3 was built by the Montreal Locomotive Works and was produced between May 1950 and August 1956."
+        }
+    },
+    "gold_outputs": []
+}

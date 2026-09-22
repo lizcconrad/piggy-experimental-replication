@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "\"101 Ukrop Way\"": {
+            "lexicon_key": "\"101 Ukrop Way\""
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "Virginia": {
+            "lexicon_key": "Virginia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "address",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "\"101 Ukrop Way\"",
+            "edge_properties": {
+                "lexicon_key": "address"
+            }
+        },
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Mason Schools of Business are the current tenants of,Alan B Miller Hall (address: 101, Ukrop way) is situated in Virginia."
+        },
+        "Id2": {
+            "text": "The Mason School of Business are the current tenants of Alan B Miller Hall, located at 101 Ukrop Way in Virginia."
+        },
+        "Id3": {
+            "text": "Alan B. Miller Hall is on 101 Ukrop way (In Virginia) and its current tenants are The Mason School of Business."
+        }
+    },
+    "gold_outputs": []
+}

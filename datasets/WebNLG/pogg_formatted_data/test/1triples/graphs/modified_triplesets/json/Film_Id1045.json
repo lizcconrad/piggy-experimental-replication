@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Terence_Rattigan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "'English Without Tears' was written by Terence Rattigan."
+        },
+        "Id2": {
+            "text": "\"English Without Tears\" was written by Terence Rattigan."
+        },
+        "Id3": {
+            "text": "Terence Rattigan is the writer of English Without Tears."
+        }
+    },
+    "gold_outputs": []
+}

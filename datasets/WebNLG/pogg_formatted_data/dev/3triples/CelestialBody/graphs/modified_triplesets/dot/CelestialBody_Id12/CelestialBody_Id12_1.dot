@@ -1,0 +1,5 @@
+strict digraph {
+"1097_Vicia" [lexicon_key="1097_Vicia"];
+"171.0 (kelvins)" [lexicon_key="171.0 (kelvins)"];
+"1097_Vicia" -> "171.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+}

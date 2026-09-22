@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "Turkish_people": {
+            "lexicon_key": "Turkish_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkish_people",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy was born in Turkey, where he has his nationality."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy was born in Turkey and his nationality is also Turkish."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy was born in Turkey and is a Turkish citizen."
+        }
+    },
+    "gold_outputs": []
+}

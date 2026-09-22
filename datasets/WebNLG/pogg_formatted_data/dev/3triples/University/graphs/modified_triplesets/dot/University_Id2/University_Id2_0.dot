@@ -1,0 +1,5 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Bangalore [lexicon_key=Bangalore];
+Acharya_Institute_of_Technology -> Bangalore [label=city, lexicon_key=city];
+}

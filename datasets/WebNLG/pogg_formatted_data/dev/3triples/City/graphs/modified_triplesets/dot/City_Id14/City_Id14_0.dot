@@ -1,0 +1,5 @@
+strict digraph {
+Atlanta [lexicon_key=Atlanta];
+"404, 678, 470" [lexicon_key="404, 678, 470"];
+Atlanta -> "404, 678, 470" [label=areaCode, lexicon_key=areaCode];
+}

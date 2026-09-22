@@ -1,0 +1,7 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+295 [lexicon_key=295];
+Philippines [lexicon_key=Philippines];
+Chinabank -> 295 [label=numberOfLocations, lexicon_key=numberOfLocations];
+Chinabank -> Philippines [label=location, lexicon_key=location];
+}

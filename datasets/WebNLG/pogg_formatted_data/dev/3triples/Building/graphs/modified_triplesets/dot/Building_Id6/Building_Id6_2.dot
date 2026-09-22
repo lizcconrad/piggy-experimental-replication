@@ -1,0 +1,5 @@
+strict digraph {
+Chicago [lexicon_key=Chicago];
+United_States [lexicon_key="United_States"];
+Chicago -> United_States [label=country, lexicon_key=country];
+}

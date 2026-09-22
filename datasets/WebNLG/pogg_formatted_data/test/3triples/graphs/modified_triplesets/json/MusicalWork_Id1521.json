@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Brian_Kelly_(composer_&_pianist)": {
+            "lexicon_key": "Brian_Kelly_(composer_&_pianist)"
+        },
+        "54.56": {
+            "lexicon_key": "54.56"
+        },
+        "Compilation_Album": {
+            "lexicon_key": "Compilation_Album"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "54.56",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Compilation_Album",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The compilation album Expect a Miracle, which was produced by Brian Kelly, has a runtime of 54:56."
+        },
+        "Id2": {
+            "text": "Expect a Miracle is a compilation album produced by Brian Kelly with a runtime of 54.56 minutes."
+        },
+        "Id3": {
+            "text": "Expect a Miracle, produced by Brian Kelly, is a compilation album with a runtime of 54.56."
+        }
+    },
+    "gold_outputs": []
+}

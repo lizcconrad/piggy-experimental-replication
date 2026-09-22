@@ -1,0 +1,5 @@
+strict digraph {
+Ace_Wilder [lexicon_key="Ace_Wilder"];
+Warner_Music_Group [lexicon_key="Warner_Music_Group"];
+Ace_Wilder -> Warner_Music_Group [label=recordLabel, lexicon_key=recordLabel];
+}

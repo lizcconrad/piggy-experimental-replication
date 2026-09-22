@@ -1,0 +1,5 @@
+strict digraph {
+Akron_Summit_Assault [lexicon_key="Akron_Summit_Assault"];
+Premier_Development_League [lexicon_key="Premier_Development_League"];
+Akron_Summit_Assault -> Premier_Development_League [label=league, lexicon_key=league];
+}

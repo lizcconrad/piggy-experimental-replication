@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Roadside_Attractions [lexicon_key="Roadside_Attractions"];
+Lionsgate [lexicon_key=Lionsgate];
+Public_company [lexicon_key="Public_company"];
+Super_Capers -> Roadside_Attractions [label=distributor, lexicon_key=distributor];
+Super_Capers -> Lionsgate [label=distributor, lexicon_key=distributor];
+Lionsgate -> Public_company [label=type, lexicon_key=type];
+}

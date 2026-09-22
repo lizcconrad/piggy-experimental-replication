@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Roadside_Attractions": {
+            "lexicon_key": "Roadside_Attractions"
+        },
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Public_company": {
+            "lexicon_key": "Public_company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributor",
+            "parent_node": "Super_Capers",
+            "child_node": "Roadside_Attractions",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Lionsgate",
+            "child_node": "Public_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "distributor",
+            "parent_node": "Super_Capers",
+            "child_node": "Lionsgate",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers was distributed by the public company Lionsgate. It was also distributed by Roadside Attractions."
+        },
+        "Id2": {
+            "text": "Roadside Attractions distributed Super Capers which was also distributed by the public company Lionsgate."
+        },
+        "Id3": {
+            "text": "The movie Super Capers is distributed by Roadside Attractions and Lionsgate, a public company."
+        }
+    },
+    "gold_outputs": []
+}

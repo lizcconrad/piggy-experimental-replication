@@ -1,0 +1,9 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+New_Jersey [lexicon_key="New_Jersey"];
+United_States [lexicon_key="United_States"];
+English_language [lexicon_key="English_language"];
+Darinka_Dentcheva -> New_Jersey [label=residence, lexicon_key=residence];
+Darinka_Dentcheva -> United_States [label=residence, lexicon_key=residence];
+United_States -> English_language [label=language, lexicon_key=language];
+}

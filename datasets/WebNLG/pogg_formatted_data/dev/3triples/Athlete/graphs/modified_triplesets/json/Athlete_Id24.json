@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Canada": {
-            "lexicon_key": "Canada"
+    "graphs": {
+        "Athlete_Id24_0": {
+            "nodes": {
+                "Canada": {
+                    "lexicon_key": "Canada"
+                },
+                "O_Canada": {
+                    "lexicon_key": "O_Canada"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "anthem",
+                    "parent_node": "Canada",
+                    "child_node": "O_Canada",
+                    "edge_properties": {
+                        "lexicon_key": "anthem"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alex Plante was born in Canada, where the leader is Elizabeth II and the national anthem is O Canada.",
+                "Alex Plante was born in Canada; where the national anthem is O Canada and the leader is, Elizabeth II.",
+                "Canada, the birthplace of Alex Plante, is led by Elizabeth II and has a national anthem known as \"O Canada\"."
+            ]
         },
-        "O_Canada": {
-            "lexicon_key": "O_Canada"
+        "Athlete_Id24_1": {
+            "nodes": {
+                "Canada": {
+                    "lexicon_key": "Canada"
+                },
+                "Elizabeth_II": {
+                    "lexicon_key": "Elizabeth_II"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Canada",
+                    "child_node": "Elizabeth_II",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alex Plante was born in Canada, where the leader is Elizabeth II and the national anthem is O Canada.",
+                "Alex Plante was born in Canada; where the national anthem is O Canada and the leader is, Elizabeth II.",
+                "Canada, the birthplace of Alex Plante, is led by Elizabeth II and has a national anthem known as \"O Canada\"."
+            ]
         },
-        "Elizabeth_II": {
-            "lexicon_key": "Elizabeth_II"
-        },
-        "Alex_Plante": {
-            "lexicon_key": "Alex_Plante"
+        "Athlete_Id24_2": {
+            "nodes": {
+                "Alex_Plante": {
+                    "lexicon_key": "Alex_Plante"
+                },
+                "Canada": {
+                    "lexicon_key": "Canada"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alex_Plante",
+                    "child_node": "Canada",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alex Plante was born in Canada, where the leader is Elizabeth II and the national anthem is O Canada.",
+                "Alex Plante was born in Canada; where the national anthem is O Canada and the leader is, Elizabeth II.",
+                "Canada, the birthplace of Alex Plante, is led by Elizabeth II and has a national anthem known as \"O Canada\"."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "anthem",
-            "parent_node": "Canada",
-            "child_node": "O_Canada",
-            "edge_properties": {
-                "lexicon_key": "anthem"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Canada",
-            "child_node": "Elizabeth_II",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alex_Plante",
-            "child_node": "Canada",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

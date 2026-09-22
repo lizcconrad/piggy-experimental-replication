@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "France": {
+            "lexicon_key": "France"
+        },
+        "Claude_Bartolone": {
+            "lexicon_key": "Claude_Bartolone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "France",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "France",
+            "child_node": "Claude_Bartolone",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The University of Burgundy is located in France, where one of the leaders is Claude Bartolone."
+        },
+        "Id2": {
+            "text": "The University of Burgundy is in France which is led by Claude Bartolone."
+        },
+        "Id3": {
+            "text": "Claude Bartolone is the leader of France, the location of the University of Burgundy."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "George_Allen_&_Unwin": {
+            "lexicon_key": "George_Allen_&_Unwin"
+        },
+        "Fantasy_(genre)": {
+            "lexicon_key": "Fantasy_(genre)"
+        },
+        "J._R._R._Tolkien": {
+            "lexicon_key": "J._R._R._Tolkien"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "George_Allen_&_Unwin",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        },
+        {
+            "edge_name": "literaryGenre",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "Fantasy_(genre)",
+            "edge_properties": {
+                "lexicon_key": "literaryGenre"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "J._R._R._Tolkien",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "George Allen & Unwin published a Fantasy novel, The Fellowship of the Ring, written by J.R.R. Tolkien."
+        },
+        "Id2": {
+            "text": "The Fellowship of the Ring, a fantasy novel by J.R.R. Tolkien, was published by George Allen & Unwin."
+        },
+        "Id3": {
+            "text": "J.R.R. Tolkien wrote fantasy literary genre book The Fellowship of the Ring published by George Allen & Unwin."
+        }
+    },
+    "gold_outputs": []
+}

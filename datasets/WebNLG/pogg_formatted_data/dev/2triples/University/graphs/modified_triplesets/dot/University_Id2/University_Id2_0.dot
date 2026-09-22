@@ -1,0 +1,5 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"Blue, White and Orange" [lexicon_key="Blue, White and Orange"];
+Acharya_Institute_of_Technology -> "Blue, White and Orange" [label=officialSchoolColour, lexicon_key=officialSchoolColour];
+}

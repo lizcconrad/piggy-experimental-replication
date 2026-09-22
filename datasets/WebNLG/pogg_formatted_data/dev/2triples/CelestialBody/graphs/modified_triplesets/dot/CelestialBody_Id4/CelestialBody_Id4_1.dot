@@ -1,0 +1,5 @@
+strict digraph {
+"(66391)_1999_KW4" [lexicon_key="(66391)_1999_KW4"];
+9953.28 [lexicon_key=9953.28];
+"(66391)_1999_KW4" -> 9953.28 [label=rotationPeriod, lexicon_key=rotationPeriod];
+}

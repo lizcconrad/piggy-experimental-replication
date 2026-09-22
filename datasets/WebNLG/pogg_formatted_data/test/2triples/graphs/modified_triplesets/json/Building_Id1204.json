@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "2009-06-01": {
+            "lexicon_key": "2009-06-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "completionDate",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "2009-06-01",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Mason School of Business are the current tenants of Alan B Miller Hall, which was completed on June 1, 2009."
+        },
+        "Id2": {
+            "text": "Completed on June 1st, 2009, Alan B Miller Hall's current tenants are the Mason School of Business."
+        },
+        "Id3": {
+            "text": "The Mason school of Business are the current tenants of Alan B. Miller Hall (completed on 1 June 2009)."
+        }
+    },
+    "gold_outputs": []
+}

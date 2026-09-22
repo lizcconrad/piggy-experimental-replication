@@ -1,0 +1,3 @@
+Alan Shepard, a test pilot that died in California, was born in New Hampshire.
+Alan Shepard, a test pilot born in New Hampshire, died in California.
+Test pilot Alan Shepard, born in New Hampshire, later died in California.

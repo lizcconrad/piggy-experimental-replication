@@ -1,0 +1,9 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+"City Manager" [lexicon_key="City Manager"];
+City [lexicon_key=City];
+1604.0 [lexicon_key=1604.0];
+Ciudad_Ayala -> "City Manager" [label=leaderTitle, lexicon_key=leaderTitle];
+Ciudad_Ayala -> City [label=type, lexicon_key=type];
+Ciudad_Ayala -> 1604.0 [label=populationDensity, lexicon_key=populationDensity];
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Arr\u00f2s_negre": {
-            "lexicon_key": "Arr\u00f2s_negre"
+    "graphs": {
+        "Food_Id8_0": {
+            "nodes": {
+                "Arr\u00f2s_negre": {
+                    "lexicon_key": "Arr\u00f2s_negre"
+                },
+                "Spain": {
+                    "lexicon_key": "Spain"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Arr\u00f2s_negre",
+                    "child_node": "Spain",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arros negre contains Squid and comes from the Catalonia region of Spain.",
+                "Arros negre is from the region of Catalonia, Spain, and one of its ingredients is Squid.",
+                "Squid is an ingredient of arros negre which is from the region of Catalonia in Spain."
+            ]
         },
-        "Spain": {
-            "lexicon_key": "Spain"
+        "Food_Id8_1": {
+            "nodes": {
+                "Arr\u00f2s_negre": {
+                    "lexicon_key": "Arr\u00f2s_negre"
+                },
+                "Catalonia": {
+                    "lexicon_key": "Catalonia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Arr\u00f2s_negre",
+                    "child_node": "Catalonia",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arros negre contains Squid and comes from the Catalonia region of Spain.",
+                "Arros negre is from the region of Catalonia, Spain, and one of its ingredients is Squid.",
+                "Squid is an ingredient of arros negre which is from the region of Catalonia in Spain."
+            ]
         },
-        "Catalonia": {
-            "lexicon_key": "Catalonia"
-        },
-        "Squid": {
-            "lexicon_key": "Squid"
+        "Food_Id8_2": {
+            "nodes": {
+                "Arr\u00f2s_negre": {
+                    "lexicon_key": "Arr\u00f2s_negre"
+                },
+                "Squid": {
+                    "lexicon_key": "Squid"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Arr\u00f2s_negre",
+                    "child_node": "Squid",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arros negre contains Squid and comes from the Catalonia region of Spain.",
+                "Arros negre is from the region of Catalonia, Spain, and one of its ingredients is Squid.",
+                "Squid is an ingredient of arros negre which is from the region of Catalonia in Spain."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Arr\u00f2s_negre",
-            "child_node": "Spain",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "region",
-            "parent_node": "Arr\u00f2s_negre",
-            "child_node": "Catalonia",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Arr\u00f2s_negre",
-            "child_node": "Squid",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

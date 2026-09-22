@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+"St._Louis,_Missouri" [lexicon_key="St._Louis,_Missouri"];
+San_Francisco [lexicon_key="San_Francisco"];
+"Ed_Lee_(politician)" [lexicon_key="Ed_Lee_(politician)"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> "St._Louis,_Missouri" [label=recordedIn, lexicon_key=recordedIn];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> San_Francisco [label=recordedIn, lexicon_key=recordedIn];
+San_Francisco -> "Ed_Lee_(politician)" [label=leader, lexicon_key=leader];
+}

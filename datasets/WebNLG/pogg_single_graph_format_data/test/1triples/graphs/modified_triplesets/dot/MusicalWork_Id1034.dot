@@ -1,0 +1,5 @@
+strict digraph {
+Noise_rock [lexicon_key="Noise_rock"];
+"Post-hardcore" [lexicon_key="Post-hardcore"];
+Noise_rock -> "Post-hardcore" [label=derivative, lexicon_key=derivative];
+}

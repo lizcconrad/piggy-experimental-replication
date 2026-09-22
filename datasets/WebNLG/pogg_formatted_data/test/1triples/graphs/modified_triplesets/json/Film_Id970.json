@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Justin_Whalin": {
+            "lexicon_key": "Justin_Whalin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Justin_Whalin",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The film Super Capers starred Justin Whalin."
+        },
+        "Id2": {
+            "text": "The film Super Capers stars Justin Whalin."
+        },
+        "Id3": {
+            "text": "Super Capers starred Justin Whalin."
+        }
+    },
+    "gold_outputs": []
+}

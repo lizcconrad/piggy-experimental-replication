@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Akeem_Adams": {
-            "lexicon_key": "Akeem_Adams"
+    "graphs": {
+        "Athlete_Id5_0": {
+            "nodes": {
+                "Akeem_Adams": {
+                    "lexicon_key": "Akeem_Adams"
+                },
+                "Ferencv\u00e1rosi_TC": {
+                    "lexicon_key": "Ferencv\u00e1rosi_TC"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Akeem_Adams",
+                    "child_node": "Ferencv\u00e1rosi_TC",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Adams club is Ferencvarosi TC, where the manager is Thomas Doll.",
+                "Akeem Adams played for Ferencvarosi TC, where the manager is Thomas Doll.",
+                "Ferencvarosi TC is managed by Thomas Doll and is the club of Akeem Adams."
+            ]
         },
-        "Ferencv\u00e1rosi_TC": {
-            "lexicon_key": "Ferencv\u00e1rosi_TC"
-        },
-        "Thomas_Doll": {
-            "lexicon_key": "Thomas_Doll"
+        "Athlete_Id5_1": {
+            "nodes": {
+                "Ferencv\u00e1rosi_TC": {
+                    "lexicon_key": "Ferencv\u00e1rosi_TC"
+                },
+                "Thomas_Doll": {
+                    "lexicon_key": "Thomas_Doll"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "manager",
+                    "parent_node": "Ferencv\u00e1rosi_TC",
+                    "child_node": "Thomas_Doll",
+                    "edge_properties": {
+                        "lexicon_key": "manager"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Adams club is Ferencvarosi TC, where the manager is Thomas Doll.",
+                "Akeem Adams played for Ferencvarosi TC, where the manager is Thomas Doll.",
+                "Ferencvarosi TC is managed by Thomas Doll and is the club of Akeem Adams."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "club",
-            "parent_node": "Akeem_Adams",
-            "child_node": "Ferencv\u00e1rosi_TC",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        },
-        {
-            "edge_name": "manager",
-            "parent_node": "Ferencv\u00e1rosi_TC",
-            "child_node": "Thomas_Doll",
-            "edge_properties": {
-                "lexicon_key": "manager"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+23900 [lexicon_key=23900];
+"A.C._Cesena" -> 23900 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

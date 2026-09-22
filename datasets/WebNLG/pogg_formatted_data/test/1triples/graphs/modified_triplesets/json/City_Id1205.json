@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Roberto_Gil_Zuarth": {
+            "lexicon_key": "Roberto_Gil_Zuarth"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Mexico",
+            "child_node": "Roberto_Gil_Zuarth",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The leader of Mexico is Roberto Gil Zuarth."
+        },
+        "Id2": {
+            "text": "One of the leaders of the country of Mexico is Roberto Gil Zuarth."
+        },
+        "Id3": {
+            "text": "One of the leaders of Mexico is Roberto Gil Zuarth ."
+        }
+    },
+    "gold_outputs": []
+}

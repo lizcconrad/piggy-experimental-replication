@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "16800": {
+            "lexicon_key": "16800"
+        },
+        "1299": {
+            "lexicon_key": "1299"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfUndergraduateStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "16800",
+            "edge_properties": {
+                "lexicon_key": "numberOfUndergraduateStudents"
+            }
+        },
+        {
+            "edge_name": "numberOfDoctoralStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "1299",
+            "edge_properties": {
+                "lexicon_key": "numberOfDoctoralStudents"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "There are 16800 undergraduate with 1299 doctoral students at the University of Burgundy."
+        },
+        "Id2": {
+            "text": "The University of Burgundy has 16,800 undergraduate students, and the number of doctoral students is 1299."
+        },
+        "Id3": {
+            "text": "The University of Burgundy has 16800 undergraduate students and 1299 doctoral students."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+"Proto-punk" [lexicon_key="Proto-punk"];
+The_Velvet_Underground -> "Proto-punk" [label=genre, lexicon_key=genre];
+}

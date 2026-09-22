@@ -1,0 +1,5 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+Drugs [lexicon_key=Drugs];
+Hypermarcas -> Drugs [label=product, lexicon_key=product];
+}

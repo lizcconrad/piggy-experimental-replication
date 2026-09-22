@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Universal_Music_Group": {
+            "lexicon_key": "Universal_Music_Group"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Universal_Music_Group",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bootleg Series Volume 1: The Quine Tapes was recorded under the Universal Music Group record label."
+        },
+        "Id2": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes is released by the record label Universal Music Group."
+        },
+        "Id3": {
+            "text": "The record label of Bootleg Series Volume 1: The Quine Tapes is Universal Music Group."
+        }
+    },
+    "gold_outputs": []
+}

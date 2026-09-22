@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "1989-02-24": {
+            "lexicon_key": "1989-02-24"
+        },
+        "FC_Terek_Grozny": {
+            "lexicon_key": "FC_Terek_Grozny"
+        },
+        "Rashid_Rakhimov": {
+            "lexicon_key": "Rashid_Rakhimov"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "1989-02-24",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Terek_Grozny",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "FC_Terek_Grozny",
+            "child_node": "Rashid_Rakhimov",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov was born on February 24th, 1989, played for FC Terek Grozny, managed by Rashid Rakhimov."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov was born on February 24, 1989. and he is currently in the FC Terek Grozny club which is managed by Rashid Rakhimov."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov was born on February 24, 1989, and plays for FC Terek Grozny which is managed by Rashid Rakhimov."
+        }
+    },
+    "gold_outputs": []
+}

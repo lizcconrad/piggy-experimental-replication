@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Aarhus_Airport": {
-            "lexicon_key": "Aarhus_Airport"
-        },
-        "2702.0": {
-            "lexicon_key": "2702.0"
+    "graphs": {
+        "Airport_Id2_0": {
+            "nodes": {
+                "Aarhus_Airport": {
+                    "lexicon_key": "Aarhus_Airport"
+                },
+                "2702.0": {
+                    "lexicon_key": "2702.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "runwayLength",
+                    "parent_node": "Aarhus_Airport",
+                    "child_node": "2702.0",
+                    "edge_properties": {
+                        "lexicon_key": "runwayLength"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aarhus Airport's runway length is 2702.0.",
+                "The Aarhus Airport has a runway length of 2702.0."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "runwayLength",
-            "parent_node": "Aarhus_Airport",
-            "child_node": "2702.0",
-            "edge_properties": {
-                "lexicon_key": "runwayLength"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

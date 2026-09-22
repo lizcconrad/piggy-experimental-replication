@@ -1,23 +1,27 @@
 {
-    "nodes": {
-        "idBarn1": {
-            "node_type": "entity",
-            "lexicon_key": "idBarn"
-        },
-        "idCabin1FrontOpening": {
-            "node_type": "entity",
-            "lexicon_key": "idCabin1FrontOpening"
+    "graphs": {
+        "idBarn1_subgraph_0": {
+            "nodes": {
+                "idBarn1": {
+                    "node_type": "entity",
+                    "lexicon_key": "idBarn"
+                },
+                "idCabin1FrontOpening": {
+                    "node_type": "entity",
+                    "lexicon_key": "idCabin1FrontOpening"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isWestOf",
+                    "parent_node": "idBarn1",
+                    "child_node": "idCabin1FrontOpening",
+                    "lexicon_key": "isWestOf",
+                    "edge_properties": {
+                        "edge_type": "relationship"
+                    }
+                }
+            ]
         }
-    },
-    "edges": [
-        {
-            "edge_name": "isWestOf",
-            "parent_node": "idBarn1",
-            "child_node": "idCabin1FrontOpening",
-            "lexicon_key": "isWestOf",
-            "edge_properties": {
-                "edge_type": "relationship"
-            }
-        }
-    ]
+    }
 }

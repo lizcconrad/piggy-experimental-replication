@@ -1,0 +1,5 @@
+strict digraph {
+"Aleksey_Chirikov_(icebreaker)" [lexicon_key="Aleksey_Chirikov_(icebreaker)"];
+21.2 [lexicon_key=21.2];
+"Aleksey_Chirikov_(icebreaker)" -> 21.2 [label=shipBeam, lexicon_key=shipBeam];
+}

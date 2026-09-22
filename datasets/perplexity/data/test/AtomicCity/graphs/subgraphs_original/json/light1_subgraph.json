@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "light1": {
-            "lexicon_key": "light1",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "light1_subgraph_0": {
+            "nodes": {
+                "light1": {
+                    "lexicon_key": "light1",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

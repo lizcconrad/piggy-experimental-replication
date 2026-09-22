@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        },
+        "Noise_pop": {
+            "lexicon_key": "Noise_pop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Noise_rock",
+            "child_node": "Noise_pop",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Noise pop is a fusion genre, having elements from noise rock, among other things."
+        },
+        "Id2": {
+            "text": "Noise pop is a fusion genre of noise rock."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Re\u015fadiye": {
+            "lexicon_key": "Re\u015fadiye"
+        },
+        "Tokat_Province": {
+            "lexicon_key": "Tokat_Province"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Re\u015fadiye",
+            "child_node": "Tokat_Province",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Re\u015fadiye is part of the Tokat Province."
+        },
+        "Id2": {
+            "text": "Re\u015fadiye is a part of the Tokat Province."
+        },
+        "Id3": {
+            "text": "The town of Resadiye is part of Tokat Province."
+        }
+    },
+    "gold_outputs": []
+}

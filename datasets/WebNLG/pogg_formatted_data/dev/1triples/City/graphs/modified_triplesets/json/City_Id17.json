@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Antioch,_California": {
-            "lexicon_key": "Antioch,_California"
-        },
-        "13.0": {
-            "lexicon_key": "13.0"
+    "graphs": {
+        "City_Id17_0": {
+            "nodes": {
+                "Antioch,_California": {
+                    "lexicon_key": "Antioch,_California"
+                },
+                "13.0": {
+                    "lexicon_key": "13.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "elevationAboveTheSeaLevel",
+                    "parent_node": "Antioch,_California",
+                    "child_node": "13.0",
+                    "edge_properties": {
+                        "lexicon_key": "elevationAboveTheSeaLevel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Antioch, CA is 13 above sea level.",
+                "Antioch, California is 13.0 metres above sea level.",
+                "Antioch, California is located at 13.0 above sea level."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "elevationAboveTheSeaLevel",
-            "parent_node": "Antioch,_California",
-            "child_node": "13.0",
-            "edge_properties": {
-                "lexicon_key": "elevationAboveTheSeaLevel"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

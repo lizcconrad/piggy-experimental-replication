@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "\"India\"": {
+            "lexicon_key": "\"India\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"India\"",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Acharya Institute of Technology can be found in India in the city of Bangalore."
+        },
+        "Id2": {
+            "text": "Acharya Institute of Technology is located in Bangalore, India."
+        }
+    },
+    "gold_outputs": []
+}

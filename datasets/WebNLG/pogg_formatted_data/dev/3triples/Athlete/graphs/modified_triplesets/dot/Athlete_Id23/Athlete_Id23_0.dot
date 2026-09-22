@@ -1,0 +1,5 @@
+strict digraph {
+Alex_Tyus [lexicon_key="Alex_Tyus"];
+Turkish_Basketball_Super_League [lexicon_key="Turkish_Basketball_Super_League"];
+Alex_Tyus -> Turkish_Basketball_Super_League [label=league, lexicon_key=league];
+}

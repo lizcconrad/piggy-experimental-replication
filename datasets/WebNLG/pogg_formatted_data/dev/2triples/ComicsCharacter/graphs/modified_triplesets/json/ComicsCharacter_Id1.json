@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Asterix_(comicsCharacter)": {
-            "lexicon_key": "Asterix_(comicsCharacter)"
+    "graphs": {
+        "ComicsCharacter_Id1_0": {
+            "nodes": {
+                "Asterix_(comicsCharacter)": {
+                    "lexicon_key": "Asterix_(comicsCharacter)"
+                },
+                "Ren\u00e9_Goscinny": {
+                    "lexicon_key": "Ren\u00e9_Goscinny"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Asterix_(comicsCharacter)",
+                    "child_node": "Ren\u00e9_Goscinny",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The character Asterix was created by Ren\u00e9 Goscinny and Albert Uderzo.",
+                "The comic book character Asterix was created by Ren\u00e9 Goscinny and Albert Uderzo.",
+                "The comic strip character Asterix was created by Albert Uderzo and Rene Goscinny."
+            ]
         },
-        "Ren\u00e9_Goscinny": {
-            "lexicon_key": "Ren\u00e9_Goscinny"
-        },
-        "Albert_Uderzo": {
-            "lexicon_key": "Albert_Uderzo"
+        "ComicsCharacter_Id1_1": {
+            "nodes": {
+                "Asterix_(comicsCharacter)": {
+                    "lexicon_key": "Asterix_(comicsCharacter)"
+                },
+                "Albert_Uderzo": {
+                    "lexicon_key": "Albert_Uderzo"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Asterix_(comicsCharacter)",
+                    "child_node": "Albert_Uderzo",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The character Asterix was created by Ren\u00e9 Goscinny and Albert Uderzo.",
+                "The comic book character Asterix was created by Ren\u00e9 Goscinny and Albert Uderzo.",
+                "The comic strip character Asterix was created by Albert Uderzo and Rene Goscinny."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Asterix_(comicsCharacter)",
-            "child_node": "Ren\u00e9_Goscinny",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        },
-        {
-            "edge_name": "creator",
-            "parent_node": "Asterix_(comicsCharacter)",
-            "child_node": "Albert_Uderzo",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

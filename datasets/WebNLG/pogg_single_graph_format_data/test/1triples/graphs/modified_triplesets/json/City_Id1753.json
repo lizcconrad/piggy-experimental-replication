@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Cuernavaca": {
+            "lexicon_key": "Cuernavaca"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Morelos",
+            "child_node": "Cuernavaca",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Cuernavaca is part of Morelos."
+        },
+        "Id2": {
+            "text": "Cuernavaca is a part of Morelos."
+        }
+    },
+    "gold_outputs": []
+}

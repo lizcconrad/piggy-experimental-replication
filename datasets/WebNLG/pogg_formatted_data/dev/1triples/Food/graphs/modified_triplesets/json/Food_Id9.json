@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Avocado": {
-            "lexicon_key": "Avocado"
-        },
-        "Persea": {
-            "lexicon_key": "Persea"
+    "graphs": {
+        "Food_Id9_0": {
+            "nodes": {
+                "Avocado": {
+                    "lexicon_key": "Avocado"
+                },
+                "Persea": {
+                    "lexicon_key": "Persea"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genus",
+                    "parent_node": "Avocado",
+                    "child_node": "Persea",
+                    "edge_properties": {
+                        "lexicon_key": "genus"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The genus of Avocado is Persea.",
+                "The genus of the avocado is persea."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genus",
-            "parent_node": "Avocado",
-            "child_node": "Persea",
-            "edge_properties": {
-                "lexicon_key": "genus"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

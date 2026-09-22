@@ -1,0 +1,5 @@
+strict digraph {
+Pontiac [lexicon_key=Pontiac];
+Buick [lexicon_key=Buick];
+Pontiac -> Buick [label=successor, lexicon_key=successor];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+1931 [lexicon_key=1931];
+Adisham_Hall -> 1931 [label=completionDate, lexicon_key=completionDate];
+}

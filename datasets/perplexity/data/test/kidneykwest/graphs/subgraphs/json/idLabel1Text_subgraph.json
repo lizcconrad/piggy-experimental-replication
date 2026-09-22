@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idLabel1Text": {
-            "lexicon_key": "idLabel1Text",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the label text"
-    ]
+    ],
+    "graphs": {
+        "idLabel1Text_subgraph_0": {
+            "nodes": {
+                "idLabel1Text": {
+                    "lexicon_key": "idLabel1Text",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the label text"
+            ]
+        }
+    }
 }

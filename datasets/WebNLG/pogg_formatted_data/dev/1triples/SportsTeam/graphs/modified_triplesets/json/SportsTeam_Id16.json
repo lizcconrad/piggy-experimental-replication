@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "AZAL_PFK": {
-            "lexicon_key": "AZAL_PFK"
-        },
-        "\"Shuvalan, Baku, Azerbaijan\"": {
-            "lexicon_key": "\"Shuvalan, Baku, Azerbaijan\""
+    "graphs": {
+        "SportsTeam_Id16_0": {
+            "nodes": {
+                "AZAL_PFK": {
+                    "lexicon_key": "AZAL_PFK"
+                },
+                "\"Shuvalan, Baku, Azerbaijan\"": {
+                    "lexicon_key": "\"Shuvalan, Baku, Azerbaijan\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "AZAL_PFK",
+                    "child_node": "\"Shuvalan, Baku, Azerbaijan\"",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AZAL PFK is located at Shuvalan, Baku, Azerbaijan.",
+                "AZAL PFK is located in Shuvalan, Baku, Azerbaijan."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "AZAL_PFK",
-            "child_node": "\"Shuvalan, Baku, Azerbaijan\"",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "1958-01-01": {
+            "lexicon_key": "1958-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "1958-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva was born on January 1, 1958."
+        },
+        "Id2": {
+            "text": "The birth date of Darinka Dentcheva is January 1, 1958."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva was born on January 1st, 1958."
+        }
+    },
+    "gold_outputs": []
+}

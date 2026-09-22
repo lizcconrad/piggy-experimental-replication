@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Chinabank": {
-            "lexicon_key": "Chinabank"
+    "graphs": {
+        "Company_Id3_0": {
+            "nodes": {
+                "Chinabank": {
+                    "lexicon_key": "Chinabank"
+                },
+                "Banking": {
+                    "lexicon_key": "Banking"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "service",
+                    "parent_node": "Chinabank",
+                    "child_node": "Banking",
+                    "edge_properties": {
+                        "lexicon_key": "service"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Chinabank currently pulls in 15100000000 in net income for its banking services.",
+                "Chinabank offers banking services to make a net income of 15,100,000,000.",
+                "Chinabank provides banking services to customers, earning a net income of 15,100,000,000."
+            ]
         },
-        "Banking": {
-            "lexicon_key": "Banking"
-        },
-        "15100000000": {
-            "lexicon_key": "15100000000"
+        "Company_Id3_1": {
+            "nodes": {
+                "Chinabank": {
+                    "lexicon_key": "Chinabank"
+                },
+                "15100000000": {
+                    "lexicon_key": "15100000000"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "netIncome",
+                    "parent_node": "Chinabank",
+                    "child_node": "15100000000",
+                    "edge_properties": {
+                        "lexicon_key": "netIncome"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Chinabank currently pulls in 15100000000 in net income for its banking services.",
+                "Chinabank offers banking services to make a net income of 15,100,000,000.",
+                "Chinabank provides banking services to customers, earning a net income of 15,100,000,000."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "service",
-            "parent_node": "Chinabank",
-            "child_node": "Banking",
-            "edge_properties": {
-                "lexicon_key": "service"
-            }
-        },
-        {
-            "edge_name": "netIncome",
-            "parent_node": "Chinabank",
-            "child_node": "15100000000",
-            "edge_properties": {
-                "lexicon_key": "netIncome"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

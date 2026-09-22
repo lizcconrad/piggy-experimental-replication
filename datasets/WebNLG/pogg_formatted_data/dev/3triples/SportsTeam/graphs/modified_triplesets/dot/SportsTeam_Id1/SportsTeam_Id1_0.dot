@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+Cesena [lexicon_key=Cesena];
+"A.C._Cesena" -> Cesena [label=ground, lexicon_key=ground];
+}

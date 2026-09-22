@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Aaron_Boogaard": {
-            "lexicon_key": "Aaron_Boogaard"
-        },
-        "Canada": {
-            "lexicon_key": "Canada"
+    "graphs": {
+        "Athlete_Id2_0": {
+            "nodes": {
+                "Aaron_Boogaard": {
+                    "lexicon_key": "Aaron_Boogaard"
+                },
+                "Canada": {
+                    "lexicon_key": "Canada"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Aaron_Boogaard",
+                    "child_node": "Canada",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Boogaard was born in Canada.",
+                "Aaron Boogaard's birthplace is Canada."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Aaron_Boogaard",
-            "child_node": "Canada",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

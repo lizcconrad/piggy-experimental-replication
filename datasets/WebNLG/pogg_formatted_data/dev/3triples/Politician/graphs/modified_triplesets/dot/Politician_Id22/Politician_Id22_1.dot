@@ -1,0 +1,5 @@
+strict digraph {
+Albert_Jennings_Fountain [lexicon_key="Albert_Jennings_Fountain"];
+United_States [lexicon_key="United_States"];
+Albert_Jennings_Fountain -> United_States [label=birthPlace, lexicon_key=birthPlace];
+}

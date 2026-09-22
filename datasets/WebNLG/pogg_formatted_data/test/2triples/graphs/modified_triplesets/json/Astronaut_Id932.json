@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "People's_Republic_of_China": {
+            "lexicon_key": "People's_Republic_of_China"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Zaoyang",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "People's_Republic_of_China",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Chinese national Nie Haisheng is from Zaoyang."
+        },
+        "Id2": {
+            "text": "Nie Haisheng is from the People's Republic of China and was born in Zaoyang."
+        },
+        "Id3": {
+            "text": "Nie Haisheng was born in Zaoyang and is a citizen of the People's Republic of China."
+        }
+    },
+    "gold_outputs": []
+}

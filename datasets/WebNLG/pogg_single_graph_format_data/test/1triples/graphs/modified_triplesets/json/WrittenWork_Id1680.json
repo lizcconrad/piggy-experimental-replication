@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "The_Two_Towers": {
+            "lexicon_key": "The_Two_Towers"
+        },
+        "George_Allen_&_Unwin": {
+            "lexicon_key": "George_Allen_&_Unwin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "The_Two_Towers",
+            "child_node": "George_Allen_&_Unwin",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "George Allen and Unwin was the publisher of The Two Towers."
+        },
+        "Id2": {
+            "text": "The Two Towers was published by George Allen & Unwin."
+        }
+    },
+    "gold_outputs": []
+}

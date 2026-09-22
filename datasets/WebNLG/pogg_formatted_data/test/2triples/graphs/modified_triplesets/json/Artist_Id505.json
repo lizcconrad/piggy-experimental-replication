@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "387.63": {
+            "lexicon_key": "387.63"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Israel",
+            "child_node": "387.63",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Israel, where Liselotte Grschebina died, has 387.63 people per square kilometre of land area."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina died in Israel, a country which has a population density of 387.63 people per square kilometre of land area."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina died in Israel whose population density is 387.63."
+        }
+    },
+    "gold_outputs": []
+}

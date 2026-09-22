@@ -1,0 +1,5 @@
+strict digraph {
+Bandeja_paisa [lexicon_key="Bandeja_paisa"];
+Colombian_cuisine [lexicon_key="Colombian_cuisine"];
+Bandeja_paisa -> Colombian_cuisine [label=country, lexicon_key=country];
+}

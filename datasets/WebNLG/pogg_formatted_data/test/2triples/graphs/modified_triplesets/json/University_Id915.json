@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "16800": {
+            "lexicon_key": "16800"
+        },
+        "2900": {
+            "lexicon_key": "2900"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfUndergraduateStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "16800",
+            "edge_properties": {
+                "lexicon_key": "numberOfUndergraduateStudents"
+            }
+        },
+        {
+            "edge_name": "staff",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "2900",
+            "edge_properties": {
+                "lexicon_key": "staff"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The University of Burgundy has a total of 16800 undergraduate students and 2900 members of staff."
+        },
+        "Id2": {
+            "text": "The University of Burgundy employs 2900 staff members with 16800 undergraduate students."
+        },
+        "Id3": {
+            "text": "The University of Burgundy with 2900 staff members has 16,800 undergraduate students."
+        }
+    },
+    "gold_outputs": []
+}

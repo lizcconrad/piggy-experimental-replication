@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Java": {
-            "lexicon_key": "Java"
+    "graphs": {
+        "Food_Id38_0": {
+            "nodes": {
+                "Java": {
+                    "lexicon_key": "Java"
+                },
+                "Banyumasan_people": {
+                    "lexicon_key": "Banyumasan_people"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "Java",
+                    "child_node": "Banyumasan_people",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet originates from Java where the Banyumasan are an ethnic group. It can be found nationwide and also in Singapore and Malaysia.",
+                "The dish Ayam penyet originates from Java where the Banyumasan people are an ethnic group. The dish can also be found in Malaysia and Singapore."
+            ]
         },
-        "Banyumasan_people": {
-            "lexicon_key": "Banyumasan_people"
+        "Food_Id38_1": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "\"Nationwide, also can be found in Malaysia and Singapore\"": {
+                    "lexicon_key": "\"Nationwide, also can be found in Malaysia and Singapore\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "\"Nationwide, also can be found in Malaysia and Singapore\"",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet originates from Java where the Banyumasan are an ethnic group. It can be found nationwide and also in Singapore and Malaysia.",
+                "The dish Ayam penyet originates from Java where the Banyumasan people are an ethnic group. The dish can also be found in Malaysia and Singapore."
+            ]
         },
-        "Ayam_penyet": {
-            "lexicon_key": "Ayam_penyet"
-        },
-        "\"Nationwide, also can be found in Malaysia and Singapore\"": {
-            "lexicon_key": "\"Nationwide, also can be found in Malaysia and Singapore\""
+        "Food_Id38_2": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "Java": {
+                    "lexicon_key": "Java"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "Java",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet originates from Java where the Banyumasan are an ethnic group. It can be found nationwide and also in Singapore and Malaysia.",
+                "The dish Ayam penyet originates from Java where the Banyumasan people are an ethnic group. The dish can also be found in Malaysia and Singapore."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "Java",
-            "child_node": "Banyumasan_people",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        },
-        {
-            "edge_name": "region",
-            "parent_node": "Ayam_penyet",
-            "child_node": "\"Nationwide, also can be found in Malaysia and Singapore\"",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Ayam_penyet",
-            "child_node": "Java",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

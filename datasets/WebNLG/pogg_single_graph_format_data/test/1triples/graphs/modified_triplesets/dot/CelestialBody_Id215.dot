@@ -1,0 +1,5 @@
+strict digraph {
+Grigory_Neujmin [lexicon_key="Grigory_Neujmin"];
+"1946-12-17" [lexicon_key="1946-12-17"];
+Grigory_Neujmin -> "1946-12-17" [label=deathDate, lexicon_key=deathDate];
+}

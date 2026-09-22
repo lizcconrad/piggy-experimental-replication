@@ -1,0 +1,5 @@
+strict digraph {
+"A.E_Dimitra_Efxeinoupolis" [lexicon_key="A.E_Dimitra_Efxeinoupolis"];
+A_EPSTH_2nd_GROUP [lexicon_key="A_EPSTH_2nd_GROUP"];
+"A.E_Dimitra_Efxeinoupolis" -> A_EPSTH_2nd_GROUP [label=league, lexicon_key=league];
+}

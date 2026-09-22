@@ -1,0 +1,7 @@
+strict digraph {
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+Unitary_state [lexicon_key="Unitary_state"];
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+Kingdom_of_England -> Unitary_state [label=governmentType, lexicon_key=governmentType];
+Lady_Anne_Monson -> Kingdom_of_England [label=nationality, lexicon_key=nationality];
+}

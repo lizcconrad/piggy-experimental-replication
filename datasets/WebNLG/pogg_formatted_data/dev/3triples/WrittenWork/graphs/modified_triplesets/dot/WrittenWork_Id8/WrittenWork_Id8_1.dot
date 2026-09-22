@@ -1,0 +1,5 @@
+strict digraph {
+"AIDS_(journal)" [lexicon_key="AIDS_(journal)"];
+"Lippincott_Williams_&_Wilkins" [lexicon_key="Lippincott_Williams_&_Wilkins"];
+"AIDS_(journal)" -> "Lippincott_Williams_&_Wilkins" [label=publisher, lexicon_key=publisher];
+}

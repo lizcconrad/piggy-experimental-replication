@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Turkish_people": {
+            "lexicon_key": "Turkish_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkish_people",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "In terms of nationality, Nurhan Atasoy is a Turkish person."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy is of Turkish nationality."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy's nationality is that of Turkish people."
+        }
+    },
+    "gold_outputs": []
+}

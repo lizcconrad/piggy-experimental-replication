@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Auron_(comicsCharacter)": {
-            "lexicon_key": "Auron_(comicsCharacter)"
+    "graphs": {
+        "ComicsCharacter_Id1_0": {
+            "nodes": {
+                "Auron_(comicsCharacter)": {
+                    "lexicon_key": "Auron_(comicsCharacter)"
+                },
+                "Karl_Kesel": {
+                    "lexicon_key": "Karl_Kesel"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Auron_(comicsCharacter)",
+                    "child_node": "Karl_Kesel",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Karl Kesel, an American along with Walt Simonson created the comic book character Auron.",
+                "The comic character Auron was created by Walt Simonson and the American, Karl Kesel.",
+                "The comic character, Auron, was created by Walt Simonson and the American Karl Kesel."
+            ]
         },
-        "Karl_Kesel": {
-            "lexicon_key": "Karl_Kesel"
+        "ComicsCharacter_Id1_1": {
+            "nodes": {
+                "Karl_Kesel": {
+                    "lexicon_key": "Karl_Kesel"
+                },
+                "Americans": {
+                    "lexicon_key": "Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "nationality",
+                    "parent_node": "Karl_Kesel",
+                    "child_node": "Americans",
+                    "edge_properties": {
+                        "lexicon_key": "nationality"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Karl Kesel, an American along with Walt Simonson created the comic book character Auron.",
+                "The comic character Auron was created by Walt Simonson and the American, Karl Kesel.",
+                "The comic character, Auron, was created by Walt Simonson and the American Karl Kesel."
+            ]
         },
-        "Americans": {
-            "lexicon_key": "Americans"
-        },
-        "Walt_Simonson": {
-            "lexicon_key": "Walt_Simonson"
+        "ComicsCharacter_Id1_2": {
+            "nodes": {
+                "Auron_(comicsCharacter)": {
+                    "lexicon_key": "Auron_(comicsCharacter)"
+                },
+                "Walt_Simonson": {
+                    "lexicon_key": "Walt_Simonson"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Auron_(comicsCharacter)",
+                    "child_node": "Walt_Simonson",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Karl Kesel, an American along with Walt Simonson created the comic book character Auron.",
+                "The comic character Auron was created by Walt Simonson and the American, Karl Kesel.",
+                "The comic character, Auron, was created by Walt Simonson and the American Karl Kesel."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Auron_(comicsCharacter)",
-            "child_node": "Karl_Kesel",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        },
-        {
-            "edge_name": "nationality",
-            "parent_node": "Karl_Kesel",
-            "child_node": "Americans",
-            "edge_properties": {
-                "lexicon_key": "nationality"
-            }
-        },
-        {
-            "edge_name": "creator",
-            "parent_node": "Auron_(comicsCharacter)",
-            "child_node": "Walt_Simonson",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

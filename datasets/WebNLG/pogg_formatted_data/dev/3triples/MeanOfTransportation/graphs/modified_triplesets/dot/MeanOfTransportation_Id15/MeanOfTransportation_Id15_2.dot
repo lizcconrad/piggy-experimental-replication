@@ -1,0 +1,5 @@
+strict digraph {
+American_Motors [lexicon_key="American_Motors"];
+"Roy_D._Chapin,_Jr." [lexicon_key="Roy_D._Chapin,_Jr."];
+American_Motors -> "Roy_D._Chapin,_Jr." [label=keyPerson, lexicon_key=keyPerson];
+}

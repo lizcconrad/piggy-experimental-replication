@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+2000000.0 [lexicon_key=2000000.0];
+98.0 [lexicon_key=98.0];
+30955.0 [lexicon_key=30955.0];
+Super_Capers -> 2000000.0 [label=budget, lexicon_key=budget];
+Super_Capers -> 98.0 [label=runtime, lexicon_key=runtime];
+Super_Capers -> 30955.0 [label=gross, lexicon_key=gross];
+}

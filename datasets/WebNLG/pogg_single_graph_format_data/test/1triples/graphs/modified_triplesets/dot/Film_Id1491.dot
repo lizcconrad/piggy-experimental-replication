@@ -1,0 +1,5 @@
+strict digraph {
+John_Mills [lexicon_key="John_Mills"];
+Mary_Hayley_Bell [lexicon_key="Mary_Hayley_Bell"];
+John_Mills -> Mary_Hayley_Bell [label=spouse, lexicon_key=spouse];
+}

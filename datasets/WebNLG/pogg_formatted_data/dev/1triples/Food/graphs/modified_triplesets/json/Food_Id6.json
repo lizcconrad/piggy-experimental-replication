@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Arr\u00f2s_negre": {
-            "lexicon_key": "Arr\u00f2s_negre"
-        },
-        "Cuttlefish": {
-            "lexicon_key": "Cuttlefish"
+    "graphs": {
+        "Food_Id6_0": {
+            "nodes": {
+                "Arr\u00f2s_negre": {
+                    "lexicon_key": "Arr\u00f2s_negre"
+                },
+                "Cuttlefish": {
+                    "lexicon_key": "Cuttlefish"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Arr\u00f2s_negre",
+                    "child_node": "Cuttlefish",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Cuttlefish is an ingredient in Arros negre.",
+                "Cuttlefish is an ingredient of the dish Arr\u00f2s negre."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Arr\u00f2s_negre",
-            "child_node": "Cuttlefish",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

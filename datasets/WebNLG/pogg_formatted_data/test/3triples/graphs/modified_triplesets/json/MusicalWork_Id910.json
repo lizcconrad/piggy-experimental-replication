@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Happy_Xmas_(War_Is_Over)": {
+            "lexicon_key": "Happy_Xmas_(War_Is_Over)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pop_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Imagine_(John_Lennon_song)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "Happy_Xmas_(War_Is_Over)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Train song Mermaid belongs to the genre of pop rock, which was followed by the release of Imagine by John Lennon was also followed by Happy Xmas (War Is Over)."
+        },
+        "Id2": {
+            "text": "Train followed their pop rock song Mermaid with the John Lennon song Imagine, which was followed by the release of the song Happy Xmas (War Is Over)."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid from pop rock genre preceded John Lennon song Imagine which was a hit he followed up with Happy Xmas (war is over)."
+        }
+    },
+    "gold_outputs": []
+}

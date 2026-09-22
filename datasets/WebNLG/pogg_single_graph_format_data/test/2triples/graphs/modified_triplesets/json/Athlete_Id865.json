@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Akeem_Ayers": {
+            "lexicon_key": "Akeem_Ayers"
+        },
+        "Tennessee_Titans": {
+            "lexicon_key": "Tennessee_Titans"
+        },
+        "2011": {
+            "lexicon_key": "2011"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "debutTeam",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "Tennessee_Titans",
+            "edge_properties": {
+                "lexicon_key": "debutTeam"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "2011",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Akeem Ayers, who started his career in 2011, debuted for the Tennessee Titans."
+        },
+        "Id2": {
+            "text": "Hakeem Ayers started his career in 2011 when he debuted for the Tennessee Titans."
+        },
+        "Id3": {
+            "text": "Akeem Ayers, part of the Tennessee Titans has been active since 2011."
+        }
+    },
+    "gold_outputs": []
+}

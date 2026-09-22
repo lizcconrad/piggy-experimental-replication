@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Sony_Music_Entertainment": {
+            "lexicon_key": "Sony_Music_Entertainment"
+        },
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Happy_Xmas_(War_Is_Over)": {
+            "lexicon_key": "Happy_Xmas_(War_Is_Over)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Sony_Music_Entertainment",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Imagine_(John_Lennon_song)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "Happy_Xmas_(War_Is_Over)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Mermaid,performed by Train, is on the Sony Music Entertainment label;however,John Lennon also released Imagine which was followed by Happy Xmas (War is Over) on the same record label."
+        },
+        "Id2": {
+            "text": "Train's hit Mermaid was put out by the Sony Music Entertainment record label, followed by Mermaid with Imagine, a song by John Lennon. The release of the song Imagine by John Lennon was then followed by the release of the song Happy Xmas (War Is Over)."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid, released under the record label Sony Music Entertainment, is followed by the John Lennon song Imagine, which was followed by his hit Imagine with Happy Xmas (War is Over)."
+        }
+    },
+    "gold_outputs": []
+}

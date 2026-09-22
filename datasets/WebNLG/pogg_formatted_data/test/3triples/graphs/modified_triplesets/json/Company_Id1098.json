@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Media_company": {
+            "lexicon_key": "Media_company"
+        },
+        "World_Wide_Web": {
+            "lexicon_key": "World_Wide_Web"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Media_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "World_Wide_Web",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media, Inc. is a media company located in the Philippines that makes web sites."
+        },
+        "Id2": {
+            "text": "GMA New Media is a media company located in the Philippines that offers World Wide Web services."
+        },
+        "Id3": {
+            "text": "GMA New Media, Inc, a media company that produces web services, is located in the Philippines."
+        }
+    },
+    "gold_outputs": []
+}

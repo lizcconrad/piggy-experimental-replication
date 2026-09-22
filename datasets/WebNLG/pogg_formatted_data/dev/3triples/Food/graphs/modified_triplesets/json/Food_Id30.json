@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Bhajji": {
-            "lexicon_key": "Bhajji"
+    "graphs": {
+        "Food_Id30_0": {
+            "nodes": {
+                "Bhajji": {
+                    "lexicon_key": "Bhajji"
+                },
+                "Karnataka": {
+                    "lexicon_key": "Karnataka"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Bhajji",
+                    "child_node": "Karnataka",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bhajji are found in the region of Karnataka, its main ingredients are gram flour and vegetables.",
+                "Bhajji originates from the Karnataka region and the main ingredients are vegetables and gram flour.",
+                "The main ingredients in Bhajji are gram flour and vegetables, this comes from the Karnataka region."
+            ]
         },
-        "Karnataka": {
-            "lexicon_key": "Karnataka"
+        "Food_Id30_1": {
+            "nodes": {
+                "Bhajji": {
+                    "lexicon_key": "Bhajji"
+                },
+                "\"Gram flour, vegetables\"": {
+                    "lexicon_key": "\"Gram flour, vegetables\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mainIngredient",
+                    "parent_node": "Bhajji",
+                    "child_node": "\"Gram flour, vegetables\"",
+                    "edge_properties": {
+                        "lexicon_key": "mainIngredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bhajji are found in the region of Karnataka, its main ingredients are gram flour and vegetables.",
+                "Bhajji originates from the Karnataka region and the main ingredients are vegetables and gram flour.",
+                "The main ingredients in Bhajji are gram flour and vegetables, this comes from the Karnataka region."
+            ]
         },
-        "\"Gram flour, vegetables\"": {
-            "lexicon_key": "\"Gram flour, vegetables\""
-        },
-        "Gram_flour": {
-            "lexicon_key": "Gram_flour"
+        "Food_Id30_2": {
+            "nodes": {
+                "Bhajji": {
+                    "lexicon_key": "Bhajji"
+                },
+                "Gram_flour": {
+                    "lexicon_key": "Gram_flour"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bhajji",
+                    "child_node": "Gram_flour",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bhajji are found in the region of Karnataka, its main ingredients are gram flour and vegetables.",
+                "Bhajji originates from the Karnataka region and the main ingredients are vegetables and gram flour.",
+                "The main ingredients in Bhajji are gram flour and vegetables, this comes from the Karnataka region."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "region",
-            "parent_node": "Bhajji",
-            "child_node": "Karnataka",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "mainIngredient",
-            "parent_node": "Bhajji",
-            "child_node": "\"Gram flour, vegetables\"",
-            "edge_properties": {
-                "lexicon_key": "mainIngredient"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bhajji",
-            "child_node": "Gram_flour",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Airey_Neave": {
-            "lexicon_key": "Airey_Neave"
+    "graphs": {
+        "Politician_Id21_0": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "World_War_II": {
+                    "lexicon_key": "World_War_II"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "World_War_II",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave fought in World War II and was awarded the Military Cross before ending his career on 30 March 1979.",
+                "Airey Neave served in World Ward II and retired on 30th Match 1979. He was awarded the Military Cross.",
+                "Airey Neave was awarded the Military Cross whilst serving in world war 2, he retired on 30th March 1979."
+            ]
         },
-        "World_War_II": {
-            "lexicon_key": "World_War_II"
+        "Politician_Id21_1": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "Military_Cross": {
+                    "lexicon_key": "Military_Cross"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "award",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "Military_Cross",
+                    "edge_properties": {
+                        "lexicon_key": "award"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave fought in World War II and was awarded the Military Cross before ending his career on 30 March 1979.",
+                "Airey Neave served in World Ward II and retired on 30th Match 1979. He was awarded the Military Cross.",
+                "Airey Neave was awarded the Military Cross whilst serving in world war 2, he retired on 30th March 1979."
+            ]
         },
-        "Military_Cross": {
-            "lexicon_key": "Military_Cross"
-        },
-        "1979-03-30": {
-            "lexicon_key": "1979-03-30"
+        "Politician_Id21_2": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "1979-03-30": {
+                    "lexicon_key": "1979-03-30"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "activeYearsEndDate",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "1979-03-30",
+                    "edge_properties": {
+                        "lexicon_key": "activeYearsEndDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave fought in World War II and was awarded the Military Cross before ending his career on 30 March 1979.",
+                "Airey Neave served in World Ward II and retired on 30th Match 1979. He was awarded the Military Cross.",
+                "Airey Neave was awarded the Military Cross whilst serving in world war 2, he retired on 30th March 1979."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "battle",
-            "parent_node": "Airey_Neave",
-            "child_node": "World_War_II",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        },
-        {
-            "edge_name": "award",
-            "parent_node": "Airey_Neave",
-            "child_node": "Military_Cross",
-            "edge_properties": {
-                "lexicon_key": "award"
-            }
-        },
-        {
-            "edge_name": "activeYearsEndDate",
-            "parent_node": "Airey_Neave",
-            "child_node": "1979-03-30",
-            "edge_properties": {
-                "lexicon_key": "activeYearsEndDate"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

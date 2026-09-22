@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Justin_Whalin": {
+            "lexicon_key": "Justin_Whalin"
+        },
+        "30955.0": {
+            "lexicon_key": "30955.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributor",
+            "parent_node": "Super_Capers",
+            "child_node": "Lionsgate",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Justin_Whalin",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "gross",
+            "parent_node": "Super_Capers",
+            "child_node": "30955.0",
+            "edge_properties": {
+                "lexicon_key": "gross"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The film Super Capers, distributed by Lionsgate and starring Justin Whalin, grossed $30,955."
+        },
+        "Id2": {
+            "text": "Super Capers, starring Justin Whalin, had a box office of $30,955. Lionsgate distributed the film."
+        },
+        "Id3": {
+            "text": "\"Super Capers\", a movie distributed by Lionsgate, starred Justin Whalin made a gross income of $30,955."
+        }
+    },
+    "gold_outputs": []
+}

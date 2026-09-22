@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "\"Republic of Turkey\"": {
+            "lexicon_key": "\"Republic of Turkey\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "longName",
+            "parent_node": "Turkey",
+            "child_node": "\"Republic of Turkey\"",
+            "edge_properties": {
+                "lexicon_key": "longName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Turkey is formally known as \"Republic of Turkey\"."
+        },
+        "Id2": {
+            "text": "The long name of the country of Turkey is \"Republic of Turkey\"."
+        },
+        "Id3": {
+            "text": "The full name of Turkey is the \"Republic of Turkey\""
+        }
+    },
+    "gold_outputs": []
+}

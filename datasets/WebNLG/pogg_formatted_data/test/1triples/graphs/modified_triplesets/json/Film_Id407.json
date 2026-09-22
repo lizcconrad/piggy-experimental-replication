@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Gilbert_Taylor": {
+            "lexicon_key": "Gilbert_Taylor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cinematography",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Gilbert_Taylor",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young had Gilbert Taylor as cinematographer."
+        },
+        "Id2": {
+            "text": "It's Great to Be Young is in Gilbert Taylor's cinematography."
+        },
+        "Id3": {
+            "text": "Gilbert Taylor was the cinematographer of the film \"It's Great to Be Young\"."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Athens_International_Airport": {
-            "lexicon_key": "Athens_International_Airport"
-        },
-        "Spata": {
-            "lexicon_key": "Spata"
+    "graphs": {
+        "Airport_Id23_0": {
+            "nodes": {
+                "Athens_International_Airport": {
+                    "lexicon_key": "Athens_International_Airport"
+                },
+                "Spata": {
+                    "lexicon_key": "Spata"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Athens_International_Airport",
+                    "child_node": "Spata",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Athens International Airport is in Spata.",
+                "Athens International Airport is located in Spata."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Athens_International_Airport",
-            "child_node": "Spata",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

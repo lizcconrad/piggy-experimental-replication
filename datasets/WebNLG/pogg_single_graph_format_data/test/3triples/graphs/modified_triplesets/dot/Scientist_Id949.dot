@@ -1,0 +1,9 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+General_relativity [lexicon_key="General_relativity"];
+University_of_Cambridge [lexicon_key="University_of_Cambridge"];
+"1942-01-01" [lexicon_key="1942-01-01"];
+Brandon_Carter -> General_relativity [label=professionalField, lexicon_key=professionalField];
+Brandon_Carter -> University_of_Cambridge [label=almaMater, lexicon_key=almaMater];
+Brandon_Carter -> "1942-01-01" [label=birthDate, lexicon_key=birthDate];
+}

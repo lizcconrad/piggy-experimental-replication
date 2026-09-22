@@ -1,0 +1,5 @@
+strict digraph {
+"Greenville,_Wisconsin" [lexicon_key="Greenville,_Wisconsin"];
+"Clayton,_Winnebago_County,_Wisconsin" [lexicon_key="Clayton,_Winnebago_County,_Wisconsin"];
+"Greenville,_Wisconsin" -> "Clayton,_Winnebago_County,_Wisconsin" [label=isPartOf, lexicon_key=isPartOf];
+}

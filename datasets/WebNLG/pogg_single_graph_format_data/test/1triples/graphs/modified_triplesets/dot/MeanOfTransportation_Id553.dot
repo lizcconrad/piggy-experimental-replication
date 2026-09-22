@@ -1,0 +1,5 @@
+strict digraph {
+Detroit [lexicon_key=Detroit];
+"Wayne_County,_Michigan" [lexicon_key="Wayne_County,_Michigan"];
+Detroit -> "Wayne_County,_Michigan" [label=isPartOf, lexicon_key=isPartOf];
+}

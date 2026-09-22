@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Governator": {
+            "lexicon_key": "Governator"
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Governator",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala (a city in Mexico) has a leader called the Governator and it is part of Morelos."
+        },
+        "Id2": {
+            "text": "In Ciudad Ayala, a Mexican city and part of Morelos, the leader is called the governator."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is a part of Morelos, in Mexico. One of the city's leaders is called the governator."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Harold_French [lexicon_key="Harold_French"];
+Film_director [lexicon_key="Film_director"];
+English_Without_Tears -> Harold_French [label=director, lexicon_key=director];
+Harold_French -> Film_director [label=occupation, lexicon_key=occupation];
+}

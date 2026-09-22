@@ -1,0 +1,5 @@
+strict digraph {
+"Ardmore_Airport_(New_Zealand)" [lexicon_key="Ardmore_Airport_(New_Zealand)"];
+Poaceae [lexicon_key=Poaceae];
+"Ardmore_Airport_(New_Zealand)" -> Poaceae [label="3rdRunwaySurfaceType", lexicon_key="3rdRunwaySurfaceType"];
+}

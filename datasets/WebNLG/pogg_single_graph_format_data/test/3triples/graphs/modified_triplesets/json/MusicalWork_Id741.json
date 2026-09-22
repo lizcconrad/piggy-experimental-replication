@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Brian_Kelly_(composer_&_pianist)": {
+            "lexicon_key": "Brian_Kelly_(composer_&_pianist)"
+        },
+        "Instrumental_music": {
+            "lexicon_key": "Instrumental_music"
+        },
+        "Easy_listening": {
+            "lexicon_key": "Easy_listening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Instrumental_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Easy_listening",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Artist Brian Kelly, who is a composer & pianist, created Expect a Miracle, which is an easy listening album in the instrumental music genre."
+        },
+        "Id2": {
+            "text": "Expect a Miracle by Brian Kelly falls until both the instrumental genre and the easy listening genre."
+        },
+        "Id3": {
+            "text": "Expect a Miracle by Brian Kelly falls under both the instrumental genre and the easy listening genre."
+        }
+    },
+    "gold_outputs": []
+}

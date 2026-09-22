@@ -1,0 +1,7 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+Hubei [lexicon_key=Hubei];
+Fighter_pilot [lexicon_key="Fighter_pilot"];
+Nie_Haisheng -> Hubei [label=birthPlace, lexicon_key=birthPlace];
+Nie_Haisheng -> Fighter_pilot [label=occupation, lexicon_key=occupation];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"The_Honeymoon_Killers_(American_band)" [lexicon_key="The_Honeymoon_Killers_(American_band)"];
+Noise_rock [lexicon_key="Noise_rock"];
+"The_Honeymoon_Killers_(American_band)" -> Noise_rock [label=genre, lexicon_key=genre];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Akeem_Ayers": {
+            "lexicon_key": "Akeem_Ayers"
+        },
+        "Tennessee_Titans": {
+            "lexicon_key": "Tennessee_Titans"
+        },
+        "1989-07-10": {
+            "lexicon_key": "1989-07-10"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "debutTeam",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "Tennessee_Titans",
+            "edge_properties": {
+                "lexicon_key": "debutTeam"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "1989-07-10",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Akeem Ayers was born on July 10, 1989 and made his debut for the Tennessee Titans."
+        },
+        "Id2": {
+            "text": "Akeem Ayers made his debut for the Tennessee Titans and he was born on July 10th,1989."
+        },
+        "Id3": {
+            "text": "Born on July 10th, 1989, Akeem Ayers debuted with the Tennessee Titans team."
+        }
+    },
+    "gold_outputs": []
+}

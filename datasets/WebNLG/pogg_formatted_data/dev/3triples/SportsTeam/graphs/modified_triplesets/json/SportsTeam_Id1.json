@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "A.C._Cesena": {
-            "lexicon_key": "A.C._Cesena"
+    "graphs": {
+        "SportsTeam_Id1_0": {
+            "nodes": {
+                "A.C._Cesena": {
+                    "lexicon_key": "A.C._Cesena"
+                },
+                "Cesena": {
+                    "lexicon_key": "Cesena"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "A.C._Cesena",
+                    "child_node": "Cesena",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.C. Cesena, in the Serie B League, has 23900 members and is located is Cesena.",
+                "A.C. Cesena, with 23900 members, is in the Serie B league and has a ground in Cesena.",
+                "AC Cesena's ground is in Cesena and they have 23900 members. The club plays in Serie B."
+            ]
         },
-        "Cesena": {
-            "lexicon_key": "Cesena"
+        "SportsTeam_Id1_1": {
+            "nodes": {
+                "A.C._Cesena": {
+                    "lexicon_key": "A.C._Cesena"
+                },
+                "Serie_B": {
+                    "lexicon_key": "Serie_B"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "A.C._Cesena",
+                    "child_node": "Serie_B",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.C. Cesena, in the Serie B League, has 23900 members and is located is Cesena.",
+                "A.C. Cesena, with 23900 members, is in the Serie B league and has a ground in Cesena.",
+                "AC Cesena's ground is in Cesena and they have 23900 members. The club plays in Serie B."
+            ]
         },
-        "Serie_B": {
-            "lexicon_key": "Serie_B"
-        },
-        "23900": {
-            "lexicon_key": "23900"
+        "SportsTeam_Id1_2": {
+            "nodes": {
+                "A.C._Cesena": {
+                    "lexicon_key": "A.C._Cesena"
+                },
+                "23900": {
+                    "lexicon_key": "23900"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "A.C._Cesena",
+                    "child_node": "23900",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.C. Cesena, in the Serie B League, has 23900 members and is located is Cesena.",
+                "A.C. Cesena, with 23900 members, is in the Serie B league and has a ground in Cesena.",
+                "AC Cesena's ground is in Cesena and they have 23900 members. The club plays in Serie B."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "A.C._Cesena",
-            "child_node": "Cesena",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        },
-        {
-            "edge_name": "league",
-            "parent_node": "A.C._Cesena",
-            "child_node": "Serie_B",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        },
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "A.C._Cesena",
-            "child_node": "23900",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,7 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+"Andrzej_Piotr_Ruszczyński" [lexicon_key="Andrzej_Piotr_Ruszczyński"];
+Stochastic_programming [lexicon_key="Stochastic_programming"];
+Darinka_Dentcheva -> "Andrzej_Piotr_Ruszczyński" [label=influencedBy, lexicon_key=influencedBy];
+Darinka_Dentcheva -> Stochastic_programming [label=knownFor, lexicon_key=knownFor];
+}

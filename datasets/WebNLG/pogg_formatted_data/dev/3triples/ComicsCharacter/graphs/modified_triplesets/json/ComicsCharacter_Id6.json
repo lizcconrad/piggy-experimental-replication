@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Blockbuster_(comicsCharacter)": {
-            "lexicon_key": "Blockbuster_(comicsCharacter)"
+    "graphs": {
+        "ComicsCharacter_Id6_0": {
+            "nodes": {
+                "Blockbuster_(comicsCharacter)": {
+                    "lexicon_key": "Blockbuster_(comicsCharacter)"
+                },
+                "Roger_Stern": {
+                    "lexicon_key": "Roger_Stern"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Blockbuster_(comicsCharacter)",
+                    "child_node": "Roger_Stern",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The comic book character Blockbuster's alter ego is Roland Desmond and he was created by Roger Stern and Tom Lyle.",
+                "The comic character Blockbuster, also known as Roland Desmond, was created by Roger Stern and Tom Lyle."
+            ]
         },
-        "Roger_Stern": {
-            "lexicon_key": "Roger_Stern"
+        "ComicsCharacter_Id6_1": {
+            "nodes": {
+                "Blockbuster_(comicsCharacter)": {
+                    "lexicon_key": "Blockbuster_(comicsCharacter)"
+                },
+                "\"Roland Desmond\"": {
+                    "lexicon_key": "\"Roland Desmond\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "alternativeName",
+                    "parent_node": "Blockbuster_(comicsCharacter)",
+                    "child_node": "\"Roland Desmond\"",
+                    "edge_properties": {
+                        "lexicon_key": "alternativeName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The comic book character Blockbuster's alter ego is Roland Desmond and he was created by Roger Stern and Tom Lyle.",
+                "The comic character Blockbuster, also known as Roland Desmond, was created by Roger Stern and Tom Lyle."
+            ]
         },
-        "\"Roland Desmond\"": {
-            "lexicon_key": "\"Roland Desmond\""
-        },
-        "Tom_Lyle": {
-            "lexicon_key": "Tom_Lyle"
+        "ComicsCharacter_Id6_2": {
+            "nodes": {
+                "Blockbuster_(comicsCharacter)": {
+                    "lexicon_key": "Blockbuster_(comicsCharacter)"
+                },
+                "Tom_Lyle": {
+                    "lexicon_key": "Tom_Lyle"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "creator",
+                    "parent_node": "Blockbuster_(comicsCharacter)",
+                    "child_node": "Tom_Lyle",
+                    "edge_properties": {
+                        "lexicon_key": "creator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The comic book character Blockbuster's alter ego is Roland Desmond and he was created by Roger Stern and Tom Lyle.",
+                "The comic character Blockbuster, also known as Roland Desmond, was created by Roger Stern and Tom Lyle."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "creator",
-            "parent_node": "Blockbuster_(comicsCharacter)",
-            "child_node": "Roger_Stern",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        },
-        {
-            "edge_name": "alternativeName",
-            "parent_node": "Blockbuster_(comicsCharacter)",
-            "child_node": "\"Roland Desmond\"",
-            "edge_properties": {
-                "lexicon_key": "alternativeName"
-            }
-        },
-        {
-            "edge_name": "creator",
-            "parent_node": "Blockbuster_(comicsCharacter)",
-            "child_node": "Tom_Lyle",
-            "edge_properties": {
-                "lexicon_key": "creator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

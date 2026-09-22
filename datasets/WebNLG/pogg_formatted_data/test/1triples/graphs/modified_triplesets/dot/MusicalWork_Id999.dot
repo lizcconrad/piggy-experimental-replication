@@ -1,0 +1,5 @@
+strict digraph {
+Noise_rock [lexicon_key="Noise_rock"];
+Noise_pop [lexicon_key="Noise_pop"];
+Noise_rock -> Noise_pop [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        },
+        "Monarch_(band)": {
+            "lexicon_key": "Monarch_(band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Year_of_No_Light",
+            "child_node": "Monarch_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Monarch is a band that is associated with Year of No Light."
+        },
+        "Id2": {
+            "text": "Monarch is a band associated with Year of No Light."
+        },
+        "Id3": {
+            "text": "Members of Year of No Light include a former guitarist for the band Monarch."
+        }
+    },
+    "gold_outputs": []
+}

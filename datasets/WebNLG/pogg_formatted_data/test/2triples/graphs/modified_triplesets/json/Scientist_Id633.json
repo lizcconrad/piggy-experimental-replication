@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "1958-01-01": {
+            "lexicon_key": "1958-01-01"
+        },
+        "Stochastic_programming": {
+            "lexicon_key": "Stochastic_programming"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "1958-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Stochastic_programming",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva, who is known for Stochastic programming, was born January 1, 1958."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva, known for her work with stochastic programming, was born on January 1, 1958."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva, born on January 1, 1958, is known for her work with stochastic programming."
+        }
+    },
+    "gold_outputs": []
+}

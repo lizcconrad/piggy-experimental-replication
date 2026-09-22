@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "2001-01-01": {
+            "lexicon_key": "2001-01-01"
+        },
+        "S.A._(corporation)": {
+            "lexicon_key": "S.A._(corporation)"
+        },
+        "Mantecorp": {
+            "lexicon_key": "Mantecorp"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Hypermarcas",
+            "child_node": "2001-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Hypermarcas",
+            "child_node": "S.A._(corporation)",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "subsidiary",
+            "parent_node": "Hypermarcas",
+            "child_node": "Mantecorp",
+            "edge_properties": {
+                "lexicon_key": "subsidiary"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas, a type of S.A. (corporation), was founded on January 1, 2001, and has a subsidiary called Mantecorp."
+        },
+        "Id2": {
+            "text": "S.A. corporation Hypermarcas, which was founded on January 1st, 2001, has a subsidiary called Mantecorp."
+        },
+        "Id3": {
+            "text": "Mantecorp is a subsidiary of Hypermarcas, which is an S.A. corporation founded on January 1, 2001."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,2 @@
+The runway length at the Bedford Aerodrome is 1095.
+The runway length of the Bedford Aerodrome is 1095.0.

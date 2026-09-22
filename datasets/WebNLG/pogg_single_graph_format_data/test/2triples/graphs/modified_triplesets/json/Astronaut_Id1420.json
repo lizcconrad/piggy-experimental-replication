@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "\"NWC, M.A. 1957\"": {
+            "lexicon_key": "\"NWC, M.A. 1957\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Alan_Shepard",
+            "child_node": "\"NWC, M.A. 1957\"",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard who died in California graduated from NWC in 1957 with an M.A."
+        },
+        "Id2": {
+            "text": "Alan Shepard (died in,California),went to school at NWC and graduated with an MA in 1957."
+        },
+        "Id3": {
+            "text": "Alan Shepard graduated from NWC with an M.A. in 1957 and died in California."
+        }
+    },
+    "gold_outputs": []
+}

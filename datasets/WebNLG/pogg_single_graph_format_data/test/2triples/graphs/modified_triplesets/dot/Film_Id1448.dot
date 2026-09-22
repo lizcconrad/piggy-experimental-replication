@@ -1,0 +1,7 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Justin_Whalin [lexicon_key="Justin_Whalin"];
+"Ray_Griggs_(director)" [lexicon_key="Ray_Griggs_(director)"];
+Super_Capers -> Justin_Whalin [label=starring, lexicon_key=starring];
+Super_Capers -> "Ray_Griggs_(director)" [label=writer, lexicon_key=writer];
+}

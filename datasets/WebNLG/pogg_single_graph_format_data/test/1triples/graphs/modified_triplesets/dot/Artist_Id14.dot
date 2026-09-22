@@ -1,0 +1,5 @@
+strict digraph {
+Israel [lexicon_key=Israel];
+Modern_Hebrew [lexicon_key="Modern_Hebrew"];
+Israel -> Modern_Hebrew [label=officialLanguage, lexicon_key=officialLanguage];
+}

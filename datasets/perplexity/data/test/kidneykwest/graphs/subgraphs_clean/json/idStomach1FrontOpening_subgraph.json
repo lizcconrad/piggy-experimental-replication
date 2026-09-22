@@ -1,23 +1,27 @@
 {
-    "nodes": {
-        "idStomach1FrontOpening": {
-            "node_type": "entity",
-            "lexicon_key": "idStomach1FrontOpening"
-        },
-        "idSmallIntestine1FrontOpening": {
-            "node_type": "entity",
-            "lexicon_key": "idSmallIntestine1FrontOpening"
+    "graphs": {
+        "idStomach1FrontOpening_subgraph_0": {
+            "nodes": {
+                "idStomach1FrontOpening": {
+                    "node_type": "entity",
+                    "lexicon_key": "idStomach1FrontOpening"
+                },
+                "idSmallIntestine1FrontOpening": {
+                    "node_type": "entity",
+                    "lexicon_key": "idSmallIntestine1FrontOpening"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isNorthOf",
+                    "parent_node": "idStomach1FrontOpening",
+                    "child_node": "idSmallIntestine1FrontOpening",
+                    "lexicon_key": "isNorthOf",
+                    "edge_properties": {
+                        "edge_type": "relationship"
+                    }
+                }
+            ]
         }
-    },
-    "edges": [
-        {
-            "edge_name": "isNorthOf",
-            "parent_node": "idStomach1FrontOpening",
-            "child_node": "idSmallIntestine1FrontOpening",
-            "lexicon_key": "isNorthOf",
-            "edge_properties": {
-                "edge_type": "relationship"
-            }
-        }
-    ]
+    }
 }

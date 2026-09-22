@@ -1,0 +1,5 @@
+strict digraph {
+Christian_Panucci [lexicon_key="Christian_Panucci"];
+Italy_national_football_team [lexicon_key="Italy_national_football_team"];
+Christian_Panucci -> Italy_national_football_team [label=club, lexicon_key=club];
+}

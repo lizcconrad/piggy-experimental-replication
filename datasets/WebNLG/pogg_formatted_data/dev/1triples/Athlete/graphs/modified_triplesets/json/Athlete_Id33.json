@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Olympique_Lyonnais": {
-            "lexicon_key": "Olympique_Lyonnais"
-        },
-        "Parc_Olympique_Lyonnais": {
-            "lexicon_key": "Parc_Olympique_Lyonnais"
+    "graphs": {
+        "Athlete_Id33_0": {
+            "nodes": {
+                "Olympique_Lyonnais": {
+                    "lexicon_key": "Olympique_Lyonnais"
+                },
+                "Parc_Olympique_Lyonnais": {
+                    "lexicon_key": "Parc_Olympique_Lyonnais"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "Olympique_Lyonnais",
+                    "child_node": "Parc_Olympique_Lyonnais",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Olympique Lyonnais play their home games at the Parc Olympique Lyonnais.",
+                "Olympique Lyonnais' home ground is the Parc Olympique Lyonnais stadium."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "Olympique_Lyonnais",
-            "child_node": "Parc_Olympique_Lyonnais",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,7 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"2009-06-01" [lexicon_key="2009-06-01"];
+Virginia [lexicon_key=Virginia];
+"Alan_B._Miller_Hall" -> "2009-06-01" [label=completionDate, lexicon_key=completionDate];
+"Alan_B._Miller_Hall" -> Virginia [label=location, lexicon_key=location];
+}

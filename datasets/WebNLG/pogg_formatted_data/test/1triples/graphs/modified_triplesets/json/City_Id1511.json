@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Governor": {
+            "lexicon_key": "Governor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Morelos",
+            "child_node": "Governor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the leaders of the state of Morelos is the Governor."
+        },
+        "Id2": {
+            "text": "Morelos is led by the Governor."
+        },
+        "Id3": {
+            "text": "The title of the leader of Morelos is Governor."
+        }
+    },
+    "gold_outputs": []
+}

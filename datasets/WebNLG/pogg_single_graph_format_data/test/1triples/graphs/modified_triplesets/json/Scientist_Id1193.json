@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Doomsday_argument": {
+            "lexicon_key": "Doomsday_argument"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Doomsday_argument",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter is known for his work with the Doomsday argument."
+        },
+        "Id2": {
+            "text": "Brandon Carter is known for his Doomsday argument."
+        },
+        "Id3": {
+            "text": "Brandon Carter is known for the Doomsday argument."
+        }
+    },
+    "gold_outputs": []
+}

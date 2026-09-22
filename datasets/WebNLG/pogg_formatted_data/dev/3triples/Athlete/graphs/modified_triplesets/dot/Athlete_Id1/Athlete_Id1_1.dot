@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Boogaard [lexicon_key="Aaron_Boogaard"];
+"Regina,_Saskatchewan" [lexicon_key="Regina,_Saskatchewan"];
+Aaron_Boogaard -> "Regina,_Saskatchewan" [label=birthPlace, lexicon_key=birthPlace];
+}

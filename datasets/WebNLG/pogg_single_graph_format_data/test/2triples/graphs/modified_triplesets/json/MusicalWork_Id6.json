@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "1969:_The_Velvet_Underground_Live": {
+            "lexicon_key": "1969:_The_Velvet_Underground_Live"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Squeeze_(The_Velvet_Underground_album)",
+            "child_node": "1969:_The_Velvet_Underground_Live",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album 1969: The Velvet Underground Live is preceded by the Velvet Underground album Squeeze, which was followed by The Quine Tapes."
+        },
+        "Id2": {
+            "text": "The Velvet Underground album Bootleg Series Volume 1: The Quine Tapes was preceded by the album Squeeze, which was followed by the live album 1969: The Velvet Underground Live."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes is preceded by the Velvet Underground album Squeeze which was itself followed by the album 1969: The Velvet Underground Live."
+        }
+    },
+    "gold_outputs": []
+}

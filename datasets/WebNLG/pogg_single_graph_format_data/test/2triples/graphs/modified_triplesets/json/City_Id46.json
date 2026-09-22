@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Pacific_Daylight_Time": {
+            "lexicon_key": "Pacific_Daylight_Time"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Daylight_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala which is in the Pacific Daylight time zone has the population density of 1604."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala city which has a PDT time zone has a population density of 1604.0."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala's time zone is Pacific Daylight Time and its population density is 1604.0."
+        }
+    },
+    "gold_outputs": []
+}

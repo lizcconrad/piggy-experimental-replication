@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        },
+        "Noise_pop": {
+            "lexicon_key": "Noise_pop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Noise_rock",
+            "child_node": "Noise_pop",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Turn Me On song is a punk blues song, but the Turn Me On album is of the noise rock genre, which is a fusion of genre of noise pop."
+        },
+        "Id2": {
+            "text": "Punk blues and Noise rock is the genre of the album Turn me On, while Noise pop is a fusion genre, having elements from noise rock."
+        },
+        "Id3": {
+            "text": "Noise pop is a fusion genre that includes elements from, among others, noise rock. An example of noise rock is the punk blues album Turn Me On."
+        }
+    },
+    "gold_outputs": []
+}

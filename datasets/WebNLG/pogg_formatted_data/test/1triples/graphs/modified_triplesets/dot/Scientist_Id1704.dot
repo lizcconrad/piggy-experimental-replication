@@ -1,0 +1,5 @@
+strict digraph {
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+"1703-05-27" [lexicon_key="1703-05-27"];
+Saint_Petersburg -> "1703-05-27" [label=foundingDate, lexicon_key=foundingDate];
+}

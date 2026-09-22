@@ -1,0 +1,5 @@
+strict digraph {
+"AFC_Ajax_(amateurs)" [lexicon_key="AFC_Ajax_(amateurs)"];
+2014 [lexicon_key=2014];
+"AFC_Ajax_(amateurs)" -> 2014 [label=season, lexicon_key=season];
+}

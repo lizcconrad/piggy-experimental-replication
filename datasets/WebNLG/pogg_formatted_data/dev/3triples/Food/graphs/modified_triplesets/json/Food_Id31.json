@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Binignit": {
-            "lexicon_key": "Binignit"
+    "graphs": {
+        "Food_Id31_0": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Sweet_potato": {
+                    "lexicon_key": "Sweet_potato"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Binignit",
+                    "child_node": "Sweet_potato",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Binignit is a dish from the Philippines made from banana and sweet potato.",
+                "The binignit dish can be found in the Philippines. Two of the main ingredients in it are banana and sweet potato.",
+                "The main ingredients of Binignit are banana and sweet potatoes, and it can be found in the Philippines."
+            ]
         },
-        "Sweet_potato": {
-            "lexicon_key": "Sweet_potato"
+        "Food_Id31_1": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Banana": {
+                    "lexicon_key": "Banana"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mainIngredient",
+                    "parent_node": "Binignit",
+                    "child_node": "Banana",
+                    "edge_properties": {
+                        "lexicon_key": "mainIngredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Binignit is a dish from the Philippines made from banana and sweet potato.",
+                "The binignit dish can be found in the Philippines. Two of the main ingredients in it are banana and sweet potato.",
+                "The main ingredients of Binignit are banana and sweet potatoes, and it can be found in the Philippines."
+            ]
         },
-        "Banana": {
-            "lexicon_key": "Banana"
-        },
-        "Philippines": {
-            "lexicon_key": "Philippines"
+        "Food_Id31_2": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Philippines": {
+                    "lexicon_key": "Philippines"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Binignit",
+                    "child_node": "Philippines",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Binignit is a dish from the Philippines made from banana and sweet potato.",
+                "The binignit dish can be found in the Philippines. Two of the main ingredients in it are banana and sweet potato.",
+                "The main ingredients of Binignit are banana and sweet potatoes, and it can be found in the Philippines."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Binignit",
-            "child_node": "Sweet_potato",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "mainIngredient",
-            "parent_node": "Binignit",
-            "child_node": "Banana",
-            "edge_properties": {
-                "lexicon_key": "mainIngredient"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Binignit",
-            "child_node": "Philippines",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

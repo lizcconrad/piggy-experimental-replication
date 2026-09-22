@@ -1,0 +1,9 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+Detroit [lexicon_key=Detroit];
+Coupe [lexicon_key=Coupe];
+Pontiac [lexicon_key=Pontiac];
+Pontiac_Rageous -> Detroit [label=assembly, lexicon_key=assembly];
+Pontiac_Rageous -> Coupe [label=bodyStyle, lexicon_key=bodyStyle];
+Pontiac_Rageous -> Pontiac [label=manufacturer, lexicon_key=manufacturer];
+}

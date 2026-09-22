@@ -1,0 +1,5 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+"Massachusetts Institute of Technology, Sc.D. 1963" [lexicon_key="Massachusetts Institute of Technology, Sc.D. 1963"];
+Buzz_Aldrin -> "Massachusetts Institute of Technology, Sc.D. 1963" [label=almaMater, lexicon_key=almaMater];
+}

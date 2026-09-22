@@ -1,0 +1,9 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Israel [lexicon_key=Israel];
+German_Empire [lexicon_key="German_Empire"];
+"1908-05-02" [lexicon_key="1908-05-02"];
+Liselotte_Grschebina -> Israel [label=nationality, lexicon_key=nationality];
+Liselotte_Grschebina -> German_Empire [label=birthPlace, lexicon_key=birthPlace];
+Liselotte_Grschebina -> "1908-05-02" [label=birthDate, lexicon_key=birthDate];
+}

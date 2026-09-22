@@ -1,0 +1,7 @@
+strict digraph {
+"Turn_Me_On_(album)" [lexicon_key="Turn_Me_On_(album)"];
+Punk_blues [lexicon_key="Punk_blues"];
+"The_Honeymoon_Killers_(American_band)" [lexicon_key="The_Honeymoon_Killers_(American_band)"];
+"Turn_Me_On_(album)" -> Punk_blues [label=genre, lexicon_key=genre];
+"Turn_Me_On_(album)" -> "The_Honeymoon_Killers_(American_band)" [label=producer, lexicon_key=producer];
+}

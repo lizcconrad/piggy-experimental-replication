@@ -1,0 +1,5 @@
+strict digraph {
+Acta_Mathematica_Hungarica [lexicon_key="Acta_Mathematica_Hungarica"];
+83646315 [lexicon_key=83646315];
+Acta_Mathematica_Hungarica -> 83646315 [label="LCCN_number", lexicon_key="LCCN_number"];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Glen_Ridge,_New_Jersey": {
+            "lexicon_key": "Glen_Ridge,_New_Jersey"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Glen_Ridge,_New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buzz Aldrin, an Apollo 11 crew member, was born in Glen Ridge, New Jersey."
+        },
+        "Id2": {
+            "text": "Born in Glen Ridge, New Jersey, Buzz Aldrin was an Apollo 11 crew member."
+        },
+        "Id3": {
+            "text": "Buzz Aldrin born in Glen Ridge, New Jersey was a crew member of Apollo 11."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "0004319": {
+            "lexicon_key": "0004319"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "imdbId",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "0004319",
+            "edge_properties": {
+                "lexicon_key": "imdbId"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "McVeagh of the South Seas IMDb ID is 0004319."
+        },
+        "Id2": {
+            "text": "McVeagh of the South Seas is a film registered in IMDb with the ID 0004319."
+        },
+        "Id3": {
+            "text": "McVeagh of the South Seas' IMDb id is 0004319."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Twilight_(band)": {
+            "lexicon_key": "Twilight_(band)"
+        },
+        "Electric_guitar": {
+            "lexicon_key": "Electric_guitar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Twilight_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "instrument",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Electric_guitar",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aaron Turner plays the electric guitar with the band Twilight."
+        },
+        "Id2": {
+            "text": "Aaron Turner played electric guitar with the band Twilight."
+        },
+        "Id3": {
+            "text": "Aaron Turner played the electric guitar with the Band Twilight."
+        }
+    },
+    "gold_outputs": []
+}

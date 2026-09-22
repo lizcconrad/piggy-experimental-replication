@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Andrew_Rayel": {
+            "lexicon_key": "Andrew_Rayel"
+        },
+        "Bobina": {
+            "lexicon_key": "Bobina"
+        },
+        "Trance_music": {
+            "lexicon_key": "Trance_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Bobina",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Trance_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Trance artist Andrew Rayel is associated with Bobina."
+        },
+        "Id2": {
+            "text": "Andrew Rayel, a performer in the genre of Trance music, is associated with the musical artist, Bobina."
+        },
+        "Id3": {
+            "text": "Andrew Rayel's musical genre is trance music which is often associated with Bobina."
+        }
+    },
+    "gold_outputs": []
+}

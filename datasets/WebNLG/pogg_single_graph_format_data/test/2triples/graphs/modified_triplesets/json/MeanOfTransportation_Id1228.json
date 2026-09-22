@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "American_Locomotive_Company": {
+            "lexicon_key": "American_Locomotive_Company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "American_Locomotive_Company",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The American Locomotive Company made the ALCO RS-3 between May 1950 and August 1956."
+        },
+        "Id2": {
+            "text": "The ALCO RS-3, built by the American Locomotive Company, was produced between May 1950 and August 1956."
+        },
+        "Id3": {
+            "text": "American Locomotive Company produced the ALCO RS-3 between May 1950 and August 1956."
+        }
+    },
+    "gold_outputs": []
+}

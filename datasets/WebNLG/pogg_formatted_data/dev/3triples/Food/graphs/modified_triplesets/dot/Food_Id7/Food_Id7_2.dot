@@ -1,0 +1,5 @@
+strict digraph {
+Arrabbiata_sauce [lexicon_key="Arrabbiata_sauce"];
+Rome [lexicon_key=Rome];
+Arrabbiata_sauce -> Rome [label=region, lexicon_key=region];
+}

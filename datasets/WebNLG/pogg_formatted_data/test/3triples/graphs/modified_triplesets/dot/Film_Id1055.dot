@@ -1,0 +1,9 @@
+strict digraph {
+"It's_Great_to_Be_Young_(1956_film)" [lexicon_key="It's_Great_to_Be_Young_(1956_film)"];
+John_Mills [lexicon_key="John_Mills"];
+94.0 [lexicon_key=94.0];
+282838.0 [lexicon_key=282838.0];
+"It's_Great_to_Be_Young_(1956_film)" -> John_Mills [label=starring, lexicon_key=starring];
+"It's_Great_to_Be_Young_(1956_film)" -> 94.0 [label=runtime, lexicon_key=runtime];
+"It's_Great_to_Be_Young_(1956_film)" -> 282838.0 [label=gross, lexicon_key=gross];
+}

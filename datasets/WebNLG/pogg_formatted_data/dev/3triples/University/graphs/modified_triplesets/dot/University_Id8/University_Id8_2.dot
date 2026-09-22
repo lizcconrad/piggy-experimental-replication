@@ -1,0 +1,5 @@
+strict digraph {
+"School of Business and Social Sciences at the Aarhus University" [lexicon_key="School of Business and Social Sciences at the Aarhus University"];
+1928 [lexicon_key=1928];
+"School of Business and Social Sciences at the Aarhus University" -> 1928 [label=established, lexicon_key=established];
+}

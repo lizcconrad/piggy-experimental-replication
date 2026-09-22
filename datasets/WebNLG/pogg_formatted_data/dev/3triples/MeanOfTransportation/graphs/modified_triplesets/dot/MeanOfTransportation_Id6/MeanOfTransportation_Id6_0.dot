@@ -1,0 +1,5 @@
+strict digraph {
+"ALV_X-1" [lexicon_key="ALV_X-1"];
+United_States [lexicon_key="United_States"];
+"ALV_X-1" -> United_States [label=countryOrigin, lexicon_key=countryOrigin];
+}

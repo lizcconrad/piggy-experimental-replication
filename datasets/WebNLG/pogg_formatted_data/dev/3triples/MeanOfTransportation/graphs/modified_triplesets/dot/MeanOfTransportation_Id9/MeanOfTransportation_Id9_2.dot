@@ -1,0 +1,5 @@
+strict digraph {
+Gruppo_Bertone [lexicon_key="Gruppo_Bertone"];
+Italy [lexicon_key=Italy];
+Gruppo_Bertone -> Italy [label=country, lexicon_key=country];
+}

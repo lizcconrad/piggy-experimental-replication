@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "1989-02-24": {
+            "lexicon_key": "1989-02-24"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        },
+        "Otkrytiye_Arena": {
+            "lexicon_key": "Otkrytiye_Arena"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "1989-02-24",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "FC_Spartak_Moscow",
+            "child_node": "Otkrytiye_Arena",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov (born February 24th, 1989) played at the Otkrytiye Arena for FC Spartak Moscow."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov was born 1980-02-24 and he plays for FC Spartak Moscow whose home ground is Otkrytiye Arena."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov, who was born on the 24th of February 1989, plays for FC Spartak Moscow whose ground is the Otkrytiye Arena."
+        }
+    },
+    "gold_outputs": []
+}

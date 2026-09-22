@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Pacific_Standard_Time_Zone": {
+            "lexicon_key": "Pacific_Standard_Time_Zone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Standard_Time_Zone",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is in the Pacific Standard Time Zone."
+        },
+        "Id2": {
+            "text": "The timezone of Ciudad Ayala is the Pacific Standard Time Zone."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Chinabank",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Chinabank's location is the Philippines."
+        },
+        "Id2": {
+            "text": "Chinabank is located in the Philippines."
+        }
+    },
+    "gold_outputs": []
+}

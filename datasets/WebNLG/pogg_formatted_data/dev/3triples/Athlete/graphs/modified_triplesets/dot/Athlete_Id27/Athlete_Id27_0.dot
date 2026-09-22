@@ -1,0 +1,5 @@
+strict digraph {
+"United_Petrotrin_F.C." [lexicon_key="United_Petrotrin_F.C."];
+Palo_Seco [lexicon_key="Palo_Seco"];
+"United_Petrotrin_F.C." -> Palo_Seco [label=ground, lexicon_key=ground];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Terence_Rattigan [lexicon_key="Terence_Rattigan"];
+"1911-01-01" [lexicon_key="1911-01-01"];
+English_Without_Tears -> Terence_Rattigan [label=writer, lexicon_key=writer];
+Terence_Rattigan -> "1911-01-01" [label=birthDate, lexicon_key=birthDate];
+}

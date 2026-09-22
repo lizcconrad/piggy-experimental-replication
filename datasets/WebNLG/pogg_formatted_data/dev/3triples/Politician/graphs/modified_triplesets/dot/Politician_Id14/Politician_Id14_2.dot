@@ -1,0 +1,5 @@
+strict digraph {
+"Polish–Soviet_War" [lexicon_key="Polish–Soviet_War"];
+Leon_Trotsky [lexicon_key="Leon_Trotsky"];
+"Polish–Soviet_War" -> Leon_Trotsky [label=commander, lexicon_key=commander];
+}

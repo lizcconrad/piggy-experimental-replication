@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "1964-10-13": {
+            "lexicon_key": "1964-10-13"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "1964-10-13",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng, born on October 13, 1964, worked as a fighter pilot."
+        },
+        "Id2": {
+            "text": "Nie Haisheng is a former fighter pilot who was born on October 13, 1964."
+        },
+        "Id3": {
+            "text": "Nie Haisheng born on 10/13/1964 is a fighter pilot."
+        }
+    },
+    "gold_outputs": []
+}

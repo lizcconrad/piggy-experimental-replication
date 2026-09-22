@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "1776-02-18": {
+            "lexicon_key": "1776-02-18"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "1776-02-18",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson died on February 18, 1776."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson died on 1776-02-18."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson died on February 18th, 1776."
+        }
+    },
+    "gold_outputs": []
+}

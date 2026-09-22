@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Ray_Griggs_(director)": {
+            "lexicon_key": "Ray_Griggs_(director)"
+        },
+        "1974": {
+            "lexicon_key": "1974"
+        },
+        "Michael_Rooker": {
+            "lexicon_key": "Michael_Rooker"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Ray_Griggs_(director)",
+            "child_node": "1974",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Michael_Rooker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Michael Rooker starring to film Super Capers written by director Ray Griggs born in 1974."
+        },
+        "Id2": {
+            "text": "The film Super Capers, which starred Michael Rooker, was written and directed by Ray Griggs who was born in 1974."
+        },
+        "Id3": {
+            "text": "Michael Rooker played in Super Capers, which was written by Ray Griggs and directed by Ray Griggs (born in 1974)."
+        }
+    },
+    "gold_outputs": []
+}

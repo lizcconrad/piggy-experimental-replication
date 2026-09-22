@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "The Green Channel": {
+            "lexicon_key": "The Green Channel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "formerName",
+            "parent_node": "HBO",
+            "child_node": "The Green Channel",
+            "edge_properties": {
+                "lexicon_key": "formerName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "HBO's former name was 'The Green Channel'."
+        },
+        "Id2": {
+            "text": "HBO's former name was The Green Channel."
+        }
+    },
+    "gold_outputs": []
+}

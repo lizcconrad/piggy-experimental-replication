@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Brian_Kelly_(composer_&_pianist)": {
+            "lexicon_key": "Brian_Kelly_(composer_&_pianist)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Artist Brian Kelly, who is a composer and pianist, created and produced Expect a Miracle."
+        },
+        "Id2": {
+            "text": "Expect a Miracle was recorded and produced by Brian Kelly."
+        },
+        "Id3": {
+            "text": "Brian Kelly is the author of \"Expect a Miracle\", an album produced by Brian Kelly."
+        }
+    },
+    "gold_outputs": []
+}

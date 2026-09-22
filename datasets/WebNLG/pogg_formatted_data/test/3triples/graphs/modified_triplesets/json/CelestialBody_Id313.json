@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "418476000000.0": {
+            "lexicon_key": "418476000000.0"
+        },
+        "1249.6": {
+            "lexicon_key": "1249.6"
+        },
+        "11.5": {
+            "lexicon_key": "11.5"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "418476000000.0",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1249.6",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        },
+        {
+            "edge_name": "absoluteMagnitude",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "11.5",
+            "edge_properties": {
+                "lexicon_key": "absoluteMagnitude"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis has an absolute magnitude of 11.5. Its apoapsis is 418476000000.0 and the orbital period of the asteroid is 1249.6 days."
+        },
+        "Id2": {
+            "text": "The absolute magnitude of 1147 Stavropolis is 11.5. The orbital period of the asteroid is 1249.6 days, and the apoapsis is 418476000000.0."
+        },
+        "Id3": {
+            "text": "The asteroid 1147 Stavropolis has an apoapsis of 418476000000.0 AU, an orbital period of 1249.6, and an absolute magnitude of 11.5."
+        }
+    },
+    "gold_outputs": []
+}

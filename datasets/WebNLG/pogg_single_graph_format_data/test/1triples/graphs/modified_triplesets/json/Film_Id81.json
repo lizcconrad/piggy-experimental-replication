@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Ray_Griggs_(director)": {
+            "lexicon_key": "Ray_Griggs_(director)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The movie \"Super Capers\" was directed by Ray Griggs."
+        },
+        "Id2": {
+            "text": "Super Capers is directed by Ray Griggs."
+        },
+        "Id3": {
+            "text": "Ray Griggs is the director of Super Capers."
+        }
+    },
+    "gold_outputs": []
+}

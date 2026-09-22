@@ -1,0 +1,5 @@
+strict digraph {
+Alpena_County_Regional_Airport [lexicon_key="Alpena_County_Regional_Airport"];
+210 [lexicon_key=210];
+Alpena_County_Regional_Airport -> 210 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

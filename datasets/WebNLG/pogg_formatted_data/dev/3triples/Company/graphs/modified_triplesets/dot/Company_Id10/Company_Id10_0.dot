@@ -1,0 +1,5 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+Ireland [lexicon_key=Ireland];
+Trane -> Ireland [label=location, lexicon_key=location];
+}

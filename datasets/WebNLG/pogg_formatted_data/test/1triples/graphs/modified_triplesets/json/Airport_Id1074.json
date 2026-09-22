@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "Longfield": {
+            "lexicon_key": "Longfield"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "MotorSport_Vision",
+            "child_node": "Longfield",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "MotorSport Vision is based in the city of Longfield, Kent."
+        },
+        "Id2": {
+            "text": "The MotorSport Vision location is the city of Longfield."
+        },
+        "Id3": {
+            "text": "MotorSport Vision is in the city of Longfield."
+        }
+    },
+    "gold_outputs": []
+}

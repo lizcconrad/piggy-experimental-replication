@@ -1,0 +1,5 @@
+strict digraph {
+Asam_pedas [lexicon_key="Asam_pedas"];
+"Fish cooked in sour and hot sauce" [lexicon_key="Fish cooked in sour and hot sauce"];
+Asam_pedas -> "Fish cooked in sour and hot sauce" [label=mainIngredient, lexicon_key=mainIngredient];
+}

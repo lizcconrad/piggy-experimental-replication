@@ -1,0 +1,5 @@
+strict digraph {
+"Take_It_Off!" [lexicon_key="Take_It_Off!"];
+Wharton_Tiers [lexicon_key="Wharton_Tiers"];
+"Take_It_Off!" -> Wharton_Tiers [label=producer, lexicon_key=producer];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Shenzhou_10": {
+            "lexicon_key": "Shenzhou_10"
+        },
+        "Shenzhou_6": {
+            "lexicon_key": "Shenzhou_6"
+        },
+        "People's_Republic_of_China": {
+            "lexicon_key": "People's_Republic_of_China"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Shenzhou_10",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Shenzhou_6",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "People's_Republic_of_China",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng is from the People's Republic of China, and he was part of the mission Shenzhou 10, now took part in the Shenzhou 6 mission."
+        },
+        "Id2": {
+            "text": "Chinese national Nie Haisheng participated in Shenzhou 6 and Shenzhou 10."
+        },
+        "Id3": {
+            "text": "Nie Haisheng was part of Shenzhou 10 mission, took part in the Shenzhou 6 mission, and he is from the People's Republic of China."
+        }
+    },
+    "gold_outputs": []
+}

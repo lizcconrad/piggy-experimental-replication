@@ -1,0 +1,5 @@
+strict digraph {
+Albert_Jennings_Fountain [lexicon_key="Albert_Jennings_Fountain"];
+New_Mexico_Territory [lexicon_key="New_Mexico_Territory"];
+Albert_Jennings_Fountain -> New_Mexico_Territory [label=deathPlace, lexicon_key=deathPlace];
+}

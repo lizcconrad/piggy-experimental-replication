@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Anthropic_principle": {
+            "lexicon_key": "Anthropic_principle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Anthropic_principle",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter is well known for Anthropic principle theory."
+        },
+        "Id2": {
+            "text": "Brandon Carter is known for his work on the Anthropic Principle."
+        }
+    },
+    "gold_outputs": []
+}

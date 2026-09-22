@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "Unitary_state": {
+            "lexicon_key": "Unitary_state"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Kingdom_of_England",
+            "child_node": "Unitary_state",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Kingdom of England, the place where Lady Anne Monson was born, was a unitary state."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson was born in the Kingdom of England, which has a unitary state form of government."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson\u2019s Kingdom of England birthplace used a unitary state form of government."
+        }
+    },
+    "gold_outputs": []
+}

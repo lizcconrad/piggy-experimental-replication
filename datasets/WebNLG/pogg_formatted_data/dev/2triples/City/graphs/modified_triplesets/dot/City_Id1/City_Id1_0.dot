@@ -1,0 +1,5 @@
+strict digraph {
+"Albany,_Georgia" [lexicon_key="Albany,_Georgia"];
+United_States [lexicon_key="United_States"];
+"Albany,_Georgia" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

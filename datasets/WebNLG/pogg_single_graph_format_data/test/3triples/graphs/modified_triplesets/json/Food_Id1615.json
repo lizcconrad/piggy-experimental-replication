@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Sandesh_(confectionery)": {
+            "lexicon_key": "Sandesh_(confectionery)"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Dessert",
+            "child_node": "Sandesh_(confectionery)",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico (a dish served for dessert) is a food found in Mexico. Sandesh is a nice confectionery dessert."
+        },
+        "Id2": {
+            "text": "Bionico is a food found in Mexico which is served as a dessert. Sandesh (confectionery) is also a dish that can be served as a dessert."
+        },
+        "Id3": {
+            "text": "Bionico, Sandesh are both dessert food found in Mexico."
+        }
+    },
+    "gold_outputs": []
+}

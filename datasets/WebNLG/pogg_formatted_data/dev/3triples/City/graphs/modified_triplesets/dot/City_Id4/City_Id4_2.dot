@@ -1,0 +1,5 @@
+strict digraph {
+"Albany,_Oregon" [lexicon_key="Albany,_Oregon"];
+"Benton_County,_Oregon" [lexicon_key="Benton_County,_Oregon"];
+"Albany,_Oregon" -> "Benton_County,_Oregon" [label=isPartOf, lexicon_key=isPartOf];
+}

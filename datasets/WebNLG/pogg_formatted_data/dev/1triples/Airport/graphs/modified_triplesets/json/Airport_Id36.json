@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Saranac_Lake,_New_York": {
-            "lexicon_key": "Saranac_Lake,_New_York"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "Airport_Id36_0": {
+            "nodes": {
+                "Saranac_Lake,_New_York": {
+                    "lexicon_key": "Saranac_Lake,_New_York"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Saranac_Lake,_New_York",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Saranac Lake, New York is part of the United States.",
+                "Saranac Lake, New York, is part of the United States."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Saranac_Lake,_New_York",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

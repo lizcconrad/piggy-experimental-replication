@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Shenzhou_10": {
+            "lexicon_key": "Shenzhou_10"
+        },
+        "Shenzhou_6": {
+            "lexicon_key": "Shenzhou_6"
+        },
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Shenzhou_10",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Shenzhou_6",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Zaoyang",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng, born in Zaoyang took part in the Shenzhou 6 mission was part of the mission Shenzhou 10."
+        },
+        "Id2": {
+            "text": "Nie Haisheng who was part of Shenzhou 10 mission and took part in the Shenzhou 6 mission, was born in Zaoyang."
+        },
+        "Id3": {
+            "text": "Nie Haisheng, born in Zaoyang, who was a crew member on Shenzhou 6, took part in the Shenzhou 10 mission."
+        }
+    },
+    "gold_outputs": []
+}

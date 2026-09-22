@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        },
+        "11.5": {
+            "lexicon_key": "11.5"
+        },
+        "1929-06-11": {
+            "lexicon_key": "1929-06-11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "absoluteMagnitude",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "11.5",
+            "edge_properties": {
+                "lexicon_key": "absoluteMagnitude"
+            }
+        },
+        {
+            "edge_name": "discovered",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1929-06-11",
+            "edge_properties": {
+                "lexicon_key": "discovered"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis is an asteroid that was discovered on June 11, 1929 by Grigory Neujmin. The absolute magnitude of 1147 Stavropolis is 11.5."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis, discovered by Grigory Neujmin on June 11, 1929, has an absolute magnitude of absolute magnitude of 11.5."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis has an absolute magnitude of 11.5. It was discovered on June 11, 1929 by Grigory Neujmin."
+        }
+    },
+    "gold_outputs": []
+}

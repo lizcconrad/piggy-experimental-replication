@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Aaron_S._Daggett": {
-            "lexicon_key": "Aaron_S._Daggett"
+    "graphs": {
+        "Politician_Id1_0": {
+            "nodes": {
+                "Aaron_S._Daggett": {
+                    "lexicon_key": "Aaron_S._Daggett"
+                },
+                "Purple_Heart": {
+                    "lexicon_key": "Purple_Heart"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "award",
+                    "parent_node": "Aaron_S._Daggett",
+                    "child_node": "Purple_Heart",
+                    "edge_properties": {
+                        "lexicon_key": "award"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron S Daggett was awarded the Purple Heart and fought in the Battle of Fredericksburg.",
+                "Aaron S Daggett, fought in battles, most notably the Battle of Fredericksburg, he was awarded the Purple Heart.",
+                "Aaron S. Daggett fought in the Battle of Fredericksburg and received the Purple Heart."
+            ]
         },
-        "Purple_Heart": {
-            "lexicon_key": "Purple_Heart"
-        },
-        "Battle_of_Fredericksburg": {
-            "lexicon_key": "Battle_of_Fredericksburg"
+        "Politician_Id1_1": {
+            "nodes": {
+                "Aaron_S._Daggett": {
+                    "lexicon_key": "Aaron_S._Daggett"
+                },
+                "Battle_of_Fredericksburg": {
+                    "lexicon_key": "Battle_of_Fredericksburg"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Aaron_S._Daggett",
+                    "child_node": "Battle_of_Fredericksburg",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron S Daggett was awarded the Purple Heart and fought in the Battle of Fredericksburg.",
+                "Aaron S Daggett, fought in battles, most notably the Battle of Fredericksburg, he was awarded the Purple Heart.",
+                "Aaron S. Daggett fought in the Battle of Fredericksburg and received the Purple Heart."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "award",
-            "parent_node": "Aaron_S._Daggett",
-            "child_node": "Purple_Heart",
-            "edge_properties": {
-                "lexicon_key": "award"
-            }
-        },
-        {
-            "edge_name": "battle",
-            "parent_node": "Aaron_S._Daggett",
-            "child_node": "Battle_of_Fredericksburg",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

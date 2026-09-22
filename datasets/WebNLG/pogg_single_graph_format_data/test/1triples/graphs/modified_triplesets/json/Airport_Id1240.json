@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Concrete": {
+            "lexicon_key": "Concrete"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwaySurfaceType",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Concrete",
+            "edge_properties": {
+                "lexicon_key": "runwaySurfaceType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The runway surface of the Bedford Aerodrome is made of concrete."
+        },
+        "Id2": {
+            "text": "The Bedford Aerodrome runway surface is made out of concrete."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome has a runway surface made of concrete."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "185.0 (centimetres)": {
+            "lexicon_key": "185.0 (centimetres)"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        },
+        "FC_Terek_Grozny": {
+            "lexicon_key": "FC_Terek_Grozny"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "185.0 (centimetres)",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Terek_Grozny",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov, who is 185 cm tall, once played for FC Spartak Moscow's youth team and now turns out for FC Terek Grozny."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov is in the FC Terek Grozny club and he is a member of the youth side of FC Spartak Moscow. His height is 185 cm."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov who is 185.0cm tall played for FC Terek Grozny and FC Spartak Moscow, a youth football club."
+        }
+    },
+    "gold_outputs": []
+}

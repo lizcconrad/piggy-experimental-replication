@@ -1,0 +1,9 @@
+strict digraph {
+Aleksandr_Prudnikov [lexicon_key="Aleksandr_Prudnikov"];
+"1989-02-24" [lexicon_key="1989-02-24"];
+FC_Terek_Grozny [lexicon_key="FC_Terek_Grozny"];
+Rashid_Rakhimov [lexicon_key="Rashid_Rakhimov"];
+Aleksandr_Prudnikov -> "1989-02-24" [label=birthDate, lexicon_key=birthDate];
+Aleksandr_Prudnikov -> FC_Terek_Grozny [label=club, lexicon_key=club];
+FC_Terek_Grozny -> Rashid_Rakhimov [label=manager, lexicon_key=manager];
+}

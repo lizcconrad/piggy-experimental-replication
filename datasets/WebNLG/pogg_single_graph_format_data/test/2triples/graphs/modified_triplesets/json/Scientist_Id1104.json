@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        },
+        "League_of_European_Research_Universities": {
+            "lexicon_key": "League_of_European_Research_Universities"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Brandon_Carter",
+            "child_node": "University_of_Cambridge",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "affiliation",
+            "parent_node": "University_of_Cambridge",
+            "child_node": "League_of_European_Research_Universities",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "University of Cambridge is affiliated with the League of European Research Universities and is the alma mater of Brandon Carter."
+        },
+        "Id2": {
+            "text": "Brandon Carter graduated from the University of Cambridge which is affiliated with the League of European Research Universities."
+        },
+        "Id3": {
+            "text": "Brandon Carter's alma mater is the University of Cambridge affiliated with the League of European Research Universities."
+        }
+    },
+    "gold_outputs": []
+}

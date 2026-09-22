@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "1997": {
+            "lexicon_key": "1997"
+        },
+        "Pontiac": {
+            "lexicon_key": "Pontiac"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "productionStartYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionStartYear"
+            }
+        },
+        {
+            "edge_name": "productionEndYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionEndYear"
+            }
+        },
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Pontiac",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous was a car manufactured by Pontiac which both began and ended production in 1997."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous was first produced in 1997, last produced in 1997 and was manufactured by Pontiac."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous manufactured by Pontiac was first and last produced in 1997."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Singapore [lexicon_key=Singapore];
+Tony_Tan [lexicon_key="Tony_Tan"];
+Singapore -> Tony_Tan [label=leader, lexicon_key=leader];
+}

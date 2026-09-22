@@ -1,0 +1,9 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+"1991-12-09" [lexicon_key="1991-12-09"];
+Economics [lexicon_key=Economics];
+Mathematics [lexicon_key=Mathematics];
+Olga_Bondareva -> "1991-12-09" [label=deathDate, lexicon_key=deathDate];
+Olga_Bondareva -> Economics [label=professionalField, lexicon_key=professionalField];
+Olga_Bondareva -> Mathematics [label=professionalField, lexicon_key=professionalField];
+}

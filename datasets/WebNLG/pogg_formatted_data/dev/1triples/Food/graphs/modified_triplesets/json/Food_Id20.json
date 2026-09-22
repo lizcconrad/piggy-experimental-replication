@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Batchoy": {
-            "lexicon_key": "Batchoy"
-        },
-        "Chicken": {
-            "lexicon_key": "Chicken"
+    "graphs": {
+        "Food_Id20_0": {
+            "nodes": {
+                "Batchoy": {
+                    "lexicon_key": "Batchoy"
+                },
+                "Chicken": {
+                    "lexicon_key": "Chicken"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Batchoy",
+                    "child_node": "Chicken",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Batchoy includes chicken.",
+                "Chicken is an ingredient in Batchoy."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Batchoy",
-            "child_node": "Chicken",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

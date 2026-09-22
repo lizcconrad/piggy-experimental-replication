@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Arem-arem": {
-            "lexicon_key": "Arem-arem"
+    "graphs": {
+        "Food_Id3_0": {
+            "nodes": {
+                "Arem-arem": {
+                    "lexicon_key": "Arem-arem"
+                },
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Arem-arem",
+                    "child_node": "Indonesia",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arem arem originates from Indonesia where two of the leaders are Joko Widodo and Jusuf Kalla.",
+                "Arem arem originates from the country of Indonesia, where two of the leaders are, Joko Widodo and Jusuf Kalla."
+            ]
         },
-        "Indonesia": {
-            "lexicon_key": "Indonesia"
+        "Food_Id3_1": {
+            "nodes": {
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                },
+                "Joko_Widodo": {
+                    "lexicon_key": "Joko_Widodo"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Indonesia",
+                    "child_node": "Joko_Widodo",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arem arem originates from Indonesia where two of the leaders are Joko Widodo and Jusuf Kalla.",
+                "Arem arem originates from the country of Indonesia, where two of the leaders are, Joko Widodo and Jusuf Kalla."
+            ]
         },
-        "Joko_Widodo": {
-            "lexicon_key": "Joko_Widodo"
-        },
-        "Jusuf_Kalla": {
-            "lexicon_key": "Jusuf_Kalla"
+        "Food_Id3_2": {
+            "nodes": {
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                },
+                "Jusuf_Kalla": {
+                    "lexicon_key": "Jusuf_Kalla"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Indonesia",
+                    "child_node": "Jusuf_Kalla",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Arem arem originates from Indonesia where two of the leaders are Joko Widodo and Jusuf Kalla.",
+                "Arem arem originates from the country of Indonesia, where two of the leaders are, Joko Widodo and Jusuf Kalla."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Arem-arem",
-            "child_node": "Indonesia",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Indonesia",
-            "child_node": "Joko_Widodo",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Indonesia",
-            "child_node": "Jusuf_Kalla",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

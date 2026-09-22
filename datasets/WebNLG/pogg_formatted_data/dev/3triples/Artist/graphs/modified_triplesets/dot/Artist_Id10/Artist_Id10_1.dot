@@ -1,0 +1,5 @@
+strict digraph {
+"Agustín_Barboza" [lexicon_key="Agustín_Barboza"];
+"Guarania_(music)" [lexicon_key="Guarania_(music)"];
+"Agustín_Barboza" -> "Guarania_(music)" [label=genre, lexicon_key=genre];
+}

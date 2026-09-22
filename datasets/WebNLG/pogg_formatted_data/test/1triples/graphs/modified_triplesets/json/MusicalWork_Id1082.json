@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "St._Louis,_Missouri": {
+            "lexicon_key": "St._Louis,_Missouri"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "St._Louis,_Missouri",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The location that the Bootleg Series Volume 1: The Quine Tapes was recorded in was St. Louis Missouri."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded in St. Louis, Missouri."
+        },
+        "Id3": {
+            "text": "The Quine tapes were recorded in St. Louis, Missouri."
+        }
+    },
+    "gold_outputs": []
+}

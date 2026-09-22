@@ -1,0 +1,5 @@
+strict digraph {
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+Lou_Reed [lexicon_key="Lou_Reed"];
+The_Velvet_Underground -> Lou_Reed [label=formerBandMember, lexicon_key=formerBandMember];
+}

@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Caterpillar_Inc.": {
-            "lexicon_key": "Caterpillar_Inc."
-        },
-        "California": {
-            "lexicon_key": "California"
+    "graphs": {
+        "MeanOfTransportation_Id28_0": {
+            "nodes": {
+                "Caterpillar_Inc.": {
+                    "lexicon_key": "Caterpillar_Inc."
+                },
+                "California": {
+                    "lexicon_key": "California"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "foundationPlace",
+                    "parent_node": "Caterpillar_Inc.",
+                    "child_node": "California",
+                    "edge_properties": {
+                        "lexicon_key": "foundationPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Caterpillar Inc was founded in California.",
+                "The company, Caterpillar, Inc. was founded in California.",
+                "The foundation place of Caterpillar Inc. was California."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "foundationPlace",
-            "parent_node": "Caterpillar_Inc.",
-            "child_node": "California",
-            "edge_properties": {
-                "lexicon_key": "foundationPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

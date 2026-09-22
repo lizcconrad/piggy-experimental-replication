@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Columbia_Records": {
+            "lexicon_key": "Columbia_Records"
+        },
+        "Sony_Music_Entertainment": {
+            "lexicon_key": "Sony_Music_Entertainment"
+        },
+        "Sony_Corporation": {
+            "lexicon_key": "Sony_Corporation"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Columbia_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Sony_Music_Entertainment",
+            "child_node": "Sony_Corporation",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Sony_Music_Entertainment",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The band Train\u2019s hit song Mermaid was released under the record label Columbia Records and also Sony Music Entertainment which is owned by the Sony Corporation."
+        },
+        "Id2": {
+            "text": "The song Mermaid, by the band Train, is on Columbia Records under the Sony Music Entertainment label, which is owned by Sony Corporation."
+        },
+        "Id3": {
+            "text": "Mermaid, a song by Train, was initially released on the Columbia Records record label, but it has also been released under the record label Sony Music Entertainment, which is owned by Sony Corporation."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "A_Severed_Wasp": {
-            "lexicon_key": "A_Severed_Wasp"
+    "graphs": {
+        "WrittenWork_Id16_0": {
+            "nodes": {
+                "A_Severed_Wasp": {
+                    "lexicon_key": "A_Severed_Wasp"
+                },
+                "\"388\"": {
+                    "lexicon_key": "\"388\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfPages",
+                    "parent_node": "A_Severed_Wasp",
+                    "child_node": "\"388\"",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfPages"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "\"A Severed Wasp\" is in print, has 388 pages and has an ISBN number of \"0-374-26131-8\".",
+                "A Severed Wasp (ISBN number 0-374-26131-8) has 388 pages altogether and is available in print.",
+                "A Severed Wasp has an ISBN number of \"0-374-26131-8\", 388 pages and can be found in print."
+            ]
         },
-        "\"388\"": {
-            "lexicon_key": "\"388\""
+        "WrittenWork_Id16_1": {
+            "nodes": {
+                "A_Severed_Wasp": {
+                    "lexicon_key": "A_Severed_Wasp"
+                },
+                "\"Print\"": {
+                    "lexicon_key": "\"Print\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mediaType",
+                    "parent_node": "A_Severed_Wasp",
+                    "child_node": "\"Print\"",
+                    "edge_properties": {
+                        "lexicon_key": "mediaType"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "\"A Severed Wasp\" is in print, has 388 pages and has an ISBN number of \"0-374-26131-8\".",
+                "A Severed Wasp (ISBN number 0-374-26131-8) has 388 pages altogether and is available in print.",
+                "A Severed Wasp has an ISBN number of \"0-374-26131-8\", 388 pages and can be found in print."
+            ]
         },
-        "\"Print\"": {
-            "lexicon_key": "\"Print\""
-        },
-        "\"0-374-26131-8\"": {
-            "lexicon_key": "\"0-374-26131-8\""
+        "WrittenWork_Id16_2": {
+            "nodes": {
+                "A_Severed_Wasp": {
+                    "lexicon_key": "A_Severed_Wasp"
+                },
+                "\"0-374-26131-8\"": {
+                    "lexicon_key": "\"0-374-26131-8\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isbnNumber",
+                    "parent_node": "A_Severed_Wasp",
+                    "child_node": "\"0-374-26131-8\"",
+                    "edge_properties": {
+                        "lexicon_key": "isbnNumber"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "\"A Severed Wasp\" is in print, has 388 pages and has an ISBN number of \"0-374-26131-8\".",
+                "A Severed Wasp (ISBN number 0-374-26131-8) has 388 pages altogether and is available in print.",
+                "A Severed Wasp has an ISBN number of \"0-374-26131-8\", 388 pages and can be found in print."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "numberOfPages",
-            "parent_node": "A_Severed_Wasp",
-            "child_node": "\"388\"",
-            "edge_properties": {
-                "lexicon_key": "numberOfPages"
-            }
-        },
-        {
-            "edge_name": "mediaType",
-            "parent_node": "A_Severed_Wasp",
-            "child_node": "\"Print\"",
-            "edge_properties": {
-                "lexicon_key": "mediaType"
-            }
-        },
-        {
-            "edge_name": "isbnNumber",
-            "parent_node": "A_Severed_Wasp",
-            "child_node": "\"0-374-26131-8\"",
-            "edge_properties": {
-                "lexicon_key": "isbnNumber"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

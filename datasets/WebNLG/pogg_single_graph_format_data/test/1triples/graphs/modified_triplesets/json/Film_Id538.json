@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "The_Progressive_Motion_Picture_Company": {
+            "lexicon_key": "The_Progressive_Motion_Picture_Company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "The_Progressive_Motion_Picture_Company",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The film McVeagh of the South Seas was produced by the Progressive Motion Picture Company."
+        },
+        "Id2": {
+            "text": "The producer of McVeagh of the South Seas is the Progressive Motion Picture Company."
+        },
+        "Id3": {
+            "text": "McVeagh of the South Seas is produced by the Progressive Motion Picture Company."
+        }
+    },
+    "gold_outputs": []
+}

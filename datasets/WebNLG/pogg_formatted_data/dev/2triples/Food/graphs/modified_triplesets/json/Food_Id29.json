@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Binignit": {
-            "lexicon_key": "Binignit"
+    "graphs": {
+        "Food_Id29_0": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Sweet_potato": {
+                    "lexicon_key": "Sweet_potato"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Binignit",
+                    "child_node": "Sweet_potato",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Binignit has the ingredients sweet potato and sago.",
+                "Sago is the main ingredient in binignit but sweet potatoes are also used in it.",
+                "Sweet potato and sago are main ingredients in Binignit."
+            ]
         },
-        "Sweet_potato": {
-            "lexicon_key": "Sweet_potato"
-        },
-        "Sago": {
-            "lexicon_key": "Sago"
+        "Food_Id29_1": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Sago": {
+                    "lexicon_key": "Sago"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mainIngredient",
+                    "parent_node": "Binignit",
+                    "child_node": "Sago",
+                    "edge_properties": {
+                        "lexicon_key": "mainIngredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Binignit has the ingredients sweet potato and sago.",
+                "Sago is the main ingredient in binignit but sweet potatoes are also used in it.",
+                "Sweet potato and sago are main ingredients in Binignit."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Binignit",
-            "child_node": "Sweet_potato",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "mainIngredient",
-            "parent_node": "Binignit",
-            "child_node": "Sago",
-            "edge_properties": {
-                "lexicon_key": "mainIngredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

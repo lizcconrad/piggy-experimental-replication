@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "GMA_Network_(company)": {
+            "lexicon_key": "GMA_Network_(company)"
+        },
+        "Public_company": {
+            "lexicon_key": "Public_company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "type",
+            "parent_node": "GMA_Network_(company)",
+            "child_node": "Public_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA Network is a public company."
+        },
+        "Id2": {
+            "text": "GMA Network is a Public Company."
+        }
+    },
+    "gold_outputs": []
+}

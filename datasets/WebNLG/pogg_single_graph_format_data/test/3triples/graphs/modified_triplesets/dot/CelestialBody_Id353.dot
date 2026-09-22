@@ -1,0 +1,9 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+"31 July 2016 (JD2457600.5)" [lexicon_key="31 July 2016 (JD2457600.5)"];
+260855000000.0 [lexicon_key=260855000000.0];
+1249.6 [lexicon_key=1249.6];
+"1147_Stavropolis" -> "31 July 2016 (JD2457600.5)" [label=epoch, lexicon_key=epoch];
+"1147_Stavropolis" -> 260855000000.0 [label=periapsis, lexicon_key=periapsis];
+"1147_Stavropolis" -> 1249.6 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

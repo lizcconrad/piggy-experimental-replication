@@ -1,0 +1,5 @@
+strict digraph {
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+48.0 [lexicon_key=48.0];
+"Anaheim,_California" -> 48.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

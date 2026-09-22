@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Hypermarcas": {
-            "lexicon_key": "Hypermarcas"
+    "graphs": {
+        "Company_Id7_0": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "CEO": {
+                    "lexicon_key": "CEO"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "keyPerson",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "CEO",
+                    "edge_properties": {
+                        "lexicon_key": "keyPerson"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas is a type of S.A. corporation, and their CEO acts as their key person.",
+                "Hypermarcas is an S.A. corporation with its CEO as its key person.",
+                "Hypermarcas, a type of S.A (corporation) is managed by their CEO."
+            ]
         },
-        "CEO": {
-            "lexicon_key": "CEO"
-        },
-        "S.A._(corporation)": {
-            "lexicon_key": "S.A._(corporation)"
+        "Company_Id7_1": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "S.A._(corporation)": {
+                    "lexicon_key": "S.A._(corporation)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "type",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "S.A._(corporation)",
+                    "edge_properties": {
+                        "lexicon_key": "type"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas is a type of S.A. corporation, and their CEO acts as their key person.",
+                "Hypermarcas is an S.A. corporation with its CEO as its key person.",
+                "Hypermarcas, a type of S.A (corporation) is managed by their CEO."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "keyPerson",
-            "parent_node": "Hypermarcas",
-            "child_node": "CEO",
-            "edge_properties": {
-                "lexicon_key": "keyPerson"
-            }
-        },
-        {
-            "edge_name": "type",
-            "parent_node": "Hypermarcas",
-            "child_node": "S.A._(corporation)",
-            "edge_properties": {
-                "lexicon_key": "type"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

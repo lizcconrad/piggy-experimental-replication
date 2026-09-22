@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "State_Award_for_Superior_Achievement": {
+            "lexicon_key": "State_Award_for_Superior_Achievement"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "award",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "State_Award_for_Superior_Achievement",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy won State Award for Superior Achievement."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy was awarded the State Award for Superior Achievement."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy is a recipient of the State Award for Superior Achievement."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "83.0": {
+            "lexicon_key": "83.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "83.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Death on a Factory Farm has a duration of 83 minutes."
+        },
+        "Id2": {
+            "text": "Death on a Factory Farm has a running time of 83.0."
+        },
+        "Id3": {
+            "text": "The film \u2018Death on a Factory Farm\u2019 lasts 83 minutes."
+        }
+    },
+    "gold_outputs": []
+}

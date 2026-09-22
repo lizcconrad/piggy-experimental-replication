@@ -1,0 +1,5 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+"Miri,_Malaysia" [lexicon_key="Miri,_Malaysia"];
+Abdul_Taib_Mahmud -> "Miri,_Malaysia" [label=birthPlace, lexicon_key=birthPlace];
+}

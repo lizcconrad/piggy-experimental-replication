@@ -1,0 +1,9 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"Dr. G. P. Prabhukumar" [lexicon_key="Dr. G. P. Prabhukumar"];
+Visvesvaraya_Technological_University [lexicon_key="Visvesvaraya_Technological_University"];
+"India" [lexicon_key="India"];
+Acharya_Institute_of_Technology -> "Dr. G. P. Prabhukumar" [label=director, lexicon_key=director];
+Acharya_Institute_of_Technology -> Visvesvaraya_Technological_University [label=affiliation, lexicon_key=affiliation];
+Acharya_Institute_of_Technology -> "India" [label=country, lexicon_key=country];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Sri_Lanka [lexicon_key="Sri_Lanka"];
+Tamil_language [lexicon_key="Tamil_language"];
+Sri_Lanka -> Tamil_language [label=language, lexicon_key=language];
+}

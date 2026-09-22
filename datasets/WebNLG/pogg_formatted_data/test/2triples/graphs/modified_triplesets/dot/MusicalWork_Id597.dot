@@ -1,0 +1,7 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+Rock_music [lexicon_key="Rock_music"];
+"Proto-punk" [lexicon_key="Proto-punk"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Rock_music [label=genre, lexicon_key=genre];
+Rock_music -> "Proto-punk" [label=musicSubgenre, lexicon_key=musicSubgenre];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Dijon": {
+            "lexicon_key": "Dijon"
+        },
+        "21000": {
+            "lexicon_key": "21000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "postalCode",
+            "parent_node": "Dijon",
+            "child_node": "21000",
+            "edge_properties": {
+                "lexicon_key": "postalCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The postal code for Dijon is 21000."
+        },
+        "Id2": {
+            "text": "The postal code of Dijon is 21000."
+        }
+    },
+    "gold_outputs": []
+}

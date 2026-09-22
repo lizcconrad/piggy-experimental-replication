@@ -1,0 +1,5 @@
+strict digraph {
+Reşadiye [lexicon_key=Reşadiye];
+Tokat_Province [lexicon_key="Tokat_Province"];
+Reşadiye -> Tokat_Province [label=isPartOf, lexicon_key=isPartOf];
+}

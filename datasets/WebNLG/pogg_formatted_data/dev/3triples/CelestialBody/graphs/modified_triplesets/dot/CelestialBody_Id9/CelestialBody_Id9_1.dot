@@ -1,0 +1,5 @@
+strict digraph {
+"107_Camilla" [lexicon_key="107_Camilla"];
+"479343000.0 (kilometres)" [lexicon_key="479343000.0 (kilometres)"];
+"107_Camilla" -> "479343000.0 (kilometres)" [label=periapsis, lexicon_key=periapsis];
+}

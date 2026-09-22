@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        },
+        "David_Sainsbury,_Baron_Sainsbury_of_Turville": {
+            "lexicon_key": "David_Sainsbury,_Baron_Sainsbury_of_Turville"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "chancellor",
+            "parent_node": "University_of_Cambridge",
+            "child_node": "David_Sainsbury,_Baron_Sainsbury_of_Turville",
+            "edge_properties": {
+                "lexicon_key": "chancellor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The chancellor of the University of Cambridge is David Sainsbury, Baron Sainsbury of Turville."
+        },
+        "Id2": {
+            "text": "A chancellor of the University of Cambridge is David Sainsbury, who is also known as Baron Sainsbury of Turville."
+        },
+        "Id3": {
+            "text": "David Sainsbury, also known as the Baron Sainsbury of Turville, is the chancellor of the University of Cambridge."
+        }
+    },
+    "gold_outputs": []
+}

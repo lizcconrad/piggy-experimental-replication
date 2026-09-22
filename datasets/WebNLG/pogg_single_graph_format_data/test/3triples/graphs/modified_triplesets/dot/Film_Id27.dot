@@ -1,0 +1,9 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Bernard_Knowles [lexicon_key="Bernard_Knowles"];
+Terence_Rattigan [lexicon_key="Terence_Rattigan"];
+89.0 [lexicon_key=89.0];
+English_Without_Tears -> Bernard_Knowles [label=cinematography, lexicon_key=cinematography];
+English_Without_Tears -> Terence_Rattigan [label=writer, lexicon_key=writer];
+English_Without_Tears -> 89.0 [label=runtime, lexicon_key=runtime];
+}

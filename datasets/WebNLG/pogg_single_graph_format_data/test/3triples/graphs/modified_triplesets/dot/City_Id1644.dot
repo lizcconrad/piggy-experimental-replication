@@ -1,0 +1,9 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+1777539 [lexicon_key=1777539];
+Governator [lexicon_key=Governator];
+Pacific_Daylight_Time [lexicon_key="Pacific_Daylight_Time"];
+Ciudad_Ayala -> 1777539 [label=populationMetro, lexicon_key=populationMetro];
+Ciudad_Ayala -> Governator [label=leaderTitle, lexicon_key=leaderTitle];
+Ciudad_Ayala -> Pacific_Daylight_Time [label=timeZone, lexicon_key=timeZone];
+}

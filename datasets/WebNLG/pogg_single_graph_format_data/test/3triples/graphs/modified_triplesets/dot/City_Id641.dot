@@ -1,0 +1,9 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+"City Manager" [lexicon_key="City Manager"];
+Morelos [lexicon_key=Morelos];
+Cuernavaca [lexicon_key=Cuernavaca];
+Ciudad_Ayala -> "City Manager" [label=leaderTitle, lexicon_key=leaderTitle];
+Ciudad_Ayala -> Morelos [label=isPartOf, lexicon_key=isPartOf];
+Morelos -> Cuernavaca [label=isPartOf, lexicon_key=isPartOf];
+}

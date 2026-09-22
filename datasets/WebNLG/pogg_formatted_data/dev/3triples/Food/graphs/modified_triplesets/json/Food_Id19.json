@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Baked_Alaska": {
-            "lexicon_key": "Baked_Alaska"
+    "graphs": {
+        "Food_Id19_0": {
+            "nodes": {
+                "Baked_Alaska": {
+                    "lexicon_key": "Baked_Alaska"
+                },
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "course",
+                    "parent_node": "Baked_Alaska",
+                    "child_node": "Dessert",
+                    "edge_properties": {
+                        "lexicon_key": "course"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A cookie can be a dessert, as can baked alaska which has christmas pudding as an ingredient.",
+                "Christmas pudding is an ingredient in the dessert Baked Alaska. Cookie is also a dessert.",
+                "Cookies are a dessert item, as is Baked Alaska that has Christmas pudding as one of its ingredients."
+            ]
         },
-        "Dessert": {
-            "lexicon_key": "Dessert"
+        "Food_Id19_1": {
+            "nodes": {
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                },
+                "Cookie": {
+                    "lexicon_key": "Cookie"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Dessert",
+                    "child_node": "Cookie",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A cookie can be a dessert, as can baked alaska which has christmas pudding as an ingredient.",
+                "Christmas pudding is an ingredient in the dessert Baked Alaska. Cookie is also a dessert.",
+                "Cookies are a dessert item, as is Baked Alaska that has Christmas pudding as one of its ingredients."
+            ]
         },
-        "Cookie": {
-            "lexicon_key": "Cookie"
-        },
-        "Christmas_pudding": {
-            "lexicon_key": "Christmas_pudding"
+        "Food_Id19_2": {
+            "nodes": {
+                "Baked_Alaska": {
+                    "lexicon_key": "Baked_Alaska"
+                },
+                "Christmas_pudding": {
+                    "lexicon_key": "Christmas_pudding"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Baked_Alaska",
+                    "child_node": "Christmas_pudding",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A cookie can be a dessert, as can baked alaska which has christmas pudding as an ingredient.",
+                "Christmas pudding is an ingredient in the dessert Baked Alaska. Cookie is also a dessert.",
+                "Cookies are a dessert item, as is Baked Alaska that has Christmas pudding as one of its ingredients."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "course",
-            "parent_node": "Baked_Alaska",
-            "child_node": "Dessert",
-            "edge_properties": {
-                "lexicon_key": "course"
-            }
-        },
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Dessert",
-            "child_node": "Cookie",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Baked_Alaska",
-            "child_node": "Christmas_pudding",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Andrzej_Piotr_Ruszczy\u0144ski": {
+            "lexicon_key": "Andrzej_Piotr_Ruszczy\u0144ski"
+        },
+        "Stochastic_programming": {
+            "lexicon_key": "Stochastic_programming"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "influencedBy",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Andrzej_Piotr_Ruszczy\u0144ski",
+            "edge_properties": {
+                "lexicon_key": "influencedBy"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Stochastic_programming",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva, who was influenced by Andrzej Piotr Ruszczynski, is known for her work with stochastic programming."
+        },
+        "Id2": {
+            "text": "Andrzej Piotr Ruszczynski influenced Darinka Dentcheva, who is known for Stochastic programming."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva who is known for her work with stochastic programming was able to develop a theory that was influenced by Andrzej Piotr Ruszczynski."
+        }
+    },
+    "gold_outputs": []
+}

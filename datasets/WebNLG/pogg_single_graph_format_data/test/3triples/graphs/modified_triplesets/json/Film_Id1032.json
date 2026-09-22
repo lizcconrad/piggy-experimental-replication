@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "0004319": {
+            "lexicon_key": "0004319"
+        },
+        "Harry_Carey_(actor_born_1878)": {
+            "lexicon_key": "Harry_Carey_(actor_born_1878)"
+        },
+        "The_Progressive_Motion_Picture_Company": {
+            "lexicon_key": "The_Progressive_Motion_Picture_Company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "imdbId",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "0004319",
+            "edge_properties": {
+                "lexicon_key": "imdbId"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "The_Progressive_Motion_Picture_Company",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harry Carey born in 1878 is starring in the film McVeagh of the South Seas, registered in IMDb with the ID 0004319. The film was produced by Progressive Motion Picture Company."
+        },
+        "Id2": {
+            "text": "McVeagh of the South Seas (IMDb ID 0004319) was produced by the Progressive Motion Picture Company and stars Harry Carey (born in 1878)."
+        },
+        "Id3": {
+            "text": "McVeagh of the South Seas with IMDb id of 0004319 which was produced by the Progressive Motion Picture company, starred Harry Carey, who was born in 1878."
+        }
+    },
+    "gold_outputs": []
+}

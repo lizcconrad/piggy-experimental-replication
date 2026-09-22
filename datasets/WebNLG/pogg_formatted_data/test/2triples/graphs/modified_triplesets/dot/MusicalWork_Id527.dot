@@ -1,0 +1,7 @@
+strict digraph {
+"Turn_Me_On_(album)" [lexicon_key="Turn_Me_On_(album)"];
+Let_It_Breed [lexicon_key="Let_It_Breed"];
+"Take_It_Off!" [lexicon_key="Take_It_Off!"];
+"Turn_Me_On_(album)" -> Let_It_Breed [label=precededBy, lexicon_key=precededBy];
+"Turn_Me_On_(album)" -> "Take_It_Off!" [label=followedBy, lexicon_key=followedBy];
+}

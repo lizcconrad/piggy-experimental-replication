@@ -1,0 +1,9 @@
+strict digraph {
+"ALCO_RS-3" [lexicon_key="ALCO_RS-3"];
+"May 1950 - August 1956" [lexicon_key="May 1950 - August 1956"];
+American_Locomotive_Company [lexicon_key="American_Locomotive_Company"];
+12 [lexicon_key=12];
+"ALCO_RS-3" -> "May 1950 - August 1956" [label=buildDate, lexicon_key=buildDate];
+"ALCO_RS-3" -> American_Locomotive_Company [label=builder, lexicon_key=builder];
+"ALCO_RS-3" -> 12 [label=cylinderCount, lexicon_key=cylinderCount];
+}

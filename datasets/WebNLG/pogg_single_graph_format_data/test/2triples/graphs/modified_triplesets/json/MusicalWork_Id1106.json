@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Instrumental_music": {
+            "lexicon_key": "Instrumental_music"
+        },
+        "Afterplay_(Brian_Kelly_album)": {
+            "lexicon_key": "Afterplay_(Brian_Kelly_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Instrumental_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Afterplay_(Brian_Kelly_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Expect a Miracle album which is of the instrumental music genre is followed by the album Afterplay."
+        },
+        "Id2": {
+            "text": "Expect a Miracle, in the instrumental music genre, was followed by Afterplay by Brian Kelly."
+        },
+        "Id3": {
+            "text": "Expect a Miracle an instrumental music genre , was followed by Brian Kelly's Afterplay album."
+        }
+    },
+    "gold_outputs": []
+}

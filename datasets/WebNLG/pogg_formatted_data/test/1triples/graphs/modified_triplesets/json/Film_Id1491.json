@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Mary_Hayley_Bell": {
+            "lexicon_key": "Mary_Hayley_Bell"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "John_Mills",
+            "child_node": "Mary_Hayley_Bell",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Mills is the spouse of Mary Hayley Bell."
+        },
+        "Id2": {
+            "text": "John Mills is Mary Hayley Bell's spouse."
+        },
+        "Id3": {
+            "text": "John Mills was married to Mary Hayley Bell."
+        }
+    },
+    "gold_outputs": []
+}

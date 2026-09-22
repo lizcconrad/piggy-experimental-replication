@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Hubei": {
+            "lexicon_key": "Hubei"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Hubei",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng who was born in Hubei, previously worked as a fighter pilot."
+        },
+        "Id2": {
+            "text": "Nie Haisheng, a fighter pilot, is from Hubei province."
+        },
+        "Id3": {
+            "text": "Nie Haisheng, a former fighter pilot, was born in Hubei."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "American": {
+            "lexicon_key": "American"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "United_States",
+            "child_node": "American",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The demonym for people from the United States is American."
+        },
+        "Id2": {
+            "text": "People from the United States are called Americans."
+        },
+        "Id3": {
+            "text": "The demonym for someone from the United States is American."
+        }
+    },
+    "gold_outputs": []
+}

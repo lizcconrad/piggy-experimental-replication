@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Petah_Tikva",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina died in Petah Tikva."
+        }
+    },
+    "gold_outputs": []
+}

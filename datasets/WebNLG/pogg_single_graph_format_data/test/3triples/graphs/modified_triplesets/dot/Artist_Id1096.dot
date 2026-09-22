@@ -1,0 +1,9 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Karlsruhe [lexicon_key=Karlsruhe];
+Photographer [lexicon_key=Photographer];
+"76131–76229" [lexicon_key="76131–76229"];
+Liselotte_Grschebina -> Karlsruhe [label=birthPlace, lexicon_key=birthPlace];
+Liselotte_Grschebina -> Photographer [label=professionalField, lexicon_key=professionalField];
+Karlsruhe -> "76131–76229" [label=postalCode, lexicon_key=postalCode];
+}

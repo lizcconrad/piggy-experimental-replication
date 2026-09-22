@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "0004319": {
+            "lexicon_key": "0004319"
+        },
+        "Cyril_Bruce": {
+            "lexicon_key": "Cyril_Bruce"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "imdbId",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "0004319",
+            "edge_properties": {
+                "lexicon_key": "imdbId"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Cyril_Bruce",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "McVeagh of the South Seas, a film directed by Cyril Bruce, is located in IMdb under ID 0004319."
+        },
+        "Id2": {
+            "text": "McVeagh of the South Seas, directed by Cyril Bruce, is a film registered in IMDb with the ID 0004319."
+        },
+        "Id3": {
+            "text": "The movie McVeagh of the South Seas, directed by Cyril Bruce, has an IMDb id of 0004319."
+        }
+    },
+    "gold_outputs": []
+}

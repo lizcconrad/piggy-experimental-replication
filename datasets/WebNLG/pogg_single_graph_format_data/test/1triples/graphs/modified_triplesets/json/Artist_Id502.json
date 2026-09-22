@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Photographer": {
+            "lexicon_key": "Photographer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Photographer",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was a professional photographer."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was a photographer."
+        }
+    },
+    "gold_outputs": []
+}

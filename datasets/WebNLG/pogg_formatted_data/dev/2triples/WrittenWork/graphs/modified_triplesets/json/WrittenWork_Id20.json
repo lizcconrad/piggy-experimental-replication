@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Administrative_Science_Quarterly": {
-            "lexicon_key": "Administrative_Science_Quarterly"
+    "graphs": {
+        "WrittenWork_Id20_0": {
+            "nodes": {
+                "Administrative_Science_Quarterly": {
+                    "lexicon_key": "Administrative_Science_Quarterly"
+                },
+                "\"ASCQAG\"": {
+                    "lexicon_key": "\"ASCQAG\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "codenCode",
+                    "parent_node": "Administrative_Science_Quarterly",
+                    "child_node": "\"ASCQAG\"",
+                    "edge_properties": {
+                        "lexicon_key": "codenCode"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Administrative Science Quarterly, abbreviated Admin. Sci. Q., has a Coden code of \"ASCQAG\".",
+                "The Administrative Science Quarterly has a Coden code of \"ASCQAG\" and the abbreviation of Admin. Sci. Q.",
+                "The code for Administrative Science Quarterly (abbreviated as Admin. Sci. Q.) is ASCQAG."
+            ]
         },
-        "\"ASCQAG\"": {
-            "lexicon_key": "\"ASCQAG\""
-        },
-        "\"Admin. Sci. Q.\"": {
-            "lexicon_key": "\"Admin. Sci. Q.\""
+        "WrittenWork_Id20_1": {
+            "nodes": {
+                "Administrative_Science_Quarterly": {
+                    "lexicon_key": "Administrative_Science_Quarterly"
+                },
+                "\"Admin. Sci. Q.\"": {
+                    "lexicon_key": "\"Admin. Sci. Q.\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "abbreviation",
+                    "parent_node": "Administrative_Science_Quarterly",
+                    "child_node": "\"Admin. Sci. Q.\"",
+                    "edge_properties": {
+                        "lexicon_key": "abbreviation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Administrative Science Quarterly, abbreviated Admin. Sci. Q., has a Coden code of \"ASCQAG\".",
+                "The Administrative Science Quarterly has a Coden code of \"ASCQAG\" and the abbreviation of Admin. Sci. Q.",
+                "The code for Administrative Science Quarterly (abbreviated as Admin. Sci. Q.) is ASCQAG."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "codenCode",
-            "parent_node": "Administrative_Science_Quarterly",
-            "child_node": "\"ASCQAG\"",
-            "edge_properties": {
-                "lexicon_key": "codenCode"
-            }
-        },
-        {
-            "edge_name": "abbreviation",
-            "parent_node": "Administrative_Science_Quarterly",
-            "child_node": "\"Admin. Sci. Q.\"",
-            "edge_properties": {
-                "lexicon_key": "abbreviation"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

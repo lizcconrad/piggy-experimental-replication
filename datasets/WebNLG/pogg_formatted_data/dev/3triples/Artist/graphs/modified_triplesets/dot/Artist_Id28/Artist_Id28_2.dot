@@ -1,0 +1,5 @@
+strict digraph {
+"Andra_(singer)" [lexicon_key="Andra_(singer)"];
+CRBL [lexicon_key=CRBL];
+"Andra_(singer)" -> CRBL [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

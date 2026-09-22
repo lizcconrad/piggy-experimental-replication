@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "Theatre_of_Eternal_Music": {
+            "lexicon_key": "Theatre_of_Eternal_Music"
+        },
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "The_Velvet_Underground",
+            "child_node": "Theatre_of_Eternal_Music",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Velvet Underground band, who produced Bootleg Series Volume I: The Quine Tapes, drew inspiration from the associated group called Theater of Eternal music."
+        },
+        "Id2": {
+            "text": "The producer of the album Bootleg Series Volume 1: The Quine Tapes was the Velvet Underground, which is associated with the group Theatre of Eternal Music."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes is produced by The Velvet Underground who were also associated with the band Theatre of Eternal Music."
+        }
+    },
+    "gold_outputs": []
+}

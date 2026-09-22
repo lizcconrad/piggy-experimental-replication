@@ -1,0 +1,5 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+"Edwin E. Aldrin, Jr." [lexicon_key="Edwin E. Aldrin, Jr."];
+Buzz_Aldrin -> "Edwin E. Aldrin, Jr." [label=alternativeName, lexicon_key=alternativeName];
+}

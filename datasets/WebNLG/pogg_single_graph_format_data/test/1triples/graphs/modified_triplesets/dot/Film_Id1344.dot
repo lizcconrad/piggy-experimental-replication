@@ -1,0 +1,5 @@
+strict digraph {
+Lionsgate [lexicon_key=Lionsgate];
+Broadcast_programming [lexicon_key="Broadcast_programming"];
+Lionsgate -> Broadcast_programming [label=service, lexicon_key=service];
+}

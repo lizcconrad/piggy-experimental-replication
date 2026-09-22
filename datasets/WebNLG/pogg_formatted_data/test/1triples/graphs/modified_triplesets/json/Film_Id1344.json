@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Broadcast_programming": {
+            "lexicon_key": "Broadcast_programming"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "service",
+            "parent_node": "Lionsgate",
+            "child_node": "Broadcast_programming",
+            "edge_properties": {
+                "lexicon_key": "service"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lionsgate offers broadcast programming service."
+        },
+        "Id2": {
+            "text": "Lionsgate provides the service of broadcast programming."
+        },
+        "Id3": {
+            "text": "Broadcast programming is a service of Lionsgate."
+        }
+    },
+    "gold_outputs": []
+}

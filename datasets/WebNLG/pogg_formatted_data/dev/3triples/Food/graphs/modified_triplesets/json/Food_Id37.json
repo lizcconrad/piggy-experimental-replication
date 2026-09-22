@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Java": {
-            "lexicon_key": "Java"
+    "graphs": {
+        "Food_Id37_0": {
+            "nodes": {
+                "Java": {
+                    "lexicon_key": "Java"
+                },
+                "Baduy": {
+                    "lexicon_key": "Baduy"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "Java",
+                    "child_node": "Baduy",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet is a dish from the region of Singapore and is also found in Java where the Baduy are an ethnic group.",
+                "Ayam penyet is from Singapore and also Java, where the Baduy are an ethnic group.",
+                "From the Singapore region, Ayam penyet, is a food found in Java where an ethnic group is the Baduy."
+            ]
         },
-        "Baduy": {
-            "lexicon_key": "Baduy"
+        "Food_Id37_1": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "Singapore": {
+                    "lexicon_key": "Singapore"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "Singapore",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet is a dish from the region of Singapore and is also found in Java where the Baduy are an ethnic group.",
+                "Ayam penyet is from Singapore and also Java, where the Baduy are an ethnic group.",
+                "From the Singapore region, Ayam penyet, is a food found in Java where an ethnic group is the Baduy."
+            ]
         },
-        "Ayam_penyet": {
-            "lexicon_key": "Ayam_penyet"
-        },
-        "Singapore": {
-            "lexicon_key": "Singapore"
+        "Food_Id37_2": {
+            "nodes": {
+                "Ayam_penyet": {
+                    "lexicon_key": "Ayam_penyet"
+                },
+                "Java": {
+                    "lexicon_key": "Java"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Ayam_penyet",
+                    "child_node": "Java",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ayam penyet is a dish from the region of Singapore and is also found in Java where the Baduy are an ethnic group.",
+                "Ayam penyet is from Singapore and also Java, where the Baduy are an ethnic group.",
+                "From the Singapore region, Ayam penyet, is a food found in Java where an ethnic group is the Baduy."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "Java",
-            "child_node": "Baduy",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        },
-        {
-            "edge_name": "region",
-            "parent_node": "Ayam_penyet",
-            "child_node": "Singapore",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Ayam_penyet",
-            "child_node": "Java",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

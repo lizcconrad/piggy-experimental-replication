@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "1634:_The_Bavarian_Crisis": {
-            "lexicon_key": "1634:_The_Bavarian_Crisis"
-        },
-        "Eric_Flint": {
-            "lexicon_key": "Eric_Flint"
+    "graphs": {
+        "WrittenWork_Id1_0": {
+            "nodes": {
+                "1634:_The_Bavarian_Crisis": {
+                    "lexicon_key": "1634:_The_Bavarian_Crisis"
+                },
+                "Eric_Flint": {
+                    "lexicon_key": "Eric_Flint"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "author",
+                    "parent_node": "1634:_The_Bavarian_Crisis",
+                    "child_node": "Eric_Flint",
+                    "edge_properties": {
+                        "lexicon_key": "author"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1634: The Bavarian Crisis was written by Eric Flint.",
+                "Eric Flint is the author of 1634: The Bavarian Crisis."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "author",
-            "parent_node": "1634:_The_Bavarian_Crisis",
-            "child_node": "Eric_Flint",
-            "edge_properties": {
-                "lexicon_key": "author"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

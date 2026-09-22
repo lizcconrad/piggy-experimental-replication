@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "\u22126": {
+            "lexicon_key": "\u22126"
+        },
+        "Pacific_Daylight_Time": {
+            "lexicon_key": "Pacific_Daylight_Time"
+        },
+        "Pacific_Standard_Time_Zone": {
+            "lexicon_key": "Pacific_Standard_Time_Zone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\u22126",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Daylight_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Standard_Time_Zone",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is in the UTC offset -6 time zone. The Pacific Standard Time Zone, along with Pacific Daylight Time, is the timezone of Ciudad Ayala."
+        },
+        "Id2": {
+            "text": "The UTC offset of Ciudad Ayala is -6, its time zone is Pacific Daylight Time and the Pacific Standard Time Zone."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala with a UTC offset of -6 is located in the Pacific Daylight time zone while in the Pacific Standard Time Zone."
+        }
+    },
+    "gold_outputs": []
+}

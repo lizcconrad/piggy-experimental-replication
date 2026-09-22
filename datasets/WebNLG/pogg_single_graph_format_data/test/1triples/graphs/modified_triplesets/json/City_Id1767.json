@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "\"President of the Chamber of Deputies\"": {
+            "lexicon_key": "\"President of the Chamber of Deputies\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Mexico",
+            "child_node": "\"President of the Chamber of Deputies\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "A leader of Mexico is called the President of the Chamber of Deputies."
+        },
+        "Id2": {
+            "text": "Mexico's government has a leader position titled the President of the Chamber of Deputies."
+        },
+        "Id3": {
+            "text": "President of the Chamber of Deputies is a leader title in Mexico."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Death_on_a_Factory_Farm [lexicon_key="Death_on_a_Factory_Farm"];
+Tom_Simon [lexicon_key="Tom_Simon"];
+Geof_Bartz [lexicon_key="Geof_Bartz"];
+Death_on_a_Factory_Farm -> Tom_Simon [label=director, lexicon_key=director];
+Death_on_a_Factory_Farm -> Geof_Bartz [label=editor, lexicon_key=editor];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "175.26": {
+            "lexicon_key": "175.26"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "175.26",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann is 175.26 cm tall and weighs 70.308 kg."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann's height is 175.26cm and he weighs 70.308 kilograms."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann stands 175.26 cm tall and weighs 70.308kg."
+        }
+    },
+    "gold_outputs": []
+}

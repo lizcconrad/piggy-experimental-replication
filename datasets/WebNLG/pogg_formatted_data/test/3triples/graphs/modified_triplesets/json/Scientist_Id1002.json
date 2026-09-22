@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "George_Monson": {
+            "lexicon_key": "George_Monson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "spouse",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "George_Monson",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson is from the Kingdom of England. She resided in India and was married to George Monson."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson, an Englishwoman residing in India, is married to George Monson."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson, spouse of George Monson, lived in the Kingdom of England at one point and held British nationality, despite residing in India most of her life."
+        }
+    },
+    "gold_outputs": []
+}

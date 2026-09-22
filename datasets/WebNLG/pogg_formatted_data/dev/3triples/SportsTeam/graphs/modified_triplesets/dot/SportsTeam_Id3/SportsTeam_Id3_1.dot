@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Lumezzane" [lexicon_key="A.C._Lumezzane"];
+2014 [lexicon_key=2014];
+"A.C._Lumezzane" -> 2014 [label=season, lexicon_key=season];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Alan_Martin_(footballer)" [lexicon_key="Alan_Martin_(footballer)"];
+"1989-01-01" [lexicon_key="1989-01-01"];
+"Alan_Martin_(footballer)" -> "1989-01-01" [label=birthDate, lexicon_key=birthDate];
+}

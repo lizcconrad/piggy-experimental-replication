@@ -1,0 +1,5 @@
+strict digraph {
+Argentina [lexicon_key=Argentina];
+Mauricio_Macri [lexicon_key="Mauricio_Macri"];
+Argentina -> Mauricio_Macri [label=leader, lexicon_key=leader];
+}

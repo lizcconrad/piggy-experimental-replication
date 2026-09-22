@@ -1,0 +1,5 @@
+strict digraph {
+Sweet_potato [lexicon_key="Sweet_potato"];
+Solanales [lexicon_key=Solanales];
+Sweet_potato -> Solanales [label=order, lexicon_key=order];
+}

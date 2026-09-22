@@ -1,0 +1,7 @@
+strict digraph {
+Piotr_Hallmann [lexicon_key="Piotr_Hallmann"];
+175.26 [lexicon_key=175.26];
+70.308 [lexicon_key=70.308];
+Piotr_Hallmann -> 175.26 [label=height, lexicon_key=height];
+Piotr_Hallmann -> 70.308 [label=weight, lexicon_key=weight];
+}

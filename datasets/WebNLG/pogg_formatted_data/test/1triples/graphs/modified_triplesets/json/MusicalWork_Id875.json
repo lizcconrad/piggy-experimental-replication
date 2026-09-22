@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Columbia_Records": {
+            "lexicon_key": "Columbia_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Columbia_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Mermaid is a song by Train released on the Columbia Records record label."
+        },
+        "Id2": {
+            "text": "The song Mermaid is on Columbia Records."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid was released under the record label Columbia Records."
+        }
+    },
+    "gold_outputs": []
+}

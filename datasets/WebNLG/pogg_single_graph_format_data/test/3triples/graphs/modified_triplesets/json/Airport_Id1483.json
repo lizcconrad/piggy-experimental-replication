@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "MotorSport_Vision",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bedford Aerodrome with MotorSport Vision as its operator and runway length of 1095.0 has EGBF as International Civil Aviation Organization (ICAO) identifier."
+        },
+        "Id2": {
+            "text": "MotorSport Vision is the operating organization for the Bedford Aerodrome which has a runway length of 1095 and its ICAO location identifier is EGBF."
+        },
+        "Id3": {
+            "text": "The runway length at the Bedford Aerodrome is 1095, and it is operated by MotorSport Vision. Its ICAO location identifier is EGBF."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        },
+        "Take_It_Off!": {
+            "lexicon_key": "Take_It_Off!"
+        },
+        "'Til_Death_Do_Us_Part_(EP)": {
+            "lexicon_key": "'Til_Death_Do_Us_Part_(EP)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Take_It_Off!",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Take_It_Off!",
+            "child_node": "'Til_Death_Do_Us_Part_(EP)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The American band, the Honeymoon Killers, self-produced its album called Turn Me On followed by the Take it Off album where The extended play song, 'Til Death Do Us Part came after Take It Off!"
+        },
+        "Id2": {
+            "text": "The album Take It Off was followed by the EP titled 'Til Death Do Us Part and preceded by Turn Me On, produced by the Honeymoon Killers."
+        }
+    },
+    "gold_outputs": []
+}

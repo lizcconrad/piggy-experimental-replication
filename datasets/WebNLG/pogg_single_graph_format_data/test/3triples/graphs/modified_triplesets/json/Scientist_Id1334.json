@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "No-hair_theorem": {
+            "lexicon_key": "No-hair_theorem"
+        },
+        "England": {
+            "lexicon_key": "England"
+        },
+        "1942-01-01": {
+            "lexicon_key": "1942-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "No-hair_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Brandon_Carter",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Brandon_Carter",
+            "child_node": "1942-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Known for his contributions to the no-hair theorem, Brandon Carter was born on January 1st, 1942 in England."
+        },
+        "Id2": {
+            "text": "Brandon Carter (born on January 1, 1942 in England) is known for proving the no-hair theorem."
+        },
+        "Id3": {
+            "text": "Brandon Carter, born in England on January 1st, 1942, is known for the No-hair theorem."
+        }
+    },
+    "gold_outputs": []
+}

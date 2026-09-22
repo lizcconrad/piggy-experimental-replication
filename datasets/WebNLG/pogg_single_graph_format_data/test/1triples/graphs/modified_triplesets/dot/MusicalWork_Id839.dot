@@ -1,0 +1,5 @@
+strict digraph {
+Sludge_metal [lexicon_key="Sludge_metal"];
+Stoner_sludge [lexicon_key="Stoner_sludge"];
+Sludge_metal -> Stoner_sludge [label=musicSubgenre, lexicon_key=musicSubgenre];
+}

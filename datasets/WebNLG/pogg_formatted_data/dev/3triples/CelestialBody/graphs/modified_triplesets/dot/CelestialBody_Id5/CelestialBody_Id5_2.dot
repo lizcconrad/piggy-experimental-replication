@@ -1,0 +1,5 @@
+strict digraph {
+James_Craig_Watson [lexicon_key="James_Craig_Watson"];
+"Madison,_Wisconsin" [lexicon_key="Madison,_Wisconsin"];
+James_Craig_Watson -> "Madison,_Wisconsin" [label=deathPlace, lexicon_key=deathPlace];
+}

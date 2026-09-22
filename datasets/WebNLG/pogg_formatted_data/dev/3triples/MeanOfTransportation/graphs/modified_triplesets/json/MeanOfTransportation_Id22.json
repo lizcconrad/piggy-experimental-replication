@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Audi_A1": {
-            "lexicon_key": "Audi_A1"
+    "graphs": {
+        "MeanOfTransportation_Id22_0": {
+            "nodes": {
+                "Audi_A1": {
+                    "lexicon_key": "Audi_A1"
+                },
+                "1.2 (litres)": {
+                    "lexicon_key": "1.2 (litres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "engine",
+                    "parent_node": "Audi_A1",
+                    "child_node": "1.2 (litres)",
+                    "edge_properties": {
+                        "lexicon_key": "engine"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Audi A1 is a hatchback assembled by Audi Brussels and has a 1.2 litre engine.",
+                "The Audi A1 is built at Audi Brussels. It is a hatchback with a 1.2 litre engine.",
+                "The Audi A1, a hatchback, has a 1.2 liter engine and is assembled by Audi Brussels."
+            ]
         },
-        "1.2 (litres)": {
-            "lexicon_key": "1.2 (litres)"
+        "MeanOfTransportation_Id22_1": {
+            "nodes": {
+                "Audi_A1": {
+                    "lexicon_key": "Audi_A1"
+                },
+                "Audi_Brussels": {
+                    "lexicon_key": "Audi_Brussels"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "assembly",
+                    "parent_node": "Audi_A1",
+                    "child_node": "Audi_Brussels",
+                    "edge_properties": {
+                        "lexicon_key": "assembly"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Audi A1 is a hatchback assembled by Audi Brussels and has a 1.2 litre engine.",
+                "The Audi A1 is built at Audi Brussels. It is a hatchback with a 1.2 litre engine.",
+                "The Audi A1, a hatchback, has a 1.2 liter engine and is assembled by Audi Brussels."
+            ]
         },
-        "Audi_Brussels": {
-            "lexicon_key": "Audi_Brussels"
-        },
-        "Hatchback": {
-            "lexicon_key": "Hatchback"
+        "MeanOfTransportation_Id22_2": {
+            "nodes": {
+                "Audi_A1": {
+                    "lexicon_key": "Audi_A1"
+                },
+                "Hatchback": {
+                    "lexicon_key": "Hatchback"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "bodyStyle",
+                    "parent_node": "Audi_A1",
+                    "child_node": "Hatchback",
+                    "edge_properties": {
+                        "lexicon_key": "bodyStyle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Audi A1 is a hatchback assembled by Audi Brussels and has a 1.2 litre engine.",
+                "The Audi A1 is built at Audi Brussels. It is a hatchback with a 1.2 litre engine.",
+                "The Audi A1, a hatchback, has a 1.2 liter engine and is assembled by Audi Brussels."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "engine",
-            "parent_node": "Audi_A1",
-            "child_node": "1.2 (litres)",
-            "edge_properties": {
-                "lexicon_key": "engine"
-            }
-        },
-        {
-            "edge_name": "assembly",
-            "parent_node": "Audi_A1",
-            "child_node": "Audi_Brussels",
-            "edge_properties": {
-                "lexicon_key": "assembly"
-            }
-        },
-        {
-            "edge_name": "bodyStyle",
-            "parent_node": "Audi_A1",
-            "child_node": "Hatchback",
-            "edge_properties": {
-                "lexicon_key": "bodyStyle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

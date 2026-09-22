@@ -1,0 +1,5 @@
+strict digraph {
+Atlanta [lexicon_key=Atlanta];
+"347.1 (square kilometres)" [lexicon_key="347.1 (square kilometres)"];
+Atlanta -> "347.1 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Justin_Whalin": {
+            "lexicon_key": "Justin_Whalin"
+        },
+        "98.0": {
+            "lexicon_key": "98.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Justin_Whalin",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Super_Capers",
+            "child_node": "98.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers, a film that had a running time of 98 minutes, stars Justin Whalin."
+        },
+        "Id2": {
+            "text": "The film Super Capers, which stars Justin Whalin, is 98 minutes long."
+        },
+        "Id3": {
+            "text": "The film Super Capers, which is 98 minutes in duration, stars Justin Whalin."
+        }
+    },
+    "gold_outputs": []
+}

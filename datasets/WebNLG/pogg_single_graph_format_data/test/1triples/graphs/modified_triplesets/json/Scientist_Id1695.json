@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "Turkish_language": {
+            "lexicon_key": "Turkish_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "officialLanguage",
+            "parent_node": "Turkey",
+            "child_node": "Turkish_language",
+            "edge_properties": {
+                "lexicon_key": "officialLanguage"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Turkish language is the official language of Turkey."
+        },
+        "Id2": {
+            "text": "Turkey's official language is Turkish."
+        }
+    },
+    "gold_outputs": []
+}

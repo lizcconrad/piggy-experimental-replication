@@ -1,0 +1,5 @@
+strict digraph {
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+United_States_House_of_Representatives [lexicon_key="United_States_House_of_Representatives"];
+"Anaheim,_California" -> United_States_House_of_Representatives [label=leaderTitle, lexicon_key=leaderTitle];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "1997": {
+            "lexicon_key": "1997"
+        },
+        "Michigan": {
+            "lexicon_key": "Michigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "productionStartYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionStartYear"
+            }
+        },
+        {
+            "edge_name": "assembly",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Michigan",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous was first produced in 1997 in Michigan."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous was first made in 1997 and assembled in Michigan."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous went into production in 1997 in Michigan."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Karlsruhe [lexicon_key=Karlsruhe];
+Oberbürgermeister [lexicon_key=Oberbürgermeister];
+Karlsruhe -> Oberbürgermeister [label=leaderTitle, lexicon_key=leaderTitle];
+}

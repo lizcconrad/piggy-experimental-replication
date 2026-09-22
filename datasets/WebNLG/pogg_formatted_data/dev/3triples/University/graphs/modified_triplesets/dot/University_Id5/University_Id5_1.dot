@@ -1,0 +1,5 @@
+strict digraph {
+AWH_Engineering_College [lexicon_key="AWH_Engineering_College"];
+India [lexicon_key=India];
+AWH_Engineering_College -> India [label=country, lexicon_key=country];
+}

@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        },
+        "Research_university": {
+            "lexicon_key": "Research_university"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "type",
+            "parent_node": "University_of_Cambridge",
+            "child_node": "Research_university",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The University of Cambridge is a research university."
+        }
+    },
+    "gold_outputs": []
+}

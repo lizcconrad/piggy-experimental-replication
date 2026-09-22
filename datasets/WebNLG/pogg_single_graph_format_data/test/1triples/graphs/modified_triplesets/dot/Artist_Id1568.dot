@@ -1,0 +1,5 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Israel [lexicon_key=Israel];
+Liselotte_Grschebina -> Israel [label=nationality, lexicon_key=nationality];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The genre of Turn Me On is punk blues."
+        },
+        "Id2": {
+            "text": "Turn Me On is a punk blues album."
+        },
+        "Id3": {
+            "text": "Punk blues is the genre of the album Turn Me On."
+        }
+    },
+    "gold_outputs": []
+}

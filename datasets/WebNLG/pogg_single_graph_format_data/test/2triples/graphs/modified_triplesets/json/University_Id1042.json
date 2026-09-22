@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "700": {
+            "lexicon_key": "700"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "numberOfPostgraduateStudents",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "700",
+            "edge_properties": {
+                "lexicon_key": "numberOfPostgraduateStudents"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Acharya Institute of Technology which is affiliated to Visvesvaraya Technological University has 700 postgraduate students."
+        },
+        "Id2": {
+            "text": "The Acharya Institute of Technology is affiliated with Visvesvaraya Technological University and has about 700 post-graduate students."
+        },
+        "Id3": {
+            "text": "The Acharya Institute of Technology, with around 700 postgraduate students, is affiliated with the Visvesvaraya Technological University."
+        }
+    },
+    "gold_outputs": []
+}

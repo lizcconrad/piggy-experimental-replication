@@ -1,0 +1,5 @@
+strict digraph {
+Agra_Airport [lexicon_key="Agra_Airport"];
+Indian_Air_Force [lexicon_key="Indian_Air_Force"];
+Agra_Airport -> Indian_Air_Force [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+}

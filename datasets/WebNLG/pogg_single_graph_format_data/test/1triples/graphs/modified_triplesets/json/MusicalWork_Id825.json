@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        },
+        "Singing": {
+            "lexicon_key": "Singing"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "instrument",
+            "parent_node": "Sludge_metal",
+            "child_node": "Singing",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Singing is typically present in sludge metal."
+        },
+        "Id2": {
+            "text": "Sludge metal includes singing, among other things."
+        },
+        "Id3": {
+            "text": "Singing is a part of sludge metal."
+        }
+    },
+    "gold_outputs": []
+}

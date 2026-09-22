@@ -1,0 +1,5 @@
+strict digraph {
+"J._R._R._Tolkien" [lexicon_key="J._R._R._Tolkien"];
+"1892-01-03" [lexicon_key="1892-01-03"];
+"J._R._R._Tolkien" -> "1892-01-03" [label=birthDate, lexicon_key=birthDate];
+}

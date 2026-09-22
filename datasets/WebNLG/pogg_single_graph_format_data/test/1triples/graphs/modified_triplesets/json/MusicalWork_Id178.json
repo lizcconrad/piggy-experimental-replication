@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Pop_rock",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "A stylistic origin of pop rock is rock music."
+        },
+        "Id2": {
+            "text": "Pop rock has its stylistic origin in rock music."
+        },
+        "Id3": {
+            "text": "The stylistic origin of pop rock is rock music."
+        }
+    },
+    "gold_outputs": []
+}

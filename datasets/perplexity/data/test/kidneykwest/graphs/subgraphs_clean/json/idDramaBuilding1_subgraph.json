@@ -1,23 +1,27 @@
 {
-    "nodes": {
-        "idDramaBuilding1": {
-            "node_type": "entity",
-            "lexicon_key": "idDramaBuilding"
-        },
-        "idWorld1": {
-            "node_type": "entity",
-            "lexicon_key": "idWorld"
+    "graphs": {
+        "idDramaBuilding1_subgraph_0": {
+            "nodes": {
+                "idDramaBuilding1": {
+                    "node_type": "entity",
+                    "lexicon_key": "idDramaBuilding"
+                },
+                "idWorld1": {
+                    "node_type": "entity",
+                    "lexicon_key": "idWorld"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isInsideOf",
+                    "parent_node": "idDramaBuilding1",
+                    "child_node": "idWorld1",
+                    "lexicon_key": "isInsideOf",
+                    "edge_properties": {
+                        "edge_type": "relationship"
+                    }
+                }
+            ]
         }
-    },
-    "edges": [
-        {
-            "edge_name": "isInsideOf",
-            "parent_node": "idDramaBuilding1",
-            "child_node": "idWorld1",
-            "lexicon_key": "isInsideOf",
-            "edge_properties": {
-                "edge_type": "relationship"
-            }
-        }
-    ]
+    }
 }

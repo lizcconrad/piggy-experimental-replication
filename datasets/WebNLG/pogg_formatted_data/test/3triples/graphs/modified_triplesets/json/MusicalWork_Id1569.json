@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "54.56": {
+            "lexicon_key": "54.56"
+        },
+        "Instrumental_music": {
+            "lexicon_key": "Instrumental_music"
+        },
+        "Easy_listening": {
+            "lexicon_key": "Easy_listening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "54.56",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Instrumental_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Easy_listening",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle in the instrumental music genre, an easy listening album lasts 54.56 minutes."
+        },
+        "Id2": {
+            "text": "Expect a Miracle, instrumental music of the easy listening genre, has a runtime of 54.56."
+        },
+        "Id3": {
+            "text": "Expect a miracle is of the easy listening genre of instrumental music genre which has a run time of 54:56."
+        }
+    },
+    "gold_outputs": []
+}

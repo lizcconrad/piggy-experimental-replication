@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "1955_Dodge": {
-            "lexicon_key": "1955_Dodge"
+    "graphs": {
+        "MeanOfTransportation_Id2_0": {
+            "nodes": {
+                "1955_Dodge": {
+                    "lexicon_key": "1955_Dodge"
+                },
+                "V8_engine": {
+                    "lexicon_key": "V8_engine"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "engine",
+                    "parent_node": "1955_Dodge",
+                    "child_node": "V8_engine",
+                    "edge_properties": {
+                        "lexicon_key": "engine"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The 1955 Dodge, also named the Dodge Coronet, has a 3-speed automatic transmission and a V8 engine.",
+                "The 1955 Dodge, which has the alternative name of Dodge Coronet, has a V8 engine and uses a 3-speed automatic transmission.",
+                "The 1955 Dodge, with an alternative name of Dodge coronet, has a V8 engine and 3-speed automatic transmission."
+            ]
         },
-        "V8_engine": {
-            "lexicon_key": "V8_engine"
+        "MeanOfTransportation_Id2_1": {
+            "nodes": {
+                "1955_Dodge": {
+                    "lexicon_key": "1955_Dodge"
+                },
+                "\"3-speed automatic\"": {
+                    "lexicon_key": "\"3-speed automatic\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "transmission",
+                    "parent_node": "1955_Dodge",
+                    "child_node": "\"3-speed automatic\"",
+                    "edge_properties": {
+                        "lexicon_key": "transmission"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The 1955 Dodge, also named the Dodge Coronet, has a 3-speed automatic transmission and a V8 engine.",
+                "The 1955 Dodge, which has the alternative name of Dodge Coronet, has a V8 engine and uses a 3-speed automatic transmission.",
+                "The 1955 Dodge, with an alternative name of Dodge coronet, has a V8 engine and 3-speed automatic transmission."
+            ]
         },
-        "\"3-speed automatic\"": {
-            "lexicon_key": "\"3-speed automatic\""
-        },
-        "\"Dodge Coronet\"": {
-            "lexicon_key": "\"Dodge Coronet\""
+        "MeanOfTransportation_Id2_2": {
+            "nodes": {
+                "1955_Dodge": {
+                    "lexicon_key": "1955_Dodge"
+                },
+                "\"Dodge Coronet\"": {
+                    "lexicon_key": "\"Dodge Coronet\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "alternativeName",
+                    "parent_node": "1955_Dodge",
+                    "child_node": "\"Dodge Coronet\"",
+                    "edge_properties": {
+                        "lexicon_key": "alternativeName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The 1955 Dodge, also named the Dodge Coronet, has a 3-speed automatic transmission and a V8 engine.",
+                "The 1955 Dodge, which has the alternative name of Dodge Coronet, has a V8 engine and uses a 3-speed automatic transmission.",
+                "The 1955 Dodge, with an alternative name of Dodge coronet, has a V8 engine and 3-speed automatic transmission."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "engine",
-            "parent_node": "1955_Dodge",
-            "child_node": "V8_engine",
-            "edge_properties": {
-                "lexicon_key": "engine"
-            }
-        },
-        {
-            "edge_name": "transmission",
-            "parent_node": "1955_Dodge",
-            "child_node": "\"3-speed automatic\"",
-            "edge_properties": {
-                "lexicon_key": "transmission"
-            }
-        },
-        {
-            "edge_name": "alternativeName",
-            "parent_node": "1955_Dodge",
-            "child_node": "\"Dodge Coronet\"",
-            "edge_properties": {
-                "lexicon_key": "alternativeName"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

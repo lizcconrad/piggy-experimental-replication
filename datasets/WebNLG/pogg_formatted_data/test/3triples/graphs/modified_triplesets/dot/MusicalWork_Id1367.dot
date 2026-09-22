@@ -1,0 +1,9 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+"2006-09-06" [lexicon_key="2006-09-06"];
+Sludge_metal [lexicon_key="Sludge_metal"];
+"Post-metal" [lexicon_key="Post-metal"];
+"Nord_(Year_of_No_Light_album)" -> "2006-09-06" [label=releaseDate, lexicon_key=releaseDate];
+"Nord_(Year_of_No_Light_album)" -> Sludge_metal [label=genre, lexicon_key=genre];
+"Nord_(Year_of_No_Light_album)" -> "Post-metal" [label=genre, lexicon_key=genre];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        },
+        "Mayor": {
+            "lexicon_key": "Mayor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Gdynia,_Poland",
+            "child_node": "Mayor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann was born in Gdynia, Poland which is led by the mayor."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann was born in Gdynia, Poland, which has a mayor as one of its leaders."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann was born in Gdynia, Poland which is under the leadership of mayor."
+        }
+    },
+    "gold_outputs": []
+}

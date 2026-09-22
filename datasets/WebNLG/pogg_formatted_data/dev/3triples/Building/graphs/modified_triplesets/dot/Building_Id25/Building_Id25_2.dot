@@ -1,0 +1,5 @@
+strict digraph {
+New_York_City [lexicon_key="New_York_City"];
+Manhattan [lexicon_key=Manhattan];
+New_York_City -> Manhattan [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "Coupe": {
+            "lexicon_key": "Coupe"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "bodyStyle",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Coupe",
+            "edge_properties": {
+                "lexicon_key": "bodyStyle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous was a car with a coupe body style."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous has a coupe body style."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous is a coupe."
+        }
+    },
+    "gold_outputs": []
+}

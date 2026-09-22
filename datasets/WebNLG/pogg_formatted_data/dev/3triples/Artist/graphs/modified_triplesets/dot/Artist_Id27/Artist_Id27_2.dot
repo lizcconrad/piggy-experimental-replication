@@ -1,0 +1,5 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+Rock_music [lexicon_key="Rock_music"];
+Anders_Osborne -> Rock_music [label=genre, lexicon_key=genre];
+}

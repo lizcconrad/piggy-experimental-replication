@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+Bedford_Autodrome [lexicon_key="Bedford_Autodrome"];
+83.2104 [lexicon_key=83.2104];
+Bedford_Aerodrome -> Bedford_Autodrome [label=cityServed, lexicon_key=cityServed];
+Bedford_Aerodrome -> 83.2104 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

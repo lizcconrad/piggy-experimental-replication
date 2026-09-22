@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "MotorSport_Vision",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The MotorSport Vision operated Bedford Aerodrome has a runway length of 1095.0."
+        },
+        "Id2": {
+            "text": "Bedford Aerodrome operated by MotorSport Vision has the runway length of 1095."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome is run by MotorSport Vision and has a runway length of 1095."
+        }
+    },
+    "gold_outputs": []
+}

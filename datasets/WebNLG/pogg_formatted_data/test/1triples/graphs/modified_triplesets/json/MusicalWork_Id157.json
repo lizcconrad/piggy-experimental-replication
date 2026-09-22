@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "Proto-punk": {
+            "lexicon_key": "Proto-punk"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "The_Velvet_Underground",
+            "child_node": "Proto-punk",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The genre of the Velvet Underground is proto-punk."
+        },
+        "Id2": {
+            "text": "Proto-punk is the genre of the Velvet Underground."
+        },
+        "Id3": {
+            "text": "The Velvet Underground is a proto-punk band."
+        }
+    },
+    "gold_outputs": []
+}

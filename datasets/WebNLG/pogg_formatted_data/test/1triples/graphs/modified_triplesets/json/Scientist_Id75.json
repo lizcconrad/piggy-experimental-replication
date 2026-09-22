@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Economics": {
+            "lexicon_key": "Economics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Economics",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva's professional field is Economics."
+        },
+        "Id2": {
+            "text": "Olga Bondareva is an economist."
+        },
+        "Id3": {
+            "text": "Olga Bondareva currently works in the field of Economics."
+        }
+    },
+    "gold_outputs": []
+}

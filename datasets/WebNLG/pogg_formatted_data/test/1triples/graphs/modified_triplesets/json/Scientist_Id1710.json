@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "106000": {
+            "lexicon_key": "106000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationTotal",
+            "parent_node": "Darlington",
+            "child_node": "106000",
+            "edge_properties": {
+                "lexicon_key": "populationTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The town of Darlington has a population of one hundred and six thousand."
+        },
+        "Id2": {
+            "text": "The total population of Darlington is 106,000 residents."
+        },
+        "Id3": {
+            "text": "Darlington is a city with a population of 106000 people."
+        }
+    },
+    "gold_outputs": []
+}

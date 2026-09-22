@@ -1,0 +1,5 @@
+strict digraph {
+Alessio_Romagnoli [lexicon_key="Alessio_Romagnoli"];
+"A.C._Milan" [lexicon_key="A.C._Milan"];
+Alessio_Romagnoli -> "A.C._Milan" [label=club, lexicon_key=club];
+}

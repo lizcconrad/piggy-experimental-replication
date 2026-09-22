@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Pontiac": {
+            "lexicon_key": "Pontiac"
+        },
+        "General_Motors": {
+            "lexicon_key": "General_Motors"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "parentCompany",
+            "parent_node": "Pontiac",
+            "child_node": "General_Motors",
+            "edge_properties": {
+                "lexicon_key": "parentCompany"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The parent company of Pontiac is General Motors."
+        },
+        "Id2": {
+            "text": "Pontiac's parent company is General Motors."
+        },
+        "Id3": {
+            "text": "General Motors is the parent company of Pontiac."
+        }
+    },
+    "gold_outputs": []
+}

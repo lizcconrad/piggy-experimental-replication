@@ -1,0 +1,9 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+"2001-01-01" [lexicon_key="2001-01-01"];
+"S.A._(corporation)" [lexicon_key="S.A._(corporation)"];
+Mantecorp [lexicon_key=Mantecorp];
+Hypermarcas -> "2001-01-01" [label=foundingDate, lexicon_key=foundingDate];
+Hypermarcas -> "S.A._(corporation)" [label=type, lexicon_key=type];
+Hypermarcas -> Mantecorp [label=subsidiary, lexicon_key=subsidiary];
+}

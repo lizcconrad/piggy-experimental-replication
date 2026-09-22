@@ -1,0 +1,5 @@
+strict digraph {
+Zaoyang [lexicon_key=Zaoyang];
+Xiangyang [lexicon_key=Xiangyang];
+Zaoyang -> Xiangyang [label=isPartOf, lexicon_key=isPartOf];
+}

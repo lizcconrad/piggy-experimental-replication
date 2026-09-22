@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "Bhajji": {
-            "lexicon_key": "Bhajji"
+    "graphs": {
+        "Food_Id27_0": {
+            "nodes": {
+                "Bhajji": {
+                    "lexicon_key": "Bhajji"
+                },
+                "\"Pakora and other fritters made from wheat or corn flour\"": {
+                    "lexicon_key": "\"Pakora and other fritters made from wheat or corn flour\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "similarDish",
+                    "parent_node": "Bhajji",
+                    "child_node": "\"Pakora and other fritters made from wheat or corn flour\"",
+                    "edge_properties": {
+                        "lexicon_key": "similarDish"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bhajji, which uses gram flour, is a dish similar to pakora and other fritters made from wheat or corn flour.",
+                "Gram flour is an ingredient of a Bhajji, which is a similar dish to pakora and other fritters made from wheat or corn flour."
+            ]
         },
-        "\"Pakora and other fritters made from wheat or corn flour\"": {
-            "lexicon_key": "\"Pakora and other fritters made from wheat or corn flour\""
-        },
-        "Gram_flour": {
-            "lexicon_key": "Gram_flour"
+        "Food_Id27_1": {
+            "nodes": {
+                "Bhajji": {
+                    "lexicon_key": "Bhajji"
+                },
+                "Gram_flour": {
+                    "lexicon_key": "Gram_flour"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bhajji",
+                    "child_node": "Gram_flour",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bhajji, which uses gram flour, is a dish similar to pakora and other fritters made from wheat or corn flour.",
+                "Gram flour is an ingredient of a Bhajji, which is a similar dish to pakora and other fritters made from wheat or corn flour."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "similarDish",
-            "parent_node": "Bhajji",
-            "child_node": "\"Pakora and other fritters made from wheat or corn flour\"",
-            "edge_properties": {
-                "lexicon_key": "similarDish"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bhajji",
-            "child_node": "Gram_flour",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

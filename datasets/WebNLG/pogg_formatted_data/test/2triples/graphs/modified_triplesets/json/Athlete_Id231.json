@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "A member of the youth side, Aleksandr Prudnikov plays for the FC Spartak Moscow."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov was in the FC Spartak Moscow club and played for their youth team."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov played for and was a member of the youth football club FC Spartak Moscow."
+        }
+    },
+    "gold_outputs": []
+}

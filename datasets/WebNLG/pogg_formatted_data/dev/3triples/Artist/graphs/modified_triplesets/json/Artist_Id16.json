@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Albennie_Jones": {
-            "lexicon_key": "Albennie_Jones"
+    "graphs": {
+        "Artist_Id16_0": {
+            "nodes": {
+                "Albennie_Jones": {
+                    "lexicon_key": "Albennie_Jones"
+                },
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Albennie_Jones",
+                    "child_node": "Jazz",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albennie Jones is a Jazz musician. Jazz comes from Blues music and the Afrobeat is a fusion genre of that music.",
+                "Albennie Jones plays Jazz music which originated from Blues music. A fusion of Jazz is Afrobeat music.",
+                "Albennie Jones plays jazz which originates from Blues music. Afrobeat music also has elements of Jazz."
+            ]
         },
-        "Jazz": {
-            "lexicon_key": "Jazz"
+        "Artist_Id16_1": {
+            "nodes": {
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                },
+                "Blues": {
+                    "lexicon_key": "Blues"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "stylisticOrigin",
+                    "parent_node": "Jazz",
+                    "child_node": "Blues",
+                    "edge_properties": {
+                        "lexicon_key": "stylisticOrigin"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albennie Jones is a Jazz musician. Jazz comes from Blues music and the Afrobeat is a fusion genre of that music.",
+                "Albennie Jones plays Jazz music which originated from Blues music. A fusion of Jazz is Afrobeat music.",
+                "Albennie Jones plays jazz which originates from Blues music. Afrobeat music also has elements of Jazz."
+            ]
         },
-        "Blues": {
-            "lexicon_key": "Blues"
-        },
-        "Afrobeat": {
-            "lexicon_key": "Afrobeat"
+        "Artist_Id16_2": {
+            "nodes": {
+                "Jazz": {
+                    "lexicon_key": "Jazz"
+                },
+                "Afrobeat": {
+                    "lexicon_key": "Afrobeat"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "musicFusionGenre",
+                    "parent_node": "Jazz",
+                    "child_node": "Afrobeat",
+                    "edge_properties": {
+                        "lexicon_key": "musicFusionGenre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albennie Jones is a Jazz musician. Jazz comes from Blues music and the Afrobeat is a fusion genre of that music.",
+                "Albennie Jones plays Jazz music which originated from Blues music. A fusion of Jazz is Afrobeat music.",
+                "Albennie Jones plays jazz which originates from Blues music. Afrobeat music also has elements of Jazz."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Albennie_Jones",
-            "child_node": "Jazz",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "stylisticOrigin",
-            "parent_node": "Jazz",
-            "child_node": "Blues",
-            "edge_properties": {
-                "lexicon_key": "stylisticOrigin"
-            }
-        },
-        {
-            "edge_name": "musicFusionGenre",
-            "parent_node": "Jazz",
-            "child_node": "Afrobeat",
-            "edge_properties": {
-                "lexicon_key": "musicFusionGenre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

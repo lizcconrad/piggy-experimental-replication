@@ -1,0 +1,7 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+1604.0 [lexicon_key=1604.0];
+1147.0 [lexicon_key=1147.0];
+Ciudad_Ayala -> 1604.0 [label=populationDensity, lexicon_key=populationDensity];
+Ciudad_Ayala -> 1147.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

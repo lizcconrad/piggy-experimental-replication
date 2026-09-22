@@ -1,0 +1,7 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+1604.0 [lexicon_key=1604.0];
+Juan_Nolasco [lexicon_key="Juan_Nolasco"];
+Ciudad_Ayala -> 1604.0 [label=populationDensity, lexicon_key=populationDensity];
+Ciudad_Ayala -> Juan_Nolasco [label=leader, lexicon_key=leader];
+}

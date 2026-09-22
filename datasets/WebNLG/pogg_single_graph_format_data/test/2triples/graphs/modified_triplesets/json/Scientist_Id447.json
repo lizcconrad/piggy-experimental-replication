@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Istanbul",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy was born in Turkey and at one time lived in Istanbul."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy was born in Turkey and maintains a residence in Istanbul."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy was born in Turkey and resides in Istanbul."
+        }
+    },
+    "gold_outputs": []
+}

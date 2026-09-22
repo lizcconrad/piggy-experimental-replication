@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "General_relativity": {
+            "lexicon_key": "General_relativity"
+        },
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        },
+        "1942-01-01": {
+            "lexicon_key": "1942-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Brandon_Carter",
+            "child_node": "General_relativity",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Brandon_Carter",
+            "child_node": "University_of_Cambridge",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Brandon_Carter",
+            "child_node": "1942-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter, a University of Cambridge alum in the field of General Relativity, was born on January 1, 1942."
+        },
+        "Id2": {
+            "text": "Brandon Carter, born on January 1, 1942, graduated from the University of Cambridge and is an expert in general relativity,."
+        },
+        "Id3": {
+            "text": "Brandon Carter was born on January 1, 1942. He graduated from the University of Cambridge and works in the professional field of General Relativity."
+        }
+    },
+    "gold_outputs": []
+}

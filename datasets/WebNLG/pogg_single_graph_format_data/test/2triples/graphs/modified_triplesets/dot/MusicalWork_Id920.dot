@@ -1,0 +1,7 @@
+strict digraph {
+"Turn_Me_On_(album)" [lexicon_key="Turn_Me_On_(album)"];
+Wharton_Tiers [lexicon_key="Wharton_Tiers"];
+"Take_It_Off!" [lexicon_key="Take_It_Off!"];
+"Turn_Me_On_(album)" -> Wharton_Tiers [label=producer, lexicon_key=producer];
+"Turn_Me_On_(album)" -> "Take_It_Off!" [label=followedBy, lexicon_key=followedBy];
+}

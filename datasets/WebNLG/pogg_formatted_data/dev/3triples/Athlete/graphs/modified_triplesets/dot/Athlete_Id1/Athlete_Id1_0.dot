@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Boogaard [lexicon_key="Aaron_Boogaard"];
+1.905 [lexicon_key=1.905];
+Aaron_Boogaard -> 1.905 [label=height, lexicon_key=height];
+}

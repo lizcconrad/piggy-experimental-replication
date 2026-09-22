@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Silvano_Aureoles_Conejo": {
+            "lexicon_key": "Silvano_Aureoles_Conejo"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Mexico",
+            "child_node": "Silvano_Aureoles_Conejo",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico is a dish served for dessert in Mexico. Silvano Aureoles Conejo is one of the leaders in Mexico."
+        },
+        "Id2": {
+            "text": "Silvano Aureoles Conejo is the leader of Mexico where you can find the fantastic dessert they call Bionico."
+        },
+        "Id3": {
+            "text": "Bionico (a dessert) is a food found in Mexico led by Silvano Aureoles Conejo."
+        }
+    },
+    "gold_outputs": []
+}

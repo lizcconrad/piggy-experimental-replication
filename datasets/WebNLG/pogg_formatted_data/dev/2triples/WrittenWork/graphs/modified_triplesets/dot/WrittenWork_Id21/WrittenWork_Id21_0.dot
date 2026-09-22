@@ -1,0 +1,5 @@
+strict digraph {
+Administrative_Science_Quarterly [lexicon_key="Administrative_Science_Quarterly"];
+Cornell_University [lexicon_key="Cornell_University"];
+Administrative_Science_Quarterly -> Cornell_University [label=publisher, lexicon_key=publisher];
+}

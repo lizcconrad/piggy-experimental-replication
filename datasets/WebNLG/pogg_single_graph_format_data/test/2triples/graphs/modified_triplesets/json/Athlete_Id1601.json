@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Akeem_Ayers": {
+            "lexicon_key": "Akeem_Ayers"
+        },
+        "\"2\"": {
+            "lexicon_key": "\"2\""
+        },
+        "Tennessee_Titans": {
+            "lexicon_key": "Tennessee_Titans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "draftRound",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "\"2\"",
+            "edge_properties": {
+                "lexicon_key": "draftRound"
+            }
+        },
+        {
+            "edge_name": "debutTeam",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "Tennessee_Titans",
+            "edge_properties": {
+                "lexicon_key": "debutTeam"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Debuting with the Tennessee Titans, Akeem Ayers draft round was 2."
+        },
+        "Id2": {
+            "text": "Akeem Ayers, who made his debut for the Tennessee Titans, was in draft round 2."
+        },
+        "Id3": {
+            "text": "Akeem Ayers was in draft round 2 and made his debut for the Tennessee Titans."
+        }
+    },
+    "gold_outputs": []
+}

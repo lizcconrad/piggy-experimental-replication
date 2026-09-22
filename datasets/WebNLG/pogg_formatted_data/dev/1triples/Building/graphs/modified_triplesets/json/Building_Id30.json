@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "United_States": {
-            "lexicon_key": "United_States"
-        },
-        "Paul_Ryan": {
-            "lexicon_key": "Paul_Ryan"
+    "graphs": {
+        "Building_Id30_0": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Paul_Ryan": {
+                    "lexicon_key": "Paul_Ryan"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "United_States",
+                    "child_node": "Paul_Ryan",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Paul Ryan is the leader of the United States.",
+                "The leader of the United States is Paul Ryan."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "United_States",
-            "child_node": "Paul_Ryan",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

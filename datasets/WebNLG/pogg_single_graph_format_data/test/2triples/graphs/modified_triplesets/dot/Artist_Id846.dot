@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+German_Empire [lexicon_key="German_Empire"];
+South_German_gulden [lexicon_key="South_German_gulden"];
+Liselotte_Grschebina -> German_Empire [label=birthPlace, lexicon_key=birthPlace];
+German_Empire -> South_German_gulden [label=currency, lexicon_key=currency];
+}

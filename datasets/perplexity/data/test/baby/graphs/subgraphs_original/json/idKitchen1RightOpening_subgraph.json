@@ -1,26 +1,30 @@
 {
-    "nodes": {
-        "idKitchen1RightOpening": {
-            "lexicon_key": "idKitchen1RightOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
-        },
-        "idPlayerBackside": {
-            "lexicon_key": "idPlayerBackside",
-            "node_properties": {}
+    "graphs": {
+        "idKitchen1RightOpening_subgraph_0": {
+            "nodes": {
+                "idKitchen1RightOpening": {
+                    "lexicon_key": "idKitchen1RightOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                },
+                "idPlayerBackside": {
+                    "lexicon_key": "idPlayerBackside",
+                    "node_properties": {}
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isWestOf",
+                    "parent_node": "idKitchen1RightOpening",
+                    "child_node": "idPlayerBackside",
+                    "lexicon_key": "isWestOf",
+                    "edge_properties": {
+                        "edge_type": "relationship"
+                    }
+                }
+            ]
         }
-    },
-    "edges": [
-        {
-            "edge_name": "isWestOf",
-            "parent_node": "idKitchen1RightOpening",
-            "child_node": "idPlayerBackside",
-            "lexicon_key": "isWestOf",
-            "edge_properties": {
-                "edge_type": "relationship"
-            }
-        }
-    ]
+    }
 }

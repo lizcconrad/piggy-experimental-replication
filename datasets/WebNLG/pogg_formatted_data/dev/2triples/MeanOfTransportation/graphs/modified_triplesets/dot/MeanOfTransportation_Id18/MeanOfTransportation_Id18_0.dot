@@ -1,0 +1,5 @@
+strict digraph {
+Alvis_Speed_25 [lexicon_key="Alvis_Speed_25"];
+"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle" [lexicon_key="single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle"];
+Alvis_Speed_25 -> "single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle" [label=transmission, lexicon_key=transmission];
+}

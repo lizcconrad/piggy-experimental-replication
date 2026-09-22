@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "12": {
+            "lexicon_key": "12"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "cylinderCount",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "12",
+            "edge_properties": {
+                "lexicon_key": "cylinderCount"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ALCO RS-3 was produced between May 1950 and August 1956 has has a cylinder count of 12 and is 17068.8 millimetres in length."
+        },
+        "Id2": {
+            "text": "The ALCO RS-3, produced between May 1950 and August 1956 with 12 cylinders, has a length of 17068.8 millimetres."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3 produced between May 1950 and August 1956 with 12 cylinders has a length of 17068.8 millimetres."
+        }
+    },
+    "gold_outputs": []
+}

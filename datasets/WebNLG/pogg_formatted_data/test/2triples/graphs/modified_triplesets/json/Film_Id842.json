@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Anatole de Grunwald was the producer of 'English Without Tears,' a film with a running time of 89 minutes."
+        },
+        "Id2": {
+            "text": "English Without Tears, which is 89 minutes long, was produced by Anatole de Grunwald."
+        },
+        "Id3": {
+            "text": "English Without Tears was produced by Anatole de Grunwald and has an 89 minute duration."
+        }
+    },
+    "gold_outputs": []
+}

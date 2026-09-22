@@ -1,0 +1,5 @@
+strict digraph {
+"AEK_Athens_F.C." [lexicon_key="AEK_Athens_F.C."];
+"Olympic_Stadium_(Athens)" [lexicon_key="Olympic_Stadium_(Athens)"];
+"AEK_Athens_F.C." -> "Olympic_Stadium_(Athens)" [label=ground, lexicon_key=ground];
+}

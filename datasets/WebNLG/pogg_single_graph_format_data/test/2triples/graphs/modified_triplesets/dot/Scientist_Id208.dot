@@ -1,0 +1,7 @@
+strict digraph {
+Turkey [lexicon_key=Turkey];
+"Prime Minister" [lexicon_key="Prime Minister"];
+Nurhan_Atasoy [lexicon_key="Nurhan_Atasoy"];
+Turkey -> "Prime Minister" [label=leaderTitle, lexicon_key=leaderTitle];
+Nurhan_Atasoy -> Turkey [label=birthPlace, lexicon_key=birthPlace];
+}

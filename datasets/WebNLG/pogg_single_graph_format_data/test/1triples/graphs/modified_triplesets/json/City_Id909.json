@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Juan_Nolasco": {
+            "lexicon_key": "Juan_Nolasco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Juan_Nolasco",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The leader of Ciudad Ayala is Juan Nolasco."
+        },
+        "Id2": {
+            "text": "One of the leaders of Ciudad Ayala is Juan Nolasco."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "In the United States, Abraham A. Ribicoff was born and later married Casey Ribicoff."
+        },
+        "Id2": {
+            "text": "Abraham A. Ribicoff was born in the United States, and his spouse was Casey Ribicoff."
+        },
+        "Id3": {
+            "text": "Abraham A Ribicoff was born in the United States and his wife is Casey Ribicoff."
+        }
+    },
+    "gold_outputs": []
+}

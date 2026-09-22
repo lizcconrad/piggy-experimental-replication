@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "George_Allen_&_Unwin": {
+            "lexicon_key": "George_Allen_&_Unwin"
+        },
+        "Fantasy_(genre)": {
+            "lexicon_key": "Fantasy_(genre)"
+        },
+        "The_Two_Towers": {
+            "lexicon_key": "The_Two_Towers"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "George_Allen_&_Unwin",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        },
+        {
+            "edge_name": "literaryGenre",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "Fantasy_(genre)",
+            "edge_properties": {
+                "lexicon_key": "literaryGenre"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "The_Two_Towers",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Fellowship of the Ring and The Two Towers were books belonging to the fantasy literary genre published by George Allen & Unwin."
+        },
+        "Id2": {
+            "text": "George Allen & Unwin published the fantasy novel The Fellowship of the Ring, which was followed by its sequel The Two Towers."
+        },
+        "Id3": {
+            "text": "George Allen & Unwin published the fantasy, Fellowship of the Ring, followed by The Two Towers."
+        }
+    },
+    "gold_outputs": []
+}

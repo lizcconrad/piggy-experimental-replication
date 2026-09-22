@@ -1,0 +1,5 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+380700000 [lexicon_key=380700000];
+AmeriGas -> 380700000 [label=operatingIncome, lexicon_key=operatingIncome];
+}

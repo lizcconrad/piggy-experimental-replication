@@ -1,0 +1,5 @@
+strict digraph {
+Philippines [lexicon_key=Philippines];
+Leni_Robredo [lexicon_key="Leni_Robredo"];
+Philippines -> Leni_Robredo [label=leader, lexicon_key=leader];
+}

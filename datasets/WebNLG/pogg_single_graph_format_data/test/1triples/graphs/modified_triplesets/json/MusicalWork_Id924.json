@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Sludge_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nord is an album by Year of No Light in the sludge metal genre."
+        },
+        "Id2": {
+            "text": "The genre of the album Nord is sludge metal."
+        },
+        "Id3": {
+            "text": "The Year of No Light album Nord is in the sludge metal genre."
+        }
+    },
+    "gold_outputs": []
+}

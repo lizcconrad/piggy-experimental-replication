@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        },
+        "&minus;7": {
+            "lexicon_key": "&minus;7"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "San_Francisco",
+            "child_node": "&minus;7",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "San Francisco is in the timezone UTC-7."
+        },
+        "Id2": {
+            "text": "The UTC offset at San Francisco is -7."
+        },
+        "Id3": {
+            "text": "San Francisco's Coordinated Universal Time Offset is minus seven hours."
+        }
+    },
+    "gold_outputs": []
+}

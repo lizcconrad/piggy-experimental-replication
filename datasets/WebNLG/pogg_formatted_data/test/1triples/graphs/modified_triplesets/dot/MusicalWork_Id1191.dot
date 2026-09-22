@@ -1,0 +1,5 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"California_37_(Train_album)" [lexicon_key="California_37_(Train_album)"];
+"Mermaid_(Train_song)" -> "California_37_(Train_album)" [label=album, lexicon_key=album];
+}

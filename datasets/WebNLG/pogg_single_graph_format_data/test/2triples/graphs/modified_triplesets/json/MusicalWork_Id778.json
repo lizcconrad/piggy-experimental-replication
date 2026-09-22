@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Easy_listening": {
+            "lexicon_key": "Easy_listening"
+        },
+        "Pools_of_Light_(Brian_Kelly_album)": {
+            "lexicon_key": "Pools_of_Light_(Brian_Kelly_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Easy_listening",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Pools_of_Light_(Brian_Kelly_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle by Brian Kelly, an album of the easy listening genre, was preceded by the album Pools of Light."
+        },
+        "Id2": {
+            "text": "Expect a Miracle's genre is easy listening, and is preceded by the Brian Kelly album Pools of Light."
+        },
+        "Id3": {
+            "text": "The Brian Kelly album Expect a Miracle, an album in the easy listening musical genre, was preceded by the album Pools of Light."
+        }
+    },
+    "gold_outputs": []
+}

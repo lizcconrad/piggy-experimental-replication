@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Pools_of_Light_(Brian_Kelly_album)": {
+            "lexicon_key": "Pools_of_Light_(Brian_Kelly_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Pools_of_Light_(Brian_Kelly_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle is preceded by the Brian Kelly album Pools of Light."
+        },
+        "Id2": {
+            "text": "The Brian Kelly album Expect a Miracle was preceded by the album Pools of Light."
+        },
+        "Id3": {
+            "text": "Expect a Miracle was preceded by Pools of Light by Brian Kelly."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+United_States_Army [lexicon_key="United_States_Army"];
+American_Civil_War [lexicon_key="American_Civil_War"];
+United_States_Army -> American_Civil_War [label=battle, lexicon_key=battle];
+}

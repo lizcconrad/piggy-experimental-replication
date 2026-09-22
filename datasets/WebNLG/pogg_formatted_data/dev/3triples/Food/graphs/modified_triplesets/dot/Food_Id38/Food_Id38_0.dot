@@ -1,0 +1,5 @@
+strict digraph {
+Java [lexicon_key=Java];
+Banyumasan_people [lexicon_key="Banyumasan_people"];
+Java -> Banyumasan_people [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

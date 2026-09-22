@@ -1,0 +1,5 @@
+strict digraph {
+Adam_West [lexicon_key="Adam_West"];
+"1954-01-01" [lexicon_key="1954-01-01"];
+Adam_West -> "1954-01-01" [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+"California_37_(Train_album)" [lexicon_key="California_37_(Train_album)"];
+"Imagine_(John_Lennon_album)" [lexicon_key="Imagine_(John_Lennon_album)"];
+"Mermaid_(Train_song)" -> "Imagine_(John_Lennon_song)" [label=followedBy, lexicon_key=followedBy];
+"Mermaid_(Train_song)" -> "California_37_(Train_album)" [label=album, lexicon_key=album];
+"Imagine_(John_Lennon_song)" -> "Imagine_(John_Lennon_album)" [label=album, lexicon_key=album];
+}

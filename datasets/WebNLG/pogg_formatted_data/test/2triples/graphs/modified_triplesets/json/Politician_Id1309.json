@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "Sarawak": {
+            "lexicon_key": "Sarawak"
+        },
+        "Parti_Pesaka_Bumiputera_Bersatu": {
+            "lexicon_key": "Parti_Pesaka_Bumiputera_Bersatu"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Sarawak",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "party",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Parti_Pesaka_Bumiputera_Bersatu",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Abdul Taib Mahmud is a member of the Parti Pesaka Bumiputera Bersatu and lives in Sarawak."
+        },
+        "Id2": {
+            "text": "Parti Pesaka Bumiputera Bersatu member, Abdul Taib Mahmud lives in Sarawak."
+        },
+        "Id3": {
+            "text": "Abdul Taib Mahmud, a member of the Parti Pesaka Bumiputera Bersatu party, lives in Sarawak."
+        }
+    },
+    "gold_outputs": []
+}

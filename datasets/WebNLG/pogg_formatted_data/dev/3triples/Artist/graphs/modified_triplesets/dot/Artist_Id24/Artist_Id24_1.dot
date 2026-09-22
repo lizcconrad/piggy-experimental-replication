@@ -1,0 +1,5 @@
+strict digraph {
+Jazz [lexicon_key=Jazz];
+Funk [lexicon_key=Funk];
+Jazz -> Funk [label=derivative, lexicon_key=derivative];
+}

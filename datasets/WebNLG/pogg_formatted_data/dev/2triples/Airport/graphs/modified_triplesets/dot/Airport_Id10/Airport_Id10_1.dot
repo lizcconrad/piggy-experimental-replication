@@ -1,0 +1,5 @@
+strict digraph {
+Pakistan_Civil_Aviation_Authority [lexicon_key="Pakistan_Civil_Aviation_Authority"];
+Jinnah_International_Airport [lexicon_key="Jinnah_International_Airport"];
+Pakistan_Civil_Aviation_Authority -> Jinnah_International_Airport [label=headquarter, lexicon_key=headquarter];
+}

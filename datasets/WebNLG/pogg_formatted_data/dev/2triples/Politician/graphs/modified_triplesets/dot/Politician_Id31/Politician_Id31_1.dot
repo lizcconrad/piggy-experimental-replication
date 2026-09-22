@@ -1,0 +1,5 @@
+strict digraph {
+Alvah_Sabin [lexicon_key="Alvah_Sabin"];
+Homer_Elihu_Royce [lexicon_key="Homer_Elihu_Royce"];
+Alvah_Sabin -> Homer_Elihu_Royce [label=successor, lexicon_key=successor];
+}

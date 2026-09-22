@@ -1,0 +1,5 @@
+strict digraph {
+Italy [lexicon_key=Italy];
+Sergio_Mattarella [lexicon_key="Sergio_Mattarella"];
+Italy -> Sergio_Mattarella [label=leader, lexicon_key=leader];
+}

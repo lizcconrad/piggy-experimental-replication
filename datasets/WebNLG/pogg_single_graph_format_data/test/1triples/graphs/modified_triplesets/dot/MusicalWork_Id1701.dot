@@ -1,0 +1,5 @@
+strict digraph {
+"Train_(band)" [lexicon_key="Train_(band)"];
+Charlie_Colin [lexicon_key="Charlie_Colin"];
+"Train_(band)" -> Charlie_Colin [label=formerBandMember, lexicon_key=formerBandMember];
+}

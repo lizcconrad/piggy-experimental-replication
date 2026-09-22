@@ -1,0 +1,5 @@
+strict digraph {
+Indonesia [lexicon_key=Indonesia];
+Joko_Widodo [lexicon_key="Joko_Widodo"];
+Indonesia -> Joko_Widodo [label=leader, lexicon_key=leader];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "MotorSport_Vision",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bedford Aerodrome has an operating organization that is called the MotorSport Vision."
+        },
+        "Id2": {
+            "text": "MotorSport Vision is the operating organisation for Bedford Aerodrome."
+        },
+        "Id3": {
+            "text": "MotorSport Vision operates the Bedford Aerodrome."
+        }
+    },
+    "gold_outputs": []
+}

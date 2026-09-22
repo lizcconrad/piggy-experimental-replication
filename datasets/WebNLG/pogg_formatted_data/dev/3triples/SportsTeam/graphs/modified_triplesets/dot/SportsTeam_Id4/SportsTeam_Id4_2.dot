@@ -1,0 +1,5 @@
+strict digraph {
+"A.D._Isidro_Metapán" [lexicon_key="A.D._Isidro_Metapán"];
+10000 [lexicon_key=10000];
+"A.D._Isidro_Metapán" -> 10000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        },
+        "Concrete": {
+            "lexicon_key": "Concrete"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        },
+        {
+            "edge_name": "runwaySurfaceType",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Concrete",
+            "edge_properties": {
+                "lexicon_key": "runwaySurfaceType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ICAO location identifier for the Bedford Aerodrome is EGBF and the aerodrome has a runway surface made of concrete."
+        },
+        "Id2": {
+            "text": "The ICAO location identifier for Bedford Aerodrome is EGBF and its runway is made of concrete."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome with concrete runway has EGBF as its International Civil Aviation Organization (ICAO) identifier."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+204.0 [lexicon_key=204.0];
+"La_Crosse,_Wisconsin" -> 204.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

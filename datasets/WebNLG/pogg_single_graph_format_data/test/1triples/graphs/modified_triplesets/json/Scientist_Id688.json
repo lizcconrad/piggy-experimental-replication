@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Chief Justice": {
+            "lexicon_key": "Chief Justice"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "India",
+            "child_node": "Chief Justice",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "A Chief Justice is a leadership title in India."
+        },
+        "Id2": {
+            "text": "Chief Justice is one of the titles of Indian leaders."
+        },
+        "Id3": {
+            "text": "Chief Justice is the title of one of the leaders of India."
+        }
+    },
+    "gold_outputs": []
+}

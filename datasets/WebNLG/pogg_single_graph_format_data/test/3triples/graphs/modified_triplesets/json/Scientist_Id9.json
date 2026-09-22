@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1703-05-27": {
+            "lexicon_key": "1703-05-27"
+        },
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "1439.0": {
+            "lexicon_key": "1439.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1703-05-27",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1439.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Saint Petersburg was founded on May 27, 1703 and has a total area of 1439.0, Olga Bondareva passed away at Saint Petersburg."
+        },
+        "Id2": {
+            "text": "Saint Petersburg, where Olga Bondareva died, was founded on the 27th of May, 1703 and has a total area of approximately 1439 km2."
+        },
+        "Id3": {
+            "text": "Saint Petersburg, where Olga Bondareva died, was founded on May 27, 1703 and consists of a total area of 1439.0 sq/km."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Caterpillar_Inc.": {
-            "lexicon_key": "Caterpillar_Inc."
+    "graphs": {
+        "MeanOfTransportation_Id27_0": {
+            "nodes": {
+                "Caterpillar_Inc.": {
+                    "lexicon_key": "Caterpillar_Inc."
+                },
+                "Douglas_R._Oberhelman": {
+                    "lexicon_key": "Douglas_R._Oberhelman"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "keyPerson",
+                    "parent_node": "Caterpillar_Inc.",
+                    "child_node": "Douglas_R._Oberhelman",
+                    "edge_properties": {
+                        "lexicon_key": "keyPerson"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Douglas R Oberhelman is a person at Caterpillar Inc. where the AIDAluna is manufactured.",
+                "Douglas R. Oberhelman is a key person at Caterpillar Inc. who provide the engine power for the AIDAluna.",
+                "The power type of the AIDAluna is an engine manufactured by Caterpillar Inc where Douglas R Oberhelman is a key person."
+            ]
         },
-        "Douglas_R._Oberhelman": {
-            "lexicon_key": "Douglas_R._Oberhelman"
-        },
-        "AIDAluna": {
-            "lexicon_key": "AIDAluna"
+        "MeanOfTransportation_Id27_1": {
+            "nodes": {
+                "AIDAluna": {
+                    "lexicon_key": "AIDAluna"
+                },
+                "Caterpillar_Inc.": {
+                    "lexicon_key": "Caterpillar_Inc."
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "powerType",
+                    "parent_node": "AIDAluna",
+                    "child_node": "Caterpillar_Inc.",
+                    "edge_properties": {
+                        "lexicon_key": "powerType"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Douglas R Oberhelman is a person at Caterpillar Inc. where the AIDAluna is manufactured.",
+                "Douglas R. Oberhelman is a key person at Caterpillar Inc. who provide the engine power for the AIDAluna.",
+                "The power type of the AIDAluna is an engine manufactured by Caterpillar Inc where Douglas R Oberhelman is a key person."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "keyPerson",
-            "parent_node": "Caterpillar_Inc.",
-            "child_node": "Douglas_R._Oberhelman",
-            "edge_properties": {
-                "lexicon_key": "keyPerson"
-            }
-        },
-        {
-            "edge_name": "powerType",
-            "parent_node": "AIDAluna",
-            "child_node": "Caterpillar_Inc.",
-            "edge_properties": {
-                "lexicon_key": "powerType"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

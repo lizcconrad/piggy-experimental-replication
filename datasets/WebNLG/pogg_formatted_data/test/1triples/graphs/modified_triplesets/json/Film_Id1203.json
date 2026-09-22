@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears is 89 minutes long."
+        },
+        "Id2": {
+            "text": "English Without Tears is a film with a running time of 89 minutes."
+        },
+        "Id3": {
+            "text": "The duration of the movie \u00b4English Without Tears\u00b4 is 89 minutes."
+        }
+    },
+    "gold_outputs": []
+}

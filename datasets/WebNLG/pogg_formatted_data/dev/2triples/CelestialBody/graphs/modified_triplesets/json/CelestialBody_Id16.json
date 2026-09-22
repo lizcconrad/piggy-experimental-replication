@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "110_Lydia": {
-            "lexicon_key": "110_Lydia"
+    "graphs": {
+        "CelestialBody_Id16_0": {
+            "nodes": {
+                "110_Lydia": {
+                    "lexicon_key": "110_Lydia"
+                },
+                "39332.9": {
+                    "lexicon_key": "39332.9"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "rotationPeriod",
+                    "parent_node": "110_Lydia",
+                    "child_node": "39332.9",
+                    "edge_properties": {
+                        "lexicon_key": "rotationPeriod"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "110 Lydia has a rotation period of 39332.9 and an epoch date of 31 December 2006.",
+                "110 Lydia has a rotation period of 39332.9, and its epoch is 31st December 2006.",
+                "110 Lydia has a rotational period of 39332.9 and its epoch is 31st December 2006."
+            ]
         },
-        "39332.9": {
-            "lexicon_key": "39332.9"
-        },
-        "2006-12-31": {
-            "lexicon_key": "2006-12-31"
+        "CelestialBody_Id16_1": {
+            "nodes": {
+                "110_Lydia": {
+                    "lexicon_key": "110_Lydia"
+                },
+                "2006-12-31": {
+                    "lexicon_key": "2006-12-31"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "epoch",
+                    "parent_node": "110_Lydia",
+                    "child_node": "2006-12-31",
+                    "edge_properties": {
+                        "lexicon_key": "epoch"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "110 Lydia has a rotation period of 39332.9 and an epoch date of 31 December 2006.",
+                "110 Lydia has a rotation period of 39332.9, and its epoch is 31st December 2006.",
+                "110 Lydia has a rotational period of 39332.9 and its epoch is 31st December 2006."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "rotationPeriod",
-            "parent_node": "110_Lydia",
-            "child_node": "39332.9",
-            "edge_properties": {
-                "lexicon_key": "rotationPeriod"
-            }
-        },
-        {
-            "edge_name": "epoch",
-            "parent_node": "110_Lydia",
-            "child_node": "2006-12-31",
-            "edge_properties": {
-                "lexicon_key": "epoch"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

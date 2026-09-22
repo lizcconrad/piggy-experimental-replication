@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Mason_School_of_Business",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan B. Miller Hall (located in United States) is owned by The College of William and Mary and its current tenants are The Mason School of Business."
+        },
+        "Id2": {
+            "text": "The Mason School of Business are the current tenants of Alan B Miller Hall, located in the United States and owned by the College of William and Mary."
+        },
+        "Id3": {
+            "text": "The Mason School of Business (located in the United States) are the current tenants of Alan B Miller Hall. The owner of the College is William and Mary."
+        }
+    },
+    "gold_outputs": []
+}

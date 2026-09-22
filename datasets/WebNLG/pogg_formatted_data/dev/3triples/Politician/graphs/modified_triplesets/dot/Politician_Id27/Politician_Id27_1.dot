@@ -1,0 +1,5 @@
+strict digraph {
+"Whig_Party_(United_States)" [lexicon_key="Whig_Party_(United_States)"];
+Daniel_Webster [lexicon_key="Daniel_Webster"];
+"Whig_Party_(United_States)" -> Daniel_Webster [label=leader, lexicon_key=leader];
+}

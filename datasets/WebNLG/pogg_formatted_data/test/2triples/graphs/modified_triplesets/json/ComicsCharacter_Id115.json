@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Steve_Bright": {
+            "lexicon_key": "Steve_Bright"
+        },
+        "BBC": {
+            "lexicon_key": "BBC"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bananaman",
+            "child_node": "Steve_Bright",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The BBC broadcasted Bananaman, which was created by Steve Bright."
+        },
+        "Id2": {
+            "text": "Steve Bright is the creator of Bananaman which is broadcast by the BBC."
+        },
+        "Id3": {
+            "text": "Bananaman, the TV series created by Steve Bright, was shown on the BBC."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+230.05 [lexicon_key=230.05];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> The_Velvet_Underground [label=producer, lexicon_key=producer];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> 230.05 [label=runtime, lexicon_key=runtime];
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Aaron_Boogaard": {
-            "lexicon_key": "Aaron_Boogaard"
+    "graphs": {
+        "Athlete_Id1_0": {
+            "nodes": {
+                "Aaron_Boogaard": {
+                    "lexicon_key": "Aaron_Boogaard"
+                },
+                "1.905": {
+                    "lexicon_key": "1.905"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "height",
+                    "parent_node": "Aaron_Boogaard",
+                    "child_node": "1.905",
+                    "edge_properties": {
+                        "lexicon_key": "height"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Boogaard was born in Regina, Saskatchewan and plays for Wichita Thunder. He is 1.905 m high.",
+                "Aaron Boogaard's birthplace is Regina, Saskatchewan and he is 1.905m high. He played for the club Wichita Thunder.",
+                "Aaron Boogaard, who plays for Wichita Thunder, is 1.905 tall and was born in Regina, Saskatchewan."
+            ]
         },
-        "1.905": {
-            "lexicon_key": "1.905"
+        "Athlete_Id1_1": {
+            "nodes": {
+                "Aaron_Boogaard": {
+                    "lexicon_key": "Aaron_Boogaard"
+                },
+                "Regina,_Saskatchewan": {
+                    "lexicon_key": "Regina,_Saskatchewan"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Aaron_Boogaard",
+                    "child_node": "Regina,_Saskatchewan",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Boogaard was born in Regina, Saskatchewan and plays for Wichita Thunder. He is 1.905 m high.",
+                "Aaron Boogaard's birthplace is Regina, Saskatchewan and he is 1.905m high. He played for the club Wichita Thunder.",
+                "Aaron Boogaard, who plays for Wichita Thunder, is 1.905 tall and was born in Regina, Saskatchewan."
+            ]
         },
-        "Regina,_Saskatchewan": {
-            "lexicon_key": "Regina,_Saskatchewan"
-        },
-        "Wichita_Thunder": {
-            "lexicon_key": "Wichita_Thunder"
+        "Athlete_Id1_2": {
+            "nodes": {
+                "Aaron_Boogaard": {
+                    "lexicon_key": "Aaron_Boogaard"
+                },
+                "Wichita_Thunder": {
+                    "lexicon_key": "Wichita_Thunder"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "club",
+                    "parent_node": "Aaron_Boogaard",
+                    "child_node": "Wichita_Thunder",
+                    "edge_properties": {
+                        "lexicon_key": "club"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Boogaard was born in Regina, Saskatchewan and plays for Wichita Thunder. He is 1.905 m high.",
+                "Aaron Boogaard's birthplace is Regina, Saskatchewan and he is 1.905m high. He played for the club Wichita Thunder.",
+                "Aaron Boogaard, who plays for Wichita Thunder, is 1.905 tall and was born in Regina, Saskatchewan."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "height",
-            "parent_node": "Aaron_Boogaard",
-            "child_node": "1.905",
-            "edge_properties": {
-                "lexicon_key": "height"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Aaron_Boogaard",
-            "child_node": "Regina,_Saskatchewan",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "club",
-            "parent_node": "Aaron_Boogaard",
-            "child_node": "Wichita_Thunder",
-            "edge_properties": {
-                "lexicon_key": "club"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

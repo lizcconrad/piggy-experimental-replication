@@ -1,0 +1,5 @@
+strict digraph {
+Karl_Kesel [lexicon_key="Karl_Kesel"];
+Americans [lexicon_key=Americans];
+Karl_Kesel -> Americans [label=nationality, lexicon_key=nationality];
+}

@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idThroat1BackOpening": {
-            "lexicon_key": "idThroat1BackOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idThroat1BackOpening_subgraph_0": {
+            "nodes": {
+                "idThroat1BackOpening": {
+                    "lexicon_key": "idThroat1BackOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

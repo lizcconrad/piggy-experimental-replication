@@ -1,0 +1,5 @@
+strict digraph {
+HBO [lexicon_key=HBO];
+Time_Warner [lexicon_key="Time_Warner"];
+HBO -> Time_Warner [label=owner, lexicon_key=owner];
+}

@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Aaron_Turner": {
-            "lexicon_key": "Aaron_Turner"
-        },
-        "Black_metal": {
-            "lexicon_key": "Black_metal"
+    "graphs": {
+        "Artist_Id4_0": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Black_metal": {
+                    "lexicon_key": "Black_metal"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Black_metal",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner is a Black metal musician.",
+                "Aaron Turner performs black metal music.",
+                "Black Metal is a genre of Aaron Turner's music."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Black_metal",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

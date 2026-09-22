@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "1969:_The_Velvet_Underground_Live": {
+            "lexicon_key": "1969:_The_Velvet_Underground_Live"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Squeeze_(The_Velvet_Underground_album)",
+            "child_node": "1969:_The_Velvet_Underground_Live",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Squeeze was followed by the album 1969: The Velvet Underground Live."
+        },
+        "Id2": {
+            "text": "The Velvet Underground album Squeeze was followed by the live album 1969: The Velvet Underground Live."
+        },
+        "Id3": {
+            "text": "The Velvet Underground album Squeeze is followed by the album 1969: The Velvet Underground Live."
+        }
+    },
+    "gold_outputs": []
+}

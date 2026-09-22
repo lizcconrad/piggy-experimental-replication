@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "Hubei": {
+            "lexicon_key": "Hubei"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Zaoyang",
+            "child_node": "Hubei",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Zaoyang city is a part of Hubei province."
+        },
+        "Id2": {
+            "text": "Zaoyang is part of Hubei province."
+        },
+        "Id3": {
+            "text": "The city of Zaoyang is part of Hubei province."
+        }
+    },
+    "gold_outputs": []
+}

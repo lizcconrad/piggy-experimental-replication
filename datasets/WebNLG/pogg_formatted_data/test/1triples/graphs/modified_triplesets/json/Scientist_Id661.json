@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Turkish_people": {
+            "lexicon_key": "Turkish_people"
+        },
+        "Irreligion": {
+            "lexicon_key": "Irreligion"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "religion",
+            "parent_node": "Turkish_people",
+            "child_node": "Irreligion",
+            "edge_properties": {
+                "lexicon_key": "religion"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The religion of some Turkish people could be defined as irreligion."
+        },
+        "Id2": {
+            "text": "Some Turkish people are irreligious."
+        }
+    },
+    "gold_outputs": []
+}

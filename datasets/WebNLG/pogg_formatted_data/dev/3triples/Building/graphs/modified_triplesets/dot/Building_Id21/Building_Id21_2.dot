@@ -1,0 +1,5 @@
+strict digraph {
+Ampara_Hospital [lexicon_key="Ampara_Hospital"];
+"Eastern_Province,_Sri_Lanka" [lexicon_key="Eastern_Province,_Sri_Lanka"];
+Ampara_Hospital -> "Eastern_Province,_Sri_Lanka" [label=state, lexicon_key=state];
+}

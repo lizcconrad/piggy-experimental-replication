@@ -1,0 +1,5 @@
+strict digraph {
+Singapore [lexicon_key=Singapore];
+Singapore_dollar [lexicon_key="Singapore_dollar"];
+Singapore -> Singapore_dollar [label=currency, lexicon_key=currency];
+}

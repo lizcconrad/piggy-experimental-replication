@@ -1,0 +1,5 @@
+strict digraph {
+Addis_Ababa_City_Hall [lexicon_key="Addis_Ababa_City_Hall"];
+"42 m" [lexicon_key="42 m"];
+Addis_Ababa_City_Hall -> "42 m" [label=height, lexicon_key=height];
+}

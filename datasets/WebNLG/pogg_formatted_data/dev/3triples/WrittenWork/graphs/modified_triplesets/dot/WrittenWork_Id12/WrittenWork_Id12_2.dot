@@ -1,0 +1,5 @@
+strict digraph {
+A_Long_Long_Way [lexicon_key="A_Long_Long_Way"];
+The_Secret_Scripture [lexicon_key="The_Secret_Scripture"];
+A_Long_Long_Way -> The_Secret_Scripture [label=followedBy, lexicon_key=followedBy];
+}

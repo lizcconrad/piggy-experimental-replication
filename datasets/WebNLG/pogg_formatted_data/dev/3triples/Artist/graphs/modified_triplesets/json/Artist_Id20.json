@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Alfred_Garth_Jones": {
-            "lexicon_key": "Alfred_Garth_Jones"
+    "graphs": {
+        "Artist_Id20_0": {
+            "nodes": {
+                "Alfred_Garth_Jones": {
+                    "lexicon_key": "Alfred_Garth_Jones"
+                },
+                "London": {
+                    "lexicon_key": "London"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "deathPlace",
+                    "parent_node": "Alfred_Garth_Jones",
+                    "child_node": "London",
+                    "edge_properties": {
+                        "lexicon_key": "deathPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfred Garth Jones was born in Manchester (England) and died in London.",
+                "Alfred Garth Jones was born in Manchester, England and he passed away in London.",
+                "Alfred Garth Jones was born in Manchester, in England, and died in London."
+            ]
         },
-        "London": {
-            "lexicon_key": "London"
+        "Artist_Id20_1": {
+            "nodes": {
+                "Alfred_Garth_Jones": {
+                    "lexicon_key": "Alfred_Garth_Jones"
+                },
+                "Manchester": {
+                    "lexicon_key": "Manchester"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alfred_Garth_Jones",
+                    "child_node": "Manchester",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfred Garth Jones was born in Manchester (England) and died in London.",
+                "Alfred Garth Jones was born in Manchester, England and he passed away in London.",
+                "Alfred Garth Jones was born in Manchester, in England, and died in London."
+            ]
         },
-        "Manchester": {
-            "lexicon_key": "Manchester"
-        },
-        "England": {
-            "lexicon_key": "England"
+        "Artist_Id20_2": {
+            "nodes": {
+                "Alfred_Garth_Jones": {
+                    "lexicon_key": "Alfred_Garth_Jones"
+                },
+                "England": {
+                    "lexicon_key": "England"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alfred_Garth_Jones",
+                    "child_node": "England",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfred Garth Jones was born in Manchester (England) and died in London.",
+                "Alfred Garth Jones was born in Manchester, England and he passed away in London.",
+                "Alfred Garth Jones was born in Manchester, in England, and died in London."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "deathPlace",
-            "parent_node": "Alfred_Garth_Jones",
-            "child_node": "London",
-            "edge_properties": {
-                "lexicon_key": "deathPlace"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alfred_Garth_Jones",
-            "child_node": "Manchester",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alfred_Garth_Jones",
-            "child_node": "England",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

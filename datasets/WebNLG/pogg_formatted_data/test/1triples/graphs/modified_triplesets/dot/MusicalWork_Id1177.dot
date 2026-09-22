@@ -1,0 +1,5 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+"2006-09-06" [lexicon_key="2006-09-06"];
+"Nord_(Year_of_No_Light_album)" -> "2006-09-06" [label=releaseDate, lexicon_key=releaseDate];
+}

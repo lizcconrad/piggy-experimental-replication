@@ -1,0 +1,5 @@
+strict digraph {
+"Anderson_Township,_Madison_County,_Indiana" [lexicon_key="Anderson_Township,_Madison_County,_Indiana"];
+United_States [lexicon_key="United_States"];
+"Anderson_Township,_Madison_County,_Indiana" -> United_States [label=country, lexicon_key=country];
+}

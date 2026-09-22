@@ -1,0 +1,5 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+1249.6 [lexicon_key=1249.6];
+"1147_Stavropolis" -> 1249.6 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

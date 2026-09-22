@@ -1,0 +1,5 @@
+strict digraph {
+Nicholas_Brodszky [lexicon_key="Nicholas_Brodszky"];
+non_performing_personnel [lexicon_key="non_performing_personnel"];
+Nicholas_Brodszky -> non_performing_personnel [label=background, lexicon_key=background];
+}

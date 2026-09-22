@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Amatriciana_sauce": {
-            "lexicon_key": "Amatriciana_sauce"
+    "graphs": {
+        "Food_Id3_0": {
+            "nodes": {
+                "Amatriciana_sauce": {
+                    "lexicon_key": "Amatriciana_sauce"
+                },
+                "Lazio": {
+                    "lexicon_key": "Lazio"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Amatriciana_sauce",
+                    "child_node": "Lazio",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Amatriciana sauce is from the Lazio region and tomato is one of the ingredients.",
+                "Tomato is an ingredient in Amatriciana sauce which comes from Lazio.",
+                "Tomato is an ingredient in Amatriciana sauce which comes from the region of Lazio."
+            ]
         },
-        "Lazio": {
-            "lexicon_key": "Lazio"
-        },
-        "Tomato": {
-            "lexicon_key": "Tomato"
+        "Food_Id3_1": {
+            "nodes": {
+                "Amatriciana_sauce": {
+                    "lexicon_key": "Amatriciana_sauce"
+                },
+                "Tomato": {
+                    "lexicon_key": "Tomato"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Amatriciana_sauce",
+                    "child_node": "Tomato",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Amatriciana sauce is from the Lazio region and tomato is one of the ingredients.",
+                "Tomato is an ingredient in Amatriciana sauce which comes from Lazio.",
+                "Tomato is an ingredient in Amatriciana sauce which comes from the region of Lazio."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "region",
-            "parent_node": "Amatriciana_sauce",
-            "child_node": "Lazio",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Amatriciana_sauce",
-            "child_node": "Tomato",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

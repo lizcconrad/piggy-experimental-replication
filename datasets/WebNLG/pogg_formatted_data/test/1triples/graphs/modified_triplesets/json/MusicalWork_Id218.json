@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Universal_Music_Group": {
+            "lexicon_key": "Universal_Music_Group"
+        },
+        "Lucian_Grainge": {
+            "lexicon_key": "Lucian_Grainge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Universal_Music_Group",
+            "child_node": "Lucian_Grainge",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The key person at Universal Music Group is Lucian Grainge."
+        },
+        "Id2": {
+            "text": "Lucian Grainge is a key person in the Universal Music Group."
+        }
+    },
+    "gold_outputs": []
+}

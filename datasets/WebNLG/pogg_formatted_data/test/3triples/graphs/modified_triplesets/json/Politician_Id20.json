@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Abraham A. Ribicoff was born and died in the United States where African Americans are an ethnic group."
+        },
+        "Id2": {
+            "text": "Abraham A.Ribicoff died in the United States. It was also his birthplace. African Americans are an ethnic group in the U.S.A."
+        },
+        "Id3": {
+            "text": "Abraham A Ribicoff was born and died in the United States where African Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": []
+}

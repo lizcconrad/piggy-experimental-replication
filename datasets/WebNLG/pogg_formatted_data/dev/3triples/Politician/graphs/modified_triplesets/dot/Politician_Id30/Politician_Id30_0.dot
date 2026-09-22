@@ -1,0 +1,5 @@
+strict digraph {
+Austria [lexicon_key=Austria];
+Doris_Bures [lexicon_key="Doris_Bures"];
+Austria -> Doris_Bures [label=leader, lexicon_key=leader];
+}

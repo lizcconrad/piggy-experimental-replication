@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Bondareva\u2013Shapley_theorem": {
+            "lexicon_key": "Bondareva\u2013Shapley_theorem"
+        },
+        "Leningrad_State_University": {
+            "lexicon_key": "Leningrad_State_University"
+        },
+        "Economics": {
+            "lexicon_key": "Economics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Bondareva\u2013Shapley_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad_State_University",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Economics",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva graduated from Leningrad State University and currently works in the field of Economics. She is most widely known for Bondareva-Shapley theorem."
+        },
+        "Id2": {
+            "text": "Olga Bondareva, an economist known for the Bondareva-Shapley theorem, studied at Leningrad State University."
+        },
+        "Id3": {
+            "text": "Known for the Bondareva-Shapley theorem, Olga Bondareva was once a student at Leningrad State University and an Economics professional."
+        }
+    },
+    "gold_outputs": []
+}

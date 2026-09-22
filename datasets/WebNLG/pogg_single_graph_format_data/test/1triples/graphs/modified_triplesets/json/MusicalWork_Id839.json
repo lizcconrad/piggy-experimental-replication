@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        },
+        "Stoner_sludge": {
+            "lexicon_key": "Stoner_sludge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Sludge_metal",
+            "child_node": "Stoner_sludge",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Stoner sludge is a subgenre of sludge metal."
+        },
+        "Id2": {
+            "text": "Stoner sludge is a musical subgenre of sludge metal."
+        },
+        "Id3": {
+            "text": "Stoner sludge is a musical variety of sludge metal."
+        }
+    },
+    "gold_outputs": []
+}

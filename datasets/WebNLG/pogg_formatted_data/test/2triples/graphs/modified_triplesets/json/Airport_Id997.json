@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The location of Bedford Aerodrome is Thurleigh and it has a runway whose length is 1095."
+        },
+        "Id2": {
+            "text": "The Bedford Aerodrome is located in Thurleigh and it has a runway with the length of 1095.0."
+        },
+        "Id3": {
+            "text": "The location of Bedford Aerodrome is Thurleigh which has a runway length of 1095."
+        }
+    },
+    "gold_outputs": []
+}

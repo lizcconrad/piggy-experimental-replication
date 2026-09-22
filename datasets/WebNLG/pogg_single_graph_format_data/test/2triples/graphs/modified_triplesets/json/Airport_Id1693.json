@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        },
+        "Bedford_Autodrome": {
+            "lexicon_key": "Bedford_Autodrome"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Bedford_Autodrome",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The place served by the Bedford Aerodrome is the Bedford Autodrome which has a runway with the length of 1095.0."
+        },
+        "Id2": {
+            "text": "Bedford Aerodrome which has a runway length of 1,095 has served the Bedford Autodrome."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome serves the Bedford Autodrome and has a runway length of 1095."
+        }
+    },
+    "gold_outputs": []
+}

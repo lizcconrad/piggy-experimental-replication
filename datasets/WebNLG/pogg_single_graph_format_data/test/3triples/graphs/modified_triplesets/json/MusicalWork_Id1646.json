@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Espionage_(production_team)": {
+            "lexicon_key": "Espionage_(production_team)"
+        },
+        "Pat_Monahan": {
+            "lexicon_key": "Pat_Monahan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Imagine_(John_Lennon_song)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Espionage_(production_team)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Pat_Monahan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Train followed Mermaid with Imagine, a song by John Lennon was produced by the production team Espionage and written by Pat Monahan."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid, written by Pat Monahan and produced by the Espionage production team, is followed by the John Lennon song Imagine."
+        },
+        "Id3": {
+            "text": "The song Mermaid by Train (written by Pat Monahan and produced by Espionage) was followed by the release of Imagine by John Lennon performed by Train."
+        }
+    },
+    "gold_outputs": []
+}

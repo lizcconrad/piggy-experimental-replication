@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Electric_guitar [lexicon_key="Electric_guitar"];
+Aaron_Turner -> Electric_guitar [label=instrument, lexicon_key=instrument];
+}

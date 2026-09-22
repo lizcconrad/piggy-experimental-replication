@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        },
+        "83.2104": {
+            "lexicon_key": "83.2104"
+        },
+        "Concrete": {
+            "lexicon_key": "Concrete"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "83.2104",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        },
+        {
+            "edge_name": "runwaySurfaceType",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Concrete",
+            "edge_properties": {
+                "lexicon_key": "runwaySurfaceType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bedford Aerodrome, which is made of concrete and has an ICAO location identifier of EGBF, is located 83.2 meters above sea level."
+        },
+        "Id2": {
+            "text": "Bedford Aerodrome's ICAO identifier is EGBF. It is located 83.2104 meters above sea level and has a runway made of concrete."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome is at an elevation of 83.2104 above sea level, its runway surface is made out of concrete. Its international civil Aviation organization (ICAO) identifier is EGBF."
+        }
+    },
+    "gold_outputs": []
+}

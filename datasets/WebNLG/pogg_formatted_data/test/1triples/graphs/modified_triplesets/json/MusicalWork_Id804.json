@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Take_It_Off!": {
+            "lexicon_key": "Take_It_Off!"
+        },
+        "Wharton_Tiers": {
+            "lexicon_key": "Wharton_Tiers"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Take_It_Off!",
+            "child_node": "Wharton_Tiers",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Wharton Tiers is the producer of Take it Off."
+        },
+        "Id2": {
+            "text": "Wharton Tiers produced the album titled \u201cTake it Off!\u201d."
+        },
+        "Id3": {
+            "text": "Wharton Tiers is the producer of Take It Off!"
+        }
+    },
+    "gold_outputs": []
+}

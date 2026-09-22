@@ -1,0 +1,5 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+Hatchback [lexicon_key=Hatchback];
+Audi_A1 -> Hatchback [label=bodyStyle, lexicon_key=bodyStyle];
+}

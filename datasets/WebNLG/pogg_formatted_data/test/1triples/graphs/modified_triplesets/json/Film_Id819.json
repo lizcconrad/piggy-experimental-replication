@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Adam_West": {
+            "lexicon_key": "Adam_West"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Adam_West",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Adam West had a main role in the movie Super Capers."
+        },
+        "Id2": {
+            "text": "Super Capers is a film starring Adam West."
+        },
+        "Id3": {
+            "text": "Super Capers is starring Adam West."
+        }
+    },
+    "gold_outputs": []
+}

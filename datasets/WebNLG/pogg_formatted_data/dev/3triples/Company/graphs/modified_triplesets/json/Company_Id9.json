@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Trane": {
-            "lexicon_key": "Trane"
+    "graphs": {
+        "Company_Id9_0": {
+            "nodes": {
+                "Trane": {
+                    "lexicon_key": "Trane"
+                },
+                "La_Crosse,_Wisconsin": {
+                    "lexicon_key": "La_Crosse,_Wisconsin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "foundationPlace",
+                    "parent_node": "Trane",
+                    "child_node": "La_Crosse,_Wisconsin",
+                    "edge_properties": {
+                        "lexicon_key": "foundationPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Trane company is a subsidiary founded in La Crosse, Wisconsin, which has a total area of 58.38.",
+                "Trane is a subsidiary company founded in La Crosse, Wisconsin State, a city that has a total area of 58.38.",
+                "Trane, a subsidiary, was founded in La Crosse, Wisconsin that has a total area of 58.38 square kilometers."
+            ]
         },
-        "La_Crosse,_Wisconsin": {
-            "lexicon_key": "La_Crosse,_Wisconsin"
+        "Company_Id9_1": {
+            "nodes": {
+                "La_Crosse,_Wisconsin": {
+                    "lexicon_key": "La_Crosse,_Wisconsin"
+                },
+                "58.38": {
+                    "lexicon_key": "58.38"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "areaTotal",
+                    "parent_node": "La_Crosse,_Wisconsin",
+                    "child_node": "58.38",
+                    "edge_properties": {
+                        "lexicon_key": "areaTotal"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Trane company is a subsidiary founded in La Crosse, Wisconsin, which has a total area of 58.38.",
+                "Trane is a subsidiary company founded in La Crosse, Wisconsin State, a city that has a total area of 58.38.",
+                "Trane, a subsidiary, was founded in La Crosse, Wisconsin that has a total area of 58.38 square kilometers."
+            ]
         },
-        "58.38": {
-            "lexicon_key": "58.38"
-        },
-        "Subsidiary": {
-            "lexicon_key": "Subsidiary"
+        "Company_Id9_2": {
+            "nodes": {
+                "Trane": {
+                    "lexicon_key": "Trane"
+                },
+                "Subsidiary": {
+                    "lexicon_key": "Subsidiary"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "type",
+                    "parent_node": "Trane",
+                    "child_node": "Subsidiary",
+                    "edge_properties": {
+                        "lexicon_key": "type"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Trane company is a subsidiary founded in La Crosse, Wisconsin, which has a total area of 58.38.",
+                "Trane is a subsidiary company founded in La Crosse, Wisconsin State, a city that has a total area of 58.38.",
+                "Trane, a subsidiary, was founded in La Crosse, Wisconsin that has a total area of 58.38 square kilometers."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "foundationPlace",
-            "parent_node": "Trane",
-            "child_node": "La_Crosse,_Wisconsin",
-            "edge_properties": {
-                "lexicon_key": "foundationPlace"
-            }
-        },
-        {
-            "edge_name": "areaTotal",
-            "parent_node": "La_Crosse,_Wisconsin",
-            "child_node": "58.38",
-            "edge_properties": {
-                "lexicon_key": "areaTotal"
-            }
-        },
-        {
-            "edge_name": "type",
-            "parent_node": "Trane",
-            "child_node": "Subsidiary",
-            "edge_properties": {
-                "lexicon_key": "type"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

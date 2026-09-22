@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "Polydor_Records": {
+            "lexicon_key": "Polydor_Records"
+        },
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Polydor_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "San_Francisco",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Bootleg Series Volume 1: The Quine Tapes by the Velvet Underground was recorded in San Francisco under the Polydor Records record label. It was preceded by the album Squeeze."
+        },
+        "Id2": {
+            "text": "The Bootleg Series Volume 1: The Quine Tapes is preceded by the Velvet Underground album Squeeze. The Bootleg Series Volume 1: The Quine Tapes was recorded through Polydor Records in San Francisco."
+        },
+        "Id3": {
+            "text": "The Quine Tapes, from record label Polydor Records, were recorded in San Francisco and preceded by the album Squeeze."
+        }
+    },
+    "gold_outputs": []
+}

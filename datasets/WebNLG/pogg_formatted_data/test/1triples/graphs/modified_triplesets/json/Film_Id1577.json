@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Tom_Lister,_Jr.": {
+            "lexicon_key": "Tom_Lister,_Jr."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Tom_Lister,_Jr.",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers is a film starring Tom Lister Jr."
+        },
+        "Id2": {
+            "text": "Super Capers is starring Tom Lister Jr."
+        },
+        "Id3": {
+            "text": "Super Capers is a movie starring Tom Lister Jr."
+        }
+    },
+    "gold_outputs": []
+}

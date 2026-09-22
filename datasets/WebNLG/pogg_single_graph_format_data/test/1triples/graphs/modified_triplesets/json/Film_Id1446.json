@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Michael_Rooker": {
+            "lexicon_key": "Michael_Rooker"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Michael_Rooker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers is a film starring Michael Rooker."
+        },
+        "Id2": {
+            "text": "Super Capers starred Michael Rooker."
+        },
+        "Id3": {
+            "text": "Michael Rooker played in Super Capers."
+        }
+    },
+    "gold_outputs": []
+}

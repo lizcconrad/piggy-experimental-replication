@@ -1,0 +1,5 @@
+strict digraph {
+AIDAluna [lexicon_key=AIDAluna];
+AIDA_Cruises [lexicon_key="AIDA_Cruises"];
+AIDAluna -> AIDA_Cruises [label=operator, lexicon_key=operator];
+}

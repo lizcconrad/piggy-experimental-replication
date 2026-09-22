@@ -1,0 +1,7 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Michael_Rooker [lexicon_key="Michael_Rooker"];
+"Jasper,_Alabama" [lexicon_key="Jasper,_Alabama"];
+Super_Capers -> Michael_Rooker [label=starring, lexicon_key=starring];
+Michael_Rooker -> "Jasper,_Alabama" [label=birthPlace, lexicon_key=birthPlace];
+}

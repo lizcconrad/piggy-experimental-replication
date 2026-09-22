@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Amarillo,_Texas": {
-            "lexicon_key": "Amarillo,_Texas"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "City_Id10_0": {
+            "nodes": {
+                "Amarillo,_Texas": {
+                    "lexicon_key": "Amarillo,_Texas"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Amarillo,_Texas",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Amarillo is in Texas, in the United States.",
+                "Amarillo, Texas is part of the United States.",
+                "Amarillo, Texas, is part of the United States."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Amarillo,_Texas",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

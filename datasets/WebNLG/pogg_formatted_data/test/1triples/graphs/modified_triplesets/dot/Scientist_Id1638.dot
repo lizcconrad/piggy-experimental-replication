@@ -1,0 +1,5 @@
+strict digraph {
+"Andrzej_Piotr_Ruszczyński" [lexicon_key="Andrzej_Piotr_Ruszczyński"];
+Stochastic_programming [lexicon_key="Stochastic_programming"];
+"Andrzej_Piotr_Ruszczyński" -> Stochastic_programming [label=knownFor, lexicon_key=knownFor];
+}

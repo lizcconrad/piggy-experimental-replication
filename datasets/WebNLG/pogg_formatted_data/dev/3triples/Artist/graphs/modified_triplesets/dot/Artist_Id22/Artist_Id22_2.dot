@@ -1,0 +1,5 @@
+strict digraph {
+London [lexicon_key=London];
+Boris_Johnson [lexicon_key="Boris_Johnson"];
+London -> Boris_Johnson [label=leader, lexicon_key=leader];
+}

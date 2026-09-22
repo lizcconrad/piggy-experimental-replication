@@ -1,0 +1,5 @@
+strict digraph {
+"Squeeze_(The_Velvet_Underground_album)" [lexicon_key="Squeeze_(The_Velvet_Underground_album)"];
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+"Squeeze_(The_Velvet_Underground_album)" -> The_Velvet_Underground [label=producer, lexicon_key=producer];
+}

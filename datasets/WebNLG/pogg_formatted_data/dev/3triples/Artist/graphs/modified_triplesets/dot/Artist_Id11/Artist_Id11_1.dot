@@ -1,0 +1,5 @@
+strict digraph {
+"Agustín_Barboza" [lexicon_key="Agustín_Barboza"];
+"1913-05-05" [lexicon_key="1913-05-05"];
+"Agustín_Barboza" -> "1913-05-05" [label=birthDate, lexicon_key=birthDate];
+}

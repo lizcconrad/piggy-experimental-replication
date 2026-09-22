@@ -1,0 +1,5 @@
+strict digraph {
+Sri_Lanka [lexicon_key="Sri_Lanka"];
+Ranil_Wickremesinghe [lexicon_key="Ranil_Wickremesinghe"];
+Sri_Lanka -> Ranil_Wickremesinghe [label=leader, lexicon_key=leader];
+}

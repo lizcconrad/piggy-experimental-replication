@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "V12_engine": {
+            "lexicon_key": "V12_engine"
+        },
+        "12": {
+            "lexicon_key": "12"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "V12_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "cylinderCount",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "12",
+            "edge_properties": {
+                "lexicon_key": "cylinderCount"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "ALCO RS-3, which is 17068.8 millimetres long, has a V12 engine and has 12 cylinders."
+        },
+        "Id2": {
+            "text": "The length of ALCO RS-3 is 17068.8 millimetres. It has a cylinder count of 12 and a V12 engine."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3, which is 17068.8 milometers long, has a V12 engine and a cylinder count of 12."
+        }
+    },
+    "gold_outputs": []
+}

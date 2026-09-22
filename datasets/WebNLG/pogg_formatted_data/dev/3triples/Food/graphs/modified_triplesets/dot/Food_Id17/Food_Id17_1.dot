@@ -1,0 +1,5 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+New_York [lexicon_key="New_York"];
+Baked_Alaska -> New_York [label=region, lexicon_key=region];
+}

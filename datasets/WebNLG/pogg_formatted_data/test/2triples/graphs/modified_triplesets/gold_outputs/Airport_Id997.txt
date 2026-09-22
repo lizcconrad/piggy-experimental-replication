@@ -1,0 +1,3 @@
+The location of Bedford Aerodrome is Thurleigh and it has a runway whose length is 1095.
+The Bedford Aerodrome is located in Thurleigh and it has a runway with the length of 1095.0.
+The location of Bedford Aerodrome is Thurleigh which has a runway length of 1095.

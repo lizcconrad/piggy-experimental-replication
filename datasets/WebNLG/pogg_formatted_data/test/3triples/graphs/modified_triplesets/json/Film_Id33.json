@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Louis_Levy": {
+            "lexicon_key": "Louis_Levy"
+        },
+        "Cecil_Parker": {
+            "lexicon_key": "Cecil_Parker"
+        },
+        "Ted_Willis": {
+            "lexicon_key": "Ted_Willis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Louis_Levy",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cecil_Parker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Ted_Willis",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to be Young,a 1956 film starring Cecil Parker was composed by Louis Levy and written by Ted Willis."
+        },
+        "Id2": {
+            "text": "\u201cIt's Great to Be Young\u201d (1956) was written by Ted Willis and features music by Louis Levy. A main role in the movie was given to Cecil Parker."
+        },
+        "Id3": {
+            "text": "Louis Levy is the composer of the 1956 film It's Great to Be Young, which is written by Ted Willis and stars Cecil Parker."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Bananaman [lexicon_key=Bananaman];
+Steve_Bright [lexicon_key="Steve_Bright"];
+BBC [lexicon_key=BBC];
+Bananaman -> Steve_Bright [label=creator, lexicon_key=creator];
+Bananaman -> BBC [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

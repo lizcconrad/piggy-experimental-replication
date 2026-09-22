@@ -1,0 +1,9 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+Leningrad_State_University [lexicon_key="Leningrad_State_University"];
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+"1703-05-27" [lexicon_key="1703-05-27"];
+Olga_Bondareva -> Leningrad_State_University [label=almaMater, lexicon_key=almaMater];
+Olga_Bondareva -> Saint_Petersburg [label=deathPlace, lexicon_key=deathPlace];
+Saint_Petersburg -> "1703-05-27" [label=foundingDate, lexicon_key=foundingDate];
+}

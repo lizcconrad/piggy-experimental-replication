@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Tom_Sizemore [lexicon_key="Tom_Sizemore"];
+98.0 [lexicon_key=98.0];
+Roadside_Attractions [lexicon_key="Roadside_Attractions"];
+Super_Capers -> Tom_Sizemore [label=starring, lexicon_key=starring];
+Super_Capers -> 98.0 [label=runtime, lexicon_key=runtime];
+Super_Capers -> Roadside_Attractions [label=distributor, lexicon_key=distributor];
+}

@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idCavern5BackOpening": {
-            "lexicon_key": "idCavern5BackOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idCavern5BackOpening_subgraph_0": {
+            "nodes": {
+                "idCavern5BackOpening": {
+                    "lexicon_key": "idCavern5BackOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

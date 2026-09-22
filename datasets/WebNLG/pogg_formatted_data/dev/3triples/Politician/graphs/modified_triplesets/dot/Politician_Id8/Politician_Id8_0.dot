@@ -1,0 +1,5 @@
+strict digraph {
+Abel_Caballero [lexicon_key="Abel_Caballero"];
+Spain [lexicon_key=Spain];
+Abel_Caballero -> Spain [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "2000": {
+            "lexicon_key": "2000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "established",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "2000",
+            "edge_properties": {
+                "lexicon_key": "established"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Acharya Institute of Technology in Bangalore was established in 2000."
+        },
+        "Id2": {
+            "text": "The Acharya Institute of Technology located in Bangalore was established in 2000."
+        },
+        "Id3": {
+            "text": "The Acharya Institute of Technology was established in the year 2000 and is located in Bangalore."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "George_Monson": {
+            "lexicon_key": "George_Monson"
+        },
+        "1776-02-18": {
+            "lexicon_key": "1776-02-18"
+        },
+        "Botany": {
+            "lexicon_key": "Botany"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "George_Monson",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "1776-02-18",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Botany",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "George Monson was married to Lady Anne Monson, a botanist, who died on February 18, 1776."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson, a professional botanist who was married to George Monson, died on February 18th, 1776."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson is the spouse of George Monson. Her professional field of study was botany, and she died on 18 February 1776."
+        }
+    },
+    "gold_outputs": []
+}

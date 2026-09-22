@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva's current residence is in New Jersey, United States where the most commonly spoken language is English."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva lives in the US state of New Jersey. In the States, English is the official language."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva resides in New Jersey, United States where the national language is English."
+        }
+    },
+    "gold_outputs": []
+}

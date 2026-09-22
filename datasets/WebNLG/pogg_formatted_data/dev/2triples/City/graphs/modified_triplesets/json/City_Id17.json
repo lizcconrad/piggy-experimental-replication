@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Austin,_Texas": {
-            "lexicon_key": "Austin,_Texas"
+    "graphs": {
+        "City_Id17_0": {
+            "nodes": {
+                "Austin,_Texas": {
+                    "lexicon_key": "Austin,_Texas"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Austin,_Texas",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Austin, Texas is in the United States and is led by the City manager.",
+                "Austin, Texas is located within the country of the United States and is led by the City Manager.",
+                "The leader of Austin, Texas, United States is the City Manager."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
-        },
-        "City_Manager": {
-            "lexicon_key": "City_Manager"
+        "City_Id17_1": {
+            "nodes": {
+                "Austin,_Texas": {
+                    "lexicon_key": "Austin,_Texas"
+                },
+                "City_Manager": {
+                    "lexicon_key": "City_Manager"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leaderTitle",
+                    "parent_node": "Austin,_Texas",
+                    "child_node": "City_Manager",
+                    "edge_properties": {
+                        "lexicon_key": "leaderTitle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Austin, Texas is in the United States and is led by the City manager.",
+                "Austin, Texas is located within the country of the United States and is led by the City Manager.",
+                "The leader of Austin, Texas, United States is the City Manager."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Austin,_Texas",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "leaderTitle",
-            "parent_node": "Austin,_Texas",
-            "child_node": "City_Manager",
-            "edge_properties": {
-                "lexicon_key": "leaderTitle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

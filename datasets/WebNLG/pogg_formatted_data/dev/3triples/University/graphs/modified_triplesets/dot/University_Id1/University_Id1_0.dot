@@ -1,0 +1,5 @@
+strict digraph {
+Accademia_di_Architettura_di_Mendrisio [lexicon_key="Accademia_di_Architettura_di_Mendrisio"];
+Switzerland [lexicon_key=Switzerland];
+Accademia_di_Architettura_di_Mendrisio -> Switzerland [label=country, lexicon_key=country];
+}

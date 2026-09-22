@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "175.26": {
+            "lexicon_key": "175.26"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        },
+        "1987-08-25": {
+            "lexicon_key": "1987-08-25"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "175.26",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "1987-08-25",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann (born August 25, 1987) weighs 70.308 kilograms and stands 175.26 cm tall."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann was born on August 25, 2987, weights 70.308 kg and is 175.26 cm tall."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann was born on August 25, 1987, is 175,26 cm tall and weighs 70.308 kg."
+        }
+    },
+    "gold_outputs": []
+}

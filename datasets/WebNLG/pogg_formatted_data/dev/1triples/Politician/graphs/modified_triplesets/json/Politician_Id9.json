@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Abel_Caballero": {
-            "lexicon_key": "Abel_Caballero"
-        },
-        "Juan_Carlos_I_of_Spain": {
-            "lexicon_key": "Juan_Carlos_I_of_Spain"
+    "graphs": {
+        "Politician_Id9_0": {
+            "nodes": {
+                "Abel_Caballero": {
+                    "lexicon_key": "Abel_Caballero"
+                },
+                "Juan_Carlos_I_of_Spain": {
+                    "lexicon_key": "Juan_Carlos_I_of_Spain"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "inOfficeWhileMonarch",
+                    "parent_node": "Abel_Caballero",
+                    "child_node": "Juan_Carlos_I_of_Spain",
+                    "edge_properties": {
+                        "lexicon_key": "inOfficeWhileMonarch"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abel Caballero was in office during the reign of Monarch, Juan Carlos I of Spain.",
+                "Abel Caballero was in office whilst Juan Carlos I of Spain was Monarch."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "inOfficeWhileMonarch",
-            "parent_node": "Abel_Caballero",
-            "child_node": "Juan_Carlos_I_of_Spain",
-            "edge_properties": {
-                "lexicon_key": "inOfficeWhileMonarch"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

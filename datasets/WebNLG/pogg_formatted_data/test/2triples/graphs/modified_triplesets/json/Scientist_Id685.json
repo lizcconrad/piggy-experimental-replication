@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "106000": {
+            "lexicon_key": "106000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Darlington",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "populationTotal",
+            "parent_node": "Darlington",
+            "child_node": "106000",
+            "edge_properties": {
+                "lexicon_key": "populationTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darlington, population 106,000, was the birthplace of Lady Anne Monson."
+        },
+        "Id2": {
+            "text": "The town of Darlington, which was the birth place of Lady Anne Monson, is home to one hundred and six thousand people."
+        },
+        "Id3": {
+            "text": "Darlington, a city with a population of 106,000, was the birthplace of Lady Anne Monson."
+        }
+    },
+    "gold_outputs": []
+}

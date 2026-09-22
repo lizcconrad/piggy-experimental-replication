@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Harold_French": {
+            "lexicon_key": "Harold_French"
+        },
+        "UK": {
+            "lexicon_key": "UK"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Harold_French",
+            "child_node": "UK",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harold French is born in the UK."
+        },
+        "Id2": {
+            "text": "Harold French was born in the UK."
+        },
+        "Id3": {
+            "text": "Harold French was born in the United Kingdom."
+        }
+    },
+    "gold_outputs": []
+}

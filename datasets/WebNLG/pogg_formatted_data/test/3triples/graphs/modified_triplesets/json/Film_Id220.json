@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Tom_Sizemore": {
+            "lexicon_key": "Tom_Sizemore"
+        },
+        "1989-01-01": {
+            "lexicon_key": "1989-01-01"
+        },
+        "Adam_West": {
+            "lexicon_key": "Adam_West"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Tom_Sizemore",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Tom_Sizemore",
+            "child_node": "1989-01-01",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Adam_West",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tom Sizemore, who began acting in 1989, and Adam West have both starred in Super Capers."
+        },
+        "Id2": {
+            "text": "Tom Sizemore began his acting career in 1989; he starred in Super Capers along with Adam West."
+        },
+        "Id3": {
+            "text": "Tom Sizemore, who started performing in 1989, and Adam West both starred in the movie Super Capers."
+        }
+    },
+    "gold_outputs": []
+}

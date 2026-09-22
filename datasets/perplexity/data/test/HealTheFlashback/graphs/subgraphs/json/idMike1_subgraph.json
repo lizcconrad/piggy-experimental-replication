@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idMike1": {
-            "lexicon_key": "idMike",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "Mike"
-    ]
+    ],
+    "graphs": {
+        "idMike1_subgraph_0": {
+            "nodes": {
+                "idMike1": {
+                    "lexicon_key": "idMike",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "Mike"
+            ]
+        }
+    }
 }

@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Acta_Mathematica_Hungarica": {
-            "lexicon_key": "Acta_Mathematica_Hungarica"
-        },
-        "Mathematics": {
-            "lexicon_key": "Mathematics"
+    "graphs": {
+        "WrittenWork_Id13_0": {
+            "nodes": {
+                "Acta_Mathematica_Hungarica": {
+                    "lexicon_key": "Acta_Mathematica_Hungarica"
+                },
+                "Mathematics": {
+                    "lexicon_key": "Mathematics"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "academicDiscipline",
+                    "parent_node": "Acta_Mathematica_Hungarica",
+                    "child_node": "Mathematics",
+                    "edge_properties": {
+                        "lexicon_key": "academicDiscipline"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Acta Mathematica Hungarica covers the academic discipline of Mathematics.",
+                "The Acta Mathematica Hungarica discipline is Math."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "academicDiscipline",
-            "parent_node": "Acta_Mathematica_Hungarica",
-            "child_node": "Mathematics",
-            "edge_properties": {
-                "lexicon_key": "academicDiscipline"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

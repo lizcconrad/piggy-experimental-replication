@@ -1,44 +1,84 @@
 {
-    "nodes": {
-        "Elliot_See": {
-            "lexicon_key": "Elliot_See"
+    "graphs": {
+        "Astronaut_Id7_0": {
+            "nodes": {
+                "Elliot_See": {
+                    "lexicon_key": "Elliot_See"
+                },
+                "\"Deceased\"": {
+                    "lexicon_key": "\"Deceased\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "status",
+                    "parent_node": "Elliot_See",
+                    "child_node": "\"Deceased\"",
+                    "edge_properties": {
+                        "lexicon_key": "status"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Elliot See (deceased) was born in Dallas 1927-07-23.",
+                "Elliot See is deceased, was born on 23rd July 1927 in Dallas.",
+                "Elliot See was born in Dallas on July 23, 1927. He is now deceased.",
+                "Elliot See, born July 23 1927 in Dallas, has died."
+            ]
         },
-        "\"Deceased\"": {
-            "lexicon_key": "\"Deceased\""
+        "Astronaut_Id7_1": {
+            "nodes": {
+                "Elliot_See": {
+                    "lexicon_key": "Elliot_See"
+                },
+                "\"1927-07-23\"": {
+                    "lexicon_key": "\"1927-07-23\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthDate",
+                    "parent_node": "Elliot_See",
+                    "child_node": "\"1927-07-23\"",
+                    "edge_properties": {
+                        "lexicon_key": "birthDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Elliot See (deceased) was born in Dallas 1927-07-23.",
+                "Elliot See is deceased, was born on 23rd July 1927 in Dallas.",
+                "Elliot See was born in Dallas on July 23, 1927. He is now deceased.",
+                "Elliot See, born July 23 1927 in Dallas, has died."
+            ]
         },
-        "\"1927-07-23\"": {
-            "lexicon_key": "\"1927-07-23\""
-        },
-        "Dallas": {
-            "lexicon_key": "Dallas"
+        "Astronaut_Id7_2": {
+            "nodes": {
+                "Elliot_See": {
+                    "lexicon_key": "Elliot_See"
+                },
+                "Dallas": {
+                    "lexicon_key": "Dallas"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Elliot_See",
+                    "child_node": "Dallas",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Elliot See (deceased) was born in Dallas 1927-07-23.",
+                "Elliot See is deceased, was born on 23rd July 1927 in Dallas.",
+                "Elliot See was born in Dallas on July 23, 1927. He is now deceased.",
+                "Elliot See, born July 23 1927 in Dallas, has died."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "status",
-            "parent_node": "Elliot_See",
-            "child_node": "\"Deceased\"",
-            "edge_properties": {
-                "lexicon_key": "status"
-            }
-        },
-        {
-            "edge_name": "birthDate",
-            "parent_node": "Elliot_See",
-            "child_node": "\"1927-07-23\"",
-            "edge_properties": {
-                "lexicon_key": "birthDate"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Elliot_See",
-            "child_node": "Dallas",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

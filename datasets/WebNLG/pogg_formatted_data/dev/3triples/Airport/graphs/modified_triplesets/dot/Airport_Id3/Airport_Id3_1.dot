@@ -1,0 +1,5 @@
+strict digraph {
+"Adolfo_Suárez_Madrid–Barajas_Airport" [lexicon_key="Adolfo_Suárez_Madrid–Barajas_Airport"];
+Madrid [lexicon_key=Madrid];
+"Adolfo_Suárez_Madrid–Barajas_Airport" -> Madrid [label=location, lexicon_key=location];
+}

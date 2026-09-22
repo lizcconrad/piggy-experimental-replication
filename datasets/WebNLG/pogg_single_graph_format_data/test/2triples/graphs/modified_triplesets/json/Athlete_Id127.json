@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Akeem_Ayers": {
+            "lexicon_key": "Akeem_Ayers"
+        },
+        "1989": {
+            "lexicon_key": "1989"
+        },
+        "Tennessee_Titans": {
+            "lexicon_key": "Tennessee_Titans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "1989",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        },
+        {
+            "edge_name": "debutTeam",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "Tennessee_Titans",
+            "edge_properties": {
+                "lexicon_key": "debutTeam"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Born in 1989, Akeem Ayers began his NFL career with the Tennessee Titans."
+        },
+        "Id2": {
+            "text": "Akeem Ayers, born in 1989, made his debut for the Tennessee Titans."
+        }
+    },
+    "gold_outputs": []
+}

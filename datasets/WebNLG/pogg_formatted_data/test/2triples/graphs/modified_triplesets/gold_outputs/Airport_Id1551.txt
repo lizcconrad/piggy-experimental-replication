@@ -1,0 +1,3 @@
+The ICAO location identifier for Bedford Aerodrome is EGBF with its runway length of 1095.
+Bedford Aerodrome has a runway length of 1095 and has an ICAO identifier of EGBF.
+Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF and the runway length is 1095.0.

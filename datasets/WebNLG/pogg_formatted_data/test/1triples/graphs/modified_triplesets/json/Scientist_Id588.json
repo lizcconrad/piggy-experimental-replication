@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Tokat": {
+            "lexicon_key": "Tokat"
+        },
+        "\"+90 356\"": {
+            "lexicon_key": "\"+90 356\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaCode",
+            "parent_node": "Tokat",
+            "child_node": "\"+90 356\"",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The area code of Tokat is +90 356."
+        },
+        "Id2": {
+            "text": "The area code for Tokat is +90 356."
+        },
+        "Id3": {
+            "text": "Tokat\u2019s area code is +90 356."
+        }
+    },
+    "gold_outputs": []
+}

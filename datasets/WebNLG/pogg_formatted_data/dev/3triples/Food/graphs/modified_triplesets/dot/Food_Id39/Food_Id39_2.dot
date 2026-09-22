@@ -1,0 +1,5 @@
+strict digraph {
+Spain [lexicon_key=Spain];
+Felipe_VI_of_Spain [lexicon_key="Felipe_VI_of_Spain"];
+Spain -> Felipe_VI_of_Spain [label=leader, lexicon_key=leader];
+}

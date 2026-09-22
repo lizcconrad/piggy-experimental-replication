@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Spanish_language": {
+            "lexicon_key": "Spanish_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Mexico",
+            "child_node": "Spanish_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico is a popular dessert from the Spanish speaking country of Mexico."
+        },
+        "Id2": {
+            "text": "Bionico is a dish served for dessert in Spanish-speaking Mexico."
+        },
+        "Id3": {
+            "text": "Bionico is a dessert found in Mexico and language of Mexico is Spanish."
+        }
+    },
+    "gold_outputs": []
+}

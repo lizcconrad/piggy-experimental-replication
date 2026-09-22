@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "A.F.C._Fylde": {
-            "lexicon_key": "A.F.C._Fylde"
+    "graphs": {
+        "SportsTeam_Id8_0": {
+            "nodes": {
+                "A.F.C._Fylde": {
+                    "lexicon_key": "A.F.C._Fylde"
+                },
+                "The_Fylde": {
+                    "lexicon_key": "The_Fylde"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "A.F.C._Fylde",
+                    "child_node": "The_Fylde",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AFC Fylde has the home ground called The Fylde and has 3180 members.",
+                "AFC Fylde has the home ground called The Fylde, which holds 3180 fans.",
+                "The Fylde, (capacity 3180) is the home ground of AFC Fylde."
+            ]
         },
-        "The_Fylde": {
-            "lexicon_key": "The_Fylde"
-        },
-        "3180": {
-            "lexicon_key": "3180"
+        "SportsTeam_Id8_1": {
+            "nodes": {
+                "A.F.C._Fylde": {
+                    "lexicon_key": "A.F.C._Fylde"
+                },
+                "3180": {
+                    "lexicon_key": "3180"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "A.F.C._Fylde",
+                    "child_node": "3180",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AFC Fylde has the home ground called The Fylde and has 3180 members.",
+                "AFC Fylde has the home ground called The Fylde, which holds 3180 fans.",
+                "The Fylde, (capacity 3180) is the home ground of AFC Fylde."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "A.F.C._Fylde",
-            "child_node": "The_Fylde",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        },
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "A.F.C._Fylde",
-            "child_node": "3180",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

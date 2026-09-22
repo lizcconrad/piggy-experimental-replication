@@ -1,0 +1,5 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+Anthropic_principle [lexicon_key="Anthropic_principle"];
+Brandon_Carter -> Anthropic_principle [label=knownFor, lexicon_key=knownFor];
+}

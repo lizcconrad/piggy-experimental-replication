@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "1299": {
+            "lexicon_key": "1299"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfDoctoralStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "1299",
+            "edge_properties": {
+                "lexicon_key": "numberOfDoctoralStudents"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The number of doctoral students in the University of Burgundy is 1299."
+        },
+        "Id2": {
+            "text": "The University of Burgundy has 1299 doctoral students."
+        }
+    },
+    "gold_outputs": []
+}

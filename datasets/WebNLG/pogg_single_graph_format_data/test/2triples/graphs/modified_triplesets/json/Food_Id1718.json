@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Guadalajara": {
+            "lexicon_key": "Guadalajara"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Bionico",
+            "child_node": "Guadalajara",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico is a dessert that can be found in Guadalajara."
+        },
+        "Id2": {
+            "text": "Bionico is a dessert that is found in Guadalajara."
+        },
+        "Id3": {
+            "text": "Bionico is a dessert dish from the Guadalajara region."
+        }
+    },
+    "gold_outputs": []
+}

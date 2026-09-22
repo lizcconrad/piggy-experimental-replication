@@ -1,0 +1,5 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+Public_company [lexicon_key="Public_company"];
+Chinabank -> Public_company [label=type, lexicon_key=type];
+}

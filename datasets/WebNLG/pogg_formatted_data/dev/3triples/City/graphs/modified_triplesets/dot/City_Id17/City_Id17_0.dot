@@ -1,0 +1,5 @@
+strict digraph {
+"Auburn,_Alabama" [lexicon_key="Auburn,_Alabama"];
+"Lee_County,_Alabama" [lexicon_key="Lee_County,_Alabama"];
+"Auburn,_Alabama" -> "Lee_County,_Alabama" [label=isPartOf, lexicon_key=isPartOf];
+}

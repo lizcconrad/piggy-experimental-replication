@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cyril_Frankel",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young is a 1956 film directed by Cyril Frankel."
+        },
+        "Id2": {
+            "text": "The director of the movie It's Great to Be Young was Cyril Frankel."
+        },
+        "Id3": {
+            "text": "The director of the 1956 movie It's Great to Be Young is Cyril Frankel."
+        }
+    },
+    "gold_outputs": []
+}

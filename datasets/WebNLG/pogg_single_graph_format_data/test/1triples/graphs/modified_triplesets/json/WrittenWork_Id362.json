@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "J._R._R._Tolkien": {
+            "lexicon_key": "J._R._R._Tolkien"
+        },
+        "1892-01-03": {
+            "lexicon_key": "1892-01-03"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "J._R._R._Tolkien",
+            "child_node": "1892-01-03",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "J. R. R. Tolkien was born on January 3, 1892."
+        },
+        "Id2": {
+            "text": "The birth date of J.R.R Tolkien is January 3rd, 1892."
+        },
+        "Id3": {
+            "text": "J. R. R. Tolkien was born on January 3rd, 1892."
+        }
+    },
+    "gold_outputs": []
+}

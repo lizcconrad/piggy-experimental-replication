@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Adam_West": {
+            "lexicon_key": "Adam_West"
+        },
+        "1954-01-01": {
+            "lexicon_key": "1954-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Adam_West",
+            "child_node": "1954-01-01",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Adam West got his first role in 1954."
+        },
+        "Id2": {
+            "text": "Adam West has been an actor since 1954."
+        },
+        "Id3": {
+            "text": "Adam West started his career from the year 1954."
+        }
+    },
+    "gold_outputs": []
+}

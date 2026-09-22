@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Council-manager_government": {
+            "lexicon_key": "Council-manager_government"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Council-manager_government",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The government type in the city of Ciudad Ayala is council-manager."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala uses a type of government called council-manager government."
+        },
+        "Id3": {
+            "text": "The government type of Ciudad Ayala is council-manager government."
+        }
+    },
+    "gold_outputs": []
+}

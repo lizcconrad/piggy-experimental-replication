@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "30955.0": {
+            "lexicon_key": "30955.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "gross",
+            "parent_node": "Super_Capers",
+            "child_node": "30955.0",
+            "edge_properties": {
+                "lexicon_key": "gross"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers' gross income was $30,955."
+        },
+        "Id2": {
+            "text": "The film Super Capers grossed $30,955."
+        },
+        "Id3": {
+            "text": "The box office of Super Capers is $30955.0."
+        }
+    },
+    "gold_outputs": []
+}

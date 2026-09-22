@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idPassenger1": {
-            "lexicon_key": "idPassenger",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the passenger"
-    ]
+    ],
+    "graphs": {
+        "idPassenger1_subgraph_0": {
+            "nodes": {
+                "idPassenger1": {
+                    "lexicon_key": "idPassenger",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the passenger"
+            ]
+        }
+    }
 }

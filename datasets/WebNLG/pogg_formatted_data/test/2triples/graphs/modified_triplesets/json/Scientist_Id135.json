@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1439.0": {
+            "lexicon_key": "1439.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1439.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Saint Petersburg has the area of 1439.0 sq/km where Olga Bondareva died."
+        },
+        "Id2": {
+            "text": "Olga Bondareva died in Saint Petersburg, a town which has an area of 1439 km2."
+        },
+        "Id3": {
+            "text": "Olga Bondareva died in Saint Petersburg, a town with the total area of 1439.0."
+        }
+    },
+    "gold_outputs": []
+}

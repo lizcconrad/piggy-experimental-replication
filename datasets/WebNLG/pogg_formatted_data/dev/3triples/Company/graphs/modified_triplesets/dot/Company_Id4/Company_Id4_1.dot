@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Philippines [lexicon_key=Philippines];
+GMA_New_Media -> Philippines [label=location, lexicon_key=location];
+}

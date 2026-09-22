@@ -1,0 +1,5 @@
+strict digraph {
+"Squeeze_(The_Velvet_Underground_album)" [lexicon_key="Squeeze_(The_Velvet_Underground_album)"];
+Rock_music [lexicon_key="Rock_music"];
+"Squeeze_(The_Velvet_Underground_album)" -> Rock_music [label=genre, lexicon_key=genre];
+}

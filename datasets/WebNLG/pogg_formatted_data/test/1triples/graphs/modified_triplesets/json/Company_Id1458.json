@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        },
+        "204.0": {
+            "lexicon_key": "204.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "La_Crosse,_Wisconsin",
+            "child_node": "204.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "La Crosse Wisconsin is 204.0 meters above sea level."
+        },
+        "Id2": {
+            "text": "La Crosse, Wisconsin is 204 meters above sea level."
+        },
+        "Id3": {
+            "text": "La Crosse is a city in the U.S. state of Wisconsin and its elevation above sea level is 204 m."
+        },
+        "Id4": {
+            "text": "La Crosse, Wisconsin is 204 metres above sea level."
+        }
+    },
+    "gold_outputs": []
+}

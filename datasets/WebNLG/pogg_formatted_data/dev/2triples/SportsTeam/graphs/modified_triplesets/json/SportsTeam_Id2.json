@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "A.C._Chievo_Verona": {
-            "lexicon_key": "A.C._Chievo_Verona"
+    "graphs": {
+        "SportsTeam_Id2_0": {
+            "nodes": {
+                "A.C._Chievo_Verona": {
+                    "lexicon_key": "A.C._Chievo_Verona"
+                },
+                "Stadio_Marc'Antonio_Bentegodi": {
+                    "lexicon_key": "Stadio_Marc'Antonio_Bentegodi"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "A.C._Chievo_Verona",
+                    "child_node": "Stadio_Marc'Antonio_Bentegodi",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AC Chievo Verona play in the Serie A league and their home ground is Stadio Marc'Antonio Bentegodi.",
+                "The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi and the club is in the league, Serie A.",
+                "The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi, he played in Serie A."
+            ]
         },
-        "Stadio_Marc'Antonio_Bentegodi": {
-            "lexicon_key": "Stadio_Marc'Antonio_Bentegodi"
-        },
-        "Serie_A": {
-            "lexicon_key": "Serie_A"
+        "SportsTeam_Id2_1": {
+            "nodes": {
+                "A.C._Chievo_Verona": {
+                    "lexicon_key": "A.C._Chievo_Verona"
+                },
+                "Serie_A": {
+                    "lexicon_key": "Serie_A"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "A.C._Chievo_Verona",
+                    "child_node": "Serie_A",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AC Chievo Verona play in the Serie A league and their home ground is Stadio Marc'Antonio Bentegodi.",
+                "The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi and the club is in the league, Serie A.",
+                "The home ground of A.C. Chievo Verona is Stadio Marc'Antonio Bentegodi, he played in Serie A."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "A.C._Chievo_Verona",
-            "child_node": "Stadio_Marc'Antonio_Bentegodi",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        },
-        {
-            "edge_name": "league",
-            "parent_node": "A.C._Chievo_Verona",
-            "child_node": "Serie_A",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

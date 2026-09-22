@@ -1,0 +1,5 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Dessert [lexicon_key=Dessert];
+Bionico -> Dessert [label=course, lexicon_key=course];
+}

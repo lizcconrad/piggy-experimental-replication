@@ -1,0 +1,7 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Jalisco [lexicon_key=Jalisco];
+Mexico [lexicon_key=Mexico];
+Bionico -> Jalisco [label=region, lexicon_key=region];
+Bionico -> Mexico [label=country, lexicon_key=country];
+}

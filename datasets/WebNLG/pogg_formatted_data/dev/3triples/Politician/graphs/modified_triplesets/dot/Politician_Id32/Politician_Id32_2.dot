@@ -1,0 +1,5 @@
+strict digraph {
+Poland [lexicon_key=Poland];
+Kashubians [lexicon_key=Kashubians];
+Poland -> Kashubians [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

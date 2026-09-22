@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Airey_Neave": {
-            "lexicon_key": "Airey_Neave"
+    "graphs": {
+        "Politician_Id22_0": {
+            "nodes": {
+                "Airey_Neave": {
+                    "lexicon_key": "Airey_Neave"
+                },
+                "World_War_II": {
+                    "lexicon_key": "World_War_II"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Airey_Neave",
+                    "child_node": "World_War_II",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave fought in World War II during which Joseph Stalin was a commander.",
+                "Airey Neave fought in World War II, where one of the commanders was, joseph Stalin.",
+                "Joseph Stalin was a commander in World War II, the war Airey Neave was involved in."
+            ]
         },
-        "World_War_II": {
-            "lexicon_key": "World_War_II"
-        },
-        "Joseph_Stalin": {
-            "lexicon_key": "Joseph_Stalin"
+        "Politician_Id22_1": {
+            "nodes": {
+                "World_War_II": {
+                    "lexicon_key": "World_War_II"
+                },
+                "Joseph_Stalin": {
+                    "lexicon_key": "Joseph_Stalin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "commander",
+                    "parent_node": "World_War_II",
+                    "child_node": "Joseph_Stalin",
+                    "edge_properties": {
+                        "lexicon_key": "commander"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Airey Neave fought in World War II during which Joseph Stalin was a commander.",
+                "Airey Neave fought in World War II, where one of the commanders was, joseph Stalin.",
+                "Joseph Stalin was a commander in World War II, the war Airey Neave was involved in."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "battle",
-            "parent_node": "Airey_Neave",
-            "child_node": "World_War_II",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        },
-        {
-            "edge_name": "commander",
-            "parent_node": "World_War_II",
-            "child_node": "Joseph_Stalin",
-            "edge_properties": {
-                "lexicon_key": "commander"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

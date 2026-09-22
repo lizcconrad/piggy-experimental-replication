@@ -1,0 +1,5 @@
+strict digraph {
+Detroit [lexicon_key=Detroit];
+370.03 [lexicon_key=370.03];
+Detroit -> 370.03 [label=areaTotal, lexicon_key=areaTotal];
+}

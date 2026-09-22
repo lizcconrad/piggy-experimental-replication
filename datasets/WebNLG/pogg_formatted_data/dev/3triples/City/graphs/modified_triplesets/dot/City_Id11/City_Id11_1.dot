@@ -1,0 +1,5 @@
+strict digraph {
+"Orange_County,_California" [lexicon_key="Orange_County,_California"];
+Greater_Los_Angeles_Area [lexicon_key="Greater_Los_Angeles_Area"];
+"Orange_County,_California" -> Greater_Los_Angeles_Area [label=isPartOf, lexicon_key=isPartOf];
+}

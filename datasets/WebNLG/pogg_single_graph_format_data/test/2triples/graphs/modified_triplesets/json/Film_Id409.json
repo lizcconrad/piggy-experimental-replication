@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Sarah_Teale": {
+            "lexicon_key": "Sarah_Teale"
+        },
+        "83.0": {
+            "lexicon_key": "83.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Sarah_Teale",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "83.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Producer Sarah Teale's Death on a Factory Farm runs for 83.0."
+        },
+        "Id2": {
+            "text": "Sarah Teale produced the 83 minutes movie of Death on a Factory Farm."
+        },
+        "Id3": {
+            "text": "The film \"Death on a Factory Farm\" lasts 83 minutes with Sarah Teale as the producer."
+        }
+    },
+    "gold_outputs": []
+}

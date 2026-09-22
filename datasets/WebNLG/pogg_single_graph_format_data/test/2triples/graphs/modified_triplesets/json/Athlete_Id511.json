@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "175.26": {
+            "lexicon_key": "175.26"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "175.26",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann's height is 175.26 cm was born in Gdynia, Poland."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann, born in Gdynia, Poland, is 175.26 cm tall."
+        },
+        "Id3": {
+            "text": "The 175.26cm tall Piotr Hallmann calls Gdynia, Poland his birthplace."
+        }
+    },
+    "gold_outputs": []
+}

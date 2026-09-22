@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "Lou_Reed": {
+            "lexicon_key": "Lou_Reed"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "formerBandMember",
+            "parent_node": "The_Velvet_Underground",
+            "child_node": "Lou_Reed",
+            "edge_properties": {
+                "lexicon_key": "formerBandMember"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lou Reed is a former band member of the Velvet Underground."
+        },
+        "Id2": {
+            "text": "Lou Reed is a former member of the band The Velvet Underground."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Quezon_City": {
+            "lexicon_key": "Quezon_City"
+        },
+        "World_Wide_Web": {
+            "lexicon_key": "World_Wide_Web"
+        },
+        "Philippine_Entertainment_Portal": {
+            "lexicon_key": "Philippine_Entertainment_Portal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Quezon_City",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "World_Wide_Web",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "subsidiary",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Philippine_Entertainment_Portal",
+            "edge_properties": {
+                "lexicon_key": "subsidiary"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Philippine Entertainment Portal is a subsidiary of GMA New Media, whose headquarters are in Quezon City, who makes web sites."
+        },
+        "Id2": {
+            "text": "Philippine Entertainment Portal, Inc is a subsidiary of GMA New Media which produces web services in the city of Quezon."
+        },
+        "Id3": {
+            "text": "GMA New Media, offering World Wide Web services and located in Quezon City, also has Philippine Entertainment Portal as their subsidiary."
+        }
+    },
+    "gold_outputs": []
+}

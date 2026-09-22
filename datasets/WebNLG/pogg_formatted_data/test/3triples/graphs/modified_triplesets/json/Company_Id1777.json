@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "GMA_Network_Center": {
+            "lexicon_key": "GMA_Network_Center"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Entertainment": {
+            "lexicon_key": "Entertainment"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "GMA_New_Media",
+            "child_node": "GMA_Network_Center",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Entertainment",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media is a company in the entertainment industry that is located inside the GMA Network Center, which is in the Philippines,."
+        },
+        "Id2": {
+            "text": "Member of the entertainment industry, The GMA New Media, is located in the GMA Network Center in the Philippines."
+        },
+        "Id3": {
+            "text": "GMA New Media is located in the GMA Network Center in the Philippines and offers applications in the entertainment industry."
+        }
+    },
+    "gold_outputs": []
+}

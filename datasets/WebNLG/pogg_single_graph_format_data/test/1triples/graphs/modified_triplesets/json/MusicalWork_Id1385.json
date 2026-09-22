@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        },
+        "628": {
+            "lexicon_key": "628"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaCode",
+            "parent_node": "San_Francisco",
+            "child_node": "628",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "San Francisco's area code is 628."
+        },
+        "Id2": {
+            "text": "The area code of San Francisco is 628."
+        },
+        "Id3": {
+            "text": "628 is an area code in San Francisco."
+        }
+    },
+    "gold_outputs": []
+}

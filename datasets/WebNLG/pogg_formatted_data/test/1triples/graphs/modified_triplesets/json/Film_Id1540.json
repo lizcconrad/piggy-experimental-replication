@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Justin_Whalin": {
+            "lexicon_key": "Justin_Whalin"
+        },
+        "Presenter": {
+            "lexicon_key": "Presenter"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "occupation",
+            "parent_node": "Justin_Whalin",
+            "child_node": "Presenter",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Justin Whalin\u2019s job is a presenter."
+        },
+        "Id2": {
+            "text": "Justin Whalin was a presenter."
+        },
+        "Id3": {
+            "text": "Justin Whalin worked as a presenter."
+        }
+    },
+    "gold_outputs": []
+}

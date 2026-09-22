@@ -1,0 +1,5 @@
+strict digraph {
+Tokat [lexicon_key=Tokat];
+Turkey [lexicon_key=Turkey];
+Tokat -> Turkey [label=country, lexicon_key=country];
+}

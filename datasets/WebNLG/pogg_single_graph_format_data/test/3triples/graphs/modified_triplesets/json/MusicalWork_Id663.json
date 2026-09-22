@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Post-metal": {
+            "lexicon_key": "Post-metal"
+        },
+        "Crucial_Blast": {
+            "lexicon_key": "Crucial_Blast"
+        },
+        "E-Vinyl": {
+            "lexicon_key": "E-Vinyl"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Post-metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Crucial_Blast",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "E-Vinyl",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The record labels of the Year of No Light album Nord's in post-metal genre are Crucial Blast and E-Vinyl."
+        },
+        "Id2": {
+            "text": "The album entitled Nord in the post-metal genre by the group Year of No Light was released on the Crucial Blast label recorded by label E-Vinyl."
+        },
+        "Id3": {
+            "text": "Nord is an album in the post metal genre by Year of No Light called Nord which was released by the record label Crucial blast and it was released on the E-Vinyl record label."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+New_Jersey [lexicon_key="New_Jersey"];
+22591.38 [lexicon_key=22591.38];
+Darinka_Dentcheva -> New_Jersey [label=residence, lexicon_key=residence];
+New_Jersey -> 22591.38 [label=areaTotal, lexicon_key=areaTotal];
+}

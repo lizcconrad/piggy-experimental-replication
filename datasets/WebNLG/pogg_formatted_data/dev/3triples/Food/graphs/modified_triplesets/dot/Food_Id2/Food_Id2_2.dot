@@ -1,0 +1,5 @@
+strict digraph {
+Ajoblanco [lexicon_key=Ajoblanco];
+Water [lexicon_key=Water];
+Ajoblanco -> Water [label=ingredient, lexicon_key=ingredient];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Andrzej_Piotr_Ruszczy\u0144ski": {
+            "lexicon_key": "Andrzej_Piotr_Ruszczy\u0144ski"
+        },
+        "Stochastic_programming": {
+            "lexicon_key": "Stochastic_programming"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Andrzej_Piotr_Ruszczy\u0144ski",
+            "child_node": "Stochastic_programming",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Andrzej Piotr Ruszczy\u0144ski is known for his work with stochastic programming."
+        },
+        "Id2": {
+            "text": "Andrzej Piotr Ruszczynski is known for stochastic programming."
+        },
+        "Id3": {
+            "text": "Andrzej Piotr Ruszczy\u0144ski is known for stochastic programming."
+        }
+    },
+    "gold_outputs": []
+}

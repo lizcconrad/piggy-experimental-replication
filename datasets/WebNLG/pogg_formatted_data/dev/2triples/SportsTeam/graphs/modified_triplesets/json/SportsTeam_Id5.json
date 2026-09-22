@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "A.E_Dimitra_Efxeinoupolis": {
-            "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+    "graphs": {
+        "SportsTeam_Id5_0": {
+            "nodes": {
+                "A.E_Dimitra_Efxeinoupolis": {
+                    "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+                },
+                "1500": {
+                    "lexicon_key": "1500"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "A.E_Dimitra_Efxeinoupolis",
+                    "child_node": "1500",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.E. Dimitra Efxeinoupolis has 1500 members and is in the EPSTH 2nd GROUP league.",
+                "With 1500 members, A.E Dimitra Efxeinoupolis, play in the A EPSTH 2nd GROUP."
+            ]
         },
-        "1500": {
-            "lexicon_key": "1500"
-        },
-        "A_EPSTH_2nd_GROUP": {
-            "lexicon_key": "A_EPSTH_2nd_GROUP"
+        "SportsTeam_Id5_1": {
+            "nodes": {
+                "A.E_Dimitra_Efxeinoupolis": {
+                    "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+                },
+                "A_EPSTH_2nd_GROUP": {
+                    "lexicon_key": "A_EPSTH_2nd_GROUP"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "A.E_Dimitra_Efxeinoupolis",
+                    "child_node": "A_EPSTH_2nd_GROUP",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.E. Dimitra Efxeinoupolis has 1500 members and is in the EPSTH 2nd GROUP league.",
+                "With 1500 members, A.E Dimitra Efxeinoupolis, play in the A EPSTH 2nd GROUP."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "A.E_Dimitra_Efxeinoupolis",
-            "child_node": "1500",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        },
-        {
-            "edge_name": "league",
-            "parent_node": "A.E_Dimitra_Efxeinoupolis",
-            "child_node": "A_EPSTH_2nd_GROUP",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

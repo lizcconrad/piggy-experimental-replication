@@ -1,0 +1,5 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+Pacific_Daylight_Time [lexicon_key="Pacific_Daylight_Time"];
+Ciudad_Ayala -> Pacific_Daylight_Time [label=timeZone, lexicon_key=timeZone];
+}

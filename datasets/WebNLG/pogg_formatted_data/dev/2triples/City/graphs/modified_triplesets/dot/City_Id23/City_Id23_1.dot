@@ -1,0 +1,5 @@
+strict digraph {
+"Akron,_Ohio" [lexicon_key="Akron,_Ohio"];
+United_States [lexicon_key="United_States"];
+"Akron,_Ohio" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "175.26": {
+            "lexicon_key": "175.26"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        },
+        "1987-08-25": {
+            "lexicon_key": "1987-08-25"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "175.26",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "1987-08-25",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann's birthplace was in Gdynia, Poland on August 25th. 1987 and he is 175.26 cm tall."
+        },
+        "Id2": {
+            "text": "Standing at 175.26 cm, Piotr Hallmann was born in Gdynia, Poland on August 25, 1987."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann, born in Gdynia, Poland on the 25th of August 1987, is 175.26 cm tall."
+        }
+    },
+    "gold_outputs": []
+}

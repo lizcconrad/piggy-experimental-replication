@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Governator": {
+            "lexicon_key": "Governator"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Governator",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala has a leader called the Governator."
+        },
+        "Id2": {
+            "text": "In Ciudad Ayala the leader is called the governator."
+        }
+    },
+    "gold_outputs": []
+}

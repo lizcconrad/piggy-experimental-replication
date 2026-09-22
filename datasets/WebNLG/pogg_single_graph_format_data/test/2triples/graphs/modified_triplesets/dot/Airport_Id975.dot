@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+Thurleigh [lexicon_key=Thurleigh];
+United_Kingdom [lexicon_key="United_Kingdom"];
+Bedford_Aerodrome -> Thurleigh [label=location, lexicon_key=location];
+Thurleigh -> United_Kingdom [label=country, lexicon_key=country];
+}

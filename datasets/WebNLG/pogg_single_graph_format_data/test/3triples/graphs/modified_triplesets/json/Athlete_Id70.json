@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "185.0 (centimetres)": {
+            "lexicon_key": "185.0 (centimetres)"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        },
+        "Otkrytiye_Arena": {
+            "lexicon_key": "Otkrytiye_Arena"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "185.0 (centimetres)",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        },
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "FC_Spartak_Moscow",
+            "child_node": "Otkrytiye_Arena",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov, 185cm tall played for FC Spartak Moscow's youth team. FC Spartak Moscow is based in the Otkrytiye Arena."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov who is 185 cm tall is a member of the youth side of FC Spartak Moscow. The home ground of FC Spartak Moscow is Otkrytiye Arena."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov is 185.0 cm tall and played for the FC Spartak Moscow at the Otkrytiye Arena."
+        }
+    },
+    "gold_outputs": []
+}

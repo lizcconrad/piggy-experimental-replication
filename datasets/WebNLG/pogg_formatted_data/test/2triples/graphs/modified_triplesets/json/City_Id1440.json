@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is a part of Morelos, in Mexico."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala in Morelos is in Mexico."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is a part of Morelos which is in the country of Mexico."
+        }
+    },
+    "gold_outputs": []
+}

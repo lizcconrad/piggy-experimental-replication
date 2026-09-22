@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Carter_constant": {
+            "lexicon_key": "Carter_constant"
+        },
+        "No-hair_theorem": {
+            "lexicon_key": "No-hair_theorem"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Carter_constant",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "No-hair_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter is known for the Carter constant and the No-hair theorem."
+        },
+        "Id2": {
+            "text": "Brandon Carter is known for the invention of the Carter constant and for proving the no-hair theorem."
+        },
+        "Id3": {
+            "text": "Brandon Carter is known for the Carter Constant and also for his contributions to the no-hair theorem."
+        }
+    },
+    "gold_outputs": []
+}

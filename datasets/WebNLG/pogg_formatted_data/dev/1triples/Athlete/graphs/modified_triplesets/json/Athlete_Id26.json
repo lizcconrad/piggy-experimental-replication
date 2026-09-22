@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Canada": {
-            "lexicon_key": "Canada"
-        },
-        "Inuktitut": {
-            "lexicon_key": "Inuktitut"
+    "graphs": {
+        "Athlete_Id26_0": {
+            "nodes": {
+                "Canada": {
+                    "lexicon_key": "Canada"
+                },
+                "Inuktitut": {
+                    "lexicon_key": "Inuktitut"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "language",
+                    "parent_node": "Canada",
+                    "child_node": "Inuktitut",
+                    "edge_properties": {
+                        "lexicon_key": "language"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Inuktitut is a language spoken in Canada.",
+                "Inuktitut is a spoken language in Canada."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "language",
-            "parent_node": "Canada",
-            "child_node": "Inuktitut",
-            "edge_properties": {
-                "lexicon_key": "language"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

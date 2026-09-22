@@ -1,0 +1,5 @@
+strict digraph {
+Darlington [lexicon_key=Darlington];
+NZ289147 [lexicon_key=NZ289147];
+Darlington -> NZ289147 [label=gridReference, lexicon_key=gridReference];
+}

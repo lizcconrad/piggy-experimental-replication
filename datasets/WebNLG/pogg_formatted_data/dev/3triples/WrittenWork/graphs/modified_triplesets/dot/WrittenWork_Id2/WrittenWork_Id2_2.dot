@@ -1,0 +1,5 @@
+strict digraph {
+Eric_Flint [lexicon_key="Eric_Flint"];
+"Burbank,_California" [lexicon_key="Burbank,_California"];
+Eric_Flint -> "Burbank,_California" [label=birthPlace, lexicon_key=birthPlace];
+}

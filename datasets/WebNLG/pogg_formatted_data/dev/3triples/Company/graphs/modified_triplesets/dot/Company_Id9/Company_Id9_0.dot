@@ -1,0 +1,5 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+Trane -> "La_Crosse,_Wisconsin" [label=foundationPlace, lexicon_key=foundationPlace];
+}

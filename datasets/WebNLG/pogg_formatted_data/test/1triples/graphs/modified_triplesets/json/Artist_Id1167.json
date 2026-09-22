@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "Oberb\u00fcrgermeister": {
+            "lexicon_key": "Oberb\u00fcrgermeister"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Karlsruhe",
+            "child_node": "Oberb\u00fcrgermeister",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Karlsruhe's leader is Oberb\u00fcrgermeister."
+        },
+        "Id2": {
+            "text": "The leader of Karlsruhe is called the Oberb\u00fcrgermeister."
+        }
+    },
+    "gold_outputs": []
+}

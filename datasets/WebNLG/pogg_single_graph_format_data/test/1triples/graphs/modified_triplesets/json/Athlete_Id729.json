@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann weighs 70.308 kilograms."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann weighs 70.308kg."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann\u2019s weight is 70.308 kg."
+        }
+    },
+    "gold_outputs": []
+}

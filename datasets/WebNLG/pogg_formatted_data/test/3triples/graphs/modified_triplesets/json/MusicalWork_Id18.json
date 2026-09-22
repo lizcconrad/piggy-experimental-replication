@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "Andy_Warhol's_Velvet_Underground_Featuring_Nico": {
+            "lexicon_key": "Andy_Warhol's_Velvet_Underground_Featuring_Nico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Squeeze_(The_Velvet_Underground_album)",
+            "child_node": "Andy_Warhol's_Velvet_Underground_Featuring_Nico",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Quine Tapes are Rock music genre preceded by the album Squeeze, and Squeeze was preceded by the album Andy Warhol's Velvet Underground Featuring Nico."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes's genre is rock, and is preceded by the Velvet Underground album Squeeze, which was preceded by the compilation album Andy Warhol's Velvet Underground Featuring Nico."
+        },
+        "Id3": {
+            "text": "The album Bootleg Series Volume 1: The Quine Tapes fits into the Rock music genre and was preceded by Squeeze by The Velvet Underground, which in turn was preceded by Andy Warhol's Velvet Underground Featuring Nico."
+        }
+    },
+    "gold_outputs": []
+}

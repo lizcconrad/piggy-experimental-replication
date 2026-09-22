@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+Bedford_Autodrome [lexicon_key="Bedford_Autodrome"];
+EGBF [lexicon_key=EGBF];
+Bedford_Aerodrome -> Bedford_Autodrome [label=cityServed, lexicon_key=cityServed];
+Bedford_Aerodrome -> EGBF [label=icaoLocationIdentifier, lexicon_key=icaoLocationIdentifier];
+}

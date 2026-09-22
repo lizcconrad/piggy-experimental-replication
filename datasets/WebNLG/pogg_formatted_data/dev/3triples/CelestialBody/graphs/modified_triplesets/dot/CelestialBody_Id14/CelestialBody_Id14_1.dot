@@ -1,0 +1,5 @@
+strict digraph {
+"10_Hygiea" [lexicon_key="10_Hygiea"];
+"523951582.33968 (kilometres)" [lexicon_key="523951582.33968 (kilometres)"];
+"10_Hygiea" -> "523951582.33968 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

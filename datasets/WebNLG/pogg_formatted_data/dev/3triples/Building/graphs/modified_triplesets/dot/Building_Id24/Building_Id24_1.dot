@@ -1,0 +1,5 @@
+strict digraph {
+Asser_Levy_Public_Baths [lexicon_key="Asser_Levy_Public_Baths"];
+"80002709" [lexicon_key="80002709"];
+Asser_Levy_Public_Baths -> "80002709" [label=NationalRegisterOfHistoricPlacesReferenceNumber, lexicon_key=NationalRegisterOfHistoricPlacesReferenceNumber];
+}

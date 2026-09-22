@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Aileen_Raymond": {
+            "lexicon_key": "Aileen_Raymond"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "John_Mills",
+            "child_node": "Aileen_Raymond",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Mills was married to Aileen Raymond."
+        },
+        "Id2": {
+            "text": "John Mills had a spouse named Aileen Raymond."
+        }
+    },
+    "gold_outputs": []
+}

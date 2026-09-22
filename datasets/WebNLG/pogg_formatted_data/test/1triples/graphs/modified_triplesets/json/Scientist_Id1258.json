@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "Georgy_Poltavchenko": {
+            "lexicon_key": "Georgy_Poltavchenko"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "Georgy_Poltavchenko",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The leader of Saint Petersburg is Georgy Poltavchenko."
+        },
+        "Id2": {
+            "text": "The current leader of Saint Petersburg is Georgy Poltavchenko."
+        },
+        "Id3": {
+            "text": "Georgy Poltavchenko was an acting governor of Saint Petersburg."
+        }
+    },
+    "gold_outputs": []
+}

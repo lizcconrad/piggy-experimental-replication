@@ -1,0 +1,9 @@
+strict digraph {
+Aleksandr_Prudnikov [lexicon_key="Aleksandr_Prudnikov"];
+"185.0 (centimetres)" [lexicon_key="185.0 (centimetres)"];
+FC_Spartak_Moscow [lexicon_key="FC_Spartak_Moscow"];
+FC_Terek_Grozny [lexicon_key="FC_Terek_Grozny"];
+Aleksandr_Prudnikov -> "185.0 (centimetres)" [label=height, lexicon_key=height];
+Aleksandr_Prudnikov -> FC_Spartak_Moscow [label=youthclub, lexicon_key=youthclub];
+Aleksandr_Prudnikov -> FC_Terek_Grozny [label=club, lexicon_key=club];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Tom_Sizemore [lexicon_key="Tom_Sizemore"];
+Maeve_Quinlan [lexicon_key="Maeve_Quinlan"];
+Tom_Sizemore -> Maeve_Quinlan [label=spouse, lexicon_key=spouse];
+}

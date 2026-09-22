@@ -1,0 +1,9 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+20378.5 [lexicon_key=20378.5];
+260855000000.0 [lexicon_key=260855000000.0];
+1249.6 [lexicon_key=1249.6];
+"1147_Stavropolis" -> 20378.5 [label=rotationPeriod, lexicon_key=rotationPeriod];
+"1147_Stavropolis" -> 260855000000.0 [label=periapsis, lexicon_key=periapsis];
+"1147_Stavropolis" -> 1249.6 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Reggae": {
+            "lexicon_key": "Reggae"
+        },
+        "Rhythm_and_Blues": {
+            "lexicon_key": "Rhythm_and_Blues"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Reggae",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Reggae",
+            "child_node": "Rhythm_and_Blues",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song Mermaid by Train is written in the reggae music genre which has its stylistic origin in the rhythm and blues genre."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid is in the reggae genre that originated in rhythm and blues."
+        },
+        "Id3": {
+            "text": "\"Mermaid\" is an example of the reggae genre whose origin is rhythm and blues."
+        }
+    },
+    "gold_outputs": []
+}

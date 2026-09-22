@@ -1,0 +1,5 @@
+strict digraph {
+"A.S._Roma" [lexicon_key="A.S._Roma"];
+"Rome, Italy" [lexicon_key="Rome, Italy"];
+"A.S._Roma" -> "Rome, Italy" [label=ground, lexicon_key=ground];
+}

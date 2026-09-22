@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "1910-12-25": {
+            "lexicon_key": "1910-12-25"
+        },
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Anatole_de_Grunwald",
+            "child_node": "1910-12-25",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Terence_Rattigan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Anatole Grunwald, born on December 25th 1910 is the coauthor of English Without Tears alongside Terence Rattigan."
+        },
+        "Id2": {
+            "text": "Terence Rattigan and Anatole de Grunwald (birthdate 25-12-1910) are the writers of English Without Tears."
+        },
+        "Id3": {
+            "text": "Anatole de Grunwald, born December 25, 1910, and Terence Rattigan wrote English Without Tears."
+        }
+    },
+    "gold_outputs": []
+}

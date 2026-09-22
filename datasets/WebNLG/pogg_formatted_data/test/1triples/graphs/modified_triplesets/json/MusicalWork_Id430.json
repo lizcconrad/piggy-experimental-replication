@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "E-Vinyl": {
+            "lexicon_key": "E-Vinyl"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "E-Vinyl",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Year of No Light album Nord's record label is E-Vinyl."
+        },
+        "Id2": {
+            "text": "The record label of Nord, the Year of No Light album, is E-Vinyl."
+        },
+        "Id3": {
+            "text": "The Year of No Light album, Nord, was released on the E-Vinyl record label."
+        }
+    },
+    "gold_outputs": []
+}

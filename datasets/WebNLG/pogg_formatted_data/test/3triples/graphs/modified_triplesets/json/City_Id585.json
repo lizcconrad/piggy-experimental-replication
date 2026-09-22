@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        },
+        "Pacific_Standard_Time_Zone": {
+            "lexicon_key": "Pacific_Standard_Time_Zone"
+        },
+        "Juan_Nolasco": {
+            "lexicon_key": "Juan_Nolasco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Standard_Time_Zone",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Juan_Nolasco",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala population density is 1604, and Juan Nolasco is one of the leaders of this city situated in the Pacific Standard Time Zone."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is in the Pacific Standard time zone and has a population density of 1,604. Its leader is Juan Nolasco."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala city has a population density of 1604.0. Its leader is Juan Nolasco and the time zone is the Pacific Standard Time Zone."
+        }
+    },
+    "gold_outputs": []
+}

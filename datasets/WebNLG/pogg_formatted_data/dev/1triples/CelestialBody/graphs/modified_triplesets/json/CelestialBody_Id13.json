@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "1099_Figneria": {
-            "lexicon_key": "1099_Figneria"
-        },
-        "0.0155 (kilometrePerSeconds)": {
-            "lexicon_key": "0.0155 (kilometrePerSeconds)"
+    "graphs": {
+        "CelestialBody_Id13_0": {
+            "nodes": {
+                "1099_Figneria": {
+                    "lexicon_key": "1099_Figneria"
+                },
+                "0.0155 (kilometrePerSeconds)": {
+                    "lexicon_key": "0.0155 (kilometrePerSeconds)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "escapeVelocity",
+                    "parent_node": "1099_Figneria",
+                    "child_node": "0.0155 (kilometrePerSeconds)",
+                    "edge_properties": {
+                        "lexicon_key": "escapeVelocity"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "0.0155 kilometer per second is the escape velocity of 1099 Figneria.",
+                "0.0155 km per second is the escape velocity of 1099 Figneria.",
+                "1099 Figneria has an escape velocity of 0.0155 kilometres per second."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "escapeVelocity",
-            "parent_node": "1099_Figneria",
-            "child_node": "0.0155 (kilometrePerSeconds)",
-            "edge_properties": {
-                "lexicon_key": "escapeVelocity"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

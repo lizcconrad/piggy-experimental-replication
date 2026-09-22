@@ -1,0 +1,5 @@
+strict digraph {
+Dijon [lexicon_key=Dijon];
+21000 [lexicon_key=21000];
+Dijon -> 21000 [label=postalCode, lexicon_key=postalCode];
+}

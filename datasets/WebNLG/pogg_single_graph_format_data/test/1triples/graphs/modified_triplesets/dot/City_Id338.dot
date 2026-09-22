@@ -1,0 +1,5 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+City [lexicon_key=City];
+Ciudad_Ayala -> City [label=type, lexicon_key=type];
+}

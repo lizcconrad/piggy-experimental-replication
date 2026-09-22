@@ -1,0 +1,5 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+"1913-01-01" [lexicon_key="1913-01-01"];
+Trane -> "1913-01-01" [label=foundingDate, lexicon_key=foundingDate];
+}

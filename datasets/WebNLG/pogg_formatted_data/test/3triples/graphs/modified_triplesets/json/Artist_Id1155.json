@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Death_metal": {
+            "lexicon_key": "Death_metal"
+        },
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Old_Man_Gloom": {
+            "lexicon_key": "Old_Man_Gloom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Black_metal",
+            "child_node": "Death_metal",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Old_Man_Gloom",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Death metal is a musical fusion of black metal which itself is a genre of Aaron Turner's music. Aaron Turner played for Old Man Gloom."
+        },
+        "Id2": {
+            "text": "Aaron Turner is a black metal musician who played for Old Man Gloom. Death metal is a musical fusion of black metal."
+        },
+        "Id3": {
+            "text": "Aaron Turner a Black metal musician played for Old Man Gloom. Death metal is a musical fusion of black metal."
+        }
+    },
+    "gold_outputs": []
+}

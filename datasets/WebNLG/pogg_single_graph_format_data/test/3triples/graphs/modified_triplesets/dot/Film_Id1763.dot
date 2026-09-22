@@ -1,0 +1,9 @@
+strict digraph {
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Terence_Rattigan [lexicon_key="Terence_Rattigan"];
+Anatole_de_Grunwald -> Saint_Petersburg [label=birthPlace, lexicon_key=birthPlace];
+English_Without_Tears -> Anatole_de_Grunwald [label=writer, lexicon_key=writer];
+English_Without_Tears -> Terence_Rattigan [label=writer, lexicon_key=writer];
+}

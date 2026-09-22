@@ -1,0 +1,5 @@
+strict digraph {
+"Train_(band)" [lexicon_key="Train_(band)"];
+Pop_rock [lexicon_key="Pop_rock"];
+"Train_(band)" -> Pop_rock [label=genre, lexicon_key=genre];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Israel [lexicon_key=Israel];
+"Prime Minister" [lexicon_key="Prime Minister"];
+Israel -> "Prime Minister" [label=leaderTitle, lexicon_key=leaderTitle];
+}

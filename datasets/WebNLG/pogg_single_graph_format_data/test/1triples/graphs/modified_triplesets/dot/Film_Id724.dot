@@ -1,0 +1,5 @@
+strict digraph {
+Lionsgate [lexicon_key=Lionsgate];
+"Michael_R._Burns" [lexicon_key="Michael_R._Burns"];
+Lionsgate -> "Michael_R._Burns" [label=keyPerson, lexicon_key=keyPerson];
+}

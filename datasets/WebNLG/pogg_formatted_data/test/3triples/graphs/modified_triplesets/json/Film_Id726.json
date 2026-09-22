@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "2000000.0": {
+            "lexicon_key": "2000000.0"
+        },
+        "98.0": {
+            "lexicon_key": "98.0"
+        },
+        "30955.0": {
+            "lexicon_key": "30955.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "budget",
+            "parent_node": "Super_Capers",
+            "child_node": "2000000.0",
+            "edge_properties": {
+                "lexicon_key": "budget"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Super_Capers",
+            "child_node": "98.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "gross",
+            "parent_node": "Super_Capers",
+            "child_node": "30955.0",
+            "edge_properties": {
+                "lexicon_key": "gross"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The film Super Capers is 98 minutes long. The budget was 2,000,000 but the gross income was only $30,955."
+        },
+        "Id2": {
+            "text": "Super Capers is a 98 minute film which had a budget of 2000000 and brought home 30955 at the box office."
+        },
+        "Id3": {
+            "text": "The film Super Capers whose budget was 2000000.0 dollars and duration 98 minutes grossed $30,955."
+        }
+    },
+    "gold_outputs": []
+}

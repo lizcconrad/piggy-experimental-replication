@@ -1,0 +1,5 @@
+strict digraph {
+Real_Madrid_Castilla [lexicon_key="Real_Madrid_Castilla"];
+Luis_Miguel_Ramis [lexicon_key="Luis_Miguel_Ramis"];
+Real_Madrid_Castilla -> Luis_Miguel_Ramis [label=manager, lexicon_key=manager];
+}

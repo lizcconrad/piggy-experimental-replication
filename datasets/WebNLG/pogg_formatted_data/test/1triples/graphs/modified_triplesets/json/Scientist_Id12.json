@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "01325": {
+            "lexicon_key": "01325"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaCode",
+            "parent_node": "Darlington",
+            "child_node": "01325",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Darlington town has an area code of 01325."
+        },
+        "Id2": {
+            "text": "The telephone area code for Darlington is 01325."
+        },
+        "Id3": {
+            "text": "The area code in Darlington is 01325."
+        }
+    },
+    "gold_outputs": []
+}

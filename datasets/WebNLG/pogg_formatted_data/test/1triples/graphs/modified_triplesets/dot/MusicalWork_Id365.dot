@@ -1,0 +1,5 @@
+strict digraph {
+"Post-metal" [lexicon_key="Post-metal"];
+Synthesizer [lexicon_key=Synthesizer];
+"Post-metal" -> Synthesizer [label=instrument, lexicon_key=instrument];
+}

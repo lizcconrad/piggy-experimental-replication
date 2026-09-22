@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Post-metal": {
+            "lexicon_key": "Post-metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Post-metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nord is an album in the post metal genre by Year of No Light."
+        },
+        "Id2": {
+            "text": "The Year of No Light album Nord is in the post-metal genre."
+        },
+        "Id3": {
+            "text": "The genre of the album Nord is post-metal."
+        }
+    },
+    "gold_outputs": []
+}

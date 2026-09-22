@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "Garage_rock": {
+            "lexicon_key": "Garage_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Punk_blues",
+            "child_node": "Garage_rock",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The stylistic origin of the musical genre punk blues lies in earlier garage rock sound."
+        },
+        "Id2": {
+            "text": "The stylistic origin of punk blues is garage rock."
+        },
+        "Id3": {
+            "text": "Punk blues' origin is garage rock."
+        }
+    },
+    "gold_outputs": []
+}

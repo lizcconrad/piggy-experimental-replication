@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "\"DL1, DL2, DL3\"": {
+            "lexicon_key": "\"DL1, DL2, DL3\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "postalCode",
+            "parent_node": "Darlington",
+            "child_node": "\"DL1, DL2, DL3\"",
+            "edge_properties": {
+                "lexicon_key": "postalCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The zip code areas in Darlington are DL1, DL2, DL3."
+        },
+        "Id2": {
+            "text": "The postal codes within Darlington are DL1, DL2, and DL3."
+        },
+        "Id3": {
+            "text": "Darlington's postal codes are as followed: DL1, DL2, and DL3."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Punk_blues [lexicon_key="Punk_blues"];
+Garage_rock [lexicon_key="Garage_rock"];
+Punk_blues -> Garage_rock [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

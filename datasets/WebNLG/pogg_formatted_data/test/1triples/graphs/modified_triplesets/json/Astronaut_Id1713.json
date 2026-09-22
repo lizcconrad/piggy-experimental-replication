@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "1964-10-13": {
+            "lexicon_key": "1964-10-13"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "1964-10-13",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng was born on October 13, 1964."
+        },
+        "Id2": {
+            "text": "Nie Haisheng was born on 10/13/1964."
+        },
+        "Id3": {
+            "text": "Nie Haisheng was born on the 13th of October, 1964."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Tokat": {
+            "lexicon_key": "Tokat"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Tokat",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tokat is located in Turkey."
+        },
+        "Id2": {
+            "text": "Tokat is located in the country of Turkey."
+        }
+    },
+    "gold_outputs": []
+}

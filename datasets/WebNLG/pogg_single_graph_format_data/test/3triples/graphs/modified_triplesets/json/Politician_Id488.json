@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "American": {
+            "lexicon_key": "American"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "American",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Casey Ribicoff is the wife of the American-born Abraham A. Ribicoff."
+        },
+        "Id2": {
+            "text": "Abraham A. Ribicoff was born in the United States of America and was an American citizen. His spouse was Casey Ribicoff."
+        },
+        "Id3": {
+            "text": "Abraham A. Ribicoff (birthplace: United States) has the American nationality. His spouse was Casey Ribicoff."
+        }
+    },
+    "gold_outputs": []
+}

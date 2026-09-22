@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Let_It_Breed": {
+            "lexicon_key": "Let_It_Breed"
+        },
+        "Love_American_Style_(album)": {
+            "lexicon_key": "Love_American_Style_(album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Let_It_Breed",
+            "child_node": "Love_American_Style_(album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Let It Breed is preceded by the release of the album Love American Style."
+        },
+        "Id2": {
+            "text": "The album Let It Breed was preceded by the release of the Love American Style album."
+        },
+        "Id3": {
+            "text": "Let it Breed was preceded by the album Love American Style."
+        }
+    },
+    "gold_outputs": []
+}

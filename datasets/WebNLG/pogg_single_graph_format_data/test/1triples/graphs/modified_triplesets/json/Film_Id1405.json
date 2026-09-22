@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Max_Benedict": {
+            "lexicon_key": "Max_Benedict"
+        },
+        "London": {
+            "lexicon_key": "London"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Max_Benedict",
+            "child_node": "London",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Max Benedict died in London."
+        },
+        "Id2": {
+            "text": "The death place of Max Benedict was London."
+        }
+    },
+    "gold_outputs": []
+}

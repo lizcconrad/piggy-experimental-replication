@@ -1,0 +1,5 @@
+strict digraph {
+Max_Benedict [lexicon_key="Max_Benedict"];
+"1947-01-01" [lexicon_key="1947-01-01"];
+Max_Benedict -> "1947-01-01" [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

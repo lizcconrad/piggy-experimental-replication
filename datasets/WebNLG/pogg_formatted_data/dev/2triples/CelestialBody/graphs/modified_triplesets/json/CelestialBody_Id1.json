@@ -1,33 +1,52 @@
 {
-    "nodes": {
-        "(410777)_2009_FD": {
-            "lexicon_key": "(410777)_2009_FD"
+    "graphs": {
+        "CelestialBody_Id1_0": {
+            "nodes": {
+                "(410777)_2009_FD": {
+                    "lexicon_key": "(410777)_2009_FD"
+                },
+                "259776702.47055 (kilometres)": {
+                    "lexicon_key": "259776702.47055 (kilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "apoapsis",
+                    "parent_node": "(410777)_2009_FD",
+                    "child_node": "259776702.47055 (kilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "apoapsis"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "(410777) 2009 FD has an apoapsis of 259776702.47055 kilometres and a minimum temperature of 211.0 kelvins."
+            ]
         },
-        "259776702.47055 (kilometres)": {
-            "lexicon_key": "259776702.47055 (kilometres)"
-        },
-        "211.0 (kelvins)": {
-            "lexicon_key": "211.0 (kelvins)"
+        "CelestialBody_Id1_1": {
+            "nodes": {
+                "(410777)_2009_FD": {
+                    "lexicon_key": "(410777)_2009_FD"
+                },
+                "211.0 (kelvins)": {
+                    "lexicon_key": "211.0 (kelvins)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "minimumTemperature",
+                    "parent_node": "(410777)_2009_FD",
+                    "child_node": "211.0 (kelvins)",
+                    "edge_properties": {
+                        "lexicon_key": "minimumTemperature"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "(410777) 2009 FD has an apoapsis of 259776702.47055 kilometres and a minimum temperature of 211.0 kelvins."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "apoapsis",
-            "parent_node": "(410777)_2009_FD",
-            "child_node": "259776702.47055 (kilometres)",
-            "edge_properties": {
-                "lexicon_key": "apoapsis"
-            }
-        },
-        {
-            "edge_name": "minimumTemperature",
-            "parent_node": "(410777)_2009_FD",
-            "child_node": "211.0 (kelvins)",
-            "edge_properties": {
-                "lexicon_key": "minimumTemperature"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

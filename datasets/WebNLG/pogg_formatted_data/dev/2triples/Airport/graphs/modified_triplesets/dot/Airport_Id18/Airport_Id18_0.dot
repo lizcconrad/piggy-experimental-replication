@@ -1,0 +1,5 @@
+strict digraph {
+Appleton_International_Airport [lexicon_key="Appleton_International_Airport"];
+"Appleton,_Wisconsin" [lexicon_key="Appleton,_Wisconsin"];
+Appleton_International_Airport -> "Appleton,_Wisconsin" [label=cityServed, lexicon_key=cityServed];
+}

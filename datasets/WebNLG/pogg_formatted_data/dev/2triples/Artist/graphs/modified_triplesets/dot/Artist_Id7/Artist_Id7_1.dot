@@ -1,0 +1,5 @@
+strict digraph {
+Rock_music [lexicon_key="Rock_music"];
+Country_music [lexicon_key="Country_music"];
+Rock_music -> Country_music [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Council-manager_government": {
+            "lexicon_key": "Council-manager_government"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        },
+        "\u22126": {
+            "lexicon_key": "\u22126"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Council-manager_government",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\u22126",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The population density in Ciudad Ayala is 1604. It has a UTC offset of -6. Its government type in the city is council manager."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala has a density of 1604.0, the UTC offset is -6, and the government type is called council-manager government."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala, with a population density of 1604.0, falls into UTC offset -6 time zone and uses a type of government called council-manager government."
+        }
+    },
+    "gold_outputs": []
+}

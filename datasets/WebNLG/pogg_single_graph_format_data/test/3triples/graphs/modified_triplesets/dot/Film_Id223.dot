@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Stacy_Katzman [lexicon_key="Stacy_Katzman"];
+Michael_Rooker [lexicon_key="Michael_Rooker"];
+English_language [lexicon_key="English_language"];
+Super_Capers -> Stacy_Katzman [label=editing, lexicon_key=editing];
+Super_Capers -> Michael_Rooker [label=starring, lexicon_key=starring];
+Super_Capers -> English_language [label=language, lexicon_key=language];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Israel [lexicon_key=Israel];
+Arab_citizens_of_Israel [lexicon_key="Arab_citizens_of_Israel"];
+Israel -> Arab_citizens_of_Israel [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

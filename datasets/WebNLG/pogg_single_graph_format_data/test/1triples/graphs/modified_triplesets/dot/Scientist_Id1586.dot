@@ -1,0 +1,5 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+"Bondareva–Shapley_theorem" [lexicon_key="Bondareva–Shapley_theorem"];
+Olga_Bondareva -> "Bondareva–Shapley_theorem" [label=knownFor, lexicon_key=knownFor];
+}

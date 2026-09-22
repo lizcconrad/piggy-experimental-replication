@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Reuven_Rivlin": {
+            "lexicon_key": "Reuven_Rivlin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Israel",
+            "child_node": "Reuven_Rivlin",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina has Israeli nationality, a country whose leader is Reuven Rivlin."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina is an Israeli national whose leader is Reuven Rivlin."
+        },
+        "Id3": {
+            "text": "Israel's leader Reuven Rivlin is the same nationality as Liselotte Grschebina."
+        }
+    },
+    "gold_outputs": []
+}

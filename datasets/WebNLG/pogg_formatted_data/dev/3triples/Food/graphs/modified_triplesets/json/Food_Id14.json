@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Bacon_Explosion": {
-            "lexicon_key": "Bacon_Explosion"
+    "graphs": {
+        "Food_Id14_0": {
+            "nodes": {
+                "Bacon_Explosion": {
+                    "lexicon_key": "Bacon_Explosion"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Bacon_Explosion",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Bacon Explosion comes from the United States where Barack Obama is a leader and the capital city is Washington DC.",
+                "The Bacon Explosion originates from the United States where the leader is Barack Obama and the capital is Washington DC.",
+                "The United States is the country of Bacon Explosion. Barack Obama is the leader and Washington D.C. is the capital."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
+        "Food_Id14_1": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Barack_Obama": {
+                    "lexicon_key": "Barack_Obama"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "United_States",
+                    "child_node": "Barack_Obama",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Bacon Explosion comes from the United States where Barack Obama is a leader and the capital city is Washington DC.",
+                "The Bacon Explosion originates from the United States where the leader is Barack Obama and the capital is Washington DC.",
+                "The United States is the country of Bacon Explosion. Barack Obama is the leader and Washington D.C. is the capital."
+            ]
         },
-        "Barack_Obama": {
-            "lexicon_key": "Barack_Obama"
-        },
-        "Washington,_D.C.": {
-            "lexicon_key": "Washington,_D.C."
+        "Food_Id14_2": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Washington,_D.C.": {
+                    "lexicon_key": "Washington,_D.C."
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "capital",
+                    "parent_node": "United_States",
+                    "child_node": "Washington,_D.C.",
+                    "edge_properties": {
+                        "lexicon_key": "capital"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Bacon Explosion comes from the United States where Barack Obama is a leader and the capital city is Washington DC.",
+                "The Bacon Explosion originates from the United States where the leader is Barack Obama and the capital is Washington DC.",
+                "The United States is the country of Bacon Explosion. Barack Obama is the leader and Washington D.C. is the capital."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Bacon_Explosion",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "United_States",
-            "child_node": "Barack_Obama",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "capital",
-            "parent_node": "United_States",
-            "child_node": "Washington,_D.C.",
-            "edge_properties": {
-                "lexicon_key": "capital"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

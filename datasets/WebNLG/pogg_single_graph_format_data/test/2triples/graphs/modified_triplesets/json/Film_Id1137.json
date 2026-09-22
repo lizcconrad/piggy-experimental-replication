@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        },
+        "1911-01-01": {
+            "lexicon_key": "1911-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Terence_Rattigan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Terence_Rattigan",
+            "child_node": "1911-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Terence Rattigan, who authored \"English Without Tears\", was born on 01/01/1911."
+        },
+        "Id2": {
+            "text": "\"English Without Tears\" was written by Terence Rattigan, who was born on New Years Day of 1911."
+        },
+        "Id3": {
+            "text": "Terence Rattigan, born on 1 January 1911, is the writer of screen play 'English Without Tears'."
+        }
+    },
+    "gold_outputs": []
+}

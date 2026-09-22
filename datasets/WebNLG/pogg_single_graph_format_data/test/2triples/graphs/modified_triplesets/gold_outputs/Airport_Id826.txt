@@ -1,0 +1,3 @@
+The ICAO location identifier for the Bedford Aerodrome is EGBF and the aerodrome has a runway surface made of concrete.
+The ICAO location identifier for Bedford Aerodrome is EGBF and its runway is made of concrete.
+Bedford Aerodrome with concrete runway has EGBF as its International Civil Aviation Organization (ICAO) identifier.

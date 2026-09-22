@@ -1,0 +1,7 @@
+strict digraph {
+Binignit [lexicon_key=Binignit];
+Philippines [lexicon_key=Philippines];
+Dessert [lexicon_key=Dessert];
+Binignit -> Philippines [label=country, lexicon_key=country];
+Binignit -> Dessert [label=course, lexicon_key=course];
+}

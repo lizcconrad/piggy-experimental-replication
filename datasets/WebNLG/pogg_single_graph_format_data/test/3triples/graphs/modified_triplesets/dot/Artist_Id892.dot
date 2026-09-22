@@ -1,0 +1,9 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+"1908-05-02" [lexicon_key="1908-05-02"];
+Photographer [lexicon_key=Photographer];
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+Liselotte_Grschebina -> "1908-05-02" [label=birthDate, lexicon_key=birthDate];
+Liselotte_Grschebina -> Photographer [label=professionalField, lexicon_key=professionalField];
+Liselotte_Grschebina -> Petah_Tikva [label=deathPlace, lexicon_key=deathPlace];
+}

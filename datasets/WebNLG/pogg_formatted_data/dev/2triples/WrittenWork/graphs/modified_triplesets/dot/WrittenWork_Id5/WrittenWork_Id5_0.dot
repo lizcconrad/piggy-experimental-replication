@@ -1,0 +1,5 @@
+strict digraph {
+"AIDS_(journal)" [lexicon_key="AIDS_(journal)"];
+United_Kingdom [lexicon_key="United_Kingdom"];
+"AIDS_(journal)" -> United_Kingdom [label=country, lexicon_key=country];
+}

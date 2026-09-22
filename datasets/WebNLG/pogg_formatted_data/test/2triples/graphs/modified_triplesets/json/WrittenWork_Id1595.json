@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "J._R._R._Tolkien": {
+            "lexicon_key": "J._R._R._Tolkien"
+        },
+        "The_Silmarillion": {
+            "lexicon_key": "The_Silmarillion"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "J._R._R._Tolkien",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "notableWork",
+            "parent_node": "J._R._R._Tolkien",
+            "child_node": "The_Silmarillion",
+            "edge_properties": {
+                "lexicon_key": "notableWork"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Silmarillion is a notable piece of work authored by J.R.R. Tolkien, who also wrote The Fellowship of the Ring."
+        },
+        "Id2": {
+            "text": "J.R.R. Tolkien wrote The Fellowship of the Ring and The Silmarillion."
+        },
+        "Id3": {
+            "text": "The author of The Fellowship of the Ring J.R.R. Tolkien also has Silmarillion as one of the notable works."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"It's_Great_to_Be_Young_(1956_film)" [lexicon_key="It's_Great_to_Be_Young_(1956_film)"];
+Louis_Levy [lexicon_key="Louis_Levy"];
+Max_Benedict [lexicon_key="Max_Benedict"];
+Gilbert_Taylor [lexicon_key="Gilbert_Taylor"];
+"It's_Great_to_Be_Young_(1956_film)" -> Louis_Levy [label=musicComposer, lexicon_key=musicComposer];
+"It's_Great_to_Be_Young_(1956_film)" -> Max_Benedict [label=editing, lexicon_key=editing];
+"It's_Great_to_Be_Young_(1956_film)" -> Gilbert_Taylor [label=cinematography, lexicon_key=cinematography];
+}

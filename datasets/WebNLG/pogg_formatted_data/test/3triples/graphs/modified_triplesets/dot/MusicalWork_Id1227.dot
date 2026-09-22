@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+"Squeeze_(The_Velvet_Underground_album)" [lexicon_key="Squeeze_(The_Velvet_Underground_album)"];
+"2001-10-16" [lexicon_key="2001-10-16"];
+"Andy_Warhol's_Velvet_Underground_Featuring_Nico" [lexicon_key="Andy_Warhol's_Velvet_Underground_Featuring_Nico"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> "Squeeze_(The_Velvet_Underground_album)" [label=precededBy, lexicon_key=precededBy];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> "2001-10-16" [label=releaseDate, lexicon_key=releaseDate];
+"Squeeze_(The_Velvet_Underground_album)" -> "Andy_Warhol's_Velvet_Underground_Featuring_Nico" [label=precededBy, lexicon_key=precededBy];
+}

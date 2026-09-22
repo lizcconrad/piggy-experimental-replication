@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "Pharmaceuticals": {
+            "lexicon_key": "Pharmaceuticals"
+        },
+        "CEO": {
+            "lexicon_key": "CEO"
+        },
+        "2001-01-01": {
+            "lexicon_key": "2001-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "industry",
+            "parent_node": "Hypermarcas",
+            "child_node": "Pharmaceuticals",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        },
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Hypermarcas",
+            "child_node": "CEO",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        },
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Hypermarcas",
+            "child_node": "2001-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas is a CEO led pharmaceutical company founded on January 1, 2001."
+        },
+        "Id2": {
+            "text": "Hypermarcas, founded on 2001-01-01, is in the pharmaceutical industry; its key person is their CEO."
+        },
+        "Id3": {
+            "text": "Hypermarcas, a company in the pharmaceuticals industry, founded on January 1, 2001, is managed by the CEO."
+        }
+    },
+    "gold_outputs": []
+}

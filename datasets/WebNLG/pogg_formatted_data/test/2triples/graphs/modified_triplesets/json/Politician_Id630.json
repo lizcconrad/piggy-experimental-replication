@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "\"United States Secretary of Health, Education, and Welfare\"": {
+            "lexicon_key": "\"United States Secretary of Health, Education, and Welfare\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "\"United States Secretary of Health, Education, and Welfare\"",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Casey Ribicoff is the spouse of Abraham A. Ribicoff, a former US Secretary of Health, Education, and Welfare."
+        },
+        "Id2": {
+            "text": "Casey Ribicoff is the wife of Abraham A. Ribicoff, the US secretary of Health, Education, and Welfare."
+        },
+        "Id3": {
+            "text": "Casey Ribicoff is the wife of Abraham A Ribicoff, who worked as the United States Secretary of Health, Education and Welfare."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "11th_Mississippi_Infantry_Monument": {
+            "lexicon_key": "11th_Mississippi_Infantry_Monument"
+        },
+        "Adams_County,_Pennsylvania": {
+            "lexicon_key": "Adams_County,_Pennsylvania"
+        },
+        "Gettysburg,_Pennsylvania": {
+            "lexicon_key": "Gettysburg,_Pennsylvania"
+        },
+        "Cumberland_County,_Pennsylvania": {
+            "lexicon_key": "Cumberland_County,_Pennsylvania"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Adams_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "municipality",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Gettysburg,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "municipality"
+            }
+        },
+        {
+            "edge_name": "hasToItsNorth",
+            "parent_node": "Adams_County,_Pennsylvania",
+            "child_node": "Cumberland_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "hasToItsNorth"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Cumberland county, Pennsylvania is north of Adams County, Pennsylvania, the location of the 11th Mississippi Infantry Monument in Gettysburg."
+        },
+        "Id2": {
+            "text": "The 11th Mississippi Infantry Monument is in the municipality of Gettysburg, Adams County, Pennsylvania which is south to the Pennsylvania's Cumberland County."
+        },
+        "Id3": {
+            "text": "11th Mississippi Infantry Monument is situated in Adams County, Pennsylvania, in the municipality of Gettysburg. Adams County, Pennsylvania has Cumberland County, Pennsylvania to its north."
+        }
+    },
+    "gold_outputs": []
+}

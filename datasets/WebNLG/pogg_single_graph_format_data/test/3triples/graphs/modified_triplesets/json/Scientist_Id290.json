@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Stochastic_programming": {
+            "lexicon_key": "Stochastic_programming"
+        },
+        "Humboldt_University": {
+            "lexicon_key": "Humboldt_University"
+        },
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Stochastic_programming",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Humboldt_University",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva is known for her work with stochastic programming where she has a residence in the state of New Jersey and her alma mater is Humboldt University."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva, a graduate of Humboldt University, is known for her work with stochastic programming and currently resides in New Jersey."
+        },
+        "Id3": {
+            "text": "Humboldt University is the alma mater of Darinka Dentcheva who resides in New Jersey and is known for Stochastic programming."
+        }
+    },
+    "gold_outputs": []
+}

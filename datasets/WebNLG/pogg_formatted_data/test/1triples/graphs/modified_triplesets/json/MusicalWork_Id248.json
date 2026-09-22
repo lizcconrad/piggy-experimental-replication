@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "Drum_kit": {
+            "lexicon_key": "Drum_kit"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "instrument",
+            "parent_node": "Punk_blues",
+            "child_node": "Drum_kit",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The drum kit is an instrument used in the punk blues genre."
+        },
+        "Id2": {
+            "text": "The drum kit is an instrument of punk blues."
+        },
+        "Id3": {
+            "text": "Punk blues usually uses a drum kit."
+        }
+    },
+    "gold_outputs": []
+}

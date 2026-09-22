@@ -1,0 +1,5 @@
+strict digraph {
+"Abarth_1000_GT_Coupé" [lexicon_key="Abarth_1000_GT_Coupé"];
+Abarth [lexicon_key=Abarth];
+"Abarth_1000_GT_Coupé" -> Abarth [label=manufacturer, lexicon_key=manufacturer];
+}

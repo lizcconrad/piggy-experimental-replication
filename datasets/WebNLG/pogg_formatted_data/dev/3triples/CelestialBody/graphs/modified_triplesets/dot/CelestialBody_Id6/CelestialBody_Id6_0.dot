@@ -1,0 +1,5 @@
+strict digraph {
+"1036_Ganymed" [lexicon_key="1036_Ganymed"];
+Walter_Baade [lexicon_key="Walter_Baade"];
+"1036_Ganymed" -> Walter_Baade [label=discoverer, lexicon_key=discoverer];
+}

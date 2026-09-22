@@ -1,0 +1,5 @@
+strict digraph {
+Lionsgate [lexicon_key=Lionsgate];
+Jon_Feltheimer [lexicon_key="Jon_Feltheimer"];
+Lionsgate -> Jon_Feltheimer [label=keyPerson, lexicon_key=keyPerson];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "22591.38": {
+            "lexicon_key": "22591.38"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "New_Jersey",
+            "child_node": "22591.38",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "New Jersey has a total area of 22,591.38."
+        },
+        "Id2": {
+            "text": "The total area of New Jersey is 22,591 square kilometers."
+        },
+        "Id3": {
+            "text": "The total area of New Jersey is 22,591.38 km^2."
+        }
+    },
+    "gold_outputs": []
+}

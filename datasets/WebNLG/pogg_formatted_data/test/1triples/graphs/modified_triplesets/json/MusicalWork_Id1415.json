@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Crucial_Blast": {
+            "lexicon_key": "Crucial_Blast"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Crucial_Blast",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Year of No Light made an album called Nord, which was released by the record label Crucial blast."
+        },
+        "Id2": {
+            "text": "The album entitled Nord, by the group Year of No Light, was released on the Crucial Blast label."
+        },
+        "Id3": {
+            "text": "The Year of No Light album Nord's record label is Crucial Blast."
+        }
+    },
+    "gold_outputs": []
+}

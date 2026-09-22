@@ -1,0 +1,5 @@
+strict digraph {
+"Humphrys,_Tennant_and_Dykes" [lexicon_key="Humphrys,_Tennant_and_Dykes"];
+Deptford [lexicon_key=Deptford];
+"Humphrys,_Tennant_and_Dykes" -> Deptford [label=location, lexicon_key=location];
+}

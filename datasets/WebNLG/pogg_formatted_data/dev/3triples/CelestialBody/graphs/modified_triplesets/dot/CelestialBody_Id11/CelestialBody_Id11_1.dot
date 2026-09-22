@@ -1,0 +1,5 @@
+strict digraph {
+"1097_Vicia" [lexicon_key="1097_Vicia"];
+279142000000.0 [lexicon_key=279142000000.0];
+"1097_Vicia" -> 279142000000.0 [label=periapsis, lexicon_key=periapsis];
+}

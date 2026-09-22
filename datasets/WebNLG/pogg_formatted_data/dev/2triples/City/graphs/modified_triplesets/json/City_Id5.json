@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "Anaheim,_California": {
-            "lexicon_key": "Anaheim,_California"
+    "graphs": {
+        "City_Id5_0": {
+            "nodes": {
+                "Anaheim,_California": {
+                    "lexicon_key": "Anaheim,_California"
+                },
+                "48.0": {
+                    "lexicon_key": "48.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "elevationAboveTheSeaLevel",
+                    "parent_node": "Anaheim,_California",
+                    "child_node": "48.0",
+                    "edge_properties": {
+                        "lexicon_key": "elevationAboveTheSeaLevel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Anaheim, California is situated at 48.0 above sea level and has a total area of 131.6 sq km.",
+                "Anaheim, California is situated at 48.0 above sea level and has a total area of 131.6 square kilometres."
+            ]
         },
-        "48.0": {
-            "lexicon_key": "48.0"
-        },
-        "131.6 (square kilometres)": {
-            "lexicon_key": "131.6 (square kilometres)"
+        "City_Id5_1": {
+            "nodes": {
+                "Anaheim,_California": {
+                    "lexicon_key": "Anaheim,_California"
+                },
+                "131.6 (square kilometres)": {
+                    "lexicon_key": "131.6 (square kilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "areaTotal",
+                    "parent_node": "Anaheim,_California",
+                    "child_node": "131.6 (square kilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "areaTotal"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Anaheim, California is situated at 48.0 above sea level and has a total area of 131.6 sq km.",
+                "Anaheim, California is situated at 48.0 above sea level and has a total area of 131.6 square kilometres."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "elevationAboveTheSeaLevel",
-            "parent_node": "Anaheim,_California",
-            "child_node": "48.0",
-            "edge_properties": {
-                "lexicon_key": "elevationAboveTheSeaLevel"
-            }
-        },
-        {
-            "edge_name": "areaTotal",
-            "parent_node": "Anaheim,_California",
-            "child_node": "131.6 (square kilometres)",
-            "edge_properties": {
-                "lexicon_key": "areaTotal"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

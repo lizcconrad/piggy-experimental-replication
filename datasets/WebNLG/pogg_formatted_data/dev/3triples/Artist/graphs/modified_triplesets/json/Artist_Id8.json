@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Abradab": {
-            "lexicon_key": "Abradab"
+    "graphs": {
+        "Artist_Id8_0": {
+            "nodes": {
+                "Abradab": {
+                    "lexicon_key": "Abradab"
+                },
+                "Hip_hop_music": {
+                    "lexicon_key": "Hip_hop_music"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Abradab",
+                    "child_node": "Hip_hop_music",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abradab performs hip hop music which has the sub genre Gangsta rap. Drum and bass derives its sounds from hip hop music.",
+                "Hip Hop music, which includes Gangsta Rap and Drum and Bass, is the genre of Abradab.",
+                "The musical genre of Abradab is hip hop music, from which Drum and bass derives its sounds. Hip hop music has a sub genre called Gangsta rap."
+            ]
         },
-        "Hip_hop_music": {
-            "lexicon_key": "Hip_hop_music"
+        "Artist_Id8_1": {
+            "nodes": {
+                "Hip_hop_music": {
+                    "lexicon_key": "Hip_hop_music"
+                },
+                "Gangsta_rap": {
+                    "lexicon_key": "Gangsta_rap"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "musicSubgenre",
+                    "parent_node": "Hip_hop_music",
+                    "child_node": "Gangsta_rap",
+                    "edge_properties": {
+                        "lexicon_key": "musicSubgenre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abradab performs hip hop music which has the sub genre Gangsta rap. Drum and bass derives its sounds from hip hop music.",
+                "Hip Hop music, which includes Gangsta Rap and Drum and Bass, is the genre of Abradab.",
+                "The musical genre of Abradab is hip hop music, from which Drum and bass derives its sounds. Hip hop music has a sub genre called Gangsta rap."
+            ]
         },
-        "Gangsta_rap": {
-            "lexicon_key": "Gangsta_rap"
-        },
-        "Drum_and_bass": {
-            "lexicon_key": "Drum_and_bass"
+        "Artist_Id8_2": {
+            "nodes": {
+                "Hip_hop_music": {
+                    "lexicon_key": "Hip_hop_music"
+                },
+                "Drum_and_bass": {
+                    "lexicon_key": "Drum_and_bass"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "derivative",
+                    "parent_node": "Hip_hop_music",
+                    "child_node": "Drum_and_bass",
+                    "edge_properties": {
+                        "lexicon_key": "derivative"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abradab performs hip hop music which has the sub genre Gangsta rap. Drum and bass derives its sounds from hip hop music.",
+                "Hip Hop music, which includes Gangsta Rap and Drum and Bass, is the genre of Abradab.",
+                "The musical genre of Abradab is hip hop music, from which Drum and bass derives its sounds. Hip hop music has a sub genre called Gangsta rap."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Abradab",
-            "child_node": "Hip_hop_music",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "musicSubgenre",
-            "parent_node": "Hip_hop_music",
-            "child_node": "Gangsta_rap",
-            "edge_properties": {
-                "lexicon_key": "musicSubgenre"
-            }
-        },
-        {
-            "edge_name": "derivative",
-            "parent_node": "Hip_hop_music",
-            "child_node": "Drum_and_bass",
-            "edge_properties": {
-                "lexicon_key": "derivative"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

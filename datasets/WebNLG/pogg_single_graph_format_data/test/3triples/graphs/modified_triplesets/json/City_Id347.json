@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1777539": {
+            "lexicon_key": "1777539"
+        },
+        "\"City Manager\"": {
+            "lexicon_key": "\"City Manager\""
+        },
+        "City": {
+            "lexicon_key": "City"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationMetro",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1777539",
+            "edge_properties": {
+                "lexicon_key": "populationMetro"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\"City Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "City",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is a city which is led by a City Manager. The population of the metropolitan area of Ciudad Ayala is 1,777,539."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala has a City manager as one of its leaders for this city with a metropolitan area population of 1,777,539 people."
+        },
+        "Id3": {
+            "text": "The population of the metropolitan area of the city of Ciudad Ayala is 1,777,539. One of the leaders of this city is called the City Manager."
+        }
+    },
+    "gold_outputs": []
+}

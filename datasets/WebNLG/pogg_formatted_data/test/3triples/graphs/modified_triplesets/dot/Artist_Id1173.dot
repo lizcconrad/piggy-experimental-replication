@@ -1,0 +1,9 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+School_of_Applied_Arts_in_Stuttgart [lexicon_key="School_of_Applied_Arts_in_Stuttgart"];
+"1994-06-14" [lexicon_key="1994-06-14"];
+"1908-05-02" [lexicon_key="1908-05-02"];
+Liselotte_Grschebina -> School_of_Applied_Arts_in_Stuttgart [label=training, lexicon_key=training];
+Liselotte_Grschebina -> "1994-06-14" [label=deathDate, lexicon_key=deathDate];
+Liselotte_Grschebina -> "1908-05-02" [label=birthDate, lexicon_key=birthDate];
+}

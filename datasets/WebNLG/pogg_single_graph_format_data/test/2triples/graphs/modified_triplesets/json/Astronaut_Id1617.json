@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        },
+        "\"Massachusetts Institute of Technology, Sc.D. 1963\"": {
+            "lexicon_key": "\"Massachusetts Institute of Technology, Sc.D. 1963\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"Massachusetts Institute of Technology, Sc.D. 1963\"",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buzz Aldrin graduated from Massachusetts Institute of Technology with a Sc.D in 1963 and was a crew member of Apollo 11."
+        },
+        "Id2": {
+            "text": "Buzz Aldrin, a member of the Apollo 11 crew, received his Sc. D. from MIT in 1963."
+        },
+        "Id3": {
+            "text": "Buzz Aldrin, who graduated from MIT in 1963 with a Sc.D., was a crew member on Apollo 11."
+        }
+    },
+    "gold_outputs": []
+}

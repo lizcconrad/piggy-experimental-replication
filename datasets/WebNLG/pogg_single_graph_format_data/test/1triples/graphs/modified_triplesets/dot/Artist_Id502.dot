@@ -1,0 +1,5 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Photographer [lexicon_key=Photographer];
+Liselotte_Grschebina -> Photographer [label=professionalField, lexicon_key=professionalField];
+}

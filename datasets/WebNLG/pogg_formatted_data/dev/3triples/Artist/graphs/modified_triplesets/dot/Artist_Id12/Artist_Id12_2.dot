@@ -1,0 +1,5 @@
+strict digraph {
+Ahmet_Ertegun [lexicon_key="Ahmet_Ertegun"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+Ahmet_Ertegun -> "Washington,_D.C." [label=origin, lexicon_key=origin];
+}

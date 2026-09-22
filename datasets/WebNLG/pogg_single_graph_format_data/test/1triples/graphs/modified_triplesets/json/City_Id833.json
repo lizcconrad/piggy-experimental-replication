@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "1972550.0": {
+            "lexicon_key": "1972550.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Mexico",
+            "child_node": "1972550.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The total area of Mexico is 1,972,550 square kilometers."
+        },
+        "Id2": {
+            "text": "Mexico has a total area of 1972550.0."
+        },
+        "Id3": {
+            "text": "The total area of Mexico is 1972550.0."
+        }
+    },
+    "gold_outputs": []
+}

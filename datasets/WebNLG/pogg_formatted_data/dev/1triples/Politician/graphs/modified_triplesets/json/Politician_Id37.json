@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Poland": {
-            "lexicon_key": "Poland"
-        },
-        "Romani_people": {
-            "lexicon_key": "Romani_people"
+    "graphs": {
+        "Politician_Id37_0": {
+            "nodes": {
+                "Poland": {
+                    "lexicon_key": "Poland"
+                },
+                "Romani_people": {
+                    "lexicon_key": "Romani_people"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "Poland",
+                    "child_node": "Romani_people",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "An ethnic group in Poland is the Romani people.",
+                "Romani are an ethnic group in Poland.",
+                "The Romani people are an ethnic group in Poland."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "Poland",
-            "child_node": "Romani_people",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

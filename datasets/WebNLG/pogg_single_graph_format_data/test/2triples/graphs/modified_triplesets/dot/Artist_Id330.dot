@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Karlsruhe [lexicon_key=Karlsruhe];
+173.46 [lexicon_key=173.46];
+Liselotte_Grschebina -> Karlsruhe [label=birthPlace, lexicon_key=birthPlace];
+Karlsruhe -> 173.46 [label=areaTotal, lexicon_key=areaTotal];
+}

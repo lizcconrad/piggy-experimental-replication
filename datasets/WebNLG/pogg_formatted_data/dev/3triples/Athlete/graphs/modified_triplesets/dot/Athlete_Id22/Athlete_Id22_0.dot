@@ -1,0 +1,5 @@
+strict digraph {
+Alex_Plante [lexicon_key="Alex_Plante"];
+1989 [lexicon_key=1989];
+Alex_Plante -> 1989 [label=birthYear, lexicon_key=birthYear];
+}

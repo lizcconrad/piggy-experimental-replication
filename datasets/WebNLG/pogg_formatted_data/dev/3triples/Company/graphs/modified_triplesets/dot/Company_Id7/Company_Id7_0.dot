@@ -1,0 +1,5 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+108600000 [lexicon_key=108600000];
+Hypermarcas -> 108600000 [label=netIncome, lexicon_key=netIncome];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        },
+        "1977-01-01": {
+            "lexicon_key": "1977-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathYear",
+            "parent_node": "Terence_Rattigan",
+            "child_node": "1977-01-01",
+            "edge_properties": {
+                "lexicon_key": "deathYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Terence Rattigan died in 1977."
+        },
+        "Id2": {
+            "text": "The death year of Terence Rattigan is 1977."
+        }
+    },
+    "gold_outputs": []
+}

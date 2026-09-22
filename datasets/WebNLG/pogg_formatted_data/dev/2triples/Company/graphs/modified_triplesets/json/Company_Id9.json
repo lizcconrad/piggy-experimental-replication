@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Hypermarcas": {
-            "lexicon_key": "Hypermarcas"
+    "graphs": {
+        "Company_Id9_0": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "Drugs": {
+                    "lexicon_key": "Drugs"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "product",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "Drugs",
+                    "edge_properties": {
+                        "lexicon_key": "product"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas is a company located in Sao Paulo that produces pharmaceutical drugs.",
+                "Hypermarcas makes drugs in S\u00e3o Paulo.",
+                "The main product of Hypermarcas, which is located in S\u00e3o Paulo, is drugs."
+            ]
         },
-        "Drugs": {
-            "lexicon_key": "Drugs"
-        },
-        "S\u00e3o_Paulo": {
-            "lexicon_key": "S\u00e3o_Paulo"
+        "Company_Id9_1": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "S\u00e3o_Paulo": {
+                    "lexicon_key": "S\u00e3o_Paulo"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "S\u00e3o_Paulo",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas is a company located in Sao Paulo that produces pharmaceutical drugs.",
+                "Hypermarcas makes drugs in S\u00e3o Paulo.",
+                "The main product of Hypermarcas, which is located in S\u00e3o Paulo, is drugs."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "product",
-            "parent_node": "Hypermarcas",
-            "child_node": "Drugs",
-            "edge_properties": {
-                "lexicon_key": "product"
-            }
-        },
-        {
-            "edge_name": "location",
-            "parent_node": "Hypermarcas",
-            "child_node": "S\u00e3o_Paulo",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

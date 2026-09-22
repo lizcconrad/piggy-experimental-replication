@@ -1,0 +1,5 @@
+strict digraph {
+Alfred_Garth_Jones [lexicon_key="Alfred_Garth_Jones"];
+United_Kingdom [lexicon_key="United_Kingdom"];
+Alfred_Garth_Jones -> United_Kingdom [label=nationality, lexicon_key=nationality];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+"Imagine_(John_Lennon_album)" [lexicon_key="Imagine_(John_Lennon_album)"];
+"Imagine_(John_Lennon_song)" -> "Imagine_(John_Lennon_album)" [label=album, lexicon_key=album];
+}

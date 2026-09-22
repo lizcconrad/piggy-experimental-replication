@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "J._R._R._Tolkien": {
+            "lexicon_key": "J._R._R._Tolkien"
+        },
+        "The_Silmarillion": {
+            "lexicon_key": "The_Silmarillion"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "notableWork",
+            "parent_node": "J._R._R._Tolkien",
+            "child_node": "The_Silmarillion",
+            "edge_properties": {
+                "lexicon_key": "notableWork"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Silmarillion is one of J.R.R. Tolkien's notable works."
+        },
+        "Id2": {
+            "text": "A notable piece of work authored by J.R.R. Tolkien is The Silmarillion."
+        },
+        "Id3": {
+            "text": "The Silmarillion is a famous work of J.R.R. Tolkien."
+        }
+    },
+    "gold_outputs": []
+}

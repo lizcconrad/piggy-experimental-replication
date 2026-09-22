@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "2000": {
+            "lexicon_key": "2000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "established",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "2000",
+            "edge_properties": {
+                "lexicon_key": "established"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Established in 2000 The Acharya Institute of Technology is located in Bangalore and is affiliated with Visvesvaraya Technological University."
+        },
+        "Id2": {
+            "text": "The Acharya Institute of Technology, affiliated with the Visvesvaraya Technological University and established in 2000, is located in Bangalore."
+        },
+        "Id3": {
+            "text": "The Acharya Institute of Technology is located in the city of Bangalore since it was established in 2000, and is affiliated with the Visvesvaraya Technological University."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+"1937-04-27" [lexicon_key="1937-04-27"];
+"Olga Nikolaevna Bondareva" [lexicon_key="Olga Nikolaevna Bondareva"];
+"Leningrad,_USSR" [lexicon_key="Leningrad,_USSR"];
+Olga_Bondareva -> "1937-04-27" [label=birthDate, lexicon_key=birthDate];
+Olga_Bondareva -> "Olga Nikolaevna Bondareva" [label=birthName, lexicon_key=birthName];
+Olga_Bondareva -> "Leningrad,_USSR" [label=birthPlace, lexicon_key=birthPlace];
+}

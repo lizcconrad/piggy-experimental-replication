@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "The_Honeymoon_Killers_(American_band)": {
+            "lexicon_key": "The_Honeymoon_Killers_(American_band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "The_Honeymoon_Killers_(American_band)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Honeymoon killers produced a punk blues album titled Turn Me On."
+        },
+        "Id2": {
+            "text": "The Honeymoon Killers is the producer of the punk-blues album \u2018Turn Me On\u2019."
+        },
+        "Id3": {
+            "text": "The American Band, the Honeymoon Killers, self-produced its album called Turn Me On of the punk blues genre."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "1991-12-09": {
+            "lexicon_key": "1991-12-09"
+        },
+        "Economics": {
+            "lexicon_key": "Economics"
+        },
+        "Mathematics": {
+            "lexicon_key": "Mathematics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1991-12-09",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Economics",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Mathematics",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva, whose professional field was Economics and Mathematics, died on December 9, 1991."
+        },
+        "Id2": {
+            "text": "Olga Bondareva, an economist that was a known professional in the field of mathematics, died on December 9, 1991."
+        },
+        "Id3": {
+            "text": "Olga Bondareva, who worked in the fields of economics and mathematics, died on December 9th, 1991."
+        }
+    },
+    "gold_outputs": []
+}

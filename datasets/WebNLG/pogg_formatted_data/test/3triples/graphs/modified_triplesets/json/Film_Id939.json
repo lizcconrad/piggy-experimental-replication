@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "94.0": {
+            "lexicon_key": "94.0"
+        },
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        },
+        "Louis_Levy": {
+            "lexicon_key": "Louis_Levy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "94.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cyril_Frankel",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Louis_Levy",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 1956 movie It's Great to Be Young was directed by Cyril Frankel, composed by Louis Levy, and its length is 94 minutes."
+        },
+        "Id2": {
+            "text": "It's Great to be Young (1956 film) was directed by Cyril Frankel, composed by Louis Levy and has a running time of 94 minutes."
+        },
+        "Id3": {
+            "text": "This movie of 94 minutes, 'It's great to be young', from 1956 was directed by Cyril Frankel and Louis levy was the music composer."
+        }
+    },
+    "gold_outputs": []
+}

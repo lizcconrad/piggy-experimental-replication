@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Albuquerque,_New_Mexico": {
-            "lexicon_key": "Albuquerque,_New_Mexico"
-        },
-        "Albuquerque_City_Council": {
-            "lexicon_key": "Albuquerque_City_Council"
+    "graphs": {
+        "City_Id7_0": {
+            "nodes": {
+                "Albuquerque,_New_Mexico": {
+                    "lexicon_key": "Albuquerque,_New_Mexico"
+                },
+                "Albuquerque_City_Council": {
+                    "lexicon_key": "Albuquerque_City_Council"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leaderTitle",
+                    "parent_node": "Albuquerque,_New_Mexico",
+                    "child_node": "Albuquerque_City_Council",
+                    "edge_properties": {
+                        "lexicon_key": "leaderTitle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albuquerque in New Mexico is led by the Albuquerque City Council.",
+                "The Albuquerque City Council has a leadership role in Albuquerque, New Mexico."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leaderTitle",
-            "parent_node": "Albuquerque,_New_Mexico",
-            "child_node": "Albuquerque_City_Council",
-            "edge_properties": {
-                "lexicon_key": "leaderTitle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

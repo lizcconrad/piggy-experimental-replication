@@ -1,0 +1,9 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+"Train_(band)" [lexicon_key="Train_(band)"];
+Columbia_Records [lexicon_key="Columbia_Records"];
+3.16 [lexicon_key=3.16];
+"Mermaid_(Train_song)" -> "Train_(band)" [label=musicalBand, lexicon_key=musicalBand];
+"Mermaid_(Train_song)" -> Columbia_Records [label=recordLabel, lexicon_key=recordLabel];
+"Mermaid_(Train_song)" -> 3.16 [label=runtime, lexicon_key=runtime];
+}

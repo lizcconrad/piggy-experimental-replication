@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "eng": {
+            "lexicon_key": "eng"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "iso6392Code",
+            "parent_node": "English_language",
+            "child_node": "eng",
+            "edge_properties": {
+                "lexicon_key": "iso6392Code"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The language code (ISO 639-2) of the English language is eng."
+        },
+        "Id2": {
+            "text": "\u201ceng\u201d is the ISO 639-2 code for the English language."
+        },
+        "Id3": {
+            "text": "The ISO 639-2 code of the English Language is eng."
+        }
+    },
+    "gold_outputs": []
+}

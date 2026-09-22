@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Akeem_Dent": {
-            "lexicon_key": "Akeem_Dent"
+    "graphs": {
+        "Athlete_Id9_0": {
+            "nodes": {
+                "Akeem_Dent": {
+                    "lexicon_key": "Akeem_Dent"
+                },
+                "Atlanta_Falcons": {
+                    "lexicon_key": "Atlanta_Falcons"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "debutTeam",
+                    "parent_node": "Akeem_Dent",
+                    "child_node": "Atlanta_Falcons",
+                    "edge_properties": {
+                        "lexicon_key": "debutTeam"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Dent, who made his debut with the Atlanta Falcons, was born in Atlanta, Georgia on 27 September 1987.",
+                "Akeem Dent, who was born in Atlanta Georgia on 27 September 1987, made his debut with the Atlanta Falcons.",
+                "Akeem Dent, who was born on 27 September 1987 in Atlanta, Georgia, made his debut with the Atlanta Falcons."
+            ]
         },
-        "Atlanta_Falcons": {
-            "lexicon_key": "Atlanta_Falcons"
+        "Athlete_Id9_1": {
+            "nodes": {
+                "Akeem_Dent": {
+                    "lexicon_key": "Akeem_Dent"
+                },
+                "1987-09-27": {
+                    "lexicon_key": "1987-09-27"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthDate",
+                    "parent_node": "Akeem_Dent",
+                    "child_node": "1987-09-27",
+                    "edge_properties": {
+                        "lexicon_key": "birthDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Dent, who made his debut with the Atlanta Falcons, was born in Atlanta, Georgia on 27 September 1987.",
+                "Akeem Dent, who was born in Atlanta Georgia on 27 September 1987, made his debut with the Atlanta Falcons.",
+                "Akeem Dent, who was born on 27 September 1987 in Atlanta, Georgia, made his debut with the Atlanta Falcons."
+            ]
         },
-        "1987-09-27": {
-            "lexicon_key": "1987-09-27"
-        },
-        "\"Atlanta, Georgia\"": {
-            "lexicon_key": "\"Atlanta, Georgia\""
+        "Athlete_Id9_2": {
+            "nodes": {
+                "Akeem_Dent": {
+                    "lexicon_key": "Akeem_Dent"
+                },
+                "\"Atlanta, Georgia\"": {
+                    "lexicon_key": "\"Atlanta, Georgia\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Akeem_Dent",
+                    "child_node": "\"Atlanta, Georgia\"",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Akeem Dent, who made his debut with the Atlanta Falcons, was born in Atlanta, Georgia on 27 September 1987.",
+                "Akeem Dent, who was born in Atlanta Georgia on 27 September 1987, made his debut with the Atlanta Falcons.",
+                "Akeem Dent, who was born on 27 September 1987 in Atlanta, Georgia, made his debut with the Atlanta Falcons."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "debutTeam",
-            "parent_node": "Akeem_Dent",
-            "child_node": "Atlanta_Falcons",
-            "edge_properties": {
-                "lexicon_key": "debutTeam"
-            }
-        },
-        {
-            "edge_name": "birthDate",
-            "parent_node": "Akeem_Dent",
-            "child_node": "1987-09-27",
-            "edge_properties": {
-                "lexicon_key": "birthDate"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Akeem_Dent",
-            "child_node": "\"Atlanta, Georgia\"",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

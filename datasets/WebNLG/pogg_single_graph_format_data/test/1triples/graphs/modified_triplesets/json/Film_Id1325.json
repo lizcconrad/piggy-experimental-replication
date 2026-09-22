@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Juliet_Mills": {
+            "lexicon_key": "Juliet_Mills"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "child",
+            "parent_node": "John_Mills",
+            "child_node": "Juliet_Mills",
+            "edge_properties": {
+                "lexicon_key": "child"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Juliet Mills is the daughter of John Mills."
+        },
+        "Id2": {
+            "text": "John Mills had a daughter named Juliet Mills."
+        },
+        "Id3": {
+            "text": "The child of John Mills is called Juliet Mills."
+        }
+    },
+    "gold_outputs": []
+}

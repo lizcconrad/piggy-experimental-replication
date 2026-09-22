@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "418476000000.0": {
+            "lexicon_key": "418476000000.0"
+        },
+        "1929-06-11": {
+            "lexicon_key": "1929-06-11"
+        },
+        "20378.5": {
+            "lexicon_key": "20378.5"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "418476000000.0",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "discovered",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1929-06-11",
+            "edge_properties": {
+                "lexicon_key": "discovered"
+            }
+        },
+        {
+            "edge_name": "rotationPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "20378.5",
+            "edge_properties": {
+                "lexicon_key": "rotationPeriod"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The asteroid 1147 Stavropolis discovered on the 11th of June 1929 with a rotation period of 20378.5 has apoapsis of 418476000000.0."
+        },
+        "Id2": {
+            "text": "The 1147 Stavropolis that was discovered on June 11, 1929, has a rotation period of 20378.5 and an apoapsis of 418476000000.0."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis is an asteroid, discovered on June 11, 1929, has an apoapsis of 418476000000.0 AU and a rotation period of 20378.5."
+        }
+    },
+    "gold_outputs": []
+}

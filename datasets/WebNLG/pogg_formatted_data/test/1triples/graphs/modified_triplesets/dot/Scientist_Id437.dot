@@ -1,0 +1,5 @@
+strict digraph {
+Turkey [lexicon_key=Turkey];
+"Prime Minister" [lexicon_key="Prime Minister"];
+Turkey -> "Prime Minister" [label=leaderTitle, lexicon_key=leaderTitle];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Anderson,_Indiana" [lexicon_key="Anderson,_Indiana"];
+Indiana [lexicon_key=Indiana];
+"Anderson,_Indiana" -> Indiana [label=isPartOf, lexicon_key=isPartOf];
+}

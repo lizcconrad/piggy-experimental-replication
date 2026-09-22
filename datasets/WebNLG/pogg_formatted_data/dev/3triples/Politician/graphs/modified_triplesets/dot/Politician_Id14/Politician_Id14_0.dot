@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+"Polish–Soviet_War" [lexicon_key="Polish–Soviet_War"];
+Adam_Koc -> "Polish–Soviet_War" [label=battle, lexicon_key=battle];
+}

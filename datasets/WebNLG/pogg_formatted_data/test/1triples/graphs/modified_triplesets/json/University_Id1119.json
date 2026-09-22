@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "9400": {
+            "lexicon_key": "9400"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfPostgraduateStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "9400",
+            "edge_properties": {
+                "lexicon_key": "numberOfPostgraduateStudents"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "There are 9400 postgraduate students attending the University of Burgundy."
+        },
+        "Id2": {
+            "text": "The University of Burgundy has 9400 post-graduate students."
+        },
+        "Id3": {
+            "text": "The University of Burgundy has 9400 postgraduate students."
+        }
+    },
+    "gold_outputs": []
+}

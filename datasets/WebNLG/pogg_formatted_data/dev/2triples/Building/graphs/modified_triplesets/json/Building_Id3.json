@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "20_Fenchurch_Street": {
-            "lexicon_key": "20_Fenchurch_Street"
+    "graphs": {
+        "Building_Id3_0": {
+            "nodes": {
+                "20_Fenchurch_Street": {
+                    "lexicon_key": "20_Fenchurch_Street"
+                },
+                "London": {
+                    "lexicon_key": "London"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "20_Fenchurch_Street",
+                    "child_node": "London",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "20 Fenchurch Street is located in London which is led by the European Parliament.",
+                "20 Fenchurch Street is located in London, which is currently led by the European Parliament.",
+                "20 Fenchurch Street is located in London, which is led via the European Parliament."
+            ]
         },
-        "London": {
-            "lexicon_key": "London"
-        },
-        "European_Parliament": {
-            "lexicon_key": "European_Parliament"
+        "Building_Id3_1": {
+            "nodes": {
+                "London": {
+                    "lexicon_key": "London"
+                },
+                "European_Parliament": {
+                    "lexicon_key": "European_Parliament"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leaderTitle",
+                    "parent_node": "London",
+                    "child_node": "European_Parliament",
+                    "edge_properties": {
+                        "lexicon_key": "leaderTitle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "20 Fenchurch Street is located in London which is led by the European Parliament.",
+                "20 Fenchurch Street is located in London, which is currently led by the European Parliament.",
+                "20 Fenchurch Street is located in London, which is led via the European Parliament."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "20_Fenchurch_Street",
-            "child_node": "London",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "leaderTitle",
-            "parent_node": "London",
-            "child_node": "European_Parliament",
-            "edge_properties": {
-                "lexicon_key": "leaderTitle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

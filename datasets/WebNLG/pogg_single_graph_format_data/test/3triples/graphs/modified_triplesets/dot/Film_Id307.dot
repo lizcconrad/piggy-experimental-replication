@@ -1,0 +1,9 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+Lionsgate [lexicon_key=Lionsgate];
+Justin_Whalin [lexicon_key="Justin_Whalin"];
+30955.0 [lexicon_key=30955.0];
+Super_Capers -> Lionsgate [label=distributor, lexicon_key=distributor];
+Super_Capers -> Justin_Whalin [label=starring, lexicon_key=starring];
+Super_Capers -> 30955.0 [label=gross, lexicon_key=gross];
+}

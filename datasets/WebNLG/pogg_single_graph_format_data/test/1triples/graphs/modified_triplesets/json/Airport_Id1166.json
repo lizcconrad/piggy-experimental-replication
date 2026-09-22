@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ICAO location identifier for Bedford Aerodrome is EGBF."
+        },
+        "Id2": {
+            "text": "Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF."
+        },
+        "Id3": {
+            "text": "The ICAO location identifier for the Bedford Aerodrome is EGBF."
+        }
+    },
+    "gold_outputs": []
+}

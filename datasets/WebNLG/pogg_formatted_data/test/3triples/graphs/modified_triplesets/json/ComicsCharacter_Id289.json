@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Bill_Oddie": {
+            "lexicon_key": "Bill_Oddie"
+        },
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "London": {
+            "lexicon_key": "London"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Bill_Oddie",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "BBC",
+            "child_node": "London",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bananaman starring Bill Oddie is broadcast by the BBC, which is located in London."
+        },
+        "Id2": {
+            "text": "The BBC, which is located in London, broadcasted Bananaman which starred Billie Oddie."
+        },
+        "Id3": {
+            "text": "Bananaman the TV series starring Bill Oddie was shown on the BBC and BBC is located in London."
+        }
+    },
+    "gold_outputs": []
+}

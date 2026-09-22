@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes is produced by The Velvet Underground."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was produced by The Velvet Underground."
+        },
+        "Id3": {
+            "text": "The producer of the album Bootleg Series Volume 1: The Quine Tapes was the Velvet Underground."
+        }
+    },
+    "gold_outputs": []
+}

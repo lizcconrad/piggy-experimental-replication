@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "Detroit": {
+            "lexicon_key": "Detroit"
+        },
+        "370.03": {
+            "lexicon_key": "370.03"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Detroit",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Detroit",
+            "child_node": "370.03",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous assembly line is in Detroit, which encompasses an area of 370.03 square kilometers."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous assembly line was in Detroit, which has total are of 370.03 square kilometers."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous was assembled in Detroit, which has a total area of 370.03 square kilometers."
+        }
+    },
+    "gold_outputs": []
+}

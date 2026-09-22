@@ -1,0 +1,5 @@
+strict digraph {
+"Arròs_negre" [lexicon_key="Arròs_negre"];
+Spain [lexicon_key=Spain];
+"Arròs_negre" -> Spain [label=country, lexicon_key=country];
+}

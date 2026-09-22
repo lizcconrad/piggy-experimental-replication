@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Cecil_Parker": {
+            "lexicon_key": "Cecil_Parker"
+        },
+        "Denham,_Buckinghamshire": {
+            "lexicon_key": "Denham,_Buckinghamshire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "John_Mills",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cecil_Parker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "John_Mills",
+            "child_node": "Denham,_Buckinghamshire",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Mills had a main role in the 1956 film It's Great to Be Young, starring alongside Cecil Parker. Mills died in Denham, Buckinghamshire."
+        },
+        "Id2": {
+            "text": "It's Great to Be Young (1956) is a movie starring Cecil Parker. It also stars John Mills, who later died in Denham, Buckinghamshire."
+        },
+        "Id3": {
+            "text": "John Mills and Cecil Parker played the leading roles in the movie 'It's Great to Be Young', released in 1956. J. Mills later died in Denham, Buckinghamshire."
+        }
+    },
+    "gold_outputs": []
+}

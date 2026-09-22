@@ -1,0 +1,7 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+"2000-01-01" [lexicon_key="2000-01-01"];
+Mobile_Applications [lexicon_key="Mobile_Applications"];
+GMA_New_Media -> "2000-01-01" [label=foundingDate, lexicon_key=foundingDate];
+GMA_New_Media -> Mobile_Applications [label=product, lexicon_key=product];
+}

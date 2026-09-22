@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Adam_Koc": {
-            "lexicon_key": "Adam_Koc"
+    "graphs": {
+        "Politician_Id14_0": {
+            "nodes": {
+                "Adam_Koc": {
+                    "lexicon_key": "Adam_Koc"
+                },
+                "Polish\u2013Soviet_War": {
+                    "lexicon_key": "Polish\u2013Soviet_War"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "battle",
+                    "parent_node": "Adam_Koc",
+                    "child_node": "Polish\u2013Soviet_War",
+                    "edge_properties": {
+                        "lexicon_key": "battle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Koc, who was born in Congress in Poland, fought in the Polish-Soviet War in which Leon Trotsky was a commander.",
+                "Leon Trotsky was a commander in the Polish-Soviet war in which Adam Koc was also involved. Koc was born in Congress, Poland."
+            ]
         },
-        "Polish\u2013Soviet_War": {
-            "lexicon_key": "Polish\u2013Soviet_War"
+        "Politician_Id14_1": {
+            "nodes": {
+                "Adam_Koc": {
+                    "lexicon_key": "Adam_Koc"
+                },
+                "Congress_Poland": {
+                    "lexicon_key": "Congress_Poland"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Adam_Koc",
+                    "child_node": "Congress_Poland",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Koc, who was born in Congress in Poland, fought in the Polish-Soviet War in which Leon Trotsky was a commander.",
+                "Leon Trotsky was a commander in the Polish-Soviet war in which Adam Koc was also involved. Koc was born in Congress, Poland."
+            ]
         },
-        "Congress_Poland": {
-            "lexicon_key": "Congress_Poland"
-        },
-        "Leon_Trotsky": {
-            "lexicon_key": "Leon_Trotsky"
+        "Politician_Id14_2": {
+            "nodes": {
+                "Polish\u2013Soviet_War": {
+                    "lexicon_key": "Polish\u2013Soviet_War"
+                },
+                "Leon_Trotsky": {
+                    "lexicon_key": "Leon_Trotsky"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "commander",
+                    "parent_node": "Polish\u2013Soviet_War",
+                    "child_node": "Leon_Trotsky",
+                    "edge_properties": {
+                        "lexicon_key": "commander"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Koc, who was born in Congress in Poland, fought in the Polish-Soviet War in which Leon Trotsky was a commander.",
+                "Leon Trotsky was a commander in the Polish-Soviet war in which Adam Koc was also involved. Koc was born in Congress, Poland."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "battle",
-            "parent_node": "Adam_Koc",
-            "child_node": "Polish\u2013Soviet_War",
-            "edge_properties": {
-                "lexicon_key": "battle"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Adam_Koc",
-            "child_node": "Congress_Poland",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "commander",
-            "parent_node": "Polish\u2013Soviet_War",
-            "child_node": "Leon_Trotsky",
-            "edge_properties": {
-                "lexicon_key": "commander"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

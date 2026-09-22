@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        },
+        "1911-01-01": {
+            "lexicon_key": "1911-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Terence_Rattigan",
+            "child_node": "1911-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Terence Rattigan was born on 01/01/1911."
+        },
+        "Id2": {
+            "text": "Terence Rattigan was born on January 1st, 1911."
+        },
+        "Id3": {
+            "text": "Terence Rattigan was born on the first of January in 1911."
+        }
+    },
+    "gold_outputs": []
+}

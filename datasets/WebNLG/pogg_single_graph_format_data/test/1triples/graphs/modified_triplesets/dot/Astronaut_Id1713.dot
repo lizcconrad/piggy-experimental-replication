@@ -1,0 +1,5 @@
+strict digraph {
+Nie_Haisheng [lexicon_key="Nie_Haisheng"];
+"1964-10-13" [lexicon_key="1964-10-13"];
+Nie_Haisheng -> "1964-10-13" [label=birthDate, lexicon_key=birthDate];
+}

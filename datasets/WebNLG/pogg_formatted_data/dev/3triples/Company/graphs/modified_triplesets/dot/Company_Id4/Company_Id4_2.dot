@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Quezon_City [lexicon_key="Quezon_City"];
+GMA_New_Media -> Quezon_City [label=location, lexicon_key=location];
+}

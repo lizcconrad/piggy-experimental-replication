@@ -1,0 +1,5 @@
+strict digraph {
+Christian_Panucci [lexicon_key="Christian_Panucci"];
+"Real_Madrid_C.F." [lexicon_key="Real_Madrid_C.F."];
+Christian_Panucci -> "Real_Madrid_C.F." [label=club, lexicon_key=club];
+}

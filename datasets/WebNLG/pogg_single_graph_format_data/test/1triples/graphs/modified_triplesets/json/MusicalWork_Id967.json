@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Reggae": {
+            "lexicon_key": "Reggae"
+        },
+        "Rhythm_and_Blues": {
+            "lexicon_key": "Rhythm_and_Blues"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Reggae",
+            "child_node": "Rhythm_and_Blues",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Reggae's stylistic origin is rhythm and blues."
+        },
+        "Id2": {
+            "text": "The stylistic origin of reggae is rhythm and blues."
+        },
+        "Id3": {
+            "text": "Reggae has its stylistic origin in rhythm and blues."
+        }
+    },
+    "gold_outputs": []
+}

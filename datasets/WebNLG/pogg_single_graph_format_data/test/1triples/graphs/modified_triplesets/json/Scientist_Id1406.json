@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "Eastern_European_Time": {
+            "lexicon_key": "Eastern_European_Time"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Istanbul",
+            "child_node": "Eastern_European_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The time zone of Istanbul is Eastern European time."
+        },
+        "Id2": {
+            "text": "Istanbul is in the Eastern European Time Zone."
+        },
+        "Id3": {
+            "text": "Istanbul's time zone is Eastern European Time."
+        }
+    },
+    "gold_outputs": []
+}

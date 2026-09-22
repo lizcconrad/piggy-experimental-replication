@@ -1,0 +1,7 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+"−6" [lexicon_key="−6"];
+Mexico [lexicon_key=Mexico];
+Ciudad_Ayala -> "−6" [label=utcOffset, lexicon_key=utcOffset];
+Ciudad_Ayala -> Mexico [label=country, lexicon_key=country];
+}

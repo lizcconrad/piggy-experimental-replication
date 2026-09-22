@@ -1,0 +1,5 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+George_Monson [lexicon_key="George_Monson"];
+Lady_Anne_Monson -> George_Monson [label=spouse, lexicon_key=spouse];
+}

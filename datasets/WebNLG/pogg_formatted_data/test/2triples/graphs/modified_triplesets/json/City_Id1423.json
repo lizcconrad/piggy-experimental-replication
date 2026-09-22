@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "\"President of the Senate\"": {
+            "lexicon_key": "\"President of the Senate\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Mexico",
+            "child_node": "\"President of the Senate\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is in the country of Mexico and the President of the Senate is the leader title in Mexico."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a city in Mexico, whose leader has the official title of President of the Senate."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is located in the country of Mexico led by \"President of the Senate\"."
+        }
+    },
+    "gold_outputs": []
+}

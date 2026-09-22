@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "103_Hera": {
-            "lexicon_key": "103_Hera"
+    "graphs": {
+        "CelestialBody_Id8_0": {
+            "nodes": {
+                "103_Hera": {
+                    "lexicon_key": "103_Hera"
+                },
+                "James_Craig_Watson": {
+                    "lexicon_key": "James_Craig_Watson"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "discoverer",
+                    "parent_node": "103_Hera",
+                    "child_node": "James_Craig_Watson",
+                    "edge_properties": {
+                        "lexicon_key": "discoverer"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "103 Hera was discovered by James Craig Watson, who came from Canada.",
+                "James Craig Watson, who comes from Canada, discovered 103 Hera.",
+                "James Craig Watson, who has his origins in Canada, discovered 103 Hera."
+            ]
         },
-        "James_Craig_Watson": {
-            "lexicon_key": "James_Craig_Watson"
-        },
-        "Canada": {
-            "lexicon_key": "Canada"
+        "CelestialBody_Id8_1": {
+            "nodes": {
+                "James_Craig_Watson": {
+                    "lexicon_key": "James_Craig_Watson"
+                },
+                "Canada": {
+                    "lexicon_key": "Canada"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "stateOfOrigin",
+                    "parent_node": "James_Craig_Watson",
+                    "child_node": "Canada",
+                    "edge_properties": {
+                        "lexicon_key": "stateOfOrigin"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "103 Hera was discovered by James Craig Watson, who came from Canada.",
+                "James Craig Watson, who comes from Canada, discovered 103 Hera.",
+                "James Craig Watson, who has his origins in Canada, discovered 103 Hera."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "discoverer",
-            "parent_node": "103_Hera",
-            "child_node": "James_Craig_Watson",
-            "edge_properties": {
-                "lexicon_key": "discoverer"
-            }
-        },
-        {
-            "edge_name": "stateOfOrigin",
-            "parent_node": "James_Craig_Watson",
-            "child_node": "Canada",
-            "edge_properties": {
-                "lexicon_key": "stateOfOrigin"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

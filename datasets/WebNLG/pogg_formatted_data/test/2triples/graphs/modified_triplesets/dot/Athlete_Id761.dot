@@ -1,0 +1,7 @@
+strict digraph {
+Piotr_Hallmann [lexicon_key="Piotr_Hallmann"];
+"1987-08-25" [lexicon_key="1987-08-25"];
+175.26 [lexicon_key=175.26];
+Piotr_Hallmann -> "1987-08-25" [label=birthDate, lexicon_key=birthDate];
+Piotr_Hallmann -> 175.26 [label=height, lexicon_key=height];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Cleveland [lexicon_key=Cleveland];
+"Frank_G._Jackson" [lexicon_key="Frank_G._Jackson"];
+Cleveland -> "Frank_G._Jackson" [label=leader, lexicon_key=leader];
+}

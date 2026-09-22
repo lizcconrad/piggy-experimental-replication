@@ -1,0 +1,5 @@
+strict digraph {
+"(410777)_2009_FD" [lexicon_key="(410777)_2009_FD"];
+88234300000.0 [lexicon_key=88234300000.0];
+"(410777)_2009_FD" -> 88234300000.0 [label=periapsis, lexicon_key=periapsis];
+}

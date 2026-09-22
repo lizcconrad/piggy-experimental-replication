@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "A.C._Lumezzane": {
-            "lexicon_key": "A.C._Lumezzane"
+    "graphs": {
+        "SportsTeam_Id3_0": {
+            "nodes": {
+                "A.C._Lumezzane": {
+                    "lexicon_key": "A.C._Lumezzane"
+                },
+                "\"Lega Pro/A\"": {
+                    "lexicon_key": "\"Lega Pro/A\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "A.C._Lumezzane",
+                    "child_node": "\"Lega Pro/A\"",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.C Lumezzane, with 4150 members, play in the Lega Pro/A, participating in the 2014 season.",
+                "AC Lumezzane has 4150 members and is in the Lega Pro/A league where they played in the 2014 season.",
+                "I am interested in the 2014 A.C. Lumezzane season. It plays in Lega Pro/A. and has 4150 members."
+            ]
         },
-        "\"Lega Pro/A\"": {
-            "lexicon_key": "\"Lega Pro/A\""
+        "SportsTeam_Id3_1": {
+            "nodes": {
+                "A.C._Lumezzane": {
+                    "lexicon_key": "A.C._Lumezzane"
+                },
+                "2014": {
+                    "lexicon_key": "2014"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "season",
+                    "parent_node": "A.C._Lumezzane",
+                    "child_node": "2014",
+                    "edge_properties": {
+                        "lexicon_key": "season"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.C Lumezzane, with 4150 members, play in the Lega Pro/A, participating in the 2014 season.",
+                "AC Lumezzane has 4150 members and is in the Lega Pro/A league where they played in the 2014 season.",
+                "I am interested in the 2014 A.C. Lumezzane season. It plays in Lega Pro/A. and has 4150 members."
+            ]
         },
-        "2014": {
-            "lexicon_key": "2014"
-        },
-        "4150": {
-            "lexicon_key": "4150"
+        "SportsTeam_Id3_2": {
+            "nodes": {
+                "A.C._Lumezzane": {
+                    "lexicon_key": "A.C._Lumezzane"
+                },
+                "4150": {
+                    "lexicon_key": "4150"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "numberOfMembers",
+                    "parent_node": "A.C._Lumezzane",
+                    "child_node": "4150",
+                    "edge_properties": {
+                        "lexicon_key": "numberOfMembers"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.C Lumezzane, with 4150 members, play in the Lega Pro/A, participating in the 2014 season.",
+                "AC Lumezzane has 4150 members and is in the Lega Pro/A league where they played in the 2014 season.",
+                "I am interested in the 2014 A.C. Lumezzane season. It plays in Lega Pro/A. and has 4150 members."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "league",
-            "parent_node": "A.C._Lumezzane",
-            "child_node": "\"Lega Pro/A\"",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        },
-        {
-            "edge_name": "season",
-            "parent_node": "A.C._Lumezzane",
-            "child_node": "2014",
-            "edge_properties": {
-                "lexicon_key": "season"
-            }
-        },
-        {
-            "edge_name": "numberOfMembers",
-            "parent_node": "A.C._Lumezzane",
-            "child_node": "4150",
-            "edge_properties": {
-                "lexicon_key": "numberOfMembers"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

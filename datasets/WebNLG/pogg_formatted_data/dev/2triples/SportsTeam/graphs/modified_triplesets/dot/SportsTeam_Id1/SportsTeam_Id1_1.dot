@@ -1,0 +1,5 @@
+strict digraph {
+Serie_B [lexicon_key="Serie_B"];
+"Carpi_F.C._1909" [lexicon_key="Carpi_F.C._1909"];
+Serie_B -> "Carpi_F.C._1909" [label=champions, lexicon_key=champions];
+}

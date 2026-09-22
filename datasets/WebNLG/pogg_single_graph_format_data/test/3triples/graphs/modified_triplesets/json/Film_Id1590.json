@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Tom_Simon": {
+            "lexicon_key": "Tom_Simon"
+        },
+        "Jamie_Lawrence": {
+            "lexicon_key": "Jamie_Lawrence"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Tom_Simon",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Tom_Simon",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Jamie_Lawrence",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Jamie Lawrence composed the music for the movie \"Death on a Factory Farm\", which was produced and directed by Tom Simon."
+        },
+        "Id2": {
+            "text": "The composer of the music created for \u201cDeath on a Factory Farm\u201d was Jamie Lawrence. Tom Simon both produced and directed it."
+        },
+        "Id3": {
+            "text": "Jamie Lawrence wrote the musical score for the film Death on a Factory Farm, which was directed by Tom Simon."
+        }
+    },
+    "gold_outputs": []
+}

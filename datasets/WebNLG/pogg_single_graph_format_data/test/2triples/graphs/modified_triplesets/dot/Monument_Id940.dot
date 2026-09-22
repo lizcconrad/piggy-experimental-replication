@@ -1,0 +1,7 @@
+strict digraph {
+"11th_Mississippi_Infantry_Monument" [lexicon_key="11th_Mississippi_Infantry_Monument"];
+2000 [lexicon_key=2000];
+"United States" [lexicon_key="United States"];
+"11th_Mississippi_Infantry_Monument" -> 2000 [label=established, lexicon_key=established];
+"11th_Mississippi_Infantry_Monument" -> "United States" [label=country, lexicon_key=country];
+}

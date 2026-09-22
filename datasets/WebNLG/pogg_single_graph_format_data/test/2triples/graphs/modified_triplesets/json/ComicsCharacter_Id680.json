@@ -1,0 +1,46 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "\"1986-04-15\"": {
+            "lexicon_key": "\"1986-04-15\""
+        },
+        "BBC": {
+            "lexicon_key": "BBC"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "lastAired",
+            "parent_node": "Bananaman",
+            "child_node": "\"1986-04-15\"",
+            "edge_properties": {
+                "lexicon_key": "lastAired"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bananaman last aired on April 15th 1986, on BBC."
+        },
+        "Id2": {
+            "text": "Broadcasted by the BBC, Bananaman was last aired on the 15th April 1986."
+        },
+        "Id3": {
+            "text": "Bananaman, the TV series, was last shown on the BBC, 15th April 1986."
+        },
+        "Id4": {
+            "text": "The BBC broadcasted Bananaman on April 15th 1986 for a last time."
+        }
+    },
+    "gold_outputs": []
+}

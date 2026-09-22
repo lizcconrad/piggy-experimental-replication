@@ -1,0 +1,9 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+General_relativity [lexicon_key="General_relativity"];
+Carter_constant [lexicon_key="Carter_constant"];
+"No-hair_theorem" [lexicon_key="No-hair_theorem"];
+Brandon_Carter -> General_relativity [label=professionalField, lexicon_key=professionalField];
+Brandon_Carter -> Carter_constant [label=knownFor, lexicon_key=knownFor];
+Brandon_Carter -> "No-hair_theorem" [label=knownFor, lexicon_key=knownFor];
+}

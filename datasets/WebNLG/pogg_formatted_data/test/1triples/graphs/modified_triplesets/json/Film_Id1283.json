@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Geof_Bartz": {
+            "lexicon_key": "Geof_Bartz"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editor",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Geof_Bartz",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Geof Bartz is the editor of the film Death on a Factory Farm."
+        },
+        "Id2": {
+            "text": "Death on a Factory Farm was edited by Geof Bartz."
+        },
+        "Id3": {
+            "text": "Geof Bartz is the editor of Death on a Factory Farm."
+        }
+    },
+    "gold_outputs": []
+}

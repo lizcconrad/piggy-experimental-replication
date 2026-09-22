@@ -1,0 +1,5 @@
+strict digraph {
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+"703.95 (square kilometres)" [lexicon_key="703.95 (square kilometres)"];
+"Austin,_Texas" -> "703.95 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+}

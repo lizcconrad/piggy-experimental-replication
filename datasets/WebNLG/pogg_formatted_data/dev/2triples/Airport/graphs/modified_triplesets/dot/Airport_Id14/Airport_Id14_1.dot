@@ -1,0 +1,5 @@
+strict digraph {
+Texas [lexicon_key=Texas];
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+Texas -> "Austin,_Texas" [label=capital, lexicon_key=capital];
+}

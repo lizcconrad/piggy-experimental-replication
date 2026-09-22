@@ -1,0 +1,5 @@
+strict digraph {
+"Live_at_Roadburn_2008_(Year_of_No_Light_album)" [lexicon_key="Live_at_Roadburn_2008_(Year_of_No_Light_album)"];
+Roadburn_Festival [lexicon_key="Roadburn_Festival"];
+"Live_at_Roadburn_2008_(Year_of_No_Light_album)" -> Roadburn_Festival [label=producer, lexicon_key=producer];
+}

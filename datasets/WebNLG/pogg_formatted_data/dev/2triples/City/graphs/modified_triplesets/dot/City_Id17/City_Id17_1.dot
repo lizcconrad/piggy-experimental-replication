@@ -1,0 +1,5 @@
+strict digraph {
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+City_Manager [lexicon_key="City_Manager"];
+"Austin,_Texas" -> City_Manager [label=leaderTitle, lexicon_key=leaderTitle];
+}

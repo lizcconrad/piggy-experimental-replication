@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+230.05 [lexicon_key=230.05];
+United_States [lexicon_key="United_States"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> The_Velvet_Underground [label=artist, lexicon_key=artist];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> 230.05 [label=runtime, lexicon_key=runtime];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> United_States [label=recordedIn, lexicon_key=recordedIn];
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Ace_Wilder": {
-            "lexicon_key": "Ace_Wilder"
+    "graphs": {
+        "Artist_Id9_0": {
+            "nodes": {
+                "Ace_Wilder": {
+                    "lexicon_key": "Ace_Wilder"
+                },
+                "Warner_Music_Group": {
+                    "lexicon_key": "Warner_Music_Group"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "recordLabel",
+                    "parent_node": "Ace_Wilder",
+                    "child_node": "Warner_Music_Group",
+                    "edge_properties": {
+                        "lexicon_key": "recordLabel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ace Wilder (of Sweden) is a solo singer and his record label is Warner Music Group.",
+                "Ace Wilder, born in Sweden, is a solo singer on the record label Warner Music group.",
+                "Sweden is the birthplace of Ace Wilder who has a background as a solo singer. Ace Wilder uses the record label Warner Music group."
+            ]
         },
-        "Warner_Music_Group": {
-            "lexicon_key": "Warner_Music_Group"
+        "Artist_Id9_1": {
+            "nodes": {
+                "Ace_Wilder": {
+                    "lexicon_key": "Ace_Wilder"
+                },
+                "Sweden": {
+                    "lexicon_key": "Sweden"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Ace_Wilder",
+                    "child_node": "Sweden",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ace Wilder (of Sweden) is a solo singer and his record label is Warner Music Group.",
+                "Ace Wilder, born in Sweden, is a solo singer on the record label Warner Music group.",
+                "Sweden is the birthplace of Ace Wilder who has a background as a solo singer. Ace Wilder uses the record label Warner Music group."
+            ]
         },
-        "Sweden": {
-            "lexicon_key": "Sweden"
-        },
-        "\"solo_singer\"": {
-            "lexicon_key": "\"solo_singer\""
+        "Artist_Id9_2": {
+            "nodes": {
+                "Ace_Wilder": {
+                    "lexicon_key": "Ace_Wilder"
+                },
+                "\"solo_singer\"": {
+                    "lexicon_key": "\"solo_singer\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "background",
+                    "parent_node": "Ace_Wilder",
+                    "child_node": "\"solo_singer\"",
+                    "edge_properties": {
+                        "lexicon_key": "background"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ace Wilder (of Sweden) is a solo singer and his record label is Warner Music Group.",
+                "Ace Wilder, born in Sweden, is a solo singer on the record label Warner Music group.",
+                "Sweden is the birthplace of Ace Wilder who has a background as a solo singer. Ace Wilder uses the record label Warner Music group."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "recordLabel",
-            "parent_node": "Ace_Wilder",
-            "child_node": "Warner_Music_Group",
-            "edge_properties": {
-                "lexicon_key": "recordLabel"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Ace_Wilder",
-            "child_node": "Sweden",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "background",
-            "parent_node": "Ace_Wilder",
-            "child_node": "\"solo_singer\"",
-            "edge_properties": {
-                "lexicon_key": "background"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

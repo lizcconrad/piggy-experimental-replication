@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+Order_of_Polonia_Restituta [lexicon_key="Order_of_Polonia_Restituta"];
+Adam_Koc -> Order_of_Polonia_Restituta [label=award, lexicon_key=award];
+}

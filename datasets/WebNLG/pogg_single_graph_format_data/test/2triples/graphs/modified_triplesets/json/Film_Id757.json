@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Sarah_Teale": {
+            "lexicon_key": "Sarah_Teale"
+        },
+        "83.0": {
+            "lexicon_key": "83.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Sarah_Teale",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "83.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Sarah Teale directed the movie Death on a Factory Farm which has a duration of 83 minutes."
+        },
+        "Id2": {
+            "text": "The film 'Death on a Factory Farm' was directed by Sarah Teale and is 83 minutes long."
+        },
+        "Id3": {
+            "text": "Death on a Factory Farm is directed by Sarah Teale and has a running time of 83.0."
+        }
+    },
+    "gold_outputs": []
+}

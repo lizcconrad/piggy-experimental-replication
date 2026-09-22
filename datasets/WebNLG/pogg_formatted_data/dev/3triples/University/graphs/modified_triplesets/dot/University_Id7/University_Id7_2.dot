@@ -1,0 +1,5 @@
+strict digraph {
+"1_Decembrie_1918_University" [lexicon_key="1_Decembrie_1918_University"];
+Romania [lexicon_key=Romania];
+"1_Decembrie_1918_University" -> Romania [label=country, lexicon_key=country];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "\"May 1950 - August 1956\"": {
+            "lexicon_key": "\"May 1950 - August 1956\""
+        },
+        "Four-stroke_engine": {
+            "lexicon_key": "Four-stroke_engine"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildDate",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "\"May 1950 - August 1956\"",
+            "edge_properties": {
+                "lexicon_key": "buildDate"
+            }
+        },
+        {
+            "edge_name": "engine",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Four-stroke_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ALCO RS-3 which is 17068.8 (millimetres) in length and has a four-stroke engine, was produced between May 1950 and August 1956."
+        },
+        "Id2": {
+            "text": "The ALCO RS-3 has a four-stroke engine, was produced between May 1950 and August 1956 and has the length of 17068.8 millimetres."
+        },
+        "Id3": {
+            "text": "The ALCO RS-3 has a four-stroke engine is 17068.8 millimetres in length and was produced between May 1950 and August 1956."
+        }
+    },
+    "gold_outputs": []
+}

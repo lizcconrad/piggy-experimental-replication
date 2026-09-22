@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "+2": {
+            "lexicon_key": "+2"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Istanbul",
+            "child_node": "+2",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Istanbul is located in the +2 UTC timezone."
+        },
+        "Id2": {
+            "text": "The UTC offset for Istanbul is +2."
+        }
+    },
+    "gold_outputs": []
+}

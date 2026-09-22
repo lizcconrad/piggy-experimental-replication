@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "Peter_Ogden": {
+            "lexicon_key": "Peter_Ogden"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "MotorSport_Vision",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "foundedBy",
+            "parent_node": "MotorSport_Vision",
+            "child_node": "Peter_Ogden",
+            "edge_properties": {
+                "lexicon_key": "foundedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Peter Ogden was the founder of MotorSport Vision which operates the Bedford Aerodrome."
+        },
+        "Id2": {
+            "text": "MotorSport Vision which was founded by Peter Ogden is the operating organisation for Bedford Aerodrome."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome has an operating organization called MotorSport Vision, which was founded by Peter Ogden."
+        }
+    },
+    "gold_outputs": []
+}

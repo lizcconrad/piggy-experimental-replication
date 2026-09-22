@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "Proto-punk": {
+            "lexicon_key": "Proto-punk"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "The_Velvet_Underground",
+            "child_node": "Proto-punk",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was created by The Velvet Underground, a proto-punk band."
+        },
+        "Id2": {
+            "text": "The Velvet Underground, a proto-punk band, released the album Bootleg Series Volume 1: The Quine Tapes."
+        },
+        "Id3": {
+            "text": "Proto-punk band, The Velvet Underground recorded the album Bootleg Series Volume 1: The Quine Tapes."
+        }
+    },
+    "gold_outputs": []
+}

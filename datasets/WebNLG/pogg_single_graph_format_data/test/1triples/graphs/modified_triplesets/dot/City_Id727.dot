@@ -1,0 +1,5 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+"−6" [lexicon_key="−6"];
+Ciudad_Ayala -> "−6" [label=utcOffset, lexicon_key=utcOffset];
+}

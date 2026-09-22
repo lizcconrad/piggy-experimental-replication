@@ -1,0 +1,5 @@
+strict digraph {
+Aenir [lexicon_key=Aenir];
+"Castle_(novel)" [lexicon_key="Castle_(novel)"];
+Aenir -> "Castle_(novel)" [label=precededBy, lexicon_key=precededBy];
+}

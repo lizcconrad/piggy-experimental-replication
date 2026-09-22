@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "Polydor_Records": {
+            "lexicon_key": "Polydor_Records"
+        },
+        "Universal_Music_Group": {
+            "lexicon_key": "Universal_Music_Group"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Squeeze_(The_Velvet_Underground_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Polydor_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Universal_Music_Group",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded through Polydor Records, released by the record label Universal Music Group, and preceded by the Velvet Underground album Squeeze."
+        },
+        "Id2": {
+            "text": "The Bootleg Series Volume 1: The Quine Tapes, which was preceded by the album Squeeze, was released by the record label Polydor Records and recorded under the Universal Music Group record label."
+        },
+        "Id3": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes, recorded under the Polydor Records record label and published by Universal Music Group, was preceded by Squeeze by The Velvet Underground."
+        }
+    },
+    "gold_outputs": []
+}

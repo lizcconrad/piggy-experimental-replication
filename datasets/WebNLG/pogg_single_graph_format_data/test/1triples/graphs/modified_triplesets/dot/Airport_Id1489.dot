@@ -1,0 +1,5 @@
+strict digraph {
+MotorSport_Vision [lexicon_key="MotorSport_Vision"];
+2004 [lexicon_key=2004];
+MotorSport_Vision -> 2004 [label=foundingYear, lexicon_key=foundingYear];
+}

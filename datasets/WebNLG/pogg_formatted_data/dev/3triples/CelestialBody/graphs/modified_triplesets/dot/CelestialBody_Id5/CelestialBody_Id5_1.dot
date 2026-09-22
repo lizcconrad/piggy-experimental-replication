@@ -1,0 +1,5 @@
+strict digraph {
+James_Craig_Watson [lexicon_key="James_Craig_Watson"];
+Canada [lexicon_key=Canada];
+James_Craig_Watson -> Canada [label=stateOfOrigin, lexicon_key=stateOfOrigin];
+}

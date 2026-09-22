@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Aleksandr_Chumakov": {
-            "lexicon_key": "Aleksandr_Chumakov"
+    "graphs": {
+        "Athlete_Id14_0": {
+            "nodes": {
+                "Aleksandr_Chumakov": {
+                    "lexicon_key": "Aleksandr_Chumakov"
+                },
+                "Russia": {
+                    "lexicon_key": "Russia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "deathPlace",
+                    "parent_node": "Aleksandr_Chumakov",
+                    "child_node": "Russia",
+                    "edge_properties": {
+                        "lexicon_key": "deathPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aleksandr Chumakov died in Russia where the leader is Vladimir Putin.",
+                "Aleksandr Chumakov died in Russia which is led by Vladimir Putin.",
+                "Aleksandr Chumakov died in Russia, where the leader is Vladimir Putin."
+            ]
         },
-        "Russia": {
-            "lexicon_key": "Russia"
-        },
-        "Vladimir_Putin": {
-            "lexicon_key": "Vladimir_Putin"
+        "Athlete_Id14_1": {
+            "nodes": {
+                "Russia": {
+                    "lexicon_key": "Russia"
+                },
+                "Vladimir_Putin": {
+                    "lexicon_key": "Vladimir_Putin"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Russia",
+                    "child_node": "Vladimir_Putin",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aleksandr Chumakov died in Russia where the leader is Vladimir Putin.",
+                "Aleksandr Chumakov died in Russia which is led by Vladimir Putin.",
+                "Aleksandr Chumakov died in Russia, where the leader is Vladimir Putin."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "deathPlace",
-            "parent_node": "Aleksandr_Chumakov",
-            "child_node": "Russia",
-            "edge_properties": {
-                "lexicon_key": "deathPlace"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Russia",
-            "child_node": "Vladimir_Putin",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

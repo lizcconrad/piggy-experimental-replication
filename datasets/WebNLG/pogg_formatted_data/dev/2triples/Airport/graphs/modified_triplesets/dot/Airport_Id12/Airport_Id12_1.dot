@@ -1,0 +1,5 @@
+strict digraph {
+Amsterdam_Airport_Schiphol [lexicon_key="Amsterdam_Airport_Schiphol"];
+Schiphol_Group [lexicon_key="Schiphol_Group"];
+Amsterdam_Airport_Schiphol -> Schiphol_Group [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+}

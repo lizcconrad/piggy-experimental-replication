@@ -1,0 +1,5 @@
+strict digraph {
+France [lexicon_key=France];
+Claude_Bartolone [lexicon_key="Claude_Bartolone"];
+France -> Claude_Bartolone [label=leader, lexicon_key=leader];
+}

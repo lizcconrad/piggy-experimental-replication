@@ -1,0 +1,5 @@
+strict digraph {
+Mexico [lexicon_key=Mexico];
+"President of the Chamber of Deputies" [lexicon_key="President of the Chamber of Deputies"];
+Mexico -> "President of the Chamber of Deputies" [label=leaderTitle, lexicon_key=leaderTitle];
+}

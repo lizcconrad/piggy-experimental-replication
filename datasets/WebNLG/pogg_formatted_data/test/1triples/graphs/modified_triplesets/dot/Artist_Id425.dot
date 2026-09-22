@@ -1,0 +1,5 @@
+strict digraph {
+German_Empire [lexicon_key="German_Empire"];
+South_German_gulden [lexicon_key="South_German_gulden"];
+German_Empire -> South_German_gulden [label=currency, lexicon_key=currency];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Polydor_Records [lexicon_key="Polydor_Records"];
+"Interscope_Geffen_A&M" [lexicon_key="Interscope_Geffen_A&M"];
+Polydor_Records -> "Interscope_Geffen_A&M" [label=distributingLabel, lexicon_key=distributingLabel];
+}

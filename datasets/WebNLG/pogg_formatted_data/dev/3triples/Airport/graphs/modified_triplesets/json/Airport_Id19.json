@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Ardmore_Airport_(New_Zealand)": {
-            "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+    "graphs": {
+        "Airport_Id19_0": {
+            "nodes": {
+                "Ardmore_Airport_(New_Zealand)": {
+                    "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+                },
+                "Poaceae": {
+                    "lexicon_key": "Poaceae"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "3rdRunwaySurfaceType",
+                    "parent_node": "Ardmore_Airport_(New_Zealand)",
+                    "child_node": "Poaceae",
+                    "edge_properties": {
+                        "lexicon_key": "3rdRunwaySurfaceType"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is of the order Poales and belongs to the division of flowering plants.",
+                "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is part of the Poales order and is in the division of flowering plants."
+            ]
         },
-        "Poaceae": {
-            "lexicon_key": "Poaceae"
+        "Airport_Id19_1": {
+            "nodes": {
+                "Poaceae": {
+                    "lexicon_key": "Poaceae"
+                },
+                "Flowering_plant": {
+                    "lexicon_key": "Flowering_plant"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "division",
+                    "parent_node": "Poaceae",
+                    "child_node": "Flowering_plant",
+                    "edge_properties": {
+                        "lexicon_key": "division"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is of the order Poales and belongs to the division of flowering plants.",
+                "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is part of the Poales order and is in the division of flowering plants."
+            ]
         },
-        "Flowering_plant": {
-            "lexicon_key": "Flowering_plant"
-        },
-        "Poales": {
-            "lexicon_key": "Poales"
+        "Airport_Id19_2": {
+            "nodes": {
+                "Poaceae": {
+                    "lexicon_key": "Poaceae"
+                },
+                "Poales": {
+                    "lexicon_key": "Poales"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "order",
+                    "parent_node": "Poaceae",
+                    "child_node": "Poales",
+                    "edge_properties": {
+                        "lexicon_key": "order"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is of the order Poales and belongs to the division of flowering plants.",
+                "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is part of the Poales order and is in the division of flowering plants."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "3rdRunwaySurfaceType",
-            "parent_node": "Ardmore_Airport_(New_Zealand)",
-            "child_node": "Poaceae",
-            "edge_properties": {
-                "lexicon_key": "3rdRunwaySurfaceType"
-            }
-        },
-        {
-            "edge_name": "division",
-            "parent_node": "Poaceae",
-            "child_node": "Flowering_plant",
-            "edge_properties": {
-                "lexicon_key": "division"
-            }
-        },
-        {
-            "edge_name": "order",
-            "parent_node": "Poaceae",
-            "child_node": "Poales",
-            "edge_properties": {
-                "lexicon_key": "order"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

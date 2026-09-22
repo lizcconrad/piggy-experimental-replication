@@ -1,0 +1,5 @@
+strict digraph {
+Akeem_Dent [lexicon_key="Akeem_Dent"];
+1987 [lexicon_key=1987];
+Akeem_Dent -> 1987 [label=birthYear, lexicon_key=birthYear];
+}

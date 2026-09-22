@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy resides in Turkey."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy currently takes residence in Turkey."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy resides currently in Turkey."
+        }
+    },
+    "gold_outputs": []
+}

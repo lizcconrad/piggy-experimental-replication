@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "5594": {
+            "lexicon_key": "5594"
+        },
+        "15100000000": {
+            "lexicon_key": "15100000000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfEmployees",
+            "parent_node": "Chinabank",
+            "child_node": "5594",
+            "edge_properties": {
+                "lexicon_key": "numberOfEmployees"
+            }
+        },
+        {
+            "edge_name": "netIncome",
+            "parent_node": "Chinabank",
+            "child_node": "15100000000",
+            "edge_properties": {
+                "lexicon_key": "netIncome"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The net income of Chinabank is 15,100,000,000, and they have 5594 workers total."
+        },
+        "Id2": {
+            "text": "Chinabank currently brings in a net income of 15100000000 thanks to the efforts of its 5594 employees."
+        },
+        "Id3": {
+            "text": "Chinabank brings in a net income of 15,100,000,000 with its 5594 employees."
+        }
+    },
+    "gold_outputs": []
+}

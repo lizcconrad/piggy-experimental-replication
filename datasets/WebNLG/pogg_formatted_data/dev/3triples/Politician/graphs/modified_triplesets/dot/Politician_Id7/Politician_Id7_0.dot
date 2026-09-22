@@ -1,0 +1,5 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Olusegun_Obasanjo [lexicon_key="Olusegun_Obasanjo"];
+Abdulsalami_Abubakar -> Olusegun_Obasanjo [label=successor, lexicon_key=successor];
+}

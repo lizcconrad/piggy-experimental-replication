@@ -1,0 +1,5 @@
+strict digraph {
+Aleksandre_Guruli [lexicon_key="Aleksandre_Guruli"];
+"AS_Lyon-Duchère" [lexicon_key="AS_Lyon-Duchère"];
+Aleksandre_Guruli -> "AS_Lyon-Duchère" [label=club, lexicon_key=club];
+}

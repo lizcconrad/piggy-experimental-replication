@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Danielle_Harris": {
+            "lexicon_key": "Danielle_Harris"
+        },
+        "Ray_Griggs_(director)": {
+            "lexicon_key": "Ray_Griggs_(director)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Danielle_Harris",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "director",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Super Capers, which is a movie written and directed by Ray Griggs, starred Danielle Harris."
+        },
+        "Id2": {
+            "text": "Written and directed by Ray Griggs, the main role in the movie Super Capers went to Danielle Harris."
+        },
+        "Id3": {
+            "text": "Danielle Harris is starring in Super Capers which was written and directed by Ray Griggs."
+        }
+    },
+    "gold_outputs": []
+}

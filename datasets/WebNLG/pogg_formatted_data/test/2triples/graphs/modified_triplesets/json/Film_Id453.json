@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Terence_Rattigan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears was written by Anatole de Grunwald and Terence Rattigan."
+        },
+        "Id2": {
+            "text": "Anatole de Grunwald and Terence Rattigan wrote English Without Tears."
+        },
+        "Id3": {
+            "text": "\"English Without Tears\" was written by Anatole de Grunwald and Terence Rattigan."
+        }
+    },
+    "gold_outputs": []
+}

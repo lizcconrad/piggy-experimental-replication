@@ -1,0 +1,5 @@
+strict digraph {
+Christian_Burns [lexicon_key="Christian_Burns"];
+House_music [lexicon_key="House_music"];
+Christian_Burns -> House_music [label=genre, lexicon_key=genre];
+}

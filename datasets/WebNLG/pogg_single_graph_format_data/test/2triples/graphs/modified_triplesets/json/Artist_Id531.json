@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Andrew_Rayel": {
+            "lexicon_key": "Andrew_Rayel"
+        },
+        "Trance_music": {
+            "lexicon_key": "Trance_music"
+        },
+        "Armin_van_Buuren": {
+            "lexicon_key": "Armin_van_Buuren"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Trance_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Armin_van_Buuren",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Andrew Rayel who performed the genre of Trance music is associated with the musical artist Armin van Buuren."
+        },
+        "Id2": {
+            "text": "Andrew Rayel, a trance musician, is associated with the musical artist Armin van Buuren."
+        },
+        "Id3": {
+            "text": "Andrew Rayel is associated with Armin van Buuren and his musical genre is Trance."
+        }
+    },
+    "gold_outputs": []
+}

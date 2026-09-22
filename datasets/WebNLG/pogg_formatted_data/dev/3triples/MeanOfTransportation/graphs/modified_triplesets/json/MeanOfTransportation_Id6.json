@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "ALV_X-1": {
-            "lexicon_key": "ALV_X-1"
+    "graphs": {
+        "MeanOfTransportation_Id6_0": {
+            "nodes": {
+                "ALV_X-1": {
+                    "lexicon_key": "ALV_X-1"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "countryOrigin",
+                    "parent_node": "ALV_X-1",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "countryOrigin"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "ALV X-1 comes from the US where Americans live and African Americans are an ethnic group.",
+                "Originating in the United States and by Americans, some of African decent is the ALV X-1.",
+                "The country of origin of the ALV X-1 is the United States, home to Americans and where African Americans are an ethnic group."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
+        "MeanOfTransportation_Id6_1": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "African_Americans": {
+                    "lexicon_key": "African_Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "United_States",
+                    "child_node": "African_Americans",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "ALV X-1 comes from the US where Americans live and African Americans are an ethnic group.",
+                "Originating in the United States and by Americans, some of African decent is the ALV X-1.",
+                "The country of origin of the ALV X-1 is the United States, home to Americans and where African Americans are an ethnic group."
+            ]
         },
-        "African_Americans": {
-            "lexicon_key": "African_Americans"
-        },
-        "Americans": {
-            "lexicon_key": "Americans"
+        "MeanOfTransportation_Id6_2": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Americans": {
+                    "lexicon_key": "Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "demonym",
+                    "parent_node": "United_States",
+                    "child_node": "Americans",
+                    "edge_properties": {
+                        "lexicon_key": "demonym"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "ALV X-1 comes from the US where Americans live and African Americans are an ethnic group.",
+                "Originating in the United States and by Americans, some of African decent is the ALV X-1.",
+                "The country of origin of the ALV X-1 is the United States, home to Americans and where African Americans are an ethnic group."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "countryOrigin",
-            "parent_node": "ALV_X-1",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "countryOrigin"
-            }
-        },
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "United_States",
-            "child_node": "African_Americans",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        },
-        {
-            "edge_name": "demonym",
-            "parent_node": "United_States",
-            "child_node": "Americans",
-            "edge_properties": {
-                "lexicon_key": "demonym"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

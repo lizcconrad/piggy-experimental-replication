@@ -1,0 +1,5 @@
+strict digraph {
+Alcobendas [lexicon_key=Alcobendas];
+Community_of_Madrid [lexicon_key="Community_of_Madrid"];
+Alcobendas -> Community_of_Madrid [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Cecil_Parker": {
+            "lexicon_key": "Cecil_Parker"
+        },
+        "1897": {
+            "lexicon_key": "1897"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cecil_Parker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Cecil_Parker",
+            "child_node": "1897",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Cecil Parker, born in 1897, stars in the 1956 film It's Great to be Young."
+        },
+        "Id2": {
+            "text": "Cecil Parker, who was born in 1897, starred in the 1956 movie It's Great to Be Young."
+        },
+        "Id3": {
+            "text": "It's Great to Be Young starred Cecil Parker, who was born in 1897."
+        }
+    },
+    "gold_outputs": []
+}

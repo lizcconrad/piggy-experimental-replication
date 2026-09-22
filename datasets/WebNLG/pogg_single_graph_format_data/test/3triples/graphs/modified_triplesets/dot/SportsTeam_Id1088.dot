@@ -1,0 +1,9 @@
+strict digraph {
+"Agremiação_Sportiva_Arapiraquense" [lexicon_key="Agremiação_Sportiva_Arapiraquense"];
+"Campeonato_Brasileiro_Série_C" [lexicon_key="Campeonato_Brasileiro_Série_C"];
+17000 [lexicon_key=17000];
+"''Alvinegro" [lexicon_key="''Alvinegro"];
+"Agremiação_Sportiva_Arapiraquense" -> "Campeonato_Brasileiro_Série_C" [label=league, lexicon_key=league];
+"Agremiação_Sportiva_Arapiraquense" -> 17000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+"Agremiação_Sportiva_Arapiraquense" -> "''Alvinegro" [label=nickname, lexicon_key=nickname];
+}

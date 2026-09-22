@@ -1,0 +1,5 @@
+strict digraph {
+Rock_music [lexicon_key="Rock_music"];
+"Proto-punk" [lexicon_key="Proto-punk"];
+Rock_music -> "Proto-punk" [label=musicSubgenre, lexicon_key=musicSubgenre];
+}

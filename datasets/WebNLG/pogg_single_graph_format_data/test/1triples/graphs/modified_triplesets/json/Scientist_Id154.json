@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Pranab_Mukherjee": {
+            "lexicon_key": "Pranab_Mukherjee"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "Pranab_Mukherjee",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Pranab Mukherjee was a leader of India."
+        },
+        "Id2": {
+            "text": "The leader of India is Pranab Mukherjee."
+        },
+        "Id3": {
+            "text": "Pranab Mukherjee is the leader of India."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idSign1Text": {
-            "lexicon_key": "idSign1Text",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idSign1Text_subgraph_0": {
+            "nodes": {
+                "idSign1Text": {
+                    "lexicon_key": "idSign1Text",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

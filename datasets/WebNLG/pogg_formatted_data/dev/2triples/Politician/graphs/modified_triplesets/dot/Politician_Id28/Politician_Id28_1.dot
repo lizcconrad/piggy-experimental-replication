@@ -1,0 +1,5 @@
+strict digraph {
+"Alfred_N._Phillips" [lexicon_key="Alfred_N._Phillips"];
+"Mayor_of_Stamford,_Connecticut" [lexicon_key="Mayor_of_Stamford,_Connecticut"];
+"Alfred_N._Phillips" -> "Mayor_of_Stamford,_Connecticut" [label=office, lexicon_key=office];
+}

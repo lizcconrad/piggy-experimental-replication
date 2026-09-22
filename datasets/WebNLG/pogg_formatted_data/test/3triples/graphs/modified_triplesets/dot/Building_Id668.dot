@@ -1,0 +1,9 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+Mason_School_of_Business [lexicon_key="Mason_School_of_Business"];
+"2009-06-01" [lexicon_key="2009-06-01"];
+"College_of_William_&_Mary" [lexicon_key="College_of_William_&_Mary"];
+"Alan_B._Miller_Hall" -> Mason_School_of_Business [label=currentTenants, lexicon_key=currentTenants];
+"Alan_B._Miller_Hall" -> "2009-06-01" [label=completionDate, lexicon_key=completionDate];
+"Alan_B._Miller_Hall" -> "College_of_William_&_Mary" [label=owner, lexicon_key=owner];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"It's_Great_to_Be_Young_(1956_film)" [lexicon_key="It's_Great_to_Be_Young_(1956_film)"];
+John_Mills [lexicon_key="John_Mills"];
+Cecil_Parker [lexicon_key="Cecil_Parker"];
+"Denham,_Buckinghamshire" [lexicon_key="Denham,_Buckinghamshire"];
+"It's_Great_to_Be_Young_(1956_film)" -> John_Mills [label=starring, lexicon_key=starring];
+"It's_Great_to_Be_Young_(1956_film)" -> Cecil_Parker [label=starring, lexicon_key=starring];
+John_Mills -> "Denham,_Buckinghamshire" [label=deathPlace, lexicon_key=deathPlace];
+}

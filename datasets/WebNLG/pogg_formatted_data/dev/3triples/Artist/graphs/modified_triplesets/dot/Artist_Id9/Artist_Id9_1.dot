@@ -1,0 +1,5 @@
+strict digraph {
+Ace_Wilder [lexicon_key="Ace_Wilder"];
+Sweden [lexicon_key=Sweden];
+Ace_Wilder -> Sweden [label=birthPlace, lexicon_key=birthPlace];
+}

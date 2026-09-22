@@ -1,0 +1,5 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+France [lexicon_key=France];
+Baked_Alaska -> France [label=country, lexicon_key=country];
+}

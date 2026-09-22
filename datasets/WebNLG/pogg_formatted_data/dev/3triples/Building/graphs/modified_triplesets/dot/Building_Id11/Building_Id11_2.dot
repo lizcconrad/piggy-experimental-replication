@@ -1,0 +1,5 @@
+strict digraph {
+Adare_Manor [lexicon_key="Adare_Manor"];
+"J._P._McManus" [lexicon_key="J._P._McManus"];
+Adare_Manor -> "J._P._McManus" [label=owner, lexicon_key=owner];
+}

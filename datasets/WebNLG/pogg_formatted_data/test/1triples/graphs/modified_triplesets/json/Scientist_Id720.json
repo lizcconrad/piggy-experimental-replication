@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "\"Olga Nikolaevna Bondareva\"": {
+            "lexicon_key": "\"Olga Nikolaevna Bondareva\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthName",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "\"Olga Nikolaevna Bondareva\"",
+            "edge_properties": {
+                "lexicon_key": "birthName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva was given the birth name \"Olga Nikolaevna Bondareva\"."
+        },
+        "Id2": {
+            "text": "Olga Bondareva's given name is Olga Nikolaevna Bondareva."
+        },
+        "Id3": {
+            "text": "Olga Bondareva's birth name was Olga Nikolaevna Bondareva."
+        }
+    },
+    "gold_outputs": []
+}

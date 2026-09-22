@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+        },
+        "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"": {
+            "lexicon_key": "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\""
+        },
+        "Azerbaijan": {
+            "lexicon_key": "Azerbaijan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nativeName",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"",
+            "edge_properties": {
+                "lexicon_key": "nativeName"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "Azerbaijan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Native name of the Baku Turkish Martyrs' Memorial is \"T\u00fcrk Sehitleri Aniti\" which is located in Azerbaijan."
+        },
+        "Id2": {
+            "text": "The native name of the Baku Turkish Martyrs' Memorial is Turk Sehitleri Aniti located in Azerbaijan."
+        },
+        "Id3": {
+            "text": "The native name for the Baku Turkish Martyrs' Memorial is Turk Sehitleri Aniti, which is located in Baku, Azerbaijan."
+        }
+    },
+    "gold_outputs": []
+}

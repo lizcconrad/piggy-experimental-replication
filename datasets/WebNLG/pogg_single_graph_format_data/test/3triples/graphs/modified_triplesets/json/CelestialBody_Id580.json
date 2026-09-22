@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "1929-06-11": {
+            "lexicon_key": "1929-06-11"
+        },
+        "20378.5": {
+            "lexicon_key": "20378.5"
+        },
+        "260855000000.0": {
+            "lexicon_key": "260855000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discovered",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "1929-06-11",
+            "edge_properties": {
+                "lexicon_key": "discovered"
+            }
+        },
+        {
+            "edge_name": "rotationPeriod",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "20378.5",
+            "edge_properties": {
+                "lexicon_key": "rotationPeriod"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "260855000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 1147 Stavropolis which was discovered on June 11, 1929, has a rotation period of 20378.5 and a periapsis of 260855000000.0."
+        },
+        "Id2": {
+            "text": "The 1147 Stavropolis asteroid which was discovered on June 11, 1929, has a rotation period of 20378.5 with a periapsis of 260855000000."
+        },
+        "Id3": {
+            "text": "An asteroid 1147 Stavropolis which was discovered on 11 June 1929 has a rotation period of 20378.5 and the periapsis of 260855000000.0."
+        }
+    },
+    "gold_outputs": []
+}

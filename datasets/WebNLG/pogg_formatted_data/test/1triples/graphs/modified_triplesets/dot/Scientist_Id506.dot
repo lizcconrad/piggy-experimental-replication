@@ -1,0 +1,5 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+324720797 [lexicon_key=324720797];
+United_States -> 324720797 [label=populationTotal, lexicon_key=populationTotal];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Deer [lexicon_key="Aaron_Deer"];
+Indie_rock [lexicon_key="Indie_rock"];
+Aaron_Deer -> Indie_rock [label=genre, lexicon_key=genre];
+}

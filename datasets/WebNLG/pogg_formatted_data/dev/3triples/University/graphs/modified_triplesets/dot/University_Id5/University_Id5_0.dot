@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+Mumbai [lexicon_key=Mumbai];
+India -> Mumbai [label=largestCity, lexicon_key=largestCity];
+}

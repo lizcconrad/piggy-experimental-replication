@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "Michigan": {
-            "lexicon_key": "Michigan"
+    "graphs": {
+        "City_Id20_0": {
+            "nodes": {
+                "Michigan": {
+                    "lexicon_key": "Michigan"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Michigan",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ann Arbor is part of Michigan in the United States.",
+                "Ann Arbor is part of Michigan, United States."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
-        },
-        "Ann_Arbor,_Michigan": {
-            "lexicon_key": "Ann_Arbor,_Michigan"
+        "City_Id20_1": {
+            "nodes": {
+                "Ann_Arbor,_Michigan": {
+                    "lexicon_key": "Ann_Arbor,_Michigan"
+                },
+                "Michigan": {
+                    "lexicon_key": "Michigan"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Ann_Arbor,_Michigan",
+                    "child_node": "Michigan",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ann Arbor is part of Michigan in the United States.",
+                "Ann Arbor is part of Michigan, United States."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Michigan",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Ann_Arbor,_Michigan",
-            "child_node": "Michigan",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

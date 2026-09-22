@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "Shenzhou_10": {
+            "lexicon_key": "Shenzhou_10"
+        },
+        "2013-029A": {
+            "lexicon_key": "2013-029A"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cosparId",
+            "parent_node": "Shenzhou_10",
+            "child_node": "2013-029A",
+            "edge_properties": {
+                "lexicon_key": "cosparId"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The COSPAR ID of Shenzhou 10 is 2013-029A."
+        }
+    },
+    "gold_outputs": []
+}

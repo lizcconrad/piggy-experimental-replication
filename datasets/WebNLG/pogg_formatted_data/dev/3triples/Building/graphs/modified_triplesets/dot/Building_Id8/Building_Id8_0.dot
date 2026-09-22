@@ -1,0 +1,5 @@
+strict digraph {
+"3Arena" [lexicon_key="3Arena"];
+Dublin [lexicon_key=Dublin];
+"3Arena" -> Dublin [label=location, lexicon_key=location];
+}

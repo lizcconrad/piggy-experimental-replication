@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Mobile_Applications": {
+            "lexicon_key": "Mobile_Applications"
+        },
+        "GMA_Network_Center": {
+            "lexicon_key": "GMA_Network_Center"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Mobile_Applications",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "GMA_New_Media",
+            "child_node": "GMA_Network_Center",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media, which is located in the GMA Network Center, makes mobile apps."
+        },
+        "Id2": {
+            "text": "GMA New Media is a company located inside GMA Network Center that offers products such as mobile applications."
+        },
+        "Id3": {
+            "text": "GMA New Media makes mobile applications. Their headquarters are located in the GMA Network Center."
+        }
+    },
+    "gold_outputs": []
+}

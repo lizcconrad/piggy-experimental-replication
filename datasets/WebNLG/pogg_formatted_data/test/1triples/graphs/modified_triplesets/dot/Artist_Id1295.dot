@@ -1,0 +1,5 @@
+strict digraph {
+Karlsruhe [lexicon_key=Karlsruhe];
+115.0 [lexicon_key=115.0];
+Karlsruhe -> 115.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

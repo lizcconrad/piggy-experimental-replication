@@ -1,0 +1,5 @@
+strict digraph {
+Bibbo_Bibbowski [lexicon_key="Bibbo_Bibbowski"];
+Marv_Wolfman [lexicon_key="Marv_Wolfman"];
+Bibbo_Bibbowski -> Marv_Wolfman [label=creator, lexicon_key=creator];
+}

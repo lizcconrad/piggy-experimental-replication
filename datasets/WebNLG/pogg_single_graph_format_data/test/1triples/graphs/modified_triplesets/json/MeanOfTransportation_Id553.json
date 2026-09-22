@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Detroit": {
+            "lexicon_key": "Detroit"
+        },
+        "Wayne_County,_Michigan": {
+            "lexicon_key": "Wayne_County,_Michigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Detroit",
+            "child_node": "Wayne_County,_Michigan",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The city of Detroit is in Wayne County, Michigan."
+        },
+        "Id2": {
+            "text": "Detroit is part of Wayne County, Michigan."
+        },
+        "Id3": {
+            "text": "The city of Detroit is located in Wayne County, Michigan."
+        }
+    },
+    "gold_outputs": []
+}

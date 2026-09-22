@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Squeeze_(The_Velvet_Underground_album)": {
+            "lexicon_key": "Squeeze_(The_Velvet_Underground_album)"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Squeeze_(The_Velvet_Underground_album)",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Velvet Underground album Squeeze is in the genre of rock music."
+        },
+        "Id2": {
+            "text": "The musical genre of the album Squeeze by the Velvet Underground is rock."
+        },
+        "Id3": {
+            "text": "Squeeze by the Velvet Underground is an album in the rock music genre."
+        }
+    },
+    "gold_outputs": []
+}

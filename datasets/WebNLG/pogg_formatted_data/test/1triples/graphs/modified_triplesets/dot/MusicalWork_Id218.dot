@@ -1,0 +1,5 @@
+strict digraph {
+Universal_Music_Group [lexicon_key="Universal_Music_Group"];
+Lucian_Grainge [lexicon_key="Lucian_Grainge"];
+Universal_Music_Group -> Lucian_Grainge [label=keyPerson, lexicon_key=keyPerson];
+}

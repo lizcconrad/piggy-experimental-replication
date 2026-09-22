@@ -1,0 +1,5 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+1095.0 [lexicon_key=1095.0];
+Bedford_Aerodrome -> 1095.0 [label=runwayLength, lexicon_key=runwayLength];
+}

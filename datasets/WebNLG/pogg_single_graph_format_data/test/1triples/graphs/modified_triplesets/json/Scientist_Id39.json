@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Andrzej_Piotr_Ruszczy\u0144ski": {
+            "lexicon_key": "Andrzej_Piotr_Ruszczy\u0144ski"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "influencedBy",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Andrzej_Piotr_Ruszczy\u0144ski",
+            "edge_properties": {
+                "lexicon_key": "influencedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva developed a theory influenced by Andrzej Piotr Ruszczy\u0144ski."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva was influenced by Andrzej Piotr Ruszczy\u0144ski."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva was influenced by Andrzej Piotr Ruszczynski."
+        }
+    },
+    "gold_outputs": []
+}

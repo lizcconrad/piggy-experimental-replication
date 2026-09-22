@@ -1,0 +1,5 @@
+strict digraph {
+Albuquerque_City_Council [lexicon_key="Albuquerque_City_Council"];
+"Richard_J._Berry" [lexicon_key="Richard_J._Berry"];
+Albuquerque_City_Council -> "Richard_J._Berry" [label=leader, lexicon_key=leader];
+}

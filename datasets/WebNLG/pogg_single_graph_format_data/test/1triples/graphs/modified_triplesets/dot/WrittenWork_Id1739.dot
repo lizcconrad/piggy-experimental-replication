@@ -1,0 +1,5 @@
+strict digraph {
+The_Hobbit [lexicon_key="The_Hobbit"];
+High_fantasy [lexicon_key="High_fantasy"];
+The_Hobbit -> High_fantasy [label=literaryGenre, lexicon_key=literaryGenre];
+}

@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Bakso": {
-            "lexicon_key": "Bakso"
-        },
-        "Vermicelli": {
-            "lexicon_key": "Vermicelli"
+    "graphs": {
+        "Food_Id14_0": {
+            "nodes": {
+                "Bakso": {
+                    "lexicon_key": "Bakso"
+                },
+                "Vermicelli": {
+                    "lexicon_key": "Vermicelli"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bakso",
+                    "child_node": "Vermicelli",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Vermicelli is an ingredient in Bakso.",
+                "Vermicelli is an ingredient of the dish Bakso.",
+                "Vermicelli is included in bakso."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bakso",
-            "child_node": "Vermicelli",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

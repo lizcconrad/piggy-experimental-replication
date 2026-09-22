@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Twilight_(band)": {
+            "lexicon_key": "Twilight_(band)"
+        },
+        "1995": {
+            "lexicon_key": "1995"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Twilight_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Aaron_Turner",
+            "child_node": "1995",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aaron Turner, who played with the band Twilight, started performing in 1995."
+        },
+        "Id2": {
+            "text": "Aaron Turner from the band Twilight started performing in 1995."
+        },
+        "Id3": {
+            "text": "Aaron Turner started performing in 1995 and played with the band Twilight."
+        }
+    },
+    "gold_outputs": []
+}

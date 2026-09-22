@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        },
+        "1994-06-14": {
+            "lexicon_key": "1994-06-14"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Karlsruhe",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1994-06-14",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born in Karlsruhe on May 2nd, 1908, and died on June 14th, 1994."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born in Karlsruhe on May 2nd, 1908 and died on June 14th, 1994."
+        }
+    },
+    "gold_outputs": []
+}

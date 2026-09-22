@@ -1,0 +1,5 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+RCA_Records [lexicon_key="RCA_Records"];
+Alfredo_Zitarrosa -> RCA_Records [label=recordLabel, lexicon_key=recordLabel];
+}

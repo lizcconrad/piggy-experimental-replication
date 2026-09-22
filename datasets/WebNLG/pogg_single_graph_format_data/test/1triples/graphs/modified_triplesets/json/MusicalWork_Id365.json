@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Post-metal": {
+            "lexicon_key": "Post-metal"
+        },
+        "Synthesizer": {
+            "lexicon_key": "Synthesizer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "instrument",
+            "parent_node": "Post-metal",
+            "child_node": "Synthesizer",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Post-metal music includes synthesizers among the instruments it uses."
+        },
+        "Id2": {
+            "text": "Post metal uses a synthesizer as an instrument."
+        },
+        "Id3": {
+            "text": "The synthesizer is an instrument of post-metal."
+        }
+    },
+    "gold_outputs": []
+}

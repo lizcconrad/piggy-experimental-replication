@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "(410777)_2009_FD": {
-            "lexicon_key": "(410777)_2009_FD"
+    "graphs": {
+        "CelestialBody_Id1_0": {
+            "nodes": {
+                "(410777)_2009_FD": {
+                    "lexicon_key": "(410777)_2009_FD"
+                },
+                "39447000.0": {
+                    "lexicon_key": "39447000.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "orbitalPeriod",
+                    "parent_node": "(410777)_2009_FD",
+                    "child_node": "39447000.0",
+                    "edge_properties": {
+                        "lexicon_key": "orbitalPeriod"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "(410777) 2009 FD, which was discovered by Spacewatch, has an orbital period of 39447000.0 and a periapsis of 88234300000.0.",
+                "Discovered by Spacewatch, (410777) 2009 FD has a periapsis of 88234300000.0, and an orbital period of 39447000.0.",
+                "The celestial body known as (410777) 2009 FD has an orbital period of 39447000, has a periapsis of 88234300000.0 and it was discovered by Spacewatch."
+            ]
         },
-        "39447000.0": {
-            "lexicon_key": "39447000.0"
+        "CelestialBody_Id1_1": {
+            "nodes": {
+                "(410777)_2009_FD": {
+                    "lexicon_key": "(410777)_2009_FD"
+                },
+                "88234300000.0": {
+                    "lexicon_key": "88234300000.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "periapsis",
+                    "parent_node": "(410777)_2009_FD",
+                    "child_node": "88234300000.0",
+                    "edge_properties": {
+                        "lexicon_key": "periapsis"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "(410777) 2009 FD, which was discovered by Spacewatch, has an orbital period of 39447000.0 and a periapsis of 88234300000.0.",
+                "Discovered by Spacewatch, (410777) 2009 FD has a periapsis of 88234300000.0, and an orbital period of 39447000.0.",
+                "The celestial body known as (410777) 2009 FD has an orbital period of 39447000, has a periapsis of 88234300000.0 and it was discovered by Spacewatch."
+            ]
         },
-        "88234300000.0": {
-            "lexicon_key": "88234300000.0"
-        },
-        "Spacewatch": {
-            "lexicon_key": "Spacewatch"
+        "CelestialBody_Id1_2": {
+            "nodes": {
+                "(410777)_2009_FD": {
+                    "lexicon_key": "(410777)_2009_FD"
+                },
+                "Spacewatch": {
+                    "lexicon_key": "Spacewatch"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "discoverer",
+                    "parent_node": "(410777)_2009_FD",
+                    "child_node": "Spacewatch",
+                    "edge_properties": {
+                        "lexicon_key": "discoverer"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "(410777) 2009 FD, which was discovered by Spacewatch, has an orbital period of 39447000.0 and a periapsis of 88234300000.0.",
+                "Discovered by Spacewatch, (410777) 2009 FD has a periapsis of 88234300000.0, and an orbital period of 39447000.0.",
+                "The celestial body known as (410777) 2009 FD has an orbital period of 39447000, has a periapsis of 88234300000.0 and it was discovered by Spacewatch."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "orbitalPeriod",
-            "parent_node": "(410777)_2009_FD",
-            "child_node": "39447000.0",
-            "edge_properties": {
-                "lexicon_key": "orbitalPeriod"
-            }
-        },
-        {
-            "edge_name": "periapsis",
-            "parent_node": "(410777)_2009_FD",
-            "child_node": "88234300000.0",
-            "edge_properties": {
-                "lexicon_key": "periapsis"
-            }
-        },
-        {
-            "edge_name": "discoverer",
-            "parent_node": "(410777)_2009_FD",
-            "child_node": "Spacewatch",
-            "edge_properties": {
-                "lexicon_key": "discoverer"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

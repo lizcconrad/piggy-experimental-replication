@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        },
+        "Itzik_Braverman": {
+            "lexicon_key": "Itzik_Braverman"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Petah_Tikva",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Petah_Tikva",
+            "child_node": "Itzik_Braverman",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina died in Petah Tikva, which is led by Itzik Braverman."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina died in Petah Tikva, where one of the leaders was called Itzik Braverman."
+        },
+        "Id3": {
+            "text": "One of the leaders of Petah Tikva, where Liselotte Grschebina died, is Itzik Braverman."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Steve_Bright": {
+            "lexicon_key": "Steve_Bright"
+        },
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "Tim_Brooke-Taylor": {
+            "lexicon_key": "Tim_Brooke-Taylor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bananaman",
+            "child_node": "Steve_Bright",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Tim_Brooke-Taylor",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bananaman, which was created by Steve Bright, is broadcast on BBC and starred Tim Brooke-Taylor."
+        },
+        "Id2": {
+            "text": "Bananaman is the TV series starring Tim Brooke-Taylor. It was shown on the BBC and was created by Steve Bright."
+        },
+        "Id3": {
+            "text": "Bananaman broadcasted in BBC was starred by Tim Brooke-Taylor and was created by Steve Bright."
+        }
+    },
+    "gold_outputs": []
+}

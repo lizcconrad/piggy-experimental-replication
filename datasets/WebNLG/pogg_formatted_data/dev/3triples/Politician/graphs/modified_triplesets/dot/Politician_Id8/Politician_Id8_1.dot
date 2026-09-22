@@ -1,0 +1,5 @@
+strict digraph {
+Abel_Caballero [lexicon_key="Abel_Caballero"];
+"Minister of Transport" [lexicon_key="Minister of Transport"];
+Abel_Caballero -> "Minister of Transport" [label=office, lexicon_key=office];
+}

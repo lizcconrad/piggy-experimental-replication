@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "John_Reith,_1st_Baron_Reith": {
+            "lexicon_key": "John_Reith,_1st_Baron_Reith"
+        },
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundedBy",
+            "parent_node": "BBC",
+            "child_node": "John_Reith,_1st_Baron_Reith",
+            "edge_properties": {
+                "lexicon_key": "foundedBy"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Reith, 1st Baron Reith, founded BBC, which broadcasted Bananaman."
+        },
+        "Id2": {
+            "text": "The BBC, which was founded by 1st Baron, John Reith, broadcasted Bananaman."
+        },
+        "Id3": {
+            "text": "The BBC, which showed Bananaman the TV series, was founded by John Reith, First Baron Reith."
+        }
+    },
+    "gold_outputs": []
+}

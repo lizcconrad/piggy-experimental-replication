@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Take_It_Off!": {
+            "lexicon_key": "Take_It_Off!"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Take_It_Off!",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Take it Off is from the genre of noise rock."
+        },
+        "Id2": {
+            "text": "Take It Off! is an EP in the noise rock genre."
+        },
+        "Id3": {
+            "text": "Take It Off! is in the noise rock genre."
+        }
+    },
+    "gold_outputs": []
+}

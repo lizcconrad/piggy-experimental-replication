@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Petah_Tikva",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Petah_Tikva",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina died in Petah Tikva, Israel."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina died in Petah Tikva, a city in Israel."
+        }
+    },
+    "gold_outputs": []
+}

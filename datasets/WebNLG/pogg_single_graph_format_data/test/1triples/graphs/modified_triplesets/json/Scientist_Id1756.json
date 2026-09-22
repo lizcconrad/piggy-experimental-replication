@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "3287590000000.0": {
+            "lexicon_key": "3287590000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "India",
+            "child_node": "3287590000000.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "India has a total area of 3287590000000.0."
+        },
+        "Id2": {
+            "text": "The total area of India is 3,287,590 square kilometers."
+        },
+        "Id3": {
+            "text": "The total area of India is 32875900000000."
+        }
+    },
+    "gold_outputs": []
+}

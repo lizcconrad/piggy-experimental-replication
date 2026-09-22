@@ -1,0 +1,5 @@
+strict digraph {
+Rhythm_and_blues [lexicon_key="Rhythm_and_blues"];
+Disco [lexicon_key=Disco];
+Rhythm_and_blues -> Disco [label=derivative, lexicon_key=derivative];
+}

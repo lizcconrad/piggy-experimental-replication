@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1777539": {
+            "lexicon_key": "1777539"
+        },
+        "\"City Manager\"": {
+            "lexicon_key": "\"City Manager\""
+        },
+        "Council-manager_government": {
+            "lexicon_key": "Council-manager_government"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationMetro",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1777539",
+            "edge_properties": {
+                "lexicon_key": "populationMetro"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\"City Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Council-manager_government",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala population in the metropolitan area is 1777539 and the leader title is City Manager. The government type in the city of Ciudad Ayala is council-manager."
+        },
+        "Id2": {
+            "text": "The population of the metropolitan are of Ciudad Ayala is 1,777,539. It uses a type of government called council-manager government and one of the leaders of Ciudad Ayala is the City manager."
+        },
+        "Id3": {
+            "text": "The government type of Ciudad Ayala is the council-manager government, one of the leaders is the city manager and the population of the metropolitan area is 1,777,539."
+        }
+    },
+    "gold_outputs": []
+}

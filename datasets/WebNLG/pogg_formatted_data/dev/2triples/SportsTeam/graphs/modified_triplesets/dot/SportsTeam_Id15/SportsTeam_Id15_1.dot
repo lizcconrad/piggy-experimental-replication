@@ -1,0 +1,5 @@
+strict digraph {
+Amsterdam [lexicon_key=Amsterdam];
+Eberhard_van_der_Laan [lexicon_key="Eberhard_van_der_Laan"];
+Amsterdam -> Eberhard_van_der_Laan [label=leader, lexicon_key=leader];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"1036_Ganymed" [lexicon_key="1036_Ganymed"];
+"611961000.0 (kilometres)" [lexicon_key="611961000.0 (kilometres)"];
+"1036_Ganymed" -> "611961000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

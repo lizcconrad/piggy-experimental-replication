@@ -1,0 +1,5 @@
+strict digraph {
+Atlas_II [lexicon_key="Atlas_II"];
+Lockheed_Martin [lexicon_key="Lockheed_Martin"];
+Atlas_II -> Lockheed_Martin [label=manufacturer, lexicon_key=manufacturer];
+}

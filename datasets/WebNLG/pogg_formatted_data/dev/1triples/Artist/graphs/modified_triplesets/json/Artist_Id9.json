@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Ace_Wilder": {
-            "lexicon_key": "Ace_Wilder"
-        },
-        "EMI_Records": {
-            "lexicon_key": "EMI_Records"
+    "graphs": {
+        "Artist_Id9_0": {
+            "nodes": {
+                "Ace_Wilder": {
+                    "lexicon_key": "Ace_Wilder"
+                },
+                "EMI_Records": {
+                    "lexicon_key": "EMI_Records"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "recordLabel",
+                    "parent_node": "Ace_Wilder",
+                    "child_node": "EMI_Records",
+                    "edge_properties": {
+                        "lexicon_key": "recordLabel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ace Wilder is signed to the record label EMI Records.",
+                "Ace Wilder was signed to EMI Records.",
+                "Ace Wilder' recording label is EMI records."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "recordLabel",
-            "parent_node": "Ace_Wilder",
-            "child_node": "EMI_Records",
-            "edge_properties": {
-                "lexicon_key": "recordLabel"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

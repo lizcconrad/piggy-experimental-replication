@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "Dennis_William_Sciama": {
+            "lexicon_key": "Dennis_William_Sciama"
+        },
+        "1942-01-01": {
+            "lexicon_key": "1942-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "doctoralAdvisor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Dennis_William_Sciama",
+            "edge_properties": {
+                "lexicon_key": "doctoralAdvisor"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Brandon_Carter",
+            "child_node": "1942-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter, who was born on 01-01-1942, goes to Dennis William Sciama for doctoral advice."
+        },
+        "Id2": {
+            "text": "Brandon Carter, born January 1st 1942, completed his doctorate under the guidance of his doctoral advisor Dennis William Sciama."
+        },
+        "Id3": {
+            "text": "Brandon Carter, born January 1, 1942, had Dennis William Sciama as his doctoral advisor."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes's genre is rock."
+        },
+        "Id2": {
+            "text": "The album Bootleg Series Volume 1: The Quine Tapes fits into the Rock music genre."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes are Rock music genre."
+        }
+    },
+    "gold_outputs": []
+}

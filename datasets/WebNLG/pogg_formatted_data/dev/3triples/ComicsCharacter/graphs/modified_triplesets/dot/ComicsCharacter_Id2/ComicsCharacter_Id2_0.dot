@@ -1,0 +1,5 @@
+strict digraph {
+BBC [lexicon_key=BBC];
+"Tony_Hall,_Baron_Hall_of_Birkenhead" [lexicon_key="Tony_Hall,_Baron_Hall_of_Birkenhead"];
+BBC -> "Tony_Hall,_Baron_Hall_of_Birkenhead" [label=keyPerson, lexicon_key=keyPerson];
+}

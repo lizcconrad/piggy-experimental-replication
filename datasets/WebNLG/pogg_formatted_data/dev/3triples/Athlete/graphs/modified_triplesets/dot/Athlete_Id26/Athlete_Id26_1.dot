@@ -1,0 +1,5 @@
+strict digraph {
+"Abner_(footballer)" [lexicon_key="Abner_(footballer)"];
+Real_Madrid_Castilla [lexicon_key="Real_Madrid_Castilla"];
+"Abner_(footballer)" -> Real_Madrid_Castilla [label=club, lexicon_key=club];
+}

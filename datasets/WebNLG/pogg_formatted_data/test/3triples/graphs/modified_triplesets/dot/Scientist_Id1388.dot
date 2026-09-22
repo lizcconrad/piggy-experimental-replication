@@ -1,0 +1,9 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+Saint_Petersburg [lexicon_key="Saint_Petersburg"];
+"1937-04-27" [lexicon_key="1937-04-27"];
+"Bondareva–Shapley_theorem" [lexicon_key="Bondareva–Shapley_theorem"];
+Olga_Bondareva -> Saint_Petersburg [label=deathPlace, lexicon_key=deathPlace];
+Olga_Bondareva -> "1937-04-27" [label=birthDate, lexicon_key=birthDate];
+Olga_Bondareva -> "Bondareva–Shapley_theorem" [label=knownFor, lexicon_key=knownFor];
+}

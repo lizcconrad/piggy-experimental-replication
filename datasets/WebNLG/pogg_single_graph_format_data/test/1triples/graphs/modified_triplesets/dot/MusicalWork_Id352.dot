@@ -1,0 +1,5 @@
+strict digraph {
+Noise_rock [lexicon_key="Noise_rock"];
+Noise_music [lexicon_key="Noise_music"];
+Noise_rock -> Noise_music [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

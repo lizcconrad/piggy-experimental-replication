@@ -1,0 +1,5 @@
+strict digraph {
+"A.S._Roma" [lexicon_key="A.S._Roma"];
+"Associazione Sportiva Roma S.p.A." [lexicon_key="Associazione Sportiva Roma S.p.A."];
+"A.S._Roma" -> "Associazione Sportiva Roma S.p.A." [label=fullName, lexicon_key=fullName];
+}

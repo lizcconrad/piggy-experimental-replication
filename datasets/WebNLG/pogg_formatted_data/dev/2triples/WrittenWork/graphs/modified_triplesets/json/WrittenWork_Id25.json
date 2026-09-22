@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "HIV": {
-            "lexicon_key": "HIV"
+    "graphs": {
+        "WrittenWork_Id25_0": {
+            "nodes": {
+                "HIV": {
+                    "lexicon_key": "HIV"
+                },
+                "Orthoretrovirinae": {
+                    "lexicon_key": "Orthoretrovirinae"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "family",
+                    "parent_node": "HIV",
+                    "child_node": "Orthoretrovirinae",
+                    "edge_properties": {
+                        "lexicon_key": "family"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIDS (journal) comes under the academic discipline HIV which belongs to the family Orthoretrovirinae.",
+                "AIDS (journal) comes under the academic discipline HIV which is part of the family of orthoretrovirinae.",
+                "The AIDS (journal) is the academic discipline of HIV, a disease part of the Orthoretrovirinae family."
+            ]
         },
-        "Orthoretrovirinae": {
-            "lexicon_key": "Orthoretrovirinae"
-        },
-        "AIDS_(journal)": {
-            "lexicon_key": "AIDS_(journal)"
+        "WrittenWork_Id25_1": {
+            "nodes": {
+                "AIDS_(journal)": {
+                    "lexicon_key": "AIDS_(journal)"
+                },
+                "HIV": {
+                    "lexicon_key": "HIV"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "academicDiscipline",
+                    "parent_node": "AIDS_(journal)",
+                    "child_node": "HIV",
+                    "edge_properties": {
+                        "lexicon_key": "academicDiscipline"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIDS (journal) comes under the academic discipline HIV which belongs to the family Orthoretrovirinae.",
+                "AIDS (journal) comes under the academic discipline HIV which is part of the family of orthoretrovirinae.",
+                "The AIDS (journal) is the academic discipline of HIV, a disease part of the Orthoretrovirinae family."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "family",
-            "parent_node": "HIV",
-            "child_node": "Orthoretrovirinae",
-            "edge_properties": {
-                "lexicon_key": "family"
-            }
-        },
-        {
-            "edge_name": "academicDiscipline",
-            "parent_node": "AIDS_(journal)",
-            "child_node": "HIV",
-            "edge_properties": {
-                "lexicon_key": "academicDiscipline"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

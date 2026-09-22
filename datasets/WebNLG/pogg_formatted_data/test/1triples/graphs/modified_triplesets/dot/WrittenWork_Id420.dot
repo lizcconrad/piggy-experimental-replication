@@ -1,0 +1,5 @@
+strict digraph {
+The_Hobbit [lexicon_key="The_Hobbit"];
+The_Lord_of_the_Rings [lexicon_key="The_Lord_of_the_Rings"];
+The_Hobbit -> The_Lord_of_the_Rings [label=followedBy, lexicon_key=followedBy];
+}

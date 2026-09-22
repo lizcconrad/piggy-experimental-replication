@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Adam_Holloway": {
-            "lexicon_key": "Adam_Holloway"
+    "graphs": {
+        "Politician_Id12_0": {
+            "nodes": {
+                "Adam_Holloway": {
+                    "lexicon_key": "Adam_Holloway"
+                },
+                "Conservative_Party_(UK)": {
+                    "lexicon_key": "Conservative_Party_(UK)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "party",
+                    "parent_node": "Adam_Holloway",
+                    "child_node": "Conservative_Party_(UK)",
+                    "edge_properties": {
+                        "lexicon_key": "party"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Holloway was born in Kent and his alma mater is Magdalene College, Cambridge. He is a member of the Conservative Party in the UK.",
+                "Adam Holloway, a member of the UK Conservative Party, was born in Kent and graduated from Magdalene College, Cambridge.",
+                "Kent born Adam Holloway, who studied at Magdalene College Cambridge, is a member of the UK Conservative Party."
+            ]
         },
-        "Conservative_Party_(UK)": {
-            "lexicon_key": "Conservative_Party_(UK)"
+        "Politician_Id12_1": {
+            "nodes": {
+                "Adam_Holloway": {
+                    "lexicon_key": "Adam_Holloway"
+                },
+                "Kent": {
+                    "lexicon_key": "Kent"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Adam_Holloway",
+                    "child_node": "Kent",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Holloway was born in Kent and his alma mater is Magdalene College, Cambridge. He is a member of the Conservative Party in the UK.",
+                "Adam Holloway, a member of the UK Conservative Party, was born in Kent and graduated from Magdalene College, Cambridge.",
+                "Kent born Adam Holloway, who studied at Magdalene College Cambridge, is a member of the UK Conservative Party."
+            ]
         },
-        "Kent": {
-            "lexicon_key": "Kent"
-        },
-        "Magdalene_College,_Cambridge": {
-            "lexicon_key": "Magdalene_College,_Cambridge"
+        "Politician_Id12_2": {
+            "nodes": {
+                "Adam_Holloway": {
+                    "lexicon_key": "Adam_Holloway"
+                },
+                "Magdalene_College,_Cambridge": {
+                    "lexicon_key": "Magdalene_College,_Cambridge"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "almaMater",
+                    "parent_node": "Adam_Holloway",
+                    "child_node": "Magdalene_College,_Cambridge",
+                    "edge_properties": {
+                        "lexicon_key": "almaMater"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Adam Holloway was born in Kent and his alma mater is Magdalene College, Cambridge. He is a member of the Conservative Party in the UK.",
+                "Adam Holloway, a member of the UK Conservative Party, was born in Kent and graduated from Magdalene College, Cambridge.",
+                "Kent born Adam Holloway, who studied at Magdalene College Cambridge, is a member of the UK Conservative Party."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "party",
-            "parent_node": "Adam_Holloway",
-            "child_node": "Conservative_Party_(UK)",
-            "edge_properties": {
-                "lexicon_key": "party"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Adam_Holloway",
-            "child_node": "Kent",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "almaMater",
-            "parent_node": "Adam_Holloway",
-            "child_node": "Magdalene_College,_Cambridge",
-            "edge_properties": {
-                "lexicon_key": "almaMater"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+"(66063)_1998_RO1" [lexicon_key="(66063)_1998_RO1"];
+"254989570.60815 (kilometres)" [lexicon_key="254989570.60815 (kilometres)"];
+"(66063)_1998_RO1" -> "254989570.60815 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

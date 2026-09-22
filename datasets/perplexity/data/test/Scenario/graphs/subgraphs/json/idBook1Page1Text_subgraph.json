@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idBook1Page1Text": {
-            "lexicon_key": "idBook1Page1Text",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the book page text"
-    ]
+    ],
+    "graphs": {
+        "idBook1Page1Text_subgraph_0": {
+            "nodes": {
+                "idBook1Page1Text": {
+                    "lexicon_key": "idBook1Page1Text",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the book page text"
+            ]
+        }
+    }
 }

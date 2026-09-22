@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "2009-06-01": {
+            "lexicon_key": "2009-06-01"
+        },
+        "Virginia": {
+            "lexicon_key": "Virginia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "completionDate",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "2009-06-01",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan B. Miller Hall in Virginia was completed on 1st June 2009."
+        },
+        "Id2": {
+            "text": "Alan B. Miller Hall, located in Virginia, was completed on June 1st, 2009."
+        },
+        "Id3": {
+            "text": "The Alan B. Miller Hall which is located in Virginia was completed on 1st June 2009."
+        }
+    },
+    "gold_outputs": []
+}

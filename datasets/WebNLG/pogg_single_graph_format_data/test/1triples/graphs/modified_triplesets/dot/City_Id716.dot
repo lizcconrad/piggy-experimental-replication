@@ -1,0 +1,5 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+"Council-manager_government" [lexicon_key="Council-manager_government"];
+Ciudad_Ayala -> "Council-manager_government" [label=governmentType, lexicon_key=governmentType];
+}

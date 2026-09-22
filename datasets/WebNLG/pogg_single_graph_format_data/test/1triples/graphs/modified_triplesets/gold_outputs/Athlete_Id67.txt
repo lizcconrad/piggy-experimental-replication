@@ -1,0 +1,3 @@
+Gdynia city in Poland has time zone of UTC +2 .
+Gdynia in Poland has a UTC (Coordinate Universal Time) offset of +2.
+Gdynia, Poland has a UTC of +02:00.

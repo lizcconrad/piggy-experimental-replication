@@ -1,0 +1,7 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+1997 [lexicon_key=1997];
+Coupe [lexicon_key=Coupe];
+Pontiac_Rageous -> 1997 [label=productionStartYear, lexicon_key=productionStartYear];
+Pontiac_Rageous -> Coupe [label=bodyStyle, lexicon_key=bodyStyle];
+}

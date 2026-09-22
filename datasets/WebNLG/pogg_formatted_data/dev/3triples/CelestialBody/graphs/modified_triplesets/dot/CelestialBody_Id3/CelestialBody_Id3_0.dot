@@ -1,0 +1,5 @@
+strict digraph {
+"(66391)_1999_KW4" [lexicon_key="(66391)_1999_KW4"];
+"37.16 (kilometrePerSeconds)" [lexicon_key="37.16 (kilometrePerSeconds)"];
+"(66391)_1999_KW4" -> "37.16 (kilometrePerSeconds)" [label=averageSpeed, lexicon_key=averageSpeed];
+}

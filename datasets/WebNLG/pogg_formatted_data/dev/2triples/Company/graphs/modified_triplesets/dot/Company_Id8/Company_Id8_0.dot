@@ -1,0 +1,5 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+Brazil [lexicon_key=Brazil];
+Hypermarcas -> Brazil [label=location, lexicon_key=location];
+}

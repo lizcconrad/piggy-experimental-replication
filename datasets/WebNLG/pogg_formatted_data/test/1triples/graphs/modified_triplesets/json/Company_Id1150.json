@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        },
+        "Mayor": {
+            "lexicon_key": "Mayor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "La_Crosse,_Wisconsin",
+            "child_node": "Mayor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "La Crosse, Wisconsin is governed by a mayor."
+        },
+        "Id2": {
+            "text": "The leader of La Crosse, Wisconsin is a Mayor."
+        },
+        "Id3": {
+            "text": "The leader in La Crosse is a mayor."
+        },
+        "Id4": {
+            "text": "Mayor is the title of the leader of La Crosse in Wisconsin."
+        }
+    },
+    "gold_outputs": []
+}

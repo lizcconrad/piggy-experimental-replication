@@ -1,0 +1,5 @@
+strict digraph {
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+Theatre_of_Eternal_Music [lexicon_key="Theatre_of_Eternal_Music"];
+The_Velvet_Underground -> Theatre_of_Eternal_Music [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

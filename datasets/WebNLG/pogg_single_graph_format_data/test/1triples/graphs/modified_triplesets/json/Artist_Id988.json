@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Petah_Tikva",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Petah Tikva is a city in Israel."
+        },
+        "Id2": {
+            "text": "Petah Tikva is in Israel."
+        },
+        "Id3": {
+            "text": "Petah Tikva is in the country of Israel."
+        }
+    },
+    "gold_outputs": []
+}

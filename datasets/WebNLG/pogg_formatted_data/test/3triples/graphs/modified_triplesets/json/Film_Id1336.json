@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "Bernard_Knowles": {
+            "lexicon_key": "Bernard_Knowles"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "cinematography",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Bernard_Knowles",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Anatole de Grunwald wrote and produced English Without Tears which had Bernard Knowles as the cinematographer."
+        },
+        "Id2": {
+            "text": "\"English Without Tears\" features cinematography by Bernard Knowles. It was produced and written by Anatole de Grunwald."
+        },
+        "Id3": {
+            "text": "English Without Tears is a film written and produced by Anatole de Grunwald. Bernard Knowles was in charge of the cinematography."
+        }
+    },
+    "gold_outputs": []
+}

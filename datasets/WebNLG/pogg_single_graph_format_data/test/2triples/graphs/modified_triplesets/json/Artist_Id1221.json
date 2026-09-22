@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Old_Man_Gloom": {
+            "lexicon_key": "Old_Man_Gloom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Old_Man_Gloom",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aaron Turner played for Old Man Gloom in Aaron Turner's black metal music."
+        },
+        "Id2": {
+            "text": "Aaron Turner is a Black metal musician who played for Old Man Gloom."
+        },
+        "Id3": {
+            "text": "Aaron Turner played for the band Old Man Gloom and is a performer of black metal."
+        }
+    },
+    "gold_outputs": []
+}

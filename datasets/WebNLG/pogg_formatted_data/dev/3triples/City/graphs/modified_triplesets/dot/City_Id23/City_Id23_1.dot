@@ -1,0 +1,5 @@
+strict digraph {
+"Abilene,_Texas" [lexicon_key="Abilene,_Texas"];
+"Taylor_County,_Texas" [lexicon_key="Taylor_County,_Texas"];
+"Abilene,_Texas" -> "Taylor_County,_Texas" [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Apollo_12 [lexicon_key="Apollo_12"];
+David_Scott [lexicon_key="David_Scott"];
+Apollo_12 -> David_Scott [label=commander, lexicon_key=commander];
+}

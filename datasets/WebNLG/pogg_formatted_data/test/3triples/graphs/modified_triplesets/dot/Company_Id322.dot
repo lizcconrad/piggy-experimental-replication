@@ -1,0 +1,9 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+"King_of_Prussia,_Pennsylvania" [lexicon_key="King_of_Prussia,_Pennsylvania"];
+United_States [lexicon_key="United_States"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+AmeriGas -> "King_of_Prussia,_Pennsylvania" [label=city, lexicon_key=city];
+AmeriGas -> United_States [label=country, lexicon_key=country];
+United_States -> "Washington,_D.C." [label=capital, lexicon_key=capital];
+}

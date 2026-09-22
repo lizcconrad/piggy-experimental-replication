@@ -1,0 +1,9 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+England [lexicon_key=England];
+University_of_Cambridge [lexicon_key="University_of_Cambridge"];
+Leszek_Borysiewicz [lexicon_key="Leszek_Borysiewicz"];
+Brandon_Carter -> England [label=birthPlace, lexicon_key=birthPlace];
+Brandon_Carter -> University_of_Cambridge [label=almaMater, lexicon_key=almaMater];
+University_of_Cambridge -> Leszek_Borysiewicz [label=viceChancellor, lexicon_key=viceChancellor];
+}

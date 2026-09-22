@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Sarah_Teale": {
+            "lexicon_key": "Sarah_Teale"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Sarah_Teale",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The director of the movie Death on a Factory Farm was Sarah Teale."
+        },
+        "Id2": {
+            "text": "Death on a Factory Farm is directed by Sarah Teale."
+        },
+        "Id3": {
+            "text": "Sarah Teale directed Death on a Factory Farm."
+        }
+    },
+    "gold_outputs": []
+}

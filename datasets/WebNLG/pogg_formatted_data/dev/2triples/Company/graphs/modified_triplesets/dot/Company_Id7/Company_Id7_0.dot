@@ -1,0 +1,5 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+CEO [lexicon_key=CEO];
+Hypermarcas -> CEO [label=keyPerson, lexicon_key=keyPerson];
+}

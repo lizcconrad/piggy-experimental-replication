@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "Recep_Tayyip_Erdo\u011fan": {
+            "lexicon_key": "Recep_Tayyip_Erdo\u011fan"
+        },
+        "Binali_Y\u0131ld\u0131r\u0131m": {
+            "lexicon_key": "Binali_Y\u0131ld\u0131r\u0131m"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Turkey",
+            "child_node": "Recep_Tayyip_Erdo\u011fan",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Turkey",
+            "child_node": "Binali_Y\u0131ld\u0131r\u0131m",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy was born in Turkey. Binali Y\u0131ld\u0131r\u0131m was former Prime Minister of Turkey under current president Recep Tayyip Erdo\u011fan."
+        },
+        "Id2": {
+            "text": "Turkey, led by Recep Tayyip Erdo\u011fan and Binali Yildirim, is where Nurhan Atasoy was born ."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy was born in Turkey where the current leaders include Recep Tayyip Erdo\u011fan and Binali Yildirim."
+        }
+    },
+    "gold_outputs": []
+}

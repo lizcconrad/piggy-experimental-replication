@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "1989-02-24": {
+            "lexicon_key": "1989-02-24"
+        },
+        "FC_Terek_Grozny": {
+            "lexicon_key": "FC_Terek_Grozny"
+        },
+        "Grozny": {
+            "lexicon_key": "Grozny"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "1989-02-24",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "FC_Terek_Grozny",
+            "child_node": "Grozny",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Terek_Grozny",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Aleksandr Prudnikov, who was born on 1989-02-24, plays for FC Terek Grozny who have their ground at Grozny."
+        },
+        "Id2": {
+            "text": "Aleksandr Prudnikov (born 1989-02-24) is in the FC Terek Grozny club. Their ground is based in Grozny."
+        },
+        "Id3": {
+            "text": "Aleksandr Prudnikov was born on 24th February 1989 and he played for FC Terek Grozny. The team\u2019s ground is located in Grozny."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idCaptain1": {
-            "lexicon_key": "idCaptain",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the captain"
-    ]
+    ],
+    "graphs": {
+        "idCaptain1_subgraph_0": {
+            "nodes": {
+                "idCaptain1": {
+                    "lexicon_key": "idCaptain",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the captain"
+            ]
+        }
+    }
 }

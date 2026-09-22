@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+Poland [lexicon_key=Poland];
+Adam_Koc -> Poland [label=nationality, lexicon_key=nationality];
+}

@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Albany,_Oregon": {
-            "lexicon_key": "Albany,_Oregon"
-        },
-        "45.97 (square kilometres)": {
-            "lexicon_key": "45.97 (square kilometres)"
+    "graphs": {
+        "City_Id4_0": {
+            "nodes": {
+                "Albany,_Oregon": {
+                    "lexicon_key": "Albany,_Oregon"
+                },
+                "45.97 (square kilometres)": {
+                    "lexicon_key": "45.97 (square kilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "areaTotal",
+                    "parent_node": "Albany,_Oregon",
+                    "child_node": "45.97 (square kilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "areaTotal"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany, Oregon has a total area of 45.97 square kilometres.",
+                "The total area of Albany Oregon is 45.97 Sq K.",
+                "The total area of Albany, Oregon is 45.97 sq kms."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "areaTotal",
-            "parent_node": "Albany,_Oregon",
-            "child_node": "45.97 (square kilometres)",
-            "edge_properties": {
-                "lexicon_key": "areaTotal"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

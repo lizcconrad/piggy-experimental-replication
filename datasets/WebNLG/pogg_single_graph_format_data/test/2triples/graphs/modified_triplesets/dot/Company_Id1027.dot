@@ -1,0 +1,7 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+Brazil [lexicon_key=Brazil];
+Pharmaceuticals [lexicon_key=Pharmaceuticals];
+Hypermarcas -> Brazil [label=location, lexicon_key=location];
+Hypermarcas -> Pharmaceuticals [label=industry, lexicon_key=industry];
+}

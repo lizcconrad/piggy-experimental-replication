@@ -1,0 +1,7 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+Michigan [lexicon_key=Michigan];
+Coupe [lexicon_key=Coupe];
+Pontiac_Rageous -> Michigan [label=assembly, lexicon_key=assembly];
+Pontiac_Rageous -> Coupe [label=bodyStyle, lexicon_key=bodyStyle];
+}

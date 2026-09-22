@@ -1,0 +1,5 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+Philippines [lexicon_key=Philippines];
+Chinabank -> Philippines [label=location, lexicon_key=location];
+}

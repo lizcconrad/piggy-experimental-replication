@@ -1,0 +1,5 @@
+strict digraph {
+Alternative_rock [lexicon_key="Alternative_rock"];
+Nu_metal [lexicon_key="Nu_metal"];
+Alternative_rock -> Nu_metal [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

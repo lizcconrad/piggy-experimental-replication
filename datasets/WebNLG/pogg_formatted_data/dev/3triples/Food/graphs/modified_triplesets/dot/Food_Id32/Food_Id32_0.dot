@@ -1,0 +1,5 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Mexico [lexicon_key=Mexico];
+Bionico -> Mexico [label=country, lexicon_key=country];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Sour_cream [lexicon_key="Sour_cream"];
+Bionico -> Sour_cream [label=ingredient, lexicon_key=ingredient];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"101 Ukrop Way" [lexicon_key="101 Ukrop Way"];
+"Alan_B._Miller_Hall" -> "101 Ukrop Way" [label=address, lexicon_key=address];
+}

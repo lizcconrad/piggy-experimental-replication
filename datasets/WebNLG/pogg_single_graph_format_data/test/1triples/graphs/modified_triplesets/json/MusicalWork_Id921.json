@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Pop_rock": {
+            "lexicon_key": "Pop_rock"
+        },
+        "Indie_pop": {
+            "lexicon_key": "Indie_pop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Pop_rock",
+            "child_node": "Indie_pop",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Pop rock's subgenre is indie pop."
+        },
+        "Id2": {
+            "text": "Indie pop is a music subgenre of pop rock."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Arròs_negre" [lexicon_key="Arròs_negre"];
+Valencian_Community [lexicon_key="Valencian_Community"];
+"Arròs_negre" -> Valencian_Community [label=region, lexicon_key=region];
+}

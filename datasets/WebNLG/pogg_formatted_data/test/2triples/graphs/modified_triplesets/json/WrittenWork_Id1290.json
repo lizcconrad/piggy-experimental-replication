@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Eric_Flint": {
+            "lexicon_key": "Eric_Flint"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "Eric_Flint",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1634: The Bavarian Crisis was written in English by Eric Flint."
+        },
+        "Id2": {
+            "text": "1634: The Bavarian Crisis, written by Eric Flint, is in English."
+        },
+        "Id3": {
+            "text": "1634: The Bavarian Crisis was written, in English, by Eric Flint."
+        }
+    },
+    "gold_outputs": []
+}

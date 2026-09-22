@@ -1,0 +1,5 @@
+strict digraph {
+"King_County,_Washington" [lexicon_key="King_County,_Washington"];
+United_States [lexicon_key="United_States"];
+"King_County,_Washington" -> United_States [label=country, lexicon_key=country];
+}

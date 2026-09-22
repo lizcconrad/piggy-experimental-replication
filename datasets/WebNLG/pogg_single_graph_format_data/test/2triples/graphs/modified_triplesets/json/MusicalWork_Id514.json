@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Brian_Kelly_(composer_&_pianist)": {
+            "lexicon_key": "Brian_Kelly_(composer_&_pianist)"
+        },
+        "Instrumental_music": {
+            "lexicon_key": "Instrumental_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Brian_Kelly_(composer_&_pianist)",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Instrumental_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brian Kelly produced an instrumental album titled Expect A Miracle."
+        },
+        "Id2": {
+            "text": "Expect a Miracle is an instrumental music piece produced by Brian Kelly."
+        },
+        "Id3": {
+            "text": "Expect a Miracle is produced in the instrumental music genre by Brian Kelly."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Anderson,_Indiana" [lexicon_key="Anderson,_Indiana"];
+"Fall_Creek_Township,_Madison_County,_Indiana" [lexicon_key="Fall_Creek_Township,_Madison_County,_Indiana"];
+"Anderson,_Indiana" -> "Fall_Creek_Township,_Madison_County,_Indiana" [label=isPartOf, lexicon_key=isPartOf];
+}

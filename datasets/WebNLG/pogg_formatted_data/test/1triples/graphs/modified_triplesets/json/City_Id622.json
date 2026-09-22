@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1777539": {
+            "lexicon_key": "1777539"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationMetro",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1777539",
+            "edge_properties": {
+                "lexicon_key": "populationMetro"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The population in the Ciudad Ayala metropolitan area is 1777539."
+        },
+        "Id2": {
+            "text": "The population of the metropolitan area of Ciudad Ayala is 1,777,539."
+        }
+    },
+    "gold_outputs": []
+}

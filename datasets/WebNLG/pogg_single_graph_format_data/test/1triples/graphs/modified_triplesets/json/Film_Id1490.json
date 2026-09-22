@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Max_Benedict": {
+            "lexicon_key": "Max_Benedict"
+        },
+        "1947-01-01": {
+            "lexicon_key": "1947-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Max_Benedict",
+            "child_node": "1947-01-01",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Max Benedict began his career in 1947."
+        },
+        "Id2": {
+            "text": "Max Benedict started his professional activities from the year 1947."
+        },
+        "Id3": {
+            "text": "Max Benedict has been active professionally since 1947."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+Economics [lexicon_key=Economics];
+Mathematics [lexicon_key=Mathematics];
+Olga_Bondareva -> Economics [label=professionalField, lexicon_key=professionalField];
+Olga_Bondareva -> Mathematics [label=professionalField, lexicon_key=professionalField];
+}

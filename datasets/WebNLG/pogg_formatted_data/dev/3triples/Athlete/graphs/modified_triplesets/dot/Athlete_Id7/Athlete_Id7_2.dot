@@ -1,0 +1,5 @@
+strict digraph {
+Akeem_Ayers [lexicon_key="Akeem_Ayers"];
+"39" [lexicon_key="39"];
+Akeem_Ayers -> "39" [label=draftPick, lexicon_key=draftPick];
+}

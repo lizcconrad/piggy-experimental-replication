@@ -1,0 +1,5 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+Crucial_Blast [lexicon_key="Crucial_Blast"];
+"Nord_(Year_of_No_Light_album)" -> Crucial_Blast [label=recordLabel, lexicon_key=recordLabel];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+"La_Crosse_County,_Wisconsin" [lexicon_key="La_Crosse_County,_Wisconsin"];
+"La_Crosse,_Wisconsin" -> "La_Crosse_County,_Wisconsin" [label=isPartOf, lexicon_key=isPartOf];
+}

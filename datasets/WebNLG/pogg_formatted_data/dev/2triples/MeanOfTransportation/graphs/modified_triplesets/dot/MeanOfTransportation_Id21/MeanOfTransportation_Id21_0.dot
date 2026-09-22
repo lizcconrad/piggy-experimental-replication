@@ -1,0 +1,5 @@
+strict digraph {
+"Antares_(rocket)" [lexicon_key="Antares_(rocket)"];
+"2014-01-09" [lexicon_key="2014-01-09"];
+"Antares_(rocket)" -> "2014-01-09" [label=maidenFlight, lexicon_key=maidenFlight];
+}

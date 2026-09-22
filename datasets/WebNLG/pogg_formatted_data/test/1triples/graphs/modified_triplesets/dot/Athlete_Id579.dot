@@ -1,0 +1,5 @@
+strict digraph {
+"Gdynia,_Poland" [lexicon_key="Gdynia,_Poland"];
+Central_European_Time [lexicon_key="Central_European_Time"];
+"Gdynia,_Poland" -> Central_European_Time [label=timeZone, lexicon_key=timeZone];
+}

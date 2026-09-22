@@ -1,0 +1,5 @@
+strict digraph {
+Bakewell_pudding [lexicon_key="Bakewell_pudding"];
+"Rutland Arms, Bakewell, in 1820" [lexicon_key="Rutland Arms, Bakewell, in 1820"];
+Bakewell_pudding -> "Rutland Arms, Bakewell, in 1820" [label=creator, lexicon_key=creator];
+}

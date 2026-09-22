@@ -1,0 +1,5 @@
+strict digraph {
+Adare_Manor [lexicon_key="Adare_Manor"];
+1862 [lexicon_key=1862];
+Adare_Manor -> 1862 [label=completionDate, lexicon_key=completionDate];
+}

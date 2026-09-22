@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "Denham,_Buckinghamshire": {
+            "lexicon_key": "Denham,_Buckinghamshire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "John_Mills",
+            "child_node": "Denham,_Buckinghamshire",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The deathplace of John Mills was in Denham, Buckinghamshire."
+        },
+        "Id2": {
+            "text": "John Mills died in Denham, Buckinghamshire."
+        }
+    },
+    "gold_outputs": []
+}

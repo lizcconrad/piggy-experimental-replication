@@ -1,0 +1,5 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+Morelos [lexicon_key=Morelos];
+Ciudad_Ayala -> Morelos [label=isPartOf, lexicon_key=isPartOf];
+}

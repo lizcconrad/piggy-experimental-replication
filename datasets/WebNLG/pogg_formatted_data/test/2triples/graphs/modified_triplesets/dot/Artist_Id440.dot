@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Israel [lexicon_key=Israel];
+Modern_Hebrew [lexicon_key="Modern_Hebrew"];
+Liselotte_Grschebina -> Israel [label=deathPlace, lexicon_key=deathPlace];
+Israel -> Modern_Hebrew [label=officialLanguage, lexicon_key=officialLanguage];
+}

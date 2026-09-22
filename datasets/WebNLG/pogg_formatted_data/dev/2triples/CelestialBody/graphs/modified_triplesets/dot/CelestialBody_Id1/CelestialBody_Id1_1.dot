@@ -1,0 +1,5 @@
+strict digraph {
+"(410777)_2009_FD" [lexicon_key="(410777)_2009_FD"];
+"211.0 (kelvins)" [lexicon_key="211.0 (kelvins)"];
+"(410777)_2009_FD" -> "211.0 (kelvins)" [label=minimumTemperature, lexicon_key=minimumTemperature];
+}

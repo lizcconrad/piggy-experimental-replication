@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "2000-01-01": {
+            "lexicon_key": "2000-01-01"
+        },
+        "Mobile_Applications": {
+            "lexicon_key": "Mobile_Applications"
+        },
+        "World_Wide_Web": {
+            "lexicon_key": "World_Wide_Web"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "GMA_New_Media",
+            "child_node": "2000-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Mobile_Applications",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "World_Wide_Web",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media, which is a company that was founded on January 1, 2000, makes websites and offers products such as mobile applications."
+        },
+        "Id2": {
+            "text": "GMA New Media, a mobile applications company offering services concerning the World Wide Web, was founded on 01-01-2020."
+        },
+        "Id3": {
+            "text": "GMA New Media, which was founded on 1/1/2000, creates mobile apps and produces web services."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+World_War_II [lexicon_key="World_War_II"];
+Joseph_Stalin [lexicon_key="Joseph_Stalin"];
+World_War_II -> Joseph_Stalin [label=commander, lexicon_key=commander];
+}

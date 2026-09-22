@@ -1,0 +1,5 @@
+strict digraph {
+AC_Hotel_Bella_Sky_Copenhagen [lexicon_key="AC_Hotel_Bella_Sky_Copenhagen"];
+"3XN" [lexicon_key="3XN"];
+AC_Hotel_Bella_Sky_Copenhagen -> "3XN" [label=architect, lexicon_key=architect];
+}

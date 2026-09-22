@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Boogaard [lexicon_key="Aaron_Boogaard"];
+Wichita_Thunder [lexicon_key="Wichita_Thunder"];
+Aaron_Boogaard -> Wichita_Thunder [label=club, lexicon_key=club];
+}

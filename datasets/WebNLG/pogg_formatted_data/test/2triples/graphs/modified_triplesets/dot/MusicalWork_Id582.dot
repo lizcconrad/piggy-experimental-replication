@@ -1,0 +1,7 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+"Squeeze_(The_Velvet_Underground_album)" [lexicon_key="Squeeze_(The_Velvet_Underground_album)"];
+San_Francisco [lexicon_key="San_Francisco"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> "Squeeze_(The_Velvet_Underground_album)" [label=precededBy, lexicon_key=precededBy];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> San_Francisco [label=recordedIn, lexicon_key=recordedIn];
+}

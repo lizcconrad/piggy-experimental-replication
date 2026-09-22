@@ -1,0 +1,5 @@
+strict digraph {
+"Orange_County,_California" [lexicon_key="Orange_County,_California"];
+United_States [lexicon_key="United_States"];
+"Orange_County,_California" -> United_States [label=country, lexicon_key=country];
+}

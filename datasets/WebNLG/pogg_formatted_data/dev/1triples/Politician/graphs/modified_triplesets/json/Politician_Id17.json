@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Agnes_Kant": {
-            "lexicon_key": "Agnes_Kant"
-        },
-        "Netherlands": {
-            "lexicon_key": "Netherlands"
+    "graphs": {
+        "Politician_Id17_0": {
+            "nodes": {
+                "Agnes_Kant": {
+                    "lexicon_key": "Agnes_Kant"
+                },
+                "Netherlands": {
+                    "lexicon_key": "Netherlands"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "residence",
+                    "parent_node": "Agnes_Kant",
+                    "child_node": "Netherlands",
+                    "edge_properties": {
+                        "lexicon_key": "residence"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Agnes Kant lives in the Netherlands.",
+                "Agnes Kant resides in the Netherlands."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "residence",
-            "parent_node": "Agnes_Kant",
-            "child_node": "Netherlands",
-            "edge_properties": {
-                "lexicon_key": "residence"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

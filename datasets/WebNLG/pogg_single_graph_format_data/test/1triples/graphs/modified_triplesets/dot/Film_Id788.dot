@@ -1,0 +1,5 @@
+strict digraph {
+Super_Capers [lexicon_key="Super_Capers"];
+"Ray_Griggs_(director)" [lexicon_key="Ray_Griggs_(director)"];
+Super_Capers -> "Ray_Griggs_(director)" [label=writer, lexicon_key=writer];
+}

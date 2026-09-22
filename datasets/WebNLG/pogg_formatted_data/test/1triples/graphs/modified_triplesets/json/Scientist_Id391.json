@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva's residence is in New Jersey."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva resides in New Jersey."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva has a residence in the state of New Jersey."
+        }
+    },
+    "gold_outputs": []
+}

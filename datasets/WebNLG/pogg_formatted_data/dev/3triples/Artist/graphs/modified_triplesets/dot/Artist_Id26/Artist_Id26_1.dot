@@ -1,0 +1,5 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+"Voice_of_the_Wetlands_All-Stars" [lexicon_key="Voice_of_the_Wetlands_All-Stars"];
+Anders_Osborne -> "Voice_of_the_Wetlands_All-Stars" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

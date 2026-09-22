@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Big_Hero_6_(film)": {
+            "lexicon_key": "Big_Hero_6_(film)"
+        },
+        "Walt_Disney_Studios_Motion_Pictures": {
+            "lexicon_key": "Walt_Disney_Studios_Motion_Pictures"
+        },
+        "Baymax": {
+            "lexicon_key": "Baymax"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributor",
+            "parent_node": "Big_Hero_6_(film)",
+            "child_node": "Walt_Disney_Studios_Motion_Pictures",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        },
+        {
+            "edge_name": "series",
+            "parent_node": "Baymax",
+            "child_node": "Big_Hero_6_(film)",
+            "edge_properties": {
+                "lexicon_key": "series"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Walt Disney Studios Motion pictures distributed Big Hero 6 film, where Baymax is a character."
+        },
+        "Id2": {
+            "text": "One character in the film Big Hero 6 (distributed by Walt Disney Studios Motion Pictures) was Baymax."
+        },
+        "Id3": {
+            "text": "Walt Disney Studios Motion Pictures is the distributor of Big Hero 6 (film), where one of the characters is Baymax."
+        }
+    },
+    "gold_outputs": []
+}

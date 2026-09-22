@@ -1,0 +1,5 @@
+strict digraph {
+Baymax [lexicon_key=Baymax];
+"Steven_T._Seagle" [lexicon_key="Steven_T._Seagle"];
+Baymax -> "Steven_T._Seagle" [label=creator, lexicon_key=creator];
+}

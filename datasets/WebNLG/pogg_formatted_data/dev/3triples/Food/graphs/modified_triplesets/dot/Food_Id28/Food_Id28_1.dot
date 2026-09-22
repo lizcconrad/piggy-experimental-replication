@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+Indian_people [lexicon_key="Indian_people"];
+India -> Indian_people [label=demonym, lexicon_key=demonym];
+}

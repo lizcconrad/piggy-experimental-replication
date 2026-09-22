@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idTutorialRoom1FrontOpening": {
-            "lexicon_key": "idTutorialRoom1FrontOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idTutorialRoom1FrontOpening_subgraph_0": {
+            "nodes": {
+                "idTutorialRoom1FrontOpening": {
+                    "lexicon_key": "idTutorialRoom1FrontOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

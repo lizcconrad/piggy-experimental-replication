@@ -1,0 +1,5 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+Liselotte_Grschebina -> Petah_Tikva [label=deathPlace, lexicon_key=deathPlace];
+}

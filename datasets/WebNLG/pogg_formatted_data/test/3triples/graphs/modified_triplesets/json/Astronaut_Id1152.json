@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "\"1974-08-01\"": {
+            "lexicon_key": "\"1974-08-01\""
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "dateOfRetirement",
+            "parent_node": "Alan_Shepard",
+            "child_node": "\"1974-08-01\"",
+            "edge_properties": {
+                "lexicon_key": "dateOfRetirement"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard was born in New Hampshire, retired in August 1st,1974 and he died in California."
+        },
+        "Id2": {
+            "text": "Alan Shepard's birth place was New Hampshire. He retired on the 1st of August 1974, and he died in California."
+        },
+        "Id3": {
+            "text": "New Hampshire native Alan Shepard died in California after retiring on August 1, 1974."
+        }
+    },
+    "gold_outputs": []
+}

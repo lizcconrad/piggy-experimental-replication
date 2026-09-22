@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "This'll_Be_My_Year": {
+            "lexicon_key": "This'll_Be_My_Year"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "This'll_Be_My_Year",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Train song Mermaid was preceded by the song This'll be my year."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid had been preceded by the song This'll Be My Year."
+        },
+        "Id3": {
+            "text": "This'll be my year by Train was followed by Mermaid."
+        }
+    },
+    "gold_outputs": []
+}

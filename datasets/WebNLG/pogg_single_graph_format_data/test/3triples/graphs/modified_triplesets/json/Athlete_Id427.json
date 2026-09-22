@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        },
+        "Central_European_Time": {
+            "lexicon_key": "Central_European_Time"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Gdynia,_Poland",
+            "child_node": "Central_European_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann who weighs 70.308 kg was born in Gdynia, Poland which has the Central European timezone."
+        },
+        "Id2": {
+            "text": "The 70.308 kg Piotr Hallmann was born in Gdynia, Poland which is on Central European Time."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann weighs 70.308kg and was born in Gdynia, Poland, which is in the Central European timezone."
+        }
+    },
+    "gold_outputs": []
+}

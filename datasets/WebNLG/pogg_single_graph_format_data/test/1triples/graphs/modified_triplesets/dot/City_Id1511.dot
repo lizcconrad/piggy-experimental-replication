@@ -1,0 +1,5 @@
+strict digraph {
+Morelos [lexicon_key=Morelos];
+Governor [lexicon_key=Governor];
+Morelos -> Governor [label=leaderTitle, lexicon_key=leaderTitle];
+}

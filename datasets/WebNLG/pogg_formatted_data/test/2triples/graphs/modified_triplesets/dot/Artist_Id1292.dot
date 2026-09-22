@@ -1,0 +1,7 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+"Twilight_(band)" [lexicon_key="Twilight_(band)"];
+1995 [lexicon_key=1995];
+Aaron_Turner -> "Twilight_(band)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Aaron_Turner -> 1995 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

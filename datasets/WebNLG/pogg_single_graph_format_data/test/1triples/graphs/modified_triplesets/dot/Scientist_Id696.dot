@@ -1,0 +1,5 @@
+strict digraph {
+Brandon_Carter [lexicon_key="Brandon_Carter"];
+England [lexicon_key=England];
+Brandon_Carter -> England [label=birthPlace, lexicon_key=birthPlace];
+}

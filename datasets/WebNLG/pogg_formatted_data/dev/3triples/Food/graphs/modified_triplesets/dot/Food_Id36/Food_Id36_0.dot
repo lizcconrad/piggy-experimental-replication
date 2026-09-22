@@ -1,0 +1,5 @@
+strict digraph {
+Indonesia [lexicon_key=Indonesia];
+Jakarta [lexicon_key=Jakarta];
+Indonesia -> Jakarta [label=capital, lexicon_key=capital];
+}

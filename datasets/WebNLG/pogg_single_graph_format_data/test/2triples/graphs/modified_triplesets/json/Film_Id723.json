@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Jamie_Lawrence": {
+            "lexicon_key": "Jamie_Lawrence"
+        },
+        "1970-03-08": {
+            "lexicon_key": "1970-03-08"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Jamie_Lawrence",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Jamie_Lawrence",
+            "child_node": "1970-03-08",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Jamie Lawrence, born on 03-08-1970, is the music composer of Death on a Factory Farm."
+        },
+        "Id2": {
+            "text": "The movie \"Death on a Factory Farm\" contains music composed by Jamie Lawrence, who was born on 03/08/1970."
+        },
+        "Id3": {
+            "text": "Jamie Lawrence, who was born on March 8th, 1970 wrote music for the film \"Death on a Factory Farm\"."
+        }
+    },
+    "gold_outputs": []
+}

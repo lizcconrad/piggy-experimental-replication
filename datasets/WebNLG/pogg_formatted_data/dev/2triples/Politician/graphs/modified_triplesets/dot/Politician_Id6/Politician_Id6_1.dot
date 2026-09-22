@@ -1,0 +1,5 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Minna [lexicon_key=Minna];
+Abdulsalami_Abubakar -> Minna [label=birthPlace, lexicon_key=birthPlace];
+}

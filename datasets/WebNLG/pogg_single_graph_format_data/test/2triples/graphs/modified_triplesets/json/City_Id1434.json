@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1777539": {
+            "lexicon_key": "1777539"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationMetro",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1777539",
+            "edge_properties": {
+                "lexicon_key": "populationMetro"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The population of Ciudad Ayala is 1777539 with a population density of 1604."
+        },
+        "Id2": {
+            "text": "The population of the metropolitan area of Ciudad Ayala is 1,777,539 with a density of 1604.0."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala city has a population density of 1604.0 and the population of the metropolitan area is 1,777,539."
+        }
+    },
+    "gold_outputs": []
+}

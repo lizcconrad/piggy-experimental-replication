@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "Poaceae": {
-            "lexicon_key": "Poaceae"
+    "graphs": {
+        "Airport_Id24_0": {
+            "nodes": {
+                "Poaceae": {
+                    "lexicon_key": "Poaceae"
+                },
+                "Monocotyledon": {
+                    "lexicon_key": "Monocotyledon"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "class",
+                    "parent_node": "Poaceae",
+                    "child_node": "Monocotyledon",
+                    "edge_properties": {
+                        "lexicon_key": "class"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Poaceae is in the class Monocotyledon and the order of Commelinids. It is also the surface type of the second runway of Ardmore Airport, New Zealand.",
+                "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae which belongs to the order of Commelinids and the class of Monocotyledon."
+            ]
         },
-        "Monocotyledon": {
-            "lexicon_key": "Monocotyledon"
+        "Airport_Id24_1": {
+            "nodes": {
+                "Poaceae": {
+                    "lexicon_key": "Poaceae"
+                },
+                "Commelinids": {
+                    "lexicon_key": "Commelinids"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "order",
+                    "parent_node": "Poaceae",
+                    "child_node": "Commelinids",
+                    "edge_properties": {
+                        "lexicon_key": "order"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Poaceae is in the class Monocotyledon and the order of Commelinids. It is also the surface type of the second runway of Ardmore Airport, New Zealand.",
+                "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae which belongs to the order of Commelinids and the class of Monocotyledon."
+            ]
         },
-        "Commelinids": {
-            "lexicon_key": "Commelinids"
-        },
-        "Ardmore_Airport_(New_Zealand)": {
-            "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+        "Airport_Id24_2": {
+            "nodes": {
+                "Ardmore_Airport_(New_Zealand)": {
+                    "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+                },
+                "Poaceae": {
+                    "lexicon_key": "Poaceae"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "2ndRunwaySurfaceType",
+                    "parent_node": "Ardmore_Airport_(New_Zealand)",
+                    "child_node": "Poaceae",
+                    "edge_properties": {
+                        "lexicon_key": "2ndRunwaySurfaceType"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Poaceae is in the class Monocotyledon and the order of Commelinids. It is also the surface type of the second runway of Ardmore Airport, New Zealand.",
+                "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae which belongs to the order of Commelinids and the class of Monocotyledon."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "class",
-            "parent_node": "Poaceae",
-            "child_node": "Monocotyledon",
-            "edge_properties": {
-                "lexicon_key": "class"
-            }
-        },
-        {
-            "edge_name": "order",
-            "parent_node": "Poaceae",
-            "child_node": "Commelinids",
-            "edge_properties": {
-                "lexicon_key": "order"
-            }
-        },
-        {
-            "edge_name": "2ndRunwaySurfaceType",
-            "parent_node": "Ardmore_Airport_(New_Zealand)",
-            "child_node": "Poaceae",
-            "edge_properties": {
-                "lexicon_key": "2ndRunwaySurfaceType"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

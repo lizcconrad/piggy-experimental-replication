@@ -1,0 +1,5 @@
+strict digraph {
+German_Empire [lexicon_key="German_Empire"];
+"1871-01-01" [lexicon_key="1871-01-01"];
+German_Empire -> "1871-01-01" [label=foundingDate, lexicon_key=foundingDate];
+}

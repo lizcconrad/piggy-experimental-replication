@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Drone_music [lexicon_key="Drone_music"];
+Aaron_Turner -> Drone_music [label=genre, lexicon_key=genre];
+}

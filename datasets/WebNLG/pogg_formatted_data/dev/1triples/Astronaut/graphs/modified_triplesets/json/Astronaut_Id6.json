@@ -1,22 +1,32 @@
 {
-    "nodes": {
-        "Buzz_Aldrin": {
-            "lexicon_key": "Buzz_Aldrin"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "Astronaut_Id6_0": {
+            "nodes": {
+                "Buzz_Aldrin": {
+                    "lexicon_key": "Buzz_Aldrin"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "nationality",
+                    "parent_node": "Buzz_Aldrin",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "nationality"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Buzz Aldrin is a US national.",
+                "Buzz Aldrin was a United States national.",
+                "Buzz Aldrin was an American.",
+                "Buzz Aldrin's nationality is United States."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "nationality",
-            "parent_node": "Buzz_Aldrin",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "nationality"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

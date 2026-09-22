@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "89.0": {
+            "lexicon_key": "89.0"
+        },
+        "Nicholas_Brodszky": {
+            "lexicon_key": "Nicholas_Brodszky"
+        },
+        "1944-07-28": {
+            "lexicon_key": "1944-07-28"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runtime",
+            "parent_node": "English_Without_Tears",
+            "child_node": "89.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Nicholas_Brodszky",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "English_Without_Tears",
+            "child_node": "1944-07-28",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nicholas Brodszky composed music of the movie English Without Tears with a running time of 89 minutes and release date was 07-28-1944."
+        },
+        "Id2": {
+            "text": "The 89 minute film, English Without Tears, released on July 1944, was composed by Nicholas Brodszky."
+        },
+        "Id3": {
+            "text": "The music of the 89 minute long film, English Without Tears (released 1944-07-28) is composed by Nicholas Brodszky."
+        }
+    },
+    "gold_outputs": []
+}

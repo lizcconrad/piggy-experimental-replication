@@ -1,0 +1,7 @@
+strict digraph {
+The_Fellowship_of_the_Ring [lexicon_key="The_Fellowship_of_the_Ring"];
+The_Hobbit [lexicon_key="The_Hobbit"];
+"1937-09-21" [lexicon_key="1937-09-21"];
+The_Fellowship_of_the_Ring -> The_Hobbit [label=precededBy, lexicon_key=precededBy];
+The_Hobbit -> "1937-09-21" [label=releaseDate, lexicon_key=releaseDate];
+}

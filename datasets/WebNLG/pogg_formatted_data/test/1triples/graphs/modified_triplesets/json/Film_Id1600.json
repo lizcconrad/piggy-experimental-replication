@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "1944-07-28": {
+            "lexicon_key": "1944-07-28"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "English_Without_Tears",
+            "child_node": "1944-07-28",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears was released on 1944-07-28."
+        },
+        "Id2": {
+            "text": "The movie English Without Tears' release date is 07-28-1944."
+        },
+        "Id3": {
+            "text": "English Without Tears is a film released on 28th July 1944."
+        }
+    },
+    "gold_outputs": []
+}

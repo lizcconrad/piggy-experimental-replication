@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "2000-01-01": {
+            "lexicon_key": "2000-01-01"
+        },
+        "Mobile_Applications": {
+            "lexicon_key": "Mobile_Applications"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "GMA_New_Media",
+            "child_node": "2000-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Mobile_Applications",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "GMA New Media, a company founded on 01-01-2000 are manufacturers of mobile applications."
+        },
+        "Id2": {
+            "text": "GMA New Media, which was founded on January 1, 2000, is a company that offers products such as mobile applications."
+        },
+        "Id3": {
+            "text": "GMA New Media makes mobile apps and was founded on 01/01/2000."
+        }
+    },
+    "gold_outputs": []
+}

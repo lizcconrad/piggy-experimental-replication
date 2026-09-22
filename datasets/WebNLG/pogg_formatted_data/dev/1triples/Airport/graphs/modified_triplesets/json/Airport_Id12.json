@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Allama_Iqbal_International_Airport": {
-            "lexicon_key": "Allama_Iqbal_International_Airport"
-        },
-        "\"18R/36L\"": {
-            "lexicon_key": "\"18R/36L\""
+    "graphs": {
+        "Airport_Id12_0": {
+            "nodes": {
+                "Allama_Iqbal_International_Airport": {
+                    "lexicon_key": "Allama_Iqbal_International_Airport"
+                },
+                "\"18R/36L\"": {
+                    "lexicon_key": "\"18R/36L\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "runwayName",
+                    "parent_node": "Allama_Iqbal_International_Airport",
+                    "child_node": "\"18R/36L\"",
+                    "edge_properties": {
+                        "lexicon_key": "runwayName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "18R/36L is the runway name at Allama Iqbal International airport.",
+                "Allama Iqbal International Airport has a runway named 18R/36L.",
+                "Allama Iqbal International Airport's runway name is \"18R/36L\"."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "runwayName",
-            "parent_node": "Allama_Iqbal_International_Airport",
-            "child_node": "\"18R/36L\"",
-            "edge_properties": {
-                "lexicon_key": "runwayName"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

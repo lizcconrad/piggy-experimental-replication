@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Live_at_Roadburn_2008_(Year_of_No_Light_album)": {
+            "lexicon_key": "Live_at_Roadburn_2008_(Year_of_No_Light_album)"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Live_at_Roadburn_2008_(Year_of_No_Light_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Year of No Light created the album Live at Roadburn 2008, which was preceded by band\u2019s self-produced album Nord."
+        },
+        "Id2": {
+            "text": "The Year of No Light album Nord, self-produced by the band, was followed by Year of No Light's album Live at Roadburn 2008."
+        },
+        "Id3": {
+            "text": "Year of No Light followed their album Nord, which they also produced, with the album Live at Roadburn 2008."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Deer [lexicon_key="Aaron_Deer"];
+Guitar [lexicon_key=Guitar];
+Aaron_Deer -> Guitar [label=instrument, lexicon_key=instrument];
+}

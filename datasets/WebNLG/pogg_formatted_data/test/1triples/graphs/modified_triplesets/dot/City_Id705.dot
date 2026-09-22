@@ -1,0 +1,5 @@
+strict digraph {
+Morelos [lexicon_key=Morelos];
+4879.0 [lexicon_key=4879.0];
+Morelos -> 4879.0 [label=areaTotal, lexicon_key=areaTotal];
+}

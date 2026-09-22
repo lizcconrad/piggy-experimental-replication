@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "City_Id29_0": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "English_language": {
+                    "lexicon_key": "English_language"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "language",
+                    "parent_node": "United_States",
+                    "child_node": "English_language",
+                    "edge_properties": {
+                        "lexicon_key": "language"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola, Indiana is located in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+                "Asian Americans are an ethnic group in the U.S which is where they speak english and the city Angola, Indiana is located.",
+                "The United States, where the Asian Americans are an ethnic group, uses the English language and is the location of Angola, Indiana."
+            ]
         },
-        "English_language": {
-            "lexicon_key": "English_language"
+        "City_Id29_1": {
+            "nodes": {
+                "Angola,_Indiana": {
+                    "lexicon_key": "Angola,_Indiana"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Angola,_Indiana",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola, Indiana is located in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+                "Asian Americans are an ethnic group in the U.S which is where they speak english and the city Angola, Indiana is located.",
+                "The United States, where the Asian Americans are an ethnic group, uses the English language and is the location of Angola, Indiana."
+            ]
         },
-        "Angola,_Indiana": {
-            "lexicon_key": "Angola,_Indiana"
-        },
-        "Asian_Americans": {
-            "lexicon_key": "Asian_Americans"
+        "City_Id29_2": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Asian_Americans": {
+                    "lexicon_key": "Asian_Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "United_States",
+                    "child_node": "Asian_Americans",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola, Indiana is located in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+                "Asian Americans are an ethnic group in the U.S which is where they speak english and the city Angola, Indiana is located.",
+                "The United States, where the Asian Americans are an ethnic group, uses the English language and is the location of Angola, Indiana."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "language",
-            "parent_node": "United_States",
-            "child_node": "English_language",
-            "edge_properties": {
-                "lexicon_key": "language"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Angola,_Indiana",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "United_States",
-            "child_node": "Asian_Americans",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

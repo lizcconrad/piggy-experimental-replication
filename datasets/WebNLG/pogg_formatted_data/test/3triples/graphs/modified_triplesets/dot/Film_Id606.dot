@@ -1,0 +1,9 @@
+strict digraph {
+Death_on_a_Factory_Farm [lexicon_key="Death_on_a_Factory_Farm"];
+HBO [lexicon_key=HBO];
+Geof_Bartz [lexicon_key="Geof_Bartz"];
+Jamie_Lawrence [lexicon_key="Jamie_Lawrence"];
+Death_on_a_Factory_Farm -> HBO [label=broadcastedBy, lexicon_key=broadcastedBy];
+Death_on_a_Factory_Farm -> Geof_Bartz [label=editor, lexicon_key=editor];
+Death_on_a_Factory_Farm -> Jamie_Lawrence [label=musicComposer, lexicon_key=musicComposer];
+}

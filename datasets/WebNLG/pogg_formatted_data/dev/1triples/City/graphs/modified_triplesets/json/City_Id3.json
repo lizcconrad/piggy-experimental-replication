@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Albany,_Georgia": {
-            "lexicon_key": "Albany,_Georgia"
-        },
-        "Mayor": {
-            "lexicon_key": "Mayor"
+    "graphs": {
+        "City_Id3_0": {
+            "nodes": {
+                "Albany,_Georgia": {
+                    "lexicon_key": "Albany,_Georgia"
+                },
+                "Mayor": {
+                    "lexicon_key": "Mayor"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leaderTitle",
+                    "parent_node": "Albany,_Georgia",
+                    "child_node": "Mayor",
+                    "edge_properties": {
+                        "lexicon_key": "leaderTitle"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany, Georgia has a Mayor as leader.",
+                "Albany, Georgia is led by a Mayor.",
+                "The leader of Albany, Georgia is the Mayor."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leaderTitle",
-            "parent_node": "Albany,_Georgia",
-            "child_node": "Mayor",
-            "edge_properties": {
-                "lexicon_key": "leaderTitle"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

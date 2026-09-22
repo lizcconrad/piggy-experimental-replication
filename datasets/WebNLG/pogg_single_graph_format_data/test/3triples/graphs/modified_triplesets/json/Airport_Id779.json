@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        },
+        "Bedford_Autodrome": {
+            "lexicon_key": "Bedford_Autodrome"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Bedford_Autodrome",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The runway length at the Bedford Aerodrome in Thurleigh is 1095 and the aerodrome serves the Bedford Autodrome."
+        },
+        "Id2": {
+            "text": "The runway length of the Bedford Aerodrome (serviced by the Bedford Autodrome) in Thurleigh measures 1095.0."
+        }
+    },
+    "gold_outputs": []
+}

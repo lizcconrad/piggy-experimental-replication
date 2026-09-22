@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "German_Papiermark": {
+            "lexicon_key": "German_Papiermark"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currency",
+            "parent_node": "German_Empire",
+            "child_node": "German_Papiermark",
+            "edge_properties": {
+                "lexicon_key": "currency"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The currency of the German Empire is German Papiermark."
+        },
+        "Id2": {
+            "text": "The German Empire's currency is the German Papiermark."
+        },
+        "Id3": {
+            "text": "One of the currencies of the German Empire was the German Papiermark."
+        }
+    },
+    "gold_outputs": []
+}

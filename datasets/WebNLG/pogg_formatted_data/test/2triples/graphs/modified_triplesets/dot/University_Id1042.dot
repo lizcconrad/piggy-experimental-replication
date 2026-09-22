@@ -1,0 +1,7 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Visvesvaraya_Technological_University [lexicon_key="Visvesvaraya_Technological_University"];
+700 [lexicon_key=700];
+Acharya_Institute_of_Technology -> Visvesvaraya_Technological_University [label=affiliation, lexicon_key=affiliation];
+Acharya_Institute_of_Technology -> 700 [label=numberOfPostgraduateStudents, lexicon_key=numberOfPostgraduateStudents];
+}

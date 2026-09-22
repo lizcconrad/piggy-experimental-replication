@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        },
+        "Tbilisi": {
+            "lexicon_key": "Tbilisi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Grigory_Neujmin",
+            "child_node": "Tbilisi",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Grigory Neujmin, the man who found 1147 Stavropolis, was born in Tbilisi."
+        },
+        "Id2": {
+            "text": "Grigory Neujmin born in Tbilisi discovered 1147 Stavropolis."
+        },
+        "Id3": {
+            "text": "Grigory Neujmin was born in the city of Tbilisi and discovered 1147 Stavropolis."
+        }
+    },
+    "gold_outputs": []
+}

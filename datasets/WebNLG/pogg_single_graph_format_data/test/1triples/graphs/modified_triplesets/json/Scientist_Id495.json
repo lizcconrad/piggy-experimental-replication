@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "New_Jersey",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English is commonly spoken in New Jersey."
+        },
+        "Id2": {
+            "text": "English is the primary language spoken in New Jersey."
+        },
+        "Id3": {
+            "text": "In New Jersey the language spoken is the English language."
+        }
+    },
+    "gold_outputs": []
+}

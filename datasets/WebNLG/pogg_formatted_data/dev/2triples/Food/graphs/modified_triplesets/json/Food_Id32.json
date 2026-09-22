@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Bionico": {
-            "lexicon_key": "Bionico"
+    "graphs": {
+        "Food_Id32_0": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "course",
+                    "parent_node": "Bionico",
+                    "child_node": "Dessert",
+                    "edge_properties": {
+                        "lexicon_key": "course"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico is a dessert and it requires granola as one of its ingredients.",
+                "Bionico is a dessert that includes the ingredient granola.",
+                "Bionico is a dessert, requiring granola as one of its ingredients."
+            ]
         },
-        "Dessert": {
-            "lexicon_key": "Dessert"
-        },
-        "Granola": {
-            "lexicon_key": "Granola"
+        "Food_Id32_1": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Granola": {
+                    "lexicon_key": "Granola"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bionico",
+                    "child_node": "Granola",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico is a dessert and it requires granola as one of its ingredients.",
+                "Bionico is a dessert that includes the ingredient granola.",
+                "Bionico is a dessert, requiring granola as one of its ingredients."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "course",
-            "parent_node": "Bionico",
-            "child_node": "Dessert",
-            "edge_properties": {
-                "lexicon_key": "course"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bionico",
-            "child_node": "Granola",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

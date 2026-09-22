@@ -1,0 +1,2 @@
+Istanbul is located in the +2 UTC timezone.
+The UTC offset for Istanbul is +2.

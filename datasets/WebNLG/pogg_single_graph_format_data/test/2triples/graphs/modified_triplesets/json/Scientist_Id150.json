@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "Leningrad,_USSR": {
+            "lexicon_key": "Leningrad,_USSR"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad,_USSR",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva, born in Leningrad, USSR, later died in Saint Petersburg."
+        },
+        "Id2": {
+            "text": "Olga Bondareva was born in Leningrad, USSR and died in Saint Petersburg."
+        },
+        "Id3": {
+            "text": "Olga Bondareva died in Saint Petersburg, although her birthplace was in Leningrad, USSR."
+        }
+    },
+    "gold_outputs": []
+}

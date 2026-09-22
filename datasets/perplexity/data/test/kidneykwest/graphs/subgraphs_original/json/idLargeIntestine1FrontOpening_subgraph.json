@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idLargeIntestine1FrontOpening": {
-            "lexicon_key": "idLargeIntestine1FrontOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idLargeIntestine1FrontOpening_subgraph_0": {
+            "nodes": {
+                "idLargeIntestine1FrontOpening": {
+                    "lexicon_key": "idLargeIntestine1FrontOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

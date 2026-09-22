@@ -1,0 +1,5 @@
+strict digraph {
+Aston_Martin_Virage [lexicon_key="Aston_Martin_Virage"];
+Aston_Martin [lexicon_key="Aston_Martin"];
+Aston_Martin_Virage -> Aston_Martin [label=manufacturer, lexicon_key=manufacturer];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "\"Dr. G. P. Prabhukumar\"": {
+            "lexicon_key": "\"Dr. G. P. Prabhukumar\""
+        },
+        "Visvesvaraya_Technological_University": {
+            "lexicon_key": "Visvesvaraya_Technological_University"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"Dr. G. P. Prabhukumar\"",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Visvesvaraya_Technological_University",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Acharya Institute of Technology in Bangalore is affiliated to Visvesvaraya Technological University and has as its director Dr. G. P. Prabhukumar."
+        },
+        "Id2": {
+            "text": "Dr. G. P. Prabhukumar is the director of Bangalore\u2019s Acharya Institute of Technology which has an affiliation with the Visvesvaraya Technological University."
+        },
+        "Id3": {
+            "text": "Dr. G. P. Prabhukumar is the director of the Acharya Institute of Technology which is affiliated with Visvesvaraya Technological University that located in the city of Bangalore."
+        }
+    },
+    "gold_outputs": []
+}

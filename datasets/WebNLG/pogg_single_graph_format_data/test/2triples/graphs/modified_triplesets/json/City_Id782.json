@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        },
+        "Pacific_Standard_Time_Zone": {
+            "lexicon_key": "Pacific_Standard_Time_Zone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Standard_Time_Zone",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala with a population density of 1604 is in the Pacific Standard Time Zone."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala, which is in the Pacific Standard Time Zone, sports a population density of 1604.0."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is in the Pacific Standard Time Zone and has a population density of 1604."
+        }
+    },
+    "gold_outputs": []
+}

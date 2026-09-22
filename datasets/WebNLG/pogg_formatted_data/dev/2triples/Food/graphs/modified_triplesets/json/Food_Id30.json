@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "Binignit": {
-            "lexicon_key": "Binignit"
+    "graphs": {
+        "Food_Id30_0": {
+            "nodes": {
+                "Binignit": {
+                    "lexicon_key": "Binignit"
+                },
+                "Sweet_potato": {
+                    "lexicon_key": "Sweet_potato"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Binignit",
+                    "child_node": "Sweet_potato",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Sweet potato belongs to flowering plants and is an ingredient of Binignit.",
+                "Sweet potatoes (a kind of flowering plant) are used in binignit recipes."
+            ]
         },
-        "Sweet_potato": {
-            "lexicon_key": "Sweet_potato"
-        },
-        "Flowering_plant": {
-            "lexicon_key": "Flowering_plant"
+        "Food_Id30_1": {
+            "nodes": {
+                "Sweet_potato": {
+                    "lexicon_key": "Sweet_potato"
+                },
+                "Flowering_plant": {
+                    "lexicon_key": "Flowering_plant"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "division",
+                    "parent_node": "Sweet_potato",
+                    "child_node": "Flowering_plant",
+                    "edge_properties": {
+                        "lexicon_key": "division"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Sweet potato belongs to flowering plants and is an ingredient of Binignit.",
+                "Sweet potatoes (a kind of flowering plant) are used in binignit recipes."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Binignit",
-            "child_node": "Sweet_potato",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "division",
-            "parent_node": "Sweet_potato",
-            "child_node": "Flowering_plant",
-            "edge_properties": {
-                "lexicon_key": "division"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,14 +1,21 @@
 {
-    "nodes": {
-        "idBook1Page3TornText": {
-            "lexicon_key": "idBook1Page3TornText",
-            "node_properties": {
-                "node_type": "entity"
-            }
-        }
-    },
-    "edges": [],
     "gold_outputs": [
         "the text on page three of the book which is torn"
-    ]
+    ],
+    "graphs": {
+        "idBook1Page3TornText_subgraph_0": {
+            "nodes": {
+                "idBook1Page3TornText": {
+                    "lexicon_key": "idBook1Page3TornText",
+                    "node_properties": {
+                        "node_type": "entity"
+                    }
+                }
+            },
+            "edges": [],
+            "gold_outputs": [
+                "the text on page three of the book which is torn"
+            ]
+        }
+    }
 }

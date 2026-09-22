@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "The_Velvet_Underground": {
+            "lexicon_key": "The_Velvet_Underground"
+        },
+        "230.05": {
+            "lexicon_key": "230.05"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "The_Velvet_Underground",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "230.05",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Velvet Underground recorded the 230.05 minute long album Bootleg Series Volume 1: The Quine Tapes in the United States."
+        },
+        "Id2": {
+            "text": "Music group the Velvet Underground released album Bootleg Series Volume 1: The Quine Tapes, which has a runtime of 230.05 minutes and was recorded in the United States."
+        },
+        "Id3": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes is by The Velvet Underground with a runtime of 230:05, and was recorded in the United States."
+        }
+    },
+    "gold_outputs": []
+}

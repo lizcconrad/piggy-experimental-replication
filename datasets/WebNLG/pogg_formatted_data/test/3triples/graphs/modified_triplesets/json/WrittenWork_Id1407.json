@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "The_Two_Towers": {
+            "lexicon_key": "The_Two_Towers"
+        },
+        "J._R._R._Tolkien": {
+            "lexicon_key": "J._R._R._Tolkien"
+        },
+        "1954-07-29": {
+            "lexicon_key": "1954-07-29"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "The_Two_Towers",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "J._R._R._Tolkien",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "1954-07-29",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Fellowship of the Ring was written by J.R.R. Tolkien and released on July 29, 1954. The Two Towers was released at a later time."
+        },
+        "Id2": {
+            "text": "The Fellowship of the Ring, written by J.R.R. Tolkien, was published on July 29, 1954. It was followed by The Two Towers."
+        },
+        "Id3": {
+            "text": "The release date of the Fellowship of the Ring was July 29, 1954. The novel was written by J.R.R. Tolkien and the Two Towers is the sequel to it."
+        }
+    },
+    "gold_outputs": []
+}

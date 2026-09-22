@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Expect_a_Miracle": {
+            "lexicon_key": "Expect_a_Miracle"
+        },
+        "Instrumental_music": {
+            "lexicon_key": "Instrumental_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Expect_a_Miracle",
+            "child_node": "Instrumental_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Expect a Miracle is in the instrumental music genre."
+        },
+        "Id2": {
+            "text": "Expect a Miracle's genre is instrumental music."
+        },
+        "Id3": {
+            "text": "The album Expect a Miracle is of the instrumental music genre."
+        }
+    },
+    "gold_outputs": []
+}

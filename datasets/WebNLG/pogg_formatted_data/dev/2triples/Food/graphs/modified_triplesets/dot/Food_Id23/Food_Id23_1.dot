@@ -1,0 +1,5 @@
+strict digraph {
+Philippines [lexicon_key=Philippines];
+Chinese_Filipino [lexicon_key="Chinese_Filipino"];
+Philippines -> Chinese_Filipino [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

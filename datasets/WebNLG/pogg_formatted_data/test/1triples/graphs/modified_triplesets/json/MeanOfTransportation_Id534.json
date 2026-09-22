@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Detroit": {
+            "lexicon_key": "Detroit"
+        },
+        "Michigan": {
+            "lexicon_key": "Michigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Detroit",
+            "child_node": "Michigan",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Detroit is part of Michigan."
+        },
+        "Id2": {
+            "text": "The city of Detroit is located in Michigan."
+        },
+        "Id3": {
+            "text": "The city of Detroit is part of Michigan."
+        }
+    },
+    "gold_outputs": []
+}

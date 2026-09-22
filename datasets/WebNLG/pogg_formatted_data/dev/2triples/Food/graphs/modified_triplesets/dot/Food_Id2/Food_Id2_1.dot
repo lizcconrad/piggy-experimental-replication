@@ -1,0 +1,5 @@
+strict digraph {
+Ajoblanco [lexicon_key=Ajoblanco];
+Andalusia [lexicon_key=Andalusia];
+Ajoblanco -> Andalusia [label=region, lexicon_key=region];
+}

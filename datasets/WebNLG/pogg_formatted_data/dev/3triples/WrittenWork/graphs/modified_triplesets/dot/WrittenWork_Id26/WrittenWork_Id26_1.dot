@@ -1,0 +1,5 @@
+strict digraph {
+American_Journal_of_Mathematics [lexicon_key="American_Journal_of_Mathematics"];
+Mathematics [lexicon_key=Mathematics];
+American_Journal_of_Mathematics -> Mathematics [label=academicDiscipline, lexicon_key=academicDiscipline];
+}

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Ajoblanco": {
-            "lexicon_key": "Ajoblanco"
+    "graphs": {
+        "Food_Id2_0": {
+            "nodes": {
+                "Ajoblanco": {
+                    "lexicon_key": "Ajoblanco"
+                },
+                "Almond": {
+                    "lexicon_key": "Almond"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Ajoblanco",
+                    "child_node": "Almond",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ajoblanco is from the Andalusia region and has almond as one of its ingredients.",
+                "Ajoblanco, from Andalusia, has almond as one of its ingredients.",
+                "Almond is an ingredient in ajoblanco, from Andalusia."
+            ]
         },
-        "Almond": {
-            "lexicon_key": "Almond"
-        },
-        "Andalusia": {
-            "lexicon_key": "Andalusia"
+        "Food_Id2_1": {
+            "nodes": {
+                "Ajoblanco": {
+                    "lexicon_key": "Ajoblanco"
+                },
+                "Andalusia": {
+                    "lexicon_key": "Andalusia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "region",
+                    "parent_node": "Ajoblanco",
+                    "child_node": "Andalusia",
+                    "edge_properties": {
+                        "lexicon_key": "region"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ajoblanco is from the Andalusia region and has almond as one of its ingredients.",
+                "Ajoblanco, from Andalusia, has almond as one of its ingredients.",
+                "Almond is an ingredient in ajoblanco, from Andalusia."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Ajoblanco",
-            "child_node": "Almond",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "region",
-            "parent_node": "Ajoblanco",
-            "child_node": "Andalusia",
-            "edge_properties": {
-                "lexicon_key": "region"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,5 @@
+strict digraph {
+ACM_Transactions_on_Information_Systems [lexicon_key="ACM_Transactions_on_Information_Systems"];
+"ATISET" [lexicon_key="ATISET"];
+ACM_Transactions_on_Information_Systems -> "ATISET" [label=codenCode, lexicon_key=codenCode];
+}

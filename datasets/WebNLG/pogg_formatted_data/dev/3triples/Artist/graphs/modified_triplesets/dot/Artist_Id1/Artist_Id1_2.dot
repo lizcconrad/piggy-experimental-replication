@@ -1,0 +1,5 @@
+strict digraph {
+Suburban_Legends [lexicon_key="Suburban_Legends"];
+Pop_music [lexicon_key="Pop_music"];
+Suburban_Legends -> Pop_music [label=genre, lexicon_key=genre];
+}

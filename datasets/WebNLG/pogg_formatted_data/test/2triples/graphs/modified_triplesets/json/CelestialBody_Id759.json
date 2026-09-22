@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "418476000000.0": {
+            "lexicon_key": "418476000000.0"
+        },
+        "11.5": {
+            "lexicon_key": "11.5"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "418476000000.0",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "absoluteMagnitude",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "11.5",
+            "edge_properties": {
+                "lexicon_key": "absoluteMagnitude"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The apoapsis of 1147 Stavropolis is 418476000000.0 and the absolute magnitude is 11.5."
+        },
+        "Id2": {
+            "text": "1147 Stavropolis apoapsis is 418476000000.0, and its absolute magnitude is 11.5."
+        },
+        "Id3": {
+            "text": "1147 Stavropolis absolute magnitude is 11.5, and the apoapsis of the 1147 Stavropolis asteroid is 418476000000.0 AU."
+        }
+    },
+    "gold_outputs": []
+}

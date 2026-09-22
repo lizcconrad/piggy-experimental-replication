@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Power_to_the_People_(song)": {
+            "lexicon_key": "Power_to_the_People_(song)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "Power_to_the_People_(song)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Lennon wrote the song Imagine, and then wrote Power to the People."
+        },
+        "Id2": {
+            "text": "The John Lennon song Imagine is preceded by the song Power to the People."
+        },
+        "Id3": {
+            "text": "The John Lennon song Imagine is preceded by Power to the People."
+        }
+    },
+    "gold_outputs": []
+}

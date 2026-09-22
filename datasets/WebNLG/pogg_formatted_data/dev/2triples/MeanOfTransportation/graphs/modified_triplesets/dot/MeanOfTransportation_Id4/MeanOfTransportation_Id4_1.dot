@@ -1,0 +1,5 @@
+strict digraph {
+AIDAstella [lexicon_key=AIDAstella];
+"253260.0 (millimetres)" [lexicon_key="253260.0 (millimetres)"];
+AIDAstella -> "253260.0 (millimetres)" [label=length, lexicon_key=length];
+}

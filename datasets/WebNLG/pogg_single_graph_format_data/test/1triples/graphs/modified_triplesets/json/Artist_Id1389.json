@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Petah_Tikva": {
+            "lexicon_key": "Petah_Tikva"
+        },
+        "\"Opening of hope\"": {
+            "lexicon_key": "\"Opening of hope\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "meaning",
+            "parent_node": "Petah_Tikva",
+            "child_node": "\"Opening of hope\"",
+            "edge_properties": {
+                "lexicon_key": "meaning"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Petah Tikva means \"opening of hope.\""
+        },
+        "Id2": {
+            "text": "Petah Tikva means \u2018Opening of Hope\u2019 in Hebrew."
+        }
+    },
+    "gold_outputs": []
+}

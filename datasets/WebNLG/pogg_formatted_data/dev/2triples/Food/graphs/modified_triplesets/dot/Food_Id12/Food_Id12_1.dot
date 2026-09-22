@@ -1,0 +1,5 @@
+strict digraph {
+Bacon_Explosion [lexicon_key="Bacon_Explosion"];
+Sausage [lexicon_key=Sausage];
+Bacon_Explosion -> Sausage [label=ingredient, lexicon_key=ingredient];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+Volkswagen_Polo [lexicon_key="Volkswagen_Polo"];
+Audi_A1 -> Volkswagen_Polo [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

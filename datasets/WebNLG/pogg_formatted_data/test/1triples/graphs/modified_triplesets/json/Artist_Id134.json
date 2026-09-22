@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "387.63": {
+            "lexicon_key": "387.63"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Israel",
+            "child_node": "387.63",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The population density of Israel is 387.63."
+        },
+        "Id2": {
+            "text": "The population density of Israel is 387.63 people per square kilometre of land area."
+        }
+    },
+    "gold_outputs": []
+}

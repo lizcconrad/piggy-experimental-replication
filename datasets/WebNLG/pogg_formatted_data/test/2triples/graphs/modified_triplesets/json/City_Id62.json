@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "\u22126": {
+            "lexicon_key": "\u22126"
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\u22126",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Morelos, in Ciudad Ayala, is in the UTC offset -6 timezone."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala, which has a UTC offset of -6, is part of Morelos."
+        },
+        "Id3": {
+            "text": "The UTC offset of Ciudad Ayala which is part of Morelos is -6."
+        }
+    },
+    "gold_outputs": []
+}

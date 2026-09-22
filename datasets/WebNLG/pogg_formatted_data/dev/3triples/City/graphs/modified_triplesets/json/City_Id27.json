@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "City_Id27_0": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Asian_Americans": {
+                    "lexicon_key": "Asian_Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "United_States",
+                    "child_node": "Asian_Americans",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany is located in Oregon in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+                "Albany, Oregon is in the United States where English is the spoken language. Asian Americans are an ethnic group in the U.S.",
+                "The Asian Americans are an ethnic group in the United States, where English is spoken and Albany, Oregon is located."
+            ]
         },
-        "Asian_Americans": {
-            "lexicon_key": "Asian_Americans"
+        "City_Id27_1": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "English_language": {
+                    "lexicon_key": "English_language"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "language",
+                    "parent_node": "United_States",
+                    "child_node": "English_language",
+                    "edge_properties": {
+                        "lexicon_key": "language"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany is located in Oregon in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+                "Albany, Oregon is in the United States where English is the spoken language. Asian Americans are an ethnic group in the U.S.",
+                "The Asian Americans are an ethnic group in the United States, where English is spoken and Albany, Oregon is located."
+            ]
         },
-        "English_language": {
-            "lexicon_key": "English_language"
-        },
-        "Albany,_Oregon": {
-            "lexicon_key": "Albany,_Oregon"
+        "City_Id27_2": {
+            "nodes": {
+                "Albany,_Oregon": {
+                    "lexicon_key": "Albany,_Oregon"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Albany,_Oregon",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany is located in Oregon in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+                "Albany, Oregon is in the United States where English is the spoken language. Asian Americans are an ethnic group in the U.S.",
+                "The Asian Americans are an ethnic group in the United States, where English is spoken and Albany, Oregon is located."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "United_States",
-            "child_node": "Asian_Americans",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        },
-        {
-            "edge_name": "language",
-            "parent_node": "United_States",
-            "child_node": "English_language",
-            "edge_properties": {
-                "lexicon_key": "language"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Albany,_Oregon",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

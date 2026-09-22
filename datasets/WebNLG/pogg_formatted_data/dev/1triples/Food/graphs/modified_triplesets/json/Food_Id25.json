@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Dessert": {
-            "lexicon_key": "Dessert"
-        },
-        "Ice_cream": {
-            "lexicon_key": "Ice_cream"
+    "graphs": {
+        "Food_Id25_0": {
+            "nodes": {
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                },
+                "Ice_cream": {
+                    "lexicon_key": "Ice_cream"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Dessert",
+                    "child_node": "Ice_cream",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A type of dessert is an ice cream.",
+                "Ice cream is a dessert.",
+                "Ice cream is a type of dessert."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Dessert",
-            "child_node": "Ice_cream",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

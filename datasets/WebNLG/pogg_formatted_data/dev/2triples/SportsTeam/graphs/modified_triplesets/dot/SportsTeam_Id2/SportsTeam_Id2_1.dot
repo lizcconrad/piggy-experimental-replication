@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Chievo_Verona" [lexicon_key="A.C._Chievo_Verona"];
+Serie_A [lexicon_key="Serie_A"];
+"A.C._Chievo_Verona" -> Serie_A [label=league, lexicon_key=league];
+}

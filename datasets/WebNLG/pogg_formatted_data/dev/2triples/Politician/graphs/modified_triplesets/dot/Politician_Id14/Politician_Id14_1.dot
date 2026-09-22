@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+"Officer's_Star_\"Parasol\"" [lexicon_key="Officer's_Star_\"Parasol\""];
+Adam_Koc -> "Officer's_Star_\"Parasol\"" [label=award, lexicon_key=award];
+}

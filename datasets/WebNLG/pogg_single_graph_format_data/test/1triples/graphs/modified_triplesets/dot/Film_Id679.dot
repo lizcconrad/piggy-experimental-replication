@@ -1,0 +1,5 @@
+strict digraph {
+Tom_Sizemore [lexicon_key="Tom_Sizemore"];
+"1989-01-01" [lexicon_key="1989-01-01"];
+Tom_Sizemore -> "1989-01-01" [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

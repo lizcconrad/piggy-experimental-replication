@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Barny_Cakes": {
-            "lexicon_key": "Barny_Cakes"
+    "graphs": {
+        "Food_Id22_0": {
+            "nodes": {
+                "Barny_Cakes": {
+                    "lexicon_key": "Barny_Cakes"
+                },
+                "France": {
+                    "lexicon_key": "France"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Barny_Cakes",
+                    "child_node": "France",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny Cakes come from France where Gerard Larcher and Claude Bartolone are leaders.",
+                "Barny cakes are found in France where Gerard Larcher and Claude Bartolone are leaders.",
+                "Barny cakes are found in France where both Gerard Larcher and Claude Bartolone are leaders."
+            ]
         },
-        "France": {
-            "lexicon_key": "France"
+        "Food_Id22_1": {
+            "nodes": {
+                "France": {
+                    "lexicon_key": "France"
+                },
+                "G\u00e9rard_Larcher": {
+                    "lexicon_key": "G\u00e9rard_Larcher"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "France",
+                    "child_node": "G\u00e9rard_Larcher",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny Cakes come from France where Gerard Larcher and Claude Bartolone are leaders.",
+                "Barny cakes are found in France where Gerard Larcher and Claude Bartolone are leaders.",
+                "Barny cakes are found in France where both Gerard Larcher and Claude Bartolone are leaders."
+            ]
         },
-        "G\u00e9rard_Larcher": {
-            "lexicon_key": "G\u00e9rard_Larcher"
-        },
-        "Claude_Bartolone": {
-            "lexicon_key": "Claude_Bartolone"
+        "Food_Id22_2": {
+            "nodes": {
+                "France": {
+                    "lexicon_key": "France"
+                },
+                "Claude_Bartolone": {
+                    "lexicon_key": "Claude_Bartolone"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "France",
+                    "child_node": "Claude_Bartolone",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Barny Cakes come from France where Gerard Larcher and Claude Bartolone are leaders.",
+                "Barny cakes are found in France where Gerard Larcher and Claude Bartolone are leaders.",
+                "Barny cakes are found in France where both Gerard Larcher and Claude Bartolone are leaders."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Barny_Cakes",
-            "child_node": "France",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "France",
-            "child_node": "G\u00e9rard_Larcher",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "France",
-            "child_node": "Claude_Bartolone",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

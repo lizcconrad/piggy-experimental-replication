@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "20_Fenchurch_Street": {
-            "lexicon_key": "20_Fenchurch_Street"
-        },
-        "\"January 2009\"": {
-            "lexicon_key": "\"January 2009\""
+    "graphs": {
+        "Building_Id5_0": {
+            "nodes": {
+                "20_Fenchurch_Street": {
+                    "lexicon_key": "20_Fenchurch_Street"
+                },
+                "\"January 2009\"": {
+                    "lexicon_key": "\"January 2009\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "buildingStartDate",
+                    "parent_node": "20_Fenchurch_Street",
+                    "child_node": "\"January 2009\"",
+                    "edge_properties": {
+                        "lexicon_key": "buildingStartDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The building at 20 Fenchurch Street was started in January 2009.",
+                "The construction of 20 Fenchurch Street began in January 2009."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "buildingStartDate",
-            "parent_node": "20_Fenchurch_Street",
-            "child_node": "\"January 2009\"",
-            "edge_properties": {
-                "lexicon_key": "buildingStartDate"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

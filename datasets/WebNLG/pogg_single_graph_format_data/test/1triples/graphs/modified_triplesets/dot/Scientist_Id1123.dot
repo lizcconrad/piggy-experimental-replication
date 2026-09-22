@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+"1950-01-26" [lexicon_key="1950-01-26"];
+India -> "1950-01-26" [label=foundingDate, lexicon_key=foundingDate];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Aurakles [lexicon_key=Aurakles];
+"Aurakles" [lexicon_key="Aurakles"];
+Aurakles -> "Aurakles" [label=alternativeName, lexicon_key=alternativeName];
+}

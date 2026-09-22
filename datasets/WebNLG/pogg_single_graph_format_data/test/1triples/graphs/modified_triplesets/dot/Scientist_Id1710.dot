@@ -1,0 +1,5 @@
+strict digraph {
+Darlington [lexicon_key=Darlington];
+106000 [lexicon_key=106000];
+Darlington -> 106000 [label=populationTotal, lexicon_key=populationTotal];
+}

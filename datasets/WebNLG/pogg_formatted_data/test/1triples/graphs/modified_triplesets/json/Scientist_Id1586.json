@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Bondareva\u2013Shapley_theorem": {
+            "lexicon_key": "Bondareva\u2013Shapley_theorem"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Bondareva\u2013Shapley_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva is known for Bondareva-Shapley theorem."
+        },
+        "Id2": {
+            "text": "Olga Bondareva is known for the Bondareva-Shapley theorem."
+        }
+    },
+    "gold_outputs": []
+}

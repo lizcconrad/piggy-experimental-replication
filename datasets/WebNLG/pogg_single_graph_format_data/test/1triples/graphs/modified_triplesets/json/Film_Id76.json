@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Nicholas_Brodszky": {
+            "lexicon_key": "Nicholas_Brodszky"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Nicholas_Brodszky",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The music of the film English Without Tears is composed by Nicholas Brodszky."
+        },
+        "Id2": {
+            "text": "Nicholas Brodszky composed music of the movie English Without Tears."
+        },
+        "Id3": {
+            "text": "Nicholas Brodszky was a composer of the songs that were used in English Without Tears."
+        }
+    },
+    "gold_outputs": []
+}

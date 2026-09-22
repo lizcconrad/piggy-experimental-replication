@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "Turk": {
+            "lexicon_key": "Turk"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "Turkey",
+            "child_node": "Turk",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Turk is the demonym for residents of Turkey."
+        },
+        "Id2": {
+            "text": "An inhabitant of Turkey is called a Turk."
+        },
+        "Id3": {
+            "text": "The demonym for people who live in Turkey is \"Turk\"."
+        }
+    },
+    "gold_outputs": []
+}

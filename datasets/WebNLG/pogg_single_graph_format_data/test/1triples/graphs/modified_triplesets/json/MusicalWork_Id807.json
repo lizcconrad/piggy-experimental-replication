@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Take_It_Off!": {
+            "lexicon_key": "Take_It_Off!"
+        },
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Take_It_Off!",
+            "child_node": "Turn_Me_On_(album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Take It Off! is preceded by the album Turn Me On."
+        },
+        "Id2": {
+            "text": "The album Take It Off! was preceded by the album Turn Me On."
+        },
+        "Id3": {
+            "text": "The album Take It Off! was preceded by the album titled Turn Me On."
+        }
+    },
+    "gold_outputs": []
+}

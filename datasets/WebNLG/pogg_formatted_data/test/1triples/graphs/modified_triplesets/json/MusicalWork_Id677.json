@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "John_Lennon": {
+            "lexicon_key": "John_Lennon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicalArtist",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "John_Lennon",
+            "edge_properties": {
+                "lexicon_key": "musicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "\"Imagine\" is a song by musical artist, John Lennon."
+        },
+        "Id2": {
+            "text": "Musician John Lennon wrote and performed the song Imagine."
+        },
+        "Id3": {
+            "text": "The song Imagine belongs to the musician John Lennon."
+        }
+    },
+    "gold_outputs": []
+}

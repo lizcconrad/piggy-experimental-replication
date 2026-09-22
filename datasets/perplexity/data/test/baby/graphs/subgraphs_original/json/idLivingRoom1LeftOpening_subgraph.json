@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idLivingRoom1LeftOpening": {
-            "lexicon_key": "idLivingRoom1LeftOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idLivingRoom1LeftOpening_subgraph_0": {
+            "nodes": {
+                "idLivingRoom1LeftOpening": {
+                    "lexicon_key": "idLivingRoom1LeftOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

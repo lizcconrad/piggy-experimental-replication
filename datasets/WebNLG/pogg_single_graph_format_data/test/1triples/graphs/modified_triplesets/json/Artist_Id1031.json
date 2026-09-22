@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Arab_citizens_of_Israel": {
+            "lexicon_key": "Arab_citizens_of_Israel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Israel",
+            "child_node": "Arab_citizens_of_Israel",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Arab citizens of Israel is an ethnic group in Israel."
+        },
+        "Id2": {
+            "text": "Ethnic groups in Israel include Arabs."
+        },
+        "Id3": {
+            "text": "One of the ethnic groups in Israel is Arabs."
+        }
+    },
+    "gold_outputs": []
+}

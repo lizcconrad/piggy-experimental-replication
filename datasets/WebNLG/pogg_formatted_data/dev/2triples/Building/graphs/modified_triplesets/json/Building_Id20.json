@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Asilomar_Conference_Grounds": {
-            "lexicon_key": "Asilomar_Conference_Grounds"
+    "graphs": {
+        "Building_Id20_0": {
+            "nodes": {
+                "Asilomar_Conference_Grounds": {
+                    "lexicon_key": "Asilomar_Conference_Grounds"
+                },
+                "Pacific_Grove,_California": {
+                    "lexicon_key": "Pacific_Grove,_California"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Asilomar_Conference_Grounds",
+                    "child_node": "Pacific_Grove,_California",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Asilomar Conference Grounds are located in Pacific Grove, California and was added to the National Register of Historic Places on February the 27nd 1987.",
+                "Asilomar Conference Grounds at Pacific Grove, California was added to the National Register of Historic Places on February the 27nd 1987.",
+                "Asilomar Conference Grounds, Pacific Grove, California was added to the National Register of Historic Places on February 27, 1987."
+            ]
         },
-        "Pacific_Grove,_California": {
-            "lexicon_key": "Pacific_Grove,_California"
-        },
-        "\"1987-02-27\"": {
-            "lexicon_key": "\"1987-02-27\""
+        "Building_Id20_1": {
+            "nodes": {
+                "Asilomar_Conference_Grounds": {
+                    "lexicon_key": "Asilomar_Conference_Grounds"
+                },
+                "\"1987-02-27\"": {
+                    "lexicon_key": "\"1987-02-27\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "addedToTheNationalRegisterOfHistoricPlaces",
+                    "parent_node": "Asilomar_Conference_Grounds",
+                    "child_node": "\"1987-02-27\"",
+                    "edge_properties": {
+                        "lexicon_key": "addedToTheNationalRegisterOfHistoricPlaces"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Asilomar Conference Grounds are located in Pacific Grove, California and was added to the National Register of Historic Places on February the 27nd 1987.",
+                "Asilomar Conference Grounds at Pacific Grove, California was added to the National Register of Historic Places on February the 27nd 1987.",
+                "Asilomar Conference Grounds, Pacific Grove, California was added to the National Register of Historic Places on February 27, 1987."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "Asilomar_Conference_Grounds",
-            "child_node": "Pacific_Grove,_California",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "addedToTheNationalRegisterOfHistoricPlaces",
-            "parent_node": "Asilomar_Conference_Grounds",
-            "child_node": "\"1987-02-27\"",
-            "edge_properties": {
-                "lexicon_key": "addedToTheNationalRegisterOfHistoricPlaces"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

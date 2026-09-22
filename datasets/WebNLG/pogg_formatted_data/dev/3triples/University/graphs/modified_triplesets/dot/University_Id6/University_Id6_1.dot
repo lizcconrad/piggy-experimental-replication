@@ -1,0 +1,5 @@
+strict digraph {
+Romania [lexicon_key=Romania];
+Klaus_Iohannis [lexicon_key="Klaus_Iohannis"];
+Romania -> Klaus_Iohannis [label=leader, lexicon_key=leader];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+HBO [lexicon_key=HBO];
+Cinemax [lexicon_key=Cinemax];
+HBO -> Cinemax [label=sisterStation, lexicon_key=sisterStation];
+}

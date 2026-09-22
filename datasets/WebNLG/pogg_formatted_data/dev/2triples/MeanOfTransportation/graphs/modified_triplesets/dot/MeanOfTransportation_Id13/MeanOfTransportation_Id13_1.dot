@@ -1,0 +1,5 @@
+strict digraph {
+Finland [lexicon_key=Finland];
+"Sauli_Niinistö" [lexicon_key="Sauli_Niinistö"];
+Finland -> "Sauli_Niinistö" [label=leader, lexicon_key=leader];
+}

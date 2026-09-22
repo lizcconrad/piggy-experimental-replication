@@ -1,0 +1,5 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+"Ruth Ribicoff" [lexicon_key="Ruth Ribicoff"];
+"Abraham_A._Ribicoff" -> "Ruth Ribicoff" [label=spouse, lexicon_key=spouse];
+}

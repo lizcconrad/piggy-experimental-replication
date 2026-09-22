@@ -1,0 +1,5 @@
+strict digraph {
+Celery [lexicon_key=Celery];
+Apium [lexicon_key=Apium];
+Celery -> Apium [label=genus, lexicon_key=genus];
+}

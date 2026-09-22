@@ -1,0 +1,5 @@
+strict digraph {
+Alcatraz_Versus_the_Evil_Librarians [lexicon_key="Alcatraz_Versus_the_Evil_Librarians"];
+United_States [lexicon_key="United_States"];
+Alcatraz_Versus_the_Evil_Librarians -> United_States [label=country, lexicon_key=country];
+}

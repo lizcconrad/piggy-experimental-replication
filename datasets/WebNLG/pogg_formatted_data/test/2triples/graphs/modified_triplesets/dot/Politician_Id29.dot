@@ -1,0 +1,7 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+"Demak Jaya, Jalan Bako, Kuching, Sarawak" [lexicon_key="Demak Jaya, Jalan Bako, Kuching, Sarawak"];
+Parti_Pesaka_Bumiputera_Bersatu [lexicon_key="Parti_Pesaka_Bumiputera_Bersatu"];
+Abdul_Taib_Mahmud -> "Demak Jaya, Jalan Bako, Kuching, Sarawak" [label=residence, lexicon_key=residence];
+Abdul_Taib_Mahmud -> Parti_Pesaka_Bumiputera_Bersatu [label=party, lexicon_key=party];
+}

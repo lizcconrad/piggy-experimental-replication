@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "10_Hygiea": {
-            "lexicon_key": "10_Hygiea"
+    "graphs": {
+        "CelestialBody_Id14_0": {
+            "nodes": {
+                "10_Hygiea": {
+                    "lexicon_key": "10_Hygiea"
+                },
+                "837080.744 (squareKilometres)": {
+                    "lexicon_key": "837080.744 (squareKilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "surfaceArea",
+                    "parent_node": "10_Hygiea",
+                    "child_node": "837080.744 (squareKilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "surfaceArea"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "10 Hygiea; has a surface area of 837080.744 square kilometres, an apoapsis of 523951582.33968 kilometres, and a temperature of 164.0 kelvins.",
+                "The asteroid called 10 Hygiea, has an apoapsis of 523951582.33968 kilometres, a surface area of 837080.744 square km and a temperature of 164 Kelvins.",
+                "The celestial body known as 10 Hygiea has a surface area of 837080.744 square km. It has an apoapsis of 523951582.33968 kilometres and a temperature of 164 Kelvins."
+            ]
         },
-        "837080.744 (squareKilometres)": {
-            "lexicon_key": "837080.744 (squareKilometres)"
+        "CelestialBody_Id14_1": {
+            "nodes": {
+                "10_Hygiea": {
+                    "lexicon_key": "10_Hygiea"
+                },
+                "523951582.33968 (kilometres)": {
+                    "lexicon_key": "523951582.33968 (kilometres)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "apoapsis",
+                    "parent_node": "10_Hygiea",
+                    "child_node": "523951582.33968 (kilometres)",
+                    "edge_properties": {
+                        "lexicon_key": "apoapsis"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "10 Hygiea; has a surface area of 837080.744 square kilometres, an apoapsis of 523951582.33968 kilometres, and a temperature of 164.0 kelvins.",
+                "The asteroid called 10 Hygiea, has an apoapsis of 523951582.33968 kilometres, a surface area of 837080.744 square km and a temperature of 164 Kelvins.",
+                "The celestial body known as 10 Hygiea has a surface area of 837080.744 square km. It has an apoapsis of 523951582.33968 kilometres and a temperature of 164 Kelvins."
+            ]
         },
-        "523951582.33968 (kilometres)": {
-            "lexicon_key": "523951582.33968 (kilometres)"
-        },
-        "164.0 (kelvins)": {
-            "lexicon_key": "164.0 (kelvins)"
+        "CelestialBody_Id14_2": {
+            "nodes": {
+                "10_Hygiea": {
+                    "lexicon_key": "10_Hygiea"
+                },
+                "164.0 (kelvins)": {
+                    "lexicon_key": "164.0 (kelvins)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "temperature",
+                    "parent_node": "10_Hygiea",
+                    "child_node": "164.0 (kelvins)",
+                    "edge_properties": {
+                        "lexicon_key": "temperature"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "10 Hygiea; has a surface area of 837080.744 square kilometres, an apoapsis of 523951582.33968 kilometres, and a temperature of 164.0 kelvins.",
+                "The asteroid called 10 Hygiea, has an apoapsis of 523951582.33968 kilometres, a surface area of 837080.744 square km and a temperature of 164 Kelvins.",
+                "The celestial body known as 10 Hygiea has a surface area of 837080.744 square km. It has an apoapsis of 523951582.33968 kilometres and a temperature of 164 Kelvins."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "surfaceArea",
-            "parent_node": "10_Hygiea",
-            "child_node": "837080.744 (squareKilometres)",
-            "edge_properties": {
-                "lexicon_key": "surfaceArea"
-            }
-        },
-        {
-            "edge_name": "apoapsis",
-            "parent_node": "10_Hygiea",
-            "child_node": "523951582.33968 (kilometres)",
-            "edge_properties": {
-                "lexicon_key": "apoapsis"
-            }
-        },
-        {
-            "edge_name": "temperature",
-            "parent_node": "10_Hygiea",
-            "child_node": "164.0 (kelvins)",
-            "edge_properties": {
-                "lexicon_key": "temperature"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

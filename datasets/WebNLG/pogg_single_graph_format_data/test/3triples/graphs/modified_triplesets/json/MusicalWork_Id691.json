@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "2006-09-06": {
+            "lexicon_key": "2006-09-06"
+        },
+        "Live_at_Roadburn_2008_(Year_of_No_Light_album)": {
+            "lexicon_key": "Live_at_Roadburn_2008_(Year_of_No_Light_album)"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "2006-09-06",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Live_at_Roadburn_2008_(Year_of_No_Light_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "artist",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nord is an album by Year of No Light, released on September 6, 2006. It was followed by the album Live at Roadburn 2008."
+        },
+        "Id2": {
+            "text": "The album titled Nord by Year of No Light was followed by Live at the Roadburn 2008. Nord was released on September, 6 in 2006."
+        },
+        "Id3": {
+            "text": "Nord is an album by Year of No Light that was released on June 9th, 2006. The band followed Nord with the album Live at Roadburn 2008."
+        }
+    },
+    "gold_outputs": []
+}

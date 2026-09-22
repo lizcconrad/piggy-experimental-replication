@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Train_(band)": {
+            "lexicon_key": "Train_(band)"
+        },
+        "Johnny_Colt": {
+            "lexicon_key": "Johnny_Colt"
+        },
+        "Charlie_Colin": {
+            "lexicon_key": "Charlie_Colin"
+        },
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "formerBandMember",
+            "parent_node": "Train_(band)",
+            "child_node": "Johnny_Colt",
+            "edge_properties": {
+                "lexicon_key": "formerBandMember"
+            }
+        },
+        {
+            "edge_name": "formerBandMember",
+            "parent_node": "Train_(band)",
+            "child_node": "Charlie_Colin",
+            "edge_properties": {
+                "lexicon_key": "formerBandMember"
+            }
+        },
+        {
+            "edge_name": "musicalBand",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Train_(band)",
+            "edge_properties": {
+                "lexicon_key": "musicalBand"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Johnny Colt & Charlie Colin are former band members of Train, the band which sings the song Mermaid."
+        },
+        "Id2": {
+            "text": "Johnny Colt and Charlie Colin are the former member and former band mate of the band Train, which wrote the song Mermaid, respectively."
+        },
+        "Id3": {
+            "text": "Johnny Colt and Charlie Colin are former members of the band train, who own the song, Mermaid."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Punk blues and noise rock are genre of the album Turn Me On."
+        },
+        "Id2": {
+            "text": "Turn Me On's genre can be defined as punk blues and noise rock."
+        },
+        "Id3": {
+            "text": "Turn Me On is a punk blues album of the musical genre known as noise rock."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+Montevideo [lexicon_key=Montevideo];
+Alfredo_Zitarrosa -> Montevideo [label=deathPlace, lexicon_key=deathPlace];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "295": {
+            "lexicon_key": "295"
+        },
+        "Public_company": {
+            "lexicon_key": "Public_company"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfLocations",
+            "parent_node": "Chinabank",
+            "child_node": "295",
+            "edge_properties": {
+                "lexicon_key": "numberOfLocations"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Chinabank",
+            "child_node": "Public_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Chinabank",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Chinabank is a publicly traded company located in the Philippines with 295 locations."
+        },
+        "Id2": {
+            "text": "Chinabank, with locations in the Philippines, is a publicly traded company with 295 banking centers."
+        },
+        "Id3": {
+            "text": "Chinabank, a public company, is located in the Philippines and has 295 branches."
+        }
+    },
+    "gold_outputs": []
+}

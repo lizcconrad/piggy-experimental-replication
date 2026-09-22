@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "1937-04-27": {
+            "lexicon_key": "1937-04-27"
+        },
+        "Leningrad_State_University": {
+            "lexicon_key": "Leningrad_State_University"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1937-04-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad_State_University",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva, who was born on April 27, 1937, graduated from Leningrad State University."
+        },
+        "Id2": {
+            "text": "Olga Bondareva was born on April 27,1937 and graduated from Leningrad State University."
+        },
+        "Id3": {
+            "text": "Olga Bondareva was born on April 27, 1937, and later became a student of Leningrad State University."
+        }
+    },
+    "gold_outputs": []
+}

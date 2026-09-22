@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "1954-07-29": {
+            "lexicon_key": "1954-07-29"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "1954-07-29",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Fellowship of the Ring was published on July 29, 1954."
+        },
+        "Id2": {
+            "text": "The release date of the Fellowship of the Ring was July 29, 1954."
+        },
+        "Id3": {
+            "text": "The Fellowship of the Ring was released on July 29, 1954."
+        }
+    },
+    "gold_outputs": []
+}

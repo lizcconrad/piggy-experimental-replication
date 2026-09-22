@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Holloway [lexicon_key="Adam_Holloway"];
+"Conservative_Party_(UK)" [lexicon_key="Conservative_Party_(UK)"];
+Adam_Holloway -> "Conservative_Party_(UK)" [label=party, lexicon_key=party];
+}

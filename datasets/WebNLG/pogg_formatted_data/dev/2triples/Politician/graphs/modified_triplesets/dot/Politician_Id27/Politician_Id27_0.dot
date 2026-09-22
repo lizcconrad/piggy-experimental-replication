@@ -1,0 +1,5 @@
+strict digraph {
+Alfons_Gorbach [lexicon_key="Alfons_Gorbach"];
+"Adolf_Schärf" [lexicon_key="Adolf_Schärf"];
+Alfons_Gorbach -> "Adolf_Schärf" [label=inOfficeWhilePresident, lexicon_key=inOfficeWhilePresident];
+}

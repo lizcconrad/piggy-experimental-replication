@@ -1,0 +1,9 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+GMA_Network_Center [lexicon_key="GMA_Network_Center"];
+Philippines [lexicon_key=Philippines];
+Entertainment [lexicon_key=Entertainment];
+GMA_New_Media -> GMA_Network_Center [label=location, lexicon_key=location];
+GMA_New_Media -> Philippines [label=location, lexicon_key=location];
+GMA_New_Media -> Entertainment [label=industry, lexicon_key=industry];
+}

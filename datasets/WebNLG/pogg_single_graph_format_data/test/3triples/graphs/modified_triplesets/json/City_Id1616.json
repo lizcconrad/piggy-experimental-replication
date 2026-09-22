@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Adri\u00e1n_Rivera_P\u00e9rez": {
+            "lexicon_key": "Adri\u00e1n_Rivera_P\u00e9rez"
+        },
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "\"City Manager\"": {
+            "lexicon_key": "\"City Manager\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Morelos",
+            "child_node": "Adri\u00e1n_Rivera_P\u00e9rez",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\"City Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the leaders of Ciudad Ayala is the city manager, its part of Morelos and one of the leaders of the Mexican state of Morelos is Adrian Rivera Perez."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a part of Morelos. Adrian Rivera Perez is one of the leaders of the Mexican state of Morelos, and one of the leaders of Ciudad Ayala is the city manager."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is part of Morelos whose leader also known as City Manager is Adri\u00e1n Rivera P\u00e9rez."
+        }
+    },
+    "gold_outputs": []
+}

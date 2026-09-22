@@ -1,0 +1,5 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+"E-Vinyl" [lexicon_key="E-Vinyl"];
+"Nord_(Year_of_No_Light_album)" -> "E-Vinyl" [label=recordLabel, lexicon_key=recordLabel];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Ampara_Hospital [lexicon_key="Ampara_Hospital"];
+476 [lexicon_key=476];
+Ampara_Hospital -> 476 [label=bedCount, lexicon_key=bedCount];
+}

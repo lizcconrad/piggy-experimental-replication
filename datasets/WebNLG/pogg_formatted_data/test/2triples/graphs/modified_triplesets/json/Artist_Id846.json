@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "South_German_gulden": {
+            "lexicon_key": "South_German_gulden"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "German_Empire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "currency",
+            "parent_node": "German_Empire",
+            "child_node": "South_German_gulden",
+            "edge_properties": {
+                "lexicon_key": "currency"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born in the German Empire, where they used the South German Gulden as one of their units of currency."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born within the German Empire, whose currency is the South German gulden."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was born in the German Empire whose currency is South German gulden."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        },
+        "\"448\"": {
+            "lexicon_key": "\"448\""
+        },
+        "Eric_Flint": {
+            "lexicon_key": "Eric_Flint"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfPages",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "\"448\"",
+            "edge_properties": {
+                "lexicon_key": "numberOfPages"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "Eric_Flint",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1634: The Bavarian Crisis which has 448 pages, was written by Eric Flint."
+        },
+        "Id2": {
+            "text": "Eric Flint is the author of the 448 page book, 1634: The Bavarian Crisis."
+        },
+        "Id3": {
+            "text": "Eric Flint wrote 1634: The Bavarian Crisis which contains 448 pages."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "AIDA_Cruises": {
-            "lexicon_key": "AIDA_Cruises"
+    "graphs": {
+        "MeanOfTransportation_Id3_0": {
+            "nodes": {
+                "AIDA_Cruises": {
+                    "lexicon_key": "AIDA_Cruises"
+                },
+                "Rostock": {
+                    "lexicon_key": "Rostock"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "AIDA_Cruises",
+                    "child_node": "Rostock",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIDA Cruises, located in Rostock, are the operator of the ship AIDAluna.",
+                "AIDAluna is operated by AIDA Cruises from Rostock.",
+                "The AIDAluna is operated by AIDA Cruises which are located at Rostock."
+            ]
         },
-        "Rostock": {
-            "lexicon_key": "Rostock"
-        },
-        "AIDAluna": {
-            "lexicon_key": "AIDAluna"
+        "MeanOfTransportation_Id3_1": {
+            "nodes": {
+                "AIDAluna": {
+                    "lexicon_key": "AIDAluna"
+                },
+                "AIDA_Cruises": {
+                    "lexicon_key": "AIDA_Cruises"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "operator",
+                    "parent_node": "AIDAluna",
+                    "child_node": "AIDA_Cruises",
+                    "edge_properties": {
+                        "lexicon_key": "operator"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AIDA Cruises, located in Rostock, are the operator of the ship AIDAluna.",
+                "AIDAluna is operated by AIDA Cruises from Rostock.",
+                "The AIDAluna is operated by AIDA Cruises which are located at Rostock."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "AIDA_Cruises",
-            "child_node": "Rostock",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "operator",
-            "parent_node": "AIDAluna",
-            "child_node": "AIDA_Cruises",
-            "edge_properties": {
-                "lexicon_key": "operator"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

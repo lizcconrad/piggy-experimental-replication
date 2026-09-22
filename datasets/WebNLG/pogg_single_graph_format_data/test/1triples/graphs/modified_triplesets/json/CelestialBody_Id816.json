@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis was discovered by Grigory Neujmin."
+        },
+        "Id2": {
+            "text": "The discoverer of 1147 Stavropolis is Grigory Neujmin."
+        },
+        "Id3": {
+            "text": "Grigory Neujmin discovered 1147 Stavropolis."
+        }
+    },
+    "gold_outputs": []
+}

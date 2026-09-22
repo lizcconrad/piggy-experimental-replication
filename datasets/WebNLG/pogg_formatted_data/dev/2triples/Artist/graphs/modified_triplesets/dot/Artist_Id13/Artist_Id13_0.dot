@@ -1,0 +1,5 @@
+strict digraph {
+Alex_Day [lexicon_key="Alex_Day"];
+Synthpop [lexicon_key=Synthpop];
+Alex_Day -> Synthpop [label=genre, lexicon_key=genre];
+}

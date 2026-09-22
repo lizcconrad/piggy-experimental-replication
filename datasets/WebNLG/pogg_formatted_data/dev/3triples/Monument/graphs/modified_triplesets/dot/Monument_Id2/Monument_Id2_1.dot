@@ -1,0 +1,5 @@
+strict digraph {
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+"Ottoman Army soldiers killed in the Battle of Baku" [lexicon_key="Ottoman Army soldiers killed in the Battle of Baku"];
+"Baku_Turkish_Martyrs'_Memorial" -> "Ottoman Army soldiers killed in the Battle of Baku" [label=dedicatedTo, lexicon_key=dedicatedTo];
+}

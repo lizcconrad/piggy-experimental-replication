@@ -1,0 +1,5 @@
+strict digraph {
+Justin_Whalin [lexicon_key="Justin_Whalin"];
+San_Francisco [lexicon_key="San_Francisco"];
+Justin_Whalin -> San_Francisco [label=birthPlace, lexicon_key=birthPlace];
+}

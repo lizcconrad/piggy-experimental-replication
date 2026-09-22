@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Polydor_Records": {
+            "lexicon_key": "Polydor_Records"
+        },
+        "Interscope_Geffen_A&M": {
+            "lexicon_key": "Interscope_Geffen_A&M"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributingLabel",
+            "parent_node": "Polydor_Records",
+            "child_node": "Interscope_Geffen_A&M",
+            "edge_properties": {
+                "lexicon_key": "distributingLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Interscope Geffen A&M distributes the Polydor Records label."
+        },
+        "Id2": {
+            "text": "Polydor Records' distributing label is Interscope Geffen A&M."
+        }
+    },
+    "gold_outputs": []
+}

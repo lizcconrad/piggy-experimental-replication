@@ -1,0 +1,5 @@
+strict digraph {
+"Antares_(rocket)" [lexicon_key="Antares_(rocket)"];
+Yuzhnoye_Design_Office [lexicon_key="Yuzhnoye_Design_Office"];
+"Antares_(rocket)" -> Yuzhnoye_Design_Office [label=manufacturer, lexicon_key=manufacturer];
+}

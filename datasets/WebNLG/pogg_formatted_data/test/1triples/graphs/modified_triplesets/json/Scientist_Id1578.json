@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "2691.0": {
+            "lexicon_key": "2691.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationMetroDensity",
+            "parent_node": "Istanbul",
+            "child_node": "2691.0",
+            "edge_properties": {
+                "lexicon_key": "populationMetroDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The population density in metropolitan Istanbul is 2691.0."
+        },
+        "Id2": {
+            "text": "The population density of the Istanbul metro area is 2691 people per square kilometer."
+        },
+        "Id3": {
+            "text": "The population density in metro Istanbul is 2691.0."
+        }
+    },
+    "gold_outputs": []
+}

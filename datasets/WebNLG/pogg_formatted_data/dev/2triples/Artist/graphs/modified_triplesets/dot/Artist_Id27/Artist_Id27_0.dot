@@ -1,0 +1,5 @@
+strict digraph {
+"Andrew_White_(musician)" [lexicon_key="Andrew_White_(musician)"];
+Marry_Banilow [lexicon_key="Marry_Banilow"];
+"Andrew_White_(musician)" -> Marry_Banilow [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

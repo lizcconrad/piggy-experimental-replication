@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "The_Hobbit": {
+            "lexicon_key": "The_Hobbit"
+        },
+        "1937-09-21": {
+            "lexicon_key": "1937-09-21"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "The_Hobbit",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "The_Hobbit",
+            "child_node": "1937-09-21",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Fellowship of the Ring was preceded by the Hobbit, which was released on September 21, 1937."
+        },
+        "Id2": {
+            "text": "The Hobbit, was which published on September 21, 1937, came before The Fellowship of the Ring."
+        },
+        "Id3": {
+            "text": "Published on September 21, 1937, The Hobbit precedes The Fellowship of the Ring."
+        }
+    },
+    "gold_outputs": []
+}

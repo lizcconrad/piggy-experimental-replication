@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "1991-12-09": {
+            "lexicon_key": "1991-12-09"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1991-12-09",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva died on December 9, 1991."
+        },
+        "Id2": {
+            "text": "Olga Bondareva died on the 9th of December, 1991."
+        },
+        "Id3": {
+            "text": "The date of Olga Bondareva's death was the ninth of December 1991."
+        }
+    },
+    "gold_outputs": []
+}

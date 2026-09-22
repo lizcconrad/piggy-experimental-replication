@@ -1,0 +1,7 @@
+strict digraph {
+"Nord_(Year_of_No_Light_album)" [lexicon_key="Nord_(Year_of_No_Light_album)"];
+Year_of_No_Light [lexicon_key="Year_of_No_Light"];
+Altar_of_Plagues [lexicon_key="Altar_of_Plagues"];
+"Nord_(Year_of_No_Light_album)" -> Year_of_No_Light [label=producer, lexicon_key=producer];
+Year_of_No_Light -> Altar_of_Plagues [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

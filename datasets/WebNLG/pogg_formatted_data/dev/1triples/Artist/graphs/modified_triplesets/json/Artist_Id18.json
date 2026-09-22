@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Alfredo_Zitarrosa": {
-            "lexicon_key": "Alfredo_Zitarrosa"
-        },
-        "Milonga_(music)": {
-            "lexicon_key": "Milonga_(music)"
+    "graphs": {
+        "Artist_Id18_0": {
+            "nodes": {
+                "Alfredo_Zitarrosa": {
+                    "lexicon_key": "Alfredo_Zitarrosa"
+                },
+                "Milonga_(music)": {
+                    "lexicon_key": "Milonga_(music)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Alfredo_Zitarrosa",
+                    "child_node": "Milonga_(music)",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfredo Zitarrosa is an exponent of Milonga.",
+                "Alfredo Zitarrosa music genre is Milonga.",
+                "The musical genre of Alfredo Zitarrosa is Milonga."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Alfredo_Zitarrosa",
-            "child_node": "Milonga_(music)",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

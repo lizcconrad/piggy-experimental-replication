@@ -1,0 +1,5 @@
+strict digraph {
+"Fall_Creek_Township,_Madison_County,_Indiana" [lexicon_key="Fall_Creek_Township,_Madison_County,_Indiana"];
+United_States [lexicon_key="United_States"];
+"Fall_Creek_Township,_Madison_County,_Indiana" -> United_States [label=country, lexicon_key=country];
+}

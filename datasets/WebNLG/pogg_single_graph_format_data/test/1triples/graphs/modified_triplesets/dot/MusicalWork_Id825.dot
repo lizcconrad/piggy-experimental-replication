@@ -1,0 +1,5 @@
+strict digraph {
+Sludge_metal [lexicon_key="Sludge_metal"];
+Singing [lexicon_key=Singing];
+Sludge_metal -> Singing [label=instrument, lexicon_key=instrument];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "1908-05-02": {
+            "lexicon_key": "1908-05-02"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "1908-05-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born on May 2nd, 1908."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born on May 2, 1908."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was born on 1908-05-02."
+        }
+    },
+    "gold_outputs": []
+}

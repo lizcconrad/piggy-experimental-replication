@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Lionsgate": {
+            "lexicon_key": "Lionsgate"
+        },
+        "Digital_distribution": {
+            "lexicon_key": "Digital_distribution"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "service",
+            "parent_node": "Lionsgate",
+            "child_node": "Digital_distribution",
+            "edge_properties": {
+                "lexicon_key": "service"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lionsgate provides digital distribution service."
+        },
+        "Id2": {
+            "text": "Lionsgate offers digital distribution service."
+        },
+        "Id3": {
+            "text": "Digital distribution is a service of Lionsgate."
+        }
+    },
+    "gold_outputs": []
+}

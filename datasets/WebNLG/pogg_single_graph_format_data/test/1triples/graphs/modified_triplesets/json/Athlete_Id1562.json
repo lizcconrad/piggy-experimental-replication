@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        },
+        "135000000.0": {
+            "lexicon_key": "135000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Gdynia,_Poland",
+            "child_node": "135000000.0",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The total area for Gdynia, Poland is 135.0 square km."
+        },
+        "Id2": {
+            "text": "The total area of Gdynia, Poland is 135,000,000.0."
+        },
+        "Id3": {
+            "text": "Gdynia, Poland has a total area of 135 square kilometres."
+        }
+    },
+    "gold_outputs": []
+}

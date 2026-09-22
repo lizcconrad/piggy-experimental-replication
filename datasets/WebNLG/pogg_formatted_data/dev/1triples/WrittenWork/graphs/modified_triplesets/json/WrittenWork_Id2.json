@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "1634:_The_Bavarian_Crisis": {
-            "lexicon_key": "1634:_The_Bavarian_Crisis"
-        },
-        "The_Grantville_Gazettes": {
-            "lexicon_key": "The_Grantville_Gazettes"
+    "graphs": {
+        "WrittenWork_Id2_0": {
+            "nodes": {
+                "1634:_The_Bavarian_Crisis": {
+                    "lexicon_key": "1634:_The_Bavarian_Crisis"
+                },
+                "The_Grantville_Gazettes": {
+                    "lexicon_key": "The_Grantville_Gazettes"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "precededBy",
+                    "parent_node": "1634:_The_Bavarian_Crisis",
+                    "child_node": "The_Grantville_Gazettes",
+                    "edge_properties": {
+                        "lexicon_key": "precededBy"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1634: The Bavarian Crisis is preceded by The Grantville Gazettes.",
+                "1634: The Bavarian crisis is the sequel to The Grantville Gazettes."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "precededBy",
-            "parent_node": "1634:_The_Bavarian_Crisis",
-            "child_node": "The_Grantville_Gazettes",
-            "edge_properties": {
-                "lexicon_key": "precededBy"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Proto-punk": {
+            "lexicon_key": "Proto-punk"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Rock_music",
+            "child_node": "Proto-punk",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Proto-punk is a music subgenre of rock music."
+        },
+        "Id2": {
+            "text": "Proto-punk is a musical subgenre of rock music."
+        }
+    },
+    "gold_outputs": []
+}

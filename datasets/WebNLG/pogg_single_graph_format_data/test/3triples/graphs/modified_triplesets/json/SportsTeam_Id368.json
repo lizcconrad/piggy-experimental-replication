@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "Campeonato_Brasileiro_S\u00e9rie_C": {
+            "lexicon_key": "Campeonato_Brasileiro_S\u00e9rie_C"
+        },
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "\"''Alvinegro\"": {
+            "lexicon_key": "\"''Alvinegro\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "child_node": "Brazil",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "nickname",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "\"''Alvinegro\"",
+            "edge_properties": {
+                "lexicon_key": "nickname"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense's nickname is Alvinegro and they play in the Campeonato Brasileiro S\u00e9rie C league which is from Brazil."
+        },
+        "Id2": {
+            "text": "Agremiacao Sportiva Arapiraquense (nickname: \"Alvinegro\") plays in the Campeonato Brasileiro Serie C League from Brazil."
+        },
+        "Id3": {
+            "text": "Agremiacao Sportiva Arapiraquense (Alvinegro) play in the Campeonato Brasileiro Serie C league based in Brazil."
+        }
+    },
+    "gold_outputs": []
+}

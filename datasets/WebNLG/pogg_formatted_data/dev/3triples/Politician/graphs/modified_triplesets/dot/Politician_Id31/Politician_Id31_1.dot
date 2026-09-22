@@ -1,0 +1,5 @@
+strict digraph {
+"Aaron_S._Daggett" [lexicon_key="Aaron_S._Daggett"];
+Battle_of_Cold_Harbor [lexicon_key="Battle_of_Cold_Harbor"];
+"Aaron_S._Daggett" -> Battle_of_Cold_Harbor [label=battle, lexicon_key=battle];
+}

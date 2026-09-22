@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Karlsruhe": {
+            "lexicon_key": "Karlsruhe"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Karlsruhe",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born in Karlsruhe, but died in Israel."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born in Karlsruhe and died in Israel."
+        }
+    },
+    "gold_outputs": []
+}

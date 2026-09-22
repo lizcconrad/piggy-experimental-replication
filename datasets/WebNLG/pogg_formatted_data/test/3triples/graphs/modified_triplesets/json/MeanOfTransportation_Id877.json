@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "Detroit": {
+            "lexicon_key": "Detroit"
+        },
+        "Coupe": {
+            "lexicon_key": "Coupe"
+        },
+        "Pontiac": {
+            "lexicon_key": "Pontiac"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Detroit",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "bodyStyle",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Coupe",
+            "edge_properties": {
+                "lexicon_key": "bodyStyle"
+            }
+        },
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Pontiac",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Pontiac makes the Rageous coupe at its plant in Detroit."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous which has a coupe body style, was a car manufactured by Pontiac in Detroit."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous was a car with a coupe body style, manufactured by Pontiac and its assembly line is in Detroit."
+        }
+    },
+    "gold_outputs": []
+}

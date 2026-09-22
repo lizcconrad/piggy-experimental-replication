@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "University_of_Burgundy": {
+            "lexicon_key": "University_of_Burgundy"
+        },
+        "27400": {
+            "lexicon_key": "27400"
+        },
+        "Dijon": {
+            "lexicon_key": "Dijon"
+        },
+        "245.0": {
+            "lexicon_key": "245.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfStudents",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "27400",
+            "edge_properties": {
+                "lexicon_key": "numberOfStudents"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "University_of_Burgundy",
+            "child_node": "Dijon",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Dijon",
+            "child_node": "245.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The University of Burgundy (located in the city of Dijon) has 27400 students. Dijon's elevation is 245.0 above sea level."
+        },
+        "Id2": {
+            "text": "The city of Dijon, at 245 above sea level, is home to the University of Burgundy and its 27400 students."
+        },
+        "Id3": {
+            "text": "The University of Burgundy, which has 27400 students, is located in Dijon and is 245.0 above sea level."
+        }
+    },
+    "gold_outputs": []
+}

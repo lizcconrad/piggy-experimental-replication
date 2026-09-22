@@ -1,0 +1,5 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+Mathematical_optimization [lexicon_key="Mathematical_optimization"];
+Darinka_Dentcheva -> Mathematical_optimization [label=professionalField, lexicon_key=professionalField];
+}

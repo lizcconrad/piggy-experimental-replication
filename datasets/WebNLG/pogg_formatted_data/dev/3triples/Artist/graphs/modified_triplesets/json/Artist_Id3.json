@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Aaron_Turner": {
-            "lexicon_key": "Aaron_Turner"
+    "graphs": {
+        "Artist_Id3_0": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Twilight_(band)": {
+                    "lexicon_key": "Twilight_(band)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Twilight_(band)",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner's music genre is Black Metal and he played with the Twilight band. He is also associated with the Greymachine band.",
+                "Aaron Turner; performs black metal music, played with the band Twilight and played for the Greymachine band.",
+                "Black Metal music is Aaron Turner's thing and he plays for Twilight band. Mr. Turner is also associated with Greymachine, the band."
+            ]
         },
-        "Twilight_(band)": {
-            "lexicon_key": "Twilight_(band)"
+        "Artist_Id3_1": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Greymachine": {
+                    "lexicon_key": "Greymachine"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "associatedBand/associatedMusicalArtist",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Greymachine",
+                    "edge_properties": {
+                        "lexicon_key": "associatedBand/associatedMusicalArtist"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner's music genre is Black Metal and he played with the Twilight band. He is also associated with the Greymachine band.",
+                "Aaron Turner; performs black metal music, played with the band Twilight and played for the Greymachine band.",
+                "Black Metal music is Aaron Turner's thing and he plays for Twilight band. Mr. Turner is also associated with Greymachine, the band."
+            ]
         },
-        "Greymachine": {
-            "lexicon_key": "Greymachine"
-        },
-        "Black_metal": {
-            "lexicon_key": "Black_metal"
+        "Artist_Id3_2": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Black_metal": {
+                    "lexicon_key": "Black_metal"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Black_metal",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner's music genre is Black Metal and he played with the Twilight band. He is also associated with the Greymachine band.",
+                "Aaron Turner; performs black metal music, played with the band Twilight and played for the Greymachine band.",
+                "Black Metal music is Aaron Turner's thing and he plays for Twilight band. Mr. Turner is also associated with Greymachine, the band."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Twilight_(band)",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "associatedBand/associatedMusicalArtist",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Greymachine",
-            "edge_properties": {
-                "lexicon_key": "associatedBand/associatedMusicalArtist"
-            }
-        },
-        {
-            "edge_name": "genre",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Black_metal",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

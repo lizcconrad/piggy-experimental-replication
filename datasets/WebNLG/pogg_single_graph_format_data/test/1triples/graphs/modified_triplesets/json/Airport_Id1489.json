@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "2004": {
+            "lexicon_key": "2004"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingYear",
+            "parent_node": "MotorSport_Vision",
+            "child_node": "2004",
+            "edge_properties": {
+                "lexicon_key": "foundingYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "MotorSport Vision was founded in the year 2004."
+        },
+        "Id2": {
+            "text": "Motorsport vision was founded in 2004."
+        }
+    },
+    "gold_outputs": []
+}

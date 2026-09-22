@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Romania": {
-            "lexicon_key": "Romania"
+    "graphs": {
+        "University_Id7_0": {
+            "nodes": {
+                "Romania": {
+                    "lexicon_key": "Romania"
+                },
+                "Andrew_the_Apostle": {
+                    "lexicon_key": "Andrew_the_Apostle"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "patronSaint",
+                    "parent_node": "Romania",
+                    "child_node": "Andrew_the_Apostle",
+                    "edge_properties": {
+                        "lexicon_key": "patronSaint"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1 Decembrie 1918 University is located in Romania. Its Latin name is \"Universitas Apulensis\". The patron saint of Romania is Andrew the Apostle.",
+                "The 1 Decembrie 1918 University has the Latin name, Universitas Apulensis. It is situated in Romania, which has the patron Saint Andrew the Apostle.",
+                "Universitas Apulensis is the latin name of the 1 Decembrie 1918 University in Romania. The patron saint of the country is Andrew the Apostle."
+            ]
         },
-        "Andrew_the_Apostle": {
-            "lexicon_key": "Andrew_the_Apostle"
+        "University_Id7_1": {
+            "nodes": {
+                "1_Decembrie_1918_University": {
+                    "lexicon_key": "1_Decembrie_1918_University"
+                },
+                "\"Universitas Apulensis\"": {
+                    "lexicon_key": "\"Universitas Apulensis\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "latinName",
+                    "parent_node": "1_Decembrie_1918_University",
+                    "child_node": "\"Universitas Apulensis\"",
+                    "edge_properties": {
+                        "lexicon_key": "latinName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1 Decembrie 1918 University is located in Romania. Its Latin name is \"Universitas Apulensis\". The patron saint of Romania is Andrew the Apostle.",
+                "The 1 Decembrie 1918 University has the Latin name, Universitas Apulensis. It is situated in Romania, which has the patron Saint Andrew the Apostle.",
+                "Universitas Apulensis is the latin name of the 1 Decembrie 1918 University in Romania. The patron saint of the country is Andrew the Apostle."
+            ]
         },
-        "1_Decembrie_1918_University": {
-            "lexicon_key": "1_Decembrie_1918_University"
-        },
-        "\"Universitas Apulensis\"": {
-            "lexicon_key": "\"Universitas Apulensis\""
+        "University_Id7_2": {
+            "nodes": {
+                "1_Decembrie_1918_University": {
+                    "lexicon_key": "1_Decembrie_1918_University"
+                },
+                "Romania": {
+                    "lexicon_key": "Romania"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "1_Decembrie_1918_University",
+                    "child_node": "Romania",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1 Decembrie 1918 University is located in Romania. Its Latin name is \"Universitas Apulensis\". The patron saint of Romania is Andrew the Apostle.",
+                "The 1 Decembrie 1918 University has the Latin name, Universitas Apulensis. It is situated in Romania, which has the patron Saint Andrew the Apostle.",
+                "Universitas Apulensis is the latin name of the 1 Decembrie 1918 University in Romania. The patron saint of the country is Andrew the Apostle."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "patronSaint",
-            "parent_node": "Romania",
-            "child_node": "Andrew_the_Apostle",
-            "edge_properties": {
-                "lexicon_key": "patronSaint"
-            }
-        },
-        {
-            "edge_name": "latinName",
-            "parent_node": "1_Decembrie_1918_University",
-            "child_node": "\"Universitas Apulensis\"",
-            "edge_properties": {
-                "lexicon_key": "latinName"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "1_Decembrie_1918_University",
-            "child_node": "Romania",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

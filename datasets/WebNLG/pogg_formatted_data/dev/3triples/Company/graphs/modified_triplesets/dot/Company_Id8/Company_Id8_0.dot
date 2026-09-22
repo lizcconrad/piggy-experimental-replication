@@ -1,0 +1,5 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+Mantecorp [lexicon_key=Mantecorp];
+Hypermarcas -> Mantecorp [label=subsidiary, lexicon_key=subsidiary];
+}

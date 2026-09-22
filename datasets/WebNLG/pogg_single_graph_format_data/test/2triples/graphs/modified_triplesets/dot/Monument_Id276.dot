@@ -1,0 +1,7 @@
+strict digraph {
+"11th_Mississippi_Infantry_Monument" [lexicon_key="11th_Mississippi_Infantry_Monument"];
+"Adams_County,_Pennsylvania" [lexicon_key="Adams_County,_Pennsylvania"];
+"Frederick_County,_Maryland" [lexicon_key="Frederick_County,_Maryland"];
+"11th_Mississippi_Infantry_Monument" -> "Adams_County,_Pennsylvania" [label=location, lexicon_key=location];
+"Adams_County,_Pennsylvania" -> "Frederick_County,_Maryland" [label=hasToItsSouthwest, lexicon_key=hasToItsSouthwest];
+}

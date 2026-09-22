@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "1776-02-18": {
+            "lexicon_key": "1776-02-18"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "1776-02-18",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson whose nationality was with the Kingdom of England, had a residence in India and died on February 18, 1776."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson, a British national, lived in England but spent most of her life in India. She died on the 18th of February 1776."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson is an English woman who resided in India; she passed away 1776-02-18."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Angola_International_Airport": {
-            "lexicon_key": "Angola_International_Airport"
-        },
-        "Luanda": {
-            "lexicon_key": "Luanda"
+    "graphs": {
+        "Airport_Id20_0": {
+            "nodes": {
+                "Angola_International_Airport": {
+                    "lexicon_key": "Angola_International_Airport"
+                },
+                "Luanda": {
+                    "lexicon_key": "Luanda"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "cityServed",
+                    "parent_node": "Angola_International_Airport",
+                    "child_node": "Luanda",
+                    "edge_properties": {
+                        "lexicon_key": "cityServed"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Angola International Airport city served is Luanda.",
+                "Angola International Airport serves Luanda.",
+                "Angola International Airport serves the city of Luanda."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "cityServed",
-            "parent_node": "Angola_International_Airport",
-            "child_node": "Luanda",
-            "edge_properties": {
-                "lexicon_key": "cityServed"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,7 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+Pacific_Daylight_Time [lexicon_key="Pacific_Daylight_Time"];
+1604.0 [lexicon_key=1604.0];
+Ciudad_Ayala -> Pacific_Daylight_Time [label=timeZone, lexicon_key=timeZone];
+Ciudad_Ayala -> 1604.0 [label=populationDensity, lexicon_key=populationDensity];
+}

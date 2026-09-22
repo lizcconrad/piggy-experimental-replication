@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "1950-01-26": {
+            "lexicon_key": "1950-01-26"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "India",
+            "child_node": "1950-01-26",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "India was founded on January 26, 1950."
+        },
+        "Id2": {
+            "text": "India was founded on the 26th of January in 1950."
+        },
+        "Id3": {
+            "text": "India was founded on January 26th, 1950."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Maher [lexicon_key="Adam_Maher"];
+PSV_Eindhoven [lexicon_key="PSV_Eindhoven"];
+Adam_Maher -> PSV_Eindhoven [label=club, lexicon_key=club];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Mexico [lexicon_key=Mexico];
+1972550.0 [lexicon_key=1972550.0];
+Mexico -> 1972550.0 [label=areaTotal, lexicon_key=areaTotal];
+}

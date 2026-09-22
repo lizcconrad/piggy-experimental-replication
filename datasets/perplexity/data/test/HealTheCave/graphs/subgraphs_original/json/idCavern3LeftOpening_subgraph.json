@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idCavern3LeftOpening": {
-            "lexicon_key": "idCavern3LeftOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idCavern3LeftOpening_subgraph_0": {
+            "nodes": {
+                "idCavern3LeftOpening": {
+                    "lexicon_key": "idCavern3LeftOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

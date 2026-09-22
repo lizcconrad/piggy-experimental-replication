@@ -1,0 +1,5 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+Bedford_Autodrome [lexicon_key="Bedford_Autodrome"];
+Bedford_Aerodrome -> Bedford_Autodrome [label=cityServed, lexicon_key=cityServed];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Cyril_Frankel",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Cyril Frankel was born in the UK."
+        },
+        "Id2": {
+            "text": "Cyril Frankel's birth place was in the United Kingdom."
+        },
+        "Id3": {
+            "text": "Cyril Frankel was born in the United Kingdom."
+        }
+    },
+    "gold_outputs": []
+}

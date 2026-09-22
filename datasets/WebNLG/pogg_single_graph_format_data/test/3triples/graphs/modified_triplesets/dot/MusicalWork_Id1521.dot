@@ -1,0 +1,9 @@
+strict digraph {
+Expect_a_Miracle [lexicon_key="Expect_a_Miracle"];
+"Brian_Kelly_(composer_&_pianist)" [lexicon_key="Brian_Kelly_(composer_&_pianist)"];
+54.56 [lexicon_key=54.56];
+Compilation_Album [lexicon_key="Compilation_Album"];
+Expect_a_Miracle -> "Brian_Kelly_(composer_&_pianist)" [label=producer, lexicon_key=producer];
+Expect_a_Miracle -> 54.56 [label=runtime, lexicon_key=runtime];
+Expect_a_Miracle -> Compilation_Album [label=type, lexicon_key=type];
+}

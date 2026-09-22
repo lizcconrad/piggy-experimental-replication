@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "Leningrad,_USSR": {
+            "lexicon_key": "Leningrad,_USSR"
+        },
+        "1937-04-27": {
+            "lexicon_key": "1937-04-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad,_USSR",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1937-04-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva who was born on April 27, 1937 in Leningrad, USSR, died in Saint Petersburg."
+        },
+        "Id2": {
+            "text": "Olga Bondareva was born in Leningrad, which was part of the USSR, on April 27, 1937. She later passed away in Saint Petersburg."
+        },
+        "Id3": {
+            "text": "Olga Bondareva who was born in Leningrad, USSR on April 27, 1937 died in Saint Petersburg."
+        }
+    },
+    "gold_outputs": []
+}

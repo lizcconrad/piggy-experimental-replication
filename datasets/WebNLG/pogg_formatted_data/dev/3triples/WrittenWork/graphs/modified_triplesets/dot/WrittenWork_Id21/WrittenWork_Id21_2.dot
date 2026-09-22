@@ -1,0 +1,5 @@
+strict digraph {
+Acta_Mathematica_Hungarica [lexicon_key="Acta_Mathematica_Hungarica"];
+"0236-5294" [lexicon_key="0236-5294"];
+Acta_Mathematica_Hungarica -> "0236-5294" [label=issnNumber, lexicon_key=issnNumber];
+}

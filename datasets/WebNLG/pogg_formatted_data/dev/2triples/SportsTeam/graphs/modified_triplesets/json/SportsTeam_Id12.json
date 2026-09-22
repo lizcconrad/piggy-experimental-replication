@@ -1,33 +1,54 @@
 {
-    "nodes": {
-        "ACF_Fiorentina": {
-            "lexicon_key": "ACF_Fiorentina"
+    "graphs": {
+        "SportsTeam_Id12_0": {
+            "nodes": {
+                "ACF_Fiorentina": {
+                    "lexicon_key": "ACF_Fiorentina"
+                },
+                "Serie_A": {
+                    "lexicon_key": "Serie_A"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "league",
+                    "parent_node": "ACF_Fiorentina",
+                    "child_node": "Serie_A",
+                    "edge_properties": {
+                        "lexicon_key": "league"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "ACF Fiorentina play in Serie A based in Italy.",
+                "ACF Fiorentina play in Serie A which is based in Italy."
+            ]
         },
-        "Serie_A": {
-            "lexicon_key": "Serie_A"
-        },
-        "Italy": {
-            "lexicon_key": "Italy"
+        "SportsTeam_Id12_1": {
+            "nodes": {
+                "Serie_A": {
+                    "lexicon_key": "Serie_A"
+                },
+                "Italy": {
+                    "lexicon_key": "Italy"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Serie_A",
+                    "child_node": "Italy",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "ACF Fiorentina play in Serie A based in Italy.",
+                "ACF Fiorentina play in Serie A which is based in Italy."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "league",
-            "parent_node": "ACF_Fiorentina",
-            "child_node": "Serie_A",
-            "edge_properties": {
-                "lexicon_key": "league"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Serie_A",
-            "child_node": "Italy",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

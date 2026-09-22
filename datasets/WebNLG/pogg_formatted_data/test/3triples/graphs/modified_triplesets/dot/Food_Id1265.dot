@@ -1,0 +1,9 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Dessert [lexicon_key=Dessert];
+Guadalajara [lexicon_key=Guadalajara];
+Mexico [lexicon_key=Mexico];
+Bionico -> Dessert [label=course, lexicon_key=course];
+Bionico -> Guadalajara [label=region, lexicon_key=region];
+Bionico -> Mexico [label=country, lexicon_key=country];
+}

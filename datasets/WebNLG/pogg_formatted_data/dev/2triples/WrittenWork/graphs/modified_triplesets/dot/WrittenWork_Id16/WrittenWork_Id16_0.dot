@@ -1,0 +1,5 @@
+strict digraph {
+Above_the_Veil [lexicon_key="Above_the_Veil"];
+Australians [lexicon_key=Australians];
+Above_the_Veil -> Australians [label=country, lexicon_key=country];
+}

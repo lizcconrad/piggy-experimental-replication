@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Noise_rock": {
+            "lexicon_key": "Noise_rock"
+        },
+        "Noise_pop": {
+            "lexicon_key": "Noise_pop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Noise_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Noise_rock",
+            "child_node": "Noise_pop",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Noise pop is a fusion genre, having elements from noise rock, which is the genre of the album Turn Me On, among other things."
+        },
+        "Id2": {
+            "text": "Noise pop is a fusion genre of noise rock an example of which is Turn Me On album."
+        },
+        "Id3": {
+            "text": "The album Turn Me On is an example of the genre known as noise rock, a fusion genre having elements of noise pop among other things."
+        }
+    },
+    "gold_outputs": []
+}

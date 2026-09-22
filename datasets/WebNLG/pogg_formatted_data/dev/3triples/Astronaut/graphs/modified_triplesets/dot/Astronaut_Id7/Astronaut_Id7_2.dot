@@ -1,0 +1,5 @@
+strict digraph {
+Elliot_See [lexicon_key="Elliot_See"];
+Dallas [lexicon_key=Dallas];
+Elliot_See -> Dallas [label=birthPlace, lexicon_key=birthPlace];
+}

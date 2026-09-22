@@ -1,0 +1,5 @@
+strict digraph {
+Adirondack_Regional_Airport [lexicon_key="Adirondack_Regional_Airport"];
+"Saranac_Lake,_New_York" [lexicon_key="Saranac_Lake,_New_York"];
+Adirondack_Regional_Airport -> "Saranac_Lake,_New_York" [label=cityServed, lexicon_key=cityServed];
+}

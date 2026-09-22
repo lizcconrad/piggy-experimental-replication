@@ -1,0 +1,7 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+5594 [lexicon_key=5594];
+15100000000 [lexicon_key=15100000000];
+Chinabank -> 5594 [label=numberOfEmployees, lexicon_key=numberOfEmployees];
+Chinabank -> 15100000000 [label=netIncome, lexicon_key=netIncome];
+}

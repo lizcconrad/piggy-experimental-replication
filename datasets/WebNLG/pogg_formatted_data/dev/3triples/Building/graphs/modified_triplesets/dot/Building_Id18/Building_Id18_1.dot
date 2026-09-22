@@ -1,0 +1,5 @@
+strict digraph {
+Mason_School_of_Business [lexicon_key="Mason_School_of_Business"];
+United_States [lexicon_key="United_States"];
+Mason_School_of_Business -> United_States [label=country, lexicon_key=country];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+Malaysia [lexicon_key=Malaysia];
+Ayam_penyet -> Malaysia [label=region, lexicon_key=region];
+}

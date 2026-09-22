@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Alfons_Gorbach": {
-            "lexicon_key": "Alfons_Gorbach"
+    "graphs": {
+        "Politician_Id27_0": {
+            "nodes": {
+                "Alfons_Gorbach": {
+                    "lexicon_key": "Alfons_Gorbach"
+                },
+                "Adolf_Sch\u00e4rf": {
+                    "lexicon_key": "Adolf_Sch\u00e4rf"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "inOfficeWhilePresident",
+                    "parent_node": "Alfons_Gorbach",
+                    "child_node": "Adolf_Sch\u00e4rf",
+                    "edge_properties": {
+                        "lexicon_key": "inOfficeWhilePresident"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfons Gorbach, born in Austria, was in office while Adolf Scharf was President.",
+                "Alfons Gorbach, who was born in Austria, was in office while Adolf Scharf was President.",
+                "The Austrian Alfons Gorbach was in office during the reign of President Adolf Scharf."
+            ]
         },
-        "Adolf_Sch\u00e4rf": {
-            "lexicon_key": "Adolf_Sch\u00e4rf"
-        },
-        "Austria": {
-            "lexicon_key": "Austria"
+        "Politician_Id27_1": {
+            "nodes": {
+                "Alfons_Gorbach": {
+                    "lexicon_key": "Alfons_Gorbach"
+                },
+                "Austria": {
+                    "lexicon_key": "Austria"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alfons_Gorbach",
+                    "child_node": "Austria",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfons Gorbach, born in Austria, was in office while Adolf Scharf was President.",
+                "Alfons Gorbach, who was born in Austria, was in office while Adolf Scharf was President.",
+                "The Austrian Alfons Gorbach was in office during the reign of President Adolf Scharf."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "inOfficeWhilePresident",
-            "parent_node": "Alfons_Gorbach",
-            "child_node": "Adolf_Sch\u00e4rf",
-            "edge_properties": {
-                "lexicon_key": "inOfficeWhilePresident"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alfons_Gorbach",
-            "child_node": "Austria",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

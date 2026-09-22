@@ -1,0 +1,5 @@
+strict digraph {
+"ALCO_RS-3" [lexicon_key="ALCO_RS-3"];
+Montreal_Locomotive_Works [lexicon_key="Montreal_Locomotive_Works"];
+"ALCO_RS-3" -> Montreal_Locomotive_Works [label=builder, lexicon_key=builder];
+}

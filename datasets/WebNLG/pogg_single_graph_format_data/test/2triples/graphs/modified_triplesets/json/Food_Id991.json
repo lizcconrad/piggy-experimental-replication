@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Jalisco": {
+            "lexicon_key": "Jalisco"
+        },
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Bionico",
+            "child_node": "Jalisco",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bionico",
+            "child_node": "Mexico",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bionico is a food found in Mexico from the region Jalisco."
+        },
+        "Id2": {
+            "text": "Bionico is a found that is popular in the region of Jalisco, Mexico."
+        },
+        "Id3": {
+            "text": "Bionico is a food found in the Jalisco, Mexico."
+        }
+    },
+    "gold_outputs": []
+}

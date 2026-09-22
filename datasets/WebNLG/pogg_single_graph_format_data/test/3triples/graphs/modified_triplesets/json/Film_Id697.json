@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Tom_Simon": {
+            "lexicon_key": "Tom_Simon"
+        },
+        "HBO": {
+            "lexicon_key": "HBO"
+        },
+        "Geof_Bartz": {
+            "lexicon_key": "Geof_Bartz"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Tom_Simon",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "HBO",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "editor",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Geof_Bartz",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tom Simon directed the film \u2018Death on a Factory Farm\u2019 which was edited by Geof Bartz and broadcasted by HBO."
+        },
+        "Id2": {
+            "text": "Geof Bartz is the editor of 'Death on a Factory Farm' which was released by HBO and directed by Tom Simon."
+        },
+        "Id3": {
+            "text": "Death on a Factory Farm, which was broadcasted by HBO, was directed by Tom Simon and edited by Geof Bartz."
+        }
+    },
+    "gold_outputs": []
+}

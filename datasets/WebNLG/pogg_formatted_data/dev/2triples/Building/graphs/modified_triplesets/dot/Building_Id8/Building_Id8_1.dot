@@ -1,0 +1,5 @@
+strict digraph {
+Live_Nation_Entertainment [lexicon_key="Live_Nation_Entertainment"];
+"Beverly_Hills,_California" [lexicon_key="Beverly_Hills,_California"];
+Live_Nation_Entertainment -> "Beverly_Hills,_California" [label=location, lexicon_key=location];
+}

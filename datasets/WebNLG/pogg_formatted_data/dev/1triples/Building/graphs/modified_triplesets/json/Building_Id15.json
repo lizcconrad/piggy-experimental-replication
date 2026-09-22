@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Ampara_Hospital": {
-            "lexicon_key": "Ampara_Hospital"
-        },
-        "Sri_Lanka": {
-            "lexicon_key": "Sri_Lanka"
+    "graphs": {
+        "Building_Id15_0": {
+            "nodes": {
+                "Ampara_Hospital": {
+                    "lexicon_key": "Ampara_Hospital"
+                },
+                "Sri_Lanka": {
+                    "lexicon_key": "Sri_Lanka"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Ampara_Hospital",
+                    "child_node": "Sri_Lanka",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Ampara Hospital is in Sri Lanka.",
+                "Ampara Hospital is located in Sri Lanka."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Ampara_Hospital",
-            "child_node": "Sri_Lanka",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

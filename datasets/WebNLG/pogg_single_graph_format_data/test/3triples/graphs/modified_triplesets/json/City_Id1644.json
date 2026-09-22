@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "1777539": {
+            "lexicon_key": "1777539"
+        },
+        "Governator": {
+            "lexicon_key": "Governator"
+        },
+        "Pacific_Daylight_Time": {
+            "lexicon_key": "Pacific_Daylight_Time"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationMetro",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1777539",
+            "edge_properties": {
+                "lexicon_key": "populationMetro"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Governator",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Daylight_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala, located in the Pacific Daylight Time Zone, has a metropolitan population of 1,777,539, and the leader is called the governator."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is located in the Pacific Daylight time zone with a leader called the Governator, and the population of 1777539."
+        },
+        "Id3": {
+            "text": "In Ciudad Ayala (PDT time zone) the leader is called the governator. The population of the metropolitan is 1,777,539."
+        }
+    },
+    "gold_outputs": []
+}

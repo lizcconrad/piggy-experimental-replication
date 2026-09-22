@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Pontiac": {
+            "lexicon_key": "Pontiac"
+        },
+        "Buick": {
+            "lexicon_key": "Buick"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Pontiac",
+            "child_node": "Buick",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buick is the successor of Pontiac."
+        },
+        "Id2": {
+            "text": "One of the successors of Pontiac is Buick."
+        },
+        "Id3": {
+            "text": "The successor to Pontiac is Buick."
+        }
+    },
+    "gold_outputs": []
+}

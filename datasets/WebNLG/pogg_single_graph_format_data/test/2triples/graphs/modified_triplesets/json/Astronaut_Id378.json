@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "Hubei": {
+            "lexicon_key": "Hubei"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Zaoyang",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Zaoyang",
+            "child_node": "Hubei",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nie Haisheng is from Zaoyang in Hubei province."
+        },
+        "Id2": {
+            "text": "Nie Haisheng was born in Zaoyang, which is part of Hubei province."
+        },
+        "Id3": {
+            "text": "Nie Haisheng was born in Zaoyang which is a city that is a part of Hubei province."
+        }
+    },
+    "gold_outputs": []
+}

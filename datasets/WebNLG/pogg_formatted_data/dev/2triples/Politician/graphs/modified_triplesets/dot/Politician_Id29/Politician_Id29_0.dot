@@ -1,0 +1,5 @@
+strict digraph {
+"Alfred_N._Phillips" [lexicon_key="Alfred_N._Phillips"];
+United_States_Army [lexicon_key="United_States_Army"];
+"Alfred_N._Phillips" -> United_States_Army [label=militaryBranch, lexicon_key=militaryBranch];
+}

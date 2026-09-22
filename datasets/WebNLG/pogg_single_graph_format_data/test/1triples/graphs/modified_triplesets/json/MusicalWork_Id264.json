@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Polydor_Records": {
+            "lexicon_key": "Polydor_Records"
+        },
+        "Universal_Music_Group": {
+            "lexicon_key": "Universal_Music_Group"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "parentCompany",
+            "parent_node": "Polydor_Records",
+            "child_node": "Universal_Music_Group",
+            "edge_properties": {
+                "lexicon_key": "parentCompany"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The parent company of Polydor Records is Universal Music Group."
+        },
+        "Id2": {
+            "text": "Universal Music Group is the parent company of Polydor Records."
+        },
+        "Id3": {
+            "text": "Polydor Records' parent company is Universal Music Group."
+        }
+    },
+    "gold_outputs": []
+}

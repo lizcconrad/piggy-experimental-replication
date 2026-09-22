@@ -1,0 +1,7 @@
+strict digraph {
+Bananaman [lexicon_key=Bananaman];
+"1986-04-15" [lexicon_key="1986-04-15"];
+BBC [lexicon_key=BBC];
+Bananaman -> "1986-04-15" [label=lastAired, lexicon_key=lastAired];
+Bananaman -> BBC [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

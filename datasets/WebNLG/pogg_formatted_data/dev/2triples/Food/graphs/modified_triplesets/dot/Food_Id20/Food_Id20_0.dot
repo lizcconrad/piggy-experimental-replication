@@ -1,0 +1,5 @@
+strict digraph {
+Bakewell_pudding [lexicon_key="Bakewell_pudding"];
+Bakewell_tart [lexicon_key="Bakewell_tart"];
+Bakewell_pudding -> Bakewell_tart [label=dishVariation, lexicon_key=dishVariation];
+}

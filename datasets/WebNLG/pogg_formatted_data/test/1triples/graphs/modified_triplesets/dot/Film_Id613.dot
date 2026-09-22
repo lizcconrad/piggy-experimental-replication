@@ -1,0 +1,5 @@
+strict digraph {
+Roadside_Attractions [lexicon_key="Roadside_Attractions"];
+"2003-01-01" [lexicon_key="2003-01-01"];
+Roadside_Attractions -> "2003-01-01" [label=foundingYear, lexicon_key=foundingYear];
+}

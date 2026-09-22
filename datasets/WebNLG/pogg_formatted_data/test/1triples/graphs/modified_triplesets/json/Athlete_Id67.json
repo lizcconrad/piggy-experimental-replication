@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        },
+        "+2": {
+            "lexicon_key": "+2"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Gdynia,_Poland",
+            "child_node": "+2",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Gdynia city in Poland has time zone of UTC +2 ."
+        },
+        "Id2": {
+            "text": "Gdynia in Poland has a UTC (Coordinate Universal Time) offset of +2."
+        },
+        "Id3": {
+            "text": "Gdynia, Poland has a UTC of +02:00."
+        }
+    },
+    "gold_outputs": []
+}

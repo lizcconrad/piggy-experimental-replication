@@ -1,0 +1,5 @@
+strict digraph {
+ACM_Transactions_on_Information_Systems [lexicon_key="ACM_Transactions_on_Information_Systems"];
+Computer_science [lexicon_key="Computer_science"];
+ACM_Transactions_on_Information_Systems -> Computer_science [label=academicDiscipline, lexicon_key=academicDiscipline];
+}

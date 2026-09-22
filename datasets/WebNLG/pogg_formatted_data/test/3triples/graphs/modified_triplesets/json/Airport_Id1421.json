@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        },
+        "83.2104": {
+            "lexicon_key": "83.2104"
+        },
+        "\"08/26\"": {
+            "lexicon_key": "\"08/26\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "83.2104",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        },
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "\"08/26\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bedford Aerodrome runway, which is 1095 long, is named 08/26 and its elevation above sea level is 83.2104 meters."
+        },
+        "Id2": {
+            "text": "Bedford Aerodrome has a runway named 08/26 that has a length of 1095.0 and is located 83.2104 above sea level."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome is 83.2 meters above sea level. The runway has a length of 1095 and is named 08/26."
+        }
+    },
+    "gold_outputs": []
+}

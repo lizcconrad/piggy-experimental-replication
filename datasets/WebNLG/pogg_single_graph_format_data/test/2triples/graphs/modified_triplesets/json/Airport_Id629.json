@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Bedford Aerodrome is located in Thurleigh and has an ICAO location identifier of EGBF."
+        },
+        "Id2": {
+            "text": "The ICAO location identifier for Bedford Aerodrome is EGBF and is located in Thurleigh."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome in Thurleigh has its International Civil Aviation Organization (ICAO) identifier as EGBF."
+        }
+    },
+    "gold_outputs": []
+}

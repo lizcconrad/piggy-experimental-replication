@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "AIP_Advances": {
-            "lexicon_key": "AIP_Advances"
+    "graphs": {
+        "WrittenWork_Id10_0": {
+            "nodes": {
+                "AIP_Advances": {
+                    "lexicon_key": "AIP_Advances"
+                },
+                "A.T._Charlie_Johnson": {
+                    "lexicon_key": "A.T._Charlie_Johnson"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "editor",
+                    "parent_node": "AIP_Advances",
+                    "child_node": "A.T._Charlie_Johnson",
+                    "edge_properties": {
+                        "lexicon_key": "editor"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "\"AIP Adv.\" is the abbreviation of AIP Advances which is edited by A T Charlie Johnson and has the CODEN code AAIDBI.",
+                "A T Charlie Johnson is the editor of AIP Advances which is abbreviated to AIP Adv and has a CODEN code of AAIDBI.",
+                "AIP Advances, or AIP Adv., has a CODEN of AAIDBI and is edited by A. T. Charlie Johnson."
+            ]
         },
-        "A.T._Charlie_Johnson": {
-            "lexicon_key": "A.T._Charlie_Johnson"
+        "WrittenWork_Id10_1": {
+            "nodes": {
+                "AIP_Advances": {
+                    "lexicon_key": "AIP_Advances"
+                },
+                "\"AIP Adv.\"": {
+                    "lexicon_key": "\"AIP Adv.\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "abbreviation",
+                    "parent_node": "AIP_Advances",
+                    "child_node": "\"AIP Adv.\"",
+                    "edge_properties": {
+                        "lexicon_key": "abbreviation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "\"AIP Adv.\" is the abbreviation of AIP Advances which is edited by A T Charlie Johnson and has the CODEN code AAIDBI.",
+                "A T Charlie Johnson is the editor of AIP Advances which is abbreviated to AIP Adv and has a CODEN code of AAIDBI.",
+                "AIP Advances, or AIP Adv., has a CODEN of AAIDBI and is edited by A. T. Charlie Johnson."
+            ]
         },
-        "\"AIP Adv.\"": {
-            "lexicon_key": "\"AIP Adv.\""
-        },
-        "\"AAIDBI\"": {
-            "lexicon_key": "\"AAIDBI\""
+        "WrittenWork_Id10_2": {
+            "nodes": {
+                "AIP_Advances": {
+                    "lexicon_key": "AIP_Advances"
+                },
+                "\"AAIDBI\"": {
+                    "lexicon_key": "\"AAIDBI\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "codenCode",
+                    "parent_node": "AIP_Advances",
+                    "child_node": "\"AAIDBI\"",
+                    "edge_properties": {
+                        "lexicon_key": "codenCode"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "\"AIP Adv.\" is the abbreviation of AIP Advances which is edited by A T Charlie Johnson and has the CODEN code AAIDBI.",
+                "A T Charlie Johnson is the editor of AIP Advances which is abbreviated to AIP Adv and has a CODEN code of AAIDBI.",
+                "AIP Advances, or AIP Adv., has a CODEN of AAIDBI and is edited by A. T. Charlie Johnson."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "editor",
-            "parent_node": "AIP_Advances",
-            "child_node": "A.T._Charlie_Johnson",
-            "edge_properties": {
-                "lexicon_key": "editor"
-            }
-        },
-        {
-            "edge_name": "abbreviation",
-            "parent_node": "AIP_Advances",
-            "child_node": "\"AIP Adv.\"",
-            "edge_properties": {
-                "lexicon_key": "abbreviation"
-            }
-        },
-        {
-            "edge_name": "codenCode",
-            "parent_node": "AIP_Advances",
-            "child_node": "\"AAIDBI\"",
-            "edge_properties": {
-                "lexicon_key": "codenCode"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

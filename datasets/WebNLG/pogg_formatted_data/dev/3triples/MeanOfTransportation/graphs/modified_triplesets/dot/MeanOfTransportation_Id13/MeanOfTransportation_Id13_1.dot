@@ -1,0 +1,5 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"63800.0 (millimetres)" [lexicon_key="63800.0 (millimetres)"];
+Alhambra -> "63800.0 (millimetres)" [label=length, lexicon_key=length];
+}

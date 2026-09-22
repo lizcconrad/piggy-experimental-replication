@@ -1,0 +1,7 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+India [lexicon_key=India];
+"T._S._Thakur" [lexicon_key="T._S._Thakur"];
+Lady_Anne_Monson -> India [label=residence, lexicon_key=residence];
+India -> "T._S._Thakur" [label=leader, lexicon_key=leader];
+}

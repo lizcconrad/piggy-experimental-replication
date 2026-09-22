@@ -1,0 +1,5 @@
+strict digraph {
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+Mayor [lexicon_key=Mayor];
+"La_Crosse,_Wisconsin" -> Mayor [label=leaderTitle, lexicon_key=leaderTitle];
+}

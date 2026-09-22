@@ -1,0 +1,5 @@
+strict digraph {
+Darlington [lexicon_key=Darlington];
+01325 [lexicon_key=01325];
+Darlington -> 01325 [label=areaCode, lexicon_key=areaCode];
+}

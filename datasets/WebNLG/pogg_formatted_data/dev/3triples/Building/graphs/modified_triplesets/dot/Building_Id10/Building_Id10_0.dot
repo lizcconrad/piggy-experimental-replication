@@ -1,0 +1,5 @@
+strict digraph {
+AC_Hotel_Bella_Sky_Copenhagen [lexicon_key="AC_Hotel_Bella_Sky_Copenhagen"];
+Denmark [lexicon_key=Denmark];
+AC_Hotel_Bella_Sky_Copenhagen -> Denmark [label=location, lexicon_key=location];
+}

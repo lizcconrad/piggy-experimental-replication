@@ -1,0 +1,7 @@
+strict digraph {
+Pontiac_Rageous [lexicon_key="Pontiac_Rageous"];
+1997 [lexicon_key=1997];
+Michigan [lexicon_key=Michigan];
+Pontiac_Rageous -> 1997 [label=productionStartYear, lexicon_key=productionStartYear];
+Pontiac_Rageous -> Michigan [label=assembly, lexicon_key=assembly];
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "1997": {
+            "lexicon_key": "1997"
+        },
+        "Coupe": {
+            "lexicon_key": "Coupe"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "productionStartYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionStartYear"
+            }
+        },
+        {
+            "edge_name": "bodyStyle",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Coupe",
+            "edge_properties": {
+                "lexicon_key": "bodyStyle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous coupe went into production in 1997."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous, first produced in 1997, was a car with a coupe body style."
+        },
+        "Id3": {
+            "text": "The coupe style Pontiac Rageous was first produced in 1997."
+        }
+    },
+    "gold_outputs": []
+}

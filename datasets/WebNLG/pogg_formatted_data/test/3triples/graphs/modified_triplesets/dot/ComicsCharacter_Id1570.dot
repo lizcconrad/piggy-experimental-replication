@@ -1,0 +1,9 @@
+strict digraph {
+BBC [lexicon_key=BBC];
+Broadcasting_House [lexicon_key="Broadcasting_House"];
+Bananaman [lexicon_key=Bananaman];
+Bill_Oddie [lexicon_key="Bill_Oddie"];
+BBC -> Broadcasting_House [label=city, lexicon_key=city];
+Bananaman -> Bill_Oddie [label=starring, lexicon_key=starring];
+Bananaman -> BBC [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

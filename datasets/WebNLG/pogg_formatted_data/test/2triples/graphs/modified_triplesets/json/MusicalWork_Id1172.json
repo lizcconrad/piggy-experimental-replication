@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Reggae": {
+            "lexicon_key": "Reggae"
+        },
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Reggae",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Imagine_(John_Lennon_song)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Train song \u201cMermaid\u201d, which is an example of the reggae genre, was followed by the band\u2019s cover of \u201cImagine\u201d by John Lennon."
+        },
+        "Id2": {
+            "text": "The song Mermaid by Train a reggae genre, was followed by the release of Imagine by John Lennon performed by Train."
+        },
+        "Id3": {
+            "text": "The Train song Mermaid, which is written in the reggae music genre, is followed by the song Imagine by John Lennon."
+        }
+    },
+    "gold_outputs": []
+}

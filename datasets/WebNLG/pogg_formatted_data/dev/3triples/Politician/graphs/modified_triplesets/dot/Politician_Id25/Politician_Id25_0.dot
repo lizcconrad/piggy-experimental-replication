@@ -1,0 +1,5 @@
+strict digraph {
+Allan_Shivers [lexicon_key="Allan_Shivers"];
+"Democratic_Party_(United_States)" [lexicon_key="Democratic_Party_(United_States)"];
+Allan_Shivers -> "Democratic_Party_(United_States)" [label=party, lexicon_key=party];
+}

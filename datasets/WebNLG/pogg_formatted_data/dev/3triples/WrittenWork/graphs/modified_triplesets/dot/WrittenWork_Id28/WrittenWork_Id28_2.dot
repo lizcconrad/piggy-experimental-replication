@@ -1,0 +1,5 @@
+strict digraph {
+Administrative_Science_Quarterly [lexicon_key="Administrative_Science_Quarterly"];
+SAGE_Publications [lexicon_key="SAGE_Publications"];
+Administrative_Science_Quarterly -> SAGE_Publications [label=publisher, lexicon_key=publisher];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+Lady_Anne_Monson -> Kingdom_of_England [label=nationality, lexicon_key=nationality];
+}

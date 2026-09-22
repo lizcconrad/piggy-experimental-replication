@@ -1,44 +1,75 @@
 {
-    "nodes": {
-        "Amsterdam_Airport_Schiphol": {
-            "lexicon_key": "Amsterdam_Airport_Schiphol"
+    "graphs": {
+        "Airport_Id11_0": {
+            "nodes": {
+                "Amsterdam_Airport_Schiphol": {
+                    "lexicon_key": "Amsterdam_Airport_Schiphol"
+                },
+                "Amsterdam": {
+                    "lexicon_key": "Amsterdam"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "cityServed",
+                    "parent_node": "Amsterdam_Airport_Schiphol",
+                    "child_node": "Amsterdam",
+                    "edge_properties": {
+                        "lexicon_key": "cityServed"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Amsterdam airport, Schiphol which serves the city of Amsterdam is located at -3.3528 metres above sea level and has a runway length of 3500."
+            ]
         },
-        "Amsterdam": {
-            "lexicon_key": "Amsterdam"
+        "Airport_Id11_1": {
+            "nodes": {
+                "Amsterdam_Airport_Schiphol": {
+                    "lexicon_key": "Amsterdam_Airport_Schiphol"
+                },
+                "3500.0": {
+                    "lexicon_key": "3500.0"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "runwayLength",
+                    "parent_node": "Amsterdam_Airport_Schiphol",
+                    "child_node": "3500.0",
+                    "edge_properties": {
+                        "lexicon_key": "runwayLength"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Amsterdam airport, Schiphol which serves the city of Amsterdam is located at -3.3528 metres above sea level and has a runway length of 3500."
+            ]
         },
-        "3500.0": {
-            "lexicon_key": "3500.0"
-        },
-        "-3.3528": {
-            "lexicon_key": "-3.3528"
+        "Airport_Id11_2": {
+            "nodes": {
+                "Amsterdam_Airport_Schiphol": {
+                    "lexicon_key": "Amsterdam_Airport_Schiphol"
+                },
+                "-3.3528": {
+                    "lexicon_key": "-3.3528"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "elevationAboveTheSeaLevel",
+                    "parent_node": "Amsterdam_Airport_Schiphol",
+                    "child_node": "-3.3528",
+                    "edge_properties": {
+                        "lexicon_key": "elevationAboveTheSeaLevel"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Amsterdam airport, Schiphol which serves the city of Amsterdam is located at -3.3528 metres above sea level and has a runway length of 3500."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "cityServed",
-            "parent_node": "Amsterdam_Airport_Schiphol",
-            "child_node": "Amsterdam",
-            "edge_properties": {
-                "lexicon_key": "cityServed"
-            }
-        },
-        {
-            "edge_name": "runwayLength",
-            "parent_node": "Amsterdam_Airport_Schiphol",
-            "child_node": "3500.0",
-            "edge_properties": {
-                "lexicon_key": "runwayLength"
-            }
-        },
-        {
-            "edge_name": "elevationAboveTheSeaLevel",
-            "parent_node": "Amsterdam_Airport_Schiphol",
-            "child_node": "-3.3528",
-            "edge_properties": {
-                "lexicon_key": "elevationAboveTheSeaLevel"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

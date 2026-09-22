@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Athens": {
-            "lexicon_key": "Athens"
-        },
-        "Giorgos_Kaminis": {
-            "lexicon_key": "Giorgos_Kaminis"
+    "graphs": {
+        "Airport_Id22_0": {
+            "nodes": {
+                "Athens": {
+                    "lexicon_key": "Athens"
+                },
+                "Giorgos_Kaminis": {
+                    "lexicon_key": "Giorgos_Kaminis"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mayor",
+                    "parent_node": "Athens",
+                    "child_node": "Giorgos_Kaminis",
+                    "edge_properties": {
+                        "lexicon_key": "mayor"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Athens mayor is Giorgos Kaminis.",
+                "Giorgos Kaminis is the mayor of Athens.",
+                "The mayor of Athens is Giorgos Kaminis."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "mayor",
-            "parent_node": "Athens",
-            "child_node": "Giorgos_Kaminis",
-            "edge_properties": {
-                "lexicon_key": "mayor"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

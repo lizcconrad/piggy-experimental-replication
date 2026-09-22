@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "\"Vice President\"": {
+            "lexicon_key": "\"Vice President\""
+        },
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "United_States",
+            "child_node": "\"Vice President\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva currently resides in the US state of New Jersey, where one of the leaders of the country is the Vice President."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva resides in New Jersey, which is in the United States has a Vice President as a title for one of the leaders."
+        },
+        "Id3": {
+            "text": "Darinka Dentcheva is from New Jersey, United States. The Vice President of the United States is a leader."
+        }
+    },
+    "gold_outputs": []
+}

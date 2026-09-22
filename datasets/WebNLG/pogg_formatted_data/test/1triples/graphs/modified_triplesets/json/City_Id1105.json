@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is part of Morelos."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a part of Morelos."
+        }
+    },
+    "gold_outputs": []
+}

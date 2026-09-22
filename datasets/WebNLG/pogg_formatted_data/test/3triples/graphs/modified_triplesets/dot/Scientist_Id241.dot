@@ -1,0 +1,9 @@
+strict digraph {
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+New_Jersey [lexicon_key="New_Jersey"];
+United_States [lexicon_key="United_States"];
+Federalism [lexicon_key=Federalism];
+Darinka_Dentcheva -> New_Jersey [label=residence, lexicon_key=residence];
+Darinka_Dentcheva -> United_States [label=residence, lexicon_key=residence];
+United_States -> Federalism [label=governmentType, lexicon_key=governmentType];
+}

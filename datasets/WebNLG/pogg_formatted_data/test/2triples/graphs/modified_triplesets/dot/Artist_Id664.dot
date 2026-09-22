@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+Israel [lexicon_key=Israel];
+Liselotte_Grschebina -> Petah_Tikva [label=deathPlace, lexicon_key=deathPlace];
+Petah_Tikva -> Israel [label=country, lexicon_key=country];
+}

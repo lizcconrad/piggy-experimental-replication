@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "10252": {
+            "lexicon_key": "10252"
+        },
+        "1800000000": {
+            "lexicon_key": "1800000000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfEmployees",
+            "parent_node": "Hypermarcas",
+            "child_node": "10252",
+            "edge_properties": {
+                "lexicon_key": "numberOfEmployees"
+            }
+        },
+        {
+            "edge_name": "revenue",
+            "parent_node": "Hypermarcas",
+            "child_node": "1800000000",
+            "edge_properties": {
+                "lexicon_key": "revenue"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas earns a revenue of $1,800,000,000, thanks to the efforts of its 10,252 employees."
+        },
+        "Id2": {
+            "text": "Hypermarcas employs 10252 people and grosses 1.8 million dollars annually."
+        },
+        "Id3": {
+            "text": "Hypermarcas earns 18 billion dollars a year and employs 10252 people."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "\"In God we trust\"": {
+            "lexicon_key": "\"In God we trust\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "motto",
+            "parent_node": "United_States",
+            "child_node": "\"In God we trust\"",
+            "edge_properties": {
+                "lexicon_key": "motto"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The motto of the United States is \"In God We Trust\"."
+        },
+        "Id2": {
+            "text": "The motto of the United States is \"In God We Trust.\""
+        },
+        "Id3": {
+            "text": "United States' motto is \"In God we trust\"."
+        }
+    },
+    "gold_outputs": []
+}

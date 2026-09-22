@@ -1,0 +1,5 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"Nurturing Excellence" [lexicon_key="Nurturing Excellence"];
+Acharya_Institute_of_Technology -> "Nurturing Excellence" [label=motto, lexicon_key=motto];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+Polydor_Records [lexicon_key="Polydor_Records"];
+Universal_Music_Group [lexicon_key="Universal_Music_Group"];
+Lucian_Grainge [lexicon_key="Lucian_Grainge"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Polydor_Records [label=recordLabel, lexicon_key=recordLabel];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Universal_Music_Group [label=recordLabel, lexicon_key=recordLabel];
+Universal_Music_Group -> Lucian_Grainge [label=keyPerson, lexicon_key=keyPerson];
+}

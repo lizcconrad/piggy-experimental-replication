@@ -1,0 +1,3 @@
+The Bedford Aerodrome has a runway named "08/26".
+Bedford Aerodrome has a runway called 08/26.
+The Bedford Aerodrome runway name is 08/26.

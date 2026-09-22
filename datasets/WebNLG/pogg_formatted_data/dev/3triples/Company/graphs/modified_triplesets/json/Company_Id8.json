@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Hypermarcas": {
-            "lexicon_key": "Hypermarcas"
+    "graphs": {
+        "Company_Id8_0": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "Mantecorp": {
+                    "lexicon_key": "Mantecorp"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "subsidiary",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "Mantecorp",
+                    "edge_properties": {
+                        "lexicon_key": "subsidiary"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas was founded on January 1, 2001, is located in Sao Paulo and has a subsidiary called Mantecorp.",
+                "Hypermarcas, the parent group of Mantecorp, was founded on January 1, 2001 in S\u00e3o Paulo.",
+                "Mantecorp is a subsidiary of Hypermarcas that was founded on 1-1-2001 and is located in Sao Paulo."
+            ]
         },
-        "Mantecorp": {
-            "lexicon_key": "Mantecorp"
+        "Company_Id8_1": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "S\u00e3o_Paulo": {
+                    "lexicon_key": "S\u00e3o_Paulo"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "S\u00e3o_Paulo",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas was founded on January 1, 2001, is located in Sao Paulo and has a subsidiary called Mantecorp.",
+                "Hypermarcas, the parent group of Mantecorp, was founded on January 1, 2001 in S\u00e3o Paulo.",
+                "Mantecorp is a subsidiary of Hypermarcas that was founded on 1-1-2001 and is located in Sao Paulo."
+            ]
         },
-        "S\u00e3o_Paulo": {
-            "lexicon_key": "S\u00e3o_Paulo"
-        },
-        "2001-01-01": {
-            "lexicon_key": "2001-01-01"
+        "Company_Id8_2": {
+            "nodes": {
+                "Hypermarcas": {
+                    "lexicon_key": "Hypermarcas"
+                },
+                "2001-01-01": {
+                    "lexicon_key": "2001-01-01"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "foundingDate",
+                    "parent_node": "Hypermarcas",
+                    "child_node": "2001-01-01",
+                    "edge_properties": {
+                        "lexicon_key": "foundingDate"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Hypermarcas was founded on January 1, 2001, is located in Sao Paulo and has a subsidiary called Mantecorp.",
+                "Hypermarcas, the parent group of Mantecorp, was founded on January 1, 2001 in S\u00e3o Paulo.",
+                "Mantecorp is a subsidiary of Hypermarcas that was founded on 1-1-2001 and is located in Sao Paulo."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "subsidiary",
-            "parent_node": "Hypermarcas",
-            "child_node": "Mantecorp",
-            "edge_properties": {
-                "lexicon_key": "subsidiary"
-            }
-        },
-        {
-            "edge_name": "location",
-            "parent_node": "Hypermarcas",
-            "child_node": "S\u00e3o_Paulo",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "foundingDate",
-            "parent_node": "Hypermarcas",
-            "child_node": "2001-01-01",
-            "edge_properties": {
-                "lexicon_key": "foundingDate"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

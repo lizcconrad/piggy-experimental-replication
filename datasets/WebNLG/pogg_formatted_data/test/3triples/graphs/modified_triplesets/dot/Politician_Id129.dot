@@ -1,0 +1,9 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+Casey_Ribicoff [lexicon_key="Casey_Ribicoff"];
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+"Abraham_A._Ribicoff" -> Casey_Ribicoff [label=spouse, lexicon_key=spouse];
+"Abraham_A._Ribicoff" -> United_States [label=deathPlace, lexicon_key=deathPlace];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Jamaica [lexicon_key=Jamaica];
+"Patrick_Allen_(politician)" [lexicon_key="Patrick_Allen_(politician)"];
+Jamaica -> "Patrick_Allen_(politician)" [label=leader, lexicon_key=leader];
+}

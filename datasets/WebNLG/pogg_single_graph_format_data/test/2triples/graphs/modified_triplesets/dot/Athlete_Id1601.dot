@@ -1,0 +1,7 @@
+strict digraph {
+Akeem_Ayers [lexicon_key="Akeem_Ayers"];
+"2" [lexicon_key="2"];
+Tennessee_Titans [lexicon_key="Tennessee_Titans"];
+Akeem_Ayers -> "2" [label=draftRound, lexicon_key=draftRound];
+Akeem_Ayers -> Tennessee_Titans [label=debutTeam, lexicon_key=debutTeam];
+}

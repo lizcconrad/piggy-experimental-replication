@@ -1,0 +1,9 @@
+strict digraph {
+Lady_Anne_Monson [lexicon_key="Lady_Anne_Monson"];
+"1726-01-01" [lexicon_key="1726-01-01"];
+Kingdom_of_England [lexicon_key="Kingdom_of_England"];
+Botany [lexicon_key=Botany];
+Lady_Anne_Monson -> "1726-01-01" [label=birthDate, lexicon_key=birthDate];
+Lady_Anne_Monson -> Kingdom_of_England [label=nationality, lexicon_key=nationality];
+Lady_Anne_Monson -> Botany [label=professionalField, lexicon_key=professionalField];
+}

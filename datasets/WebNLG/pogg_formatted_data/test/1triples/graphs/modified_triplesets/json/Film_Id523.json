@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        },
+        "0711905": {
+            "lexicon_key": "0711905"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "imdbId",
+            "parent_node": "Terence_Rattigan",
+            "child_node": "0711905",
+            "edge_properties": {
+                "lexicon_key": "imdbId"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Terence Rattigan is registered in IMDb under the ID 0711905."
+        },
+        "Id2": {
+            "text": "Terence Rattigan's IMDb ID is 0711905."
+        },
+        "Id3": {
+            "text": "The IMDb ID of Terence Rattigan is 0711905."
+        }
+    },
+    "gold_outputs": []
+}

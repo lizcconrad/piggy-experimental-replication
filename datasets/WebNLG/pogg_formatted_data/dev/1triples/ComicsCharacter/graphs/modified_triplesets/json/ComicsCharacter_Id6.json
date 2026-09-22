@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Bananaman": {
-            "lexicon_key": "Bananaman"
-        },
-        "Bill_Oddie": {
-            "lexicon_key": "Bill_Oddie"
+    "graphs": {
+        "ComicsCharacter_Id6_0": {
+            "nodes": {
+                "Bananaman": {
+                    "lexicon_key": "Bananaman"
+                },
+                "Bill_Oddie": {
+                    "lexicon_key": "Bill_Oddie"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "starring",
+                    "parent_node": "Bananaman",
+                    "child_node": "Bill_Oddie",
+                    "edge_properties": {
+                        "lexicon_key": "starring"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bananaman starred Bill Oddie.",
+                "Bill Oddie starred in Bananaman.",
+                "Bill Oddie stars in Bananaman."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "starring",
-            "parent_node": "Bananaman",
-            "child_node": "Bill_Oddie",
-            "edge_properties": {
-                "lexicon_key": "starring"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

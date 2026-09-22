@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Glen_Ridge,_New_Jersey": {
+            "lexicon_key": "Glen_Ridge,_New_Jersey"
+        },
+        "\"Massachusetts Institute of Technology, Sc.D. 1963\"": {
+            "lexicon_key": "\"Massachusetts Institute of Technology, Sc.D. 1963\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Glen_Ridge,_New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"Massachusetts Institute of Technology, Sc.D. 1963\"",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buzz Aldrin was born in Glen Ridge, New Jersey. In 1963 he got his Doctor of Science degree from MIT."
+        },
+        "Id2": {
+            "text": "Buzz Aldrin was born in Glen Ridge, New Jersey and graduated from the Massachusetts Institute of Technology with a Sc.D. in 1963."
+        },
+        "Id3": {
+            "text": "Buzz Aldrin born in Glen Ridge New Jersey graduated in 1963 from MIT with a Sc.D."
+        }
+    },
+    "gold_outputs": []
+}

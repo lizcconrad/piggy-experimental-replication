@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "1095.0": {
+            "lexicon_key": "1095.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "1095.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The runway length at the Bedford Aerodrome is 1095."
+        },
+        "Id2": {
+            "text": "The runway length of the Bedford Aerodrome is 1095.0."
+        }
+    },
+    "gold_outputs": []
+}

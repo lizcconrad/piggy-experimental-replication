@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "General_relativity": {
+            "lexicon_key": "General_relativity"
+        },
+        "Dennis_William_Sciama": {
+            "lexicon_key": "Dennis_William_Sciama"
+        },
+        "1942-01-01": {
+            "lexicon_key": "1942-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Brandon_Carter",
+            "child_node": "General_relativity",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        },
+        {
+            "edge_name": "doctoralAdvisor",
+            "parent_node": "Brandon_Carter",
+            "child_node": "Dennis_William_Sciama",
+            "edge_properties": {
+                "lexicon_key": "doctoralAdvisor"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Brandon_Carter",
+            "child_node": "1942-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Physicist Brandon Carter, born January 1st, 1942, is a professional in the field of General Relativity. His doctoral advisor was Dennis William Sciama."
+        },
+        "Id2": {
+            "text": "Brandon Carter, a professional in the field of general relativity who learned from Dennis William Sciama, was born on January 1st, 1942."
+        },
+        "Id3": {
+            "text": "Brandon Carter (born on January 1st 1942) was advised by Dennis William Sciama for his doctorate in General Relativity, Carter's professional field."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Abel_Hernández" [lexicon_key="Abel_Hernández"];
+"Central_Español" [lexicon_key="Central_Español"];
+"Abel_Hernández" -> "Central_Español" [label=youthclub, lexicon_key=youthclub];
+}

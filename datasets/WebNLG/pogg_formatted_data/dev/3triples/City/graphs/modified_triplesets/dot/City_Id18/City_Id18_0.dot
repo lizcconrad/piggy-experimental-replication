@@ -1,0 +1,5 @@
+strict digraph {
+"Auburn,_Washington" [lexicon_key="Auburn,_Washington"];
+"Washington_(state)" [lexicon_key="Washington_(state)"];
+"Auburn,_Washington" -> "Washington_(state)" [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Bootleg_Series_Volume_1 [lexicon_key="Bootleg_Series_Volume_1:_The_Quine_Tapes"];
+The_Velvet_Underground [lexicon_key="The_Velvet_Underground"];
+Polydor_Records [lexicon_key="Polydor_Records"];
+Universal_Music_Group [lexicon_key="Universal_Music_Group"];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> The_Velvet_Underground [label=producer, lexicon_key=producer];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Polydor_Records [label=recordLabel, lexicon_key=recordLabel];
+Bootleg_Series_Volume_1:_The_Quine_Tapes -> Universal_Music_Group [label=recordLabel, lexicon_key=recordLabel];
+}

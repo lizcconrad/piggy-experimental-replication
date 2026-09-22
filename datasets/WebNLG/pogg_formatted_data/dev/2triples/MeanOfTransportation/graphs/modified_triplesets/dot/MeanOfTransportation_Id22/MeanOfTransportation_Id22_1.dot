@@ -1,0 +1,5 @@
+strict digraph {
+Airbus_Defence_and_Space [lexicon_key="Airbus_Defence_and_Space"];
+Airbus_Group [lexicon_key="Airbus_Group"];
+Airbus_Defence_and_Space -> Airbus_Group [label=parentCompany, lexicon_key=parentCompany];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Adri\u00e1n_Rivera_P\u00e9rez": {
+            "lexicon_key": "Adri\u00e1n_Rivera_P\u00e9rez"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Morelos",
+            "child_node": "Adri\u00e1n_Rivera_P\u00e9rez",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Adri\u00e1n Rivera P\u00e9rez is a leader in Morelos."
+        },
+        "Id2": {
+            "text": "One of the leaders of the Mexican state of Morelos is Adri\u00e1n Rivera P\u00e9rez."
+        }
+    },
+    "gold_outputs": []
+}

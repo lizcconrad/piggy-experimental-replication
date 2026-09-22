@@ -1,0 +1,5 @@
+strict digraph {
+Justin_Whalin [lexicon_key="Justin_Whalin"];
+Presenter [lexicon_key=Presenter];
+Justin_Whalin -> Presenter [label=occupation, lexicon_key=occupation];
+}

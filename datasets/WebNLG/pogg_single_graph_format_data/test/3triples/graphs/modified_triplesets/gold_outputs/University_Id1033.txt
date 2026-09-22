@@ -1,0 +1,3 @@
+The University of Burgundy has 27400 students. The Number of doctoral students is 1299 and 16800 are undergraduate students.
+The University of Burgundy has 16800 undergraduate students, 1299 doctoral students, and 27400 students.
+The University of Burgundy is home to 27400 students: 16,800 of whom are undergraduates and 1299 of whom are doctoral.

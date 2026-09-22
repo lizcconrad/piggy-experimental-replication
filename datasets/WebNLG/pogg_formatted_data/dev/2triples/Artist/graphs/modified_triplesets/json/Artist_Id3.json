@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Aaron_Deer": {
-            "lexicon_key": "Aaron_Deer"
+    "graphs": {
+        "Artist_Id3_0": {
+            "nodes": {
+                "Aaron_Deer": {
+                    "lexicon_key": "Aaron_Deer"
+                },
+                "Psychedelia": {
+                    "lexicon_key": "Psychedelia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aaron_Deer",
+                    "child_node": "Psychedelia",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Deer plays the guitar and performs Psychedelia music.",
+                "Guitarist Aaron Deer performs music from the Psychedelia genre.",
+                "Guitarist Aaron Deer plays Psychedelia."
+            ]
         },
-        "Psychedelia": {
-            "lexicon_key": "Psychedelia"
-        },
-        "Guitar": {
-            "lexicon_key": "Guitar"
+        "Artist_Id3_1": {
+            "nodes": {
+                "Aaron_Deer": {
+                    "lexicon_key": "Aaron_Deer"
+                },
+                "Guitar": {
+                    "lexicon_key": "Guitar"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "instrument",
+                    "parent_node": "Aaron_Deer",
+                    "child_node": "Guitar",
+                    "edge_properties": {
+                        "lexicon_key": "instrument"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Deer plays the guitar and performs Psychedelia music.",
+                "Guitarist Aaron Deer performs music from the Psychedelia genre.",
+                "Guitarist Aaron Deer plays Psychedelia."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Aaron_Deer",
-            "child_node": "Psychedelia",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        },
-        {
-            "edge_name": "instrument",
-            "parent_node": "Aaron_Deer",
-            "child_node": "Guitar",
-            "edge_properties": {
-                "lexicon_key": "instrument"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

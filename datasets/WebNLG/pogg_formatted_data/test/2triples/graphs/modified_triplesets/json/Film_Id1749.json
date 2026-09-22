@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Anatole de Grunwald is the writer and producer of 'English Without Tears'."
+        },
+        "Id2": {
+            "text": "\"English Without Tears\" was produced and written by Anatole de Grunwald."
+        },
+        "Id3": {
+            "text": "'English Without Tears' was written by and produced by Anatole de Grunwald."
+        }
+    },
+    "gold_outputs": []
+}

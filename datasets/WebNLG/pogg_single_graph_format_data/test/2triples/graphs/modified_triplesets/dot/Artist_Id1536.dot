@@ -1,0 +1,7 @@
+strict digraph {
+Liselotte_Grschebina [lexicon_key="Liselotte_Grschebina"];
+Karlsruhe [lexicon_key=Karlsruhe];
+"1994-06-14" [lexicon_key="1994-06-14"];
+Liselotte_Grschebina -> Karlsruhe [label=birthPlace, lexicon_key=birthPlace];
+Liselotte_Grschebina -> "1994-06-14" [label=deathDate, lexicon_key=deathDate];
+}

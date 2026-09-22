@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Alfons_Gorbach": {
-            "lexicon_key": "Alfons_Gorbach"
+    "graphs": {
+        "Politician_Id24_0": {
+            "nodes": {
+                "Alfons_Gorbach": {
+                    "lexicon_key": "Alfons_Gorbach"
+                },
+                "Graz": {
+                    "lexicon_key": "Graz"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "deathPlace",
+                    "parent_node": "Alfons_Gorbach",
+                    "child_node": "Graz",
+                    "edge_properties": {
+                        "lexicon_key": "deathPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfons Gorbach was born in Imst in the state of Tyrol and he passed away in Graz.",
+                "Alfons Gorbach was born in Imst, County of Tyrol and died in Graz.",
+                "Imst, in the County of Tyrol, was the birthplace of Alfons Gorbach, who died in Graz."
+            ]
         },
-        "Graz": {
-            "lexicon_key": "Graz"
+        "Politician_Id24_1": {
+            "nodes": {
+                "Alfons_Gorbach": {
+                    "lexicon_key": "Alfons_Gorbach"
+                },
+                "Tyrol_(state)": {
+                    "lexicon_key": "Tyrol_(state)"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alfons_Gorbach",
+                    "child_node": "Tyrol_(state)",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfons Gorbach was born in Imst in the state of Tyrol and he passed away in Graz.",
+                "Alfons Gorbach was born in Imst, County of Tyrol and died in Graz.",
+                "Imst, in the County of Tyrol, was the birthplace of Alfons Gorbach, who died in Graz."
+            ]
         },
-        "Tyrol_(state)": {
-            "lexicon_key": "Tyrol_(state)"
-        },
-        "Imst": {
-            "lexicon_key": "Imst"
+        "Politician_Id24_2": {
+            "nodes": {
+                "Alfons_Gorbach": {
+                    "lexicon_key": "Alfons_Gorbach"
+                },
+                "Imst": {
+                    "lexicon_key": "Imst"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "birthPlace",
+                    "parent_node": "Alfons_Gorbach",
+                    "child_node": "Imst",
+                    "edge_properties": {
+                        "lexicon_key": "birthPlace"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Alfons Gorbach was born in Imst in the state of Tyrol and he passed away in Graz.",
+                "Alfons Gorbach was born in Imst, County of Tyrol and died in Graz.",
+                "Imst, in the County of Tyrol, was the birthplace of Alfons Gorbach, who died in Graz."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "deathPlace",
-            "parent_node": "Alfons_Gorbach",
-            "child_node": "Graz",
-            "edge_properties": {
-                "lexicon_key": "deathPlace"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alfons_Gorbach",
-            "child_node": "Tyrol_(state)",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        },
-        {
-            "edge_name": "birthPlace",
-            "parent_node": "Alfons_Gorbach",
-            "child_node": "Imst",
-            "edge_properties": {
-                "lexicon_key": "birthPlace"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

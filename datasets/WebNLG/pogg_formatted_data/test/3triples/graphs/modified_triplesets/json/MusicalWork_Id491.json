@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        },
+        "Crucial_Blast": {
+            "lexicon_key": "Crucial_Blast"
+        },
+        "E-Vinyl": {
+            "lexicon_key": "E-Vinyl"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "producer",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Crucial_Blast",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "E-Vinyl",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Year of No Light by the band Nord, was released by Crucial Blast and is available on E-Vinyl."
+        },
+        "Id2": {
+            "text": "Nord, an album produced by Year of No Light, was released on the record label E-Vinyl. It was also released on the record label Crucial blast."
+        },
+        "Id3": {
+            "text": "The album Nord by Year of No Light was produced by the band and used the record labels of Crucial Blast and E-Vinyl."
+        }
+    },
+    "gold_outputs": []
+}

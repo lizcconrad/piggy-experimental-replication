@@ -1,0 +1,3 @@
+The language code (ISO 639-2) of the English language is eng.
+“eng” is the ISO 639-2 code for the English language.
+The ISO 639-2 code of the English Language is eng.

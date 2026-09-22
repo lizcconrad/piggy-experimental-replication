@@ -1,0 +1,5 @@
+strict digraph {
+American_Motors [lexicon_key="American_Motors"];
+"Eagle_(automobile)" [lexicon_key="Eagle_(automobile)"];
+American_Motors -> "Eagle_(automobile)" [label=successor, lexicon_key=successor];
+}

@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Abdulsalami_Abubakar": {
-            "lexicon_key": "Abdulsalami_Abubakar"
+    "graphs": {
+        "Politician_Id5_0": {
+            "nodes": {
+                "Abdulsalami_Abubakar": {
+                    "lexicon_key": "Abdulsalami_Abubakar"
+                },
+                "Mike_Akhigbe": {
+                    "lexicon_key": "Mike_Akhigbe"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "inOfficeWhileVicePresident",
+                    "parent_node": "Abdulsalami_Abubakar",
+                    "child_node": "Mike_Akhigbe",
+                    "edge_properties": {
+                        "lexicon_key": "inOfficeWhileVicePresident"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who took over from Oladipo Diya and then was succeeded by Atiku Abubakar.",
+                "Abdulsalami Abubakar was in office whilst Mike Akhigbe was Vice President. Oladipo Diya was the predecessor of Mike Akhigbe, who was succeeded by Atiku Abubakar.",
+                "Oladipo Diya was the predecessor of Mike Akhigbe, whose successor was Atiku Abubakar. Abdulsalami Abubakar was in office while Mike Akhigbe was the Vice President."
+            ]
         },
-        "Mike_Akhigbe": {
-            "lexicon_key": "Mike_Akhigbe"
+        "Politician_Id5_1": {
+            "nodes": {
+                "Mike_Akhigbe": {
+                    "lexicon_key": "Mike_Akhigbe"
+                },
+                "Oladipo_Diya": {
+                    "lexicon_key": "Oladipo_Diya"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "predecessor",
+                    "parent_node": "Mike_Akhigbe",
+                    "child_node": "Oladipo_Diya",
+                    "edge_properties": {
+                        "lexicon_key": "predecessor"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who took over from Oladipo Diya and then was succeeded by Atiku Abubakar.",
+                "Abdulsalami Abubakar was in office whilst Mike Akhigbe was Vice President. Oladipo Diya was the predecessor of Mike Akhigbe, who was succeeded by Atiku Abubakar.",
+                "Oladipo Diya was the predecessor of Mike Akhigbe, whose successor was Atiku Abubakar. Abdulsalami Abubakar was in office while Mike Akhigbe was the Vice President."
+            ]
         },
-        "Oladipo_Diya": {
-            "lexicon_key": "Oladipo_Diya"
-        },
-        "Atiku_Abubakar": {
-            "lexicon_key": "Atiku_Abubakar"
+        "Politician_Id5_2": {
+            "nodes": {
+                "Mike_Akhigbe": {
+                    "lexicon_key": "Mike_Akhigbe"
+                },
+                "Atiku_Abubakar": {
+                    "lexicon_key": "Atiku_Abubakar"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "successor",
+                    "parent_node": "Mike_Akhigbe",
+                    "child_node": "Atiku_Abubakar",
+                    "edge_properties": {
+                        "lexicon_key": "successor"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who took over from Oladipo Diya and then was succeeded by Atiku Abubakar.",
+                "Abdulsalami Abubakar was in office whilst Mike Akhigbe was Vice President. Oladipo Diya was the predecessor of Mike Akhigbe, who was succeeded by Atiku Abubakar.",
+                "Oladipo Diya was the predecessor of Mike Akhigbe, whose successor was Atiku Abubakar. Abdulsalami Abubakar was in office while Mike Akhigbe was the Vice President."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "inOfficeWhileVicePresident",
-            "parent_node": "Abdulsalami_Abubakar",
-            "child_node": "Mike_Akhigbe",
-            "edge_properties": {
-                "lexicon_key": "inOfficeWhileVicePresident"
-            }
-        },
-        {
-            "edge_name": "predecessor",
-            "parent_node": "Mike_Akhigbe",
-            "child_node": "Oladipo_Diya",
-            "edge_properties": {
-                "lexicon_key": "predecessor"
-            }
-        },
-        {
-            "edge_name": "successor",
-            "parent_node": "Mike_Akhigbe",
-            "child_node": "Atiku_Abubakar",
-            "edge_properties": {
-                "lexicon_key": "successor"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

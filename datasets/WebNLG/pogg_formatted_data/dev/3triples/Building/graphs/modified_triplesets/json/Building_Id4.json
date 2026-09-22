@@ -1,44 +1,78 @@
 {
-    "nodes": {
-        "200_Public_Square": {
-            "lexicon_key": "200_Public_Square"
+    "graphs": {
+        "Building_Id4_0": {
+            "nodes": {
+                "200_Public_Square": {
+                    "lexicon_key": "200_Public_Square"
+                },
+                "Cleveland": {
+                    "lexicon_key": "Cleveland"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "200_Public_Square",
+                    "child_node": "Cleveland",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "200 Public Square is located in Cleveland, United States, where one of the leaders is Frank G Jackson.",
+                "Frank G Jackson is the leader of Cleveland, United States where 200 Public Square is located."
+            ]
         },
-        "Cleveland": {
-            "lexicon_key": "Cleveland"
+        "Building_Id4_1": {
+            "nodes": {
+                "Cleveland": {
+                    "lexicon_key": "Cleveland"
+                },
+                "Frank_G._Jackson": {
+                    "lexicon_key": "Frank_G._Jackson"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Cleveland",
+                    "child_node": "Frank_G._Jackson",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "200 Public Square is located in Cleveland, United States, where one of the leaders is Frank G Jackson.",
+                "Frank G Jackson is the leader of Cleveland, United States where 200 Public Square is located."
+            ]
         },
-        "Frank_G._Jackson": {
-            "lexicon_key": "Frank_G._Jackson"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+        "Building_Id4_2": {
+            "nodes": {
+                "Cleveland": {
+                    "lexicon_key": "Cleveland"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Cleveland",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "200 Public Square is located in Cleveland, United States, where one of the leaders is Frank G Jackson.",
+                "Frank G Jackson is the leader of Cleveland, United States where 200 Public Square is located."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "200_Public_Square",
-            "child_node": "Cleveland",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Cleveland",
-            "child_node": "Frank_G._Jackson",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Cleveland",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

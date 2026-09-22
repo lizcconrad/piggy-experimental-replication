@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Sludge_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Nord was produced by Year of No Light and won the album of the year in the sludge metal genre."
+        },
+        "Id2": {
+            "text": "The Year of No Light produced album Nord, which is in the sludge metal genre."
+        },
+        "Id3": {
+            "text": "The sludge metal album Nord was produced by the band Year of No Light."
+        }
+    },
+    "gold_outputs": []
+}

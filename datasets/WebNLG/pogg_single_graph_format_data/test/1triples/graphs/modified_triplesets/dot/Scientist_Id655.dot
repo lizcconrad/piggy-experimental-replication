@@ -1,0 +1,5 @@
+strict digraph {
+Darlington [lexicon_key=Darlington];
+North_East_England [lexicon_key="North_East_England"];
+Darlington -> North_East_England [label=region, lexicon_key=region];
+}

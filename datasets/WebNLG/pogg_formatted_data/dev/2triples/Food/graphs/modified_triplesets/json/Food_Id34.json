@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Dessert": {
-            "lexicon_key": "Dessert"
+    "graphs": {
+        "Food_Id34_0": {
+            "nodes": {
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                },
+                "Ice_cream": {
+                    "lexicon_key": "Ice_cream"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Dessert",
+                    "child_node": "Ice_cream",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico and Ice Cream are served at the dessert course.",
+                "Bionico and ice cream are both served as a dessert course.",
+                "Bionico and ice cream are types of dessert."
+            ]
         },
-        "Ice_cream": {
-            "lexicon_key": "Ice_cream"
-        },
-        "Bionico": {
-            "lexicon_key": "Bionico"
+        "Food_Id34_1": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "course",
+                    "parent_node": "Bionico",
+                    "child_node": "Dessert",
+                    "edge_properties": {
+                        "lexicon_key": "course"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico and Ice Cream are served at the dessert course.",
+                "Bionico and ice cream are both served as a dessert course.",
+                "Bionico and ice cream are types of dessert."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Dessert",
-            "child_node": "Ice_cream",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        },
-        {
-            "edge_name": "course",
-            "parent_node": "Bionico",
-            "child_node": "Dessert",
-            "edge_properties": {
-                "lexicon_key": "course"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

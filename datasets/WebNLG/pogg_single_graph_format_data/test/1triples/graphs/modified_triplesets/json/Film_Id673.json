@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Bernard_Knowles": {
+            "lexicon_key": "Bernard_Knowles"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cinematography",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Bernard_Knowles",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The cinematography of English Without Tears was done by Bernard Knowles."
+        },
+        "Id2": {
+            "text": "Bernard Knowles was the cinematographer of the film English Without Tears."
+        },
+        "Id3": {
+            "text": "The cinematographer of the movie English Without Tears is Bernard Knowles."
+        }
+    },
+    "gold_outputs": []
+}

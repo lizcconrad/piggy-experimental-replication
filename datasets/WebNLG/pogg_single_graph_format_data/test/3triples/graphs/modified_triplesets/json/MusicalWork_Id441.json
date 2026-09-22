@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Polydor_Records": {
+            "lexicon_key": "Polydor_Records"
+        },
+        "Universal_Music_Group": {
+            "lexicon_key": "Universal_Music_Group"
+        },
+        "Lucian_Grainge": {
+            "lexicon_key": "Lucian_Grainge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Polydor_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Universal_Music_Group",
+            "child_node": "Lucian_Grainge",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Universal_Music_Group",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was released by Universal Music Group, a record label run by key person Lucian Grainge. Polydor Records recorded Bootleg Series Volume 1: The Quine Tapes."
+        },
+        "Id2": {
+            "text": "The Bootleg Series Volume I: The Quine Tapes is released by the record label Polydor Records and was recorded under the Universal Music Group record label, of which Lucian Grainge was a key person."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume 1: The Quine Tapes was recorded under the Polydor Records record label and a key person is Lucian Grainge at Universal Music Group and is part of the record label of Bootleg Series Volume 1: The Quine Tapes is Universal Music Group."
+        }
+    },
+    "gold_outputs": []
+}

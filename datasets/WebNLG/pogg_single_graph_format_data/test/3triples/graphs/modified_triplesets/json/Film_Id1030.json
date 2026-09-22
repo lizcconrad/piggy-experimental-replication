@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "0004319": {
+            "lexicon_key": "0004319"
+        },
+        "Harry_Carey_(actor_born_1878)": {
+            "lexicon_key": "Harry_Carey_(actor_born_1878)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "imdbId",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "0004319",
+            "edge_properties": {
+                "lexicon_key": "imdbId"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Harry_Carey_(actor_born_1878)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Harry Carey (actor, born in 1878) was the actor and writer of McVeagh of the South Seas, IMDb ID 0004319."
+        },
+        "Id2": {
+            "text": "The film McVeagh of the South Seas with an IMDb id of 0004319 has been written by Harry Carey who was born in 1878, who also had a role in the movie."
+        },
+        "Id3": {
+            "text": "Harry Carey (born, 1878) wrote and starred in the film McVeagh of the South Seas (IMDb ID, 0004319)."
+        }
+    },
+    "gold_outputs": []
+}

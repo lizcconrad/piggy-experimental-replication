@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "1997": {
+            "lexicon_key": "1997"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "productionStartYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionStartYear"
+            }
+        },
+        {
+            "edge_name": "productionEndYear",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "1997",
+            "edge_properties": {
+                "lexicon_key": "productionEndYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous went into production in 1997 and ended the same year."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous was only produced in the year 1997."
+        },
+        "Id3": {
+            "text": "The Pontiac Rageous was only produced in 1997."
+        }
+    },
+    "gold_outputs": []
+}

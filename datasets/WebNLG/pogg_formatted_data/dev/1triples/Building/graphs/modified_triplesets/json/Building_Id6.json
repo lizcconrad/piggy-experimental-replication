@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "20_Fenchurch_Street": {
-            "lexicon_key": "20_Fenchurch_Street"
-        },
-        "United_Kingdom": {
-            "lexicon_key": "United_Kingdom"
+    "graphs": {
+        "Building_Id6_0": {
+            "nodes": {
+                "20_Fenchurch_Street": {
+                    "lexicon_key": "20_Fenchurch_Street"
+                },
+                "United_Kingdom": {
+                    "lexicon_key": "United_Kingdom"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "location",
+                    "parent_node": "20_Fenchurch_Street",
+                    "child_node": "United_Kingdom",
+                    "edge_properties": {
+                        "lexicon_key": "location"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "20 Fenchurch Street is located in the United Kingdom.",
+                "20 Fenchurch Street is located within the United Kingdom."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "location",
-            "parent_node": "20_Fenchurch_Street",
-            "child_node": "United_Kingdom",
-            "edge_properties": {
-                "lexicon_key": "location"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Abdul_Taib_Mahmud": {
-            "lexicon_key": "Abdul_Taib_Mahmud"
-        },
-        "Adenan_Satem": {
-            "lexicon_key": "Adenan_Satem"
+    "graphs": {
+        "Politician_Id6_0": {
+            "nodes": {
+                "Abdul_Taib_Mahmud": {
+                    "lexicon_key": "Abdul_Taib_Mahmud"
+                },
+                "Adenan_Satem": {
+                    "lexicon_key": "Adenan_Satem"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "successor",
+                    "parent_node": "Abdul_Taib_Mahmud",
+                    "child_node": "Adenan_Satem",
+                    "edge_properties": {
+                        "lexicon_key": "successor"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abdul Taib Mahmud successor was Adenan Satem.",
+                "Adenan Satem succeeded Abdul Taib Mahmud."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "successor",
-            "parent_node": "Abdul_Taib_Mahmud",
-            "child_node": "Adenan_Satem",
-            "edge_properties": {
-                "lexicon_key": "successor"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

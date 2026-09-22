@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Re\u015fadiye": {
+            "lexicon_key": "Re\u015fadiye"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Re\u015fadiye",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy was born in Re\u015fadiye."
+        },
+        "Id2": {
+            "text": "Resadiye is the birth place of Nurhan Atasoy."
+        }
+    },
+    "gold_outputs": []
+}

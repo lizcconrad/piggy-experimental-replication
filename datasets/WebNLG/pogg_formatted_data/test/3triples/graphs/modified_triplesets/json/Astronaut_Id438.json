@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        },
+        "Dianne_Feinstein": {
+            "lexicon_key": "Dianne_Feinstein"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "senators",
+            "parent_node": "California",
+            "child_node": "Dianne_Feinstein",
+            "edge_properties": {
+                "lexicon_key": "senators"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard was born in New Hampshire and died in California. The Senator representing California was Dianne Feinstein."
+        },
+        "Id2": {
+            "text": "Alan Shepard's born in New Hampshire and died in California where the Dianne Feinstein is a senator."
+        },
+        "Id3": {
+            "text": "Alan Shepard, born in New Hampshire, died in California. Dianne Feinstein is a California's senator."
+        }
+    },
+    "gold_outputs": []
+}

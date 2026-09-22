@@ -1,0 +1,5 @@
+strict digraph {
+India [lexicon_key=India];
+1293057000 [lexicon_key=1293057000];
+India -> 1293057000 [label=populationTotal, lexicon_key=populationTotal];
+}

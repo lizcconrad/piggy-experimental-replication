@@ -1,0 +1,5 @@
+strict digraph {
+Ahmad_Kadhim_Assad [lexicon_key="Ahmad_Kadhim_Assad"];
+"Esteghlal_Ahvaz_F.C." [lexicon_key="Esteghlal_Ahvaz_F.C."];
+Ahmad_Kadhim_Assad -> "Esteghlal_Ahvaz_F.C." [label=club, lexicon_key=club];
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        },
+        "EGBF": {
+            "lexicon_key": "EGBF"
+        },
+        "MK44": {
+            "lexicon_key": "MK44"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "EGBF",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        },
+        {
+            "edge_name": "postalCode",
+            "parent_node": "Thurleigh",
+            "child_node": "MK44",
+            "edge_properties": {
+                "lexicon_key": "postalCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The ICAO location identifier for the Bedford Aerodrome is EGBF which is located in Thurleigh, whose postal code is MK44."
+        },
+        "Id2": {
+            "text": "The Bedford Aerodrome is located in Thurleigh, the postal code of which is MK44. Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF."
+        },
+        "Id3": {
+            "text": "Bedford Aerodrome is located in Thurleigh, which has the postal code MK44. The ICAO location identifier for Bedford Aerodrome is EGBF."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Amarillo,_Texas" [lexicon_key="Amarillo,_Texas"];
+"Randall_County,_Texas" [lexicon_key="Randall_County,_Texas"];
+"Amarillo,_Texas" -> "Randall_County,_Texas" [label=isPartOf, lexicon_key=isPartOf];
+}

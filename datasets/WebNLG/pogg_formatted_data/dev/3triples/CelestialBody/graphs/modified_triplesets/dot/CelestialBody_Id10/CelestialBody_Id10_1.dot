@@ -1,0 +1,5 @@
+strict digraph {
+"N._R._Pogson" [lexicon_key="N._R._Pogson"];
+Nottingham [lexicon_key=Nottingham];
+"N._R._Pogson" -> Nottingham [label=birthPlace, lexicon_key=birthPlace];
+}

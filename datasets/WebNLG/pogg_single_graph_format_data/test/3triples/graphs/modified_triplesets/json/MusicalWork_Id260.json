@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "2006-09-06": {
+            "lexicon_key": "2006-09-06"
+        },
+        "Live_at_Roadburn_2008_(Year_of_No_Light_album)": {
+            "lexicon_key": "Live_at_Roadburn_2008_(Year_of_No_Light_album)"
+        },
+        "Sludge_metal": {
+            "lexicon_key": "Sludge_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "2006-09-06",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Live_at_Roadburn_2008_(Year_of_No_Light_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Sludge_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Year of No Light's sludge metal album Nord (2006-09-06) was followed by Live at Roadburn 2008."
+        },
+        "Id2": {
+            "text": "The release date of Nord, Year of No Light Album in the sludge metal genre, is 06-09-2006 with their album Live at Roadburn 2008."
+        },
+        "Id3": {
+            "text": "The Year of No Light album Nord in the sludge metal genre, released on September 6, 2006 was followed by Year of No Light's album Live at Roadburn 2008."
+        }
+    },
+    "gold_outputs": []
+}

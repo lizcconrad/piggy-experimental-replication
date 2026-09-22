@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "South_German_gulden": {
+            "lexicon_key": "South_German_gulden"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currency",
+            "parent_node": "German_Empire",
+            "child_node": "South_German_gulden",
+            "edge_properties": {
+                "lexicon_key": "currency"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The German Empire's currency is the South German gulden."
+        },
+        "Id2": {
+            "text": "The currency of the German Empire is South German gulden."
+        },
+        "Id3": {
+            "text": "In the German Empire one of the units of currency was the South German Gulden."
+        }
+    },
+    "gold_outputs": []
+}

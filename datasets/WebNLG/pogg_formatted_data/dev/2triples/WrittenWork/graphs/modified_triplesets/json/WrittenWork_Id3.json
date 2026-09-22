@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "1634:_The_Ram_Rebellion": {
-            "lexicon_key": "1634:_The_Ram_Rebellion"
+    "graphs": {
+        "WrittenWork_Id3_0": {
+            "nodes": {
+                "1634:_The_Ram_Rebellion": {
+                    "lexicon_key": "1634:_The_Ram_Rebellion"
+                },
+                "Eric_Flint": {
+                    "lexicon_key": "Eric_Flint"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "author",
+                    "parent_node": "1634:_The_Ram_Rebellion",
+                    "child_node": "Eric_Flint",
+                    "edge_properties": {
+                        "lexicon_key": "author"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1634: The Ram Rebellion was written by Eric Flint and can be found in hardcover.",
+                "1634: The Ram Rebellion, available in hardcover was written by Eric Flint.",
+                "The book titled 1634: The Ram Rebellion is a hardcover book by Eric Flint."
+            ]
         },
-        "Eric_Flint": {
-            "lexicon_key": "Eric_Flint"
-        },
-        "Hardcover": {
-            "lexicon_key": "Hardcover"
+        "WrittenWork_Id3_1": {
+            "nodes": {
+                "1634:_The_Ram_Rebellion": {
+                    "lexicon_key": "1634:_The_Ram_Rebellion"
+                },
+                "Hardcover": {
+                    "lexicon_key": "Hardcover"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "mediaType",
+                    "parent_node": "1634:_The_Ram_Rebellion",
+                    "child_node": "Hardcover",
+                    "edge_properties": {
+                        "lexicon_key": "mediaType"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "1634: The Ram Rebellion was written by Eric Flint and can be found in hardcover.",
+                "1634: The Ram Rebellion, available in hardcover was written by Eric Flint.",
+                "The book titled 1634: The Ram Rebellion is a hardcover book by Eric Flint."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "author",
-            "parent_node": "1634:_The_Ram_Rebellion",
-            "child_node": "Eric_Flint",
-            "edge_properties": {
-                "lexicon_key": "author"
-            }
-        },
-        {
-            "edge_name": "mediaType",
-            "parent_node": "1634:_The_Ram_Rebellion",
-            "child_node": "Hardcover",
-            "edge_properties": {
-                "lexicon_key": "mediaType"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Leningrad_State_University": {
+            "lexicon_key": "Leningrad_State_University"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1703-05-27": {
+            "lexicon_key": "1703-05-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad_State_University",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Saint_Petersburg",
+            "child_node": "1703-05-27",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva's alma matter was Leningrad State University, however she died not in Leningrad, but rather in the city of Saint Petersburg. Saint Petersburg was founded May 27, 1703."
+        },
+        "Id2": {
+            "text": "Saint Petersburg, founded on May 27, 1703, is the resting place of Leningrad State University alumna Olga Bondareva."
+        },
+        "Id3": {
+            "text": "Olga Bondareva graduated from Leningrad State University and died in Saint Petersburg. Saint Petersburg was founded on May 27, 1703."
+        }
+    },
+    "gold_outputs": []
+}

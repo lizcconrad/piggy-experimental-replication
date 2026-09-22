@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Arab_citizens_of_Israel": {
+            "lexicon_key": "Arab_citizens_of_Israel"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Israel",
+            "child_node": "Arab_citizens_of_Israel",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina's nationality is Israeli where one of the ethnic groups is Arab."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina has the nationality of Israel where one of the ethnicities is Arab people."
+        },
+        "Id3": {
+            "text": "Israel has different ethnic groups like Arabs, and Israeli nationals such as Liselotte Grschebina."
+        }
+    },
+    "gold_outputs": []
+}

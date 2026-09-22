@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Post-metal": {
+            "lexicon_key": "Post-metal"
+        },
+        "Crucial_Blast": {
+            "lexicon_key": "Crucial_Blast"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Post-metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Crucial_Blast",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nord, an album made by Year of No Light and released by the record label Crucial blast, belongs to the post metal genre."
+        },
+        "Id2": {
+            "text": "The Year of No Light's album Nord, released on Crucial Blast, is post-metal."
+        },
+        "Id3": {
+            "text": "Released on the Crucial Blast Label, Nord is an album by post metal band The Year of No Light."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Alan_Jaggs": {
+            "lexicon_key": "Alan_Jaggs"
+        },
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "Bernard_Knowles": {
+            "lexicon_key": "Bernard_Knowles"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editing",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Alan_Jaggs",
+            "edge_properties": {
+                "lexicon_key": "editing"
+            }
+        },
+        {
+            "edge_name": "producer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "producer"
+            }
+        },
+        {
+            "edge_name": "cinematography",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Bernard_Knowles",
+            "edge_properties": {
+                "lexicon_key": "cinematography"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "English Without Tears was edited by Alan Jaggs, produced by Anatole de Grunwald, with Bernard Knowles as the cinematographer."
+        },
+        "Id2": {
+            "text": "English Without Tears was produced by Anatole de Grunwald, film editor Alan Jaggs and cinematographer Bernard Knowles."
+        },
+        "Id3": {
+            "text": "Bernard Knowles was the cinematographer of the film \"English Without Tears' which was edited by Alan Jaggs and produced by Anatole de Grunwald."
+        }
+    },
+    "gold_outputs": []
+}

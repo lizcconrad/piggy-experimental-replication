@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Imagine_(John_Lennon_song)": {
+            "lexicon_key": "Imagine_(John_Lennon_song)"
+        },
+        "Imagine_(John_Lennon_album)": {
+            "lexicon_key": "Imagine_(John_Lennon_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "album",
+            "parent_node": "Imagine_(John_Lennon_song)",
+            "child_node": "Imagine_(John_Lennon_album)",
+            "edge_properties": {
+                "lexicon_key": "album"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song Imagine by John Lennon was released on the album also named Imagine."
+        },
+        "Id2": {
+            "text": "The John Lennon song Imagine belongs to the album Imagine by John Lennon."
+        }
+    },
+    "gold_outputs": []
+}

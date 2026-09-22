@@ -1,0 +1,5 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+"Swords,_Dublin" [lexicon_key="Swords,_Dublin"];
+Trane -> "Swords,_Dublin" [label=location, lexicon_key=location];
+}

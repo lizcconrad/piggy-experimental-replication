@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Morelos": {
+            "lexicon_key": "Morelos"
+        },
+        "Governor": {
+            "lexicon_key": "Governor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Morelos",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Morelos",
+            "child_node": "Governor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The governor leads Ciudad Ayala in Morelos."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a part of Morelos that is led by the Governor."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is part of Morelos, and the Governor is one of the leaders of the state of Morelos."
+        }
+    },
+    "gold_outputs": []
+}

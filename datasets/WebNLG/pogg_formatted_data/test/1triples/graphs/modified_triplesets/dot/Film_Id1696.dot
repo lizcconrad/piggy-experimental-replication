@@ -1,0 +1,5 @@
+strict digraph {
+English_language [lexicon_key="English_language"];
+eng [lexicon_key=eng];
+English_language -> eng [label=iso6392Code, lexicon_key=iso6392Code];
+}

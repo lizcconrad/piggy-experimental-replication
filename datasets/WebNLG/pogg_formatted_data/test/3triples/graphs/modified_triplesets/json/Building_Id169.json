@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "Williamsburg,_Virginia": {
+            "lexicon_key": "Williamsburg,_Virginia"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Williamsburg,_Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The College of William and Mary, located in Williamsburg Virginia is the location of the Mason School of Business located inside Alan B Miller Hall."
+        },
+        "Id2": {
+            "text": "The Mason School of Business, inside Alan B Miller Hall, is in Williamsburg, Virginia at the College of William and Mary."
+        },
+        "Id3": {
+            "text": "The Mason School of Business are the current tenants of Alan B Miller Hall, located in Williamsburg, Virginia and owned by The College of William and Mary."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "Xiangyang": {
+            "lexicon_key": "Xiangyang"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Zaoyang",
+            "child_node": "Xiangyang",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Zaoyang is part of Xiangyang."
+        },
+        "Id2": {
+            "text": "Zaoyang is in Xiangyang."
+        }
+    },
+    "gold_outputs": []
+}

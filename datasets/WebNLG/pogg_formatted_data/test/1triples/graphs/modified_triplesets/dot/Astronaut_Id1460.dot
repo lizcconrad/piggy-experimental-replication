@@ -1,0 +1,5 @@
+strict digraph {
+Shenzhou_10 [lexicon_key="Shenzhou_10"];
+"2013-029A" [lexicon_key="2013-029A"];
+Shenzhou_10 -> "2013-029A" [label=cosparId, lexicon_key=cosparId];
+}

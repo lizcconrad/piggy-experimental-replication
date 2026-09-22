@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Jamie_Lawrence": {
+            "lexicon_key": "Jamie_Lawrence"
+        },
+        "1970-03-08": {
+            "lexicon_key": "1970-03-08"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Jamie_Lawrence",
+            "child_node": "1970-03-08",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Jamie Lawrence was born on March 8th, 1970."
+        },
+        "Id2": {
+            "text": "Jamie Lawrence was born on March 8, 1970."
+        },
+        "Id3": {
+            "text": "Jamie Lawrence's date of birth was 1970-03-08."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Campeonato_Brasileiro_Série_C" [lexicon_key="Campeonato_Brasileiro_Série_C"];
+Brazil [lexicon_key=Brazil];
+"Campeonato_Brasileiro_Série_C" -> Brazil [label=country, lexicon_key=country];
+}

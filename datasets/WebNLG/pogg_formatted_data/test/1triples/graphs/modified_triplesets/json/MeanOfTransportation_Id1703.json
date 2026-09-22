@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Pontiac_Rageous": {
+            "lexicon_key": "Pontiac_Rageous"
+        },
+        "Michigan": {
+            "lexicon_key": "Michigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Pontiac_Rageous",
+            "child_node": "Michigan",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Pontiac Rageous was assembled in Michigan."
+        },
+        "Id2": {
+            "text": "The Pontiac Rageous is assembled in Michigan."
+        }
+    },
+    "gold_outputs": []
+}

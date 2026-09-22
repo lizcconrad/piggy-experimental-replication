@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Indonesia": {
-            "lexicon_key": "Indonesia"
+    "graphs": {
+        "Food_Id36_0": {
+            "nodes": {
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                },
+                "Jakarta": {
+                    "lexicon_key": "Jakarta"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "capital",
+                    "parent_node": "Indonesia",
+                    "child_node": "Jakarta",
+                    "edge_properties": {
+                        "lexicon_key": "capital"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and one of the leaders is Jusuf Kalla.",
+                "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and the leader is Jusuf Kalla.",
+                "The dish bakso comes from Indonesia where Jusuf Kalla is the leader and Jakarta is the capital city."
+            ]
         },
-        "Jakarta": {
-            "lexicon_key": "Jakarta"
+        "Food_Id36_1": {
+            "nodes": {
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                },
+                "Jusuf_Kalla": {
+                    "lexicon_key": "Jusuf_Kalla"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Indonesia",
+                    "child_node": "Jusuf_Kalla",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and one of the leaders is Jusuf Kalla.",
+                "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and the leader is Jusuf Kalla.",
+                "The dish bakso comes from Indonesia where Jusuf Kalla is the leader and Jakarta is the capital city."
+            ]
         },
-        "Jusuf_Kalla": {
-            "lexicon_key": "Jusuf_Kalla"
-        },
-        "Bakso": {
-            "lexicon_key": "Bakso"
+        "Food_Id36_2": {
+            "nodes": {
+                "Bakso": {
+                    "lexicon_key": "Bakso"
+                },
+                "Indonesia": {
+                    "lexicon_key": "Indonesia"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Bakso",
+                    "child_node": "Indonesia",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and one of the leaders is Jusuf Kalla.",
+                "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and the leader is Jusuf Kalla.",
+                "The dish bakso comes from Indonesia where Jusuf Kalla is the leader and Jakarta is the capital city."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "capital",
-            "parent_node": "Indonesia",
-            "child_node": "Jakarta",
-            "edge_properties": {
-                "lexicon_key": "capital"
-            }
-        },
-        {
-            "edge_name": "leader",
-            "parent_node": "Indonesia",
-            "child_node": "Jusuf_Kalla",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Bakso",
-            "child_node": "Indonesia",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

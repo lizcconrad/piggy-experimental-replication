@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Buzz Aldrin was an American crew member on Apollo 11."
+        },
+        "Id2": {
+            "text": "Buzz Aldrin, an American, was a crew member of Apollo 11."
+        },
+        "Id3": {
+            "text": "Buzz Aldrin, a United States national was a member of the Apollo 11 crew."
+        }
+    },
+    "gold_outputs": []
+}

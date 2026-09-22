@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Albany,_Georgia": {
-            "lexicon_key": "Albany,_Georgia"
+    "graphs": {
+        "City_Id1_0": {
+            "nodes": {
+                "Albany,_Georgia": {
+                    "lexicon_key": "Albany,_Georgia"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Albany,_Georgia",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany, Georgia is in the United States, home to a number of ethnic groups including, African Americans.",
+                "Albany, Georgia is part of the United States of America where one of the ethnic groups are the African Americans.",
+                "Albany, Georgia, is in the United States where African Americans are one of the ethnic groups."
+            ]
         },
-        "United_States": {
-            "lexicon_key": "United_States"
-        },
-        "African_Americans": {
-            "lexicon_key": "African_Americans"
+        "City_Id1_1": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "African_Americans": {
+                    "lexicon_key": "African_Americans"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ethnicGroup",
+                    "parent_node": "United_States",
+                    "child_node": "African_Americans",
+                    "edge_properties": {
+                        "lexicon_key": "ethnicGroup"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Albany, Georgia is in the United States, home to a number of ethnic groups including, African Americans.",
+                "Albany, Georgia is part of the United States of America where one of the ethnic groups are the African Americans.",
+                "Albany, Georgia, is in the United States where African Americans are one of the ethnic groups."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Albany,_Georgia",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        },
-        {
-            "edge_name": "ethnicGroup",
-            "parent_node": "United_States",
-            "child_node": "African_Americans",
-            "edge_properties": {
-                "lexicon_key": "ethnicGroup"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

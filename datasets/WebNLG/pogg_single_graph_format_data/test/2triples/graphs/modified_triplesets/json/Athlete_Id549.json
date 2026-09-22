@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann was born in Gdynia, Poland and weighs 70.308 kilograms."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann weighs 70.308 kg and was born in Gdynia, Poland."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann was born in Gdynia, Poland and weighs 70.308kg."
+        }
+    },
+    "gold_outputs": []
+}

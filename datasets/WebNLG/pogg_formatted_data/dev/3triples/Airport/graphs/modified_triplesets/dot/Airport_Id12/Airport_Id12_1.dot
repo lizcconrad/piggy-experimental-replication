@@ -1,0 +1,5 @@
+strict digraph {
+Texas [lexicon_key=Texas];
+Houston [lexicon_key=Houston];
+Texas -> Houston [label=largestCity, lexicon_key=largestCity];
+}

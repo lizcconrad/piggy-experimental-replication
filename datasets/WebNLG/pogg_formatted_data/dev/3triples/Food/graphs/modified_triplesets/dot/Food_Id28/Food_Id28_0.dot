@@ -1,0 +1,5 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+India [lexicon_key=India];
+Bhajji -> India [label=country, lexicon_key=country];
+}

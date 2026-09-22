@@ -1,0 +1,5 @@
+strict digraph {
+Turkish_people [lexicon_key="Turkish_people"];
+Irreligion [lexicon_key=Irreligion];
+Turkish_people -> Irreligion [label=religion, lexicon_key=religion];
+}

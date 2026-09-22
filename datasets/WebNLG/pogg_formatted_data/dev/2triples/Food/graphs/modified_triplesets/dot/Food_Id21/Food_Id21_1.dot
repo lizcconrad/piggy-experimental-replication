@@ -1,0 +1,5 @@
+strict digraph {
+Lemon [lexicon_key=Lemon];
+Citrus [lexicon_key=Citrus];
+Lemon -> Citrus [label=genus, lexicon_key=genus];
+}

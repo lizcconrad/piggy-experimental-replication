@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Demo_2004_(Year_of_No_Light_album)": {
+            "lexicon_key": "Demo_2004_(Year_of_No_Light_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Demo_2004_(Year_of_No_Light_album)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Nord album was preceded by the Demo 2004 album."
+        },
+        "Id2": {
+            "text": "The Year of No Light album Nord was preceded by Year of No Light's album Demo 2004."
+        },
+        "Id3": {
+            "text": "The Year of No Light album Nord was preceded by the album Demo 2004."
+        }
+    },
+    "gold_outputs": []
+}

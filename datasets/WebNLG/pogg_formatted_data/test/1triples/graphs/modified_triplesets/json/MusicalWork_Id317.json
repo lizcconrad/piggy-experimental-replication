@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "Sony_Music_Entertainment": {
+            "lexicon_key": "Sony_Music_Entertainment"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "Sony_Music_Entertainment",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The song by Train called Mermaid is on the Sony Music Entertainment record label."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid had been released under the record label Sony Music Entertainment."
+        },
+        "Id3": {
+            "text": "Train's hit Mermaid was put out by the Sony Music Entertainment record label."
+        }
+    },
+    "gold_outputs": []
+}

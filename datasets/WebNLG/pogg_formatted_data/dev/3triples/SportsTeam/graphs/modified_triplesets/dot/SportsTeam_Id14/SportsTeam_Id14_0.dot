@@ -1,0 +1,5 @@
+strict digraph {
+AZAL_PFK [lexicon_key="AZAL_PFK"];
+Azerbaijan_Premier_League [lexicon_key="Azerbaijan_Premier_League"];
+AZAL_PFK -> Azerbaijan_Premier_League [label=league, lexicon_key=league];
+}

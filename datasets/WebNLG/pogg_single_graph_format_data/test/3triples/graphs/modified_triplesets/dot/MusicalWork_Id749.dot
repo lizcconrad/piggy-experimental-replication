@@ -1,0 +1,7 @@
+strict digraph {
+"Turn_Me_On_(album)" [lexicon_key="Turn_Me_On_(album)"];
+35.1 [lexicon_key=35.1];
+"The_Honeymoon_Killers_(American_band)" [lexicon_key="The_Honeymoon_Killers_(American_band)"];
+"Turn_Me_On_(album)" -> 35.1 [label=runtime, lexicon_key=runtime];
+"Turn_Me_On_(album)" -> "The_Honeymoon_Killers_(American_band)" [label=producer, lexicon_key=producer];
+}

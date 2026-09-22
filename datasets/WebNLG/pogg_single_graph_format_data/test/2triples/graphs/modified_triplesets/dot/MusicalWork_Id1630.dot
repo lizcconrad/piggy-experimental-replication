@@ -1,0 +1,5 @@
+strict digraph {
+Expect_a_Miracle [lexicon_key="Expect_a_Miracle"];
+"Brian_Kelly_(composer_&_pianist)" [lexicon_key="Brian_Kelly_(composer_&_pianist)"];
+Expect_a_Miracle -> "Brian_Kelly_(composer_&_pianist)" [label=producer, lexicon_key=producer];
+}

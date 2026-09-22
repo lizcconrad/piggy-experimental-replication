@@ -1,0 +1,9 @@
+strict digraph {
+Ciudad_Ayala [lexicon_key="Ciudad_Ayala"];
+City [lexicon_key=City];
+1147.0 [lexicon_key=1147.0];
+Juan_Nolasco [lexicon_key="Juan_Nolasco"];
+Ciudad_Ayala -> City [label=type, lexicon_key=type];
+Ciudad_Ayala -> 1147.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+Ciudad_Ayala -> Juan_Nolasco [label=leader, lexicon_key=leader];
+}

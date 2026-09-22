@@ -1,0 +1,5 @@
+strict digraph {
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+12.0 [lexicon_key=12.0];
+Antwerp_International_Airport -> 12.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

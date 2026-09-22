@@ -1,0 +1,5 @@
+strict digraph {
+"Aleksander_Barkov,_Jr." [lexicon_key="Aleksander_Barkov,_Jr."];
+"Tampere, Finland" [lexicon_key="Tampere, Finland"];
+"Aleksander_Barkov,_Jr." -> "Tampere, Finland" [label=birthPlace, lexicon_key=birthPlace];
+}

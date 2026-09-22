@@ -1,0 +1,5 @@
+strict digraph {
+Alvis_Car_and_Engineering_Company [lexicon_key="Alvis_Car_and_Engineering_Company"];
+Rover_Company [lexicon_key="Rover_Company"];
+Alvis_Car_and_Engineering_Company -> Rover_Company [label=successor, lexicon_key=successor];
+}

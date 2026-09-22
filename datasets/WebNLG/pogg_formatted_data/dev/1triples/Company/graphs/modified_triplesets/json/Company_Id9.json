@@ -1,22 +1,32 @@
 {
-    "nodes": {
-        "Philippines": {
-            "lexicon_key": "Philippines"
-        },
-        "Rodrigo_Duterte": {
-            "lexicon_key": "Rodrigo_Duterte"
+    "graphs": {
+        "Company_Id9_0": {
+            "nodes": {
+                "Philippines": {
+                    "lexicon_key": "Philippines"
+                },
+                "Rodrigo_Duterte": {
+                    "lexicon_key": "Rodrigo_Duterte"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "leader",
+                    "parent_node": "Philippines",
+                    "child_node": "Rodrigo_Duterte",
+                    "edge_properties": {
+                        "lexicon_key": "leader"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Rodrigo Duterte is the leader of the Philippines .",
+                "Rodrigo Duterte is the leader of the Philippines.",
+                "Rodrigo Duterte is the leader's name of the Philippines.",
+                "The leader of the Philippines is named Rodrigo Duterte."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "leader",
-            "parent_node": "Philippines",
-            "child_node": "Rodrigo_Duterte",
-            "edge_properties": {
-                "lexicon_key": "leader"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

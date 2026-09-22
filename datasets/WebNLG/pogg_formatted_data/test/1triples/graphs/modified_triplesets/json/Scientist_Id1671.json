@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "3544040000.0": {
+            "lexicon_key": "3544040000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaOfWater",
+            "parent_node": "New_Jersey",
+            "child_node": "3544040000.0",
+            "edge_properties": {
+                "lexicon_key": "areaOfWater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The total area of water in New Jersey is 3,544 square kilometers."
+        },
+        "Id2": {
+            "text": "New Jersey has an area of water that is 3,544.04."
+        },
+        "Id3": {
+            "text": "New Jersey has an area of water that is 3, 544.04 km^2."
+        }
+    },
+    "gold_outputs": []
+}

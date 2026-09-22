@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        },
+        "Ed_Lee_(politician)": {
+            "lexicon_key": "Ed_Lee_(politician)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "San_Francisco",
+            "child_node": "Ed_Lee_(politician)",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of San Francisco's leaders is politician Ed Lee."
+        },
+        "Id2": {
+            "text": "The leader of San Francisco is the politician named Ed Lee."
+        },
+        "Id3": {
+            "text": "Ed Lee, the politician, is a leader in San Francisco."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Albert_Jennings_Fountain [lexicon_key="Albert_Jennings_Fountain"];
+"Edmund_J._Davis" [lexicon_key="Edmund_J._Davis"];
+Albert_Jennings_Fountain -> "Edmund_J._Davis" [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+}

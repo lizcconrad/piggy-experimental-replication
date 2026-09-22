@@ -1,0 +1,7 @@
+strict digraph {
+"1147_Stavropolis" [lexicon_key="1147_Stavropolis"];
+Grigory_Neujmin [lexicon_key="Grigory_Neujmin"];
+Tbilisi [lexicon_key=Tbilisi];
+"1147_Stavropolis" -> Grigory_Neujmin [label=discoverer, lexicon_key=discoverer];
+Grigory_Neujmin -> Tbilisi [label=birthPlace, lexicon_key=birthPlace];
+}

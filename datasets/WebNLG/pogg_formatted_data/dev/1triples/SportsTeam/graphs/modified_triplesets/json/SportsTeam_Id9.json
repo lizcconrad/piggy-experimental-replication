@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "A.F.C._Fylde": {
-            "lexicon_key": "A.F.C._Fylde"
-        },
-        "The_Fylde": {
-            "lexicon_key": "The_Fylde"
+    "graphs": {
+        "SportsTeam_Id9_0": {
+            "nodes": {
+                "A.F.C._Fylde": {
+                    "lexicon_key": "A.F.C._Fylde"
+                },
+                "The_Fylde": {
+                    "lexicon_key": "The_Fylde"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "A.F.C._Fylde",
+                    "child_node": "The_Fylde",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "AFC Fylde has the home ground called The Fylde.",
+                "The Fylde is the home ground of AFC Fylde."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "A.F.C._Fylde",
-            "child_node": "The_Fylde",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

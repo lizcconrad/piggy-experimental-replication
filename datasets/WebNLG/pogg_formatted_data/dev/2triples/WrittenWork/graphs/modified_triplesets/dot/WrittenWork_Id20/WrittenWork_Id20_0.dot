@@ -1,0 +1,5 @@
+strict digraph {
+Administrative_Science_Quarterly [lexicon_key="Administrative_Science_Quarterly"];
+"ASCQAG" [lexicon_key="ASCQAG"];
+Administrative_Science_Quarterly -> "ASCQAG" [label=codenCode, lexicon_key=codenCode];
+}

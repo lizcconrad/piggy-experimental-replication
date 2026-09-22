@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "A.D._Isidro_Metap\u00e1n": {
-            "lexicon_key": "A.D._Isidro_Metap\u00e1n"
-        },
-        "\"Asociaci\u00f3n Deportiva\"": {
-            "lexicon_key": "\"Asociaci\u00f3n Deportiva\""
+    "graphs": {
+        "SportsTeam_Id4_0": {
+            "nodes": {
+                "A.D._Isidro_Metap\u00e1n": {
+                    "lexicon_key": "A.D._Isidro_Metap\u00e1n"
+                },
+                "\"Asociaci\u00f3n Deportiva\"": {
+                    "lexicon_key": "\"Asociaci\u00f3n Deportiva\""
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "fullName",
+                    "parent_node": "A.D._Isidro_Metap\u00e1n",
+                    "child_node": "\"Asociaci\u00f3n Deportiva\"",
+                    "edge_properties": {
+                        "lexicon_key": "fullName"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A.D. Isidro Metapan's full name is \"Asociaci\u00f3n Deportiva\".",
+                "A.D. Isidro Metap\u00e1n's full name is Asociaci\u00f3n Deportiva.",
+                "The full name of A.D. Isidro Metapan is Asociacion Deportiva."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "fullName",
-            "parent_node": "A.D._Isidro_Metap\u00e1n",
-            "child_node": "\"Asociaci\u00f3n Deportiva\"",
-            "edge_properties": {
-                "lexicon_key": "fullName"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

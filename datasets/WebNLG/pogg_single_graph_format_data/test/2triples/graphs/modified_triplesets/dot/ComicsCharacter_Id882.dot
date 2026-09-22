@@ -1,0 +1,7 @@
+strict digraph {
+"Big_Hero_6_(film)" [lexicon_key="Big_Hero_6_(film)"];
+Walt_Disney_Studios_Motion_Pictures [lexicon_key="Walt_Disney_Studios_Motion_Pictures"];
+Baymax [lexicon_key=Baymax];
+"Big_Hero_6_(film)" -> Walt_Disney_Studios_Motion_Pictures [label=distributor, lexicon_key=distributor];
+Baymax -> "Big_Hero_6_(film)" [label=series, lexicon_key=series];
+}

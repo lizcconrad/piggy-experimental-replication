@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "St._Louis,_Missouri": {
+            "lexicon_key": "St._Louis,_Missouri"
+        },
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        },
+        "628": {
+            "lexicon_key": "628"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "St._Louis,_Missouri",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        },
+        {
+            "edge_name": "areaCode",
+            "parent_node": "San_Francisco",
+            "child_node": "628",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        },
+        {
+            "edge_name": "recordedIn",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "San_Francisco",
+            "edge_properties": {
+                "lexicon_key": "recordedIn"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes were recorded in St. Louis, Missouri and San Francisco, where 628 is an area code."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume 1: The Quine Tapes was recorded in St. Louis, Missouri and San Francisco, which has a 628 area code."
+        },
+        "Id3": {
+            "text": "The Bootleg Series Volume 1: The Quine Tapes were recorded in San Francisco where the area code was 628. The location that the Bootleg Series The Quine Tapes Volume 1 was recorded was in St. Louis Missouri."
+        }
+    },
+    "gold_outputs": []
+}

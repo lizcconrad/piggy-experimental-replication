@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Live_at_Roadburn_2008_(Year_of_No_Light_album)": {
+            "lexicon_key": "Live_at_Roadburn_2008_(Year_of_No_Light_album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Live_at_Roadburn_2008_(Year_of_No_Light_album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Year of No Light followed their album Nord with the album Live at Roadburn 2008."
+        },
+        "Id2": {
+            "text": "The Year of No Light album Nord was followed by Year of No Light's album Live at Roadburn 2008."
+        },
+        "Id3": {
+            "text": "Live at Roadburn 2008 was preceded by the album Nord."
+        }
+    },
+    "gold_outputs": []
+}

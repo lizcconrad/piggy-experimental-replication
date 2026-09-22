@@ -1,0 +1,5 @@
+strict digraph {
+HBO [lexicon_key=HBO];
+"The Green Channel" [lexicon_key="The Green Channel"];
+HBO -> "The Green Channel" [label=formerName, lexicon_key=formerName];
+}

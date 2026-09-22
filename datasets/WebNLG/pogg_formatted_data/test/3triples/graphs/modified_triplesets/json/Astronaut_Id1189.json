@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nie_Haisheng": {
+            "lexicon_key": "Nie_Haisheng"
+        },
+        "People's_Republic_of_China": {
+            "lexicon_key": "People's_Republic_of_China"
+        },
+        "1964-10-13": {
+            "lexicon_key": "1964-10-13"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "People's_Republic_of_China",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "1964-10-13",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Nie_Haisheng",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Former fighter pilot Nie Haisheng was born in the People's Republic of China on October 13, 1964."
+        },
+        "Id2": {
+            "text": "A former fighter pilot, Chinese national Nie Haisheng was born on October 13, 1964."
+        },
+        "Id3": {
+            "text": "Nie Haisheng, citizen of the People\u2019s Republic of China born on 10/13/1964, is a fighter pilot."
+        }
+    },
+    "gold_outputs": []
+}

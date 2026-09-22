@@ -1,0 +1,5 @@
+strict digraph {
+Istanbul [lexicon_key=Istanbul];
+2691.0 [lexicon_key=2691.0];
+Istanbul -> 2691.0 [label=populationMetroDensity, lexicon_key=populationMetroDensity];
+}

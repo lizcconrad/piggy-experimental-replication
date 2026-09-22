@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "94.0": {
+            "lexicon_key": "94.0"
+        },
+        "282838.0": {
+            "lexicon_key": "282838.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "John_Mills",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "runtime",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "94.0",
+            "edge_properties": {
+                "lexicon_key": "runtime"
+            }
+        },
+        {
+            "edge_name": "gross",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "282838.0",
+            "edge_properties": {
+                "lexicon_key": "gross"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "It's Great to Be Young was a film from 1956; its length is 94 minutes. John Mills had a main role in the film which accrued 282,838 pounds at the box office."
+        },
+        "Id2": {
+            "text": "It's Great to Be Young, a 1956 film starring John Mills, runs 94 minutes and made \u00a3282,838."
+        },
+        "Id3": {
+            "text": "John Mills starred in the 1957 film It's Great to Be Young which runs 94 minutes and costed \u00a3282,838."
+        }
+    },
+    "gold_outputs": []
+}

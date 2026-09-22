@@ -1,0 +1,5 @@
+strict digraph {
+Alvis_Speed_25 [lexicon_key="Alvis_Speed_25"];
+"4387.0 (cubicCentimetres)" [lexicon_key="4387.0 (cubicCentimetres)"];
+Alvis_Speed_25 -> "4387.0 (cubicCentimetres)" [label=engine, lexicon_key=engine];
+}

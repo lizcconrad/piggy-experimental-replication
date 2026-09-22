@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "Finland": {
-            "lexicon_key": "Finland"
-        },
-        "Sami_languages": {
-            "lexicon_key": "Sami_languages"
+    "graphs": {
+        "MeanOfTransportation_Id32_0": {
+            "nodes": {
+                "Finland": {
+                    "lexicon_key": "Finland"
+                },
+                "Sami_languages": {
+                    "lexicon_key": "Sami_languages"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "language",
+                    "parent_node": "Finland",
+                    "child_node": "Sami_languages",
+                    "edge_properties": {
+                        "lexicon_key": "language"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "One of the languages in Finland is Sami.",
+                "Sami languages are spoken in Finland."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "language",
-            "parent_node": "Finland",
-            "child_node": "Sami_languages",
-            "edge_properties": {
-                "lexicon_key": "language"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

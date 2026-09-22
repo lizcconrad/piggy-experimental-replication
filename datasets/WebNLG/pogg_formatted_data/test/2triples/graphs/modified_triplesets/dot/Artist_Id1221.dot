@@ -1,0 +1,7 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Black_metal [lexicon_key="Black_metal"];
+Old_Man_Gloom [lexicon_key="Old_Man_Gloom"];
+Aaron_Turner -> Black_metal [label=genre, lexicon_key=genre];
+Aaron_Turner -> Old_Man_Gloom [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

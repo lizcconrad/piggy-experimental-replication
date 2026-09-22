@@ -1,0 +1,5 @@
+strict digraph {
+Allan_Shivers [lexicon_key="Allan_Shivers"];
+Price_Daniel [lexicon_key="Price_Daniel"];
+Allan_Shivers -> Price_Daniel [label=successor, lexicon_key=successor];
+}

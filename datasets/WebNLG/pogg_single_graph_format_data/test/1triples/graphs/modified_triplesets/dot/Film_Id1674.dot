@@ -1,0 +1,5 @@
+strict digraph {
+Cyril_Frankel [lexicon_key="Cyril_Frankel"];
+Television_director [lexicon_key="Television_director"];
+Cyril_Frankel -> Television_director [label=occupation, lexicon_key=occupation];
+}

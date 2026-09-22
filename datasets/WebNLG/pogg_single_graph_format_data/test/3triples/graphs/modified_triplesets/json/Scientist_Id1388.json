@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1937-04-27": {
+            "lexicon_key": "1937-04-27"
+        },
+        "Bondareva\u2013Shapley_theorem": {
+            "lexicon_key": "Bondareva\u2013Shapley_theorem"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1937-04-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Bondareva\u2013Shapley_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva who was known for the Bondareva-Shapley theorem was born on April 27, 1937 and died in Saint Petersburg."
+        },
+        "Id2": {
+            "text": "Olga Bondareva, known for the Bondareva-Shapley theorem, was born on April 27th, 1937 and died in Saint Petersburg."
+        },
+        "Id3": {
+            "text": "Olga Bondareva, known for the Bondareva-Shapley theorem, was born on April 27, 1937 and died in Saint Petersburg."
+        }
+    },
+    "gold_outputs": []
+}

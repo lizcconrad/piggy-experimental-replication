@@ -1,0 +1,5 @@
+strict digraph {
+"1099_Figneria" [lexicon_key="1099_Figneria"];
+"605718000.0 (kilometres)" [lexicon_key="605718000.0 (kilometres)"];
+"1099_Figneria" -> "605718000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

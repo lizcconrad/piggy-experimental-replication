@@ -1,23 +1,27 @@
 {
-    "nodes": {
-        "idLabel1": {
-            "node_type": "entity",
-            "lexicon_key": "idLabel"
-        },
-        "idPhosphateCrystal_idApple1": {
-            "node_type": "entity",
-            "lexicon_key": "idPhosphateCrystal_idApple"
+    "graphs": {
+        "idLabel1_subgraph_0": {
+            "nodes": {
+                "idLabel1": {
+                    "node_type": "entity",
+                    "lexicon_key": "idLabel"
+                },
+                "idPhosphateCrystal_idApple1": {
+                    "node_type": "entity",
+                    "lexicon_key": "idPhosphateCrystal_idApple"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isWestOf",
+                    "parent_node": "idLabel1",
+                    "child_node": "idPhosphateCrystal_idApple1",
+                    "lexicon_key": "isWestOf",
+                    "edge_properties": {
+                        "edge_type": "relationship"
+                    }
+                }
+            ]
         }
-    },
-    "edges": [
-        {
-            "edge_name": "isWestOf",
-            "parent_node": "idLabel1",
-            "child_node": "idPhosphateCrystal_idApple1",
-            "lexicon_key": "isWestOf",
-            "edge_properties": {
-                "edge_type": "relationship"
-            }
-        }
-    ]
+    }
 }

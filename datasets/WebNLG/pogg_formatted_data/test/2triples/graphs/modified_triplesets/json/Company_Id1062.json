@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "2001-01-01": {
+            "lexicon_key": "2001-01-01"
+        },
+        "Cosmetics": {
+            "lexicon_key": "Cosmetics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Hypermarcas",
+            "child_node": "2001-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Cosmetics",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Hypermarcas is a company founded on January 1, 2001, that produces cosmetics."
+        },
+        "Id2": {
+            "text": "Hypermarcas was founded on the first of January 2001 and sells cosmetics."
+        },
+        "Id3": {
+            "text": "The cosmetics manufacturer, Hypermarcas was established January 1, 2001."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Baked_Alaska": {
-            "lexicon_key": "Baked_Alaska"
+    "graphs": {
+        "Food_Id18_0": {
+            "nodes": {
+                "Baked_Alaska": {
+                    "lexicon_key": "Baked_Alaska"
+                },
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "course",
+                    "parent_node": "Baked_Alaska",
+                    "child_node": "Dessert",
+                    "edge_properties": {
+                        "lexicon_key": "course"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A Baked Alaska is a dessert along with cookies which you can also eat as a dessert.",
+                "Baked Alaska and a cookie are both desserts.",
+                "Baked Alaska and cookies are types of dessert."
+            ]
         },
-        "Dessert": {
-            "lexicon_key": "Dessert"
-        },
-        "Cookie": {
-            "lexicon_key": "Cookie"
+        "Food_Id18_1": {
+            "nodes": {
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                },
+                "Cookie": {
+                    "lexicon_key": "Cookie"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Dessert",
+                    "child_node": "Cookie",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "A Baked Alaska is a dessert along with cookies which you can also eat as a dessert.",
+                "Baked Alaska and a cookie are both desserts.",
+                "Baked Alaska and cookies are types of dessert."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "course",
-            "parent_node": "Baked_Alaska",
-            "child_node": "Dessert",
-            "edge_properties": {
-                "lexicon_key": "course"
-            }
-        },
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Dessert",
-            "child_node": "Cookie",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

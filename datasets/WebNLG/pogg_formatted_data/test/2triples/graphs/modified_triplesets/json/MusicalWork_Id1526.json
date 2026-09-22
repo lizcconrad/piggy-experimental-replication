@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Bootleg_Series_Volume_1:_The_Quine_Tapes": {
+            "lexicon_key": "Bootleg_Series_Volume_1:_The_Quine_Tapes"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Polydor_Records": {
+            "lexicon_key": "Polydor_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Bootleg_Series_Volume_1:_The_Quine_Tapes",
+            "child_node": "Polydor_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Polydor Records released the rock album, The Bootleg Series Volume I: The Quine Tapes."
+        },
+        "Id2": {
+            "text": "Bootleg Series Volume I: The Quine Tapes was recorded in the rock genre by Polydor Records."
+        },
+        "Id3": {
+            "text": "Recorded under the Polydor Records record label, the album Bootleg Series Volume 1: the Quine Tapes fits into the Rock music genre."
+        }
+    },
+    "gold_outputs": []
+}

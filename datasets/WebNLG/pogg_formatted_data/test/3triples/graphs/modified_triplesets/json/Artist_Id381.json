@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "School_of_Applied_Arts_in_Stuttgart": {
+            "lexicon_key": "School_of_Applied_Arts_in_Stuttgart"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Israel",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "German_Empire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "training",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "School_of_Applied_Arts_in_Stuttgart",
+            "edge_properties": {
+                "lexicon_key": "training"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was born in the German Empire, her nationality is Israeli and she attended the school of Applied Arts in Stuttgart."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was born within the German Empire and is an Israeli national. Grschebina attended the school of Applied Arts in Stuttgart."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was born in the German Empire, is an Israeli national and did her studies at the School of Applied Arts in Stuttgart."
+        }
+    },
+    "gold_outputs": []
+}

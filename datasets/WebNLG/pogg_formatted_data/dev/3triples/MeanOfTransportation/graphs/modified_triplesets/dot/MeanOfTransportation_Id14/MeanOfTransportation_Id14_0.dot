@@ -1,0 +1,5 @@
+strict digraph {
+Alvis_Speed_25 [lexicon_key="Alvis_Speed_25"];
+Alvis_Car_and_Engineering_Company [lexicon_key="Alvis_Car_and_Engineering_Company"];
+Alvis_Speed_25 -> Alvis_Car_and_Engineering_Company [label=manufacturer, lexicon_key=manufacturer];
+}

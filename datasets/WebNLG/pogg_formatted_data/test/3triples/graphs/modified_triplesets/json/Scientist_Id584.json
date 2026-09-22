@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Darinka_Dentcheva": {
+            "lexicon_key": "Darinka_Dentcheva"
+        },
+        "Andrzej_Piotr_Ruszczy\u0144ski": {
+            "lexicon_key": "Andrzej_Piotr_Ruszczy\u0144ski"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Stochastic_programming": {
+            "lexicon_key": "Stochastic_programming"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "influencedBy",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Andrzej_Piotr_Ruszczy\u0144ski",
+            "edge_properties": {
+                "lexicon_key": "influencedBy"
+            }
+        },
+        {
+            "edge_name": "citizenship",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "citizenship"
+            }
+        },
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Darinka_Dentcheva",
+            "child_node": "Stochastic_programming",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Darinka Dentcheva, an American citizen known for her work with stochastic programming, developed a theory influenced by Andrzej Piotr Ruszczy\u0144ski."
+        },
+        "Id2": {
+            "text": "Darinka Dentcheva, an American citizen known for her work with stochastic programming, was influenced by Andrzej Piotr Ruszczynski."
+        },
+        "Id3": {
+            "text": "Citizen of the United States, Darinka Dentcheva, is known for Stochastic programming and was influenced by the work of Andrzej Piotr Ruszczy\u0144ski."
+        }
+    },
+    "gold_outputs": []
+}

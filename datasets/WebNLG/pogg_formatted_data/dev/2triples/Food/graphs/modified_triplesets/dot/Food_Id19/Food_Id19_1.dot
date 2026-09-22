@@ -1,0 +1,5 @@
+strict digraph {
+Bakewell_pudding [lexicon_key="Bakewell_pudding"];
+"Ground almond, jam, butter, eggs" [lexicon_key="Ground almond, jam, butter, eggs"];
+Bakewell_pudding -> "Ground almond, jam, butter, eggs" [label=mainIngredient, lexicon_key=mainIngredient];
+}

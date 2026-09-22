@@ -1,0 +1,5 @@
+strict digraph {
+"Alpharetta,_Georgia" [lexicon_key="Alpharetta,_Georgia"];
+United_States [lexicon_key="United_States"];
+"Alpharetta,_Georgia" -> United_States [label=country, lexicon_key=country];
+}

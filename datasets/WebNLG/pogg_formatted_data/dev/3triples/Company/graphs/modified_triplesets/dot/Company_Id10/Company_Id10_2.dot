@@ -1,0 +1,5 @@
+strict digraph {
+Ireland [lexicon_key=Ireland];
+Europe [lexicon_key=Europe];
+Ireland -> Europe [label=location, lexicon_key=location];
+}

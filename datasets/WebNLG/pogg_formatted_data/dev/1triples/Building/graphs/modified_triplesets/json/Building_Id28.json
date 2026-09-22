@@ -1,22 +1,30 @@
 {
-    "nodes": {
-        "United_Kingdom": {
-            "lexicon_key": "United_Kingdom"
-        },
-        "London": {
-            "lexicon_key": "London"
+    "graphs": {
+        "Building_Id28_0": {
+            "nodes": {
+                "United_Kingdom": {
+                    "lexicon_key": "United_Kingdom"
+                },
+                "London": {
+                    "lexicon_key": "London"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "capital",
+                    "parent_node": "United_Kingdom",
+                    "child_node": "London",
+                    "edge_properties": {
+                        "lexicon_key": "capital"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "London is the capital of the United Kingdom.",
+                "The capital of the United Kingdom is London."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "capital",
-            "parent_node": "United_Kingdom",
-            "child_node": "London",
-            "edge_properties": {
-                "lexicon_key": "capital"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

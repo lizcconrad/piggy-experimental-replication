@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "1937-04-27": {
+            "lexicon_key": "1937-04-27"
+        },
+        "\"Olga Nikolaevna Bondareva\"": {
+            "lexicon_key": "\"Olga Nikolaevna Bondareva\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "1937-04-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthName",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "\"Olga Nikolaevna Bondareva\"",
+            "edge_properties": {
+                "lexicon_key": "birthName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva, also known as Olga Nikolaevna Bondareva, was born on April 27, 1937 and died in Saint Petersburg."
+        },
+        "Id2": {
+            "text": "Olga Bondareva, who was born \"Olga Nikolaevna Bondareva\" on April 27th, 1937, died in Saint Petersburg."
+        },
+        "Id3": {
+            "text": "Olga Bondareva, born \"Olga Nikolaevna Bondareva\" on April 27th, 1937, died in Saint Petersburg."
+        }
+    },
+    "gold_outputs": []
+}

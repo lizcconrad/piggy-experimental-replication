@@ -1,0 +1,5 @@
+strict digraph {
+Ariane_5 [lexicon_key="Ariane_5"];
+"ELA-3" [lexicon_key="ELA-3"];
+Ariane_5 -> "ELA-3" [label=launchSite, lexicon_key=launchSite];
+}

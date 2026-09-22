@@ -1,0 +1,5 @@
+strict digraph {
+"Alison_O'Donnell" [lexicon_key="Alison_O'Donnell"];
+Jazz [lexicon_key=Jazz];
+"Alison_O'Donnell" -> Jazz [label=genre, lexicon_key=genre];
+}

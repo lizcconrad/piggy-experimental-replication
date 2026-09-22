@@ -1,0 +1,5 @@
+strict digraph {
+Harold_French [lexicon_key="Harold_French"];
+"1920-01-01" [lexicon_key="1920-01-01"];
+Harold_French -> "1920-01-01" [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

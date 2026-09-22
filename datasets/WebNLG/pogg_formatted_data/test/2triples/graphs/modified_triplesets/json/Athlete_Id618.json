@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "70.308": {
+            "lexicon_key": "70.308"
+        },
+        "1987-08-25": {
+            "lexicon_key": "1987-08-25"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "weight",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "70.308",
+            "edge_properties": {
+                "lexicon_key": "weight"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "1987-08-25",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann was born on August 25, 1987 and he weighs 70.308 kilograms."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann was born in August 25th, 1987 and weighs 70.308kgs."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann was born on August 25, 1987 and weighs 70.308 kg."
+        }
+    },
+    "gold_outputs": []
+}

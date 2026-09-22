@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Darlington",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Darlington",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Kingdom_of_England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson was born in the Kingdom of England in a town called Darlington which is in the UK."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson was born in Darlington, a town within the Kingdom of England, which is now within the UK."
+        }
+    },
+    "gold_outputs": []
+}

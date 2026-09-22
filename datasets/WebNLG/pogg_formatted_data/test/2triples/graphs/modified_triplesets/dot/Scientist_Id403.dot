@@ -1,0 +1,7 @@
+strict digraph {
+Olga_Bondareva [lexicon_key="Olga_Bondareva"];
+"Bondareva–Shapley_theorem" [lexicon_key="Bondareva–Shapley_theorem"];
+Leningrad_State_University [lexicon_key="Leningrad_State_University"];
+Olga_Bondareva -> "Bondareva–Shapley_theorem" [label=knownFor, lexicon_key=knownFor];
+Olga_Bondareva -> Leningrad_State_University [label=almaMater, lexicon_key=almaMater];
+}

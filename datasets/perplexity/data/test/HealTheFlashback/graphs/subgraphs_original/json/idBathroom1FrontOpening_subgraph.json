@@ -1,12 +1,16 @@
 {
-    "nodes": {
-        "idBathroom1FrontOpening": {
-            "lexicon_key": "idBathroom1FrontOpening",
-            "node_properties": {
-                "node_type": "entity_node",
-                "root": "root"
-            }
+    "graphs": {
+        "idBathroom1FrontOpening_subgraph_0": {
+            "nodes": {
+                "idBathroom1FrontOpening": {
+                    "lexicon_key": "idBathroom1FrontOpening",
+                    "node_properties": {
+                        "node_type": "entity_node",
+                        "root": "root"
+                    }
+                }
+            },
+            "edges": []
         }
-    },
-    "edges": []
+    }
 }

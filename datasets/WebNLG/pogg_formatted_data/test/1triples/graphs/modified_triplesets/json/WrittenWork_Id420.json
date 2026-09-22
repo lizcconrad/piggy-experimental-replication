@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "The_Hobbit": {
+            "lexicon_key": "The_Hobbit"
+        },
+        "The_Lord_of_the_Rings": {
+            "lexicon_key": "The_Lord_of_the_Rings"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "The_Hobbit",
+            "child_node": "The_Lord_of_the_Rings",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Hobbit is a book followed by Lord of the Rings."
+        },
+        "Id2": {
+            "text": "The Hobbit is followed by The Lord of the Rings."
+        }
+    },
+    "gold_outputs": []
+}

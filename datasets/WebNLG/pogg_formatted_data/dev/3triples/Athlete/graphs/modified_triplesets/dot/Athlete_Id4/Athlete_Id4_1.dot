@@ -1,0 +1,5 @@
+strict digraph {
+"Abel_Hernández" [lexicon_key="Abel_Hernández"];
+"U.S._Città_di_Palermo" [lexicon_key="U.S._Città_di_Palermo"];
+"Abel_Hernández" -> "U.S._Città_di_Palermo" [label=club, lexicon_key=club];
+}

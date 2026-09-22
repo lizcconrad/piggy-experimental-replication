@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Nurhan_Atasoy": {
+            "lexicon_key": "Nurhan_Atasoy"
+        },
+        "Istanbul": {
+            "lexicon_key": "Istanbul"
+        },
+        "Mayor": {
+            "lexicon_key": "Mayor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Nurhan_Atasoy",
+            "child_node": "Istanbul",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Istanbul",
+            "child_node": "Mayor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nurhan Atasoy lives in Istanbul where one of the leaders is titled Mayor."
+        },
+        "Id2": {
+            "text": "Nurhan Atasoy lives in Istanbul, where the leader is called a Mayor."
+        },
+        "Id3": {
+            "text": "Nurhan Atasoy once lived in Istanbul, where the Mayor is the leader."
+        }
+    },
+    "gold_outputs": []
+}

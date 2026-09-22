@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "ENAIRE": {
+            "lexicon_key": "ENAIRE"
+        },
+        "Alcobendas": {
+            "lexicon_key": "Alcobendas"
+        },
+        "610.0": {
+            "lexicon_key": "610.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "ENAIRE",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "Alcobendas",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "610.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "ENAIRE is the operating organisation for Adolfo Suarez Madrid-Barajas airport. This airport is situated 610 meters above sea level in Alcobendas."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "McVeagh_of_the_South_Seas": {
+            "lexicon_key": "McVeagh_of_the_South_Seas"
+        },
+        "Alliance_Films_Corporation": {
+            "lexicon_key": "Alliance_Films_Corporation"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributor",
+            "parent_node": "McVeagh_of_the_South_Seas",
+            "child_node": "Alliance_Films_Corporation",
+            "edge_properties": {
+                "lexicon_key": "distributor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "McVeagh of the South Seas was distributed by Alliance Films Corporation."
+        },
+        "Id2": {
+            "text": "McVeagh of the South Seas is a film distributed by Alliance Films Corporation."
+        },
+        "Id3": {
+            "text": "Alliance Films Corporation is the distributor for the film McVeagh of the South Seas."
+        }
+    },
+    "gold_outputs": []
+}

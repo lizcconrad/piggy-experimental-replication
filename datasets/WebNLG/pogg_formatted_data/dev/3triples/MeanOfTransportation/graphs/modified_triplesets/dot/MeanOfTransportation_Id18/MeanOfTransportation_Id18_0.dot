@@ -1,0 +1,5 @@
+strict digraph {
+Aston_Martin_V8 [lexicon_key="Aston_Martin_V8"];
+"Newport Pagnell, Buckinghamshire, England, United Kingdom" [lexicon_key="Newport Pagnell, Buckinghamshire, England, United Kingdom"];
+Aston_Martin_V8 -> "Newport Pagnell, Buckinghamshire, England, United Kingdom" [label=assembly, lexicon_key=assembly];
+}

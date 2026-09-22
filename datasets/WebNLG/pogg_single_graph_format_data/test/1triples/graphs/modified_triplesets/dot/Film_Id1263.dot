@@ -1,0 +1,5 @@
+strict digraph {
+Lionsgate [lexicon_key=Lionsgate];
+United_States [lexicon_key="United_States"];
+Lionsgate -> United_States [label=location, lexicon_key=location];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Justin_Whalin": {
+            "lexicon_key": "Justin_Whalin"
+        },
+        "San_Francisco": {
+            "lexicon_key": "San_Francisco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Justin_Whalin",
+            "child_node": "San_Francisco",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Justin Whalin was born in San Francisco."
+        },
+        "Id2": {
+            "text": "Justin Whalin is born in San Francisco."
+        }
+    },
+    "gold_outputs": []
+}

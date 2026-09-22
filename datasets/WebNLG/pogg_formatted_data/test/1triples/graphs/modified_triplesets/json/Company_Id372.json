@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Manila": {
+            "lexicon_key": "Manila"
+        },
+        "Metro_Manila": {
+            "lexicon_key": "Metro_Manila"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Manila",
+            "child_node": "Metro_Manila",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Manila is part of Metro Manila."
+        },
+        "Id2": {
+            "text": "Metro Manila includes the city of Manila."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "\"1923-11-18\"": {
+            "lexicon_key": "\"1923-11-18\""
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "New_Hampshire": {
+            "lexicon_key": "New_Hampshire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Alan_Shepard",
+            "child_node": "\"1923-11-18\"",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "New_Hampshire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Alan Shepard, born in New Hampshire on Nov 18, 1923, died in California."
+        },
+        "Id2": {
+            "text": "Alan Shepard was born in New Hampshire on November 18, 1923, but died in California."
+        },
+        "Id3": {
+            "text": "Alan Shepard, born November 18th, 1923 in New Hampshire, later died in California."
+        }
+    },
+    "gold_outputs": []
+}

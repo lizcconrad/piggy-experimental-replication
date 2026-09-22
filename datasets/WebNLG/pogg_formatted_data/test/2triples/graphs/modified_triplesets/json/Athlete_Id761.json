@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "1987-08-25": {
+            "lexicon_key": "1987-08-25"
+        },
+        "175.26": {
+            "lexicon_key": "175.26"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "1987-08-25",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "height",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "175.26",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Born on August 25, 1987, Piotr Hallmann was 175.26 cm tall."
+        },
+        "Id2": {
+            "text": "Born on August 25th, 1987, Piotr Hallmann stands at 175.26 cm tall."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann is 175.26 cm tall and was born on August 25, 1987."
+        }
+    },
+    "gold_outputs": []
+}

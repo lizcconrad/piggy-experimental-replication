@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "The_Two_Towers": {
+            "lexicon_key": "The_Two_Towers"
+        },
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "The_Two_Towers",
+            "child_node": "The_Fellowship_of_the_Ring",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Two Towers is preceded by The Fellowship of the Ring."
+        },
+        "Id2": {
+            "text": "The Fellowship of the Ring came before The Two Towers."
+        }
+    },
+    "gold_outputs": []
+}

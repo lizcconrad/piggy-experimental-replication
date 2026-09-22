@@ -1,0 +1,5 @@
+strict digraph {
+"Estádio_Municipal_Coaracy_da_Mata_Fonseca" [lexicon_key="Estádio_Municipal_Coaracy_da_Mata_Fonseca"];
+Brazil [lexicon_key=Brazil];
+"Estádio_Municipal_Coaracy_da_Mata_Fonseca" -> Brazil [label=location, lexicon_key=location];
+}

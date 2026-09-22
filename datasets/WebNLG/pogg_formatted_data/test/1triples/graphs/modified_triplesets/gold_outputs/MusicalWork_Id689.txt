@@ -1,0 +1,3 @@
+San Francisco is in the timezone UTC-7.
+The UTC offset at San Francisco is -7.
+San Francisco's Coordinated Universal Time Offset is minus seven hours.

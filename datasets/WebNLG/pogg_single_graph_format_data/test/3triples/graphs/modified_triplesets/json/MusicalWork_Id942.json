@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Nord_(Year_of_No_Light_album)": {
+            "lexicon_key": "Nord_(Year_of_No_Light_album)"
+        },
+        "Year_of_No_Light": {
+            "lexicon_key": "Year_of_No_Light"
+        },
+        "Post-metal": {
+            "lexicon_key": "Post-metal"
+        },
+        "2006-09-06": {
+            "lexicon_key": "2006-09-06"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "artist",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Year_of_No_Light",
+            "edge_properties": {
+                "lexicon_key": "artist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "Post-metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Nord_(Year_of_No_Light_album)",
+            "child_node": "2006-09-06",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Nord, an album in the post metal genre was released on 06-09-2006 by the artist Year of No Light."
+        },
+        "Id2": {
+            "text": "The post-metal band, Nord released their album Year of No Light on September 6, 2006."
+        },
+        "Id3": {
+            "text": "The Year of No Light album Nord genre is post-metal genre was released on 2006-09-06."
+        }
+    },
+    "gold_outputs": []
+}

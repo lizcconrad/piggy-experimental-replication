@@ -1,0 +1,5 @@
+strict digraph {
+"Springer_Science+Business_Media" [lexicon_key="Springer_Science+Business_Media"];
+Julius_Springer [lexicon_key="Julius_Springer"];
+"Springer_Science+Business_Media" -> Julius_Springer [label=founder, lexicon_key=founder];
+}

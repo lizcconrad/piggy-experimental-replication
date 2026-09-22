@@ -1,0 +1,9 @@
+strict digraph {
+"Mermaid_(Train_song)" [lexicon_key="Mermaid_(Train_song)"];
+Sony_Music_Entertainment [lexicon_key="Sony_Music_Entertainment"];
+"Imagine_(John_Lennon_song)" [lexicon_key="Imagine_(John_Lennon_song)"];
+"Happy_Xmas_(War_Is_Over)" [lexicon_key="Happy_Xmas_(War_Is_Over)"];
+"Mermaid_(Train_song)" -> Sony_Music_Entertainment [label=recordLabel, lexicon_key=recordLabel];
+"Mermaid_(Train_song)" -> "Imagine_(John_Lennon_song)" [label=followedBy, lexicon_key=followedBy];
+"Imagine_(John_Lennon_song)" -> "Happy_Xmas_(War_Is_Over)" [label=followedBy, lexicon_key=followedBy];
+}

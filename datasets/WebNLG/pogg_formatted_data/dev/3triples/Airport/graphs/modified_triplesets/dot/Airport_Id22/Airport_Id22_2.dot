@@ -1,0 +1,5 @@
+strict digraph {
+"Egg_Harbor_Township,_New_Jersey" [lexicon_key="Egg_Harbor_Township,_New_Jersey"];
+United_States [lexicon_key="United_States"];
+"Egg_Harbor_Township,_New_Jersey" -> United_States [label=country, lexicon_key=country];
+}

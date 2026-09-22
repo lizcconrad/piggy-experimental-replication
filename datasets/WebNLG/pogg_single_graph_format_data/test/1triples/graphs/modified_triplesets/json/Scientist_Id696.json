@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "England": {
+            "lexicon_key": "England"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Brandon_Carter",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter was born in England."
+        },
+        "Id2": {
+            "text": "Brandon Carter's birth place was England."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "Pacific_Daylight_Time": {
+            "lexicon_key": "Pacific_Daylight_Time"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "timeZone",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "Pacific_Daylight_Time",
+            "edge_properties": {
+                "lexicon_key": "timeZone"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Ciudad Ayala is in the PDT time zone."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala's time zone is Pacific Daylight Time."
+        },
+        "Id3": {
+            "text": "Ciudad Ayala is located in the Pacific Daylight time zone."
+        }
+    },
+    "gold_outputs": []
+}

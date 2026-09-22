@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "1942-01-01": {
+            "lexicon_key": "1942-01-01"
+        },
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Brandon_Carter",
+            "child_node": "1942-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Brandon_Carter",
+            "child_node": "University_of_Cambridge",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter, who was born on January 1st, 1942, is a graduate from the University of Cambridge."
+        },
+        "Id2": {
+            "text": "Brandon Carter was born January 1, 1942, and attended the University of Cambridge."
+        },
+        "Id3": {
+            "text": "Brandon Carter, born on 01-01-1942, is a University of Cambridge alumnus."
+        }
+    },
+    "gold_outputs": []
+}

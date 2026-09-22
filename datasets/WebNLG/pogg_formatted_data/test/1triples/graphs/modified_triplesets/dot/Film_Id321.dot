@@ -1,0 +1,5 @@
+strict digraph {
+HBO [lexicon_key=HBO];
+"HBO East, HBO West" [lexicon_key="HBO East, HBO West"];
+HBO -> "HBO East, HBO West" [label=timeshiftChannel, lexicon_key=timeshiftChannel];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "0927": {
+            "lexicon_key": "0927"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingYear",
+            "parent_node": "Kingdom_of_England",
+            "child_node": "0927",
+            "edge_properties": {
+                "lexicon_key": "foundingYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Kingdom of England was founded in the year 927."
+        },
+        "Id2": {
+            "text": "The founding year for the Kingdom of England is 927."
+        },
+        "Id3": {
+            "text": "The founding year of the Kingdom of England was 927."
+        }
+    },
+    "gold_outputs": []
+}

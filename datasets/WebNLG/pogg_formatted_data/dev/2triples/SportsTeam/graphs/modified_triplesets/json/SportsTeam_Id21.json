@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Akron_Summit_Assault": {
-            "lexicon_key": "Akron_Summit_Assault"
+    "graphs": {
+        "SportsTeam_Id21_0": {
+            "nodes": {
+                "Akron_Summit_Assault": {
+                    "lexicon_key": "Akron_Summit_Assault"
+                },
+                "Akron,_Ohio": {
+                    "lexicon_key": "Akron,_Ohio"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ground",
+                    "parent_node": "Akron_Summit_Assault",
+                    "child_node": "Akron,_Ohio",
+                    "edge_properties": {
+                        "lexicon_key": "ground"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Akron Summit Assault team is based in Akron, Ohio in the U.S.",
+                "The Akron Summit Assault team is based in Akron, Ohio which is in the U.S.",
+                "The team Akron Summit Assault are based in Akron, Ohio, USA."
+            ]
         },
-        "Akron,_Ohio": {
-            "lexicon_key": "Akron,_Ohio"
-        },
-        "United_States": {
-            "lexicon_key": "United_States"
+        "SportsTeam_Id21_1": {
+            "nodes": {
+                "Akron,_Ohio": {
+                    "lexicon_key": "Akron,_Ohio"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Akron,_Ohio",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "The Akron Summit Assault team is based in Akron, Ohio in the U.S.",
+                "The Akron Summit Assault team is based in Akron, Ohio which is in the U.S.",
+                "The team Akron Summit Assault are based in Akron, Ohio, USA."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ground",
-            "parent_node": "Akron_Summit_Assault",
-            "child_node": "Akron,_Ohio",
-            "edge_properties": {
-                "lexicon_key": "ground"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Akron,_Ohio",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

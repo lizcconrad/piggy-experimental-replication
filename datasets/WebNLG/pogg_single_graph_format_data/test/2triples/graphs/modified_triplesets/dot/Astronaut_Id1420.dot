@@ -1,0 +1,7 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+California [lexicon_key=California];
+"NWC, M.A. 1957" [lexicon_key="NWC, M.A. 1957"];
+Alan_Shepard -> California [label=deathPlace, lexicon_key=deathPlace];
+Alan_Shepard -> "NWC, M.A. 1957" [label=almaMater, lexicon_key=almaMater];
+}

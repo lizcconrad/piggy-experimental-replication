@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Death_on_a_Factory_Farm": {
+            "lexicon_key": "Death_on_a_Factory_Farm"
+        },
+        "Tom_Simon": {
+            "lexicon_key": "Tom_Simon"
+        },
+        "Geof_Bartz": {
+            "lexicon_key": "Geof_Bartz"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Tom_Simon",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "editor",
+            "parent_node": "Death_on_a_Factory_Farm",
+            "child_node": "Geof_Bartz",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Tom Simon directed the film \"Death on a Factory Farm\", which was edited by Geof Bartz."
+        },
+        "Id2": {
+            "text": "Directed by Tom Simon, \"Death on a Factory Farm\" was edited by Geof Bartz."
+        },
+        "Id3": {
+            "text": "Tom Simon directed the file Death on a Factory Farm, which was edited by Geof Bartz."
+        }
+    },
+    "gold_outputs": []
+}

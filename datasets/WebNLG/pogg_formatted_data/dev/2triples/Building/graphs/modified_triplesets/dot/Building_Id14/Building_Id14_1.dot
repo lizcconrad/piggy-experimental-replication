@@ -1,0 +1,5 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"Williamsburg,_Virginia" [lexicon_key="Williamsburg,_Virginia"];
+"Alan_B._Miller_Hall" -> "Williamsburg,_Virginia" [label=location, lexicon_key=location];
+}

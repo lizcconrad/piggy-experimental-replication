@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "1147_Stavropolis": {
+            "lexicon_key": "1147_Stavropolis"
+        },
+        "Grigory_Neujmin": {
+            "lexicon_key": "Grigory_Neujmin"
+        },
+        "11.5": {
+            "lexicon_key": "11.5"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "Grigory_Neujmin",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "absoluteMagnitude",
+            "parent_node": "1147_Stavropolis",
+            "child_node": "11.5",
+            "edge_properties": {
+                "lexicon_key": "absoluteMagnitude"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "1147 Stavropolis, discovered by Grigory Neujmin, has an absolute magnitude of 11.5."
+        },
+        "Id2": {
+            "text": "Grigory Neujmin found 1147 Stavropolis, which has an absolute magnitude of 11.5."
+        },
+        "Id3": {
+            "text": "Grigory Neujmin discovered 1147 Stavropolis, which has an absolute magnitude of 11.5."
+        }
+    },
+    "gold_outputs": []
+}

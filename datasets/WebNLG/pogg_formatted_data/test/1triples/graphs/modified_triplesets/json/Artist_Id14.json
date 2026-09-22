@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Israel": {
+            "lexicon_key": "Israel"
+        },
+        "Modern_Hebrew": {
+            "lexicon_key": "Modern_Hebrew"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "officialLanguage",
+            "parent_node": "Israel",
+            "child_node": "Modern_Hebrew",
+            "edge_properties": {
+                "lexicon_key": "officialLanguage"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The official language of Israel is modern Hebrew."
+        },
+        "Id2": {
+            "text": "Israel\u2019s official language is Modern Hebrew."
+        },
+        "Id3": {
+            "text": "Modern Hebrew is the official language of Israel."
+        }
+    },
+    "gold_outputs": []
+}

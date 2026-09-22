@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Kingdom_of_England": {
+            "lexicon_key": "Kingdom_of_England"
+        },
+        "Unitary_state": {
+            "lexicon_key": "Unitary_state"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "governmentType",
+            "parent_node": "Kingdom_of_England",
+            "child_node": "Unitary_state",
+            "edge_properties": {
+                "lexicon_key": "governmentType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Kingdom of England used a unitary state form of government."
+        },
+        "Id2": {
+            "text": "The Kingdom of England was a unitary state."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Lady_Anne_Monson": {
+            "lexicon_key": "Lady_Anne_Monson"
+        },
+        "Darlington": {
+            "lexicon_key": "Darlington"
+        },
+        "1726-01-01": {
+            "lexicon_key": "1726-01-01"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "Darlington",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Lady_Anne_Monson",
+            "child_node": "1726-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Lady Anne Monson was born in Darlington on January 1st, 1726."
+        },
+        "Id2": {
+            "text": "Lady Anne Monson was born in Darlington on January 1st,1726."
+        },
+        "Id3": {
+            "text": "Lady Anne Monson was born in Darlington on January 1, 1726."
+        }
+    },
+    "gold_outputs": []
+}

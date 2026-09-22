@@ -1,0 +1,7 @@
+strict digraph {
+English_Without_Tears [lexicon_key="English_Without_Tears"];
+Alan_Jaggs [lexicon_key="Alan_Jaggs"];
+Anatole_de_Grunwald [lexicon_key="Anatole_de_Grunwald"];
+English_Without_Tears -> Alan_Jaggs [label=editing, lexicon_key=editing];
+English_Without_Tears -> Anatole_de_Grunwald [label=writer, lexicon_key=writer];
+}

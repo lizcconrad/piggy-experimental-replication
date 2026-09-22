@@ -1,0 +1,5 @@
+strict digraph {
+Israel [lexicon_key=Israel];
+Reuven_Rivlin [lexicon_key="Reuven_Rivlin"];
+Israel -> Reuven_Rivlin [label=leader, lexicon_key=leader];
+}

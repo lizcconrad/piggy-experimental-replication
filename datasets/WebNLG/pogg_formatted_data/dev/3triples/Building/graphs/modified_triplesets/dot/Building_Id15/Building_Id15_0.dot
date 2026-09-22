@@ -1,0 +1,5 @@
+strict digraph {
+Akita_Museum_of_Art [lexicon_key="Akita_Museum_of_Art"];
+"Akita,_Akita" [lexicon_key="Akita,_Akita"];
+Akita_Museum_of_Art -> "Akita,_Akita" [label=location, lexicon_key=location];
+}

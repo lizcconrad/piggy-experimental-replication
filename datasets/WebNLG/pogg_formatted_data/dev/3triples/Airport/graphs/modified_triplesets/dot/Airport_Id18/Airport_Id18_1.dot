@@ -1,0 +1,5 @@
+strict digraph {
+"Greenville,_Wisconsin" [lexicon_key="Greenville,_Wisconsin"];
+United_States [lexicon_key="United_States"];
+"Greenville,_Wisconsin" -> United_States [label=country, lexicon_key=country];
+}

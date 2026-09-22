@@ -1,0 +1,5 @@
+strict digraph {
+Massimo_Drago [lexicon_key="Massimo_Drago"];
+"S.S.D._Potenza_Calcio" [lexicon_key="S.S.D._Potenza_Calcio"];
+Massimo_Drago -> "S.S.D._Potenza_Calcio" [label=club, lexicon_key=club];
+}

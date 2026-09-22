@@ -1,0 +1,5 @@
+strict digraph {
+Petah_Tikva [lexicon_key="Petah_Tikva"];
+Itzik_Braverman [lexicon_key="Itzik_Braverman"];
+Petah_Tikva -> Itzik_Braverman [label=leader, lexicon_key=leader];
+}

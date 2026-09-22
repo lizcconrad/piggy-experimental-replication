@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+Massimo_Drago [lexicon_key="Massimo_Drago"];
+"A.C._Cesena" -> Massimo_Drago [label=manager, lexicon_key=manager];
+}

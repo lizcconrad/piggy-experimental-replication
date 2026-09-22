@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Liselotte_Grschebina": {
+            "lexicon_key": "Liselotte_Grschebina"
+        },
+        "German_Empire": {
+            "lexicon_key": "German_Empire"
+        },
+        "Photographer": {
+            "lexicon_key": "Photographer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "German_Empire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Liselotte_Grschebina",
+            "child_node": "Photographer",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Liselotte Grschebina was a photographer who was born in the German Empire."
+        },
+        "Id2": {
+            "text": "Liselotte Grschebina was a professional photographer who was born in the German Empire."
+        },
+        "Id3": {
+            "text": "Liselotte Grschebina was a professional photographer that was born in the German Empire."
+        }
+    },
+    "gold_outputs": []
+}

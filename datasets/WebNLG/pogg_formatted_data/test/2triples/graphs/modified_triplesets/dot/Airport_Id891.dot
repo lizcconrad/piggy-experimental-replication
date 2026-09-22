@@ -1,0 +1,7 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+MotorSport_Vision [lexicon_key="MotorSport_Vision"];
+Thurleigh [lexicon_key=Thurleigh];
+Bedford_Aerodrome -> MotorSport_Vision [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+Bedford_Aerodrome -> Thurleigh [label=location, lexicon_key=location];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Frank_de_Boer [lexicon_key="Frank_de_Boer"];
+Ajax_Youth_Academy [lexicon_key="Ajax_Youth_Academy"];
+Frank_de_Boer -> Ajax_Youth_Academy [label=club, lexicon_key=club];
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Cyril_Frankel": {
+            "lexicon_key": "Cyril_Frankel"
+        },
+        "Television_director": {
+            "lexicon_key": "Television_director"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "occupation",
+            "parent_node": "Cyril_Frankel",
+            "child_node": "Television_director",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Cyril Frankel was a television director."
+        },
+        "Id2": {
+            "text": "Cyril Frankel is a television director."
+        },
+        "Id3": {
+            "text": "Cyril Frankel worked as a television director."
+        }
+    },
+    "gold_outputs": []
+}

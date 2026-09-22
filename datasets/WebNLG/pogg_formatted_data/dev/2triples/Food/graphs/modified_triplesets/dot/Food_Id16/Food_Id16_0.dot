@@ -1,0 +1,5 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+"France, United States or China" [lexicon_key="France, United States or China"];
+Baked_Alaska -> "France, United States or China" [label=country, lexicon_key=country];
+}

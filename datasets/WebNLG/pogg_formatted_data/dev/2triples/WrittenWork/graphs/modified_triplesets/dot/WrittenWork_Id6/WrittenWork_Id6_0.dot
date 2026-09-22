@@ -1,0 +1,5 @@
+strict digraph {
+A_Fortress_of_Grey_Ice [lexicon_key="A_Fortress_of_Grey_Ice"];
+"J._V._Jones" [lexicon_key="J._V._Jones"];
+A_Fortress_of_Grey_Ice -> "J._V._Jones" [label=author, lexicon_key=author];
+}

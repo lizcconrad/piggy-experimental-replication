@@ -1,0 +1,5 @@
+strict digraph {
+BBC [lexicon_key=BBC];
+London [lexicon_key=London];
+BBC -> London [label=city, lexicon_key=city];
+}

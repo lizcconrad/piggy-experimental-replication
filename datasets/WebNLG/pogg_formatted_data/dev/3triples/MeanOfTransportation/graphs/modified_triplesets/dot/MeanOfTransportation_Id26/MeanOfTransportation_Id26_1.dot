@@ -1,0 +1,5 @@
+strict digraph {
+"ELA-3" [lexicon_key="ELA-3"];
+Guiana_Space_Centre [lexicon_key="Guiana_Space_Centre"];
+"ELA-3" -> Guiana_Space_Centre [label=site, lexicon_key=site];
+}

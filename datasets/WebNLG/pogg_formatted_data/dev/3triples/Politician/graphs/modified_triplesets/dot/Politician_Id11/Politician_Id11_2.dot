@@ -1,0 +1,5 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+"United States Secretary of Health, Education, and Welfare" [lexicon_key="United States Secretary of Health, Education, and Welfare"];
+"Abraham_A._Ribicoff" -> "United States Secretary of Health, Education, and Welfare" [label=office, lexicon_key=office];
+}

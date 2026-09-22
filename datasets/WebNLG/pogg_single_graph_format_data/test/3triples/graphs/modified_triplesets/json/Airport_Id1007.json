@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Bedford_Aerodrome": {
+            "lexicon_key": "Bedford_Aerodrome"
+        },
+        "MotorSport_Vision": {
+            "lexicon_key": "MotorSport_Vision"
+        },
+        "Bedford_Autodrome": {
+            "lexicon_key": "Bedford_Autodrome"
+        },
+        "Thurleigh": {
+            "lexicon_key": "Thurleigh"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "MotorSport_Vision",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Bedford_Autodrome",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Bedford_Aerodrome",
+            "child_node": "Thurleigh",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "MotorSport Vision is the operating organisation for Bedford Aerodrome. The aerodrome, located in Thurleigh, serves the Bedford Autodrome."
+        },
+        "Id2": {
+            "text": "MotorSport Vision operates the Bedford Aerodrome which serves the Bedford Autodrome and is in Thurleigh."
+        },
+        "Id3": {
+            "text": "The Bedford Aerodrome has an operating organization that is called the MotorSport Vision. The aerodrome serves the Bedford Autodrome and is located at Thurleigh."
+        }
+    },
+    "gold_outputs": []
+}

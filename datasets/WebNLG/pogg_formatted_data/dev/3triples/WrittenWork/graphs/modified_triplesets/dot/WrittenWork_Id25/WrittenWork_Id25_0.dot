@@ -1,0 +1,5 @@
+strict digraph {
+Aenir [lexicon_key=Aenir];
+Garth_Nix [lexicon_key="Garth_Nix"];
+Aenir -> Garth_Nix [label=author, lexicon_key=author];
+}

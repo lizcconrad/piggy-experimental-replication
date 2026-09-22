@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Adam_West": {
+            "lexicon_key": "Adam_West"
+        },
+        "1928": {
+            "lexicon_key": "1928"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Adam_West",
+            "child_node": "1928",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Adam West was born in the year 1928."
+        },
+        "Id2": {
+            "text": "Adam West was born in 1928."
+        }
+    },
+    "gold_outputs": []
+}

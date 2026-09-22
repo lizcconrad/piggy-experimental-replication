@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Zaoyang": {
+            "lexicon_key": "Zaoyang"
+        },
+        "+8": {
+            "lexicon_key": "+8"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "utcOffset",
+            "parent_node": "Zaoyang",
+            "child_node": "+8",
+            "edge_properties": {
+                "lexicon_key": "utcOffset"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Zaoyang time zone is UTC +8."
+        },
+        "Id2": {
+            "text": "Zaoyang has a UTC offset of +8."
+        },
+        "Id3": {
+            "text": "The city of Zaoyang falls into UTC offset +8."
+        }
+    },
+    "gold_outputs": []
+}

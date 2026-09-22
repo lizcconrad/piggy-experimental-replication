@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Re\u015fadiye": {
+            "lexicon_key": "Re\u015fadiye"
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Re\u015fadiye",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Re\u015fadiye is in the country of Turkey."
+        },
+        "Id2": {
+            "text": "Re\u015fadiye is located in the country of Turkey."
+        },
+        "Id3": {
+            "text": "Re\u015fadiye is a town in Turkey."
+        }
+    },
+    "gold_outputs": []
+}

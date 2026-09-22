@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "John_Mills": {
+            "lexicon_key": "John_Mills"
+        },
+        "2005": {
+            "lexicon_key": "2005"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathYear",
+            "parent_node": "John_Mills",
+            "child_node": "2005",
+            "edge_properties": {
+                "lexicon_key": "deathYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "John Mills died in 2005."
+        }
+    },
+    "gold_outputs": []
+}

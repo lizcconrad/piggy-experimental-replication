@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "875400000": {
+            "lexicon_key": "875400000"
+        },
+        "Building_materials": {
+            "lexicon_key": "Building_materials"
+        },
+        "10264000000": {
+            "lexicon_key": "10264000000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingIncome",
+            "parent_node": "Trane",
+            "child_node": "875400000",
+            "edge_properties": {
+                "lexicon_key": "operatingIncome"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "Trane",
+            "child_node": "Building_materials",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        },
+        {
+            "edge_name": "revenue",
+            "parent_node": "Trane",
+            "child_node": "10264000000",
+            "edge_properties": {
+                "lexicon_key": "revenue"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Trane is a building materials company with an operating income of 875.4 million and a revenue of $10,264,000,000 USD."
+        },
+        "Id2": {
+            "text": "The company Trane is in building materials' industry, with an operating income of $875,400,000 and revenue of $10,264,000,000."
+        },
+        "Id3": {
+            "text": "Trane, a building materials industry, has an operating income of $875,400,000 and a revenue of 10264000000."
+        }
+    },
+    "gold_outputs": []
+}

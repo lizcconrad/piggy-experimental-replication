@@ -1,0 +1,9 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+1095.0 [lexicon_key=1095.0];
+83.2104 [lexicon_key=83.2104];
+"08/26" [lexicon_key="08/26"];
+Bedford_Aerodrome -> 1095.0 [label=runwayLength, lexicon_key=runwayLength];
+Bedford_Aerodrome -> 83.2104 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+Bedford_Aerodrome -> "08/26" [label=runwayName, lexicon_key=runwayName];
+}

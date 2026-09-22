@@ -1,0 +1,5 @@
+strict digraph {
+Aenir [lexicon_key=Aenir];
+"0-439-17684-0" [lexicon_key="0-439-17684-0"];
+Aenir -> "0-439-17684-0" [label=isbnNumber, lexicon_key=isbnNumber];
+}

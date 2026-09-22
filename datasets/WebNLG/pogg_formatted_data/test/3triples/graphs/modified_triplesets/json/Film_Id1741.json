@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "It's_Great_to_Be_Young_(1956_film)": {
+            "lexicon_key": "It's_Great_to_Be_Young_(1956_film)"
+        },
+        "Louis_Levy": {
+            "lexicon_key": "Louis_Levy"
+        },
+        "Cecil_Parker": {
+            "lexicon_key": "Cecil_Parker"
+        },
+        "Max_Benedict": {
+            "lexicon_key": "Max_Benedict"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicComposer",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Louis_Levy",
+            "edge_properties": {
+                "lexicon_key": "musicComposer"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Cecil_Parker",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "editing",
+            "parent_node": "It's_Great_to_Be_Young_(1956_film)",
+            "child_node": "Max_Benedict",
+            "edge_properties": {
+                "lexicon_key": "editing"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Featuring Cecil Parker as a main role, It's Great to Be Young was edited by Max Benedict. The composer of music for the film was Louis Levy."
+        },
+        "Id2": {
+            "text": "\u201cIt's Great to Be Young\u201d is a 1956 movie edited by Max Benedict. The movie stars Cecil Parker, and includes music by Louis Levy."
+        },
+        "Id3": {
+            "text": "Cecil Parker starred in the 1956 movie It's Great to Be Young, which was edited by Max Benedict, with Louis Levy as the music composer."
+        }
+    },
+    "gold_outputs": []
+}

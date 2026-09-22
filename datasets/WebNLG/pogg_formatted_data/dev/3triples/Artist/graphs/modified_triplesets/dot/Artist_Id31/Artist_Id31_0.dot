@@ -1,0 +1,5 @@
+strict digraph {
+Armin_van_Buuren [lexicon_key="Armin_van_Buuren"];
+House_music [lexicon_key="House_music"];
+Armin_van_Buuren -> House_music [label=genre, lexicon_key=genre];
+}

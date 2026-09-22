@@ -1,0 +1,9 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"101 Ukrop Way" [lexicon_key="101 Ukrop Way"];
+Virginia [lexicon_key=Virginia];
+"College_of_William_&_Mary" [lexicon_key="College_of_William_&_Mary"];
+"Alan_B._Miller_Hall" -> "101 Ukrop Way" [label=address, lexicon_key=address];
+"Alan_B._Miller_Hall" -> Virginia [label=location, lexicon_key=location];
+"Alan_B._Miller_Hall" -> "College_of_William_&_Mary" [label=owner, lexicon_key=owner];
+}

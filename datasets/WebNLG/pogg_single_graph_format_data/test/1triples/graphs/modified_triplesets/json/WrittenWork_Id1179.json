@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "The_Fellowship_of_the_Ring": {
+            "lexicon_key": "The_Fellowship_of_the_Ring"
+        },
+        "George_Allen_&_Unwin": {
+            "lexicon_key": "George_Allen_&_Unwin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "The_Fellowship_of_the_Ring",
+            "child_node": "George_Allen_&_Unwin",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "George Allen & Unwin published the Fellowship of the Ring."
+        },
+        "Id2": {
+            "text": "George Allen & Unwin published The Fellowship of the Ring."
+        }
+    },
+    "gold_outputs": []
+}

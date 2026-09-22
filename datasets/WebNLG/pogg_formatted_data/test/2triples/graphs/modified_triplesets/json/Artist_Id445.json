@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Andrew_Rayel": {
+            "lexicon_key": "Andrew_Rayel"
+        },
+        "Trance_music": {
+            "lexicon_key": "Trance_music"
+        },
+        "Christian_Burns": {
+            "lexicon_key": "Christian_Burns"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Trance_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Christian_Burns",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Andrew Rayel, who is associated with Christian Burns, has performed in the genre of trance music."
+        },
+        "Id2": {
+            "text": "Andrew Rayel, whose musical genre is trance music, is associated with Christian Burns."
+        },
+        "Id3": {
+            "text": "Andrew Rayel, the Trance musician, is an associate of Christian Burns."
+        }
+    },
+    "gold_outputs": []
+}

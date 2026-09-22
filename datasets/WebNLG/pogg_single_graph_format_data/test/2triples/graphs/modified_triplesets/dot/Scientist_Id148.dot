@@ -1,0 +1,7 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+"Vice President" [lexicon_key="Vice President"];
+Darinka_Dentcheva [lexicon_key="Darinka_Dentcheva"];
+United_States -> "Vice President" [label=leaderTitle, lexicon_key=leaderTitle];
+Darinka_Dentcheva -> United_States [label=residence, lexicon_key=residence];
+}

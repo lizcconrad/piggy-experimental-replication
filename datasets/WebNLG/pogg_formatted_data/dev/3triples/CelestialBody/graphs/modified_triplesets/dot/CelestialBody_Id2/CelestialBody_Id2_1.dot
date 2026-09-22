@@ -1,0 +1,5 @@
+strict digraph {
+"(66063)_1998_RO1" [lexicon_key="(66063)_1998_RO1"];
+"500.0 (kelvins)" [lexicon_key="500.0 (kelvins)"];
+"(66063)_1998_RO1" -> "500.0 (kelvins)" [label=maximumTemperature, lexicon_key=maximumTemperature];
+}

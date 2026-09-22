@@ -1,22 +1,31 @@
 {
-    "nodes": {
-        "Aaron_Turner": {
-            "lexicon_key": "Aaron_Turner"
-        },
-        "Avant-garde_metal": {
-            "lexicon_key": "Avant-garde_metal"
+    "graphs": {
+        "Artist_Id3_0": {
+            "nodes": {
+                "Aaron_Turner": {
+                    "lexicon_key": "Aaron_Turner"
+                },
+                "Avant-garde_metal": {
+                    "lexicon_key": "Avant-garde_metal"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "genre",
+                    "parent_node": "Aaron_Turner",
+                    "child_node": "Avant-garde_metal",
+                    "edge_properties": {
+                        "lexicon_key": "genre"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Aaron Turner also uses the musical genre Avant-garde metal.",
+                "Aaron Turner falls in the genre of avant-garde metal music.",
+                "Aaron Turner performs avant-garde metal music."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "genre",
-            "parent_node": "Aaron_Turner",
-            "child_node": "Avant-garde_metal",
-            "edge_properties": {
-                "lexicon_key": "genre"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

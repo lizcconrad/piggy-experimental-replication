@@ -1,0 +1,7 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+"1920-08-16" [lexicon_key="1920-08-16"];
+Public_company [lexicon_key="Public_company"];
+Chinabank -> "1920-08-16" [label=foundingDate, lexicon_key=foundingDate];
+Chinabank -> Public_company [label=type, lexicon_key=type];
+}

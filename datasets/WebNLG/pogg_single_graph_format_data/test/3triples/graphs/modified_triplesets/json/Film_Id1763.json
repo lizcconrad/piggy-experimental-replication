@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "Saint_Petersburg": {
+            "lexicon_key": "Saint_Petersburg"
+        },
+        "English_Without_Tears": {
+            "lexicon_key": "English_Without_Tears"
+        },
+        "Terence_Rattigan": {
+            "lexicon_key": "Terence_Rattigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Anatole_de_Grunwald",
+            "child_node": "Saint_Petersburg",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Anatole_de_Grunwald",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "English_Without_Tears",
+            "child_node": "Terence_Rattigan",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "'English Without Tears' was written by Terence Rattigan and Anatole de Grunwald, who was born in Saint Petersburg."
+        },
+        "Id2": {
+            "text": "'English Without Tears' is the screenplay of writers Terence Rattigan and Anatole de Grunwald. The latter was born in Saint Petersburg."
+        },
+        "Id3": {
+            "text": "The writer of English Without Tears was Anatole de Grunwald, born in Saint Petersburg. \"English Without Tears\" was authored by Terence Rattigan."
+        }
+    },
+    "gold_outputs": []
+}

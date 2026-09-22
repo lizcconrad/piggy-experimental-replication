@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Olga_Bondareva": {
+            "lexicon_key": "Olga_Bondareva"
+        },
+        "Bondareva\u2013Shapley_theorem": {
+            "lexicon_key": "Bondareva\u2013Shapley_theorem"
+        },
+        "Leningrad_State_University": {
+            "lexicon_key": "Leningrad_State_University"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "knownFor",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Bondareva\u2013Shapley_theorem",
+            "edge_properties": {
+                "lexicon_key": "knownFor"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Olga_Bondareva",
+            "child_node": "Leningrad_State_University",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Olga Bondareva studied at Leningrad State University, where she was known for the Bondareva-Shapley theorem."
+        },
+        "Id2": {
+            "text": "Olga Bondareva, a graduate of Leningrad State University is known for the Bondareva-Shapley theorem."
+        },
+        "Id3": {
+            "text": "Olga Bondareva, whose alma mater is Leningrad State University, is known for the Bondareva-Shapley theorem."
+        }
+    },
+    "gold_outputs": []
+}

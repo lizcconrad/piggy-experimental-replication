@@ -1,33 +1,56 @@
 {
-    "nodes": {
-        "Siomay": {
-            "lexicon_key": "Siomay"
+    "graphs": {
+        "Food_Id35_0": {
+            "nodes": {
+                "Siomay": {
+                    "lexicon_key": "Siomay"
+                },
+                "Peanut_sauce": {
+                    "lexicon_key": "Peanut_sauce"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Siomay",
+                    "child_node": "Peanut_sauce",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Batagor and Siomay (which has peanut sauce as an ingredient) are variations of the same dish.",
+                "Batagor is a variation of the dish Siomay, of which peanut sauce is an ingredient.",
+                "Peanut sauce is an ingredient in Siomay and Batagor is a variation of this dish."
+            ]
         },
-        "Peanut_sauce": {
-            "lexicon_key": "Peanut_sauce"
-        },
-        "Batagor": {
-            "lexicon_key": "Batagor"
+        "Food_Id35_1": {
+            "nodes": {
+                "Batagor": {
+                    "lexicon_key": "Batagor"
+                },
+                "Siomay": {
+                    "lexicon_key": "Siomay"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "dishVariation",
+                    "parent_node": "Batagor",
+                    "child_node": "Siomay",
+                    "edge_properties": {
+                        "lexicon_key": "dishVariation"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Batagor and Siomay (which has peanut sauce as an ingredient) are variations of the same dish.",
+                "Batagor is a variation of the dish Siomay, of which peanut sauce is an ingredient.",
+                "Peanut sauce is an ingredient in Siomay and Batagor is a variation of this dish."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Siomay",
-            "child_node": "Peanut_sauce",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        },
-        {
-            "edge_name": "dishVariation",
-            "parent_node": "Batagor",
-            "child_node": "Siomay",
-            "edge_properties": {
-                "lexicon_key": "dishVariation"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

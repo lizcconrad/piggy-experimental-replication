@@ -1,0 +1,5 @@
+strict digraph {
+Alfons_Gorbach [lexicon_key="Alfons_Gorbach"];
+Graz [lexicon_key=Graz];
+Alfons_Gorbach -> Graz [label=deathPlace, lexicon_key=deathPlace];
+}

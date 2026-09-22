@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "Anatole_de_Grunwald": {
+            "lexicon_key": "Anatole_de_Grunwald"
+        },
+        "London": {
+            "lexicon_key": "London"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Anatole_de_Grunwald",
+            "child_node": "London",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Anatole de Grunwald died in London."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Mermaid_(Train_song)": {
+            "lexicon_key": "Mermaid_(Train_song)"
+        },
+        "2012-12-27": {
+            "lexicon_key": "2012-12-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "releaseDate",
+            "parent_node": "Mermaid_(Train_song)",
+            "child_node": "2012-12-27",
+            "edge_properties": {
+                "lexicon_key": "releaseDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The Train song Mermaid was released on the date 2012-12-27."
+        },
+        "Id2": {
+            "text": "The Train song Mermaid was released on 27th December 2012."
+        },
+        "Id3": {
+            "text": "The Mermaid song by Train had a release date of the twenty seventh of December 2012."
+        }
+    },
+    "gold_outputs": []
+}

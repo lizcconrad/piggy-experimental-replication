@@ -1,0 +1,5 @@
+strict digraph {
+Istanbul [lexicon_key=Istanbul];
+"+2" [lexicon_key="+2"];
+Istanbul -> "+2" [label=utcOffset, lexicon_key=utcOffset];
+}

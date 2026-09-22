@@ -1,0 +1,5 @@
+strict digraph {
+"It's_Great_to_Be_Young_(1956_film)" [lexicon_key="It's_Great_to_Be_Young_(1956_film)"];
+94.0 [lexicon_key=94.0];
+"It's_Great_to_Be_Young_(1956_film)" -> 94.0 [label=runtime, lexicon_key=runtime];
+}

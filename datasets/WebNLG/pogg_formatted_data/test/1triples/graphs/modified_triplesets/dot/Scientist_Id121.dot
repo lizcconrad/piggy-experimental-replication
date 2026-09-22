@@ -1,0 +1,5 @@
+strict digraph {
+Turkey [lexicon_key=Turkey];
+Turk [lexicon_key=Turk];
+Turkey -> Turk [label=demonym, lexicon_key=demonym];
+}

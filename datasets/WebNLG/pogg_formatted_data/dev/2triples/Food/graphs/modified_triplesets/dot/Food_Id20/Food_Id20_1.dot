@@ -1,0 +1,5 @@
+strict digraph {
+Bakewell_tart [lexicon_key="Bakewell_tart"];
+Shortcrust_pastry [lexicon_key="Shortcrust_pastry"];
+Bakewell_tart -> Shortcrust_pastry [label=ingredient, lexicon_key=ingredient];
+}

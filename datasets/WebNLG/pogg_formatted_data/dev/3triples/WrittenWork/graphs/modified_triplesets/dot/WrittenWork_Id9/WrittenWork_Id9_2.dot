@@ -1,0 +1,5 @@
+strict digraph {
+AIP_Advances [lexicon_key="AIP_Advances"];
+American_Institute_of_Physics [lexicon_key="American_Institute_of_Physics"];
+AIP_Advances -> American_Institute_of_Physics [label=publisher, lexicon_key=publisher];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+South_Africa [lexicon_key="South_Africa"];
+Cyril_Ramaphosa [lexicon_key="Cyril_Ramaphosa"];
+South_Africa -> Cyril_Ramaphosa [label=leader, lexicon_key=leader];
+}

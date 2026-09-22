@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Let_It_Breed": {
+            "lexicon_key": "Let_It_Breed"
+        },
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Let_It_Breed",
+            "child_node": "Turn_Me_On_(album)",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "\"Let It Breed\" was followed by the album \"Turn Me On\"."
+        },
+        "Id2": {
+            "text": "The album Let It Breed is followed by the release of the album Turn Me On."
+        },
+        "Id3": {
+            "text": "The album Let It Breed was followed by the release of the album Turn Me On."
+        }
+    },
+    "gold_outputs": []
+}

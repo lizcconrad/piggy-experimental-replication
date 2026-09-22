@@ -1,0 +1,5 @@
+strict digraph {
+A_Long_Long_Way [lexicon_key="A_Long_Long_Way"];
+57392246 [lexicon_key=57392246];
+A_Long_Long_Way -> 57392246 [label=oclcNumber, lexicon_key=oclcNumber];
+}

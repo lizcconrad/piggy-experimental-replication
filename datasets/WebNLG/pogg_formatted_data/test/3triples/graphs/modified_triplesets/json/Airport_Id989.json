@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "ENAIRE": {
+            "lexicon_key": "ENAIRE"
+        },
+        "Madrid": {
+            "lexicon_key": "Madrid"
+        },
+        "610.0": {
+            "lexicon_key": "610.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "ENAIRE",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "ENAIRE",
+            "child_node": "Madrid",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "610.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Adolfo Su\u00e1rez Madrid-Barajas Airport has an elevation of 610 metres above sea level and it is operated by ENAIRE which is based in Madrid."
+        },
+        "Id2": {
+            "text": "ENAIRE, which is located in Madrid, is the operating organisation for Adolfo Suarez Madrid-Barajas airport. This airport is situated 610 meters above sea level."
+        },
+        "Id3": {
+            "text": "Madrid\u2019s Adolfo Suarez Madrid-Barajas Airport is 610 meters above sea level and is operated by ENAIRE."
+        }
+    },
+    "gold_outputs": []
+}

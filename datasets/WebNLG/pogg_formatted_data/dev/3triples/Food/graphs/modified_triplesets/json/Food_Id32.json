@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "Bionico": {
-            "lexicon_key": "Bionico"
+    "graphs": {
+        "Food_Id32_0": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Mexico": {
+                    "lexicon_key": "Mexico"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Bionico",
+                    "child_node": "Mexico",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico is a dessert containing sour cream from Mexico.",
+                "Sour cream is an ingredient of Bionico, that is a dessert course found in Mexico.",
+                "Sour cream is used to serve Bionico, a dessert food found in Mexico."
+            ]
         },
-        "Mexico": {
-            "lexicon_key": "Mexico"
+        "Food_Id32_1": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Dessert": {
+                    "lexicon_key": "Dessert"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "course",
+                    "parent_node": "Bionico",
+                    "child_node": "Dessert",
+                    "edge_properties": {
+                        "lexicon_key": "course"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico is a dessert containing sour cream from Mexico.",
+                "Sour cream is an ingredient of Bionico, that is a dessert course found in Mexico.",
+                "Sour cream is used to serve Bionico, a dessert food found in Mexico."
+            ]
         },
-        "Dessert": {
-            "lexicon_key": "Dessert"
-        },
-        "Sour_cream": {
-            "lexicon_key": "Sour_cream"
+        "Food_Id32_2": {
+            "nodes": {
+                "Bionico": {
+                    "lexicon_key": "Bionico"
+                },
+                "Sour_cream": {
+                    "lexicon_key": "Sour_cream"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "ingredient",
+                    "parent_node": "Bionico",
+                    "child_node": "Sour_cream",
+                    "edge_properties": {
+                        "lexicon_key": "ingredient"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Bionico is a dessert containing sour cream from Mexico.",
+                "Sour cream is an ingredient of Bionico, that is a dessert course found in Mexico.",
+                "Sour cream is used to serve Bionico, a dessert food found in Mexico."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "country",
-            "parent_node": "Bionico",
-            "child_node": "Mexico",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        },
-        {
-            "edge_name": "course",
-            "parent_node": "Bionico",
-            "child_node": "Dessert",
-            "edge_properties": {
-                "lexicon_key": "course"
-            }
-        },
-        {
-            "edge_name": "ingredient",
-            "parent_node": "Bionico",
-            "child_node": "Sour_cream",
-            "edge_properties": {
-                "lexicon_key": "ingredient"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

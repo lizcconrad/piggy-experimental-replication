@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Turn_Me_On_(album)": {
+            "lexicon_key": "Turn_Me_On_(album)"
+        },
+        "Punk_blues": {
+            "lexicon_key": "Punk_blues"
+        },
+        "Garage_rock": {
+            "lexicon_key": "Garage_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Turn_Me_On_(album)",
+            "child_node": "Punk_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Punk_blues",
+            "child_node": "Garage_rock",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The album Turn Me On is punk blues, a genre which originated from the earlier garage rock sound."
+        },
+        "Id2": {
+            "text": "Punk blues' is the genre of the album Turn Me On and its origin is garage rock."
+        },
+        "Id3": {
+            "text": "The genre of Turn Me On is punk blues, whose stylistic origin is garage rock."
+        }
+    },
+    "gold_outputs": []
+}

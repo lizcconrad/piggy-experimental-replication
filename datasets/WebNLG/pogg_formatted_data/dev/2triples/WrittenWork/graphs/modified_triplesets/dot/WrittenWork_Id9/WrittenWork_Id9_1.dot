@@ -1,0 +1,5 @@
+strict digraph {
+A_Glastonbury_Romance [lexicon_key="A_Glastonbury_Romance"];
+"Print" [lexicon_key="Print"];
+A_Glastonbury_Romance -> "Print" [label=mediaType, lexicon_key=mediaType];
+}

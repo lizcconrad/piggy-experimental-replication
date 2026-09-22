@@ -1,0 +1,5 @@
+strict digraph {
+Let_It_Breed [lexicon_key="Let_It_Breed"];
+"Love_American_Style_(album)" [lexicon_key="Love_American_Style_(album)"];
+Let_It_Breed -> "Love_American_Style_(album)" [label=precededBy, lexicon_key=precededBy];
+}

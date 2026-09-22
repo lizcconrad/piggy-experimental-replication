@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "11th_Mississippi_Infantry_Monument": {
+            "lexicon_key": "11th_Mississippi_Infantry_Monument"
+        },
+        "Adams_County,_Pennsylvania": {
+            "lexicon_key": "Adams_County,_Pennsylvania"
+        },
+        "\"Pennsylvania\"": {
+            "lexicon_key": "\"Pennsylvania\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Adams_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "state",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "\"Pennsylvania\"",
+            "edge_properties": {
+                "lexicon_key": "state"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The 11th Mississippi Infantry Monument stands in Adams County, Pennsylvania."
+        },
+        "Id2": {
+            "text": "The 11th Mississippi Infantry Monument is located in Adams County in the state of Pennsylvania."
+        },
+        "Id3": {
+            "text": "The 11th Mississippi Infantry Monument's is located in Adams County, Pennsylvania."
+        }
+    },
+    "gold_outputs": []
+}

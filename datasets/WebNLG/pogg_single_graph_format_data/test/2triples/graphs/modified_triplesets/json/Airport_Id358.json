@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "United_States_Air_Force": {
+            "lexicon_key": "United_States_Air_Force"
+        },
+        "Boeing_C-17_Globemaster_III": {
+            "lexicon_key": "Boeing_C-17_Globemaster_III"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "United_States_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "transportAircraft",
+            "parent_node": "United_States_Air_Force",
+            "child_node": "Boeing_C-17_Globemaster_III",
+            "edge_properties": {
+                "lexicon_key": "transportAircraft"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Al Asad Airbase is operated by the United States Air Force which has a Boeing C-17 Globemaster III transport aircraft."
+        },
+        "Id2": {
+            "text": "The United States Air Force is the operating organisation for Al Asad airbase and its transport aircraft is the Boeing C-17 Globemaster III."
+        },
+        "Id3": {
+            "text": "The United States Air Force has a Boeing C-17 Globemaster III transport aircraft and operates Al Asad Airbase."
+        }
+    },
+    "gold_outputs": []
+}

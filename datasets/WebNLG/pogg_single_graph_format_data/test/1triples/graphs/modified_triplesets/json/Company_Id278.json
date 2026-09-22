@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Leni_Robredo": {
+            "lexicon_key": "Leni_Robredo"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Philippines",
+            "child_node": "Leni_Robredo",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Leni Robredo is the leader of the Philippines."
+        },
+        "Id2": {
+            "text": "Leni Robredo is a Filipino leader."
+        },
+        "Id3": {
+            "text": "The leader of the Philippines is Leni Robredo."
+        },
+        "Id4": {
+            "text": "The name of the leader of the Philippines is Leni Robredo."
+        }
+    },
+    "gold_outputs": []
+}

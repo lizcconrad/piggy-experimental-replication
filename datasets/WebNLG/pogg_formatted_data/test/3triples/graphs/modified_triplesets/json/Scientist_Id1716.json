@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Brandon_Carter": {
+            "lexicon_key": "Brandon_Carter"
+        },
+        "England": {
+            "lexicon_key": "England"
+        },
+        "University_of_Cambridge": {
+            "lexicon_key": "University_of_Cambridge"
+        },
+        "Leszek_Borysiewicz": {
+            "lexicon_key": "Leszek_Borysiewicz"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Brandon_Carter",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Brandon_Carter",
+            "child_node": "University_of_Cambridge",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "viceChancellor",
+            "parent_node": "University_of_Cambridge",
+            "child_node": "Leszek_Borysiewicz",
+            "edge_properties": {
+                "lexicon_key": "viceChancellor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Brandon Carter born in England attended University of Cambridge whose vice chancellor is Leszek Borysiewicz."
+        },
+        "Id2": {
+            "text": "Brandon Carter was born in England and graduated from the University of Cambridge where the current Chancellor is Leszek Borysiewicz."
+        }
+    },
+    "gold_outputs": []
+}

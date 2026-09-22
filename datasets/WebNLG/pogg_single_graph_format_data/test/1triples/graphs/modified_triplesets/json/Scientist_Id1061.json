@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Andrzej_Piotr_Ruszczy\u0144ski": {
+            "lexicon_key": "Andrzej_Piotr_Ruszczy\u0144ski"
+        },
+        "Mathematical_optimization": {
+            "lexicon_key": "Mathematical_optimization"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "professionalField",
+            "parent_node": "Andrzej_Piotr_Ruszczy\u0144ski",
+            "child_node": "Mathematical_optimization",
+            "edge_properties": {
+                "lexicon_key": "professionalField"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Mathematical optimization is the professional field of Andrzej Piotr Ruszczynski."
+        },
+        "Id2": {
+            "text": "Andrzej Piotr Ruszczy\u0144ski is a professional in the field of mathematical optimization."
+        },
+        "Id3": {
+            "text": "Andrzej Piotr Ruszczy\u0144ski works in the field of mathematical optimization."
+        }
+    },
+    "gold_outputs": []
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Walter_Baade [lexicon_key="Walter_Baade"];
+Germany [lexicon_key=Germany];
+Walter_Baade -> Germany [label=nationality, lexicon_key=nationality];
+}

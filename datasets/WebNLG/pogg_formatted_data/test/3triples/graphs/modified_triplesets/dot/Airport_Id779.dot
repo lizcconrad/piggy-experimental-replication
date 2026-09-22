@@ -1,0 +1,9 @@
+strict digraph {
+Bedford_Aerodrome [lexicon_key="Bedford_Aerodrome"];
+1095.0 [lexicon_key=1095.0];
+Bedford_Autodrome [lexicon_key="Bedford_Autodrome"];
+Thurleigh [lexicon_key=Thurleigh];
+Bedford_Aerodrome -> 1095.0 [label=runwayLength, lexicon_key=runwayLength];
+Bedford_Aerodrome -> Bedford_Autodrome [label=cityServed, lexicon_key=cityServed];
+Bedford_Aerodrome -> Thurleigh [label=location, lexicon_key=location];
+}

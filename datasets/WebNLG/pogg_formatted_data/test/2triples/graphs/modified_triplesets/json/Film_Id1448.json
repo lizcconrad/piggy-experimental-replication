@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Super_Capers": {
+            "lexicon_key": "Super_Capers"
+        },
+        "Justin_Whalin": {
+            "lexicon_key": "Justin_Whalin"
+        },
+        "Ray_Griggs_(director)": {
+            "lexicon_key": "Ray_Griggs_(director)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Super_Capers",
+            "child_node": "Justin_Whalin",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "writer",
+            "parent_node": "Super_Capers",
+            "child_node": "Ray_Griggs_(director)",
+            "edge_properties": {
+                "lexicon_key": "writer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Justin Whalin stars in Super Capers, which is written by director Ray Griggs."
+        },
+        "Id2": {
+            "text": "Super Capers, starring Justin Whalin, is a film written by Ray Griggs."
+        },
+        "Id3": {
+            "text": "Ray Griggs wrote Super Capers, which stars Justin Whalin."
+        }
+    },
+    "gold_outputs": []
+}

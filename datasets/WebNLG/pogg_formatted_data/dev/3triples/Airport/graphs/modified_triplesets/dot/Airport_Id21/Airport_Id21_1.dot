@@ -1,0 +1,5 @@
+strict digraph {
+Athens [lexicon_key=Athens];
+Greece [lexicon_key=Greece];
+Athens -> Greece [label=country, lexicon_key=country];
+}

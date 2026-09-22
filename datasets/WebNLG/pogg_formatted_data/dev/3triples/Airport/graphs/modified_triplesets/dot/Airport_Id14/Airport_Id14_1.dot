@@ -1,0 +1,5 @@
+strict digraph {
+"Ícolo_e_Bengo" [lexicon_key="Ícolo_e_Bengo"];
+Angola [lexicon_key=Angola];
+"Ícolo_e_Bengo" -> Angola [label=country, lexicon_key=country];
+}

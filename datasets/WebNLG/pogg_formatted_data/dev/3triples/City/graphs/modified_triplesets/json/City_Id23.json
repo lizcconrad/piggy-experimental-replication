@@ -1,44 +1,81 @@
 {
-    "nodes": {
-        "United_States": {
-            "lexicon_key": "United_States"
+    "graphs": {
+        "City_Id23_0": {
+            "nodes": {
+                "United_States": {
+                    "lexicon_key": "United_States"
+                },
+                "Washington,_D.C.": {
+                    "lexicon_key": "Washington,_D.C."
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "capital",
+                    "parent_node": "United_States",
+                    "child_node": "Washington,_D.C.",
+                    "edge_properties": {
+                        "lexicon_key": "capital"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abilene is located in Taylor County, Texas, United States whose capital city is Washington D.C.",
+                "Abilene, part of Taylor County, Texas, in the United States, where the capital is Washington, D.C.",
+                "Washington, D.C. is the capital of the U.S. and Abilene is located in Taylor county, Texas."
+            ]
         },
-        "Washington,_D.C.": {
-            "lexicon_key": "Washington,_D.C."
+        "City_Id23_1": {
+            "nodes": {
+                "Abilene,_Texas": {
+                    "lexicon_key": "Abilene,_Texas"
+                },
+                "Taylor_County,_Texas": {
+                    "lexicon_key": "Taylor_County,_Texas"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "isPartOf",
+                    "parent_node": "Abilene,_Texas",
+                    "child_node": "Taylor_County,_Texas",
+                    "edge_properties": {
+                        "lexicon_key": "isPartOf"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abilene is located in Taylor County, Texas, United States whose capital city is Washington D.C.",
+                "Abilene, part of Taylor County, Texas, in the United States, where the capital is Washington, D.C.",
+                "Washington, D.C. is the capital of the U.S. and Abilene is located in Taylor county, Texas."
+            ]
         },
-        "Abilene,_Texas": {
-            "lexicon_key": "Abilene,_Texas"
-        },
-        "Taylor_County,_Texas": {
-            "lexicon_key": "Taylor_County,_Texas"
+        "City_Id23_2": {
+            "nodes": {
+                "Abilene,_Texas": {
+                    "lexicon_key": "Abilene,_Texas"
+                },
+                "United_States": {
+                    "lexicon_key": "United_States"
+                }
+            },
+            "edges": [
+                {
+                    "edge_name": "country",
+                    "parent_node": "Abilene,_Texas",
+                    "child_node": "United_States",
+                    "edge_properties": {
+                        "lexicon_key": "country"
+                    }
+                }
+            ],
+            "gold_outputs": [
+                "Abilene is located in Taylor County, Texas, United States whose capital city is Washington D.C.",
+                "Abilene, part of Taylor County, Texas, in the United States, where the capital is Washington, D.C.",
+                "Washington, D.C. is the capital of the U.S. and Abilene is located in Taylor county, Texas."
+            ]
         }
     },
-    "edges": [
-        {
-            "edge_name": "capital",
-            "parent_node": "United_States",
-            "child_node": "Washington,_D.C.",
-            "edge_properties": {
-                "lexicon_key": "capital"
-            }
-        },
-        {
-            "edge_name": "isPartOf",
-            "parent_node": "Abilene,_Texas",
-            "child_node": "Taylor_County,_Texas",
-            "edge_properties": {
-                "lexicon_key": "isPartOf"
-            }
-        },
-        {
-            "edge_name": "country",
-            "parent_node": "Abilene,_Texas",
-            "child_node": "United_States",
-            "edge_properties": {
-                "lexicon_key": "country"
-            }
-        }
-    ],
     "original_gold_lex_dicts": {
         "Id1": {
             "comment": "good",

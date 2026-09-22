@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Ciudad_Ayala": {
+            "lexicon_key": "Ciudad_Ayala"
+        },
+        "\"City Manager\"": {
+            "lexicon_key": "\"City Manager\""
+        },
+        "City": {
+            "lexicon_key": "City"
+        },
+        "1604.0": {
+            "lexicon_key": "1604.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "\"City Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "City",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ciudad_Ayala",
+            "child_node": "1604.0",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "One of the leader of Ciudad Ayala (a city) is called City Manager. With a population density of 1604.0."
+        },
+        "Id2": {
+            "text": "Ciudad Ayala is a city with a population density of 1,604. One of the leaders is called the City Manager."
+        },
+        "Id3": {
+            "text": "One of the leaders of Ciudad Ayala, a city with a population density of 1604.0, is the City Manager."
+        }
+    },
+    "gold_outputs": []
+}

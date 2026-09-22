@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        },
+        "\"Prime Minister\"": {
+            "lexicon_key": "\"Prime Minister\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Turkey",
+            "child_node": "\"Prime Minister\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The title of the leader of Turkey is \"Prime Minister\"."
+        },
+        "Id2": {
+            "text": "The leader of Turkey is known as the Prime Minister."
+        },
+        "Id3": {
+            "text": "Prime Minister is the leader of Turkey."
+        }
+    },
+    "gold_outputs": []
+}

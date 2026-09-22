@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "Piotr_Hallmann": {
+            "lexicon_key": "Piotr_Hallmann"
+        },
+        "1987-08-25": {
+            "lexicon_key": "1987-08-25"
+        },
+        "Gdynia,_Poland": {
+            "lexicon_key": "Gdynia,_Poland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "1987-08-25",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Piotr_Hallmann",
+            "child_node": "Gdynia,_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "Piotr Hallmann was born on August 25, 1987 in Gdynia, Poland."
+        },
+        "Id2": {
+            "text": "Piotr Hallmann was born in Gdynia, Poland on August 25, 1987."
+        },
+        "Id3": {
+            "text": "Piotr Hallmann was born August 25th, 1987 in Gdynia, Poland."
+        }
+    },
+    "gold_outputs": []
+}

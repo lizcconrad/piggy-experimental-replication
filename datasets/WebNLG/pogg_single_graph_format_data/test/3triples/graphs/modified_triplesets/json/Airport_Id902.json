@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "ENAIRE": {
+            "lexicon_key": "ENAIRE"
+        },
+        "3500.0": {
+            "lexicon_key": "3500.0"
+        },
+        "610.0": {
+            "lexicon_key": "610.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "ENAIRE",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "3500.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "610.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "text": "The runway length at Adolfo Suarez Madrid-Barajas airport, which is run by ENAIRE, is 3500 and the airport is 610 metres above sea level."
+        },
+        "Id2": {
+            "text": "ENAIRE is the operating organisation for Adolfo Suarez Madrid-Barajas airport. This airport is situated 610 meters above sea level and has a runway length of 3500."
+        },
+        "Id3": {
+            "text": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is operated by ENAIRE. The airport has a runway length of 3,500 and is 610.0 metres above sea level."
+        }
+    },
+    "gold_outputs": []
+}
